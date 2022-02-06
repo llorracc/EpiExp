@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  6 FEB 2022 14:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  6 FEB 2022 14:45
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -986,7 +986,7 @@ LaTeX Warning: Characters dropped after `\end{verbatimwrite}' on input line 230.
 LaTeX Warning: Characters dropped after `\end{verbatimwrite}' on input line 349.
 
 (./Slides/FigureParker.tex
-<./figures/parker.png, id=303, 366.36874pt x 270.00874pt>
+<./figures/parker.png, id=310, 366.36874pt x 270.00874pt>
 File: ./figures/parker.png Graphic file (type png)
 <use ./figures/parker.png>
 Package pdftex.def Info: ./figures/parker.png  used on input line 5.
@@ -1005,7 +1005,7 @@ Package pdftex.def Info: ./figures/parker.png  used on input line 5.
 LaTeX Warning: Characters dropped after `\end{verbatimwrite}' on input line 21.
 
 (./Slides/FigureSIRFlowDiagram.tex
-<./figures/flow_diagram.png, id=390, 867.24pt x 216.81pt>
+<./figures/flow_diagram.png, id=399, 867.24pt x 216.81pt>
 File: ./figures/flow_diagram.png Graphic file (type png)
 <use ./figures/flow_diagram.png>
 Package pdftex.def Info: ./figures/flow_diagram.png  used on input line 5.
@@ -1014,24 +1014,24 @@ Package pdftex.def Info: ./figures/flow_diagram.png  used on input line 5.
 \openout8 = `./Equations/beta.tex'.
 
  (./Equations/beta.tex [9]) [10 <.//./figures/flow_diagram.png>])
-<./figures/graph_mixer.pdf, id=450, 1434.86063pt x 947.03813pt>
+<./figures/graph_mixer.pdf, id=460, 1434.86063pt x 947.03813pt>
 File: ./figures/graph_mixer.pdf Graphic file (type pdf)
 <use ./figures/graph_mixer.pdf>
 Package pdftex.def Info: ./figures/graph_mixer.pdf  used on input line 513.
 (pdftex.def)             Requested size: 448.13095pt x 295.77528pt.
- (.//subparts/tech_diffusion.tex
-<./figures/graph_diffusion.pdf, id=453, 1235.36531pt x 898.10532pt>
+ (.//subparts/tech_diffusion.tex [11]
+<./figures/graph_diffusion.pdf, id=481, 1235.36531pt x 898.10532pt>
 File: ./figures/graph_diffusion.pdf Graphic file (type pdf)
 <use ./figures/graph_diffusion.pdf>
 Package pdftex.def Info: ./figures/graph_diffusion.pdf  used on input line 9.
 (pdftex.def)             Requested size: 403.31511pt x 293.21005pt.
- [11] [12 <.//./figures/graph_mixer.pdf>] [13 <.//./figures/graph_diffusion.pdf>]) (.//subparts/finance.tex
-<./figures/graph_investment.pdf, id=551, 1312.905pt x 954.56625pt>
+ [12 <.//./figures/graph_mixer.pdf>] [13 <.//./figures/graph_diffusion.pdf>]) (.//subparts/finance.tex [14]
+<./figures/graph_investment.pdf, id=573, 1312.905pt x 954.56625pt>
 File: ./figures/graph_investment.pdf Graphic file (type pdf)
 <use ./figures/graph_investment.pdf>
 Package pdftex.def Info: ./figures/graph_investment.pdf  used on input line 19.
 (pdftex.def)             Requested size: 403.31511pt x 293.23244pt.
- [14] [15 <.//./figures/graph_investment.pdf>]
+ [15 <.//./figures/graph_investment.pdf>]
 \openout8 = `./Slides/FigureSIRSimulation.tex'.
 
 
@@ -1039,7 +1039,7 @@ Package pdftex.def Info: ./figures/graph_investment.pdf  used on input line 19.
 LaTeX Warning: Characters dropped after `\end{verbatimwrite}' on input line 48.
 
 (./Slides/FigureSIRSimulation.tex
-<./figures/sir_simulate.png, id=604, 939.51pt x 1589.94pt>
+<./figures/sir_simulate.png, id=616, 939.51pt x 1589.94pt>
 File: ./figures/sir_simulate.png Graphic file (type png)
 <use ./figures/sir_simulate.png>
 Package pdftex.def Info: ./figures/sir_simulate.png  used on input line 5.
@@ -1049,7 +1049,7 @@ Package pdftex.def Info: ./figures/sir_simulate.png  used on input line 5.
 LaTeX Warning: Float too large for page by 139.05894pt on input line 9.
 
 ) [16] [17 <.//./figures/sir_simulate.png>] [18]) (.//subparts/macro_expectation.tex [19]
-<./figures/graph_macro.pdf, id=666, 1434.86063pt x 947.03813pt>
+<./figures/graph_macro.pdf, id=678, 1434.86063pt x 947.03813pt>
 File: ./figures/graph_macro.pdf Graphic file (type pdf)
 <use ./figures/graph_macro.pdf>
 Package pdftex.def Info: ./figures/graph_macro.pdf  used on input line 12.
@@ -1057,16 +1057,16 @@ Package pdftex.def Info: ./figures/graph_macro.pdf  used on input line 12.
  [20 <.//./figures/graph_macro.pdf>] [21] [22]) (.//subparts/empirical_evidence.tex
 \openout8 = `./Slides/MicroEvidence.tex'.
 
- (./Slides/MicroEvidence.tex [23]) [24] [25] [26]) (.//subparts/contagion_bank_run.tex [27]) (.//subparts/non-econ.tex
+ (./Slides/MicroEvidence.tex [23]) [24] [25] [26]) (.//subparts/contagion_bank_run.tex [27]) (.//subparts/non-econ.tex [28]
 \openout8 = `./Slides/NonEcon.tex'.
 
  (./Slides/NonEcon.tex)
-<./figures/graph_other.pdf, id=957, 1273.75874pt x 925.20656pt>
+<./figures/graph_other.pdf, id=980, 1273.75874pt x 925.20656pt>
 File: ./figures/graph_other.pdf Graphic file (type pdf)
 <use ./figures/graph_other.pdf>
 Package pdftex.def Info: ./figures/graph_other.pdf  used on input line 20.
 (pdftex.def)             Requested size: 448.13095pt x 325.49301pt.
- [28]
+ [29 <.//./figures/graph_other.pdf>]
 \openout8 = `./Slides/FigureNewsCurve.tex'.
 
 
@@ -1074,12 +1074,12 @@ Package pdftex.def Info: ./figures/graph_other.pdf  used on input line 20.
 LaTeX Warning: Characters dropped after `\end{verbatimwrite}' on input line 42.
 
 (./Slides/FigureNewsCurve.tex
-<./figures/Doomsday.png, id=977, 533.995pt x 248.93pt>
+<./figures/Doomsday.png, id=1016, 533.995pt x 248.93pt>
 File: ./figures/Doomsday.png Graphic file (type png)
 <use ./figures/Doomsday.png>
 Package pdftex.def Info: ./figures/Doomsday.png  used on input line 4.
 (pdftex.def)             Requested size: 448.13095pt x 208.90985pt.
-) [29 <.//./figures/graph_other.pdf>] [30 <.//./figures/Doomsday.png>]
+) [30 <.//./figures/Doomsday.png>]
 \openout8 = `./Slides/FigureScienceIdeasCurve.tex'.
 
 
@@ -1087,7 +1087,7 @@ Package pdftex.def Info: ./figures/Doomsday.png  used on input line 4.
 LaTeX Warning: Characters dropped after `\end{verbatimwrite}' on input line 70.
 
 (./Slides/FigureScienceIdeasCurve.tex
-<./figures/Feynman.png, id=1036, 704.6325pt x 477.785pt>
+<./figures/Feynman.png, id=1060, 704.6325pt x 477.785pt>
 File: ./figures/Feynman.png Graphic file (type png)
 <use ./figures/Feynman.png>
 Package pdftex.def Info: ./figures/Feynman.png  used on input line 4.
@@ -1100,17 +1100,17 @@ Package pdftex.def Info: ./figures/Feynman.png  used on input line 4.
 LaTeX Warning: Characters dropped after `\end{verbatimwrite}' on input line 101.
 
 (./Slides/FigureMemesCurve.tex
-<./figures/Memes1.png, id=1051, 289.08pt x 106.3975pt>
+<./figures/Memes1.png, id=1075, 289.08pt x 106.3975pt>
 File: ./figures/Memes1.png Graphic file (type png)
 <use ./figures/Memes1.png>
 Package pdftex.def Info: ./figures/Memes1.png  used on input line 4.
 (pdftex.def)             Requested size: 448.13095pt x 164.94525pt.
-<./figures/Memes2.png, id=1052, 288.07625pt x 106.3975pt>
+<./figures/Memes2.png, id=1076, 288.07625pt x 106.3975pt>
 File: ./figures/Memes2.png Graphic file (type png)
 <use ./figures/Memes2.png>
 Package pdftex.def Info: ./figures/Memes2.png  used on input line 6.
 (pdftex.def)             Requested size: 448.13095pt x 165.51834pt.
-<./figures/Memes3.png, id=1053, 291.0875pt x 107.40125pt>
+<./figures/Memes3.png, id=1077, 291.0875pt x 107.40125pt>
 File: ./figures/Memes3.png Graphic file (type png)
 <use ./figures/Memes3.png>
 Package pdftex.def Info: ./figures/Memes3.png  used on input line 8.
@@ -1119,67 +1119,37 @@ Package pdftex.def Info: ./figures/Memes3.png  used on input line 8.
 
 LaTeX Warning: Float too large for page by 0.33025pt on input line 12.
 
-)) (.//subparts/future_directions.tex [31]) [32 <.//./figures/Feynman.png>] [33] (.//subparts/conclusion.tex) [34] (.//Book.bbl [35] [36]
-Underfull \hbox (badness 10000) in paragraph at lines 218--226
-[]\T1/cmr/m/n/12 Christopher D. Car-roll, Jef-frey C. Fuhrer, and David W. Wilcox.
+)) (.//subparts/future_directions.tex [31] [32 <.//./figures/Feynman.png>]) [33] (.//subparts/conclusion.tex [34]) [35] (.//Book.bbl [36]
+Underfull \hbox (badness 5696) in paragraph at lines 97--99
+[]\T1/cmr/m/sc/12 Banerjee, Ab-hi-jit, Arun G Chan-drasekhar, Es-ther Du-flo, and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--226
-\T1/cmr/m/n/12 Does con-sumer sen-ti-ment fore-cast house-hold spend-ing? If so, why?
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 218--226
-\T1/cmr/m/it/12 Amer-i-can Eco-nomic Re-view\T1/cmr/m/n/12 , 84(5):1397--1408, 1994.  URL [][]$\T1/cmtt/m/n/12 https :
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 218--226
-\T1/cmtt/m/n/12 / / www . econ2 . jhu . edu / people / ccarroll / SentAERCarrollFuhrerWilcox . pdf$[][]\T1/cmr/m/n/12 .
- []
-
-
-Overfull \hbox (11.37071pt too wide) in paragraph at lines 218--226
-[][]$\T1/cmtt/m/n/12 https : / / www . econ2 . jhu . edu / people / ccarroll / SentAERCarrollFuhrerWilcox . pdf$[][]\T1/cmr/m/n/12 . 
+Underfull \hbox (badness 3780) in paragraph at lines 146--149
+\T1/cmr/m/n/12 ``Chap-ter 8 Mi-cro data and gen-eral equi-lib-rium mod-els,'' in \T1/cmr/m/it/12 Hand-book of
  []
 
 [37]
-Underfull \hbox (badness 10000) in paragraph at lines 386--393
-[]\T1/cmr/m/n/12 Kinda Hachem and Jing Cyn-thia Wu.  In-fla-tion An-nounce-ments and
+Underfull \hbox (badness 3690) in paragraph at lines 186--188
+[]\T1/cmr/m/sc/12 Carroll, Christo-pher D, Ed-mund Craw-ley, Jiri Sla-calek, Ki-ichi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 386--393
-\T1/cmr/m/n/12 So-cial Dy-nam-ics.  \T1/cmr/m/it/12 Jour-nal of Money, Credit and Bank-ing\T1/cmr/m/n/12 , 49(8):
+Underfull \hbox (badness 10000) in paragraph at lines 191--195
+[]\T1/cmr/m/sc/12 Carroll, Christo-pher D., Jef-frey C. Fuhrer, and David W.
  []
 
 
-Underfull \hbox (badness 5036) in paragraph at lines 386--393
-\T1/cmr/m/n/12 1673--1713, 2017.  ISSN 1538-4616.  doi: $10 . 1111 / jmcb . 12428$.  URL
+Underfull \hbox (badness 10000) in paragraph at lines 191--195
+\T1/cmr/m/n/12 If So, Why?,'' \T1/cmr/m/it/12 Amer-i-can Eco-nomic Re-view\T1/cmr/m/n/12 , 84(5), 1397--1408, [][]$\T1/cmtt/m/n/12 https :
  []
 
-[38] [39] [40] [41] [42]
-Underfull \hbox (badness 4940) in paragraph at lines 809--814
-\T1/cmr/m/n/12 the life cy-cle.  Un-pub-lished manuscript, Jan-uary 2022.  URL [][]$\T1/cmtt/m/n/12 https :
+[38] [39] [40] [41]
+Underfull \hbox (badness 4391) in paragraph at lines 508--511
+[]\T1/cmr/m/sc/12 Manski, CF \T1/cmr/m/n/12 (2017): ``Sur-vey Mea-sure-ment of Prob-a-bilis-tic Macroe-co-nomic
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 821--827
-[]\T1/cmr/m/n/12 Soroush Vosoughi, Deb Roy, and Sinan Aral.  The spread of true
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 821--827
-\T1/cmr/m/n/12 and false news on-line.  \T1/cmr/m/it/12 Sci-ence\T1/cmr/m/n/12 , 359(6380):1146--1151, March 2018.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 821--827
-\T1/cmr/m/n/12 ISSN 0036-8075, 1095-9203.  doi: $10 . 1126 / science . aap9559$.  URL
- []
-
-[43])) [44] [45 <.//./figures/Memes1.png> <.//./figures/Memes2.png> <.//./figures/Memes3.png>]
+[42] [43] [44])) [45] [46 <.//./figures/Memes1.png> <.//./figures/Memes2.png> <.//./figures/Memes3.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 64.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 64.
  (.//Book.aux (.//epi_chapter.aux))
@@ -1194,22 +1164,22 @@ Package rerunfilecheck Info: File `Book.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26313 strings out of 480608
- 476929 string characters out of 5903631
- 826364 words of memory out of 5000000
- 41320 multiletter control sequences out of 15000+600000
- 560652 words of font info for 98 fonts, out of 8000000 for 9000
+ 26318 strings out of 480608
+ 476987 string characters out of 5903631
+ 828339 words of memory out of 5000000
+ 41323 multiletter control sequences out of 15000+600000
+ 561327 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,16n,119p,10100b,738s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,16n,119p,10100b,737s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb
-></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1
-200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti0800.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on .//Book.pdf (48 pages, 2944105 bytes).
+></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1
+095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti0800.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on .//Book.pdf (49 pages, 2961818 bytes).
 PDF statistics:
- 1421 PDF objects out of 1440 (max. 8388607)
- 1296 compressed objects within 13 object streams
- 288 named destinations out of 1000 (max. 500000)
+ 1441 PDF objects out of 1728 (max. 8388607)
+ 1313 compressed objects within 14 object streams
+ 289 named destinations out of 1000 (max. 500000)
  306 words of extra memory for PDF output out of 10000 (max. 10000000)
 

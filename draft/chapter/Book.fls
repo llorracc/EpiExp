@@ -507,6 +507,7 @@ INPUT .//subparts/conclusion.tex
 INPUT .//subparts/conclusion.tex
 INPUT .//Book.bbl
 INPUT .//Book.bbl
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/eccc1200.tfm
 INPUT .//Book.aux
 INPUT .//epi_chapter.aux
 INPUT .//epi_chapter.aux
@@ -535,6 +536,7 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb

@@ -1,0 +1,2264 @@
+ROBERT J. SHILLER
+Yale University
+
+Stock Prices
+and Social Dynamics
+Fashion is the great governor of this world; it presides not only in matters of
+dress and amusement, but in law, physic, politics, religion, and all other things
+of the gravest kind; indeed, the wisest of men would be puzzled to give any
+better reason why particular forms in all these have been at certain times
+universally received, and at others universally rejected, than that they were in
+or out of fashion.
+Henry Fielding'
+in speculative assets is a social activity. Investors spend a
+substantial part of their leisure time discussing investments, reading
+about investments, or gossiping about others' successes or failures in
+investing. It is thus plausible that investors' behavior (and hence prices
+of speculative assets) would be influenced by social movements. Attitudes or fashions seem to fluctuate in many other popular topics of
+conversation, such as food, clothing, health, or politics. These fluctuations in attitude often occur widely in the population and often appear
+without any apparent logical reason. It is plausible that attitudes or
+fashions regarding investments would also change spontaneously or in
+arbitrary social reaction to some widely noted events.
+Most of those who buy and sell in speculative markets seem to take it
+for granted that social movements significantly influence the behavior of
+prices. Popular interpretations of the recurrent recessions that we
+observe often include ideas that the shifts in, say, consumer confidence
+INVESTING
+
+John Pound provided research assistance. This research was supported by the National
+Science Foundation under grant SES-8408565 and the Sloan Foundation.
+1. Henry Fielding, The True Patriot, no. 1,1745, in James P. Browne, ed., The Works
+of Henry Fielding, Esq., vol. 8 (London: Bickers and Son, 1903), p. 69.
+457
+
+458
+
+Brookings Papers on Economic Activity, 2:1984
+
+or optimism are also at work in other aspects ofthe business cycle, such
+as interest rates, inventories, and so on. Academic research on market
+psychology, however, appears to have more or less died out in the 1950s,
+at about the time the expected-utility revolution in economics was bom.
+Those academics who write about financial markets today are usually
+very careful to dissociate themselves from any suggestion that market
+psychology might be important, as if notions of market psychology have
+been discredited as unscientific.^ There is instead an enormous recent
+literature in finance that takes one of the various forms of the efficient
+markets hypothesis for motivation and a related literature in macroeconomics that is based on the assumption of rational expectations. In
+academic circles there has certainly been an interest in speculative
+bubbles, but pursued within the framework of rational expectations
+models with unchanging tastes.^
+It is hard to find in the large literature on the efficient markets
+hypothesis any discussion of an altemative hypothesis involving social
+psychology in financial markets."^ Yet the impression persists in the
+literature and in casual discussions that there are very powerful arguments against such social-psychological theories. Arguments confined
+to an oral tradition, tacitly accepted by all parties, and not discussed in
+the scholarly literature are particularly vulnerable to error. It is thus
+important to consider explicitly these arguments against a major role for
+mass psychology infinancialmarkets.
+Retums on speculative assets are nearly unforecastable; this fact is
+the basis of the most important argument in the oral tradition against a
+role for mass psychology in speculative markets. One form of this
+2. The recent literature on behavioral economics associated with survey research has
+apparently not touched substantially on speculative markets. Some of their findings are
+relevant and will be cited below.
+3. For example, David Cass and Karl Shell refer to market psychology in motivating
+their discussion of extraneous uncertainty, but they then assume economic agents are
+expected-utility maximizers with unchanging tastes. There is, however, a sense in which
+they and others are wrestling with some of the same issues that are of concern in this
+paper. See Cass and Shell, "Do Sunspots MSLUCTT' Journal of Political Economy, vol. 91
+(April 1983), pp. 193-227.
+4. There are some casual arguments in the literature against such a role for mass
+psychology. The most-cited reference may be Eugene F. Fama, "The Behavior of Stock
+Market Prices," Journal of Business, vol. 38 (January 1965), pp. 34-105. The argument
+consists of no more than a few paragraphs pointing out that "sophisticated traders" might
+eliminate profit opportunities, thereby tending to make "actual prices closer to intrinsic
+values" (p. 38).
+
+Robert J. Shiller
+
+459
+
+argument claims that because real returns are nearly unforecastable, the
+real price of stocks is close to the intrinsic value, that is, the present
+value with constant discount rate of optimally forecasted future real
+dividends. This argument for the efficient markets hypothesis represents
+one ofthe most remarkable errors in the history of economic thought. It
+is remarkable in the immediacy of its logical error and in the sweep and
+implications of its conclusion. I will discuss this and other arguments for
+the efficient markets hypothesis and claim that mass psychology may
+well be the dominant cause of movements in the price ofthe aggregate
+stock market.
+I have divided my discussion into four major sections: arguments
+from a social-psychological standpoint for the importance of fashions in
+financial markets, a critique of the argument for the efficient markets
+hypothesis, a proposed altemative model based on social psychology,
+and some exploratory data analysis suggested by the altemative model.
+The first section discusses what we know about changing fashions or
+attitudes in light of everyday experience, research in social psychology
+and sociology, and evidence from postwar stock market history. This
+will not be direct evidence that people violate the principle of expectedutility maximization, nor is the evidence of great value in judging how
+far we should carry the assumption of rationality in other areas of
+economics (although I think it is of value in understanding the business
+cycle). Rather, I will be motivated here by the relatively narrow question
+of why speculative asset prices fluctuate as much as they do.
+The second section sets forth and evaluates the efficient markets
+model and the presumed evidence against a role for social psychology
+in determining prices. The fundamental issue is the power of statistical
+tests in distinguishing the efficient markets model from the important
+alternatives. If statistical tests have little power, then we ought to use
+the sort of qualitative evidence discussed in the first section to evaluate
+the efficient markets model.
+The third section offers a simple though rather incomplete alternative
+model of stock prices that admits the importance of social-psychological
+factors. This model involves "smart-money investors" and "ordinary
+investors" and is intended to demonstrate how models of financial
+markets might better accommodate the econometric evidence on the
+near unforecastability of retums, evidence that is widely interpreted as
+favoring the efficient markets model.
+
+460
+
+Brookings Papers on Economic Activity, 2:1984
+
+The fourth section uses U.S. stock market data to explore some
+relations suggested by the altemative model. Using Standard and Poor's
+composite stock price index, I examine various forecasting equations
+for real returns. I consider whether stock price movements seem to
+follow simple patterns, as in an overreaction to dividends or earnings
+news, and whether this overreaction induces a sort of forecastability for
+returns. In doing this I present a time series model ofthe aggregate real
+dividend series associated with Standard and Poor's composite stock
+price index. I also propose a hypothetical scenario using the alternative
+model that shows for recent U.S. history what the smart-money investors
+may have been doing, the fraction of total trading volume that might
+have been accounted for by smart-money trades in and out ofthe market,
+and the extent to which ordinary investors may have influenced stock
+prices.
+
+Evidence on Fashions and Financial Markets
+FASHIONS IN EVERYDAY LIFE
+
+Isn't it plausible that those who are so enlightened as to be readers of
+BPEA might find themselves caught up in capricious fashion changes?
+Those of us involved in the current fashion of running for exercise may
+say that we do it because it is good for our health, but the health benefits
+of such exercise were known decades ago. ^Talking with runners suggests
+that far more is at work in this movement than the logical reaction to a
+few papers in medical journals. Why wasn't the joy of running appreciated twenty years ago? Why are we thinking about running these days
+and not about once-popular leisure activities now in decline, such as
+leading Boy Scout troops or watching western movies?^
+Fashions in one country may often move in one direction while those
+5. A few minutes spent with an index to periodical literature will confirm that the idea
+that regular exercise helps prevent heart disease was part ofthe conventional wisdom by
+the mid-1950s.
+6. There seems to be the same superabundance of theories to explain the decline of
+boy scouting since 1973 as for the decline in the stock market over the same period. See
+"Whatever Happened to . . . Boy Scouts: Trying to Make a Comeback," U.S. News and
+World Report (May 7, 1979), pp. 86-87. Those who think that people simply got tired of
+westerns will have to explain why it took a generation for them to do so.
+
+Robert J. Shiller
+
+461
+
+in another country are moving in a different direction. In politics, for
+instance, we have seen in the last decade a drift toward conservatism in
+some Western countries and a drift toward socialism in others. The
+objective evidence for or against socialism cannot have moved both
+ways. Something about the social environment, collective memories, or
+leadership is different and changing through time differently in these
+countries. Is there any reason to think that social movements affect
+investments any less strongly than they do these other activities? We
+know that attitudes toward investments are very different across cultures. In West Germany today investors are notably cautious; it is hard
+to raise venture capital, and the stock market itself is very small. Isn't it
+plausible that attitudes that change across countries should also change
+within a country through time?
+Some may argue that investing is less likely than other activities to be
+influenced by fashions because people make investment choices privately, based on their perception ofthe prospects for return, and usually
+not with any concern for what people will think. It is, however, plausible
+that these perceptions of return themselves represent changing fashions.
+The changing fashions in "physic" that Fielding noted are analogous.
+Sick people in Fielding's day asked physicians to bleed them because
+they thought they would get well as a result and not because they thought
+that they would impress other people by having it done. Therapeutic
+bleeding is an excellent example of a fashion because there has never
+been any scientific basis for it; the belief in its efficacy arose entirely
+from the social milieu.
+
+WHO CONTROLS EQUITY INVESTMENTS?
+
+It is important first to clarify the identity of investors in corporate
+stock. It is widely and mistakenly believed that (1) institutional investors
+hold most stocks, (2) most wealthy individuals have delegated authority
+to manage their investments, and (3) smart money dominates the market.
+By suggesting that the market is more professionalized than it is, these
+misconceptions lend spurious plausibility to the notion that markets are
+very efficient.
+It is true that the importance of institutional investors has been
+growing in the postwar period. Institutional holdings of New York Stock
+
+462
+
+Brookings Papers on Economic Activity, 2:1984
+
+Exchange stocks as a percent of the total value of the stocks rose from
+15.0 percent in 1955 to 35.4 percent in 1980.^ Still, nearly 65 percent of
+all New York Stock Exchange stocks were held by individuals in 1980.
+Most individually held corporate stock belongs to the wealthy. In
+1971, the 1 percent of U.S. families (including single individuals) with
+the largest personal income accounted for 51 percent ofthe market value
+of stock owned by all families, while the 10 percent of families with the
+largest income accounted for 74 percent of market value.^ Wealthy
+individuals are of course part ofthe same society as the rest of us. They
+read the same newspapers and watch the same television programs.
+They are different, however, in one important way. For them, information costs are quite low relative to the income from their investments.
+One might be inclined to think that they would in practice delegate to
+experts the authority over their investments.
+A 1964 Brookings study interviewed 1,051 individuals with 1961
+incomes of more than $ 10,000 (or about $34,000 in 1984 prices) concerning
+their investment habits, among other things. The 1961 median income
+for the sample was about $40,000 (or about $135,000 in 1984 prices).
+*'Only one-tenth reported delegating some or all authority over their
+investments, and this proportion reached one-fourth only for those with
+incomes over $300,(X)0. Only 2 percent ofthe entire high-income group
+said they delegated 'all' authority."' Instead of delegating authority,
+most made their own investment decisions with some advice: ''About
+three-fourths of the high income respondents who managed their own
+assets said that they got advice from others in making their investment
+decisions. One in three of those seeking advice said they 'always' sought
+7. See New York Stock Exchange, New York Stock Exchange Fact Book 1983 (NYSE,
+1983), p. 52. This source says that institutional investors accounted for 65 percent of all
+public volume on the New York Stock Exchange in the fourth quarter of 1980 (p. 54).
+Thus, institutional investors trade much more frequently than do individual investors.
+Data that are probably more accurate on institutional holdings are in Irwin Friend and
+Marshall Blume, The Changing Role ofthe Institutional Investor (Wiley, 1978); they
+estimated that 24.9 percent of all stock was held by institutions and foreigners in 1971, up
+from 17.9 percent in 1960 (p. 32).
+8. See Marshall E. Blume, Jean Crockett, and Irwin Friend, "Stockownership in the
+United States: Characteristics and Trends," Survey of Current Business, vol. 54 (November 1974), pp. 16-40. In 1981, 7.2 percent of households had income above $50,000
+(Statistical Abstract ofthe United States. 1982-83, p. 430).
+9. Robin Barlow, Harvey E. Brazer, and James N. Morgan, Economic Behavior ofthe
+Affluent (Brookings, 1966), p. 26.
+
+Robert J. Shiller
+
+463
+
+advice when investing, while two out of three said they did 'occasionally.' "'° Two-thirds of the investors said they tried to keep informed,
+and more than half said they made use of business magazines, but "only
+one-tenth of those trying to keep informed said that they read the
+financial statements and other reports issued by the corporations in
+which they were considering an investment.""
+What is really important for one's view of financial markets is not
+directly the extent to which institutional investors or wealthy individuals
+dominate the market, but the extent to which smart money dominates
+the market. One commonly expressed view is that intelligent individuals
+can be assumed to take control of the market by accumulating wealth
+through profitable trading. This argument overlooks the fact that individuals consume their wealth and eventually also die. When they die
+they bequeath it to others who have perhaps only a small probability of
+being smart investors as well. In assessing this probability, one must
+bear in mind that the class of smart-money investors does not correspond
+closely to the intelligent segment of the population. What is at work
+behind smart money is not just intelligence but also interest in investments and timeliness. Presumably the probability is fairly low that heirs
+are smart investors.'^
+There are several factors that serve to mitigate the effects of higher
+retums on the average wealth of smart-money investors. One is that
+most people do not acquire most of their maximum wealth until fairly
+late in the life cycle and thus do not have as much time to accumulate.
+Another factor is that in a growing population, younger persons, whose
+portfolios have had less time to accumulate, will figure more prominently
+in the aggregate of wealth. Yet another factor is that saving early in the
+life cycle tends for institutional reasons to take the form of investing in
+a house rather than in speculative assets.
+Roughly speaking, one can expect to live thirty years after receiving
+a bequest on the death of one's parents. A representative smart-money
+heir who earns and accumulates at a rate n greater than a representative
+ordinary investor in the middle of the thirty years will thus have on
+10. Ibid., p. 68.
+11. Ibid., p. 71. These findings were also confirmed in other surveys. See George
+Katona, Psychological Economics (Elsevier, 1975), p. 269.
+12. The median correlation (from 12 studies) between IQs of natural parents and of
+their children is 0.50. See H. J. Eysenck and Leon Kamin, The Intelligence Controversy
+(WUey, 1980), p. 50.
+
+464
+
+Brookings Papers on Economic Activity, 2:1984
+
+average, if original bequests were equal, roughly (1 + nY^ times as much
+wealth. If/? is 2 percent per year, this is 1.3; if 5 percent per year, this is
+2.1. As long as the percentage of smart investors is small, retums that
+are higher by this order of magnitude will not cause the smart money to
+take over the market.
+Of course, it is unlikely that smart-money investors are pure accumulators; because we lack data on their savings pattems versus the
+savings pattems of ordinary investors, it is impossible to say anything
+concrete about how much money smart investors accumulate. If the
+smart investors behave like good trustees of the family estate and
+consume at exactly the rate that would preserve the real value of the
+family wealth, then smart money will not accumulate at all, regardless
+ofthe return it earns.
+THE AMBIGUITY OF STOCK VALUE
+
+Stock prices are likely to be among the prices that are relatively
+vulnerable to purely social movements because there is no accepted
+theory by which to understand the worth of stocks and no clearly
+predictable consequences to changing one's investments.
+Ordinary investors have no model or at best a very incomplete model
+of the behavior of prices, dividends, or earnings of speculative assets.
+Do projections of large future deficits in the federal budget imply that
+the price of long-term bonds will go up or down? Does the election of a
+conservative U.S. president imply that eamings of General Motors will
+go up or down? Does a rise in the price of oil cause the price of IBM
+stock to go up or down? Ordinary investors have no objective way of
+knowing.
+Ordinary investors are faced with what Frank Knight in 1921 called
+"uncertainty" rather than "risk":
+The practical difference between the two categories, risk and uncertainty, is that
+in the former the distribution of the outcome in a group of instances is known
+(either from calculation a priori or from statistics of past experience), while in
+the case of uncertainty this is not true, the reason being in general that it is
+impossible to form a group of instances, because the situation dealt with is in a
+high degree unique. . . . It is this true uncertainty which by preventing the
+theoretically perfect outworking of the tendencies of competition gives the
+characteristic form of "enterprise" to economic organization as a whole and
+accounts for the peculiar income ofthe entrepreneur.'^
+13. Frank H. Knight, Risk, Uncertainty and Profit (Augustus M. Kelley, 1964), pp.
+232-33.
+
+Robert J. Shiller
+
+465
+
+Ordinary investors also cannot judge the competence of investment
+counselors in the way they can that of other professionals. It is very easy
+to leam whether a map company is producing correct maps; we can
+therefore take it for granted that others have done this and that any map
+that is sold will serve to guide us. It is much harder to evaluate investment
+advisers who counsel individual investors on the composition of their
+portfolios and who claim to help them make investments with high
+retums. Most investors lack data on past outcomes of a counselor's
+advice and on whether the current advice is based on the same approach
+that produced these outcomes. Moreover, most investors do not understand data analysis or risk correction, necessary knowledge for evaluating the data.
+It is also much easier to change one's mind on one's investments than
+on one's consumption of commodities. The former has no apparent
+immediate efifect on one's well being, whereas to change one's consumption of commodities, one must give up some habit or consume
+something one formerly did not enjoy.
+SUGGESTIBILITY AND GROUP PRESSURE
+
+Since investors lack any clear sense of objective evidence regarding
+prices of speculative assets, the process by which their opinions are
+derived may be especially social. There is an extensive literature in
+social psychology on individual suggestibility and group pressure. Much
+of this literature seeks to quantify, by well-chosen experiments, how
+individual opinions are influenced by the opinions of others. A good
+example of such experiments is Muzafer Sherif s classic work using the
+"autokinetic effect."'" In this experiment, subjects were seated in a
+totally darkened room and asked to view at a distance of five meters a
+point of light seen through a small hole in a metal box. They were told
+that the point of light would begin to move and were asked to report to
+the experimenter the magnitude, in inches, of its movements. In fact,
+the point was not moving, and the viewer had no frame of reference, in
+the total darkness, to decide how it was moving. When placed in groups
+so that they could hear answers of others in the group, the individuals
+arrived, without any discussion, at consensuses (differing across groups)
+14. See Muzafer Sherif, "An Experimental Approach to the Study of Attitudes,"
+Sociometry, vol. 1 (1937), pp. 90-98.
+
+466
+
+Brookings Papers on Economic Activity, 2:1984
+
+on the amount of movement. Subjects, interviewed afterward, showed
+little awareness ofthe influence ofthe group on their individual decision.
+In another well-known experiment, Solomon Asch had individuals
+alone and in groups compare the lengths of line segments. The lengths
+were sufficiently different that, when responding alone, subjects gave
+very few wrong answers. Yet when placed in a group in which all other
+members were coached to give the same wrong answers, individual
+subjects also frequently gave wrong answers.'^ Through follow-up
+questions, Asch found that even though the subject was often aware of
+the correct answer, and the answer was completely inoffensive, the
+subject was afraid to contradict the group.
+The research shows evidence offlagrantdecision errors under social
+pressure but not of abandonment of rational individual judgment. It does
+help provide some understanding of possible origins of swings in public
+opinion. The Asch experiment suggests that group pressures do serve at
+the very least to cause individuals to remain silent when their own views
+appear to deviate from the group's, and their silence will prevent the
+dissemination of relevant information that might establish the dissenters'
+views more firmly.
+THE DIFFUSION OF OPINIONS
+
+The dynamic process by which social movements take place is the
+subject of an extensive literature by social psychologists and sociologists,
+and the basic mechanisms are well known. The ideas that represent a
+movement may be latent in people's minds long before the movement
+begins. An idea may not become a matter of conviction or active thought
+until the individual hears the idea from several friends or from public
+authorities. This process takes time. The process may be helped along
+if some vivid news event causes people to talk about related matters or
+slowed if a news event distracts their attention.
+Social movements can take place in a matter of hours after so vivid
+an event as the onset of a war. Or changes in attitudes can take decades
+to diffuse through the population, as evidenced by the fact that many
+fashion changes in dress seem to happen very slowly. The communications media may, if attention is given to some event, speed the rate of
+15. See Solomon E. Asch, Social Psychology (Prentice Hall, 1952).
+
+Robert J. Shiller
+
+467
+
+diffusion. However, the generalfindingof research on persuasion is that
+"any impact that the mass media have on opinion change is less than
+that produced by informal face-to-face communication of the person
+with his primary groups, his family, friends, coworkers, and neighbors."'^ This fact is recognized by television advertisers who, in promoting their products, often try to create with actors the illusion of such
+communication. Katona has used the term social learning to refer to the
+slow process of "mutual reinforcement through exchange of information
+among peer groups by word of mouth, a major condition for the
+emergence of a uniform response to new stimuli by very many people.'' '^
+Thus, it is not surprising that in surveys in the 1950s and 1960s "the
+answers to the two questions 'Do you own any stocks' and 'Do you have
+any friends or colleagues who own any stocks' were practically identiSuch diffusion processes for news or rumor have been modeled more
+formally by mathematical sociologists drawing on the mathematical
+theory of epidemics. '^ For example, in what has been referred to as the
+"general epidemic model,"^o it is assumed, first, that new carriers of
+news (as of a disease) are created at a rate equal to an "infection rate"
+p times the number of carriers times the number of susceptibles and,
+second, that carriers cease being carriers at a "removal rate" T. The first
+assumption is that of the familiar model which gives rise to the logistic
+curve, and the second assumption causes any epidemic or social movement eventually to come to an end. In this model a new infectious agent
+or an event interpreted as important news can have either of two basic
+consequences. If the infection rate is less than a threshold equal to the
+removal rate divided by the number of susceptibles, the number of
+carriers will decline monotonically. If the infection rate is above the
+threshold, the number of carriers will have a hump-shaped pattern, rising
+atfirstand then declining.
+16. William J. McGuire, "The Nature of Attitudes and Attitude Change," in Gardner
+Lindzey and Elliot Aronson, eds.. Handbook of Social Psychology (Addison Wesley,
+1969), p. 231.
+17. See Katona, Psychological Economics, p. 203.
+18. Ibid., p. 267.
+19. See for example David J. Bartholomew, Stochastic Models for Social Processes
+(Wiley, 1967).
+20. See Norman T. Bailey, The Mathematical Theory of Epidemics (London: C.
+Griffin, 1957).
+
+468
+
+Brookings Papers on Economic Activity, 2:1984
+
+The removal rate and the infection rate may differ dramatically from
+one social movement to another depending on the characteristics ofthe
+sources, media, and receivers. One survey ofthe literature on removal
+rates after persuasive communications concluded that "the 'typical'
+persuasive communication has a half-life of six months'' but that different
+experiments produced widely different half-lives.^^ Changes in the
+infection rate or removal rate may be what accounts for the sudden
+appearance of some social movements. A rise in the infection rate, for
+example, may cause an attitude long latent in people's minds to snowball
+into a movement.
+We might expect then to see a variety of patterns in social movements:
+long-lasting "humps" that build slowly (low removal and infection rate)
+or that rise and fall quickly (high removal and infection rate); news
+events with a subsequent monotonie decline of infectives (zero infection
+rate) or followed by a monotonically increasing number of infectives
+(zero removal rate). Of course, such patterns may not be seen directly
+in prices of speculative assets, as the "altemative model" I present later
+in the paper will show.
+SOCIAL MOVEMENTS AND THE POSTWAR STOCK MARKET
+
+The real price of corporate stocks, as measured by a deflated Standard
+and Poor's composite stock price index (figure 1), shows what appears
+to be a pronounced uptrend between the late 1940s and the late 1960s
+and since then a downtrend (or, more accurately, a single major drop
+between 1973 and 1975). The postwar uptrend period, the last great bull
+market, has often been characterized as one of contagious and increasingly excessive optimism. Is there any evidence of such a social movement then? Is there evidence that such a social movement came to an
+end after the late 1960s?
+Such evidence will not take the form of proof that people should have
+known better than to price stocks as they did. The postwar period was
+one of rapidly growing real earnings and real dividends, and that the
+21. McGuire, 'The Nature of Attitudes," pp. 253-54. A description of recent research
+in marketing journals on the removal rate is in Richard P. Bagozzi and Alvin J. Silk,
+"Recall, Recognition, and the Measurement of Memory for Print Advertisements,"
+Marketing Science, vol. 2 (Spring 1983), pp. 95-134. See Bartholomew, Stochastic Models,
+for a discussion of empirical work on the infection rate.
+
+Figure 1. Standard and Poor*s Stock Price Data, 1926-84''
+100
+Real stock prices*'
+
+/I
+
+6-
+
+Real earnings'^ /•*^'*\
+
+/
+\
+
+\
+
+/
+
+V
+
+44
+•
+
+1
+
+A
+
+/•*.I^\ •
+
+2-
+
+0
+
+/
+
+/.'"'if.
+
+••.. •
+. . 1 .
+
+•
+
+I l l
+
+•
+
+••
+
+t
+
+20
+
+.
+
+Price-dividend ri
+
+30 •
+.*
+•
+
+'.
+*
+
+i
+
+l^
+
+••
+*
+' •*
+.* •
+
+•• J'.•
+
+•. •
+
+•
+
+»t
+
+\
+
+V
+
+/
+
+•
+
+•
+
+1
+
+10
+
+^40
+
+%
+
+\
+
+r
+
+•
+
+. 1.
+
+1.
+
+1935
+
+. . . 1. . . . 1 ..
+
+1945
+
+•• •• v' **.•*•*..*•. *. '.
+*•• •*
+*. ••
+•* *•
+" *. *
+
+••
+
+»••' \ ' ' J \
+
+0 ..
+1926
+
+^ \ ^^^^ dividends'*
+
+...•*
+
+. . . 1. .
+
+,
+
+^•*
+
+/
+
+1 . 1 . . .
+
+^^Price-earnings ratio^
+. 1 . . . .
+
+1955
+
+1 . . . .
+
+1 . . . . 1 . . . .
+
+1965
+
+"^-^^^
+1 . . . .
+
+1975
+
+1 ...
+
+1984
+
+Source: Calculated from data from Standard and Poor's Statistical Service and the U.S, Bureau of Labor Statistics.
+a. Annual data, fifty-nine observations from 1926 to 1984. The stock price index is Standard and Poor's composite
+stock price index.
+b. Stock price index for January (1941-43 = 100) divided by the January producer price index, all items, times
+100.
+c. Four-quarter total for the fourth quarter of Standard and Poor's earnings per share adjusted to the stock price
+index, divided by the January producer price index, times 100.
+d. Four-quarter total for the fourth quarter of Standard and Poor's dividends per share adjusted to the stock price
+index, divided by the January producer price index, times 100.
+e. Computed by dividing the stock price series by the dividends series for the preceding year (in nominal terms).
+f. Computed as for the price-dividend ratio, with eamings in place of dividends.
+
+470
+
+Brookings Papers on Economic Activity, 2:1984
+
+growth should be expected to continue was an idea backed by plausible
+reasons, such as:
+the constant speed-up in business research in order to cut costs and bring out
+ever newer and more competitive products; the extension of business expansion
+planning farther and farther into the future, which means that such plans are
+carded forward regardless of anyjiggles in the trend of business; the improvement
+in business techniques that offset the effects of seasonalfluctuations;the advance
+in methods of monetary management by the Federal Reserve Board; and the
+similar advance in general understanding ofthe effects ofthe Government's tax
+and other economic policies."
+How was anyone to know whether these reasons were right or not?
+The evidence for a social movement driving the bull market will come
+instead from other sources. The evidence will be the growing numbers
+of individuals who participated in, were interested in, or knew about the
+market; the changes in relations between investor and agent; and the
+changes in attitudes that might plausibly affect the valuation of stocks.
+The evidence is not intended to provide a tight theory ofthe movements
+of stock prices but to show that large social movements appear to have
+occurred that might plausibly have had a great impact on stock prices.
+In fact, there is a superabundance of plausible reasons for the movements
+ofthe market.
+Evidence for the growing numbers of individuals who participated in
+the market can of course be found most directly in the rising quantity of
+stocks held by institutional investors. The most important component
+of this increase was pension funds. The rise of employer pension funds
+in the postwar period might even be considered a social movement that
+probably caused an increased demand for shares. Individuals may, by
+saving less themselves, offset the saving done on their behalf by firms;
+but because most people do not hold any stocks, it is not possible for
+them (without short sales) to offset the institutional demand for stocks
+by holding fewer shares. Such changes in demand by institutions are
+likely to be important in determining asset prices but are not my main
+concern here. Others have studied such changes using fiow-of-funds
+methodology. 2^
+22. George Shea, Wall Street Journal, October 12, 1955, reprinted in Forty Years on
+Wall Street (Princeton, N.J.: Dow Jones, 1968), pp. 42-43.
+23. For a recent example, see Benjamin M. Friedman, "Effects of Shifting Saving
+Patterns on Interest Rates and Economic Activity," Journal of Finance, vol. 37 (March
+1982), pp. 37-62.
+
+Robert J. Shiller
+
+471
+
+The period of rising stock prices also corresponds roughly with a
+period of a dramatic increase in the number of people who participated
+directly (not through institutions) in the stock market. The New York
+Stock Exchange shareownership surveys showed that the total number
+of individual shareowners as a percent of the U.S. population rose from
+4 percent in 1952 to 7 percent in 1959 to a peak of 15 percent in 1970.^4
+The corresponding numbers for 1975, 1980, and 1981 varied from 11
+percent to 12 percent.^^
+The increase in individual stockownership appears to correspond to
+an increase in knowledge about and interest in the market. The 1954
+New York Stock Exchange investor attitude survey, consisting of
+interviews of several thousand individuals, was motivated by the question, Why is it that "4 out of 5 doctors, lawyers, major and minor
+executives, engineers and salesmen do not own stock in publicly owned
+corporations?"2^ What came out of the survey was a sense of lack of
+information or interest in the stock market and vague senses of prejudice
+against the stock market. Only 23 percent of the adult population knew
+enough to define corporate stock as "a share in profit," ''bought and
+sold by public, anyone can buy," or '*not preferred or a bond."
+By 1959 there appeared a "much better understanding ofthe functions
+ofthe Stock Exchange as the nation's marketplace." The number of
+Americans who could *'explain the functions ofthe Exchange" rose
+neariy 20 percent. The number who knew "that companies must meet
+certain standards before the Exchange will permit their stocks to be
+listed for trading" increased 36 percent in the same five-year period.^^
+The growth of numbers of people who knew about or were involved
+at all in the stock market is important evidence that something other
+than a reevaluation of optimal forecasts of the long-run path of future
+24. New York Stock Exchange, Share-ownership 1952 through 7970 (NYSE, 1953
+through 1971). The rise before 1970 of shareownership involved a trend toward somewhat
+more egalitarian distribution of stock. In 1958, 83.2 percent of stock value was owned by
+individuals with the top 10 percent of income. By 1970, this had fallen to 75.4 percent. See
+Friend, Blume, and Crockett, "Stockownership," p. 27.
+25. New York Stock Exchange, Share-ownership 1975,1980, and 1981 (NYSE, 1976,
+1981, and 1982).
+26. New York Stock Exchange, The Public Speaks to the Exchange Community
+(NYSE, 1955), p. 54.
+27. See New York Stock Exchange, The Investors of Tomorrow, title page and p 6
+(NYSE, 1960).
+
+472
+
+Brookings Papers on Economic Activity, 2:1984
+
+dividends was at work in producing the bull market. Any model that
+attributes the increase in stock prices to a Bayesian leaming process will
+not stand up to the observation that most ofthe investors at the peak of
+the bull market were not involved or interested in the market at all at the
+beginning ofthe increase.
+Evidence about changing relations between individual investors and
+their agents takes two forms: evidence regarding the rise of stockbrokers
+and of publicity campaigns from them and evidence regarding the
+investment club movement.
+Between 1954 and 1959 stockbrokers were growing in reputation. In
+the 1954 New York Stock Exchange survey 30 percent of the adult
+population said they would tumfirstto a broker for investment advice;
+by 1959 thisfigurehad risen to 38 percent. During thisfive-yearperiod,
+stockbrokers replaced bankers as thefirstsource of investment advice.
+An estimated 9 miUion adults said they were contacted by brokers in
+1959, compared with fewer than 5 million in 1954.^8
+The New York Stock Exchange initiated an investors' education
+program as part of a broader shareownership program. Begun in 1954,
+the program by 1959 had a list of 2,500 lecturers in 85 cities. Lectures
+were held in local high schools as part of adult education programs by
+lecturers *'bent on carrying the investing gospel . . . wherever there
+were ears to hear."^'
+By 1959 the program had conducted 4,500 lecture courses reaching
+525,000 persons or about 4 percent ofthe total number of shareholders
+in 1959. The investor education program used all the media, including
+advertisements in newspapers and magazines and on radio. As early as
+1954, when the program was only six months old, 5 percent ofthe adult
+population in the United States could identify the New York Stock
+Exchange as the source of the slogan "Own Your Share of American
+In contrast the 1970s was a period of low profits for the New York
+Stock Exchange and advertising in newspapers and magazines was
+suspended. In 1975 competitive commissions were established and
+amendments to the Securities Act threatened the viability of the New
+York Stock Exchange. Prices of seats on the exchange dropped. In
+response to the problems, the exchange in 1977 severely cut back the
+28. New York Stock Exchange, Investors of Tomorrow, pp. 9,14.
+29. See New York Times. September 20,1959.
+30. New York Stock Exchange, The Public Speaks, p. 10.
+
+Robert J. Shiller
+
+473
+
+investors' education program and dropped the adult education program.
+Lack of public enthusiasm for the program was also offered as a reason
+for the cutback. The same factors that caused the New York Stock
+Exchange to suspend its investors' education program may have also
+had the effect of decreasing the efforts of individual brokers to promote
+corporate stocks. Such factors as competitive commissions, which
+reduce the profits in conventional brokerages, have "tended to shrink
+the numbers of people who are out there trying to encourage individual
+investors into this market place. "^'
+Investment clubs are social clubs in which small groups of people
+pursue together a hobby of investing. Interest in such clubs might well
+give some indication of how much stocks were talked about and how
+much people enjoyed investing. The number of clubs in the National
+Association of Investment Clubs rose from 923 in 1954 to a peak of
+14,102 in 1970 and then fell to 3,642 in 1980.^2 The total number of
+individuals directly involved in investment clubs and their aggregate
+wealth is of course small. However, the investment club movement is
+plausible evidence of a national movement that is not reflected in the
+membership rolls.
+There is in the postwar period evidence of substantial changes in
+behavior big enough to have a major impact on the market. For example,
+the percentage of people who said that religion is "very important" in
+their lives fell from 75 percent in 1952 to 52 percent in 1978." The birth
+rate hovered around 2.5 percent throughout the 1950s and then began a
+gradual decline to around 1.5 percent in the 1970s. These changes may
+reflect changing attitudes toward the importance of family, of heirs, or
+of individual responsibility for others.
+Of all such changes, the one with perhaps the most striking importance
+for demand for shares in the postwar period is the pervasive dechne in
+confidence in society's institutions after the bull market period. According to poll analyst Daniel Yankelovich:
+We have seen a steady rise of mistrust in our national institutions. . . . Trust in
+government declined dramatically from almost 80% in the late 1950s to about
+33% in 1976. Confidence in business fell from approximately a 70% level in the
+late 60s to about 15% today. Confidence in other institutions—the press, the
+31. Robert M. Gardiner, chairman of Reynolds Securities, Inc., as quoted in New
+York Stock Exchange, Share-ownership 1975 (NYSE, 1976), p. 21.
+32. Data from the National Association of Investment Clubs.
+33. See "Religion in America," The Gallup Report, no. 222 (March 1984).
+
+474
+
+Brookings Papers on Economic Activity, 2:1984
+
+military, the professions—doctors and lawyers—sharply declined from the mid-
+
+To Yankelovich's list we may add stockbrokers. One ofthefindingsof
+the New York Stock Exchange 1977-78 survey was that **a negative
+image of brokers andfirmspermeates all subgroups and even top quality
+clients have an unfavorable impression ofthe industry. "^^ By their very
+pervasiveness, the negative attitudes toward institutions suggest a
+prejudice rather than an informed judgment.
+
+The Efficient Markets Model
+The observation that stock returns are not very forecastable is widely
+thought to mean that investor psychology could not be an important
+factor in financial markets. Why is it thought so? If investor fads
+infiuenced stock prices, the argument goes, then it would seem that these
+fads would cause stock price movements to be somewhat predictable.
+Moreover, because dividends themselves are somewhat forecastable
+(firms in fact announce changes in their dividends from time to time),
+and in spite of this we are unable to forecast well any change in retums,
+it must be true that stock prices in some sense are determined in
+anticipation of dividends paid. Thus, stock prices should be determined
+by optimal forecasts of dividends.
+The above argument can be formalized by representing the unforecastability of retums by E,R, = 8, where Et denotes mathematical
+expectation conditional on all publicly available information at time r,
+R, is the real (corrected for inflation) rate of return (including both
+dividends and capital gain) on a stock between time t and time / + 1, and
+6 is a constant. Here, R, equals (P,+, - P, + D^IP, where P, is the real
+price ofthe share at time / and D, any real dividend which might be paid
+in the time period. This is afirst-orderrational expectations model ofthe
+kind familiar in the literature that can be solved, subject to a stability
+34. From a speech, April 1977, quoted in Seymour Martin Lipset and William
+Schneider, The Confidence Gap: Business, Labor and Government in the Public Mind
+(Free Press, 1983), p. 15. The Gallup Poll also documents a fairly steady decline in
+confidence in all major institutions over the years 1973-83. See Gallup Report, no. 217
+(October 1983).
+35. See New York Stock Exchange, Public Attitudes Toward Investing: Marketing
+Implications (NYSE, 1979), p. 5.
+
+Robert J. Shiller
+
+475
+
+terminal condition, by recursive substitution.^^ Out ofthe negative result
+that we cannot seem to forecast returns we thus get the powerful efficient
+markets model:^^
+(1)
+
+Pt =
+
+Equation 1 asserts that real price is the present discounted value of
+expected future dividends, and in this sense price anticipates optimally
+(that is, takes into account all publicly available information) the stream
+of dividends that the stock will pay in the future.
+There is a fundamental error in this argument for the efficient markets
+model: it overlooks the fact that the statistical tests have not shown that
+returns are not forecastable; they have shown only that retums are not
+very forecastable. The word very is crucial here, since alternative models
+that have price determined primarily by fads (such as will be discussed
+below) also imply that retums are not very forecastable.
+We can get some idea at this point ofthe power ofthe regression tests
+ofthe efficient markets model against importantly different alternatives.
+Consider an altemative model in which the true (theoretical) R^ in a
+regression of aggregate retums of corporate stocks on some set of
+information variables is 0.1. Given that the standard deviation ofthe real
+annual returns on the aggregate stock market is about 18 percent, such
+an R~ implies that the standard deviation of the predictable component
+of returns is about 5.7 percent per year. Thus, under this altemative
+36. One rearranges the equation to read P, = bEiDi + bE^P,^,, where b = 1/(1 + 8),
+and then uses the fact that £,£,+* = E, if k > 0. One substitutes in the above rational
+expectations model forP,.,, yielding/*, = bEJ), + b-E,D,^^ + />2£^,.^2. One repeats this
+process, successively substituting for the price terms on the right hand side. The terminal
+condition assumption in the text is that the price term, b'*E,F,.^n, goes to zero as n goes to
+infinity.
+37. Paul Samuelson explains the relationship of this model to the random walk model
+in his "Proof that properly discounted present values of assets vibrate randomly," in
+Hiroaki Nagatani and Kate Crowley, eds., The Collected Scientific Papers of Paul A.
+
+Samuelson, vol. 4 (MIT Press, 1977), pp. 465-70. It should be emphasized of course that
+there is no agreement on the precise definition ofthe term "efficient markets model" or
+whether it corresponds to equation 1. For example, in his well-known survey, Eugene
+Fama says only that "a market in which prices always 'fully reflect' available information
+is called 'efficient.' " The empirical work he discusses, however, tests the hypothesis that
+price changes or retums are unforecastable. See Eugene F. Fama, "Efficient Capital
+Markets: A Review of Theory and Empirical Work," Journal of Finance, vol. 25 (May
+1970), pp. 383-417.
+
+476
+
+Brookings Papers on Economic Activity, 2:1984
+
+model we might well predict real returns of 14 percent in one year and 2
+percent in another (these are one-standard-deviation departures from
+mean retum). In an unusual year we might predict a real retum of 19
+percent or - 3 percent (these are two-standard-deviation departures
+from the mean retum). Yet if the alternative model is true with thirty
+observations (thirty years of data) and one forecasting variable, the
+probability of rejecting market efficiency in a conventional F-test at the
+0.05 level is only 0.42. With two forecasting variables, the probability of
+rejecting is 0.32, and the probability becomes negligible as the number
+of explanatory variables is increased further.^^ As I have argued in a
+paper with Pierre Perron, increasing the number of observations by
+sampling more frequently while leaving the span in years of data
+unchanged may not increase the power of tests very much and may even
+reduce it.^'
+Someone may well wonder if there is not also some direct evidence
+that stock prices really do anticipate future dividends in the manner
+represented in equation 1. There is anecdotal evidence that the prices of
+some firms whose dividends can be forecasted to fall to zero (bankruptcy)
+or soar to new levels (breakthrough) do anticipate these movements.
+But these anecdotes do not show that there is not another component of
+the volatility of prices, a component that might dominate price movements in the stocks whose dividends are not so forecastable. For the
+aggregate stock market, there is no evidence at all that stock price
+movements have been followed by corresponding dividend movements.^
+Some may argue that the constancy of discount rates in equation 1
+may not be an appropriate feature for a general model of market
+efficiency. There are, of course, many variations on this model, such as
+the recent ''consumption beta'' models.^' It is not possible to address all
+38. These power computations are based on the usual assumption of normal residuals;
+as a result the conventional F-statistic is, under the altemative hypothesis, distributed as
+noncentral F, with k - \ and n - \ degrees of freedom and noncentrality parameter
+(n/2)/?V(l - /?2), where R^ is the theoretical coefficient of determination under the
+altemative hypothesis.
+39. See Robert J. Shiller and Pierre Perron, "Testing the Random Walk Hypothesis:
+Power vs. Frequency of Observation" (Yale University, 1984).
+40. See Robert J. Shiller, "Do Stock Prices Move Too Much to be Justified by
+Subsequent Changes in DmdendsV American Economic Review, vol. 71 (June 1981), pp.
+421-36.
+41. My own discussion of these and their plausibility in light of data may be found in
+Robert J. Shiller, "Consumption, Asset Markets and Macroeconomic Fluctuations," in
+
+Robert J. Shiller
+
+477
+
+these alternatives here. Equation 1 is chosen as the most commonplace
+version of the efficient markets theory and a version that seems to have
+figured most prominently in the arguments against market psychology.
+Moreover, arguments about the power of tests of equation 1 may well
+extend to some ofthe other variants ofthe efficient markets hypothesis.
+
+An Alternative Model
+
+Let us postulate the existence of smart-money investors who, subject
+to their wealth hmitations, respond quickly and appropriately to publicly
+available information. Consider a story that tells how they might alter
+the response ofthe market to the behavior of ordinary investors. This
+story is no doubt oversimplified and restrictive, but then so is the simple
+efficient markets model, with which it is to be compared.
+Smart-money investors in this model respond to rationally expected
+retums but to an extent limited by their wealth. Suppose that their
+demand for stock is linear in the expected return on the market (or if the
+model is applied to an individualfirm,the expected return on a share of
+thatfirm)over the next time period:
+9
+
+Here, Q, is the demand for shares by smart money at time / expressed as
+a portion ofthe total shares outstanding, and E,Rf is the expected return
+starting at time /, defined as it is above. The symbols p and cp represent
+constants. Thus, p is the expected real return such that there is no
+demand for shares by the smart money. The real return at which Qt = I
+is p + (p; that is, 9 is the risk premium that would induce smart money
+to hold all the shares. The terms p and cp reflect the risk aversion ofthe
+smart money as well as the total real wealth of those smart-money
+investors who have evaluated the stock, the riskiness ofthe stock, and
+characteristics of altemative investments.
+Ordinary investors include everyone who does not respond to expected returns optimally forecasted. Let us suppose that they overreact
+to news or are vulnerable to fads. We will not make assumptions about
+Karl Brunner and Allah H. Meltzer, eds., Economic Policy in a World of Change, Carnegie
+Rochester Conference Series in Public Policy, vol. 17 (Amsterdam: North-Holland, 1982),
+pp.203-38.
+
+478
+
+Brookings Papers on Economic Activity, 2:1984
+
+their behavior at all, but merely define Y, as the total value of stock
+demanded per share by these investors.'*^ Equilibrium in this market
+requires that Q, + YJPf = 1. Solving the resulting rational expectations
+model just as we did to derive equation 1 gives us the model
+00
+
+(3)
+
+(1 + p +
+
+so that real price is the present value, discounted at rate p + 9, of both
+the expected future dividend payments and cp times the expected future
+demand by ordinary investors. The limit of this expression as 9 goes to
+zero (that is, as smart money becomes more and more influential) is the
+ordinary efficient markets model that makes price the present value of
+expected dividends. The limit of this expression as 9 goes to infinity (as
+smart money becomes less and less influential) is the model P, = K,, so
+that ordinary investors determine the price.
+Equation 3 and the efficient markets model (equation 1) could be
+equally consistent with the usualfindingin the event-studies literature
+that announcements have their effect on returns as soon as the information becomes public and have little predictable effect thereafter.
+Equation 3 has, however, a very different interpretation for the jump in
+price that coincides with the announcement. Thejump does not represent
+only what the smart money thinks the announcement means for future
+dividends. It also represents what the smart money thinks the announcement means for the demand for stock by ordinary investors. Equation 3
+implies that the price effect of changes in the outlook for future dividends
+will be governed by equation 1 if F, is not also affected by these changes.
+However, if Y, is always positive, the discount rate p + cp in equation 3
+is necessarily greater than or equal to the expected return on the market,
+which is the discount factor in equation 1. If p + 9 is high, then factors
+affecting expectations of distant dividends will have relatively little effect
+on price today.
+The more persistent is the behavior of the variable F, through time
+(that is, the less we can expect changes in Y, to be offset by subsequent
+changes in the opposite direction), the less the moving average in
+expression 3 will reduce its variance and the more, in general, will be its
+influence on P,.
+42. That is, Y, is the total shares demanded at current price times current price divided
+by numberof shares outstanding. If we assume thatdemandelasticity by ordinary investors
+is unitary, we might regard Y, as exogenous to this model.
+
+Robert J. Shiller
+
+479
+
+I argued above that models of the diffusion of opinions suggest a
+number of possible patterns of response, among them a hump-shaped
+pattem in which Y, would rise for a while, level off, and then return to
+its normal level. The implication for real price P, of such a hump-shaped
+response of Y, to a piece of news depends on the time frame of the
+response relative to the discount rate p -H (p. Suppose the hump can be
+predicted to build up very quickly and dissipate, say, in a matter of
+weeks. Then equation 3 implies that there will be very little impact on
+price. The relatively long moving average in equation 3 will smooth over
+the hump in K, so that it is observed, if at all, only in a very attenuated
+form. The demand for shares by ordinary investors will show the humpshaped pattem as smart money sells shares to them at virtually unchanged
+prices only to buy the shares back after the ordinary investors have lost
+interest.
+If the hump-shaped pattem takes longer to evolve, the effect on price
+will be bigger. Then as soon as the news that gives rise to the humpshaped pattem becomes known to the smart money, the price of the
+stock will jump discontinuously. This jump will be instantaneous, taking
+effect as soon as the smart money realizes that the price will be higher
+in the future. After the initial jump, the effect ofthe news will be to cause
+the price of the stock to rise gradually as Y, approaches its peak (not so
+fast as to cause higher than normal retums after the lower dividend-price
+ratio is taken into account); the price will peak somewhat before y does
+and then decline. Returns, however, will tend to be low during the period
+of price rise.
+A more explicit yet simple example along these lines will illustrate
+why tests of market efficiency may have low power even if the market is
+driven entirely by fashions or fads. Suppose that the dividend Dt is
+constant through time, so that by the efficient markets model (equation
+1) price would always be constant. Suppose also that Y, = t/,_, + Ut-2
++ . . . + Ut-n, where Ut is white noise, that is, t/, is uncorrelated with
+Ut-k for all k not equal to zero. Suppose current and lagged values for U
+are in the information set ofthe smart money. Here, F responds to an
+observed shock in U with a rising, then falling (or square hump) pattern.
+Under these assumptions, K,+ i - Yf is perfectly forecastable based on
+information at time t. However, Pt+\ - Pt will be hardly forecastable
+from information at time /. It follows from equation 3 that P, will equal a
+constant plus a moving average of U with substantial weight on U,. The
+theoretical R^ in a regression of Pt+\ - Pt on P, is only 0.015 for the case
+
+480
+
+Brookings Papers on Economic Activity, 2:1984
+
+n = 20 years, p = 0, and 9 = 0.2. If one included all information (the
+current and twenty lagged C/values) in the regression, the theoretical/?2
+would rise, but only to 0.151. If the C/, are for each / uniformly distributed
+from 0 to 1, and if the constant dividend is 0.5 (so that the mean dividend
+price ratio is 4 percent) then the theoretical R^ (as estimated in a Monte
+Carlo experiment) in a regression ofthe return R, on D,/Pi is only 0.079.
+Let us now consider three altemative extreme views ofthe behavior
+of Y,: that it responds to exogenous fads whose origin is unrelated to
+relevant economic data, that it responds to lagged returns, and that it
+responds to dividends.
+Thefirstextreme view is that K, is independent of current and lagged
+dividends; it is exogenous noise caused by capricious fashions or fads.
+In this view, Y, may respond systematically to vivid news events (say,
+the president suffering a heart attack) but not to any time-series data that
+we observe. It is reasonable also to suppose that Y, is a stationary
+stochastic process in that it tends to return to a mean. Thus, if demand
+by ordinary investors is high relative to the mean of Y, it can be expected
+eventually to decline. If dividends vary relatively little through time, an
+argument can then be made that would suggest that return is positively
+correlated with the dividend-price ratio DJP,. In the next section this
+correlation will be examined with data.
+The second extreme view is that Y, responds to past retums, that is,
+Y, is a function of/?,_i, Rt-2, and so on. Together with equation 2 this
+gives a simple rational expectations model whose only exogenous
+variable is the dividend D,. If we were to specify the function relating Y,
+to past returns and specify the stochastic properties of D^, we would be
+left with a model that makes P, driven exclusively by D,. Depending on
+the nature ofthe function and the stochastic properties of D,, price may
+overreact to dividends relative to equation 1.
+The third extreme view is that Y, responds directly to current and
+lagged dividends, that is, Y, is directly a function of D,, D,_,, D,_2, and
+so on. For example, dividend growth may engender expectations of
+future real dividend growth that are unwarranted given the actual
+stochastic properties ofD,. Such expectations might also cause price to
+overreact to dividends relative to equation 1. Such an overreaction (to
+dividends as well as to eamings) will be studied econometrically below.
+My suggestions about the possible behavior of Y, are perhaps too
+extreme and special to provide the basis for serious econometric mod-
+
+Robert J. Shiller
+
+481
+
+eling now. However, these possibilities and equation 3 provide the
+motivation for some exploratory data analysis.
+
+An Exploratory Data Analysis
+STOCK PRICES APPEAR TO OVERREACT TO DIVIDENDS
+
+Aggregate real stock prices are fairly highly correlated over time with
+aggregate real dividends. The simple correlation coefficient between the
+annual (January) real Standard and Poor's composite stock price index
+P and the corresponding annual real dividend series D between 1926 and
+1983 is 0.91 (figure l).''^ This correlation is partly due to the common
+trend between the two series, but the trend is by no means the whole
+story. The correlation coefficient between the real stock price index P
+and a linear time trend over the same sample is only 0.60.'*^ Thus, the
+price of the aggregate stock market is importantly linked to its dividends,
+and much of the movements of the stock market that we often regard as
+inexplicable can be traced to movements in dividends. One reason that
+most of us are not accustomed to thinking of the stock market in this
+way is that most of the data series cover a smaller time interval (years
+rather than the decades shown in the figure) and sample the data more
+frequently (monthly, say, rather than the annual rate shown in the figure).
+The correlation coefficient between real price and real dividends might
+be much lower with data from the smaller, more frequently sampled time
+interval or might appear to be more dominated by trend.
+The correlation between real price P and the real earnings series Efor
+1926 to 1983 is 0.75. This number is closer to the correlation ofP with a
+linear time trend. Although the correlation coefficient between P and D
+is fairly high, the real price is substantially more volatile than the real
+dividend. If P is regressed on D with a constant term in the 1926-83
+sample period, the coefficient of D is 38.0 and the constant term is - 0.28.
+The average price-dividend ratio P/D in this sample is 22.4. The real
+43. The correlation of P with D for the years 1871-1925 was 0.84. In this paper,
+dividend and eamings series before 1926 are from the book which originated what is now
+called the Standard and Poor's composite stock price index: Alfred Cowles and Associates,
+Common-Stock Indexes, 1871-1937 (Principia Press, 1938), series Da-1 and Ea-1. All
+series are deflated by the producer price index (January starting 1900, annual series before
+1900), where 1967 = 100.
+44. The correlation of i» with time for 1871 to 1925 was 0.43.
+
+482
+
+Brookings Papers on Economic Activity, 2:1984
+
+price moves proportionally more than the real dividend, and as a result
+P/D tends to move with real prices. The correlation in this sample of P/D
+with P (0.83) and with D (0.67) is strong enough that it can be seen in the
+figure. The volatility of stock prices relative to dividends is another
+reason why we tend not to view the stock market as driven so closely by
+dividends.
+One would think that if the efficient markets model (equation 1) is
+true, the price-dividend ratio should be low when real dividends are high
+(relative to trend or relative to the dividends' average value in recent
+history) and high when real dividends are low. One would also think that
+the real price, which represents according to equation 1 the long-run
+outlook for real dividends, would be sluggish relative to the real dividend.
+Therefore, short-run movements in the real dividend would correspond
+to short-run movements in the opposite direction in the price-dividend
+ratio.
+The observed perverse behavior of the price-dividend ratio might be
+described as an overreaction of stock prices to dividends, if it is correct
+to suppose that dividends tend to retum to trend or retum to the average
+of recent history. This behavior of stock prices may be consistent with
+some psychological models. Psychologists have shown in experiments
+that individuals may continually overreact to superficially plausible
+evidence even when there is no statistical basis for their reaction.''^ Such
+an overreaction hypothesis does not necessarily imply that the ultimate
+source of stock price movements should be thought of as dividends or
+the earnings offirms.Dividends are under the discretion of managers.^
+John Lintner, after a survey of dividend setting behavior of individual
+firms, concluded thatfirmshave a target payout ratio from eamings but
+also feel that they should try to keep dividends fairly constant through
+time.^^ In doing this, managers, like the public, are forecasting eamings
+and may become overly optimistic or pessimistic. In reality, the divi45. See for example Amos Tversky and Daniel Kahneman, ''Judgment under Uncertainty: Heuristics and Biases," Science, vol. 185 (September 1974), pp. 1124-31.
+46. Marsh and Merton claimed that dividends are detennined by management's optimal
+forecast of long-run eamings. See Terry A. Marsh and Robert C. Merton, "Aggregate
+Dividend Behavior and Its Implications for Tests of Stock Market Rationality," Working
+Paper 1475-83 (Massachusetts Institute of Technology, Alfred P. Sloan School of Management, September 1983).
+47. See John Lintner, "Distribution of Incomes of Corporations among Dividends,
+Retained Eamings, and Taxes," American Economic Review, vol. 46 (May 1956, Papers
+and Proceedings, 7955), pp. 97-113.
+
+Robert J. Shiller
+
+483
+
+dends and stock prices may both be driven by the same social optimism
+or pessimism, and the "overreaction" may simply reflect a greater
+response to the fads in price than in dividends. The apparent response
+of price to earnings could also be attributed to the same sort of effect to
+the extent that reported earnings themselves are subject to the discretion
+of accountants. Fisher Black has claimed that the change in accounting
+practices through time might be described as striving to make earnings
+an indicator of the value of the firm rather than the cash flow.^^ An
+individual firm is substantially constrained in its accounting practices,
+but the accounting profession's concept of conventional accounting
+methods may be influenced by notions of what is the proper level of
+aggregate earnings, and these notions may be influenced by social
+optimism or pessimism.
+The relation between real price and real dividend can be described
+perhaps more satisfactorily from a distributed lag regression of P on D,
+that is, a regression that predicts P as a weighted moving average of
+current and lagged D. One sees from rows one and two of table I that
+when the real price is regressed with a thirty-year distributed lag on
+current and lagged real dividends, the current real dividend has a
+coefficient greater than the average price-dividend ratio (22.6 for this
+sample), and the sum ofthe coefficients ofthe lagged real dividends is
+negative. The sum of all coefficients of real dividends, current and
+lagged, is about the average price-dividend ratio. Thus, this equation
+implies that the price tends to be unusually high when real dividends are
+high relative to a weighted average of real dividends over the past thirty
+years and low when dividends are low relative to this weighted average.
+Rows 5 and 6 of table 1 show the same regression but with real
+earnings as the independent variable. The coefficient of current earnings
+is less than the average price-earnings ratio (13.0 for this sample).
+Compared with dividends, earnings show more short-run variability;
+therefore these results do not contradict a notion that prices overreact
+to earnings as well as to dividends. The lower 7?^ in this regression might
+be regarded as a reflection of the fact that dividends are not really well
+described by the Lintner model, which made dividends a simple distributed lag on earnings."*' The R} is high enough that some major movements
+in stock prices are explained by this regression. For example, the decline
+48. See Fisher Black, * 'The Magic in Earnings: Economic Earnings versus Accounting
+Earnings," Financial Analysts Journal {t^owQmhQX-Y^tctmbti 1980), pp. 19-24.
+49. Ibid.
+
+t<>
+
+VD
+
+ON
+
+•
+
+B
+
+•
+
+o
+
+o
+
+o
+
+00
+
+o
+
+00
+
+o
+
+oo
+
+I
+
+Ss
+
+—
+
+o
+o
+
+NO
+
+15::
+
+vS
+
+o
+
+^I
+
+—
+
+3
+
+o
+
+o
+
+1^
+
+"I
+ON
+
+i
+
+*
+
+I
+
+^
+Oo
+
+V :s
+
+I
+
+VO ON
+VO OO
+
+^
+
+-Si
+
+-Si
+
+•2
+
+•2
+
+d 00
+
+I
+oo
+
+ON
+
+I
+
+I
+
+-^
+
+4>
+
+I
+
+ON
+
+I
+
+oo 00
+
+,^
+
+o
+I
+
+I
+
+^
+ON
+
+I
+*~
+
+•»...
+
+ItillI
+
+Ef
+
+•HI
+
+00
+
+VO O\
+•
+
+I 'I
+
+o <s o
+II
+
+I
+
+o ^
+
+I
+
+ON
+
+•
+
+I
+
+I
+
+o —
+
+^4 VO
+
+•^ O
+
+c> rj
+
+d r^, d
+
+I
+
+O
+
+B 3'*'
+
+1
+
+I
+
+1
+
+1
+00
+
+00
+
+I
+
+2
+
+00
+
+00
+
+00
+
+I
+O
+
+>«
+
+Robert J. Shiller
+
+485
+
+in earnings between 1929 and 1933 explains more or less the decline in P
+over that period (the regression had positive residuals in all these years).
+While the reasons for the market decline on particular days in 1929 may
+forever be a mystery, the overall market decline in the depression is
+explained fairly well as a reaction (or an overreaction) to eamings.
+It is important to investigate whether the pattem of coefficients in
+rows 1 or 2 (or 5 or 6) of table 1 might be optimal given equation 1. The
+easiest test of equation 1 suggested by the pattem of reaction of real
+prices to real dividends documented here is to regress future retums on
+current and lagged dividends. The efficient markets model of equation 1
+implies that retums are unforecastable and the overreaction alternative
+suggests that D can be used to forecast retums. Such a distributed lag
+appears in row 3 of table 1. The coefficient of the current dividend is
+negative and the sum ofthe coefficients ofthe remaining lagged dividends
+is positive. Indeed, as our overreaction story would suggest, when
+dividends are high relative to a weighted average of lagged dividends (so
+that stocks are by this interpretation overpriced) there is a tendency for
+low subsequent retums. An F-test on all coefficients but the constant
+shows significance at the 5 percent level.^^ A similar pattem of coefficients found when E replaced D in the regression (row 7) suggests a
+similar overreaction for eamings, but the result is significant only at the
+9 percent level.
+By looking at the time-series properties of real dividends, one can
+better see why the pattem of reaction of prices to dividends causes
+retums to be forecastable. The class of models by Box and Jenkins that
+employ autoregressive integrated moving averages (ARIMA) has been
+very popular, and it would be instructive to see how the real dividend
+series could be represented by a model in this class.^^ Unfortunately,
+time-series modeling methods are partly judgmental and do not lead all
+researchers to the same model. In applying such methods one must
+decide whether to detrend the data prior to data analysis. In previous
+work I estimated a first order autoregressive model for the log of
+50. Tests for heteroskedasticity as proposed by Glejser were run using D, time, and a
+cubic polynomial in time as explanatory variables. Heteroskedasticity appeared remarkably absent in this regression. See H. Glejser, "A New Test for Heteroskedasticity,*'
+Journal of the American Statistical Association, vol. 64 (March 1969), pp. 316-23.
+51. George E. P. Box and Gwylim M. Jenkins, Time Series Analysis, Forecasting and
+Conrro/(Oakland, Calif.: Holden-Day, 1977).
+
+486
+
+Brookings Papers on Economic Activity, 2:1984
+
+dividends around a deterministic linear trend. In this model, with the
+same annual real dividend series used here, the coefficient of lagged log
+dividends for 1872-1978 was 0.807, which implies that dividends always
+would be predicted to return half the way to the trend in about three
+years.^2 jhis result does not appear sensitive to the choice of price
+deflator used to deflate dividends. Taking account ofthe downward bias
+ofthe least squares estimate ofthe autoregressive coefficient, one can
+reject by a Dickey-Fuller test at the 5 percent level the null hypothesis
+of a random walk for log dividends in favor ofthe first order autoregressive model around a trend. Some, however, find models with a deterministic trend unappealing and prefer models that make dividends
+nonstationary. With a model of nonstationary dividends one can handle
+the apparent trend by first-differencing the data. The following model
+was estimated with the real annual 1926-83 Standard and Poor's dividend
+data.
+(4)
+
+AD, = 3.285 X 10-^ 4- 0.850AD,_, + u,
+(1.498)
+(11.753)
+u, = a, -0.981a,_i,
+(-69.434)
+
+where at is a serially uncorrelated zero mean random variable. This is
+what Box and Jenkins called an ARIM A (1,1,1) model. It merely asserts
+that the change in real dividend is a linear function of its lagged value
+plus an error term, u,, that is a moving average of a,. The r-statistics, in
+parentheses, are misleading in that the likelihood function for this model
+has other modes with almost the same likelihood but very different
+parameter estimates. However, this model will suffice to tell how it might
+be plausible, given the past behavior of dividends, to forecast future
+dividends. This model cannot be rejected at usual significance levels
+with the usual Ljung-Box Q-test. It is noteworthy that when the same
+model was estimated with the sample period 1871-1925, almost the same
+parameter values emerged: the coefficient of AZ);_i was 0.840 and the
+coefficient of a, _ I was -0.973.
+This estimated model is one that exhibits near parameter redundancy:
+the coefficient of a,_i is so close to - 1 that the moving average on a,
+52. See Robert J. Shiller, "The Use of Volatility Measures in Assessing Market
+Efficiency:' Journal of Finance, vol. 36 (May 1981), pp. 291-304.
+
+Robert J. Shiller
+487
+almost cancels against the first-difference operator. In other words, this
+model looks almost like a simple first order autoregressive model for
+dividends with coefficient on the lagged dividend of 0.850. It is more
+accurate to describe this model as a first order autoregressive model
+around a moving mean that is itself a moving average of past dividends.
+One can write the one-step-ahead optimal forecast of Dt implied by
+equation 4 in the following form:
+i = 0.869A + 0.13IM, + 0.173
+t = (1-0.981)
+where M, is a moving average of dividends with exponentially declining
+weights that sum to one. Since 0.981 is so close to 1.00, the moving
+average that defines M, is extremely long (0.981 even to the twenty-fifth
+power is 0.619), and thus the term M, does not vary much over this
+sample. Thus, for one-step-ahead forecasts this model is very similar to
+afirstorder autoregressive model on detrended dividends.
+If real dividends are forecasted in accordance with equation 5, then
+equation 1 (with discount rate 8 = 0.080) would imply (using the chain
+principle of forecasting) that stock prices should be a moving average of
+dividends given by
+(6)
+
+Pr = 5.380A + 7.120M, + 11.628.
+
+Note that the distant past has relatively more weight in determining the
+price today (a weighted average of expected dividends into the infinite
+future) than it does in determining the dividend next period. This model
+thus accords with the intuitive notion that to forecast into the near future
+one need look only at the recent past, but to forecast into the distant
+future one need look into the distant past. Equation 6 implies that P,,
+just as Dt, is an ARIMA (1,1,1) process.^^ If I had modeled the real
+dividend series as a first-order autoregressive model around a trend,
+then P, would be a weighted average of D, (with about the same weight
+as in equation 6) and a trend.
+Equation 6 is very different from the estimated relation between P
+and D. The coefficient of Z>, in equation 6 is 5.380, which is far below the
+53. For this result in a more general form, see John Y. Campbell, "Asset Duration and
+Time-Varying Risk Premia" (Ph.D. dissertation, Yale University, 1984).
+
+488
+
+Brookings Papers on Economic Activity, 2:1984
+
+estimated value in rows 1 or 2 of table 1. The coefficients of the lagged
+dividends sum to a positive number, not a negative number.
+In summary, it appears that stock prices do not act, as they should,
+like a smoothed transformation of dividends over the past few decades.
+Instead dividends look like an amplification ofthe departure of dividends
+from such a transformation. It is as if the optimism of investors is too
+volatile, influenced by departures from trends rather than by the trends
+themselves.
+FORECASTING REGRESSIONS THAT EMPLOY DIVIDEND-PRICE
+AND EARNINGS-PRICE RATIOS
+
+The most natural test of equation 1 is to regress return R, on information available to the public at time t. Analogous tests of related models
+might regress excess returns on information at time /, or regress riskcorrected retums on information at time t. If the F-statistic for the
+regression (that is, for the null hypothesis that all coefficients save the
+constant term are zero) is significant, then we will have rejected the
+model. The simplest such tests use only price itself (scaled, say, by
+dividing it into eamings or dividends) as an explanatory variable and use
+the conventional r-statistic to test the model. If fads cause stocks to be
+at times overpriced, at times underpriced, and if these fads come to an
+end, then we would expect a high dividend-price or eamings-price ratio
+to predict high returns and a low dividend-price or earnings-price ratio
+to predict low returns. This would mean that the most naive investment
+strategy, buy when price is low relative to dividends or earnings and sell
+when it is high, pays off.
+However, it is not easy to carry out such simple tests. One confronts
+a number of econometric problems: the independent variable is not
+'*nonstochastic," so that ordinary r-statistics are not strictly valid; the
+error term appears nonnormal or at least conditionally heteroskedastic;
+and risk correction, if it is employed, is not a simple matter. There is no
+agreed-upon way to deal with such problems, and I will not attempt here
+to deal rigorously with them. It is, however, worthwnile to note that high
+dividend-price or eamings-price ratios do seem to be correlated with
+high retums.
+Whether stocks with a high eamings-price ratio will have a relatively
+high retum has been the subject of much discussion in the literature. It
+was confirmed that there is a simple correlation across firms between
+
+Robert J. Shiller
+
+489
+
+such ratios and returns.^'' The question then arose, Can such a phenomenon be explained within the framework of the capital asset pricing
+model if there happens to be a positive correlation between the ratio and
+the beta ofthe stocks, or does firm size, which correlates with the ratio,
+affect expected returns? Recently, Sanjoy Basu concluded that riskadjusted returns are positively correlated with the earnings-price ratio
+even after controlling for firm size.^^ As Basu notes, however, his tests
+depend on the risk measurement assumed.
+It is apparently accepted today in the finance profession that expected
+returns fluctuate through time as well as across stocks. These results are
+interpreted as describing the time variation in the '*risk premium.''
+The dividend/price ratio or earnings/price ratio has not figured prominently in this literature. Instead the variables chosen for forecasting
+were such things as the infiation rate,^^ the spread between low-grade
+and high-grade bonds," or the spread between long-term and short-term
+bonds.5^
+Table 2 shows that a high dividend-price ratio (total Standard and
+Poor's dividends for the preceding year divided by the Standard and
+Poor's composite index for July of the preceding year) is indeed an
+indicator of high subsequent returns.^^ Thus, for example, the equation
+in row 1 asserts that when the dividend-price ratio (or "current yield")
+is one percentage point above its mean, the expected return on the stock
+is 3.588 percentage points above its mean. Thus, the high current yield
+is augmented by an expected capital gain that is two and a half times as
+dramatic as the high current yield. In contrast, equation 1 would predict
+that a high current yield should correspond to an expected capital loss
+54. See for example Francis Nicholson, "Price Ratios in Relation to Investment
+Results,'' Financial Analysts Journal, vol. 24 (January-February 1968), pp. 105-09.
+55. See Sanjoy Basu, "The Relationship between Earnings' Yield, Market Value and
+Return for NYSE Common Stocks: Further Evidence," JoMrna/ of Financial Economics,
+vol. 12 (June 1983), pp. 129-56.
+56. See Eugene F. Fama and G. William Schwert, "Asset Retums and Inflation,"
+Journal of Financial Economics, vol. 5 (November 1977), pp. 115-46.
+57. See Donald B. Keim and Robert F. Stambaugh, "Predicting Retums in the Stock
+and Bond Markets," University of Pennsylvania, 1984.
+58. See John Y. Campbell, "Stock Retums and the Term Structure" (Princeton
+University, 1984).
+59. There is evidence that the strategy of holding stocks with high dividend-price ratios
+has actually paid off for those investors who followed it. See Wilbur G. Lewellen, Ronald
+C. Lease, and Gary C. Schlarbaum, "Investment Performance and Investor Behavior,"
+Journal of Financial and Quantitative Analysis, vol. 14 (March 1979), pp. 29-57.
+
+490
+
+Brookings Papers on Economic Activity, 2:1984
+
+Table 2. Forecasting Returns Based on the Dividend-Price Ratio, Selected Periods,
+1872-1983'
+Sample statistic
+
+Constant
+
+Coefficient
+of dividendprice ratio
+
+1872-1983"
+
+-0.10
+(-1.52)
+
+3.59
+(2.85)
+
+0.06
+
+1.85
+
+0.17
+
+1872-1908"
+
+-0.02
+(-0.20)
+
+2.26
+(0.96)
+
+0.00
+
+2.05
+
+0.14
+
+1909-45"
+
+-0.14
+(-0.88)
+
+3.89
+(1.42)
+
+0.03
+
+1.46
+
+0.21
+
+1946-83"
+
+-0.16
+(-1.70)
+
+5.23
+(2.62)
+
+0.14
+
+1.80
+
+0.17
+
+1889-1982=
+
+-0.13
+(-1.94)
+
+4.26
+(3.15)
+
+0.09
+
+1.85
+
+0.17
+
+1926-82'!
+
+-0.17
+(-1.73)
+
+5.26
+(2.71)
+
+0.10
+
+2.01
+
+0.21
+
+Sample
+period
+
+R^
+
+DurbinWatson
+
+Standard
+error
+
+a. Numbers in parentheses are r-statistics. The stock price index throughout is the Standard and Poor's composite
+stock price index. The dependent variable is the real return on the stock price index from January of the year to
+January of the following year (average for the month) except where otherwise noted. The retum is the sum of the
+change in the stock price index plus Standard and Poor's four-quarter total of the composite dividends per share as
+adjusted to the stock price index, all divided by the stock price index. The independent variable is total dividends
+in the preceding year (which is Standard and Poor's four-quarter total of the composite dividends as adjusted to the
+stock price index) divided by the stock price index for July of the preceding year.
+b. Price deflator is the producer price index.
+c. Price deflator is the consumption deflator for nondurables and services.
+d. Nominal retums were cumulated for the end of January until the end of January of the following year from
+monthly data in "Common Stocks Total Retums." Roger Ibbotson and Associates; the price deflator is the January
+producer price index.
+
+to offset the current yield. The efficient markets hypothesis thus appears
+dramatically wrong from this regression: stock prices move in a direction
+opposite to that forecasted by the dividend-price ratio. This is true in
+every subperiod examined.^
+In table 3, rows 1 through 5 show analogous regressions with the
+earnings-price ratio (total Standard and Poor's earnings for the preceding
+year divided by the Standard and Poor's composite index for July ofthe
+preceding year) in place of the dividend-price ratio. These forecasting
+regressions work in the same direction (price low relative to eamings
+implies high returns) but are less significant.^'
+60. The same regressions were run using a different price deflator (row five of table 2)
+and a different measure of retum (row six of table 2) with little change in results.
+61. The lower significance appears to be due to the relatively noisy behavior ofthe
+annual eamings series. If the eamings-price ratio is computed as the average annual
+Standard and Poor's eamings for the preceding thirty years divided by the Standard and
+
+491
+
+Robert J. Shiller
+
+Table 3. Forecasting Returns Based on the Earnings-Price Ratio, Selected Periods,
+1872-1983*
+
+Sample
+period
+
+Constant
+
+Coefficient
+of earningsprice ratio
+
+Sample statistic
+
+R-
+
+DurbinWatson
+
+Standard
+error
+
+1872-1983
+
+0.01
+(0.24)
+
+0.85
+(1.41)
+
+0.01
+
+1.90
+
+0.18
+
+1872-1908
+
+0.00
+(0.02)
+
+1.28
+(0.63)
+
+-0.02
+
+2.16
+
+0.15
+
+1909-45
+
+0.08
+(0.72)
+
+0.03
+(0.02)
+
+-0.03
+
+1.59
+
+0.21
+
+1946-83
+
+-0.09
+(-1.09)
+
+1.86
+(2.13)
+
+0.09
+
+1.71
+
+0.17
+
+0.01
+(0.19)
+
+0.78
+(1.24)
+
+0.01
+
+1.96
+
+0.18
+
+-0.04
+(-0.68)
+
+1.57=
+(2.38)
+
+0.05
+
+1.81
+
+0.19
+
+1889-1982
+1901-83"
+
+a. Numbers in parentheses are /-statistics. Dependent and independent variables and price deflators are as in table
+2, with eamings in place of dividends.
+b. Price deflator is the producer price index.
+c. Earnings-price ratio is computed by forming the average real eamings for the previous thirty years (not counting
+the cufTent year) and then dividing by the real stock price index for January of the current year.
+
+EXCESS VOLATILITY OF STOCK PRICES
+
+Regression tests ofthe efficient markets model may not fully characterize the way in which the model fails. A simpler and perhaps more
+appealing way to see the failure ofthe model represented by equation 1
+follows by observing that stock prices seem to show far too much
+volatility to be in accordance with the simple model.^^The most important
+criticism ofthe excess volatility claim centers on the claim's assumption
+that stock prices are stationary around a trend ofthe dividend series.^^
+Here I discuss the volatility tests in light of this criticism and present
+Poor's composite index for January ofthe current year (row six of table 3), then the relation
+between retums and the earnings-price ratio looks more impressive.
+62. The arguments for excess volatility in financial markets were put forth independently by Stephen F. LeRoy and Richard D. Porter, "The Present-Value Relation: Tests
+Based on Implied Variance Bounds," Econometrica, vol. 49 (March 1981), pp. 555-74,
+and by me in several papers beginning with "The Volatility of Long-Term Interest Rates
+and Expectations Models ofthe Term Structure," Journal of Political Economy, vol. 87
+(December 1979), pp. 1190-1219, and in "Do Stock Prices Move too Much."
+63. In the case of LeRoy and Porter, the eamings series, instead ofthe dividend series,
+was assumed to be stationary.
+
+492
+
+Brookings Papers on Economic Activity, 2:1984
+
+tests in a slightly different form that deals better with the issue of
+nonstationarity.
+I showed that if the dividend D, is a stationary stochastic process,
+then the efficient markets model (equation 1) implies the variance
+inequality
+(7)
+
+" (28)0-5
+
+that is, that the standard deviation ofthe change in price P - P.iis less
+than or equal to the standard deviation ofthe dividend D divided by the
+square root of twice the discount factor.^ If we know the standard
+deviation of D, then there is a limit to how much P - P.i can vary if
+equation 1 is to hold at all times. If the market is efficient, then price
+movements representing changes in forecasts of dividends cannot be
+very large unless dividends actually do move a lot. The discount factor
+8 is equal to the expected return £(/?,), which can be estimated by taking
+the average return. Before we can use this inequality to test the efficient
+markets model, we must somehow deal with the fact that dividends
+appear to have a trend; in an earlier paper, I handled the problem by
+multiplying prices and dividends by an exponential decay factor as a
+way to detrend them. This method of detrending has become a source
+of controversy. Indeed, as I noted in the original paper, the trend in
+dividends may be spurious, and dividends may have another sort of
+nonstationarity that is not removed by such detrending.^^ Thus, violating
+inequality 7 in these tests should not be regarded by itself as definitive
+evidence against equation 1. Most ofthe criticism ofthe variance-bounds
+inequality has centered on this point.^ On the other hand, the violation
+of the variance inequality does show that dividend volatility must be
+potentially much greater than actually observed historically (around a
+trend or around the historical mean) if the efficient markets model is to
+64. Shiller, "Do Stock Prices Move Too Much."
+65. ShiUer, "The Volatility of Long-Term Interest Rates."
+66. For example, see Maijorie A. Flavin, "Excess Volatility in the Financial Markets:
+A Reassessment of the Empirical Evidence," Journal of Political Economy, vol. 91
+(December 1983), pp. 929-56; Allan W. Kleidon, "Variance Bounds Tests and Stock Price
+Valuation Models" (Stanford University, Graduate School of Business, 1983); and Terry
+A. Marsh and Robert C. Merton, "Dividend Variability and Variance Bounds Tests for
+the Rationality of Stock Market Prices," Working Paper 1584-84 (Massachusetts Institute
+of Technology, Alfred P. Sloan School of Management, August 1984).
+
+Robert J. Shiller
+
+493
+
+Table 4. Sample Statistics for Detrended Price and Dividend Series, Selected Periods,
+1871-1984'
+Sample
+period
+1877-1984
+1887-1984
+1902-1984
+
+Left-hand side of
+inequality
+
+Right-hand side of
+inequality
+
+(T{P5 - P5-i)
+= 2.83
+(T{P\5 - P15_,) = 2.93
+a(/'3O - F30_,) = 3.39
+
+tT(£>5)/(28)"^ = 3.52
+a(I>15)/(28)"^ = 1.64
+a(D30)/(28)°' = 1.38
+
+Source: Equations 7-10.
+a. The variables P5, PIS, and ^30 are the real stock price index detrended by dividing by the 5-year, 15-year, and
+30-year geometric average of lagged real earnings respectively; a denotes sample standard deviation. The variables
+DS, D\S, and D30 are the corresponding dividend series as defined in the text. The constant 6 equals 0.08. the
+average real retum on the Standard and Poor's composite stock price index over the entire period 1871-1983.
+
+hold; and this fact can be included among other factors in judging the
+plausibility ofthe efficient markets model.
+Table 4 displays the elements of the above inequality but with the
+data detrended in a different and perhaps more satisfactory manner that
+depends only on past information. Let us define detrended price series
+P5, P15, and P30 and corresponding dividend series D5,D\5, and D30
+by
+(8)
+
+P,
+
+Pk,
+
+isKf
+
+fc = 5,15,30
+
+and
+k
+'
+
+( 1
+
+^' + P
+Nk,
+• "\Nk,
+
+1
+
+Nk,J
+
+\
+
+= 5-'5.30,
+
+where
+k
+
+(10)
+
+Nk,=
+
+11
+
+'^t-j
+
+* = 5, 15,30.
+
+The detrended price and dividend series have the following property:
+returns calculated with Pk and Dk in place of P and D in the formula for
+retum R, are the same as if P and D had been used. Thus, if equation 1
+holds for P, and D,, then equation 1 holds where Pk, and Dk, replace P,
+and D,, and the same variance inequality 7 should hold for Pk and Dk.
+One can think of Pk and Dk as the price and dividend, respectively, of a
+share in a mutual fund that holds the same fixed portfolio (whose price
+is P, and whose dividend is D,) but buys back or sells its own shares so
+that it always has Nk, shares outstanding. The variable Nk, is a geometric
+moving average of lagged real earnings. This may cause the dividend of
+the mutual fund to be stationary even if the dividend Dt is not. A plot of
+
+494
+
+Brookings Papers on Economic Activity, 2:1984
+
+D30, for example, shows no apparent trend and does not look unstationary. If, for example, the natural log of £ is a Gaussian random walk and
+is thus nonstationary, and if D, = £,, then Pkf will be a stationary
+lognormal process, and Dk, will be the sum of stationary lognormal
+processes.^^ We see from table 4 that inequality 7 is not violated for
+^ = 5 but is violated for ^ = 15 and k = 30. The detrending factor Nk,
+gets smoother as k increases.
+IMPLICATIONS OF THE FORECASTING EQUATIONS
+IN CONNECTION WITH THE MODEL
+
+If we choose hypothetical values for p and cp in equation 2, we can use
+one ofthe equations forecasting/?, and produced in tables 1 through 3 to
+estimate the paths through time of Qt and Yt. Such an estimate will be
+admittedly quite arbitrary, and of course these forecasting regressions
+are not prima facie evidence that it would be "smart" to behave as will
+be supposed here. Considering such an estimate may nonetheless give
+some insights into the plausibility of the alternative model. We leam
+immediately in doing this that 9 must be very large if swings in Qt, the
+proportion of shares held by smart-money investors, are not to be
+extraordinarily large. This problem arises because stock prices are
+actually quite forecastable: the standard deviation ofthe expected return
+implied in many of the forecasting equations is so large that unless 9 in
+equation 2 is large, g, will often move far out ofthe zero-to-one range.
+Figure 2 shows a hypothetical example with estimated values of F,
+and Qt implied by equation 2 and the forecasting equation based on the
+dividend-price ratio in row 1 of table 2 for p = 0 and cp = 0.5. Also
+shown is the real price P,. For these values of p and <p, g, is always
+positive and thus Yt is always less than P,. The demand for shares by
+ordinary investors, F,, looks on the whole fairly similar to the price P,
+itself. This arises because the forecasting equation is related to the
+dividend-price ratio and because dividends are fairly sluggish, so that Qt
+itself resembles the reciprocal of P^ However, Yt is somewhat more
+volatile than P,, showing a tendency to be lower proportionally at lows
+67. If log D, - log A-1 = u,, where u is serially uncorrelated and normal with zero
+mean and variance s^, then £, A+* = A/«*. where h = exp(j2/2). Calling g = 1/(1 + 8), then
+ifhg<\,ii
+follows from equation 1 that P, = gD,/(\ - hg). Substituting this into equation
+8 and using equation 10 will provide the stationarity result for PA: and Dk noted in the text.
+
+495
+
+Robert J. Shiller
+Figure 2. Hypothetical Demand for Shares by Ordinary Investors
+and Smart-Money Investors
+100
+
+Ordinary investors' demand for shares**
+0
+
+Smart-money investors' demand for shares
+
+1926
+
+1935
+
+1945
+
+1955
+
+1965
+
+1975
+
+1984
+
+a. Real stock price index (/*,), as described in figure I, notes a and b.
+b. The hypotheticaJ demand for shares by ordinary investors, equal to P^\ - Q,). where Q, is the hypothetical
+demand Tor shares by smart-money investors.
+c. The variable Q, from equation 2 with p = 0 and if = O.S and based on the forecasting equation for retums in
+row 1 of table 2.
+
+and higher proportionally at highs. The overreaction to dividends is
+more pronounced in F, than in P,. The presence of smart money thus
+serves to mitigate the overreaction of ordinary investors. The year 1933
+stands out for a very large proportion of smart-money investors and a
+low proportion of ordinary investors. This was the year when the
+dividend-price ratio reached an extreme high and when the highest
+retums were forecasted. The late 1950s and early 1960s were times of
+low demand by smart-money investors: the dividend-price ratio was low
+
+496
+
+Brookings Papers on Economic Activity, 2:1984
+
+then and so they were "smart" ex ante to get out ofthe market, though
+of course ex post they would have liked to have stayed in the market.
+The demand by smart money is currently neither high nor low because
+the dividend-price ratio is not far from its historical average. The
+weighted average return (IQ,R,/1,Q,) for 1926 to 1983 was 12.9 percent,
+in contrast to the average return (mean of R,) for this period of 8.2
+percent.
+The volume of trade implied by the movements in and out of shares
+by smart money between t and / + 1 is | Q/+1 - Q/ |; the average value
+of this measure for the sample shown infigure2 is 0.055. In this sample,
+the New York Stock Exchange turnover rate (reported annual share
+volume divided by average of shares listed) was between 9 percent (1942)
+and 42 percent (1982), except for the early depression years, when
+turnover was extremely high.^ Thus, the story told infigure2 is not one
+of an implausibly high volume of trade. Because corporate stock constitutes less than one-third of all wealth, we are also not talking about
+implausibly large wealth movements on the part of smart money.^' Of
+course, not all household wealth is very liquid. The ratio ofthe market
+value of corporate equities to deposits and credit market instruments
+held by households ranged from 47.7 percent in 1948 to 136.2 percent in
+1968.70
+
+The results shown in figure 2 are not insensitive to the choice of
+forecasting equation, though as long as the forecasting equation is a
+simple regression on the dividend/price ratio (as in table 2), changing the
+equation has no more effect than changing p and (p. If an equation that
+forecasts with the earnings/price ratio (row six of table 3) is used to
+compute Efit^ the pattern through time of Q is somewhat different: Q is
+still high (though not as high infigure2) in 1933 and low in the late 1950s
+and early 1960s. The weighted average return for smart money over this
+period would be 11.4 percent.
+A discount rate p -I- tp of 50 percent in equation 3 may or may not
+68. New York Stock Exchange, Fact Book 1983, p. 68.
+69. Between 1945 and 1980 corporate shares held by households and private financial
+institutions as a proportion of household net worth including tangibles and govemment
+debt ranged from 12.6 percent in 1948 to 31.8 percent in 1968. See Board of Governors of
+the Federal Reserve System, Balance Sheets for U.S. Economy (Washington, D.C, April
+1981), table 700, "Consolidated Domestic Net Assets with Tangibles at Current Cost,
+1945-1980."
+70. Ibid.
+
+Robert J. Shiller
+
+497
+
+imply very forecastable retums, depending on the stochastic properties
+of Yi. In the hypothetical example, the behavior of Y, is sufficiently
+dominated by long (low-frequency) components that returns are not
+more forecastable than would be implied by the forecasting regression
+in table 2. A discount rate of 50 percent per year amounts to about 0.1
+percent per day (compared to the standard deviation of daily retum of
+about 1 percentage point), so that for event studies involving daily stock
+price data the discount rate is still very small. If equation 3 were to be
+applied to individual stocks, we might choose a smaller value of 9 and
+hence a smaller discount rate.
+
+Summary and Conclusion
+
+Much of this paper relies on the reader's good judgment. A great deal
+of evidence is presented here that suggests that social movements,
+fashions, or fads are likely to be important or even the dominant cause
+of speculative asset price movements; but no single piece of evidence is
+unimpeachable.
+The most important reason for expecting that stock prices are heavily
+influenced by social dynamics comes from observations of participants
+in the market and of human nature as presented in the literature on social
+psychology, sociology, and marketing. A study ofthe history ofthe U.S.
+stock market in the postwar period suggests that various social movements were under way during this period that might plausibly have major
+effects on the aggregate demand for shares. Must we rely on such
+evidence to make the case against market efficiency? Yes; there is no
+alternative to human judgment in understanding human behavior.
+The reason that the random-walk behavior of stock prices holds up
+as well as it does may be two-fold. First, the aggregate demand of
+ordinary investors may itself not be entirely unlike a random walk.
+Fashions are perhaps inherently rather unpredictable, and ordinary
+investors may overreact to news of eamings or dividends, which behavior
+may also make their demand relatively unpredictable.
+Second, and on the other hand, as shown by the model in equation 3
+the ordinary investors' predictable patterns of behavior are prevented
+from causing big short-run profit opportunities by the limited amount of
+smart money in the economy, so that returns may be nearly unpredict-
+
+498
+
+Brookings Papers on Economic Activity, 2:1984
+
+able, and tests of market efficiency may have little power. However, in
+preventing large profit opportunities the smart money may not be
+preventing the ordinary investors from causing major swings in the
+market and even being the source of volatility in the market.
+Data on stock prices show evidence of overreaction to dividends, and
+the forecasting equations for retums are consistent with such overreaction. However, an altemative interpretation for the correlation of prices
+to dividends might be thatfirmsthat set dividends are influenced by the
+same social dynamics that influence the rest of society. There are also
+other possible interpretations of this correlation; that is why I presented
+the data analysis as merely confirming that notions of overreaction
+suggested by qualitative evidence are consistent with the data.
+It should also be emphasized that the model in equation 3 involves a
+present value of expected dividends and that it shares some properties
+ofthe efficient markets model. Despite all the inadequacies ofthe notion
+of market efficiency, modem theoreticalfinancedoes offer many insights
+into actual market behavior. The robustness ofthe models to variations
+like those here is a matter deserving more attention.
+
+

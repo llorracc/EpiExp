@@ -1,0 +1,2773 @@
+WORKING PAPER NO. 14-19
+PARTISAN CONFLICT
+
+Marina Azzimonti
+Federal Reserve Bank of Philadelphia
+
+June 2014
+
+Partisan Conflict
+
+∗
+
+Marina Azzimonti†
+
+Abstract
+American politics have become extremely polarized in recent decades. This deep political divide has caused significant government dysfunction. Political divisions make the
+timing, size, and composition of government policy less predictable. According to existing
+theories, an increase in the degree of economic policy uncertainty or in the volatility of
+fiscal shocks results in a decline in economic activity. This occurs because businesses and
+households may be induced to delay decisions that involve high reversibility costs. In addition, disagreement between policymakers may result in stalemate, or, in extreme cases,
+a government shutdown. This adversely affects the optimal implementation of policy reforms and may result in excessive debt accumulation or inefficient public-sector responses
+to adverse shocks. Testing these theories has been challenging given the low frequency
+at which existing measures of partisan conflict have been computed. In this paper, I
+provide a novel high-frequency indicator of the degree of partisan conflict. The index,
+constructed for the period 1891 to 2013, uses a search-based approach that measures the
+frequency of newspaper articles that report lawmakers’ disagreement about policy. I show
+that the long-run trend of partisan conflict behaves similarly to political polarization and
+income inequality, especially since the Great Depression. Its short-run fluctuations are
+highly related to elections, but unrelated to recessions. The lower-than-average values
+observed during wars suggest a “rally around the flag” effect. I use the index to study the
+effect of an increase in partisan conflict, equivalent to the one observed since the Great
+Recession, on business cycles. Using a simple VAR, I find that an innovation to partisan
+conflict increases government deficits and significantly discourages investment, output,
+and employment. Moreover, these declines are persistent, which may help explain the
+slow recovery observed since the 2007 recession ended.
+∗
+I would like to thank big data analyst Iker Huerga for his invaluable support in the design and construction of the series, and Rudy Bachmann and Rafael DiTella for insightful discussions. I thank Alberto Alesina,
+George Alessandria, Scott Baker, Nick Bloom, Brandice Canes-Wrone, Steven Davis, Ben Lester, Guillermo
+Ordonez, Pricila Maziero, Guido Menzio, and Scott Richard as well as participants at the Wharton Brownbag,
+The Causes and Consequences of Policy Uncertainty conference (Princeton), the NBER Political Economy
+Meeting (April), and the Macroeconomics Across Time and Space conference (NBER, Philadelphia) for very
+helpful comments. Michael Chimowitz and Sam Wascher provided excellent research assistance. Thanks to
+Cris McCallum and her library staff for continuous support and the libraries at the FRB of Philadelphia,
+the U. of Pennsylvania, and Stonybrook U. for granting me access to their newspaper databases. A previous version circulated under the title “The political polarization index.” The author can be contacted at
+Marina.Azzimonti@gmail.com.
+†
+FRB of Philadelphia. The views expressed in this paper are those of the author and do not necessarily
+reflect those of the Federal Reserve Bank of Philadelphia or the Federal Reserve System. This paper is available
+free of charge at www.philadelphiafed.org/research-and-data/publications/working-papers/.
+
+1
+
+1
+
+Introduction
+
+American politics have become increasingly polarized in recent decades (see McCarty, Poole,
+and Rosenthal, 2006)1 . Intense partisan conflict, combined with a divided government, has led
+to significant Congressional gridlock, such as the budgetary warfare that eventually triggered
+the 18th government shutdown in US history in 2013. Political divisions are relevant for the
+evolution of economic variables because they make the timing, size, and composition of fiscal
+policy less predictable. This negatively affects households’ and firms’ investment decisions,
+particulary those involving high reversibility costs (e.g., entry and exit decisions, real estate
+purchases, hiring under search costs, etc.). As a result, output and employment decline. In
+addition, legislative gridlock affects the optimal timing of policy reforms. As suggested by
+Alesina and Drazen (1991), this could result in inefficient accumulation of debt. The degree
+to which increasing conflict between policymakers affects the evolution of economic variables
+is difficult to quantify given that existing measures are available only at low frequencies
+(mostly at a biannual level). Identification of its effects over the business cycle thus becomes
+challenging.
+In this paper, I construct a novel measure of the degree of partisan conflict (PC). The
+methodology is similar to that developed by Baker, Bloom, and Davis (2013) for computing
+economic policy uncertainty. It uses a search-based approach that measures the frequency of
+newspaper coverage of articles reporting political disagreement about government policy—
+both within and between national parties—normalized by the total number of news articles
+within a given period. Analyzing the historical series—covering the period 1891-2013—I find
+that PC scores declined between 1891 and the early 1920s, remained relatively stable until
+1965, and exhibited an increasing trend thereafter. The rise in partisan conflict accelerated
+during the Great Recession, peaking with the 2013 government shutdown.
+This pattern is consistent with the evolution of political polarization (computed by McCarty, Poole, and Rosenthal, 2006) and with the behavior of income inequality, measured by
+the share of income held by the top 1%. In addition, changes in the PC trend tend to be
+larger under a divided government and are positively related to the share seats in Congress
+controlled by the President’s party. I find that short-term increases in partisan conflict are associated with presidential elections and well-known fiscal policy debates, such as the approval
+of Obamacare, the debt ceiling debate, and the fiscal cliff. This is reassuring, suggesting that
+the indicator captures disagreement about well-known polemic issues. No clear relationship
+between partisan conflict and recessions is detected. For example, the index was much lower
+than average during the Great Depression, but reached significant levels during the panics
+of 1893 and 1911, and the Great Recession. While the increasing trend starting in the 1960s
+coincides with the one documented for economic policy uncertainty (see Baker, Bloom, and
+Davis, 2013), the two series behave very differently before this period, in particular during
+the Great Depression. Interestingly, partisan conflict subsides when the country is at war
+or subject to national security threats, such as World War I, Pearl Harbor, and 9/11 (the
+1
+
+Bonica and Rosenthal (2013a) find similar results using the pattern of contributions made by legislators’
+supporters. Jensen, Kaplan, Naidu, and Wilse-Samson (2012) provide independent evidence of this, analyzing
+political discourse from Google Books and the digitalized Congressional Record during this period.
+
+2
+
+Vietnam War being an exception). This suggests that American politics are very polarized
+regarding economic policy, but less divided when it comes to national defense issues. It also
+indicates the presence of a partisan “rally around the flag” effect.
+To quantify the effects of increasing partisan conflict on the real economy, I focus on the
+period 1981-2013, where a wider set of newspapers becomes available and a more precise
+search using filters can be performed. These filters allow me to exclude opinion articles,
+editorials, or international news. I analyze changes in deficits, employment, output, and
+investment that result from a 72-point innovation to PC scores (equivalent to the increase
+in the index between 2006 and 2013). I find a deficit of $54.2 billion upon impact and $79.4
+billion in the subsequent quarter. This is consistent with Alesina and Drazen’s (1991) theory
+of delayed stabilization, where stalemate induces deficit creation. Employment decreases as
+a result of the shock, with a peak loss of 1.52 million jobs after six quarters. Investment
+decreases 9.7% after three quarters, and output shrinks about 1.4%. Intuitively, intense
+partisan conflict is associated with high volatility of fiscal policy (Azzimonti and Talbert,
+2013). This deters economic activity because it increases economic policy uncertainty (Baker,
+Bloom, and Davis, 2013; Fernández-Villaverde and Rubio-Ramı́rez, 2010). The declines
+documented in this paper are not only large but also persistent, which may help explain part
+of the slow recovery following the Great Recession.
+The paper is organized as follows. A description of how the partisan conflict indicator
+was constructed is included in Section 2. Section 3 describes the main determinants in the
+long-run trends in partisan conflict, as well as on its short-term fluctuations. The connections
+between partisan conflict and economic policy uncertainty are discussed in Section 4, with
+robustness being analyzed in Section 5. Section 6 quantifies the effects of partisan conflict in
+the economy for the sub-sample 1981-2013, and Section 7 concludes.
+
+2
+
+Measuring partisan conflict
+
+The main objective of this section is to construct an indicator of the degree of partisan conflict to analyze how it evolves over time, understand its determinants, and later assess how
+it effects the real economy. Existing proxies of political disagreement lack important dimensions associated with the political game that are relevant to the household’s decision-making
+process. For example, measures based on poll data of voters’ ideological differences (such
+as those developed by the Pew Research Center survey on values or Gallup) do not reflect
+the fact that voters’ preferences may not be well represented in office due to the influence
+of interest groups or politicians’ own agendas. Measures of legislators’ ideological differences
+based on roll-call data or congressional records (McCarty, Poole, and Rosenthal, 2006; Bonica and Rosenthal, 2013b; or Jensen, et al. 2013) ignore filibuster threats and presidential
+vetoes, which constitute important sources of policy determination. The interaction between
+the executive and legislative branches, or between the House and the Senate under a divided
+government, may be an important factor affecting private-sector decisions. Finally, while
+frequent political turnover is suggestive of partisan conflict, political instability measures
+(such as those developed by the World Bank, the IMF, or ICRG’s Political Risk Services)
+completely disregard the intensity of ideological differences. This paper takes on a different
+3
+
+approach by analyzing the coverage of political news to create an indicator of the degree of
+partisan conflict. In doing so, it attempts to fill a gap in the literature by quantifying a more
+comprehensive measure at higher frequencies.
+
+2.1
+
+Index construction
+
+I follow a methodology similar to that in Baker, Bloom, and Davis (2013) in constructing an
+indicator of partisan conflict. In particular, I use a search-based approach that measures the
+frequency of newspaper articles reporting political disagreement about government policy.
+The identification assumption underlying the index is that greater media coverage of ideologically divisive issues, legislative gridlock, presidential vetoes, or filibuster threats indicates
+intense disagreement between policymakers (either across party lines or within a party).
+I will compute two indexes: Historical Partisan Conflict, covering the period 1891-2013,
+and a benchmark measure, Partisan Conflict, covering the interval 1981-2013.
+Historical Partisan Conflict is computed annually using news articles from five major
+newspapers that have been digitalized since 1891: The Wall Street Journal, The New York
+Times, Chicago Tribune, Los Angeles Times, and The Washington Post. The advantage of
+this measure is that it allows us to characterize the long-run trend in partisan conflict and
+compare it with other slow-moving variables such as polarization. The main disadvantage is
+that the search cannot be refined to the same degree as the benchmark case is. While we can
+restrict the search over actual articles (excluding, for example, advertisements or obituaries),
+we cannot restrict it to domestic news.
+The search used in the construction of Partisan Conflict is performed in Factiva (by
+Dow Jones). An advantage of using Factiva’s search engine versus the ones provided by
+each particular newspaper is that the search outcome is homogeneous and an identical set of
+predefined filters can be applied. In particular, I restrict the search to major US newspapers
+(see Table 4 in Appendix 8.1 for a full list of sources included) with news written exclusively
+in English and restricted to events occurring in, or related to, the US. The top news sources
+resulting from the search are The Washington Post, The New York Times, Los Angeles Times,
+Chicago Tribune, The Wall Street Journal, Newsday, The Dallas Morning News, the Boston
+Globe, and Tampa Bay Times (see Figure 19 in Appendix 8.1 for a decomposition of sources).
+In addition, I exclude editorials and commentaries from the search in an attempt to reduce
+potential ideological biases (see the work by Gentzkow and Shapiro, 2010, on media slant).
+Routine general news, reviews, interviews, etc. are also excluded in order to reduce the
+incidence of false positives. A comprehensive list of filters applied can be found in Appendix
+8.2. Because the search is more precise, the benchmark measure—rather than the historical
+series—will be used to quantify the effects of partisan conflict on the economy.
+The index is computed as follows. First, I count the number of articles that discuss
+disagreement between political parties, branches of government, or political actors (e.g. candidates not yet in office, legislators, etc.) in a given interval of time. In particular, I search for
+articles containing at least one keyword in the following two categories: (i) political disagreement and (ii) government. Figure 1 summarizes the resulting terms used in each category. I
+focus on articles including keywords at the intersection of those two categories. In addition,
+I also search for specific terms related to partisan conflict, such as “divided party,” “parti4
+
+san divisions,” and “divided Congress.” Note that the search involves terms related to the
+political debate (e.g., “fail to compromise”), as well as the outcome of the partisan warfare
+(e.g. “gridlock” and “filibuster”).
+The search captures disagreement not only about economic policy (e.g., related to budgetary decisions, tax rates, deficit levels, welfare programs, etc.), but also about private-sector
+regulation (e.g., financial and immigration reform), national defense issues (e.g., wars, terrorism), and other dimensions that divide policymakers’ views (e.g., same-sex marriage, gun
+control, abortion rights, among others). A representative article that the search picks up can
+be seen in Appendix 8.3.
+
+White House
+
+divided/division
+disagree*
+polariz*
+budg. battle
+
+senat*
+
+ideolog. diffs
+
+Congress
+
+Delay/oppose bill
+filibuster
+
+President
+X committee
+
+Capitol
+
+Legislat*
+republican*
+democrat*
+party
+GOP
+partisan
+
+veto
+
+repeal
+
+dysfunct* standstill
+deadlock
+stalemate
+gridlock
+
+fed govt
+lawmaker
+politic*
+
+Political
+Disagreement
+
+Government
+Figure 1: Sample keywords used in the search.
+
+Notes: The term “X committee” stands for Appropriations Committee, Finance Committee, or
+Ways and Means Committee.
+
+The particular words included in each category were chosen using a two-stage procedure.
+In the first stage, I selected words normally used in the political economy and political science
+literatures that refer to political disagreement. From the outcome of this first-stage search,
+three articles per month over the period 1981-2013 were selected at random from the New
+York Times and thoroughly read. Additional words used by the media were incorporated
+into the initial search in a second stage. The objective of this refinement was to reduce the
+incidence of false negatives. Some of the original keywords were eliminated in order to reduce
+false positives. The words “polarization” and “dysfunctional” are excluded from the historical
+search because these words entered the media language only in the 1980s. The remaining
+words were observed with a relatively constant frequency in the historical newspapers (using
+10-year intervals). In addition “political” and “disagreement” have also been excluded from
+the historical search because they retrieved a disproportionate amount of foreign news. This
+shortcoming does not arise in the benchmark search where we can restrict it to domestic
+articles.
+5
+
+Partisan Conflict
+
+15
+
+35
+
+55
+
+75
+
+95
+
+115
+
+135
+
+Panic 1893
+Tariffs
+
+WW I
+
+Panic 1911
+Antitrust
+
+Great
+Depression
+
+Pearl Harbor,
+WWII
+
+1965 Voting
+Right's Act
+
+Ford's assass.
+attempts
+
+1995
+Shutdown
+
+9/11
+
+Debt Ceiling,
+Obamacare
+
+2013
+Shutdown
+
+Figure 2: Historical partisan conflict, 1891-2013.
+
+Year
+
+1890
+1893
+1896
+1899
+1902
+1905
+1908
+1911
+1914
+1917
+1920
+1923
+1926
+1929
+1932
+1935
+1938
+1941
+1944
+1947
+1950
+1953
+1956
+1959
+1962
+1965
+1968
+1971
+1974
+1977
+1980
+1983
+1986
+1989
+1992
+1995
+1998
+2001
+2004
+2007
+2010
+2013
+
+6
+
+Because the volume of digitized news varies over time, I scale the raw partisan conflict
+count by the total number of articles in the same newspapers over the same time interval.
+To do this in the benchmark index, I perform a search every month from January 1981
+to December 2013 containing the word “today.”2 For the historical series, I divide the raw
+partisan conflict count by the number of articles every year that contain the word “the,” rather
+than “today,” due to the fact that, early in the sample, there was usually a delay between the
+date on which an event happened and the date on which it was reported. Finally, I normalize
+PC scores to average 100 in the year 1990. The historical index is shown in Figure 2 3 .
+
+3
+
+The evolution of partisan conflict
+
+What explains the evolution of partisan conflict? Partisan conflict results from the interaction
+between two parties with different objectives in the political arena. We can think of it as
+being determined by the following generic function:
+P C = f (polarization, political power, shocks).
+Policymakers’ ideological differences, or polarization, are clearly an important determinant of political disagreement. The further apart parties’ views over policy are, the higher
+the level of conflict should be. How political power is divided between the two parties must
+also affect the degree of conflict. Consider the extreme case of one particular party controlling both chambers of Congress and the presidency. Then partisan conflict should be low,
+regardless of how ideologically divided parties are. Finally, there are expected and unexpected shocks that might affect the level of PC at a particular point in time. Elections are an
+example of expected shocks: While the outcome of an election is unknown, the date at which
+the uncertainty is resolved is not. Unexpected shocks are wars and business cycle fluctuations
+(booms and recessions).
+In this section, we characterize the relationship between these variables and partisan
+conflict. Because they affect PC at different frequencies, the analysis will be divided into
+two parts: (i) the long-run trend and (ii) short-term fluctuations. To isolate long-run trends
+from short-term fluctuations, I apply an HP-filter (with weight w = 6.25, as in Ravn and
+Uhlig, 2002) to the series.4 Figure 3 shows the evolution of the resulting two components of
+partisan conflict.
+
+3.1
+
+Long-run trend
+
+Partisan conflict declined between 1891 and the early 1920s, remained relatively stable until
+1965, and exhibited an increasing trend thereafter, as seen from Figure 2. The rise in partisan
+conflict accelerated during the Great Recession, peaking with the 2013 government shutdown.
+2
+Using the word “the” to count the total number of articles instead causes no noticeable difference in the
+index.
+3
+Please contact me at marina.azzimonti@gmail.com if interested in this series.
+4
+HP filtering has been chosen rather than first differences because the trend is not completely removed
+from the series when using differences. Using a smoothing parameter of w = 100 also resulted in slow-moving
+trends observed in the residual. More details are available from the author upon request.
+
+7
+
+120
+
+100
+
+Partisan Conflict
+
+80
+
+Trend
+
+60
+
+40
+
+Cycle
+20
+
+0
+
+1891
+1894
+1897
+1900
+1903
+1906
+1909
+1912
+1915
+1918
+1921
+1924
+1927
+1930
+1933
+1936
+1939
+1942
+1945
+1948
+1951
+1954
+1957
+1960
+1963
+1966
+1969
+1972
+1975
+1978
+1981
+1984
+1987
+1990
+1993
+1996
+1999
+2002
+2005
+2008
+2011
+
+‐20
+
+Year
+
+Figure 3: Partisan conflict, HP-filtered (w = 6.25).
+
+Polarization Polarization is possibly one of the most important factors (although not the
+only one) determining partisan conflict. We should expect partisan conflict to intensify when
+political polarization rises. Intuitively, it should be more difficult for parties to agree on the
+course of social and economic policy when their ideological differences are large. Interestingly,
+McCarty, Poole, and Rosenthal (2006) document that polarization between political parties
+has risen significantly in the postwar era. Its causes and consequences are summarized by
+Barber and McCarty (2013). This pattern is consistent with the sustained increase in partisan
+conflict scores over the same period, as shown in Figure 4.
+While both series exhibit a decline early in the sample, partisan conflict decreases at
+a much faster rate and lies below polarization until the 72nd Congress. There are two
+potential explanations for this. One is that news-reporting styles changed over time. For
+example, if newspapers were highly partisan early in the sample (e.g., less independent), PC
+scores could be underestimated. Increasing competition from alternative news outlets, such
+as TV, radio, and more recently the internet, may have induced newspapers to emphasize
+conflict. The second possibility is that while ideological differences influence the extent of
+disagreement between policymakers, there are other factors beyond polarization that are
+relevant to determining partisan conflict. Because PC scores identify political outcomes
+rather than policymakers’ preferences, the measure is likely to be affected by the division of
+power between the two parties across different branches of government. Whether Congress
+is divided or not, as well as the degree of influence exerted by the President in Congress,
+could be important determinants of the outcome of the political game. Notice that gridlock is
+usually observed in instances where two political parties share power in the legislature, rather
+than in cases where one party controls both chambers of Congress and/or the presidency (see
+Binder, 1999). Vetoes are an important instrument used by Presidents when they do not have
+a majority to block a particular bill. This suggests that the disparities observed between
+polarization and partisan conflict could be due to changes in government composition—
+8
+
+1.2
+
+140
+
+Polarization
+1
+
+120
+
+Partisan Conflict
+
+100
+
+80
+0.6
+60
+
+Partisan Conflict
+
+Polarization
+
+0.8
+
+0.4
+40
+
+0.2
+20
+
+0
+
+0
+52 54 56 58 60 62 64 66 68 70 72 74 76 78 80 82 84 86 88 90 92 94 96 98 100 102 104 106 108 110 112
+
+Congress
+
+Figure 4: Partisan conflict and political polarization.
+Notes: Polarization obtained from McCarty, Poole, and Rosenthal (2006), who use information
+on roll-call votes in Congress to compute legislators’ ideal points in each Congress. Measure
+normalized to 100 in 1990. Data are from http://voteview.com/downloads.asp.
+
+affecting the decision-making power of each party—even if their ideological views remained
+unchanged. To see this, note that between the 63rd and the 71st Congresses, a period
+where the two series diverge the most, both chambers had a Democratic majority. Even if
+partisan divisions were large, de facto disagreement, as measured by PC scores, was not.
+Since economic agents’ decisions depend on expected policy (i.e., the outcome of the political
+game), partisan conflict may be a more relevant indicator of policy-relevant disagreement
+than existing measures of polarization.
+Power structure I conjecture that polarization and political power affect PC scores differently, a hypothesis that will be tested further. I proxy the decision-making power of each
+party with two variables. The first one, Divided is a dichotomic variable that equals 1 when a
+party has a majority in the House and the other party a majority in the Senate. The second
+one, Pres Seats i, denotes the share of seats in i = {House, Senate} held by the President’s
+party. Political polarization is obtained from McCarty, Poole, and Rosenthal (2006; see note
+in Figure 4 for more details).
+Because polarization exhibits almost no short-run fluctuations and is measured bi-annually,
+I will focus only on the effects of the trend in polarization on the trend of partisan conflict,
+deferring the discussion of cycles to the next section. All the continuous variables (e.g.,
+polarization, partisan conflict, and share of seats) are detrended using an HP filter.
+9
+
+Table 1 summarizes the results from a simple linear regression of the first differences in
+the trend of partisan conflict on the change in the trend of polarization, ∆P olarc , and the
+Idiv,c dummy variable.
+∆P Cc = α0 + α1 ∆P olarc + α2 Idiv,c + α3 ∆P res Seats Hc + α4 ∆P res Seats Sc ,
+where c = denotes a particular Congress. The sample period is 1891-2012 (from the 62nd to
+the 112th Congresses).
+Table 1: Determinants of the long-run behavior of partisan
+conflict
+Dep var: ∆P Cc
+
+∆P olarc
+Idiv,c
+
+(1)
+
+0.195**
+(0.0732)
+2.502***
+(0.681)
+
+∆P res Seats Hc
+
+(2)
+
+0.189**
+(0.0735)
+2.307***
+(0.743)
+-41.45**
+(16.07)
+
+∆P res Seats Sc
+
+Observations
+R-squared
+
+(3)
+
+0.144**
+(0.0634)
+2.008***
+(0.664)
+
+-4.289
+(10.61)
+60
+0.145
+
+52
+0.181
+
+52
+0.093
+
+Notes: The dependent variable is the first difference in the trend of partisan
+conflict. The independent variables in specification (1) are Idiv,c and the first
+difference of the polarization trend. Specification (2) includes the first difference
+in the trend component of the share of seats controlled by the President’s party
+in the House, ∆P res Seats Hc , while specification (3) includes the equivalent
+measure in the Senate, ∆P res Seats Sc . Sample period is 1891-2012. Each observation corresponds to a Congress. Robust standard errors are in parentheses.
+*** p<0.01, ** p<0.05, * p<0.1
+
+Both coefficients are positive and statistically significant, indicating that polarization
+and partisan conflict are positively related and that PC scores are higher under a divided
+Congress. The second specification shows that partisan conflict declines as the share of seats
+controlled by the President’s party in the House rises. The share of seats controlled in the
+Senate has no significant impact on partisan conflict according to the results of specification
+(3), since the coefficient of ∆P res Seats Sc is statistically insignificant.
+Income inequality Another variable frequently associated with political disagreement is
+income inequality. When income is unequally distributed, disagreement over redistributive
+policy is likely to arise in a democratic society, intensifying partisan conflict. Figure 5 shows
+10
+
+that the evolution of partisan conflict is remarkably similar to that of income inequality,
+proxied by the share of income held by the top 1%, in the postwar period. The increase in
+inequality observed since the late 1960s may be an important determinant of the rising trend
+in partisan conflict. This is consistent with McCarty, Poole, and Rosenthal (2003), who show
+that partisanship became more stratified by income between 1956 and 1996. Prior to this
+period, according to the authors, race and religion (rather than income and wealth) were the
+dominant determinants of political ideology.
+140
+
+Great
+Depression
+
+‐ New Deal
+‐ D realignment
+‐ WWII
+
+100
+
+Partisan Conflict
+
+25
+
+20
+
+80
+
+15
+
+60
+
+10
+
+Partisan Conflict
+
+40
+
+Top one percent income share
+
+120
+
+30
+
+5
+
+Top 1% Share
+
+20
+1890
+1893
+1896
+1899
+1902
+1905
+1908
+1911
+1914
+1917
+1920
+1923
+1926
+1929
+1932
+1935
+1938
+1941
+1944
+1947
+1950
+1953
+1956
+1959
+1962
+1965
+1968
+1971
+1974
+1977
+1980
+1983
+1986
+1989
+1992
+1995
+1998
+2001
+2004
+2007
+2010
+
+0
+
+Year
+
+Figure 5: Partisan conflict and income inequality, 1944-2012.
+Notes: Income inequality measured by the share of income held by the top 1%,
+from Alvaredo, Atkinson, Piketty, and Saez’s dataset. Data downloaded from
+http://topincomes.parisschoolofeconomics.eu/.
+
+Causality, however, cannot be established, as argued by McCarty, Poole, and Rosenthal
+(2006). According to the authors, political disagreement can also affect income inequality
+by hampering support for redistributive policies. This view is supported by the behavior
+of partisan conflict and inequality in the late 1920s. Figure 5 shows that income inequality
+peaks right before the Great Depression, but exhibits a declining trend starting in 1929.
+Initially, inequality lowers due to the erosion of wealth in the top percentiles following the
+stock market crash. In addition, corporate taxes were raised and the top-bracket tax rate was
+increased from 25% to 63% under Hoover’s presidency. This resulted in further reductions
+in the share of income held by the top 1%. From 1933 onwards, the size of the welfare state
+was expanded to unprecedented levels in US history under the New Deal. Interestingly, these
+novel redistributive policies were approved in a period of unusually low levels of partisan
+conflict. PC scores were low for two reasons. First, polarization declined sharply during
+the 74th Congress (e.g., between 1935 to 1937) under Roosevelt’s presidency (see Figure 4).
+11
+
+Second, both chambers had a Democratic supermajority.
+We conclude that the relationship between the trend observed in partisan conflict and
+that of inequality is not coincidental. Low levels of partisan conflict ease the implementation
+of policies that reduce inequality, while low inequality creates incentives for parties to move
+toward the center. An example of the latter is given by the Democratic realignment that
+resulted from the New Deal.
+
+3.2
+
+Short-run fluctuations
+
+In this section we will abstract from the long-run trend in partisan conflict, focusing on
+short-term fluctuations instead (denoted by “cycle” in Figure 3).
+Elections The most natural source of short-run fluctuations in the PC indicator is the
+arrival of election dates. This is seen clearly in Figure 6, which displays the evolution of the
+refined monthly measure of partisan conflict between 1981 and 2013 (solid line). The circles
+indicate months associated with presidential elections (either when the election is held or
+the month previous), while the vertical bars represent those in which Congress held midterm
+elections.
+We should expect the index to be higher than average during elections purely for mechanical reasons: Newspapers increase the proportion of articles covering political debates and
+emphasize differences between candidates during those periods. In addition, partisan conflict
+may also intensify endogenously, as legislators try to pursue a particular agenda or block
+specific legislation to tilt election results in their party’s favor (see Gilmour, 1995; Groseclose
+and McCarty, 2001 on strategic disagreement). All agents in the political game (incumbent
+legislators, the opposition, the President, etc.) have incentives to exaggerate their positions
+to signal a particular type in an attempt to attract votes. To test whether this is indeed the
+case, a two-sided t-test was performed with results summarized in Table 2.5 The first column
+in the table displays the mean value of historical PC scores in off-election years, while the
+second column shows the mean in election years. On average, partisan conflict scores are
+significantly higher when presidential elections are held, even at the 5% level (the p-values
+associated with the test are presented in the fourth column).
+We cannot reject the hypothesis, however, that PC scores during midterm election years
+are the same as those in off-election periods. This result should be taken with caution,
+however, since there is a midterm election every other year in the historical sample. When
+shorter intervals are analyzed (e.g., at a monthly frequency), periods surrounding a midterm
+election are indeed characterized by higher partisan conflict. The results of the test using the
+benchmark measure of partisan conflict, computed monthly, are summarized at the bottom
+of Table 2. An “election period” is defined by an indicator variable that takes a value of 1
+in the month in which an election takes place or the month prior, and zero otherwise. The
+rationale for including the month before an election is that sometimes elections are held early
+in the month, implying that most of the news associated with the event is documented the
+5
+
+ANOVA tests were also conducted for robustness, and the findings are consistent with the results in this
+table.
+
+12
+
+13
+
+1983
+
+1985
+
+Beirut Bombing
+1987
+
+Midterm Election
+
+Historical Event
+
+1989
+
+1991
+
+Gulf War I
+
+Presidential Election
+
+1993
+
+1993
+Filibuster
+
+Year
+
+1995
+
+1997
+
+9/11
+1999
+
+1995 Gov't
+Shutdown
+
+2001
+
+2003
+
+2005
+
+Iraq
+invasion
+2007
+
+"Obamacare"
+
+2009
+
+Debt Ceiling
+
+2011
+
+Sequester
+
+2013
+
+Figure 6: Partisan conflict, refined measure, 1981-2013. Circles represent presidential elections (month of election or the month before);
+diamonds are historical events, and vertical lines are midterm elections.
+
+50
+1981
+
+70
+
+90
+
+110
+
+130
+
+150
+
+170
+
+190
+
+Table 2: Means test, Ho : Diff = 0 and Ha : Diff < 0
+Off-election
+
+Election
+
+Diff
+
+P r(T < t)
+
+Obs.
+
+Historical (yearly)
+Midterm
+Presidential
+
+-0.95
+-0.91
+
+0.96
+2.70
+
+-1.91
+-3.60
+
+0.12
+0.03
+
+62 , 61
+92 , 31
+
+Benchmark (monthly)
+Midterm
+Presidential
+
+-0.79
+-0.37
+
+9.02
+8.72
+
+-9.82
+-9.09
+
+0.0008
+0.0069
+
+362 , 32
+378 , 16
+
+Note: The first row displays average detrended historical PC scores in off-election years, while the second
+row shows this average in election years. “Midterm” refers to Congressional elections, while “Presidential”
+refers to presidential elections. The column Obs. denotes the number of observations (first number during
+election years, second number off-election years). Each observation corresponds to a year, over the sample
+period 1891-2013. The third row displays the mean value of benchmark PC scores in off-election periods,
+while the fourth row shows this average in election periods (e.g., the month when an election takes place
+and the month prior). The number of observations is denoted in the column Obs. The sample period is
+January 1981 to December 2013. The fourth column documents the p-value associated with a two-sided
+t-test (unequal variances) for each mean. PC scores are detrended using an HP filter (w = 6.25).
+
+month before. In this case, both midterm elections and presidential elections are associated
+with higher-than-average detrended partisan conflict.
+Recessions The state of the economy could potentially be a factor affecting the pattern of
+PC scores in the short run. For example, recessions are periods when automatic stabilizers
+(such as unemployment benefits) kick in. Several of these stabilizers are highly redistributive
+in nature and thus potentially conflictive. We should expect partisan conflict to intensify
+in “bad times,” when revenues tend to be low and spending needs are large. An example
+is the 2007 recession, when the subsequent conflict over tax-cut expirations led to gridlock
+and hence extreme values in the PC index. When testing this hypothesis over the period
+1891-2013, however, I found no evidence that partisan conflict is higher during recessions
+than in normal times. The results of a two-sided t-test are relegated to Appendix 8.4, Table
+5. I also tested whether these results were an artifact of the low values of PC scores observed
+during the Great Depression, but even when the Great Depression is excluded I found no
+effect of recessions on PC scores.
+Notice that these results rely on annual data for the historical series. It would be interesting to know whether recessions affect partisan conflict at a quarterly frequency.
+Wars Following Mueller (1973), a large strand of the political science literature has analyzed the effects of dramatic and sharply focused international crises (or war) on the popular
+support of the President of the United States. The unprecedented increase in George W.
+Bush’s public approval ratings, from 51% to 86% following the September 11th terrorist attacks, is a typical example of the ‘rally around the flag” effect. Interestingly, PC reached the
+
+14
+
+lowest level since 1981 on September 11, when it decreased dramatically from the spike associated with the Bush versus Gore election. Partisan rallies around the flag are also observed
+in the benchmark series (see Figure 6) during the Beirut and Oklahoma City bombings and
+both Gulf Wars.
+We also observe lower-than-average PC scores during episodes of war and national security
+threats in the historical series. The clearest examples are given by the First War World and
+the Second War World in Figure 2. Mathews (1919) argues that one effect of war upon
+the party system (...) is to bring about, at least for a time, a relatively greater stability of
+party control, if not complete quiescence of partisanship, either through coalition or through
+cessation of party opposition, or both.
+To test his theory more formally, I construct a dummy variable, war, which takes a value
+of 1 if there is more than 1 military death per 100,000 people in the population in a given year
+and 0 otherwise.6 This variable captures, for example, the Spanish-American War, WWI,
+WWII, the Korean War, and the most violent years of the Vietnam war. Table 3 shows
+that wartime is indeed associated with significantly lower-than-average (detrended) partisan
+conflict.
+Table 3: War means test,
+Ho : Diff = 0 and Ha : Diff >
+0
+Category
+War
+Peace
+Diff
+P r(T > t)
+
+Value
+0.87
+-5
+5.92
+0.0008
+
+Obs
+18
+105
+
+Note: The first row displays the mean value of detrended historical PC scores during wars, while the
+second row shows this average in peacetime. Each
+observation corresponds to a year over the interval
+1891-2013. The last row documents the p-value associated with a two-sided t-test (unequal variances)
+for each mean. PC scores are detrended using an HPfilter (w = 6.25).
+
+Taken together, the results indicate that political parties disagree more about economic
+policy than about defense issues. Suggestive evidence supporting this claim is given by
+disapproval ratings, discussed in more detail in Appendix 8.5.
+One may argue that lower PC scores are observed during wars because newspapers devote
+a larger percentage of coverage to documenting events related to the war itself, rather than
+to government policy. Inspection of the evolution of the economic policy uncertainty (EPU)
+index, computed by Baker et.al. (2013), suggests that this is not the case, as their series
+increases significantly during these events. An example is given by the large spike in EPU
+observed during 9/11, a period where partisan conflict reached record lows (relative to trend).
+This will be discussed in more detail in the next section, where I contrast the evolution of
+6
+
+Data are obtained from http://violentdeathproject.com/countries/united-states.
+
+15
+
+partisan conflict to that of EPU.
+Issues Another source of short-term fluctuations is given by the occurrence of polemic
+issues in the legislative agenda over which a decision must be taken. This feature was noted
+as early as 1902 by Laurence Lowell, who stated ...the amount of party voting depends largely
+upon the accident of some question in which the parties are sharply divided happening to come
+up for decision...in England, parties frame the issues. In America the issues do not, indeed,
+make the parties, but determine the extent of their opposition to each other in matters of
+legislation.
+Figure 7 depicts the benchmark PC scores together with a series of tax expirations obtained from Baker et al. (2013). The figure illustrates that partisan conflict intensifies when
+Congress is forced to make a dated decision affecting the federal budget, triggered by one
+of these expirations. The monthly correlation between the two series is 0.7. A higher-thannormal sequence of tax expirations since 2007 could then explain the increase in partisan
+conflict over the same period.
+190
+
+1750
+
+1550
+170
+
+Partisan Conflict
+TaxExpirations
+
+1350
+
+150
+
+130
+
+PC
+
+950
+
+750
+
+110
+
+Tax Expirations
+
+1150
+
+550
+90
+350
+70
+150
+
+50
+1985
+1985
+1986
+1987
+1987
+1988
+1989
+1989
+1990
+1991
+1991
+1992
+1993
+1993
+1994
+1995
+1995
+1996
+1997
+1997
+1998
+1999
+1999
+2000
+2001
+2001
+2002
+2003
+2003
+2004
+2005
+2005
+2006
+2007
+2007
+2008
+2009
+2009
+2010
+2011
+2011
+2012
+2013
+2013
+
+‐50
+
+Year
+
+Figure 7: Partisan conflict and tax expirations.
+
+At very short frequencies, the partisan conflict index will capture not only general ideological differences in the liberal-conservative spectrum, but also the degree of disagreement over
+particular topics. The government shutdown of 1995, the passage of “Obamacare,” the debt
+ceiling debate, and the period surrounding the fiscal cliff are notable examples (see Figure
+6). These issues not only are divisive, but also important for individual decision-making and
+thus receive extensive coverage in the news.
+At a particular point in time, it is impossible, unfortunately, to disentangle whether
+partisan conflict is high because parties are ideologically far apart on a particular issue from
+16
+
+the relevance of the issue per se. Polarization levels cannot, therefore, be inferred from
+PC levels at very short frequencies (as in the benchmark indicator, where PC is computed
+monthly). The index can be a better indicator of polarization over longer time spans (as in
+the case of the historical series) where specific issues are “averaged out.”
+
+4
+
+Partisan conflict and economic policy uncertainty
+
+Partisan conflict and EPU share a similar trend, as seen from Figure 8.
+140
+
+Great
+Depression
+
+120
+
+2013
+Shutdown
+
+1995
+Shutdown
+
+Partisan Conflict, EPU
+
+100
+
+80
+
+60
+
+40
+
+20
+
+2011
+
+2008
+
+2005
+
+2002
+
+1999
+
+1996
+
+1993
+
+1990
+
+1987
+
+1984
+
+1981
+
+1978
+
+1975
+
+1972
+
+1969
+
+1966
+
+1963
+
+1960
+
+1957
+
+1954
+
+1951
+
+1948
+
+1945
+
+1942
+
+1939
+
+1936
+
+1933
+
+1930
+
+1927
+
+1924
+
+1921
+
+1918
+
+1915
+
+1912
+
+1909
+
+1906
+
+1903
+
+1900
+
+0
+
+Year
+
+Figure 8: Partisan conflict (solid) and news-based economic policy uncertainty (dashed). Both series
+are normalized to 100 in 1990.
+
+Differences Even though the methodology used to compute PC is similar to the one by
+Baker et.al. (2013) followed to construct EPU, the two indices represent different concepts,
+and as such are characterized by distinctive features. In contrast to partisan conflict, EPU
+tends to rise during recessions. A clear example is given by the large spike in EPU observed during the Great Depression (see Figure 8), a period when historical partisan conflict
+remained basically unchanged.
+In addition, EPU is affected by financial shocks (such as Lehman’s collapse or the series of
+defaults in Latin American countries) and monetary policy (such as interest rate cuts by the
+Federal Reserve), while PC scores are completely nonresponsive to them. This is reasonable,
+as those events are unrelated to government policy but do introduce economic uncertainty
+about monetary policy, chosen by an independent authority. Figure 9, which depicts the
+benchmark measure of PC (solid line) together with the news-based EPU index (dashed
+17
+
+Debt Ceiling
+
+9/11
+
+300
+
+Partisan Conflict
+Lehman
+
+EPU
+
+175
+
+Iraq
+Gulf War I
+
+250
+
+Interest
+rate
+cuts
+
+155
+
+LTCM
+default
+
+200
+
+150
+
+EPU
+
+PC
+
+135
+
+115
+
+100
+95
+
+50
+
+75
+
+55
+1981
+
+0
+1983
+
+1985
+
+1987
+
+1989
+
+1991
+
+1993
+
+1995
+
+1997
+
+1999
+
+2001
+
+2003
+
+2005
+
+2007
+
+2009
+
+2011
+
+2013
+
+Figure 9: Partisan conflict (solid) and news-based economic policy uncertainty (dashed). Circles
+represent presidential elections (month of election or month before), diamonds are historical events,
+and vertical lines are midterm elections. Both series are normalized to 100 in 1990.
+
+line), illustrates this point. Another important difference results from the behavior of the
+two variables in the presence of military conflict: While the EPU increases during wars or
+under national security threats (for example, 9/11 or the Gulf Wars), partisan conflict tends
+to remain relatively low or even decrease. The fact that EPU increases sharply during these
+events indicates the existence of a substantial proportion of newspaper articles discussing
+government policy. These articles are not, however, related to conflict between parties. This
+suggests that lower-than-average PC scores during international conflicts do indeed reflect
+rallies around the flag, rather than just being a by-product of changes in media coverage
+toward war-related news.
+Because of these factors, the correlation between partisan conflict and the news-based
+index of economic policy uncertainty developed by Baker et.al. (2013) is only 0.44.7
+Does partisan conflict cause EPU? There exist two types of economic policy uncertainty. The first one relates to uncertainty over which policies would be chosen at each point
+in time. The second one is associated with the consequences of policies that have already
+been chosen by the government. Partisan conflict causes only the first type of uncertainty.
+7
+
+This correlation is computed using only the news-based index of economic policy uncertainty and not the
+final EPU. The reason is that tax expirations account for about one-third of the EPU index, which I wanted
+to exclude to make the comparison. If I use the benchmark EPU measure, which includes tax expirations, the
+correlation between the two indexes is about 0.5.
+
+18
+
+Examples are the debt ceiling debate (will the government change taxes to avoid a fiscal
+cliff?), the passage of Obamacare (will Congress modify the health care system?), or the
+uncertainty associated with tax expirations (will tax cuts expire or will the two parties agree
+on further extensions?). Other episodes, such as the Great Depression, 9/11, or the Iraq
+wars, were very different in nature. The policies faced little or no opposition, in a period of
+low PC. For example, the New Deal was easily approved with a Democratic supermajority
+in both houses. The response to the terrorist attacks in 2001 was clearly a bipartisan effort.
+Economic policy uncertainty resulted from doubts over whether the implemented policies
+would be effective (to end the Great Depression, to discourage further attacks, or to avoid a
+war with other Middle-Eastern countries).
+In addition, PC need not always cause economic policy uncertainty. Under extreme
+levels of partisan disagreement (e.g., when Congress is divided and polarization levels are
+high) the government may enter gridlock state. If the status quo remains unchanged due to
+government inaction, there is full policy certainty. Therefore, we should expect PC scores to
+increase significantly during a shutdown, but economic policy uncertainty to remain at low
+levels. This is consistent with the behavior of the benchmark and historical series (Figures 8
+and 9). When Congressional deadlock is accompanied by policy expirations (as in Figure 7),
+however, we should expect both EPU and partisan conflict to move in tandem. The deadline
+forces policymakers to reach a decision regarding whether or not to continue the policy by a
+particular date. This, in turn, increases uncertainty about the course of economic policy.
+Finally, EPU may result from other factors that are unrelated to government policy, and
+thus unrelated to partisan conflict. Examples are uncertainty over monetary policy or over
+policy decisions that might be taken by foreign governments.
+
+5
+
+Robustness
+
+In this subsection I analyze whether the benchmark PC indicator is robust to restricting the
+search to involve specific terms related to fiscal policy and to seasonally adjusting the series
+by subtracting the average effects of elections.
+Robustness to the set of words The article search focuses on political disagreement,
+without being specific about particular policy terms. For a robustness check, I recomputed
+the historical index conditioning articles to involve specific public policies. The index is
+computed using articles containing at least one word at the intersection of the following three
+categories: (i) political disagreement, (ii) government, and (iii) public policy. The terms
+involved in the first two categories are identical to the ones used to construct the historical
+index. The list of terms used in the third category can be found in Appendix 8.6.8
+On average, these articles correspond to about 60% of the total number of counts obtained
+in the original search, with the ratio increasing to over 76% since 2006.
+8
+The list includes all the policy terms used in Baker et.al. (2013), plus the following additional terms: tax
+(taxation, taxes, taxed), budget, war, constitutional amendment, immigration, sovereign debt, monometallist,
+bimetallist, (silver or gold) coinage, duty (or duties), alcohol (or liquor) prohibition, federal credit, grant in
+aid, commerce competition, and commerce clause.
+
+19
+
+140
+
+Partisan Conflict
+120
+
+Partisan conflict over policy
+
+Partisan Conflict
+
+100
+
+80
+
+60
+
+40
+
+20
+
+1890
+1893
+1896
+1899
+1902
+1905
+1908
+1911
+1914
+1917
+1920
+1923
+1926
+1929
+1932
+1935
+1938
+1941
+1944
+1947
+1950
+1953
+1956
+1959
+1962
+1965
+1968
+1971
+1974
+1977
+1980
+1983
+1986
+1989
+1992
+1995
+1998
+2001
+2004
+2007
+2010
+2013
+
+0
+
+Year
+
+Figure 10: Partisan conflict: historical series (dashed) vs. partisan conflict over specific policies
+(solid).
+
+The resulting index (computed following the methodology described in Section 2.1), Partisan conflict over policies, can be found together with the historical series in Figure 10.
+When conditioning the search to contain specific policy terms, the resulting index is on average lower than the historical one until about 1968, year after which the two series become
+virtually identical. This is consistent with the observation that race and religion (rather
+than wealth) were the dominant determinants of political ideology before the 1970s. For
+example, the policy terms listed above do not capture terms related to the debate on voting
+participation that lead to the Voting Rights Act of 1965.
+Seasonally adjusted PC: The spikes in PC scores around election dates described at the
+beginning of this section could be due to two factors: (i) partisan conflict increases during
+elections or (ii) newspapers dedicate a larger share of coverage to discuss disagreement between candidates. To separate the first effect from the second one, I constructed a “seasonally
+adjusted” PC measure. The raw measure of PC is regressed against a constant term and an
+indicator variable for each type of election (midterm and presidential),
+P Ct = α + βIM,t + γIP,t + ,
+where α is a constant, IM = 1 if there is a midterm election and zero otherwise, and IP = 1 if
+there is a presidential election;  is an error term. The seasonally adjusted PC is constructed
+as
+P Csa,t = P Ct − β̂IM,t + γ̂IP,t ,
+20
+
+where the hats denote estimated coefficient values. In other words, we subtract the average
+increase in the PC during election dates from our benchmark measure. Comparison of the
+two series does not result in sizable differences and is therefore omitted (but available upon
+request). This indicates that the coverage effect is not the dominant force behind the rise of
+partisan conflict.
+Alternative normalization In this section, I reconstruct the historical partisan conflict
+index by normalizing the series by the total number of articles discussing political news. The
+idea is to control for potential changes in news coverage over time. In particular, I divide the
+raw partisan disagreement count by the number of articles in the same year that mention
+any word related to the government or political parties. For this, I use the set of words in
+the “Government” ball in Figure 1.
+2013
+Shutdown
+135
+
+1965 Voting
+Right's Act
+Panic 1893
+Tariffs
+
+115
+
+1995
+Shutdown
+
+Debt Ceiling,
+Obamacare
+
+Ford's assass.
+attempts
+
+Panic 1911
+Antitrust
+
+Partisan Conflict
+
+95
+
+75
+
+9/11
+55
+
+35
+
+WW I
+
+Pearl Harbor,
+WWII
+
+1890
+1893
+1896
+1899
+1902
+1905
+1908
+1911
+1914
+1917
+1920
+1923
+1926
+1929
+1932
+1935
+1938
+1941
+1944
+1947
+1950
+1953
+1956
+1959
+1962
+1965
+1968
+1971
+1974
+1977
+1980
+1983
+1986
+1989
+1992
+1995
+1998
+2001
+2004
+2007
+2010
+2013
+
+15
+
+Great
+Depression
+
+Figure 11: Partisan conflict normalized by government words (solid line) versus benchmark PC
+(broken line).
+
+Figure 11 shows the evolution of this alternative measure (solid line) alongside the benchmark PC (broken line). Both measures spike around the same events, such as the debates
+over tariffs and antitrust during 1893 and 1911, respectively, or the 1995 and 2013 shutdowns.
+The alternative measure is also relatively low during wars (a formal means-test is available
+upon request) and shows no clear relationship with recessions. The cyclical behavior of PC
+is therefore analogous to that described for the benchmark PC indicator.
+The long-run trends, however, exhibit some differences. In particular, the decline early
+in the sample is less marked, and the increase following the 2007 recession is less sharp
+in the alternative measure. To understand these differences, it is useful to decompose the
+
+21
+
+benchmark partisan conflict series as follows:
+PC =
+
+PD
+PD G
+=
+,
+T
+G T
+
+where P D denotes political disagreement (see Figure 1, left ball, for details), G denotes
+government (see Figure 1, right ball, for details), and T denotes the total number of articles
+in a year (proxied by those including the word “the”). Figure 12 shows a decomposition of
+the evolution of PC into PGD (the alternative PC measure) and G
+T (the share of government
+news).
+140
+
+120
+
+160
+
+Panic 1893
+Tariffs
+
+Pearl Harbor,
+WWII
+Panic 1911
+Antitrust
+
+Ford's assass.
+attempts
+
+1995
+Shutdown
+
+Debt Ceiling,
+Obamacare
+140
+
+Great
+Depression
+
+1965 Voting
+Right's Act
+
+WW I
+
+9/11
+120
+
+100
+
+PD/G
+
+100
+
+80
+
+80
+
+60
+60
+40
+
+40
+20
+
+0
+1890
+1893
+1896
+1899
+1902
+1905
+1908
+1911
+1914
+1917
+1920
+1923
+1926
+1929
+1932
+1935
+1938
+1941
+1944
+1947
+1950
+1953
+1956
+1959
+1962
+1965
+1968
+1971
+1974
+1977
+1980
+1983
+1986
+1989
+1992
+1995
+1998
+2001
+2004
+2007
+2010
+2013
+
+20
+
+Year
+
+Figure 12: Partisan conflict normalized by government words (solid line) and share of government
+news in total news (broken line).
+
+The slow-moving decline in G
+T coincides with the decline in polarization and dominates
+the trend of partisan conflict early in the sample; PGD , on the other hand, remains fairly
+stable. A similar relationship between these variables is observed following the 1995 shutdown. This suggests that newspapers devote a larger share of news to politics precisely when
+there is political disagreement. Recall that one of our main identifying assumptions is that
+if partisan conflict is important to the decision-making process of households and firms, it
+will be reflected in the news. Because of the endogenous response of newspaper editors to
+increase the amount of government news when disagreement is indeed relevant, we feel that
+the benchmark PC series is a better indicator of partisan conflict than PGD is.
+
+22
+
+6
+
+Consequences of partisan conflict on the economy
+
+There exists a growing literature studying the effects of economic policy uncertainty on the aggregate economy (see, for example Baker, Bloom, and Davis, 2013; Fernández-Villaverde and
+Rubio-Ramı́rez, 2010; Fernández-Villaverde, Guerrón, Kuester, and Rubio-Ramı́rez, 2012).
+A common assumption is that fiscal policy follows an exogenous process where volatility
+changes over time. In periods of high variability, economic agents delay hiring, investment,
+or production decisions, and this amplifies business cycles.9 Canes-Wrone and Park (2011)
+suggest that increases in fiscal uncertainty may be related to the behavior of rational agents
+over the electoral cycle. In particular, they argue that businesses and households have incentives to delay decisions that are subject to large reversibility costs right before elections, which
+are associated with high levels of economic policy uncertainty. This results in a pre-election
+decline in investment, a phenomenon that they refer to as “reverse electoral business cycle
+(REC).” In their model, uncertainty tends to be large when there is high electoral competitiveness and sufficient polarization between the major parties, two forces that would result in
+higher observed levels of partisan conflict. Azzimonti and Talbert (2013) also propose a theory suggesting that political disagreement affects economic decisions and amplifies business
+cycles. They argue that economic fluctuations are caused not only by productivity shocks
+(as usually assumed in macroeconomics), but also by “political shocks.” Using a standard
+partisan model of fiscal policy determination (a la Persson and Svensson, 1989) embedded
+in a neoclassical real business cycle model, they show that switches between left-wing and
+right-wing governments amplify the cycle. Moreover, they show that when parties’ ideological
+views become further apart, the volatility of fiscal and economic variables rises and long run
+output and investment decrease. In their model, partisan conflict increases the variability of
+the political shock inducing economic policy uncertainty.
+In this section, I explore empirically the effects of partisan conflict on economic behavior.
+In particular, I test whether the implications of the models discussed above hold for the US
+using the PC measure developed in this paper.
+
+6.1
+
+Economic variables
+
+Economic variables are obtained at the quarterly level for the sample period Q1:1981 to
+Q2:2012 from the Bureau of Economic Analysis (BEA). Consumption, output, and investment are seasonally adjusted and expressed in billions of 2005 dollars. They correspond to
+Personal Consumption Expenditures, Gross Domestic Product, and Gross Private Domestic
+Investment, respectively, and are converted in real terms using the GDP deflator. Employment is expressed in thousands of employees in the nonfarming sector (seasonally adjusted
+series). Interest rates are proxied by quarterly averages of the federal funds (effective) rate,
+obtained from the Federal Reserve Board. Finally, I compute the Solow residual to proxy the
+contribution of technological progress to output growth in the estimations. This residual is
+9
+In this paper we are mostly concerned with uncertainty about government policy rather than uncertainty about the state of the economy. This is an important distinction in light of Bachmann, Elstner, and
+Sims (2013), who find (using US micro-data) that economic uncertainty is inconsistent with a wait-and-see
+hypothesis.
+
+23
+
+constructed as follows:
+St = ln(Yt ) − 0.36 ln(Kt ) − 0.64 ln(Lt ),
+where Yt denotes output, Kt is the stock of capital, and Lt is private industries’ employment in
+period t. The Solow residual represents the amount of output produced net of expenditures in
+the main factors of production: capital and labor. Detrended measures of the Solow residual
+capture productivity shocks, which are considered the main factor causing fluctuations in the
+economy (i.e., real business cycles) in the macroeconomics literature. In this paper, I want
+to distinguish political shocks from technological shocks and will thus use the Solow residual
+to control for the latter in the VAR estimations.
+The specification above assumes a capital share of 0.36 and a labor share of 0.64, close to
+the long-run empirical averages of the capital and labor income shares. The series for capital
+is constructed using the perpetual inventory method:
+Kt+1 = It + (1 − δ)Kt ,
+where δ is a constant depreciation rate of capital (set to 0.012, implying an annual depreciation
+rate of about 5%) and It is real investment. The initial capital stock is chosen so that the
+capital-to-output ratio in the first period (Q1:1981) equals the average capital-to-output ratio
+over our sample period Q1:1981 to Q2:2013,
+Q2:2013
+KQ1:1981
+1 X Kt
+=
+.
+YQ2:2013
+131
+Yt
+Q1:1981
+
+The resulting series is then used to compute the Solow residual.
+
+6.2
+
+VAR estimation
+
+To test the impact of partisan conflict on aggregate economic variables, I estimate a vector
+auto regression (VAR) model and recover orthogonal shocks by using a Cholesky decomposition of the following: partisan conflict, the Solow residual, the federal funds rate (to control
+for interest rates), real deficits, log employment, log investment, log GDP, and log public
+spending. In the baseline specification I use quarterly data with two-quarter lags, as suggested by the Bayesian (Schwartz) information criterion test. I check that the VAR is stable,
+so impulse-response functions can be constructed. The VAR methodology allows me to detect comovements between economic variables and partisan conflict. I cannot show causality
+using a Granger test. This is expected, as it is likely that partisan conflict affects investment
+through the uncertainty channel. But it is also possible that low employment levels affect the
+degree of conflict across parties. The results below should then be interpreted as “informed
+correlations” between a set of variables, rather than assuming partisan conflict is exogenous
+to the rest of the economy.
+The main experiment is to test the effects of a 72-point increase in the PC, equivalent to
+the rise in partisan conflict between Q1:2006 and Q2:2013.
+
+24
+
+100000
+
+Surplus (Mil $)
+
+50000
+
+0
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+‐50000
+
+‐100000
+
+‐150000
+
+Quarters
+
+Figure 13: Impulse-response function of deficit to a 72-point increase in PC, equivalent to the rise
+in the PC between 2006 and 2013. Solid line: mean estimate; dashed outer lines: one-standard-error
+bands. Estimated using a quarterly Cholesky VAR model with PC, the Solow residual, the federal
+funds rate, real deficits, log employment, log investment, log GDP, and log public spending (in that
+order).
+
+The immediate effect of an increase in PC scores is a $54.2 billion deficit. This is consistent
+with Alesina and Drazen’s (1991) theory of delayed stabilization that predicts an increase in
+debt as a result of political inaction. The largest effect is observed in the second quarter after
+the shock hits, when deficits increase by $79.4 billion.
+To the extent that partisan conflict introduces uncertainty about economic policies, theories suggest that we should also observe a decline in investment upon impact. The top panel
+of Figure 14 indicates that private investment indeed declines following the rise in partisan
+conflict, with a peak impact of about 9.7% after three quarters. This decrease is persistent,
+with investment recovering only after eight quarters. The negative response of output can be
+seen in the lower panel, which shows a decrease of more than 1% in aggregate production in
+response to the 72-point innovation in PC levels. The degree of persistence is lower than for
+investment, but it is still considerable.
+Figure 18 shows that this innovation causes private employment in the nonfarming sector
+to decrease significantly (solid line), with a peak response of 1.52 million jobs lost after six
+quarters. The dashed lines in the figure represent one-standard-deviation error bands and
+suggest that the decline in employment is statistically significant. The response of public
+spending (not shown) is statistically insignificant.
+
+25
+
+10.0%
+
+Investment (% deviation)
+
+5.0%
+
+0.0%
+
+‐5.0%
+
+‐10.0%
+
+‐15.0%
+
+‐20.0%
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+Quarters
+3.0%
+
+Output (% deviation)
+
+2.0%
+
+1.0%
+
+0.0%
+
+‐1.0%
+
+‐2.0%
+
+‐3.0%
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+Quarters
+
+Figure 14: Impulse-response function of investment (top) and output (bottom) to a 72-point increase
+in partisan conflict (equivalent to the rise in the PC between 2006 and 2013). The central solid
+line is the mean estimate, while the dashed outer lines represent one-standard-error bands. These
+are estimated using a monthly Cholesky Vector Auto Regression (VAR) model with PC, the Solow
+residual, the federal funds (FF) rate, real deficits, log employment, log investment, log GDP, and log
+public spending (in that order).
+
+Robustness Figure 16 shows how the mean estimate of the output response is affected
+by the number of lags used in the VAR estimation. The baseline case uses the optimal lag
+structure (two lags), while the other two lines represent one-lag (dashed) and three-lag (solid
+with circles) specifications. I have also recomputed the VAR using quarterly averages of the
+26
+
+Employment (millions)
+
+1
+
+0
+
+‐1
+
+‐2
+
+‐3
+
+‐4
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+Quarters
+Figure 15: Impulse-response function of employment to a 72-point increase in partisan conflict
+(equivalent to the rise in the PC index between 2006 and 2013). The central solid line is the mean
+estimate, while the dashed outer lines represent one-standard-error bands. These are estimated using
+a monthly Cholesky VAR model with the PC index, the Solow residual, the FF rate, log employment,
+log investment, log consumption, and log GDP (in that order).
+
+seasonally adjusted indicator of partisan conflict described in Section 3, but this does not
+change the results significantly, as seen from the fact that the response of output to PCsa is
+basically identical to the response to the benchmark PC measure.
+I have also recomputed the VAR including EPU measures. I estimate a VAR and recover
+orthogonal shocks by using a Cholesky decomposition of the following: partisan conflict,
+EPU, the Solow residual, the federal funds rate (to control for interest rates), real deficits, log
+employment, log investment, log GDP, and log public spending. The only difference relative
+to the benchmark model is the inclusion of the news-based measure of EPU computed by
+Baker, Bloom, and Davis (2013). Figure 17 shows the impulse-response function of output
+to partisan conflict (solid line) and to news-based EPU shocks (solid line with triangles). For
+reference, I also include the response to a 72-point increase in EPU (solid line with triangles),
+which is stronger and more persistent than the response to partisan conflict.
+To deal with the potential problem of endogeneity, I recomputed the VAR under alternative orderings of the Cholesky decomposition. Figure 18 depicts three cases. The first figure
+(from left to right) shows the benchmark response of investment to a partisan conflict shock
+in the benchmark case. The second figure depicts the same response, but where allowing
+for TFP shocks to cause partisan conflict, that is, under the following ordering, the Solow
+residual, PC, the FF rate, real deficits, log employment, log investment, log GDP, and log
+public spending. Investment still goes down when partisan conflict increases. As before, the
+27
+
+3.00%
+
+2.50%
+
+One Lag
+Three Lags
+Baseline
+
+2.00%
+
+Output (% deviation)
+
+Seasonally Adjusted
+1.50%
+
+1.00%
+
+0.50%
+
+0.00%
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+‐0.50%
+
+‐1.00%
+
+‐1.50%
+
+‐2.00%
+
+Quarters
+Figure 16: Impulse-response function of output to a 72-point increase in PC, equivalent to the rise in
+partisan conflict between 2006 and 2013. Solid line: mean estimate; dashed outer lines: one-standarderror bands. Estimated using a quarterly Cholesky VAR model with PC, the Solow residual, the
+federal funds rate, real deficits, log employment, log investment, log GDP, and log public spending
+(in that order). Also response of output to PC scores under one lag and three lags, as well as the
+response of output to PCsa (under the Seasonally Adjusted label).
+
+effect is significant and persistent. The last figure is computed with PC at the end, that
+is: the Solow residual, the FF rate, real deficits, log employment, log investment, log GDP,
+log public spending, and PC. Although smaller in magnitude, the effect is still statistically
+significant. This extreme case is, of course, unrealistic. But it suggests that even if all other
+variables were to affect partisan conflict, an innovation to the unexplained portion of PC
+would drive investment down.
+This exercise suggests that partisan conflict negatively affects economic behavior. An
+increase in the PC similar to that observed between 2006 and 2013 results in a reduction of
+output, employment, and investment. Because the estimation controls for TFP (through the
+Solow residual), the results suggest that political disagreement exacerbated the detrimental
+effects of the last recession in the US. These effects are shown to be persistent and significant,
+providing additional support for theories relating partisan conflict to business cycles.
+
+28
+
+1.50%
+Polarization shock
+1.00%
+News‐Based EPU shock
+Polarization (benchmark)
+
+Output (% deviation)
+
+0.50%
+
+0.00%
+
+‐0.50%
+
+‐1.00%
+
+‐1.50%
+
+‐2.00%
+
+‐2.50%
+
+‐3.00%
+
+‐3.50%
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+Quarters
+Figure 17: Impulse-response function of output to a 72-point increase in PC, equivalent to the rise
+in the partisan conflict between 2006 and 2013, for different specifications. The solid line is the mean
+estimate for the benchmark model (two lags), estimated using a monthly Cholesky VAR model with
+PC, EPU, the Solow residual, the FF rate, real deficits, log employment, log investment, log GDP,
+and log public spending (in that order). The figure also displays the response of output to PC scores
+under the benchmark model (which excludes EPU) and the response of output to a 72-point EPU
+shock. The top panel uses the baseline EPU measure, while the second uses the news-based component
+measure.
+order1, polar13n, LN_inv
+
+order1, polar13n, LN_inv
+
+.01
+
+.01
+
+0
+
+0
+
+-.01
+
+-.01
+
+-.02
+
+-.02
+0
+
+2
+
+4
+
+6
+
+8
+
+10
+
+12
+
+0
+
+2
+
+4
+
+Quarters
+
+6
+
+8
+
+10
+
+12
+
+Quarters
+
+Graphs by irfname, impulse variable, and response variable
+
+Graphs by irfname, impulse variable, and response variable
+
+order1, polar13n, LN_inv
+.01
+
+0
+
+-.01
+
+0
+
+2
+
+4
+
+6
+
+8
+
+10
+
+12
+
+Quarters
+Graphs by irfname, impulse variable, and response variable
+
+Figure 18: (1) Benchmark, (2) Solow causes PC, (4) PC last.
+
+29
+
+7
+
+Conclusion
+
+Partisan conflict has increased substantially in the United States since the mid-1970s. Commentators and researchers suggest that the deep ideological division between the two main
+parties may have been an important factor affecting the aggregate economy, in particular
+by slowing the recovery from the 2007-09 recession. This paper investigates whether these
+claims are supported by the data. Because testing the hypothesis requires partisan conflict
+to be measured at high frequencies, I first develop a novel index of partisan conflict based on
+news search. Using a simple VAR, I test how an innovation to the estimated index (similar in
+size to that observed between 2007 and 2013) impacts employment, investment, and output.
+I find evidence that political disagreement does cause these variables to decline significantly
+and persistently. Intuitively, partisan conflict increases the volatility of fiscal policy, raising
+the degree of uncertainty faced by businesses and firms, which has been shown to negatively
+affect the economy.
+It should not be concluded from this analysis, however, that partisan conflict is welfarereducing regardless of circumstance. Large increases in partisan conflict were recorded following the Voting Rights Act of 1965, as minorities that were previously unrepresented entered
+the political arena. The social benefits of this reform clearly outweighed the short-run economic costs that could have resulted from lower investment. In addition, partisan conflict
+signals that checks and balances are working as expected in a democratic society. Healthy
+discussions around the consequences and effectiveness of particular policies are desirable outcomes of the legislative process. These debates should be reflected, however, as short-run
+increases on PC scores. What we have observed over the last few decades is a persistent
+increase in partisan conflict instead. The resulting trend is consistent with rising levels of
+polarization and increasing income inequality, as shown in the paper. Investigating whether
+these coincidental trends are also present in other countries, such as the UK, would be a
+fruitful avenue for future research. It would be interesting to see if persistent increases in
+partisan conflict are a phenomenon of presidential rather than parliamentary economies, and
+what the connection between partisan conflict and inequality would be in a broader set of
+countries.
+Analyzing the effects of partisan conflict on the US budget cycle (following Alt and
+Lassen, 2006) or its effects on the composition of durable and nondurable consumption (as
+in Canes-Wrone and Ponce de Leon, 2014) could also be interesting extensions to this work.
+
+30
+
+References
+[1] Alesina, A. and Drazen, A. (1991) “Why are stabilizations delayed?” American
+Economic Review, 81(5), 1170-1188.
+[2] Alt, J. and Lassen, D. (2006) “Transparency, political polarization, and political
+budget cycles in OECD countries,” American Journal of Political Science, 50(3), 530550.
+[3] Azzimonti, M. and Talbert, M. (2013) “Polarized business cycles,” mimeo.
+[4] Bachmann, R., Elstner, S., and Sims, E. (2013) “Uncertainty and economic activity: Evidence from business survey data,” American Economic Journal: Macroeconomics, 5(2), 217-49.
+[5] Baker, S., Bloom, N., and Davis, S. (2013) “Measuring economic policy uncertainty,” mimeo.
+[6] Barber, M. and McCarty, N. (2013) “Causes and consequences of polarization,”
+Task force on negotiating agreement in politics.
+[7] Binder, S. (1999) “The dynamics of legislative gridlock, 1947-1996,” American Political
+Science Review, 88(1), 33-45.
+[8] Bonica, A. and Rosenthal, H. (2013a) “Ideology and interests in the political marketplace,” American Journal of Political Science, 57(2), 294311.
+[9] Bonica, A. and Rosenthal, H. (2013b) “A history (and future) of Congressional polarization.” Available at http://blogs.reuters.com/great-debate/2013/02/04/a-historyand-future-of-congressional-polarization/.
+[10] Canes-Wrone, C. and Park, J.K. (2011) “Electoral business cycles in OECD countries,” American Political Science Review, 106(1), 103-122.
+[11] Canes-Wrone, C. and Ponce de Leon, C. (2014) “Elections, uncertainty, and
+economic outcomes,” mimeo.
+[12] Fernández-Villaverde, J., Guerrón, P. Kuester, K., and Rubio-Ramı́rez, J.
+(2012) “Fiscal volatility shocks and economic activity,” mimeo.
+[13] Fernández-Villaverde, J., and Rubio-Ramı́rez, J. (2010) “Macroeconomics and
+volatility: Data, models, and estimation,” mimeo.
+[14] Gentzkow M. and Shapiro, S. (2010) “What determines media slant? Evidence
+from U.S. daily newspapers,” Econometrica, 78(1), 3571.
+[15] Gilmour, J. (1995) Strategic disagreement: Stalemate in American politics, University
+of Pittsburgh Press.
+
+31
+
+[16] Groseclose, T. and McCarty, N. (2001) “The politics of blame: Bargaining before
+an audience, ” American Journal of Political Science, 45(1), 100-119.
+[17] Jensen, J., Kaplan, E., Naidu, S., and Wilse-Samson, L. (2012) “Political polarization and the dynamics of political language: Evidence from 130 years of partisan
+speech,” Brookings Papers on Economic Activity, Fall 2012.
+[18] Lawrence, L. (1902) The influence of party upon legislation in England and America.
+[19] McCarty, N., Poole, K., and Rosenthal, H. (2003) “Political polarization and
+income inequality,” mimeo.
+[20] McCarty, N., Poole, E., and Rosenthal, H. (2006) Polarized America: The dance
+of ideology and unequal riches, MIT Press.
+[21] Mathews, J. (1919) “Political parties and the war.” American Political Science Review
+13: 213-228.
+[22] Mueller, J. (1973) War, presidents, and public opinion. New York: Wiley.
+[23] Persson, T. and Svensson, L. (1989) “Why a stubborn conservative would run a
+deficit: Policy with time-inconsistent preferences,” Quarterly Journal of Economics,
+104(2), 325-345.
+[24] Ravn, M. and Uhlig, H. (2002) “On adjusting the Hodrick-Prescott filter for the
+frequency of observations,” Review of Economics and Statistics, 4(2), 371-76.
+
+32
+
+8
+
+Appendix
+
+8.1
+
+Sources
+Table 4: Newspaper coverage in Factiva
+
+News Source
+The Arizona Republic
+The Arkansas Democrat Gazette
+The Atlanta Journal Constitution
+The Baltimore Sun
+Boston Herald
+Buffalo News
+Charlotte Observer
+Chicago Sun-Times
+Chicago Tribune
+The Christian Science Monitor
+The Cincinnati Enquirer
+The Columbus Dispatch
+The Boston Globe
+The Courier Journal
+The Dallas Morning News
+The Denver Post
+Detroit Free Press
+The Detroit News
+The Fort Worth Star-Telegram
+The Hartford Courant
+Houston Chronicle
+Indianapolis Star
+Investor’s Business Daily
+The Kansas City Star
+Los Angeles Times
+The Miami Herald
+The Milwaukee Journal Sentinel
+New York Daily News
+New York Post
+
+Start Date
+Jan-1999
+Oct-1994
+Jan-1986
+Sept-1990
+Jul-1991
+Feb-1992
+Jan-1994
+Jul-1985
+Jan-1985
+Sept-1988
+Jan-2002
+Dec-1991
+Jan-1987
+Jan-2002
+Aug-1984
+Aug-1988
+Jan-1994
+Jan-2002
+Jun-2001
+May-1991
+Apr-2012
+Jan-2002
+Jan-2002
+Jan-1991
+Jan-1985
+Oct-1994
+Jan-2000
+Dec-1992
+Sept-1997
+
+News Source
+The New York Times
+Newsday
+The News-Gazette
+The Oklahoman
+Omaha World-Herald
+The Orange County Register
+The Oregonian
+Orlando Sentinel
+The Philadelphia Inquirer
+Pittsburgh Post-Gazette
+The Plain Dealer
+The Sacramento Bee
+San Antonio Express-News
+The San Francisco Chronicle
+San Jose Mercury News
+The Seattle Times
+South Florida Sun-Sentinel
+St. Louis Post-Dispatch
+St. Paul Pioneer Press
+The Star-Ledger
+Star-Tribune
+Tampa Bay Times
+Tampa Tribune
+The Times-Picayune
+USA Today
+U-T San Diego
+The Wall Street Journal
+The Washington Post
+Washington Post.com
+
+Start Date
+Jun-1980
+Jul-1985
+Mar-2000
+Nov-1981
+Aug-1983
+Nov-1986
+Jul-1989
+Oct-1987
+Oct-1994
+Jul-1990
+Mar-1989
+Jan-2003
+Feb-1994
+Apr-2012
+Jan-1994
+Dec-2008
+Jan-1990
+Jan-1992
+Jan-1994
+Jan-1991
+Jan-1986
+Nov-1986
+Jul-2011
+Apr-1992
+Apr-1987
+Jan-2000
+Jun-1979
+Jan-1984
+Oct-2007
+
+Note: This table contains the names of the main US newspapers used in constructing the political polarization index (PC),
+together with the coverage start month in Factiva’s database.
+
+The top news sources are the Washington Post, Los Angeles Times, the New York Times,
+Chicago Tribune, Newsday, Dallas Morning News, the Boston Globe, Tampa Bay Times, and
+Wall Street Journal (see Figure 19 for a decomposition).
+
+33
+
+Washington Post
+Los Angeles Times
+The New York Times
+Chicago Tribune
+Newsday
+The Dallas Morning News
+The Boston Globe
+Tampa Bay Times
+The Wall Street Journal
+
+Figure 19: Percentage of news searches in which these subjects are mentioned over the sample.
+
+8.2
+
+Filters
+NADVTR
+NEDC
+NCOPRO
+NEDI
+NITV
+NLET
+NOBT
+NPEO
+NPAN
+NRAN
+NRVW
+GSPO
+GENT
+GAWARD
+GHEA
+
+Advertorials
+Commentary/opinion
+Country Profile
+Editorial
+Tv listings
+Letters
+Obituaries
+People profiles
+Personal announcements
+Rankings
+Reviews
+Sports
+Entertainment
+Awards/Lotteries
+Health
+
+GLIFE
+GROYAL
+GCOM
+GWEA
+NRGN
+E52
+GRAPE
+GJURI
+gdoga
+gdomv
+ghara
+gprob
+gtrff
+gvand
+
+Lifestyle
+Royal Family
+Society/Community/Work
+Weather
+Routine general news
+Eurozone currency news
+Rape
+Juri
+Dog attacks
+Domestic violence
+Harrassment
+Probation
+Traffic violations
+Vandalism
+
+In addition, news items are restricted to at least 200 words.
+
+34
+
+8.3
+
+A representative article
+
+POLITIFACT
+BUSINESS
+
+SHUTDOWN CAUSED SOME CEOS TO DELAY HIRING FOR SIX MONTHS
+JULIE KLIEGMAN
+Times Staff Writer
+473 words
+27 October 2013
+Tampa Bay Times
+STPT
+SOUTH PINELLAS
+2D
+English
+Copyright 2013 Times Publishing Company. All Rights Reserved.
+
+The statement
+"Half of all CEOs say that the shutdown and the threat of shutdown set back their plans to hire over the next six
+months."
+President Barack Obama, Oct. 17 in a public address
+***
+The ruling: MOSTLY TRUE
+The White House pointed us to a recent Business Roundtable survey.
+"Fift
+f y percent of responding
+r sponding CEOs indicated that the ongoing disa
+re
+disagreement
+s greement in Washington ove
+over
+v r the 2014
+"Fifty
+budget and the debt ceiling is having
+havi
+v ng a negative
+v impact on their plans for
+f r hiring additional employees over
+fo
+ove
+v r the
+next six months," the report reads.
+On its face, that's in line with what Obama said, but we wanted to see how Business Roundtable acquired its
+results. Their report notes, "Responses were received from 134 member CEOs, 63 percent of the total
+Business Roundtable membership."
+Business Roundtable's membership tends to be larger companies. Spokeswoman Amanda DeBard told us
+CEOs are invited based on revenue, industry and market capitalization, so it's safe to say the poll responses
+don't reflect a random sample of U.S. businesses.
+
+35
+
+8.4
+
+Partisan conflict during recessions
+Table 5: Means test, Ho : Diff = 0 and Ha : Diff < 0
+
+Downturns
+Normal Times
+Diff
+P r(T < t)
+
+All Recessions
+0.05
+-0.13
+0.187
+0.53
+
+Panics
+0.018
+-0.44
+0.46
+0.53
+
+No Great Dep.
+-0.23
+0.89
+-1.18
+0.33
+
+Note: The first row displays average detrended historical PC scores during
+downturns (NBER defined), while the second row shows this average in normal times. The fourth row documents the p-value associated with a two-sided
+t-test (unequal variances) for each mean. PC scores are detrended using an
+HP filter (w = 6.25). Each observation corresponds to a year, over the sample period 1891-2013. The second column recomputes these averages during
+panics, while the last column excludes the Great Depression.
+
+8.5
+
+Gallup and partisan conflict
+
+Figure 20 depicts the PC index (left axis) together with the disapproval ratings (right axis), a
+series collected by Gallup in which respondents are asked, “Do you approve or disapprove of
+the way Congress is handling its job?” The shaded area represents the percentage of surveyed
+people who disapprove of Congress’s actions.10
+100.0
+210
+90.0
+
+Gallup Disapproval
+190
+
+Presidential Election
+
+80.0
+
+Partisan Conflict
+170
+
+70.0
+
+PC
+
+50.0
+130
+
+Gallup
+
+60.0
+
+150
+
+40.0
+110
+30.0
+90
+20.0
+
+70
+
+10.0
+
+0.0
+
+50
+1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013
+
+Year
+
+Figure 20: Partisan conflict and Congress disapproval ratings (Gallup).
+10
+
+Data can be found at http://www.gallup.com/poll/1600/congress-public.aspx#1.
+
+36
+
+The low levels of PC observed during military conflicts or national security threats coincide
+with low disapproval rates, suggesting that partisan warfare was not present during those
+episodes. The two series follow a similar pattern, exhibiting an upward trend toward the
+end of the sample, but they behave differently in periods when presidential elections are held
+(displayed with circles). During those months, partisan conflict intensifies, while—as should
+be expected—the disapproval ratings remain fairly stable.
+
+8.6
+
+Keywords
+
+The list of terms used in the robustness check are summarized below.
+• Govt policy: tax (taxation, taxes, taxed), tariff, fiscal stimulus, health care, social
+security, debt ceiling (or limit), welfare, Medicare, Medicaid, part d, affordable care act,
+food stamps, AFDC, tanf, oasdi, earned income tax credit, EITC, public assistance,
+nutritional assistant program, head start program, entitlement program, wic program,
+government subsidies, deficit, budget, national (federal or sovereign) debt, government
+policy, public policy, government spending (or expenditures), entitlement spending (or
+expenditures), unemployment insurance (or benefits), disability insurance (or benefits),
+health insurance (or benefits), medical insurance reform, constitutional reform, welfare
+reform, duty (or duties).
+• Regulation: prescription drugs, drug policy, food and drug admin, FDA, GrammRudman, Bank supervision, thrift supervision, malpractice reform, constitutional reform, financial reform, medical insurance reform, welfare reform, tort reform, constitutional amendment, Glass-Steagall, Dodd-Frank, housing financial services committee,
+capital requirement, security exchange commission, sec, deposit insurance, fdic, fslic,
+ots, occ, firrea, truth in lending, monometallist, bimetallist, (silver or gold) coinage,
+alcohol (or liquor) prohibition.
+• Labor: minimum (or living) wage, union rights, card check, national labor rel. board,
+nlrb, collective bargaining, right to work, closed shop, worker compensation, maximum hours, wages and hours, advanced notice requirement, affirmative action, overtime requirements, at-will employment, Davis-Bacon, equal employment opportunity,
+eeo, osha, immigration.
+• Competition: monopoly, patent, copyright law, federal trade commission, ftc, unfair
+business practice, cartel, competition law, price fixing, price discrimination, class action,
+antitrust, merger policy, competition policy, commerce competition, and commerce
+clause..
+• Environment: carbon tax cap and trade, pollution controls, environmental restrictions, clean air act, clean water act, energy policy, drill* restrict*.
+
+37
+
+• Trade: dumping, trade policy (act, agreement, or treaty), duty (or duties), import
+tariff (or barrier).
+• Defense: national security, military invasion (conflict, embargo, or procurement), war,
+armed forces, police action, base closure, saber rattling, naval blockade, no-fly zone,
+defense spending (or expenditures), military spending (or expenditures).
+
+38
+
+

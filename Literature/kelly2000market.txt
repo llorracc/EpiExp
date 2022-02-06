@@ -1,0 +1,2619 @@
+Market Contagion: Evidence from the Panics of 1854 and 1857
+Author(s): Morgan Kelly and Cormac Ó Gráda
+Source: The American Economic Review , Dec., 2000, Vol. 90, No. 5 (Dec., 2000), pp. 11101124
+Published by: American Economic Association
+Stable URL: https://www.jstor.org/stable/2677843
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+https://about.jstor.org/terms
+
+is collaborating with JSTOR to digitize, preserve and extend access to The American Economic
+Review
+
+This content downloaded from
+73.173.145.14 on Mon, 18 Jan 2021 19:55:21 UTC
+All use subject to https://about.jstor.org/terms
+
+Market Contagion: Evidence from the Panics of 1854 and 1857
+By MORGAN KELLY AND CORMAC 0 GRADA*
+To test a model of contagion-where individuals hear some bad news and communicate it to their acquaintances, who then pass it on, leading to a market panicrequires a knowledge of the information networks of participants, something
+hitherto unavailable. For two panics in the 1850's this paper examines the behavior
+
+of Irish depositors in a New York bank. As recent immigrants, their social network
+
+was determined largely by their place of origin in Ireland, and where they lived in
+New York. During both panics this social network turns out to be the prime
+
+determinant of behavior. (JEL G21, N21)
+
+Industrial Savings Bank, during two bank runs
+
+The idea of market panics spreading through
+
+social contagion-where individuals hear some
+
+in the 1850's. We can reconstruct the social
+
+bad news and communicate it to their acquaintan-
+
+networks of these depositors with some confi-
+
+ces, who pass it on in turn, leading to a market
+
+dence because of one fact about them: most
+
+panic-goes back at least to David Ricardo (1951
+
+were recent immigrants from Ireland.
+
+p. 68), who attributed the panic leading to the
+
+The classic pattern of migration is that newly
+
+suspension of convertibility in 1797 to "the con-
+
+arrived immigrants move in near people they
+
+tagion of the unfounded fears of the timid part of
+
+knew in their home country.2 As a recent immi-
+
+the community." While suggestive evidence for
+
+grant, one's social network in the new world is
+
+the importance of networks of personal contact in
+
+determined in large part by where one came from
+
+financial markets is provided by the survey data of in the old. We confirm that social networks reflect
+Robert J. Shiller (1989 Chs. 1-2), Shiller and John
+
+place of origin by using marriage records from a
+
+Pound (1989), and Ellen Hertz's (1998) fascinat-
+
+church located close to the bank. Of Irish couples
+
+ing ethnographic study of investor groups in the
+
+married there in the 1850's, a majority had come
+
+Shanghai stock boom of 1992, a formal test of
+
+from the same county, and very often the same
+
+market contagion requires not only information
+
+parish, in Ireland; and frequently inhabited the
+
+on the transactions of individual participants, but
+
+same tenement in New York. Consequently, if a
+
+also a knowledge of their information networks,
+
+depositor had emigrated from County Cork in
+
+something hitherto unavailable for financial
+
+Ireland, we can be quite confident that he knew
+
+markets.!
+
+other depositors from Cork.
+
+To test the role of social contagion in market
+
+After taking account of the individual char-
+
+panics, this paper looks at the behavior of de-
+
+acteristics of depositors and their account
+
+positors in a New York bank, the Emigrant
+
+histories, we test how well social-network vari-
+
+ables-county of origin and district of residence-distinguish depositors who closed their
+accounts during each panic from those who
+
+* Kelly: Department of Economics, University of War-
+
+wick, Coventry CV4 7AL, U.K.; 0 Grada: Department of
+
+stayed with the bank. We use a classification-
+
+Economics, University College Dublin, Belfield, Dublin 4,
+
+tree procedure that recursively partitions the set
+
+Ireland. We thank Patrick Honohan and two anonymous ref-
+
+of depositors into increasingly homogeneous
+
+erees for their detailed and constructive criticisms of earlier
+
+groups of panickers and stayers.
+
+versions of the paper; and Marion Casey and Tyler Anbinder
+
+The results obtained are striking. While factors
+
+for guidance on the New York Irish. Any errors are ours.
+
+1 In sociology, the classic study of Bryce Ryan and Neal C.
+Gross (1943) showed the central role played by influence of
+
+such as length of time the account had been open,
+
+neighbors in the diffusion of hybrid seed corn. Josef Lakonishok et al. (1992) and Mark Grinblatt et al. (1995) examine
+
+2 Robert Ernst (1994 pp. 40-41); George J. Borjas
+
+whether institutional investors herd together in buying or selling the same stock, but find limited evidence for this.
+
+(1995); Thomas Sowell (1996 pp. 4-9).
+1110
+
+This content downloaded from
+73.173.145.14 on Mon, 18 Jan 2021 19:55:21 UTC
+All use subject to https://about.jstor.org/terms
+
+VOL. 90 NO. 5 KELLY AND 0 GRADA: MARKET CONTAGION 1111
+
+years lived in the United States, and size of ac-
+
+banks set up in New York State before the Civil
+
+count have some role in predicting behavior, the
+
+War. These banks, established to offer high
+
+most important characteristic that distinguishes
+
+interest and liquidity to the industrious poor,
+
+panickers from stayers is county of origin in Ire-
+
+proved extremely popular: in New York City by
+
+land. Depositors from one set of counties tended
+
+1860 there was one savings bank account for
+
+to close their accounts in both panics, while oth-
+
+every four people (Alan L. Olmstead, 1976 p.
+
+erwise identical individuals from other counties
+
+4). For good economic histories of the early
+
+tended to stay with the bank. County of origin also savings banks, see Peter L. Payne and Lance E.
+
+determines, in the more important run, the timing Davis (1956) on Baltimore, and Olmstead
+of panicking: different groups of depositors closed (1976) on New York City.
+their accounts at different times. The importance
+
+The EISB was set up on Chambers Street in
+
+of county of origin in determining behavior does
+
+the Sixth Ward by a group of prominent Irish
+
+not diminish the longer the depositor had lived in
+
+citizens, acting at the behest of the ubiquitous
+
+America, reflecting the well-known failure of
+
+Bishop John Hughes of New York, in Septem-
+
+these, mostly very poor, immigrants to assimilate
+
+ber 1850. Its first depositors were overwhelm-
+
+into wider New York society.
+
+ingly Irish immigrants and, although it attracted
+
+Bank panics are the product of observable
+
+increasing numbers of German immigrants and
+
+events that are perceived by depositors to con-
+
+Irish-Americans, this group still held almost 90
+
+tain adverse information about a bank's sol-
+
+percent of accounts in the late 1850's. By 1860
+
+vency. They can be the result of a sequence of
+
+it had over 10,000 accounts and held over $2
+million on deposit, making it a medium-sized
+savings bank by contemporary standards (Olmstead, 1976 p. 159).
+
+stochastic withdrawals (Douglas Diamond and
+Philip Dybvig, 1983), or of asymmetric information between the bank and its depositors
+
+about the quality of the bank's assets (V. V.
+Chari and Ravi Jagannathan, 1988).3 What mat-
+
+What makes this bank notable is the large
+amount of background information on individ-
+
+ters is that a few depositors decide for some
+
+ual depositors that it collected, which makes its
+
+reason that the bank is in trouble and start to
+
+archive a primary source of information about
+
+pass the news on to their acquaintances.
+
+Irish immigrants to America in the immediate
+
+The rest of the paper is as follows. Section I
+
+post-Famine period.4 For example, the bank's
+
+gives the historical background to the paper,
+
+first depositor, Bridget White, was the wife of a
+
+discussing the bank, Irish immigrants in New
+
+tailor living on Henry Street in the Seventh
+
+York, and the panics of 1854 and 1857. Our
+
+Ward. Born near Mountmellick in Queens
+County, Ireland, she had arrived in New York
+
+data are summarized in Section II, and Section
+III tests the importance of social networks rel-
+
+nine years earlier on the Fairfield out of Liver-
+
+ative to individual characteristics in distinguishing depositors who panicked from those who
+
+pool. Her father still lived in Ireland, but her
+
+stayed put. Section IV concludes.
+I. Historical Background
+
+mother was dead. She had four brothers (whose
+names are given), three of them living in the
+
+United States, and three sisters.
+The patterns of account holding in the bank are
+
+discussed in 0 Grada and Eugene White (1999)
+A. Bank
+
+and summarized below in Table 3. While some
+
+account holders behaved in true Smilesian fash-
+
+The Emigrant Industrial Savings Bank
+(EISB) was one of a score of mutual savings
+
+ion, making small deposits and allowing them to
+
+accumulate, and others made frequent deposits
+and withdrawals, treating their accounts almost as
+
+3A useful survey of the causes of panics is given by
+
+checking accounts; in most cases, as George Alter
+et al. (1994) found for the Philadelphia Saving
+
+Charles W. Calomiris and Gary Gorton (1991). Our concern
+here is with contagion among depositors, rather than the
+
+contagion among lenders considered by Guillermo Calvo
+and Enrique Mendoza (1995), Jeffrey Sachs et al. (1995),
+
+4Our data are taken from Reels 4-5 and 15-20 of the
+
+and others. The role of bank solvency in propagating panics
+
+microfilms of the EISB archives in the New York Public
+
+is examined by Calomiris and Joseph R. Mason (1997).
+
+Library.
+
+This content downloaded from
+73.173.145.14 on Mon, 18 Jan 2021 19:55:21 UTC
+All use subject to https://about.jstor.org/terms
+
+1112 THE AMERICAN ECONOMIC REVIEW DECEMBER 2000
+
+Fund Society in 1850, accounts were relatively
+
+TABLE 1-MARRIAGE PATrERNS OF IRISH IMMIGRANTS,
+
+1853-1860
+
+large in size, brief in duration, and inactive.
+B. People
+
+Birthplace of spouses of Irish-born Percentage
+
+persons married in Church of the
+Transfiguration of Our Lord Women Men
+
+The EISB was located in the greatest concentration of Irish immigrants in North America.
+New York was the main port of entry into the
+
+United States for Irish immigrants and, by the
+mid-1850's, contained almost as many Irishborn people as Dublin. Like immigrants everywhere, the Irish tended to cluster in
+neighborhoods of their own. In New York in
+
+1855, Irish immigrants accounted for 28.2 percent of the city's population but made up over
+
+Same
+
+county
+
+49.4
+
+51.1
+
+Neighboring county 18.0 18.6
+Same
+
+province
+
+3.9
+
+4.0
+
+Elsewhere in Ireland 21.9 22.6
+Outside
+
+Ireland
+
+6.8
+
+3.6
+
+Notes: Based on all marriages of occupants of the area
+bounded by Canal, Baxter, Pearl, and Chatham/Bowery for
+
+the period October 1853-November 1860. Sample includes
+722 women and 698 men. Thanks to Heather Griggs who
+supplied the database.
+
+two-fifths of the populations of the First,
+Fourth, and Sixth Wards. Immigrants from dif-
+
+ferent parts of Ireland tended to cluster in dis-
+
+with different surnames and mostly from County
+
+tinct enclaves; Monroe Street was known as
+
+Cork, married out of 22 Mulberry Street in the
+
+"Cork Row," in the Fourth Ward the area next
+
+1850's. The residence at 31 Baxter Street supplied
+
+to the East River was "a favorable spot for
+
+eight grooms, all from Kerry or neighboring west
+
+Kerry men and their descendants," and so on
+
+Cork, and five of them married women giving the
+
+(John T. Ridge, 1996 pp. 276-77). The EISB
+
+same address. Given that in about one marriage in
+
+was located in the Sixth Ward next to streets
+
+four both bride and groom gave an address in the
+
+teeming with impoverished immigrants from
+
+same tenement demonstrates how narrowly cir-
+
+Counties Kerry and Sligo.
+
+cumscribed by place of origin in Ireland and residence in New York were the social networks of
+
+Marriage patterns reflect social networks, and
+the importance of regional and local networks
+
+Irish immigrants.
+
+for Irish immigrants is demonstrated by the
+marriage records of a Roman Catholic Church
+
+C. The Panics of 1854 and 1857
+
+located a few hundred yards from the EISB, the
+
+Church of the Transfiguration of Our Lord.5 As
+
+Our purpose is to examine how these immi-
+
+Table 1 shows, in the period 1853 to 1860, most
+
+grants behaved during two bank panics: a small
+
+Irish couples who married there had come from
+
+run in 1854, and the major Panic of 1857. The
+
+the same or neighboring county in Ireland.
+
+1854 run began on December 12 with the news
+
+Among men originating from the well-
+
+that, for the second week running, the Knicker-
+
+represented counties of Kerry and Sligo, more
+
+bocker Bank (parent of the Knickerbocker Sav-
+
+than two-thirds married women from the same
+
+ings Bank, the only New York savings bank to
+
+county and, in most cases, from the same corner
+of the same county. Ten of the 15 grooms from
+
+fail in the antebellum era) had not produced a
+
+Tuosist parish in Kerry married women from
+the same parish, and three more women from
+neighboring parishes. Eleven of the 29 grooms
+from the parish of Rahamlish in Sligo married
+women from Rahamlish, and another four married women from a neighboring parish.
+Certain Sixth Ward addresses recur in the marriage records. For instance, thirteen men, mostly
+
+clearinghouse (Olmstead, 1976 pp. 142-43).
+
+weekly statement for the New York bankers'
+
+On December 13 several savings banks were
+forced to pay out freely, and on the following
+day the Bank of Savings on Chambers Street
+sent $200,000 of its government paper to Washington for redemption. The news reduced the
+demand for deposits but, although the city's
+press was unanimous in denouncing the gullibility of those involved in the run and repeatedly urged that the city's other savings banks
+were
+S These records are discussed in more detail in 0 Gradasound, banks continued to experience high
+(1999 pp. 114-21).
+rates of account closure until December 30.
+
+This content downloaded from
+73.173.145.14 on Mon, 18 Jan 2021 19:55:21 UTC
+All use subject to https://about.jstor.org/terms
+
+VOL. 90 NO. 5 KELLY AND 0 GRADA: MARKET CONTAGION 1113
+
+During this period, well over 200 savers in the
+
+EISB closed their accounts.
+The Panic of 1857 started in New York with
+news of the failure of the Ohio Life and Trust
+Company (August 24) and of the loss of a
+steamer en route to New York with $2 million
+of uninsured gold bullion (September 17). The
+crisis quickly spread from the United States to
+the United Kingdom, where it provoked the
+suspension of the Banking Act of 1844, and
+thence to the Continent (Charles Kindleberger,
+1978 p. 186). The Panic of 1857 led to a brief
+but sharp rise in unemployment in New York
+(Edwin G. Burrows and Michael Wallace, 1999
+
+E
+
+pp. 845-46) and had a devastating short-term
+impact on banking systems and stock exchanges:
+Jan 52 Jan 54 Jan 56 Jan 58 Jan 60
+
+for a recent interpretation of the panic see Calo-
+
+miris and Larry Schweikart (1991).
+New York's savings institutions were far
+more seriously affected in 1857 than they had
+
+FIGURE 1. CHANGE IN NUMBER OF ACCOUNTS
+(NET CLOSURES) BY MONTH, 1851-1860
+
+been in 1854. Although the press and the financial establishment were dismissive of the fears
+
+open. However, given the frequency with which
+
+of the crowds who gathered around banks, the
+
+depositors closed accounts, and the low time
+
+declines in railway stock and state and munici-
+
+cost of reopening an account, this is probably
+
+pal bonds were such as to threaten the solvency
+
+not important. The relatively short duration of
+
+of at least some of the banks (O Grada and
+
+both panics reduces the force of a second limi-
+
+White, 1999). For several days thousands of
+
+tation, that our "panickers" include some depos-
+
+account holders lined up to withdraw most or all
+
+itors who would have closed their accounts in
+
+of their savings. On October 13 the savings
+
+any case.
+
+banks invoked a rarely imposed clause in their
+
+For each period, our sample consists of all
+
+articles of agreement limiting withdrawals on
+
+panickers and a one in ten sample of other
+
+demand to 10 percent of the outstanding bal-
+
+depositors who decided not to close their ac-
+
+ance, and brought the panic to a close. Between
+
+counts. This led to an initial sample of 598
+
+September 28 and October 13, 1857 over 500
+
+accounts for 1854, of which 235 were closed
+
+EISB savers closed their accounts, nearly twofifths of them on October 12 and 13 alone.
+
+during the panic; and 1,035 accounts, including
+505 panickers, for 1857. Note that only a small
+proportion of depositors (6 percent in 1854 and
+
+II. Data and Estimation
+
+8.7 percent in 1857) closed their accounts on
+each occasion.6
+
+We consider the behavior of depositors dur-
+
+For each depositor we recorded the date the
+
+ing the panics of 1854 and 1857. Based on our
+
+account was opened, the number of deposits and
+
+earlier discussion, we date the 1854 panic as the
+
+withdrawals made prior to the panic, and the
+
+period December 11 to December 30, and the
+
+closing balance of the account (or its balance at
+
+1857 panic as the period September 28 to October 13. These two events show clearly as
+spikes in the monthly series of changes in the
+number of EISB accounts (closures minus
+openings) in Figure 1. A depositor is defined as
+
+the end of the panic, if the account stayed open).
+
+a panicker if he closed his account during these
+
+periods. A possible limitation of this definition
+is that it excludes depositors who removed most
+of their money while keeping their account
+
+As well as this account information, we collected information about the personal details of
+
+6 The sample size was dictated by the need to calculate
+individual-account details from handwritten bank ledgers.
+Varying the proportion of nonpanickers sampled changes
+the reported sample probabilities of panicking but does not
+affect the relative significance of explanatory variables.
+
+This content downloaded from
+73.173.145.14 on Mon, 18 Jan 2021 19:55:21 UTC
+All use subject to https://about.jstor.org/terms
+
+1114 THE AMERICAN ECONOMIC REVIEW DECEMBER 2000
+
+AL
+
+-~~~~
+
+- ALL- :
+
+_ 3. I 4 13 5 .|
+
+FIGURE 2. MAP OF 1850'S NEW YORK, SHOWING PHELP
+
+Source: Based on City of New York, published by Tbomas
+
+depositors: their sex, occupation, how long they
+
+"New York City Street and Avenue Guide" in
+
+had been living in the United States, and, most
+
+Phelps (1857) (see Figure 2). This assigned the
+
+importantly, their social networks.
+
+city into grids about 1,000 yards square (approximately 11 north-south blocks by 4 east-west
+
+As the marriage data discussed above demonstrated, the social networks of Irish immi-
+
+blocks).7 Streets in row F below 14th Street are
+
+grants reflected two interrelated facts about theirgrouped together as Downtown, the area between
+lives: where they had come from in Ireland, and
+
+14th Street and 32nd Street we label Midtown,
+
+where they lived in New York. We have data on
+
+and the remainder of Manhattan as Uptown. Our
+
+both factors: we know the province and county
+
+of origin of most Irish depositors, and the street
+addresses of all depositors.
+To convert street addresses into district codes
+we use the street grid of Humphrey Phelps's
+
+7 Some longer streets span more than one grid square but
+are assigned by Phelps to one, so some depositors on these
+streets will have been assigned to the wrong square.
+
+This content downloaded from
+73.173.145.14 on Mon, 18 Jan 2021 19:55:21 UTC
+All use subject to https://about.jstor.org/terms
+
+VOL. 90 NO. 5 KELLY AND 0 GRADA: MARKET CONTAGION 1115
+
+TABLE 2-DEFINITIONS OF VARIABLES
+
+Panicked Account closed during panic
+
+Previous deposits Number of deposits made into account at annualized rate, excluding initial deposit
+Previous withdrawals Number of withdrawals from account prior to panic
+Closing balance Closing balance if panicked, balance at end of panic otherwise
+Length open Number of months the account had been open prior to panic
+Years in United States Number of years the depositor had lived in the United States
+
+Occupation Occupation: laborer (1), professional (p), or other (o)
+Sex
+
+Female
+
+or
+
+male
+
+Distiict Depositor's address given by grid coordinate of Phelps's 1857 "New York City Street and
+Avenue Guide" (3b-6d); otherwise Downtown (dt), Midtown (mt), Uptown (ut), Long
+Island (ii), Brooklyn (bn), Staten Island (si), New Jersey (nj), Upstate (us), or other (oth)
+County Depositor's county of origin in Ireland
+
+Note: Panic is defined as the period from December 11 to December 30 for the 1854 data, and from September 28 to October
+13 for the 1857 data.
+TABLE 3-SUMMARY STATISTICS FOR STAYERS AND PANICKERS, 1854 AND 1857
+
+1854
+
+1857
+
+Stayers Panickers Stayers Panickers
+Previous
+Previous
+
+deposits
+
+2.18
+
+withdrawals
+
+2.61
+
+1.33
+
+2.01
+
+3.08
+
+2.19
+
+1.1
+
+1.45
+
+Closing balance 186.86 124.36 223.36 161.5
+Length
+
+open
+
+16.05
+
+11.56
+
+23.84
+
+18.34
+
+Years in United States 7.98 5.42 10.61 8.02
+Female
+
+31.71
+
+Laborer
+
+Professional
+
+Ulster
+
+33.74
+
+Connacht
+Munster
+
+31.61
+
+44.72
+
+59.59
+
+4.07
+
+32.97
+
+43.36
+
+42.78
+
+52.38
+
+1.55
+
+16.06
+
+3.81
+
+28.33
+
+3.25
+
+14.28
+
+9.76
+
+17.62
+
+13.90
+
+15.04
+
+29.67
+
+36.79
+
+27.52
+
+40.35
+
+Note: Entries for numerical variables are means; entries for factors are percentages of
+accounts.
+
+other districts are Brooklyn, Long Island, Staten
+
+depositors summarized in Table 3. The first is
+
+Island, New Jersey, Upstate, and other. As well as
+
+the high proportion of unskilled workers-
+
+capturing potential neighborhood effects, this grid
+
+laborers, porters, domestic servants-among
+
+allows us to gauge the impact of shoe-leather costs
+
+depositors, composing about half of all ac-
+
+on panicking: depositors living in squares closer to
+
+counts; with most of the remainder belonging to
+
+the bank face a lower cost of going to the bank and
+
+clerks and small capitalists. Secondly, most de-
+
+closing their accounts and may therefore be more
+
+positors were recent immigrants: over 80 per-
+
+likely to panic.8
+
+cent had arrived since the start of the Great
+
+Restricting ourselves to Irish depositors whose
+
+Famine in 1845. Thirdly, at a time when the
+
+county of origin is known, and whose address we
+
+average weekly wage of a male laborer was
+
+could locate, gave us a sample of 439 accounts,
+
+around $5, with a female domestic earning
+
+including 193 panickers, for 1854; and 766 ac-
+
+about half that, the average account balance was
+
+counts, including 399 panickers, for 1857. The
+
+large: $160 in 1854 and $190 in 1857, with
+
+variables that we use to distinguish between panickers and stayers are defined in Table 2, and
+
+medians of $100 and $115 respectively. Finally,
+
+summary statistics are presented in Table 3.
+
+had been open for 14 months in 1854 and 21
+
+There are several notable features about the
+
+accounts were short lived-the average account
+
+months in 1857-and comparatively inactive
+when open, averaging three or four transactions
+a year.
+
+8 We are grateful to a referee for this point.
+
+Comparing panickers with stayers, the major
+
+This content downloaded from
+73.173.145.14 on Mon, 18 Jan 2021 19:55:21 UTC
+All use subject to https://about.jstor.org/terms
+
+1116 THE AMERICAN ECONOMIC REVIEW DECEMBER 2000
+
+TABLE 4-CHARACTERISTICS OF PANICKERS: LOGISTIC REGRESSION
+
+1854
+
+Intercept
+
+0.4976
+
+(0.2758)
+Previous
+
+deposits
+
+withdrawals
+
+0.0225
+
+Closing
+
+balance
+
+Length
+
+open
+
+-0.0324**
+
+0.043
+
+-0.0037
+
+(0.0264)
+
+0.0281
+
+(0.0182)
+
+-0.001k*
+
+(0.0005)
+
+-0.0116**
+
+(0.0102)
+
+(0.2543)
+
+0.0062
+
+(0.0208)
+
+(0.0303)
+
+-0.0018*
+(0.0008)
+
+1857
+
+0.6118*
+
+(0.3314)
+
+0.0059
+
+(0.0261)
+
+(0.0173)
+
+1854
+
+0.5747
+
+(0.2178)
+
+0.0139
+
+(0.021)
+Previous
+
+1857
+
+0.5951**
+
+-0.001*
+
+(0.0008)
+
+-0.034**
+
+(0.0044)
+
+0.0389
+
+(0.0306)
+
+-0.0008
+(0.0005)
+
+-0.0117**
+
+(0.0105)
+
+(0.0045)
+
+Years in United States -0.0456* -0.0459** -0.04* -0.0396**
+
+(0.0201)
+Female
+
+-0.1171
+
+(0.2273)
+Laborer
+
+0.452*
+
+Ulster
+
+(0.1618)
+
+0.299
+
+(0.0128)
+
+0.3627*
+
+(0.2319)
+
+0.4945*
+
+(0.1572)
+
+-0.4297
+
+(0.7098)
+
+(0.0202)
+
+-0.1263
+
+0.2565
+
+(0.2133)
+Professional
+
+(0.0126)
+
+0.3581*
+
+(0.1635)
+0.2124
+
+(0.2182)
+-0.2398
+
+(0.4267)
+
+-0.8247**
+
+(0.7138)
+
+(0.1591)
+0.3737
+
+(0.4303)
+
+-0.6116**
+(0.2951) (0.219)
+
+Connacht
+
+0.4871
+
+0.025
+
+(0.338) (0.2405)
+Munster
+
+-0.0295
+
+0.2065
+(0.2617) (0.1916)
+
+Density
+Null
+
+0.0648
+
+deviance
+
+0.0882
+602
+
+0.0641
+
+1061
+
+Residual
+
+deviance
+
+Percent
+
+misclassified
+
+553
+
+602
+
+1001
+
+35
+
+0.0882
+1061
+
+537
+
+39
+
+987
+
+32
+
+36
+
+Notes: Logistic regression. Dependent variable: Panicked. Standard errors are in parentheses. 439 observations for 1854, 766
+for 1857. Density is the mean of the logistic density estimated for each observation, adjusted for the undersampling of stayers:
+multiplying the coefficient of a numerical variables by this gives the marginal effect of the variable on the probability of
+panicking. Null deviance and residual deviance are minus twice the log-likelihood (up to a constant) when only the intercept
+is included, and when all explanatory variables are included respectively. Percent misclassified is the percentage of
+observations where the predicted value of the dependent variable differs from the actual value.
+
+* Denotes pseudo-t-statistic significant at 5 percent.
+** Denotes pseudo-t-statistic significant at 1 percent.
+
+differences are in size of deposit and length of
+
+panicking for an individual at the mean level of
+
+time in America: the larger one's account and
+
+the covariates, these coefficients are multiplied
+
+the longer one had lived in the United States the
+
+by the figure in the row labeled "Density,"
+
+less likely one was to panic. Province of origin
+
+which is the logistic multiplier times the deriv-
+
+also mattered, with depositors from Ulster un-
+
+ative of the population probability of panicking.
+
+derrepresented among panickers relative to
+
+The undersampling of stayers implies that this
+
+adjustment factor is substantial, in the range
+
+other provinces.
+This informal division is supported by logis-
+
+0.06 to 0.08.
+
+tic regressions for the probability of panicking
+
+In both 1854 and 1857 the probability of
+
+reported in Table 4. The regression coefficients
+
+panicking declines the longer one had lived in
+
+reflect the behavior of the sample where pan-
+
+the United States and had been with the bank,
+
+ickers are overrepresented. If p is the fraction of
+
+the larger one's account balance, and if one
+
+our sample that panicked, then pl(10 - 9p) is
+
+came from Ulster. Holding other covariates
+
+the fraction of the bank's depositors that pan-
+
+fixed at their mean values, and again adjusting
+
+icked. To estimate the marginal effect of a nu-
+
+for the fact that only one in ten stayers were
+
+merical variable on the true probability of
+
+sampled, a depositor from Ulster has a predicted
+
+This content downloaded from
+73.173.145.14 on Mon, 18 Jan 2021 19:55:21 UTC
+All use subject to https://about.jstor.org/terms
+
+VOL. 90 NO. 5 KELLY AND 0 GRADA: MARKET CONTAGION 1117
+
+TABLE 5-AcCOUNTS AND PANICKERS BY COUNTY
+1854
+County
+
+of
+
+1857
+
+Panickers
+
+Panickers
+
+origin Accounts (percent) Accounts (percent)
+Antrim
+
+10
+
+Armagh
+
+Carlow
+Cavan
+
+20
+
+15
+
+40
+
+5
+
+31
+
+0
+
+29
+
+8
+
+50
+
+13
+
+31
+
+9
+
+56
+
+39
+
+26
+
+Clare
+9
+33
+Cork
+49
+45
+
+22
+84
+
+59
+57
+
+Derry
+
+12
+
+67
+
+6
+
+Donegal
+
+0
+
+16
+
+Down
+
+9
+
+Dublin
+
+21
+
+Kerry
+
+28
+
+Laois
+
+6
+
+Leitrim
+
+Limerick
+Longford
+Louth
+
+5
+
+Mayo
+
+8
+
+Meath
+
+11
+
+Monaghan
+
+7
+
+Tyrone
+
+12
+
+Waterford
+
+Wexford
+
+Total
+
+439
+
+38
+53
+
+15
+
+67
+
+24
+
+18
+
+67
+
+22
+
+19
+54
+
+25
+
+8
+
+32
+
+7
+
+24
+
+5
+
+44
+
+62
+
+38
+
+14
+
+44
+
+57
+
+37
+
+32
+
+50
+
+16
+
+Wicklow
+
+51
+
+21
+
+50
+14
+50
+12
+50
+29
+55
+
+24
+
+Westmeath
+
+54
+
+15
+
+45
+
+29
+
+Tipperary
+
+78
+
+51
+
+42
+
+11
+
+Offaly
+6
+Roscommon
+Sligo
+
+56
+
+75
+
+45
+
+13
+
+100
+
+9
+
+29
+
+18
+
+43
+
+12
+
+74
+
+11
+
+62
+
+34
+
+58
+57
+
+73
+
+38
+
+50
+7
+
+56
+
+12
+35
+
+50
+
+13
+
+17
+
+50
+
+36
+
+25
+
+71
+
+8
+
+Kilkenny
+
+8
+
+43
+4
+
+24
+
+Kildare
+
+23
+
+67
+
+Fermanagh
+Galway
+
+12
+
+43
+
+22
+
+16
+
+20
+
+55
+69
+
+3
+
+766
+
+0
+
+52
+
+probability of panicking of 3 percent in 1854
+
+Table 5 shows that there is a large variation in
+
+and 5 percent in 1857, only half that of a de-
+
+the likelihood of panicking across different
+
+positor from Leinster (the omitted province in
+
+counties of origin. In 1857, for example, while
+
+the regression dummies), whose predicted prob-
+
+52 percent of accounts in our sample closed
+
+abilities are 8 percent and 10 percent respec-
+
+during the panic, only 17 percent of depositors
+
+tively. In addition, depositor's occupation is
+
+originally from Donegal and 26 percent from
+
+significant for 1854, while sex is significant for
+
+Cavan (both Ulster counties) panicked, com-
+
+1857.
+
+pared with 67 percent for Meath and 74 percent
+
+The importance of networks of personal ac-
+
+for Kerry. The hypothesis that these proportions
+
+quaintance in propagating panics can be seen in
+
+are equal across counties is strongly rejected:
+
+the day to day accounts of the bank. During the
+
+the chi-squared statistic is 52.4 for 1854 and
+
+1854 run, for instance, we find that John Hayes
+
+74.6 for 1857, both significant at 1 percent. It
+
+and John Lane (originally from Cork) and
+
+can be seen that the same counties tended to
+
+Thomas Murray and Michael Corcoran (from
+
+produce panickers or stayers in both years: the
+
+Roscommon), all laborers living at 26 Cherry
+
+rank-order correlation between percentage of
+
+Street, showed up at the bank on September 14
+
+panickers in both years is 0.55.
+
+and closed their accounts.
+
+Figure 3 maps the likelihood of panicking by
+
+This content downloaded from
+73.173.145.14 on Mon, 18 Jan 2021 19:55:21 UTC
+All use subject to https://about.jstor.org/terms
+
+1118 THE AMERICAN ECONOMIC REVIEW DECEMBER 2000
+
+Percentage of panickers 1854 Percentage of panickers 1857
+0
+tJ
+
+f
+
+0-19
+20
+
+40
+
+_60
+
+-
+
+-
+
+39
+
+59
+
+-79
+
+I
+
+0-19
+120
+
+a
+
+h)
+
+1
+
+-
+
+39
+
+40
+
+/_60
+
+-
+
+59
+
+-79
+
+/
+
+E Number of accounts Number of accounts
+
+FIGURE 3. NUMBER OF DEPOSITORS AND PERCENTAGE OF PANICKERS BY COUNTY OF ORIGIN
+
+IN IRELAND, 1854 AND 1857
+
+Note: Dark lines are boundaries of provinces.
+
+county of origin in Ireland. Neglecting counties
+
+between explanatory variables, more economi-
+
+with few depositors, it shows not only a strong
+
+cally than a logistic regression.
+
+variation in the probability of panicking, but
+also that the counties least likely to produce
+
+III. Social Networks in Panics
+
+panickers are clustered in the north and northwest of the county.
+
+To examine the importance of social net-
+
+When county-of-origin dummies were added
+
+works in propagating panics, an elegant and
+
+to the regressions in the first two columns of
+
+intuitive approach is provided by the classifica-
+
+Table 4, only Galway and Wexford in 1854
+
+tion-tree procedure of L. Breiman et al. (1984).9
+
+were individually significant. However, the
+
+Classification trees use a recursive, binary par-
+
+county dummies are jointly strongly significant:
+
+titioning procedure to split the data into groups
+
+the chi-squared statistic for the hypothesis that
+
+of observations that are as homogeneous as
+
+their coefficients are jointly zero is 54 for 1854
+
+possible in terms of the dependent variable.
+
+and 72 for 1857. Using district-of-residence
+
+The procedure goes through all explanatory
+
+instead of county-of-origin dummies, districts
+
+variables and tries a split at each level for every
+
+4d and 4e were individually significant in 1854,
+
+numerical variable, and for every combination of
+
+and district 4b in 1857. Testing joint signifi-
+
+levels for each factor. It chooses the split that
+
+cance of all districts gave a borderline signifi-
+
+partitions the data into panickers and stayers with
+
+cant chi-squared statistic of 30 for 1854, but a
+
+as few misclassifications of individuals as possible. For instance, an account balance of $60 might
+provide the best split, with depositors holding less
+than this tending to panic and those with more
+tending to stay. The procedure is then repeated for
+
+highly significant 43 for 1857. If county of
+origin is already included, the district-ofresidence dummies are jointly insignificant for
+1854, but significant at 2 percent for 1857.
+
+While these results suggest that social network
+
+factors may play an important role in panics, we
+need a technique that can handle factors with
+many levels, and possible nonlinear interactions
+
+9 A good introduction to classification trees is given by
+W. N. Venables and B. D. Ripley (1994 Ch. 13).
+
+This content downloaded from
+73.173.145.14 on Mon, 18 Jan 2021 19:55:21 UTC
+All use subject to https://about.jstor.org/terms
+
+VOL. 90 NO. S KELLY AND 0 GRADA: MARKET CONTAGION 1119
+
+each of the two new subgroups of data, with the
+
+The pattern of results in Figures 4 and 5 is
+
+algorithm again searching through the explanatory
+
+immediate and striking. For both panics, the most
+
+variables to find the best partition in each case. For
+
+important factor that distinguishes panickers from
+
+stayers is county of origin. In both 1854 and 1857,
+than $60, district of residence might give the best depositors from Cavan, Donegal, Monaghan, Tyrone, and Sligo tended to stay while depositors
+split, with depositors from districts 4c and 4d
+
+example, among depositors with a balance of less
+
+tending to panic and those from other districts
+
+from other counties tended to panic. Among de-
+
+tending to stay; while for depositors with balances
+
+positors from staying counties, three-quarters
+
+above $60, length of time in the United States
+
+stayed with the bank in 1854, and two-thirds in
+
+might give the best partition, with those present
+
+1857. For these depositors, the length of time with
+
+more than five years being inclined to stay and a
+
+the bank (1854) and the size of their balance
+
+majority of those present less than five years pan-
+
+(1857) have a secondary effect in reducing the risk
+
+icking. This partitioning process continues until
+
+of panicking.
+
+the process runs out of observations.
+Splits higher in the tree are more important in
+
+Among depositors from other counties,
+slightly over half those in the sample panicked
+
+terms of distinguishing panickers from stayers
+
+in 1854 and 60 percent in 1857. In both years,
+
+than splits lower down. The result is a decision
+
+the most important secondary characteristic of
+
+tree that gives a rule for classifying each indi-
+
+panickers is length of time in the United States:
+
+vidual, and states the probability that an indi-
+
+of 23 depositors in 1854 who had been there
+
+vidual is misclassified by this rule. A typical
+
+more than 18 years, only 3 panicked; while in
+
+decision path might be, for example, that an
+individual with less than $60 in the bank, who
+lived in districts 4c or 4d, and was an unskilled
+workers is predicted to be a panicker; and of the
+
+1857 more than two-thirds of depositors who
+had lived less than 8 years in the United States
+
+panicked. After this, the most important characteristic is district of residence for 1854, with
+
+12 individuals in the sample that fit this descrip-
+
+depositors from the contiguous blocks 4c, 4d,
+
+tion, 4 are incorrectly classified as panickers.
+
+4e, and Sd likely to panic (these blocks lie close
+
+The 32 levels of the county factor lead to over
+
+to the bank, which is located in 4c, suggesting a
+
+two billion possible splits that must be evaluated,
+making the algorithm impossibly slow. We therefore omitted depositors from the four counties
+with the fewest accounts in each year. This allowed the algorithm used to run in a reasonable
+time, and reduced the chance of results being
+distorted by a factor level corresponding to a
+handful of observations. This gave 420 observations for 1854 and 738 for 1857.
+The results of the classification procedure for
+1854 and 1857, estimated using the S-Plus package, are presented in Figures 4 and 5. The interpretation of these figures is straightforward. The
+
+possible role for shoe-leather costs, although
+this effect is probably mitigated by the small
+size of the city at the time); and in 1857 it is
+number of months with the bank.
+These results are highly robust: using any
+large subset of the data in each year gave rise to
+
+the same pattern of partitions. 10 The most
+important assurance of robustness is the similarity of the trees generated in each year.
+The parsimony of the classification tree is
+apparent. Using only the first two layers of the
+
+tree, 63 percent of depositors are correctly classified in 1854, and 65 percent in 1857, and this
+
+value at each node, 1 or 0, tells whether the
+majority of depositors at that node were panickers
+10 A referee raised the possibility that the large number
+(1) or stayers (0). The number alb below the node
+of levels of the county factor could generate a spurious
+gives the number of misclassified observations a
+importance for that variable. If depositors are assigned a
+as a fraction of the total number of observations at
+county at random, county does appear occasionally as high
+the node b. Looking at the left-most path of Figure as the second or third split variable in a tree. In this case,
+4, for instance, we can see that of 102 depositors
+however, the generated trees were nonrobust: using different subsets of each year's data generated different patterns
+who came from Antrim, Cavan, Clare, Derry,
+of splits by county, and the county partitions were very
+Donegal, Monaghan, Sligo, and Tyrone, only 23
+different for each year. That a large number of levels need
+
+panicked; and of the 7 depositors from these coun-not generate classificatory power is shown by the district of
+ties who had been with the bank for less than 2.1
+residence variable, with 23 levels, which does not appear
+months, all but one panicked.
+
+high in any tree, even when the county variable is omitted.
+
+This content downloaded from
+73.173.145.14 on Mon, 18 Jan 2021 19:55:21 UTC
+All use subject to https://about.jstor.org/terms
+
+1120 THE AMERICAN ECONOMIC REVIEW DECEMBER 2000
+
+county:ant.cav.cla.der.don.mon.sli.tvr
+
+county:arm,cor,dow,dub,gal,ker,kld,kik,lao,lei,lim,lon,may,mea,off,ros,tip,wat,wes,wex
+
+2312
+
+155/1
+
+length.open<2.085 years.in.us<l 8.5
+length.open>2.085 years.in.us>18.5
+~~~~01
+
+1/7
+
+17/95
+
+0
+
+135/295
+
+3/23
+
+district:4c,4d,4e,5c,dt,mt,nj,si,us
+
+district:3c,3d,3e,4b,4f,5d,bk,li,
+
+70/12
+
+11
+
+48/11
+
+county:arm,cor,dub,ker.ktd,lao.lei,mea,ros.wat.wes county:arm.qallei,off
+county:dow,gal,klk,lim,lon,may,off,tip,wex county:cor,dow,dub,ker,kld,klk,lao,lim,lon,may,mea,ros,tip,wat,wes,wex
+
+5012
+
+20/80
+
+cl.bal<24.5
+
+cl.bal24.5
+1
+
+~
+
+0/
+
+0/11
+
+4812
+
+length.open<22.73
+
+length.open>22.73
+
+~
+
+~
+
+010
+
+45/95
+
+8
+
+218
+
+district:4c,mt county:cor,dow,dub,kld,kik.lao.lim.mea.tiD.wes
+
+district:4d,5c,dt,nj,us county:ker,lon,may,ros,wat,wex
+01
+9/27
+
+0
+
+3218
+
+1
+
+28/1
+
+5/23
+
+prev.withs<0.745 prev.deps<3.86
+
+prev.withs>0.745 prev.deps>3.86
+0
+/
+
+1
+
+16/38
+
+\
+
+~
+
+~
+
+10/30
+
+~~1
+23/50
+
+0
+
+1/11
+
+prev.withs<0.52 district:3c,3d,3e4f
+
+prev.withs>0.52 district:4b,5d,bk,fi,ut
+
+0A2
+16/32
+
+\
+
+01
+0/6
+
+<0
+
+0/6
+
+1
+
+17/44
+
+prev.deps<3.555
+
+prev.deps>3.555
+1
+
+9/24
+
+0
+
+1/8
+
+FIGURE 4. CLASSIFICATION TREE, 1854 PANIC
+
+Note: The number in each node denotes whether the majority of depositors there are panickers (1) or stayers (0); the fraction
+beneath the node denotes the proportion of depositors that are misclassified at the node.
+
+rises to 67 and 68 percent respectively if the
+
+Classification trees continue to partition data
+
+next layer of the tree is added. This is similar to
+
+the misclassification rates obtained from the
+
+until they run out of observations, resulting
+in overfitting. To prune the fitted tree, two ap-
+
+logits in Table 4.
+
+proaches are available. The first is to split the data
+
+This content downloaded from
+73.173.145.14 on Mon, 18 Jan 2021 19:55:21 UTC
+All use subject to https://about.jstor.org/terms
+
+VOL. 90 NO. S KELLY AND 0 GRADA: MARKET CONTAGION 1121
+
+county:arm,cav,don,kld,klk,lon,mon,sli,tyr,wat
+
+county:cla,cor,der,dub,fer,gal,ker,lao,lei,lim,lou,may,mea,off,ros,tip,wes,wex
+
+cl.bal<53.56 years.in.us<7.5
+cl.bal>53.56 years.in.us>7.5
+
+length.open<21.85 length.open<8.785
+length.open>21.85 length.open>8.785
+
+county:cla,cor,dub,fer,gal,lei,off,tip,wes cl.bal<50.35 county:cla,cor,dub,fer,gal,ker,lim,lou,may,off,ros,wes
+county:ker,lao,lim,lou,may,mea,ros,we cl.bal>50.35 county:der,lao,lei,mea,tip,wex
+
+L'L3
+
+13244
+
+cl.bal< 62.23 county:cla,der,dub,fer,gal,lao,may,mea cl.bal<461.55
+cl.bal>162.23 county:cor,ker,lei,lim,off,ros,tip,wes cl.bal>461.55
+
+prev.withs<1 district:3c,3d,3e,4b,4c,5c,5e,dt,1i
+prev.withs>1 district:4d,4f,5d,bk,mt,nj,oth,us,ut
+
+county:fer,gal,jou,may
+county:cla,cor,dub,lim,off,ros,wes
+
+prev.withs<1 .865
+
+prev.withs>1.865
+
+cl.bal<77.1 3
+cl.bal>77. 13
+
+FIGURE 5. CLASSIFICATION TREE, 1857 PANIC
+
+Note: The number in each node denotes whether the majority of depositors there are panickers (1) or stayers (0); the fraction
+beneath the node denotes the proportion of depositors that are misclassified at the node.
+
+into a training sample, which generates a tree
+
+misclassification rate starts to rise. Altematively a
+
+whose classificatory power is then measured on a
+
+cross-validation procedure (Breiman et al., 1984
+
+separate testing sample. Adding extra nodes ini-
+
+pp. 59-81) can be used where subsets of obser-
+
+tially reduces misclassification rate in the second
+
+vations are used in tum to fit the tree, which is
+
+sample until, as overfitted nodes are added, the
+
+then tested on the remaining observations. Both
+
+This content downloaded from
+73.173.145.14 on Mon, 18 Jan 2021 19:55:21 UTC
+All use subject to https://about.jstor.org/terms
+
+1122 THE AMERICAN ECONOMIC REVIEW DECEMBER 2000
+
+0~~~~~~
+
+1
+
+0
+0
+
+1
+
+o!
+0~~~~0
+
+0 0~~~~~~~~~~~0 0
+0
+
+100
+
+O
+
+1
+
+1
+
+0
+
+FIGURE
+
+6.
+
+SC
+
+AND 5 (1857, RIGHT)
+
+Note: The depth of the branches below each node indicates the relative importance of each
+split in reducing the misclassification rate.
+
+approaches were tried here and, based on misclas-
+
+be ranked Eastern Ulster, Leinster, Munster, and
+
+sification rates, suggested the trees with approxi-
+
+Connacht and Western Ulster. While the impor-
+
+mately 16 terminal nodes that are reported here.
+
+tance of the Ulster variable in the logistic regres-
+
+These trees have a misclassification rate of 22
+
+sions in Table 4 might suggest that economic
+
+percent for 1854 and 25 percent for 1857.
+
+sophistication of Ulster depositors is what deters
+
+While the relative importance of each split is
+
+them from panicking, looking at Table 5 and the
+
+indicated by its position in the classification
+
+classification trees we can see that most Ulster
+
+tree, it is not evident from Figures 4 and 5 how
+
+depositors came from poorer western counties
+
+much each split contributes to the reduction of
+
+rather than the industrialized east. In particular,
+
+the misclassification rate. This is shown in Fig-
+
+few depositors from very poor northwestern coun-
+
+ure 6 where the amount by which each split
+
+ties, such as Sligo and Donegal, panicked; while
+
+improves the fit of the tree is proportionate to
+
+depositors who had come from more prosperous
+
+the length of the branches beneath it. While
+
+eastern counties, such as Dublin, Meath, and
+
+county of origin is the most important split for
+
+Wexford, showed a strong tendency to panic.
+
+both trees, Figure 6 shows that county has much
+
+Few of the EISB's depositors are likely to have
+
+greater classificatory power for the major panic
+
+had previous contact with banks in Ireland, where
+
+of 1857 compared with the smaller run in 1854.
+
+joint-stock commercial banking relied almost ex-
+
+Given that county of origin is the most impor-
+
+clusively on a professional and business clientele.
+
+tant determinant of panicking, does it follow that
+
+While Ireland did have a trustee savings-bank
+
+social networks are influencing individual behavior, or is county of origin merely proxying for
+
+movement dating from 1815, its scale was tiny:
+
+some omitted individual characteristic such as ed-
+
+about 8.5 million on the eve of the Great Famine
+
+only 90,000 depositors out of a population of
+
+ucation or previous experience with banks? While
+
+(1845-1850), compared with nearly 70,000
+
+individual education is likely to be captured by the
+
+depositors in New York City alone in 1850
+
+occupation and bank-balance variables, region of
+
+(Olmstead, 1976 pp. 157-61; 0 Grada, 1994
+
+origin may determine the economic sophistication
+
+pp. 138-42). Irish savings banks catered to a
+
+of recent immigrants. In terms of economic devel-
+
+disproportionately urban clientele, and the over-
+
+opment, regions of nineteenth-century Ireland can
+
+whelmingly rural background of Irish emigrants
+
+This content downloaded from
+73.173.145.14 on Mon, 18 Jan 2021 19:55:21 UTC
+All use subject to https://about.jstor.org/terms
+
+VOL. 90 NO. 5 KELLY AND 0 GRADA: MARKET CONTAGION 1123
+
+means that few of those who opened accounts in
+
+participants. In this paper we were able to do
+
+New York can have previously held accounts in
+
+this by looking at a distinctive group of depos-
+
+an Irish savings bank. The possibility that some
+
+itors: Irish immigrants living in New York in
+
+EISB depositors from Dublin and Kerry were
+
+the 1850's. As immigrants, their social net-
+
+acting on recollections of the well-publicized
+
+works reflected two interrelated facts about their
+
+frauds that affected savings banks in Dublin,
+
+lives: where they had come from in Ireland and
+
+Tralee, and Killamey in 1848 cannot be ruled
+
+where they lived in New York.
+
+out, although arguably such memories would
+
+When we examined the behavior of these
+
+have deterred them from opening an account in
+
+depositors in the panics of 1854 and 1857, we
+
+the first place (R. D. C. Black, 1960 pp. 152-53;
+
+found that whether an individual panicked or
+
+o Grada, 1999 pp. 54, 155-56).
+Do social networks affect the timing of pan-
+
+not depended strongly on how long they had
+
+lived in America, and how long they had been
+
+icking? Each of the panics here spanned three
+
+with the bank. The most important factor in
+
+weeks. In 1854, 60 percent of panickers left in
+
+whether they panicked, however, was county of
+
+the first week, 26 percent in the second, and 14
+
+origin. Depositors from one set of counties
+
+percent in the third week (forgoing a half year's
+
+tended to close their accounts in both panics,
+
+interest payment of 3 percent); while in 1857,
+
+while otherwise identical individuals from other
+
+24 percent left in the first week, 37 percent in
+
+counties tended to stay with the bank. Our re-
+
+the second, and 39 percent on the first two days sults show that individual behavior depends not
+of the third week, before withdrawals were re-
+
+only on private information but on access to the
+
+stricted. Using a classification tree to determine
+
+information and opinions of other group mem-
+
+what week the account was closed, for 1854,
+
+bers, and raises the possibility that a handful of
+
+district of residence was the most important
+
+influential individuals can have a lot of power
+
+determinant of timing, but has a high error rate.
+
+over group opinion.
+
+For 1857 however, there is a clear difference in
+timing of closure by county of origin: panickers
+
+REFERENCES
+
+in the first week tended to be from Clare, Derry,
+Donegal, Tipperary, and Westmeath; whereas
+
+Alter, George; Goldin, Claudia and Rotella, Elyse.
+
+panickers in the third week tended to be from
+
+"The Savings of Ordinary Americans: The
+
+Fermanagh, Kerry, Longford, Meath, and Sligo.
+
+Philadelphia Saving Fund Society in the Mid-
+
+It might be expected that the effect of county
+
+Nineteenth Century." Journal of Economic
+
+of origin on behavior would diminish the longer
+
+History, December 1994, 54(4), pp. 735-67.
+
+the depositor had lived in America and formed
+
+Black, R. D. C. Economic thought and the Irish
+
+other ties. To test this we split depositors by
+
+question, 1817-1870. Cambridge: Cambridge
+
+years lived in the United States (trying splits at
+
+University Press, 1960.
+
+five and eight years) to see if depositors who
+
+Borjas, George J. "Ethnicity, Neighborhoods,
+
+had been there longer behaved differently from
+
+and Human-Capital Externalities." American
+
+new arrivals. However, for both 1854 and 1857,
+
+Economic Review, June 1995, 85(3), pp.
+
+the two groups behaved the same, with county
+of origin being the prime determinant of panicking. This failure to assimilate reflects the
+social isolation of these immigrants: in general,
+wealthier Irish immigrants left New York rapidly for cities with greater economic opportunities; those remaining were the poorest and least
+skilled (Joseph P. Ferrie, 1999 pp. 47-50).
+IV. Conclusion
+
+To test whether social contagion helps to
+propagate panics in financial markets we need
+
+to identify the informational networks of market
+
+365-90.
+Breiman, L.; Friedman, J. H.; Olshen, R. A. and
+
+Stone, C. J. Classification and regression trees.
+Monterey, CA: Wadsworth and Brooks-Cole,
+1984.
+Burrows, Edwin G. and Wallace, Michael.
+
+Gotham: A history of New York City to 1898.
+
+New York: Oxford University Press, 1999.
+
+Calomiris, Charles W. and Gorton, Gary. "The
+Origins of Banking Panics: Models, Facts,
+and Bank Regulation," in R. Glenn Hubbard,
+ed., Financial markets and financial crises.
+Chicago: University of Chicago Press, 1991,
+pp. 109-73.
+
+This content downloaded from
+73.173.145.14 on Mon, 18 Jan 2021 19:55:21 UTC
+All use subject to https://about.jstor.org/terms
+
+1124 THE AMERICAN ECONOMIC REVIEW DECEMBER 2000
+
+Calomiris, Charles W. and Mason, Joseph R.
+
+. Black '47 and beyond: The great Irish
+
+"Contagion and Bank Failures During
+
+famine in history, economy, and memory.
+
+the Great Depression: The June 1932 Chi-
+
+Princeton, NJ: Princeton University Press,
+
+cago Banking Panic." American Economic
+Review, December 1997, 87(5), pp. 863-83.
+
+1999.
+
+0 Gra'da, Cormac and White, Eugene. "Who
+
+Calomiris, Charles W. and Schweikart, Larry.
+
+Panics During Panics? Evidence from a
+
+"The Panic of 1857: Origins, Transmission,
+
+Nineteenth Century Savings Bank." Working
+
+and Containment." Journal of Economic
+History, December 1991, 51(4), pp.
+807-34.
+
+paper, Rutgers University, 1999.
+Olmstead, Alan L. New York City mutual savings
+banks, 1819-1861. Chapel Hill, NC: Univer-
+
+Calvo, Guillermo and Mendoza, Enrique. "Reflec-
+
+sity of North Carolina Press, 1976.
+
+tions on Mexico's Balance of Payments Crisis:
+
+Payne, Peter L. and Davis, Lance E. The Savings
+
+A Chronicle of a Death Foretold." Working
+
+Bank of Baltimore, 1818-1866: A historical
+
+paper, University of Maryland, 1995.
+
+and analytical study. Baltimore, MD: Johns
+
+Chari, V. V. and Jagannathan, Ravi. "Banking
+Panics, Information, and Rational Expecta-
+
+Hopkins Press, 1956.
+Phelps, Humphrey. Strangers and citizen's guide
+
+tions Equilibrium." Journal of Finance, July
+
+to New York City. New York: Gaylord
+
+1988, 43(3), pp. 749-60.
+
+Watson, 1857.
+
+Diamond, Douglas and Dybvig, Philip. "Bank
+
+Ricardo, David. The works and correspondence
+
+Runs, Liquidity, and Deposit Insurance."
+
+of David Ricardo, volume 4: Pamphlets and
+
+Journal of Political Economy, June 1983,
+
+papers, 1815-1823. Cambridge: Cambridge
+
+91(3), pp. 401-19.
+
+University Press, 1951.
+
+Ernst, Robert. Immigrant life in New York City
+
+Ridge, John T. "Irish County Societies in New
+
+1825-1863. Syracuse, NY: Syracuse Univer-
+
+York, 1880-1914," in Ronald H. Bayor and
+
+sity Press, 1994 [originally published in
+
+Timothy J. Meagher, eds., The New York
+
+1949].
+
+Irish. Baltimore, MD: Johns Hopkins Univer-
+
+Ferrie, Joseph P. "Yankeys now": Immigrants in
+
+the antebellum U.S. New York: Oxford Uni-
+
+sity Press, 1996, pp. 275-300.
+Ryan, Bryce and Gross, Neal C. "The Diffusion
+of Hybrid Seed Corn in Two Iowa Commu-
+
+versity Press, 1999.
+Grinblatt, Mark; Titman, Sheridan and Werm-
+
+ers, Russ. "Momentum Investment Strategies,
+Portfolio Performance, and Herding: A Study
+
+nities." Rural Sociology, January 1943, 8(1),
+pp. 15-24.
+Sachs, Jeffrey; Tornell, Aaron and Velasco, An-
+
+of Mutual Fund Behavior." American Eco-
+
+dres. "The Mexican Peso Crisis: Sudden
+
+nomic Review, December 1995, 85(5), pp.
+
+Death or Death Foretold?" Working paper,
+Harvard University, 1995.
+
+1088-105.
+
+Hertz, Ellen. The trading crowd: An ethnography of the Shanghai stock market. Cam-
+
+Shiller, Robert J. Market volatility. Cambridge,
+
+bridge: Cambridge University Press, 1998.
+Kindleberger, Charles. Manias, panics, and
+crashes. New York: Basic Books, 1978.
+
+Shiller, Robert J. and Pound, John. "Survey Ev-
+
+Lakonishok, Josef; Shleifer, Andrei and Vishny,
+
+Behavior and Organization, August 1989,
+
+Robert W. "The Impact of Institutional Trading on Stock Prices." Journal of Financial
+Economics, August 1992, 32(1), pp. 23-42.
+0 Grada, Cormac. Ireland: A new economic
+history 1780-1939. Oxford: Oxford University Press, 1994.
+
+MA: MIT Press, 1989.
+idence on Diffusion of Interest and Information Among Investors." Journal of Economic
+
+12(1), pp. 47-66.
+Sowell, Thomas. Migrations and cultures: A
+
+world view. New York: Basic Books, 1996.
+Venables, W. N. and Ripley, B. D. Modern applied statistics with S-plus. New York:
+Springer-Verlag, 1994.
+
+This content downloaded from
+73.173.145.14 on Mon, 18 Jan 2021 19:55:21 UTC
+All use subject to https://about.jstor.org/terms
+
+

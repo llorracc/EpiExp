@@ -1,0 +1,643 @@
+Classificatory Notes on the Production and Transmission of Technological Knowledge
+Author(s): Kenneth J. Arrow
+Source: The American Economic Review , May, 1969, Vol. 59, No. 2, Papers and
+Proceedings of the Eighty-first Annual Meeting of the American Economic Association
+(May, 1969), pp. 29-35
+Published by: American Economic Association
+Stable URL: https://www.jstor.org/stable/1823650
+REFERENCES
+Linked references are available on JSTOR for this article:
+https://www.jstor.org/stable/1823650?seq=1&cid=pdfreference#references_tab_contents
+You may need to log in to JSTOR to access the linked references.
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+https://about.jstor.org/terms
+
+is collaborating with JSTOR to digitize, preserve and extend access to The American Economic
+Review
+
+This content downloaded from
+73.173.145.14 on Wed, 20 Jan 2021 19:23:19 UTC
+All use subject to https://about.jstor.org/terms
+
+CLASSIFICATORY NOTES ON THE PRODUCTION AND
+TRANSMISSION OF TECHNOLOGICAL KNOWLEDGE
+By KENNETH J. ARROW
+Harvard University
+
+I. Introduction
+
+bias is itself induced by economic considerations. Fellner [3] convincingly argued
+
+Analysis of production functions over
+
+that factor prices, per se, should have no
+
+the last twelve years has suggested
+
+tendency to cause bias, since the aim of
+
+strongly that (a) a major proportion of
+
+the entrepreneur is to minimize the total
+
+the increase in per capita income cannot
+be explained by increases in the capital-labor ratio, and (b) production functions
+
+of costs. Kennedy [5] then sought to
+carry the Fellner analysis further by in-
+
+troducing explicitly the trade-offs between
+
+differ strongly among nations and indeed
+among regions. Since a production function is defined relative to a given body of
+technological knowledge, (a) implies that
+technological knowledge has been growing
+over time and (b) that technological
+knowledge varies over countries.
+An economist could just leave the analysis at that, asserting that the causes
+which determine the amount of technological knowledge at any one time and place
+lie as much outside his province as the
+tastes which determine consumption patterns. But in fact, we know that significant quantities of resources are being expended by profit-making institutions on
+research and development. From the studies of Griliches [4] and Mansfield [8,
+Part IV], we know that the diffusion of
+technological knowledge, at least within a
+given economy, is partly governed by
+profitability considerations. Hence, it is
+suggested, we must regard the body of
+technological knowledge as the result as
+well as the cause of economic changes.
+Economists have had a further, more
+
+different possible biases in innovation.
+Kennedy, like most other current writers,
+
+has tended to replace the Hicks classifica-
+
+tion by introducing a more explicit and restricted model of technological change,
+namely, factor augmentation:
+
+(1) Y = F[A(t) K, B(t) L]
+where Y is output, K is capital, L is labor,
+
+and A(t) and B(t) are the total augmentations of capital and labor, respectively.
+Then there is postulated a "transformation function" for knowledge, in the form
+
+of a trade-off among the rates of growth
+of A and B and research expenditures.
+Models of this type and others (e.g.,
+Arrow [1]) have the natural motivation
+
+of using the well-tried tools of production
+and distribution theory in what appears to
+
+be a related field. "Knowledge," as reflected in the variables A and B, appears
+as an input to physical output, and we
+then need to supplement the ordinary pro-
+
+duction relation with an additional relation determining these newly defined inputs.
+
+detailed, preoccupation: that of the bias
+of technological change. A production
+function, if it shifts due to increased
+knowledge, can shift in many ways. In a
+two-factor model, Hicks spoke of "capital-saving" and "laborsaving" innovations and raised the question whether the
+
+It is the suggestion of this paper that
+
+such models, though they may well be
+useful descriptively (however, this remains to be tested empirically), do not
+capture the essential features of the creation and transmission of knowledge. Tech29
+
+This content downloaded from
+73.173.145.14 on Wed, 20 Jan 2021 19:23:19 UTC
+All use subject to https://about.jstor.org/terms
+
+30 AMERICAN ECONOMIC ASSOCIATION
+nological progress is in the first instance
+
+the reduction in uncertainty. The product
+of a research and development effort is an
+observation on the world which reduces
+its possible range of variation. The outputs of different research projects are
+qualitatively different; there is no gain in
+acquiring the same information twice. The
+production of knowledge is thus basically
+different in character from the production
+of goods, where successive items can be
+qualitatively identical. The research and
+development process indeed has quantitative implications for factor productivity,
+particularly if it is measured at a relatively aggregated level, but these implications are a far from exhaustive description
+of the research and development process
+itself.
+
+Research and development is thus intimately connected with the problems of
+uncertainty reduction which have been the
+
+objects of research in mathematical statistics and information theory. The problem
+of the transmission of knowledge-why
+different individuals and nations do not
+have access to equal bodies of knowledge
+even more clearly requires analysis of
+qualitative distinctness of different items
+of information. Here the disciplines of information and communication theory,
+learning theory in psychology, and diffusion theory in sociology may be brought
+to bear.
+The remainder of this paper will be devoted to elaborations and exemplifications
+of these themes. It cannot be claimed that
+any usable model has yet emerged, but it
+is hoped that the remarks here will be useful in further developments.
+
+II. The Production of Knowledge
+Knowledge arises from deliberate seeking, but it also arises from observations
+incidental on other activities. Haavelmo,
+Kaldor, and I (see Arrow [1] for references) have all stressed that the activities
+
+of production and investment may lead to
+increases in productivity without any
+identifiable allocation of resources to that
+end. An illuminating special case of increased knowledge is the discovery of natural resources. Exploration is analogous to
+research; but when a community is becoming settled, the members, in the course
+of their ordinary activities, frequently
+continue to make unexpected discoveries.
+Sutter established an agricultural community; his employee, Marshall, saw some
+yellow flecks in the mill race.
+A more general formulation including
+both research and learning by doing can
+be formulated and will, I think, be useful.
+The Bayesian language will be used (for
+an excellent introduction, see Raiffa [11,
+Chaps. 1-5]); however, any sensible
+analysis of uncertainty will lead to equivalent formulations. Let the term "activity" be used, as usual for any process described by inputs and outputs, but we are
+particularly interested in the case where
+the outputs are not known with certainty.
+It can easily happen that the outcomes for
+different activities will be dependent random variables in the sense of a subjective
+probability. The case most interesting
+from the present point of view is that
+where there is an underlying unknown
+parameter upon which the probability distributions of outcomes for the different activities depend; then observing the outcome of one activity changes the a posteriori distribution of outcomes of the other.
+This need not happen of course; if the
+outcome of an activity is known with certainty a priori, then observing the outcome cannot change the probabilities of
+outcome of any other activity. More generally, if there is statistical independence
+
+between the outcomes of activities, the
+probability of distribution of the outcomes
+of one is unaffected by observations on
+the outcomes of another. Thus, if I really
+believe a pair of dice is fair, observing
+
+This content downloaded from
+73.173.145.14 on Wed, 20 Jan 2021 19:23:19 UTC
+All use subject to https://about.jstor.org/terms
+
+THEORY OF INNOVATION 31
+
+quired are relevant to the choice is in
+principle a problem of statistical decision
+theory, but in fact only fragmentary results
+have been attained. Analytically, the
+subjective probability distribution over
+question
+is difficult, and, perhaps not surthe possible outcomes, then observing an
+prisingly,
+the results that have been atoutcome certainly does change my subsetained
+can
+hardly be stated simply,
+quent expectations in accordance with
+though
+definite
+methods of computing the
+Bayes's theorem.
+optimal
+solutions
+exist. (In my judgment,
+Thus, an activity will in general have
+this
+will
+be
+an
+increasingly
+common situatwo valuable consequences: the physical
+tion in economic theory; broad general
+outputs themselves and the change in intheorems of the kind we admire can usuformation about other activities.
+ally only be found under undesirably reIn many cases, one or the other effect
+strictive conditions. What theory can
+predominates. The classical research situimply in a broad range of cases is a comation is one in which the actual output
+puting algorithm. To test theory, then, we
+(e.g., of nylon) is of negligible imporneed econometric evidence or at least
+tance compared to the information gain
+well-informed quantitative judgments as
+-a posteriori the probability that a subinputs to the computing process.) Some
+stance with the properties of nylon can be
+beginnings of a microeconomic theory of
+produced is now 1, whereas a priori it
+research and development are found in
+may have been a small figure. In the cases
+the work of T. Marschak, Glennan and
+of learning by doing the opposite holds;
+Nelson (see [10, Chaps. 1, 2 and 5]).
+the motivation for engaging in the activity
+Building a macroeconomic theory on
+is the physical output, but there is an admicroeconomic foundations is not an easy
+ditional gain, which may be relatively
+task; indeed, there is not one completely
+small, in information which reduces the
+successful example. But in the case of the
+cost of further production.
+production of knowledge, the task is apOnce these polar cases are presented, it
+parently much harder. To proceed from
+becomes clear that intermediate cases are
+an individual to a collective theory that
+possible, and in fact they not only occur
+consumption depends on income or output
+but are, I would hold, frequent. In fact,
+on inputs involves incompletely justified
+the bulk of research and development exsteps; but it is at least reasonably clear
+penditures are actual steps in the producwhat the aggregates themselves are. Infortion process-design, engineering, tooling,
+mation at the individual level is describand manufacturing and marketing startable either as the actual outcome of a parup costs (see Mansfield [7, p. 106]).
+ticular activity or as a whole conditional
+Each stage involves uncertainties with regard to costs and, at the end, with regard distribution over states of nature, with the
+to demand. At each stage, then, something conditions being the actual outcomes.
+Such a probability distribution is hard to
+is learned with regard to the probability
+describe in any simple way, and aggregatdistribution of outcomes for future repetitions of the activity. At the same time, the ing this information over individuals is
+even harder.
+physical outputs are expected to be diGiven the probabity distribution at any
+rectly valuable.
+moment of time, individuals make producThe problem of the optimal choice of a
+tion decisions. The actual outputs are not
+sequence of activities where both the
+known with certainty, but one might plauphysical outcome and the information acany outcome is of no use in predicting a
+subsequent one. But if I suspect bias and
+I express my suspicions by an appropriate
+
+This content downloaded from
+73.173.145.14 on Wed, 20 Jan 2021 19:23:19 UTC
+All use subject to https://about.jstor.org/terms
+
+32 AMERICAN ECONOMIC ASSOCIATION
+sibly take their expected value and regard
+its relation to the inputs as the production
+
+function. This will shift over time as additional information is acquired. The current models in the growth field assume
+(a) that the effect of a given body of information on the production function can
+be summarized in a few parameters and
+(b) that these same parameters summarize the possibilities for acquiring new information. The first assumption is un-
+
+doubtedly essential if one is to get anywhere. But the second is on the face of it
+
+very misleading. Consider an economy
+with labor as the only factor of production and operating under constant returns
+to scale. Then the effect of any given information structure on the production
+function is completely summarized in the
+
+output-labor ratio. But a given output-labor ratio may correspond to very different
+
+information structures and therefore very
+different potentialities for future productivity increases. One might have been
+based on very thorough exploration of
+limited areas of investigation, with little
+further room for increased knowledge,
+while the other might have investigated
+more widely and have potential productivity gains available at little additional cost.
+Securities analysts use such considerations
+in their evaluations; and historical examples of this difference are frequently cited.
+One might be tempted to consider as an
+alternative measure of aggregate knowledge Shannon's measure of information.
+There are of course a host of practical difficulties in applying this measure to technological knowledge. But unfortunately it
+does not seem to be a correct measure for
+
+either the supply or the demand side. The
+irrelevance of Shannon's measure to the
+demand price for knowledge was shown
+by J. Marschak [9]. To take an extreme
+case, consider two states of the world
+which are indistinguishable with regard to
+technology; e.g., distinguished only with
+
+regard to the number of craters on the
+dark side of the moon. Any discrimination
+between these two states would be an increase in information, but surely not one
+relevant to productivity. On the supply
+side, similarly, the cost of achieving a
+given increase in information may differ
+according to the particular observations
+made.
+
+III. Transmission of Knowledge
+
+The observer of the outcome of an activity can be supposed to form new probability judgments; but how does this affect the information structures of others?
+The transmission of the observation or of
+the revised probability judgments must
+take place over channels which have a
+limited capacity and are therefore costly.
+Though the language is borrowed from
+communications theory, the really limited
+channels are human minds, not telegraphs
+or printed words.
+
+Even for the individual there is a problem of channel capacity. To transform his
+a priori into a posteriori probabilities as
+the result of observations which have
+taken time, he must remember his a priori
+probabilities; but memory is a channel for
+transmission between points of time and is
+notoriously limited in capacity and subject to error. Natural memory can of
+course be supplemented with artificial aids
+books, files, computer memories-but
+ultimately there remains a capacity limitation. As a result, even for an individual,
+the transformation of probabilities and
+therefore the acquisition of information is
+less than ideal. Winter in an unpublished
+paper has argued that memory limitation
+accounts for the results of the famous
+Humphreys experiment which has been so
+crucial in modern learning theory: An
+event E occurs with probability p > a2
+on each of a succession of trials, with
+independence between trials. The individual is asked before each trial to predict
+
+This content downloaded from
+73.173.145.14 on Wed, 20 Jan 2021 19:23:19 UTC
+All use subject to https://about.jstor.org/terms
+
+THEORY OF INNOVATION 33
+
+whether or not E will occur; he is not told
+the value of p but must in effect infer it
+from observations. If his aim is to maxi-
+
+mize the expected number of successes,
+the rational strategy would be always to
+predict E, at least after the process has
+been observed long enough to establish al-
+
+clude the ability of the sender to "code"
+the information and the recipient to "decode" it.
+The understanding of transmission of
+knowledge is of especial importance in
+
+two of the key socioeconomic problems of
+our time: (a) international inequalities in
+most certainly that p > Y2. But in fact productivity, and (b) the failure of the
+educational system in reducing, income inthe subjects wind up predicting sometimes
+equality. The two problems have a considE and sometimes not E, and the freerable formal similarity. If one nation or
+quency with which E is predicted apclass has the knowledge which enables
+proaches very closely indeed to p. This
+it to achieve high productivity, why is
+might be explained by the assumption
+not the other acquiring that information?
+that they only remember a limited number
+That a nation or class has a consistently
+of previous observations and thus never
+high productivity implies a successful
+can be very well assured that it is best to
+communication system within the nation
+predict E. (To be sure, many other explaor class, so the problem turns on the difnations have been advanced in the literaferential between costs of communication
+ture.)
+within and between classes.
+There have been studies by both econo(It is not intended to assert that diffimists and sociologists on the diffusion of
+culties in communication of information
+innovations; the relation between the two
+are necessarily the sole source of total factypes of studies resembles nothing so
+much as the parable of the blind men and
+the elephant. WVhile Griliches and Mansfield stress the profitability of the investment and the risks involved, the sociologists (see, e.g., Rogers [12] and, for a
+more theoretical treatment, Coleman [2,
+Chap. 17]) are concerned with the nature
+of the channel connecting the adopters of
+
+tor productivity differences. There can be
+withholding of information to perpetuate
+
+monopoly positions; and both in foreign
+trade and in economic relations between
+the races, income differentials can arise
+from exploitation; see Krueger [6].
+There might also be genetic factors. But
+the available evidence certainly suggests
+
+that communication problems are a major
+and perhaps predominant source of productivity and income differentials.)
+alerting individuals to the possibility of an
+It may be worthwhile speculating on
+innovation, it seems to be personal contact
+some of the causes of these differential
+that is most relevant in leading to its
+channel costs. Note first that all the socioadoption. Thus, the diffusion of an innological work on diffusion has put great
+vation becomes a process formally akin to
+stress on personal contact. Mass media
+the spread of an infectious disease.
+may provide some overall alertness to
+There is nothing irreconcilable in the
+two viewpoints: in effect, the economistschange, but, except for the most alert and
+are studying the demand for informationdaring innovators, it is the example and
+advice of those known personally that are
+by potential innovators and sociologists the
+apparently
+most potent in securing accepproblems in the supply of communication
+tance
+of
+innovation.
+As Coleman stresses,
+channels. Different communication chanhowever,
+personal
+contacts are by no
+nels have different costs (or, equivalently,
+means
+randomly
+distributed
+in the popudifferent capacities), where these costs inan innovation with potential followers.
+While mass media play a major role in
+
+This content downloaded from
+73.173.145.14 on Wed, 20 Jan 2021 19:23:19 UTC
+All use subject to https://about.jstor.org/terms
+
+34 AMERICAN ECONOMIC ASSOCIATION
+racial differences
+in the meaning of words,
+lation, and the manner in which
+any trait
+not so much in the literal
+denotation, but
+(in particular, an item of information)
+is
+in the connotations and associations, and
+diffused throughout the system is correin the significance of nonverbal behavior.
+spondingly altered. To cite one case, the
+diffusion of use of new drugs was higher In the complicated interplay of messages
+between teacher and student, the unreliaamong physicians practicing in pairs than
+
+among those practicing singly.
+
+bilities of communication can lead to ex-
+
+treme inefficiencies.
+I believe these facts cast light on the
+basic factors at work in the difficulties of
+IV. Exponential Growth and Stationary
+transmission of knowledge across nations
+Bias
+and through the educational system. Two
+To conclude, we might briefly consider
+general principles may be suggested: (1)
+two aspects of current growth models
+A channel has greater capacity if the rewhich are inconsistent with models of
+ceiver regards it as more reliable; this is
+technological progress as informationwhy personal contacts are frequently so
+important. (2) To a large extent, channels seeking and transmitting.
+One is the universal tendency to take
+of communication serve purposes other
+than the diffusion of innovations-friend- some form of rate of growth of productivity as a variable of the system. Typically
+ship, convenience-and the direction of
+diffusion may be dictated by factors in ad-the model ends up in a quasi-stationary
+dition to profitability. Thus international state with a constant rate of productivity
+growth. Now no known form of adaptive
+channels, which typically have less other
+model, with probabilities modified by expurposes to serve, are more expensive. In
+perience, leads to such a result; on the
+particular, and this may be very imporcontrary, such models invariably lead to
+tant, personal contacts across nations are
+asymptotes in which output is constant.
+obviously much less than within.
+There is a limit to what can be learned
+In amplification of (1), there is one
+even with infinitely many opportunities.
+special case of unreliability from the reActually, with respect to the very long
+ceiver's point of view that deserves some
+run, such a conclusion seems very reasonattention: the inability of the receiver to
+able. You cannot get something for nothunderstand the message. As already remarked, every piece of information can being, ever, and it seems unreasonable to
+
+suppose that, by waiting a sufficient
+regarded as transmitted in a code and can
+length of time, you can get any given outonly be used if decoded. In the first instance, a language itself is a code, and the put for arbitrarily small input. Eternal exsheer difficulty of translation perhaps can ponential technological growth is just as
+unreasonable as eternal exponential popube underestimated. (The inability of Enlation growth.
+glish-speaking economists to learn from
+But of course exponential technological
+their French, German, and Italian colgrowth does have the advantage of being
+leagues is notorious.) There are problems
+consistent with the observed facts; if anyin nonverbal forms of communication.
+thing, the observed rate of growth of total
+When the British in World War II supplied us with the plans for the jet engine,factor productivity is increasing. I can
+
+it took ten months to redraw them to con-
+
+form to American usage. More subtly, as
+several gifted observers of the educational
+
+scene have observed, there are class and
+
+only conjecture that, as in the case of pop-
+
+ulation, the true law is something like the
+logistic curve, but we are still in the early
+phases, which resemble the exponential.
+
+This content downloaded from
+73.173.145.14 on Wed, 20 Jan 2021 19:23:19 UTC
+All use subject to https://about.jstor.org/terms
+
+THEORY OF INNOVATION 35
+At the moment, that is, each new item of
+
+may have had a good deal to do with mo-
+
+information opens up the opportunity for
+
+tivating Columbus' voyages, but the
+brute, though unknown, facts of geography determined what in fact was their
+economic results.
+
+acquiring additional items in a constant
+ratio (in some sense), but eventually the
+
+scarcity of additional information will become apparent.
+
+REFERENCES
+
+The other aspect is the Kennedy invention-possibility curve, the trade-off between rates of augmentation of different
+factors for a given research budget. In the
+first place, there is, of course, no warrant
+
+for assuming that technological progress is
+factor-augmenting; pieces of knowledge
+about the workings of the world need not
+be associated in any simple way with different factors of production. In the second
+
+1. K. J. ARROW, "The Economic Implica-
+
+tions of Learning by Doing," Rev. of
+
+Econ. Studies, June, 1962, pp. 155-73.
+2. J. S. COLEMAN, Introduction to Mathematical Sociology (Free Press, 1964).
+
+3. W. FELLNER, "Does the Market Direct
+
+the Relative Factor-Saving Effects of
+Technological Progress?" in The Rate
+
+and Direction of Inventive Activity
+(Princeton, 1962), pp. 171-88.
+
+place, as already remarked, in the long
+
+4. Z. GRILICHES, "Hybrid Corn: An Explo-
+
+run, it is unlikely that rates of augmenta-
+
+ration in the Economics of Technological
+
+tion are the right variables to enter into
+any such relation. But most important,
+
+501-22.
+
+there is no warrant for the stability of the
+curve over time, however it is described.
+The curve of efficient possible innovations
+
+at any time must surely shift with the
+particular nature of the information acquired, a nature not summed up in productivity measures of any kind. My conjecture is that this is one place where
+theory should not presume to take the
+place of history. The set of opportunities
+for innovation at any one moment are determined by what the physical laws of the
+world really are and how much has already been learned and is therefore "acci-
+
+dental" from the viewpoint of economics.
+My guess is that economic factors have
+little to do with bias in technological progress (though they may have a good deal
+to do with its magnitude). European desire for spices in the late fifteenth century
+
+Change," Econometrica, Oct., 1957, pp.
+5. C. KENNEDY, "Induced Bias in Innova-
+
+tion and the Theory of Distribution,"
+Econ. J., Sept., 1964, pp. 541-47.
+6. A. 0. KRUEGER, "The Economics of Dis-
+
+crimination," J.P.E., Oct., 1963, pp.
+481-86.
+
+7. E. MANSFIELD, The Economics of Technological Change (Norton, 1968).
+8. , Industrial Research and Technological Innovation (Norton, 1968).
+9. J. MARSCHAK, "Remarks on the Economics of Information," in Contributions to
+Scientific Research in Management
+(Western Data Processing Center, Univ.
+of California, 1960), pp. 79-98.
+10. T. MARSCHAK, T. K. GLENNAN, JR., AND
+
+R. SUMMERS, Strategy for R&R (New
+York, Springer, 1967).
+
+11. H. RAIFFA, Decision Analysis (AddisonWesley, 1968).
+12. E. ROGERS, Diffusion of Innovations
+(Free Press, 1962).
+
+This content downloaded from
+73.173.145.14 on Wed, 20 Jan 2021 19:23:19 UTC
+All use subject to https://about.jstor.org/terms
+
+

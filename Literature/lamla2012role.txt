@@ -1,0 +1,2159 @@
+MICHAEL J. LAMLA
+THOMAS MAAG
+
+The Role of Media for Inflation Forecast
+Disagreement of Households and Professional
+Forecasters
+This paper investigates the effects of media coverage about consumer price
+inflation on inflation forecast disagreement of German households and professional forecasters. We adopt a Bayesian learning model in which media
+coverage of inflation affects forecast disagreement by influencing information sets as well as predictor choice. Our empirical results show that
+disagreement of households depends on the heterogeneity of story content
+and on the reporting intensity, especially of news on rising inflation. Disagreement of professional forecasters does not depend on media coverage.
+With respect to the influence of macroeconomic variables, we provide evidence that disagreement of professional forecasters primarily depends on
+the inflation rate and on inflation volatility. The response of households to
+inflation is much less pronounced.
+JEL codes: D83, E31, E37
+Keywords: forecast disagreement, inflation expectations, media coverage.
+
+SURVEY DATA ON INFLATION expectations reveal that households
+as well as professional forecasters generally disagree about the course of inflation
+over the next 12 months. Relying on data from the University of Michigan Surveys of
+Consumers, Mankiw, Reis, and Wolfers (2004) document substantial heterogeneity
+in households’ inflation expectations.1 Albeit on lower levels than heterogeneity
+For insightful and constructive comments, we thank Pok-sang Lam, the editor, and two anonymous
+referees. We also thank Jörg Breitung, Christian Conrad, Heiner Mikosch, Jan-Egbert Sturm, as well
+as participants of the European Economic Association Meeting, Barcelona, Spain; the 5th Macroeconomic Research Meeting, Tübingen, Germany; and the 3rd Young Swiss Economists Meeting, Berne,
+Switzerland, for helpful comments. Financial support by the Swiss National Science Foundation (SNF) is
+gratefully acknowledged. The views expressed in this paper reflect solely the views of the authors and not
+necessarily those of the Swiss National Bank nor the KOF.
+MICHAEL J. LAMLA is a Senior Researcher at the ETH Zurich, KOF Swiss Economic Institute
+(E-mail: lamla@kof.ethz.ch). THOMAS MAAG is a Senior Economist at the Swiss National Bank (E-mail:
+thomas.maag@snb.ch).
+Received July 10, 2009; and accepted in revised from February 15, 2012.
+1. In the following, the terms heterogeneity and disagreement are used interchangeably. In the University of Michigan Survey of Consumers, disagreement in terms of the interquartile range of 1-year-ahead
+
+Journal of Money, Credit and Banking, Vol. 44, No. 7 (October 2012)
+
+C 2012 The Ohio State University
+
+1326
+
+:
+
+MONEY, CREDIT AND BANKING
+
+of household expectations, disagreement among professional forecasters is still
+considerable as shown by Lahiri and Sheng (2008) for G7 countries and by Mankiw,
+Reis, and Wolfers (2004) for the U.S.
+Recent theoretical contributions emphasize that disagreement can be persistent
+and may significantly affect economic allocations. Acemoglu, Chernozhukov, and
+Yildiz (2007) show that if Bayesian agents are uncertain about the interpretation of
+signals, their beliefs may not converge in the limit. Omitting the typically assumed
+convergence significantly alters outcomes in various game-theoretic and asset market
+settings, as Acemoglu, Chernozhukov, and Yildiz further demonstrate. On entirely
+different theoretical grounds, the sticky information model of Mankiw and Reis (2002,
+2006) establishes a relation between disagreement and macroeconomic dynamics. In
+the sticky information model, agents inform themselves only sporadically about the
+economy. As a result, information sets differ across agents, generating disagreement
+in expectations. Mankiw and Reis (2006) show that a model with staggered updating
+at the side of firms, workers, and consumers reproduces empirical patterns, such as the
+acceleration phenomenon and the smoothness of real wages. That disagreement about
+inflation expectations is relevant for monetary policy is highlighted by Sims (2009).
+Relying on a frictionless two-period model, Sims demonstrates that disagreement
+among asset market participants may produce overinvestment in real assets and may
+potentially delay and distort monetary policy actions.
+Regarding the empirical side, however, the literature on determinants of disagreement is relatively small and centers on professional disagreement.2 Our paper contributes to the understanding of disagreement by investigating one particular source of
+information that is most relevant for households: the mass media. The important role
+of the media for belief formation is underlined by Blinder and Krueger (2004). Based
+on a representative survey of U.S. households, these authors find that television and
+newspaper news are the predominant information sources that households consult to
+form their expectations about economic issues.3 That media coverage directly affects
+inflation expectations has, to the best of our knowledge, been shown two papers so
+far. Using quarterly U.S. data spanning 1981–2000, Carroll (2003) investigates how
+the accuracy of consumers’ inflation expectations is related to the number of news
+stories on inflation in two important newspapers. Carroll finds that the accuracy of inflation expectations is positively related to the amount of media reporting. Moreover,
+it is shown that in an epidemiological model households update their beliefs more
+frequently in periods of intense media reporting. Relying on detailed monthly media
+expected inflation averages at about 4% after 1990. Using various surveys, other authors find that inflation
+expectations differ significantly across socioeconomic groups (see, e.g., Souleles 2004, Bryan and Venkatu
+2001a, 2001b, Jonung 1981).
+2. See, for example, Patton and Timmermann (2010), Lahiri and Sheng (2008, 2009a), Capistrán and
+Timmermann (2009), Batchelor (2007), Döpke and Fritsche (2006), Giordani and Söderlind (2003), and
+references therein. For empirical research on household disagreement, see Mankiw, Reis and Wolfers
+(2004) and Branch (2004, 2007).
+3. Curtin (2007) confirms this finding using data from the University of Michigan Survey of Consumers. Fullone et al. (2007) provide similar evidence for Italy based on data from the Organisation for
+Economic Co-operation and Development (OECD).
+
+MICHAEL J. LAMLA AND THOMAS MAAG
+
+:
+
+1327
+
+content data for Germany from 1998 to 2007, Lamla and Lein (2008) additionally
+consider how the tone of media coverage affects inflation expectations. In line with
+Carroll, the authors find that the accuracy of expectations is positively related to the
+intensity of reporting, but that reports on rising inflation may impair households’
+expectations.4
+To motivate the link between media coverage and heterogeneity of inflation expectations, we adopt a Bayesian learning model. The purpose of this model lies
+in establishing the channels by which the information content of media reports affects disagreement among recipients. In our model, agents hold prior expectations
+about inflation formed in the past. Those prior expectations are updated by absorbing news transmitted by television and newspapers. Each media report contains a
+noisy signal about expected inflation. Consequently, agents face a signal extraction
+problem.5
+The model foresees two channels by which media coverage affect forecast disagreement. First, media transmit relevant information about future inflation and thereby
+directly affect information sets of the recipients. The more news on inflation people
+receive and the less noisy this coverage is, the more accurate (and uniform) are the
+inflation forecasts. Second, media filter information by emphasizing topics that are
+important. This is done by the tone of coverage that may, for example, put particular
+emphasis on the rise of inflation, apart from providing the numerical inflation figure.
+By this second channel, media may influence how much attention people pay to the
+issue of inflation.
+We empirically test for both channels and differentiate between professional forecaster and consumers. The first channel is captured in the intensity (volume) of media
+reporting about inflation and the heterogeneity of story content. The second channel is
+captured by a measure of the tone of media coverage. In addition, we control for a set
+of macroeconomic determinants. As opposed to macroeconomic variables, we expect
+that media coverage only affects disagreement of households. Professional forecasters should have incentives to acquire the most recent information from, for example,
+statistical offices and select forecasting models irrespective of media activity.
+This paper is structured as follows. Section 1 develops the theoretical framework
+and the hypotheses on the effects of media coverage and the macroeconomic state on
+inflation forecast disagreement of consumers and professional forecasters. Section 2
+presents the data and the quantitative measures of heterogeneity and media activity.
+Section 3 discusses the empirical results. In a first step, we investigate a specification
+that explains disagreement by macroeconomic variables only. In a second step, we
+examine the conditional effects of media coverage. Section 4 concludes.
+
+4. Other studies consider the relation of media activity and consumer sentiment about real economic
+activity rather than inflation and confirm the relevance of media reporting (see Doms and Morin 2004,
+Soroka 2006).
+5. The basic structure of our model is borrowed from Kandel and Zilberfarb (1999) and Lahiri and
+Sheng (2008) who propose a simple approach to introduce heterogeneous forecasting models into the
+standard learning model.
+
+1328
+
+:
+
+MONEY, CREDIT AND BANKING
+
+1. MODELING HETEROGENEITY OF EXPECTATIONS
+Beliefs about future inflation may differ across respondents due to differences in
+information sets and forecasting models. Put more formally, survey respondent i
+forms a belief z i,t about future inflation such that
+z i,t = f i,t (Ii,t ),
+where Ii,t is the information set and f i,t (.) the forecasting model employed by respondent i at time t. A possible measure of disagreement dt is the cross-sectional
+variance of beliefs
+1 
+(z i,t − z̄ t )2 ,
+N − 1 i=1
+N
+
+dt =
+
+where N is the number of respondents and z̄ t the cross-sectional mean of forecasts
+in period t. Understanding disagreement thus requires a framework that explains the
+time-varying heterogeneity of information sets and forecasting models across respondents. Mankiw and Reis (2002) suggest an information delay model in which agents
+update their information sets only sporadically due to costs associated with acquiring
+and processing information. A related model is proposed by Carroll (2003). In his
+model, only a fraction of agents encounters news about inflation at a given time,
+resulting in epidemiological dynamics of aggregate expectations and disagreement.
+But as Sims (2003) and Williams (2004) argue, information delay models seem less
+appropriate for explaining disagreement among (professional) forecasters who have
+incentives to employ the most recent information. Relying on information theory,
+Sims more generally models economic agents as having finite capacity to acquire
+and process information. Disagreement in expectations then results from idiosyncratic information processing errors and from heterogeneous objective functions and
+information processing constraints.
+We adopt a related signal extraction model to conceptually understand the role of
+media coverage. In our model, agents update their prior expectations about inflation
+by absorbing news transmitted by television and newspapers. Each media report only
+contains a noisy signal about future inflation. Agents are assumed to update their prior
+beliefs by Bayesian learning. Our model allows for two distinct mechanisms by which
+media coverage affects recipients’ beliefs. First, the media transmits information
+relevant for predicting inflation, consistent with a traditional economic view of the
+media. Second, media coverage affects what recipients believe to be important and,
+consequently, how they form their forecasts. This second mechanism is motivated by
+agenda setting theories which play an important role in contemporary media effects
+research.
+Assume that at the beginning of month t agent i has an initial prior belief about
+0
+is normally distributed
+the future inflation rate (prior forecast). The prior belief πi,t
+
+MICHAEL J. LAMLA AND THOMAS MAAG
+
+:
+
+1329
+
+p
+
+with mean πi,t and variance ai,t :
+
+ p
+0
+∼ N πi,t , ai,t .
+πi,t
+During each month, the agent absorbs a number of media reports L̃ v,t :
+L̃ v,t = L t + εv,t .
+Each media report contains the signal L t (the rational forecast of inflation) and a
+noise term εv,t that cannot be discerned by the agent. If the noise term was known,
+the agent would form the following estimate of future inflation:
+E(πi,t+1 ) = L̃ v,t − εv,t − μi,t = L t − μi,t , εv,t ∼ N (0, bt ).
+This equation formalizes two distinct sources of disagreement. First, agents do not
+know the noise εv,t . Rather, by observing a number of media reports, agents have to
+form an estimate of L t . In our Bayesian learning model, the weight agents put on this
+estimate will depend on its precision. The precision will be determined by the number
+V of available media reports and their variance bt . Second, unlike in the standard
+learning setting, the estimate of inflation is individual-specific by allowing agents to
+interpret the same media report differently. Following Kandel and Zilberfarb (1999)
+and Lahiri and Sheng (2008), we model this by including the individual specific
+term μi,t . The μi,t is unknown to the agent and reflects that some agents form more
+optimistic or pessimistic forecasts given the same information. More generally, μi,t
+captures heterogeneity in forecasting models across agents.6
+Agent i faces a signal extraction problem. Given the prior belief about future
+inflation and V units of noisy media reports, the agent has to infer L t . The agent
+updates his prior belief according to Bayes’ rule:
+ki (πi,t+1 |{ L̃ v,t }) ∝
+
+V
+
+
+ 0  0
+
+h πi,t ,
+f i L̃ v,t πi,t
+
+v=1
+
+where h(.) is the prior density, f i (.) the conditional density of the observed public
+0
+and ki (.) the resulting posterior density given
+information given the prior belief πi,t
+media reports { L̃ t } = L̃ 1,t , . . . , L̃ V,t . Under the normality assumptions, the posterior
+distribution is again normal with mean
+
+
+p
+e
+= ρi,t πi,t + (1 − ρi,t ) L̄ t − μi,t ,
+E(πi,t+1 |{ L̃ v,t }) = πi,t+1
+V
+where L̄ t = V −1 v=1
+L̃ v,t . The mean of the posterior distribution (henceforth pose
+terior forecast πi,t+1 ) is a weighted average of the prior mean and the average noisy
+
+6. This is the so-called differential interpretation hypothesis put forward by Kandel and Zilberfarb
+(1999).
+
+1330
+
+:
+
+MONEY, CREDIT AND BANKING
+
+signal obtained from the media. The weight on the prior mean is given by
+
+ρi,t
+
+1
+bt
+αi,t
+V
+=
+=
+,
+1
+αi,t + βt
+ai,t + bt
+V
+
+where αi,t =
+
+1
+ai,t
+
+and βt =
+
+1
+bt
+
+1
+V
+
+are the precision of the prior and the precision of the
+
+public signal. Under the assumption that L̃ v,t , ρi,t and μi,t are mutually independent
+for any t it can be shown that the cross-sectional variance of the posterior forecast is7
+ p
+ e 
+= var πi,t (var(ρi,t ) + E(ρi,t )2 )
+var πi,t+1
++ var(μi,t )(var(ρi,t ) + (1 − E(ρi,t ))2 )
+
+ p 2
++ var(ρi,t ) E( L̄ t ) − E(μi,t ) − E πi,t .
+
+(1)
+
+Let us first assume that no differential interpretation of information exists, that is,
+var(μi,t ) = 0 and that weights on priors are identical across agents, that is, var(ρi,t ) =
+0. Then, equation (1) reduces to
+ p
+ e 
+= var πi,t ρt2 .
+var πi,t+1
+In this simple case, a higher volume of media reporting, reflected in a higher number
+of media reports V , reduces disagreement. If the number of media reports V goes
+to infinity, the weight on prior beliefs goes to zero and all agents adopt the identical
+information set. If agents do not absorb any news such that V = 0, no updating
+takes place and disagreement is determined by the dispersion of prior beliefs. That
+the amount of media reporting about inflation is positively related to the absorption
+of new information by households is also suggested by empirical results of Carroll
+(2003) and Lamla and Lein (2008). This leads to the following hypothesis:
+HYPOTHESIS 1. The higher the volume of media reporting, the lower is inflation
+forecast disagreement of consumers.
+Not only the volume of media-reporting matters, but also its content.8 In particular,
+the model suggests that the more homogeneous media statements about inflation are,
+represented by a lower variance bt of the noise term, the lower is disagreement. If
+all media reports contain the identical message such that the variance of the noise
+component collapses to zero, information sets become homogeneous. We empirically
+capture the heterogeneity of media reporting by computing the information entropy
+of media statements within a given month. This measure will be introduced in the
+next section. Hence, the second hypothesis reads:
+7. See Kandel and Zilberfarb (1999) and Lahiri and Sheng (2008) for a derivation of this result.
+8. Previous research of Lamla and Lein (2008) shows that the content of media reporting affects
+accuracy of consumers’ inflation expectations.
+
+MICHAEL J. LAMLA AND THOMAS MAAG
+
+:
+
+1331
+
+HYPOTHESIS 2. The lower the heterogeneity (information entropy) of statements about
+inflation, the lower is inflation forecast disagreement of consumers.
+Note that in the Bayesian model heterogeneity in media coverage does not directly
+cause forecast disagreement. Rather, heterogeneity is averaged out in the process
+of Bayesian updating and exerts only an indirect effect as it determines the weight
+agents put on their (heterogeneous) prior beliefs. More importantly, the Bayesian
+model illustrates that the above relations are ambiguous once agents interpret media
+reports differently, that is, if var(μi,t ) > 0. In the general case, disagreement is driven
+p
+by four main components: the cross-sectional variance of prior beliefs (var(πi,t )), the
+extent of different interpretation of the public signal (var(μi,t )), the average weight
+that agents assign to their prior forecasts (E(ρi,t )), and the cross-sectional variance
+of prior weights (var(ρi,t )). The marginal effects of the variance terms on forecast
+disagreement is nonnegative, whereas the marginal effect of E(ρi,t ) is ambiguous.
+Ignoring the indirect effect on its own variance, the marginal effect of E(ρi,t ) depends
+on the dispersion of the priors and the extent of differential interpretation:
+ e 
+  p
+
+∂var πi,t+1
+(2)
+= var πi,t + var(μi,t ) 2E(ρi,t ) − 2var(μi,t ).
+∂ E(ρi,t )
+This expression tends to be positive if the cross-sectional variance of prior expectations is large relative to the extent of differential interpretation and/or if the average
+weight on the priors is large. If information is not interpreted differentially, a lower
+average weight on heterogeneous prior beliefs always decreases forecast disagreement. However, if new information is interpreted differentially, updating with new
+information may raise forecast disagreement above initial prior disagreement.9
+We expect that the extent of differential interpretation var(μi,t ) can be affected by
+media coverage. This conjecture is motivated by agenda setting theories in media
+effects research.10 Agenda setting theories suggest that the primary role of media
+lies in influencing what people concern to be important. In traditional agenda setting
+models, the amount of media reporting (so called media salience) affects where an
+issue ranks on recipients’ agendas. On empirical grounds, Sheafer (2007) extends
+the traditional notion, arguing that not only the volume but also the tone of media
+coverage is relevant for agenda setting. The findings of Sheafer (2007) suggest that
+in particular negative news indicating that inflation is worrisome should raise the
+perceived issue importance among recipients. In contrast, a neutral or positive tone of
+news might not affect how concerned agents are with inflation or might even decrease
+perceived issue importance.
+9. Moreover, if the weights on prior beliefs are heterogeneous (var(ρi,t ) > 0), then the level of the
+rational forecast may in itself play a role for disagreement. This follows from the last line of equation (1):
+If the information transmitted by the media diverges from prior expectations, then disagreement will
+rise provided that updating varies across agents. Only in this case, a systematic media bias could affect
+disagreement on inflation forecast.
+10. See McCombs and Shaw (1972) for a seminal contribution. Recent surveys of the agenda setting
+literature are conducted by Dearing and Rogers (1996) and McCombs (2004).
+
+1332
+
+:
+
+MONEY, CREDIT AND BANKING
+
+We argue that, in economic terms, agenda setting affects the perceived costs and
+benefits agents assign to forecasting inflation. If agents are more concerned about
+inflation, then the cost–benefit ratio of forecasting becomes more favorable toward
+forming an elaborate and costly forecast. That households indeed choose predictors
+by rationally evaluating predictor costs and benefits is confirmed by Branch (2004,
+2007).11 If inflation moves up the public agenda, one would expect predictors to
+become more homogeneous. Agents that normally are not concerned with forecasting inflation begin to form more elaborate forecasts and their predictors converge
+toward predictors of agents that employ elaborate predictors independently of media
+coverage.
+Apart from the effects of the volume and the heterogeneity of story content for the
+transmission of information, we thus expect that the extent of differential interpretation is lower in times when the amount of media reporting is high
+and when the tone
+e
+∂var(πi,t+1
+)
+of media coverage suggests that inflation is rising. Since ∂var(μi,t) > 0, we obtain the
+following hypothesis:
+HYPOTHESIS 3. A high volume and, in particular, media coverage indicating rising
+inflation decrease inflation forecast disagreement of consumers.
+As opposed to consumers, professional forecasters should be well informed and
+acquire information from primary sources such as the Federal Statistical Office.
+Hence, while professional forecasters may also be modeled as Bayesian learners,
+they would acquire signals from other sources than the news media. Consequently,
+the parameters volume, heterogeneity, and tone of media coverage should be irrelevant
+for professional disagreement.12 The last hypothesis thus reads:
+HYPOTHESIS 4. Media reporting does not affect inflation forecast disagreement of
+professional forecasters.
+Media coverage of inflation will to some extent reflect the actual macroeconomic
+state. Moreover, not only professional forecasters but also households will rely on
+various information sources to form an inflation forecast. In particular, households
+obtain information from their daily economic interactions as consumers or workers.
+Hence, information about the macroeconomic state will directly affect expectations
+and thereby forecast disagreement, independently of the amount of reports, the heterogeneity of story content, or the tone of reporting. Consequently, in order to identify the intrinsic relevance of media coverage we need to control for confounding
+11. Building on the Brock and Hommes (1997) theory of rational predictor selection, Branch (2004,
+2007) estimates a model in which consumers rationally choose from a set of predictors by evaluating costs
+and benefits of each predictor. Branch (2004, 2007) finds such a model to be consistent with response
+behavior in the University of Michigan Survey of Consumers.
+12. Clearly, one may think of alternative models of expert disagreement. These include strategic
+behavior (Laster, Bennett, and Geoum 1999), herding, conservatism, optimism (Batchelor 2007), and
+asymmetric loss functions (Capistrán and Timmermann 2009).
+
+MICHAEL J. LAMLA AND THOMAS MAAG
+
+:
+
+1333
+
+macroeconomic factors. Motivated by empirical findings of Mankiw, Reis, and
+Wolfers (2004), we consider three potential macroeconomic control variables: the
+inflation rate, inflation volatility, and relative price variability.13
+Although the relation with disagreement is ambiguous, the inclusion of these variables is theoretically justified. Theories of rational inattention as pioneered by Sims
+(2003) and theories of rational predictor selection (Branch 2004, 2007) suggest that
+the inflation rate is, to some extent, negatively correlated with survey disagreement.
+If inflation is rising, incentives to closely track inflation may rise and sticking to
+outdated information may become more costly. If inflation exceeds some threshold,
+however, uncertainty about the choice of a forecasting model and disagreement about
+the interpretation of available information might rise as well. This effect is expected
+to be particularly relevant once inflation significantly deviates from the monetary
+policy target level or in times of a regime change (Kandel and Zilberfarb 1999). We
+might thus observe a nonlinear effect of inflation on disagreement. At levels close
+to the target rate, a change in inflation draws the attention of households who are
+subject to the economic incentives to track inflation more closely. This lowers overall
+disagreement since information sets become more homogeneous. At levels further
+away from the inflation target, uncertainty about the choice of a forecasting model and
+differential interpretation of public information raise forecast disagreement, despite
+high levels of attention and homogeneous information sets. Since professional forecasters’ information sets should not depend much on the level of inflation, differential
+interpretation should dominate for them.
+The effect of inflation volatility might be similar to the effect of the inflation level.
+Theories of rational inattention suggest that consumers spend more time observing
+the inflation rate when it is volatile. But if inflation is highly volatile, uncertainty
+about how to predict it might also be high. Hence, differential interpretation of the
+same information becomes more important. That forecast disagreement is rising in
+inflation volatility is suggested by the sticky information model of Mankiw and
+Reis (2002, 2006). In this model, any change in the rate of inflation raises the
+heterogeneity of information sets across economic agents. Again, one would expect
+that the effect of attention primarily concerns consumers. The third macroeconomic
+variable we consider is relative price variability, that is, the variation of inflation rates
+across subcomponents of the consumer price index. We expect that this variable is
+positively correlated with disagreement of households and professional forecasters.
+In particular, results of Souleles (2004) and Bryan and Venkatu (2001a, 2001b)
+suggest that households may not necessarily have the official inflation rate in mind
+but may rather refer to inflation as observed in their private consumption basket.
+Hence, relative price variability should directly raise forecast disagreement since it
+induces heterogeneity in the information sets of households. A positive correlation
+13. Using U.S. data, Mankiw, Reis, and Wolfers (2004) find that the inflation rate is a robust predictor
+of both consumer and professional disagreement, while inflation volatility and relative price variability are
+primarily relevant for consumers. Mankiw, Reis, and Wolfers additionally consider the output gap which
+is significant for consumer disagreement in some specifications. All variables are found to be positively
+related to disagreement.
+
+1334
+
+:
+
+MONEY, CREDIT AND BANKING
+
+with professional disagreement might once more reflect uncertainty about the choice
+of an adequate forecasting model.
+
+2. DATA
+Inflation expectations of households about 12-month-ahead consumer price inflation are taken from the Joint Harmonized EU Consumer Survey. Within this framework, a representative sample of roughly 1,500 German households is surveyed every
+month.14 Inflation expectations are captured by asking households: “By comparison
+with the past 12 months, how do you expect that consumer prices will develop in the
+next 12 months? They will . . . ” Respondents express their beliefs on a five-option
+scale: “Increase more rapidly, increase at the same rate, increase at a slower rate, stay
+about the same, fall.”15
+Survey results are publicly available as aggregate shares over qualitative response
+categories. We quantify inflation forecast disagreement of households by computing
+an index of qualitative variation (IQV) based on the response shares in the five
+categories:
+
+K
+
+K
+p(xi )2 ,
+1−
+Q(X ) =
+K −1
+i=1
+where K = 5 is the number of categories in the survey question on expected inflation
+and p(xi ) the fraction of answers in category xi . The scaling factor KK−1 ensures that
+0 ≤ Q(X ) ≤ 1. Maag (2009) finds that the IQV closely traces the actual standard
+deviation of quantitative responses in a survey that records both qualitative and
+quantitative inflation expectations. Moreover, it is shown that since the IQV does not
+incorporate ordinal information it outperforms other quantification approaches.16
+Disagreement of professional forecasters is based on quantitative point forecasts
+taken from the Consensus Economics survey. Consensus Economics has been surveying roughly 30 experts of private and public institutions in Germany on a monthly
+basis over the entire sample period. Unlike the consumer survey, the Consensus
+
+14. The consumer survey consists of 15 qualitative questions that pertain to the household’s financial
+situation, perceived economic conditions, and planned savings and spending (see European Commission
+2007).
+15. Survey respondents may also opt for a “don’t know” response.
+16. Maag (2009) documents that the correlation of the IQV with the standard deviation of actual
+quantitative responses is about 0.8 using monthly microdata from the Swedish Consumer Tendency
+Survey, 1996–2008. The IQV performs significantly better than other quantification methods, such as the
+probability method and measures of ordinal variation. Maag finds that qualitative inflation expectations
+are not ordered. This is due to the particular questioning of the EU survey, which relates expected inflation
+to perceptions of current inflation. Consequently, measures that use ordinal information are distorted,
+whereas the IQV remains unaffected. In addition, we calculated an alternative measure of disagreement
+proposed by Lacy (2006). Both measures of dispersion exhibit a very high correlation of 0.86. Moreover,
+as can be seen in Table 4, the qualitative regression results are identical.
+
+:
+
+1335
+
+.2
+
+.75
+
+.3
+
+.4
+.5
+.6
+Quasi standard deviation
+
+Index of qualitative variation
+.8
+.85
+.9
+.95
+
+1
+
+.7
+
+MICHAEL J. LAMLA AND THOMAS MAAG
+
+1998
+
+2000
+
+2002
+
+2004
+
+Consumers
+
+2006
+
+2008
+
+2010
+
+Professionals
+
+FIG. 1. Disagreement in Inflation Expectations.
+NOTE: Disagreement of households is computed by the index of qualitative variation. Disagreement of professionals is
+measured by the quasi-standard deviation.
+
+Economics survey asks for (fixed-event) forecasts of inflation over the current and
+the upcoming calendar year. We adopt the weighting approach commonly used in
+the literature to compute 12-month-ahead (fixed-horizon) forecasts.17 As a measure of disagreement, we follow Giordani and Söderlind (2003) and employ the
+quasi-standard deviation (QSD) defined as half the difference between the 84th and
+16th percentile of the point forecasts as a measure of disagreement. The QSD is
+robust to outliers and corresponds to the usual standard deviation if point forecasts
+are normally distributed.
+Figure 1 shows inflation forecast disagreement of consumers and professional
+forecasters. The sample average of the IQV for consumers is 0.88, the average
+QSD for professionals 0.41%. Disagreement of consumers and professionals show
+considerable variation over time with standard deviations of 0.09 and 0.04%, respectively. Consumer disagreement exhibits a level shift around January 2002, coinciding
+with the euro cash changeover.18 Since our focus does not lie on understanding this
+17. The 12-month-ahead inflation expectation formed in month m of year t is given by 13−m
+πtc +
+12
+c
+πt+1
+, where πtc is the inflation expectation for year t.
+18. We thank one referee raising our attention to the issue that the variation of the IQV might also
+have increased. To address this issue, we test for equal variances of the IQV series with a breakpoint in
+2002 and cannot reject equal variance at a 5% level of confidence. Moreover, we test for heteroskedasticity
+in our regression residuals using the Goldfeld–Quandt test on our basic macroeconomic model (Table 1
+column (1) without any correction on the standard errors). The Goldfeld–Quandt test cannot reject a
+common variance of the error terms of our baseline regression (Goldfeld–Quandt F-stat(102,42): 1.57,
+m−1
+12
+
+1336
+
+:
+
+MONEY, CREDIT AND BANKING
+
+particular event, we account for the shift by including an indicator variable that is
+equal to unity from January 2002. Professional disagreement also rises after the euro
+cash changeover, but falls back to its initial level in 2004. The figure indicates that
+consumer and professional disagreement are only weakly correlated: The correlation
+coefficient is 0.44. Also, disagreement of professionals appears to be less persistent
+than disagreement of consumers. Overall, the figure suggests that different drivers
+are relevant for consumer and professional disagreement.
+Our set of explanatory macroeconomic variables is based on the Harmonized Index
+of Consumer Prices (HICP) as published by Eurostat. The inflation rate is computed
+as the year-over-year percentage change of the HICP. As a measure of inflation
+volatility, we use the squared monthly change in the inflation rate, averaged over
+3 months (i.e., between t and t − 2).19 Finally, we consider relative price variability
+given by a weighted standard deviation of inflation rates in HICP subcomponents
+(see, e.g., Jaramillo 1999):
+R P Vt =
+
+I
+
+
+wi,t (πi,t − πt )2 ,
+
+i
+
+where wi,t is the weight of HICP subindex i, πi,t the inflation rate in subindex i
+and πt the overall HICP inflation rate. Our measure is based on 39 monthly HICP
+subcomponents and annual weights obtained from Eurostat.20
+Figure 2 shows the macroeconomic variables. Although the HICP inflation rate
+exhibits only moderate variation, relative price variability is comparatively high and
+volatile. In the periods 2000–01, 2004–06, and in 2008 relative price variability
+attains levels of above 4%. The series is positively correlated with the inflation rate,
+with a correlation coefficient of 0.43. Inflation volatility is only weakly correlated
+with the inflation rate and relative price variability, correlation coefficients are 0.22
+and 0.07, respectively. The figure also indicates that no simple linear relation exists
+between the macroeconomic variables and disagreement in this period of relatively
+low inflation.
+The media content data have been provided by the media research institute Media
+Tenor. The data set comprises a wide range of newspapers and television news on
+a daily frequency for the time span January 1998–December 2010 in Germany. It
+covers all statements dealing with inflation which are at least five lines long in the case
+of printed media and last at least 5 seconds for television broadcasts.21 The coding
+is based on the standards of media content analysis (see, e.g., Holsti 1969). Media
+p-value = 0.17). Thus, while the dispersion series for the consumers seems to exhibit a slightly higher
+variation after 2002 this cannot be confirmed with sufficient statistical certainty.
+19. We have also considered the squared monthly change and the absolute monthly change, with
+unchanged qualitative results.
+20. The 39 subcomponents correspond to the COICOP three-digit aggregates as provided by Eurostat.
+All series are available from January 1995 onward.
+21. Mediatenor Data consists of the following media sources: Frankfurter Allgemeine Zeitung,
+Welt, Süddeutsche Zeitung, Frankfurter Rundschau, Tageszeitung, Neue Zürcher Zeitung, Berliner,
+
+:
+
+1337
+
+0
+
+0
+
+.2
+
+2
+
+.4
+%
+
+%
+
+4
+
+.6
+
+6
+
+8
+
+.8
+
+MICHAEL J. LAMLA AND THOMAS MAAG
+
+1998
+
+2000
+
+2002
+
+2004
+
+HICP inflation rate
+Rel. price variability
+
+2006
+
+2008
+
+2010
+
+Inflation volatility (rhs)
+
+FIG. 2. Macroeconomic Variables.
+NOTE: The inflation rate is computed as the year-over-year percentage change of the Harmonized Index of Consumer
+Prices (HICP) as published by Eurostat. Inflation volatility is calculated by the squared monthly change in the inflation
+rate, averaged over 3 months. Relative price variability is given by a weighted standard deviation of inflation rates in 39
+HICP subcomponents.
+
+content analysis allows to capture the content of each statement, while being objective
+and reproducible. This is achieved by continuous training of the coding specialists,
+a solid definition of the code book and regular intercoder reliability tests.22 For each
+media report, a broad set of attributes is captured like, for example, topic, source,
+direction, and time. Cumulating all statements in the media on inflation over 1 month
+gives us the volume measure. Moreover, we retrieve the attribute on the direction
+inflation is moving, that is, whether inflation is “rising,” “unchanged,” or “falling” in
+order to calculate the variables “tone” and “entropy.”
+Based on these data, we generate a number of explanatory variables that capture
+media activity. The volume of media coverage (V ) is simply given by the overall sum
+of media reports that mention inflation per month. Our measure of heterogeneity of
+media reports (variance bt ) is based on the information about the direction inflation
+is taking. Given the shares p(xi ), i = 1, 2, 3, of reports stating that inflation is rising,
+unchanged, and falling we compute Shannon’s measure of information entropy that
+
+Volksstimmer, Sächsische, Westdeutsche Allgemeine Zeitung, Kölner Stadt-Anzeiger, Rheinischer
+Merkur, ARD Tagesschau, Tagesthemen, ZDF Heute, Heute Journal, RTL Aktuell, SAT.1 18:30, ProSieben
+Nachrichten, Spiegel, Focus, Die Woche, Wochenpost, Welt am Sonntag, Bild am Sonntag, Die Zeit.
+22. One main advantage of these tests is that the coding of a text is done by at least two different
+coders. The resulting output is then compared. Usually, these intercoder reliability test show that the output
+is on average highly correlated (roughly 0.8) across coders. If not, unequally coded passages are recoded.
+
+:
+
+MONEY, CREDIT AND BANKING
+
+0
+
+.2
+
+10
+
+.4
+
+.6
+Entropy
+
+.8
+
+Number of reports
+20
+30
+
+1
+
+40
+
+1.2
+
+1338
+
+1998
+
+2000
+
+2002
+
+2004
+
+Volume
+
+2006
+
+2008
+
+2010
+
+Entropy of story content
+
+FIG. 3. Volume and Entropy of Media Coverage.
+NOTE: Bars show the amount of reports on inflation. Solid line represents Shannon’s measure of information entropy
+calculated from the shares of reports that inflation is rising, falling, or about unchanged.
+
+is given by
+H (X ) = −
+
+K
+
+
+p(xi )ln ( p(xi )) ,
+
+i=1
+
+where K = 3 is the number of values of characterizing the direction of media reports.
+Under the convention that 0ln(0) = 0, this measure is bounded such that 0 ≤ H (X ) ≤
+ln(3) ≈ 1.1.
+Figure 3 shows the volume of media coverage and the information entropy. The
+figure indicates that the volume is relatively high in the years 2000–03 and in 2008,
+coinciding with the euro cash changeover and the rise in inflation due to energy prices
+at the end of the sample period. Correlation of the inflation rate with the volume of
+media reports is about 0.58, however. The entropy of statements about the direction
+inflation is taking is a highly volatile process. Only toward the end of the sample,
+information entropy shows a declining tendency.
+The variables that capture the tone of media coverage are based on the shares
+of reports indicating a particular direction of inflation relative to the monthly total
+number of reports about inflation. We consider the tone, computed as the difference
+between the fraction of reports stating that inflation is rising and the fraction of reports
+stating that inflation is falling. A positive tone thus reflects that news indicating rising
+inflation predominate. Moreover, we consider the amount of reports stating that
+inflation takes a particular direction. Figure 4 shows the tone as well as the amount
+
+:
+
+1339
+
+−1
+
+−10
+
+0
+
+−.5
+
+0
+Tone
+
+Number of reports
+20
+10
+
+.5
+
+30
+
+1
+
+40
+
+MICHAEL J. LAMLA AND THOMAS MAAG
+
+1998
+
+2000
+
+2002
+
+2004
+
+Rising inflation
+Tone
+
+2006
+
+2008
+
+2010
+
+Falling inflation
+
+FIG. 4. Tone of Media Coverage.
+NOTE: Bars show the number of reports stating that inflation is rising/falling. Solid line represents the tone of reporting
+computed as the difference between the fraction of reports stating that inflation is rising and the fraction of reports stating
+that inflation is falling.
+
+of reports indicating that inflation is rising and falling. The figure reveals that the
+amount of articles with rising direction is particularly high in the years 2000–01 and
+around 2008. This is reflected in the variable tone, which is close to unity in these
+years. On average, the tone is slightly positive but highly volatile with a standard
+deviation of about 0.49.
+3. ESTIMATION RESULTS
+3.1 Macroeconomic Determinants of Heterogeneity
+Our empirical analysis of disagreement begins by looking at the macroeconomic
+determinants that have been motivated above. We aim at identifying a baseline specification of disagreement to which the media variables will be added in a second step.
+The analysis centers on linear regressions of the following form:
+ e
+ e 
+3
+2
+var πi,t
+= β1 var πi,t−1
++ β2 πt−1 + β3 πt−1
++ β4 πt−1
++ · · · + β p−1
+(3)
++ β p d + εt .
+The dependent variable is the IQV for consumers and the QSD for professional
+forecasters. The specifications control for the euro–cash changeover by including a
+step dummy d, which is unity from 2002 onward. To account for the publication
+lag of macroeconomic information, we include the macroeconomic correlates with
+
+1340
+
+:
+
+MONEY, CREDIT AND BANKING
+
+TABLE 1
+MACROECONOMIC MODELS OF SURVEY DISAGREEMENT
+(1)
+
+Inflation(t−1)
+Inflation2(t−1)
+Inflation3(t−1)
+Inflation volatility(t−1)
+Rel. price var.(t−1)
+Lagged dependent
+Dchangeover
+Constant
+Observations
+Adjusted R 2
+
+(2)
+
+(3)
+
+Cons.
+
+Prof.
+
+Cons.
+
+Prof.
+
+0.006
+(0.015)
+−0.008
+(0.011)
+0.001
+(0.002)
+0.010
+(0.019)
+−0.003
+(0.004)
+0.691∗∗∗
+(0.159)
+0.082∗∗
+(0.034)
+0.843∗∗∗
+(0.024)
+156
+0.864
+
+0.078∗∗
+(0.030)
+−0.079∗∗∗
+(0.026)
+0.015∗∗
+(0.006)
+0.098
+(0.060)
+0.011
+(0.008)
+0.499∗∗∗
+(0.088)
+0.060∗∗∗
+(0.023)
+0.318∗∗∗
+(0.039)
+156
+0.381
+
+0.011
+(0.012)
+−0.013
+(0.009)
+0.002
+(0.002)
+0.000
+(0.015)
+−0.001
+(0.002)
+0.662∗∗∗
+(0.059)
+0.034∗∗∗
+(0.008)
+0.282∗∗∗
+(0.049)
+156
+0.864
+
+0.104∗∗
+(0.053)
+−0.128∗∗∗
+(0.049)
+0.027∗∗
+(0.011)
+0.108
+(0.094)
+0.009
+(0.013)
+0.453∗∗∗
+(0.089)
+0.028∗∗
+(0.012)
+0.194∗∗∗
+(0.028)
+156
+0.371
+
+Cons.
+
+0.007
+(0.016)
+−0.011
+(0.010)
+0.002
+(0.002)
+0.007
+(0.018)
+0.670∗∗∗
+(0.127)
+0.085∗∗∗
+(0.027)
+0.834∗∗∗
+(0.015)
+156
+0.865
+
+Prof.
+
+0.075∗∗
+(0.031)
+−0.070∗∗∗
+(0.025)
+0.013∗∗
+(0.006)
+0.108∗
+(0.060)
+0.509∗∗∗
+(0.087)
+0.055∗∗
+(0.024)
+0.345∗∗∗
+(0.034)
+156
+0.382
+
+NOTES: Monthly data, January 1998–December 2010. Columns (1) and (3) show estimation results of equation (3). Column (2) presents
+estimation results of equation (4), where the coefficient in the column for the lagged dependent corresponds to β1 . Dependent variable for
+consumers is the index of qualitative variation, dependent variable for professional forecasters is the quasi-standard deviation of quantitative
+survey responses. White standard errors in parentheses allowing for heteroskedasticity. ∗ , ∗∗ , and ∗∗∗ indicate statistical significance at the
+10%, 5%, and 1% levels, respectively.
+
+a 1-month lag. Moreover, the model contains a lagged dependent variable. This is
+motivated by equation (1), which illustrates that the heterogeneity of prior beliefs
+is a potentially important determinant of survey disagreement.23 In an attempt to
+approach the Bayesian learning model, we additionally report results for the following
+specification:
+ e 
+
+ e
+3
+2
+= var πi,t−1
+β1 + β2 πt−1 + β3 πt−1
++ β4 πt−1
++ ···
+var πi,t
+(4)
++ β p−1 + β p d + εt .
+In this second model, the macroeconomic covariates indirectly influence forecast
+disagreement by affecting the weight on the proxy of prior beliefs, var(πi,t ). Both
+models are estimated using OLS.24
+In column (1) of Table 1, we provide an initial specification of disagreement,
+which is estimated over the sample period January 1998–December 2010 for which
+23. Equating the heterogeneity of prior beliefs to lagged heterogeneity of expectations seems to be a
+natural assumption: no information flows occur in the model between the updating of priors (at the end of
+month t based on media coverage during this month) and the formation of new priors (at the beginning of
+month t+1). Note that the lagged dependent variable is only an approximate measure of prior disagreement
+because the underlying forecasts refer to a one month lagged target horizon.
+24. All estimations allow for heteroskedasticity. Estimations of models without lagged dependent
+variables additionally allow for serial correlation by employing the Newey–West (1994) estimator. We have
+tested for residual correlation in specifications with a lagged dependent variable using the Breusch–Godfrey
+LM test of no serial correlation.
+
+:
+
+1341
+
+−.1
+
+−.1
+
+0
+
+0
+
+.1
+
+.2
+
+.3
+
+Marginal effect of inflation
+
+Marginal effect of inflation
+
+.4
+
+.1
+
+MICHAEL J. LAMLA AND THOMAS MAAG
+
+−1
+
+0
+
+1
+
+2
+
+3
+
+HICP inflation rate (t−1)
+
+(a) Consumer disagreement
+
+4
+
+−1
+
+0
+
+1
+
+2
+
+3
+
+4
+
+HICP inflation rate (t−1)
+
+(b) Professional disagreement
+
+FIG. 5. Marginal Effect of Inflation on Disagreement.
+NOTE: The dots represent actual observations and the dashed lines show the 95% confidence interval. The underlying
+regression is reported in column (3) of Table 1.
+
+media content data are available. This specification includes HICP inflation, inflation
+volatility, and relative price variability. Following the theoretical line of argumentation, we allow for a nonlinear effect of the inflation rate, reflecting that inflation affects
+the attentiveness as well as uncertainty about the choice of a forecasting model. We
+therefore include inflation to the power of 2 and 3 in the equation. The estimations
+show that for professional disagreement the relationship seems to be u-shaped. For
+consumer disagreement, this relationship is less pronounced. In contrast to our expectations, relative price variability is insignificant for both consumers and professional
+forecasters. Inflation volatility is not significant for consumers. For professional forecaster disagreement, however, while it fails being significant at conventional levels,
+the p-value is very close to 0.1. As we will see, it will turn out to be significant in
+many specifications. The lagged dependent variable is highly significant in all specifications. The coefficient estimates suggest that disagreement of consumers is more
+persistent than disagreement of professionals, but that both variables are stationary.
+The lower persistence of professional disagreement is in line with the anticipation
+that professional forecasters are more attentive and responsive to new information
+than consumers.
+Column (2) presents estimation results of the alternative model specified in equation (4), including the same set of macroeconomic variables. The estimations confirm
+the above findings.
+Relying on these results, column (3) presents our preferred macroeconomic specification which excludes relative price variability. Interestingly, inflation volatility becomes statistically significant for the professional forecaster, whereas the
+nonlinear effect of inflation on professional disagreement remains highly significant. Figure 5 illustrates this effect in both groups. The dots represent actual observations and the dashed lines show the 95% confidence interval. For the professional
+forecaster, the figure reveals that if inflation is below a threshold of about 1.8%
+and above 0.5%, disagreement is declining in inflation. Outside this area, however,
+
+1342
+
+:
+
+MONEY, CREDIT AND BANKING
+
+disagreement is rising in inflation. A possible interpretation of this pattern along the
+lines of Kandel and Zilberfarb (1999) is that agents begin to disagree about which
+forecasting model is adequate in an uncertain environment with inflation rates that
+diverge from the 2% level the European Central Bank (ECB) considers to be in line
+with price stability. For consumer disagreement, a similar relationship might be conjectured but seems much less pronounced. The effect of inflation is significant in an
+area around 2%–2.5%.
+The findings regarding the significance of macroeconomic variables are partly
+consistent with results of Mankiw, Reis, and Wolfers (2004) for the U.S. These
+authors report that the inflation rate is a robust predictor of disagreement. They
+report that the estimated effect of the inflation rate is significant and positive. We
+can qualify this relationship in greater detail for Germany. Only in extraordinary
+times, we find a positive link between inflation and disagreement of professional
+forecasters. For consumers, the U-shape is much less pronounced. Moreover, in
+contrast to them we can only report a significant effect of inflation volatility on
+professionals disagreement and not for relative price variability. These differences
+to our results might be explained by their sample horizon which covers 30 years
+and includes periods of very high inflation rates and inflation volatility. Contrary to
+that, our sample horizon is characterized by relatively moderate levels of inflation
+and inflation volatility, with inflation ranging between −0.7% and 3.5%.25 Focussing
+only on the more recent inflation history of the U.S. might likely lead to more similar
+results.
+In sum the above results show that 1-month lagged inflation has a significant nonlinear (U-shaped) effect on professional disagreement. For consumer disagreement
+a similar but much less pronounced relationship is likely to be present. Professional
+disagreement is less persistent than consumer disagreement. Besides inflation it is
+related to inflation volatility. We therefore include inflation and inflation volatility as
+control variables in evaluating the effects of media coverage.
+3.2 Effects of Media Reporting on Heterogeneity
+This section systematically adds media variables to the baseline macroeconomic
+specification presented in column (3) of Table 1. In a first step, we investigate the
+media variables which, according to the Bayesian learning model, are relevant for
+the heterogeneity of information sets. According to Hypothesis 1, an increase in the
+amount of media reports about inflation raises the ratio of signal to prior precision
+which lowers disagreement among consumers. Similarly, Hypothesis 2 states that the
+lower the information entropy of story content is, the less weight households will
+25. Our inflation data includes values from −0.7% in July 2009 up to 3.5% in July 2008. Moreover,
+we are glad to have some major events in the sample. Besides the inflation hikes in 2001 and 2008, we
+have periods of very low inflation rates close to zero in 1999 and below zero in 2009. So while the average
+inflation rate is not overwhelmingly high there is substantial variation within the data during our sample
+period. Moreover, given the experience of the German public with hyperinflation people still have a strong
+aversion against rising inflation. Thus, every inflation figure that goes above 2% gives rise to an intensive
+debate.
+
+MICHAEL J. LAMLA AND THOMAS MAAG
+
+:
+
+1343
+
+put on their (heterogeneous) prior beliefs and the lower consumer disagreement will
+be. In column (1) of Table 2, we test these hypotheses by including the monthly
+number of reports dealing with inflation and the information entropy of statements
+about the direction of inflation. In line with our hypotheses, the entropy of story
+content measure is highly significant and has the expected positive marginal effect
+on survey disagreement. Unfortunately, while having the right sign and a very low
+p-value of 0.15 or closer the volume of news measure is not significant at conventional
+levels. Thus, we can confirm Hypothesis 2 and might also keep in mind that there
+is some support for the Hypothesis 1. Consistent with Hypothesis 4, professional
+disagreement is unaffected by media variables.
+In a second step, we add the media variables that are expected to affect the heterogeneity of predictors. Column (2) of Table 2 includes the tone of media coverage,
+represented by the difference of the share of articles indicating that inflation is rising and the share of articles indicating that inflation is falling. The tone of media
+coverage is not significant for consumers. We can also disentangle the effect of the
+tone into the effects of reports indicating that inflation is rising or falling. Column
+(3) reveals that consumer disagreement is decreasing in the share of media reports
+that signal rising inflation. The estimated coefficient is highly significant. In line with
+Hypothesis 3, these results suggest that consumer disagreement is lower if media
+coverage emphasizes that inflation is rising. This result is consistent with the model
+view that by setting the agenda, media coverage influences predictor choice, and
+thereby forecast disagreement. Column (4) of Table 2 presents estimation results of
+the alternative model specified in equation (4). The estimations confirm the above
+findings.
+Excluding the lagged dependent variable and the euro cash changeover dummy,
+the adjusted R 2 of a linear regression that only includes media variables is 0.33
+for consumers, as compared to an R 2 of 0.05 from a regression that only includes
+macroeconomic variables.26 The higher R 2 of a specification including only the
+media variables is in line with the notion that the media transmit macroeconomic
+variables and additionally interpret these variables. Therefore, the media variables
+contain more information than just the naked macroeconomic figures. The finding
+that media coverage has a stronger impact on consumer disagreement than the raw
+macroeconomic figure itself relates to the recent literature on macroeconomic literacy.
+In particular, results of Blinder and Krueger (2004) and Fullone et al. (2007) show
+that television and newspaper reports are the most important sources of economic
+information for households. In sum, these results suggest that it is primarily through
+the transmission and interpretation of information by the media that macroeconomic
+information becomes useful for consumers.
+In order to account for the highly unlikely case of a possible reverse causation
+running from disagreement of professional forecasters and consumers to media reporting, Table 3 provides estimates that include the media variables with a 1-month
+
+26. Detailed results are available upon request.
+
+0.009
+(0.0149)
+−0.014
+(0.0095)
+0.003
+(0.0019)
+0.005
+(0.0156)
+0.672∗∗∗
+(0.0909)
+0.092∗∗∗
+(0.0167)
+0.818∗∗∗
+(0.0138)
+156
+
+0.071∗∗
+(0.0326)
+−0.068∗∗∗
+(0.0250)
+0.013∗∗
+(0.0060)
+0.105∗
+(0.0602)
+0.507∗∗∗
+(0.0880)
+0.055∗∗
+(0.0253)
+0.337∗∗∗
+(0.0388)
+156
+
+0.000
+(0.0011)
+0.013
+(0.0345)
+
+−0.001
+(0.0004)
+0.025∗∗∗
+(0.0094)
+
+0.009
+(0.0149)
+−0.014
+(0.0095)
+0.002
+(0.0019)
+0.006
+(0.0155)
+0.669∗∗∗
+(0.0898)
+0.092∗∗∗
+(0.0163)
+0.818∗∗∗
+(0.0136)
+156
+
+−0.001
+(0.0004)
+0.024∗∗
+(0.0097)
+−0.002
+(0.0042)
+
+Cons.
+
+(2)
+
+0.069∗∗
+(0.0322)
+−0.069∗∗∗
+(0.0256)
+0.013∗∗
+(0.0062)
+0.104∗
+(0.0598)
+0.504∗∗∗
+(0.0885)
+0.054∗∗
+(0.0258)
+0.338∗∗∗
+(0.0398)
+156
+
+0.000
+(0.0011)
+0.015
+(0.0332)
+0.005
+(0.0144)
+
+Prof.
+
+−0.001∗∗
+(0.0005)
+0.000
+(0.0010)
+0.008
+(0.0154)
+−0.012
+(0.0098)
+0.002
+(0.0019)
+0.005
+(0.0150)
+0.661∗∗∗
+(0.0791)
+0.093∗∗∗
+(0.0135)
+0.818∗∗∗
+(0.0136)
+156
+
+0.020∗∗
+(0.0090)
+
+Cons.
+
+(3)
+
+0.002
+(0.0012)
+−0.001
+(0.0050)
+0.069∗∗
+(0.0327)
+−0.070∗∗∗
+(0.0250)
+0.013∗∗
+(0.0059)
+0.102∗
+(0.0594)
+0.505∗∗∗
+(0.0920)
+0.054∗∗
+(0.0255)
+0.335∗∗∗
+(0.0382)
+156
+
+0.024
+(0.0349)
+
+Prof.
+
+0.007
+(0.0133)
+−0.013
+(0.0092)
+0.003
+(0.0018)
+−0.002
+0.0144)
+0.655∗∗∗
+(0.0633)
+0.037∗∗∗
+(0.0081)
+0.276∗∗∗
+(0.0504)
+156
+
+−0.000
+(0.0003)
+0.021∗∗∗
+(0.0074)
+
+Cons.
+
+(4)
+
+0.079
+(0.0593)
+−0.109∗∗
+(0.0488)
+0.023∗∗
+(0.0107)
+0.104
+(0.0983)
+0.495∗∗∗
+(0.0841)
+0.027∗∗
+(0.0118)
+0.169∗∗∗
+(0.0408)
+156
+
+0.000
+(0.0008)
+0.032
+(0.0336)
+
+Prof.
+
+NOTES: Monthly data, January 1998–December 2010. Columns (1)–(3) show estimation results of the linear model. Column (4) presents estimation results of equation (4), where the coefficient in the column for the
+lagged dependent corresponds to β1 . Dependent variable for consumers is the index of qualitative variation; dependent variable for professional forecasters is the quasi-standard deviation of survey responses. White
+standard errors in parentheses allowing for heteroskedasticity. ∗ , ∗∗ , and ∗∗∗ indicate statistical significance at the 10%, 5%, and 1% levels, respectively.
+
+Observations
+
+Constant
+
+Dchangeover
+
+Lagged dependent
+
+Inflation volatility(t−1)
+
+Inflation3(t−1)
+
+Inflation2(t−1)
+
+Inflation(t−1)
+
+Direction falling
+
+Direction rising
+
+Tone
+
+Entropy
+
+Volume
+
+Prof.
+
+Cons.
+
+(1)
+
+THE EFFECT OF MEDIA COVERAGE ON SURVEY DISAGREEMENT
+
+:
+
+TABLE 2
+
+1344
+MONEY, CREDIT AND BANKING
+
+0.002
+(0.022)
+−0.013
+(0.015)
+0.003
+(0.003)
+−0.027
+(0.029)
+0.101∗∗∗
+(0.008)
+0.841∗∗∗
+(0.023)
+155
+
+−0.000
+(0.000)
+0.004
+(0.011)
+
+(1)
+
+0.034
+(0.047)
+−0.073∗∗
+(0.034)
+0.018∗∗∗
+(0.007)
+0.133∗∗
+(0.061)
+0.061∗∗∗
+(0.019)
+0.344∗∗∗
+(0.041)
+155
+
+−0.001
+(0.001)
+0.057
+(0.039)
+
+Prof.
+
+0.004
+(0.022)
+−0.013
+(0.015)
+0.003
+(0.003)
+−0.025
+(0.029)
+0.100∗∗∗
+(0.008)
+0.841∗∗∗
+(0.023)
+155
+
+−0.001∗
+(0.000)
+0.001
+(0.002)
+
+−0.002
+(0.012)
+
+Cons.
+
+(2)
+
+0.033
+(0.047)
+−0.070∗∗
+(0.034)
+0.017∗∗∗
+(0.006)
+0.123∗
+(0.063)
+0.060∗∗∗
+(0.019)
+0.344∗∗∗
+(0.042)
+155
+
+−0.001
+(0.002)
+0.001
+(0.004)
+
+0.052
+(0.035)
+
+Prof.
+
+0.685∗∗∗
+(0.146)
+0.008
+(0.015)
+−0.011
+(0.010)
+0.002
+(0.002)
+0.004
+(0.018)
+0.084∗∗∗
+(0.030)
+0.833∗∗∗
+(0.018)
+155
+
+0.000
+(0.000)
+−0.001
+(0.007)
+−0.003
+(0.004)
+
+Cons.
+
+(3)
+
+0.529∗∗∗
+(0.090)
+0.076∗∗
+(0.030)
+−0.063∗∗
+(0.026)
+0.012∗
+(0.006)
+0.120∗∗
+(0.058)
+0.058∗∗∗
+(0.025)
+0.330∗∗∗
+(0.038)
+155
+
+−0.001
+(0.001)
+0.015
+(0.027)
+−0.017
+(0.012)
+
+Prof.
+
+0.000
+(0.000)
+0.001
+(0.001)
+0.679∗∗∗
+(0.141)
+0.007
+(0.015)
+−0.010
+(0.010)
+0.001
+(0.002)
+0.004
+(0.018)
+0.085∗∗∗
+(0.029)
+0.835∗∗∗
+(0.017)
+155
+
+−0.003
+(0.008)
+
+Cons.
+
+(4)
+
+−0.001
+(0.001)
+−0.000
+(0.004)
+0.515∗∗∗
+(0.095)
+0.074∗∗
+(0.033)
+−0.066∗∗
+(0.026)
+0.013∗∗
+(0.006)
+0.115∗
+(0.063)
+0.052∗∗
+(0.025)
+0.331∗∗∗
+(0.039)
+155
+
+0.018
+(0.029)
+
+Prof.
+
+NOTES: Monthly data, January 1998–December 2010. Dependent variable for consumers is the index of qualitative variation, dependent variable for professional forecasters is the quasi-standard deviation of survey
+responses. White standard errors in parentheses allowing for heteroskedasticity. For columns (1)–(2), Newey–West standard errors are reported. ∗ , ∗∗ , and ∗∗∗ indicate statistical significance at the 10%, 5%, and 1%
+levels, respectively.
+
+Observations
+
+Constant
+
+Dchangeover
+
+Inflation volatility(t−1)
+
+Inflation3(t−1)
+
+Inflation2(t−1)
+
+Inflation(t−1)
+
+Lagged dependent
+
+Direction falling(t−1)
+
+Direction rising(t−1)
+
+Tone(t−1)
+
+Entropy(t−1)
+
+Volume(t−1)
+
+Cons.
+
+THE EFFECT OF LAGGED MEDIA COVERAGE ON SURVEY DISAGREEMENT
+
+TABLE 3
+
+MICHAEL J. LAMLA AND THOMAS MAAG
+
+:
+1345
+
+1346
+
+:
+
+MONEY, CREDIT AND BANKING
+
+lag. In specifications excluding a lagged dependent variable, the effect of the share
+of reports indicating rising inflation remains highly significant. Including a lagged
+dependent variable, the effects of lagged media reporting are not significant anymore.
+This indicates that the information contained in lagged media reports has already been
+incorporated into prior expectations, represented by the lagged dependent variable.
+Note also that the EU consumer survey is made public at the very end of each month.
+Our media data are aggregated daily data over the full month. Thus, it is unlikely
+to be strong response of the media to rising rates of disagreement within the same
+month.
+Finally, we conduct further robustness checks. The results are shown in Table 4.
+First, we introduce an alternative measure of disagreement for consumer. Lacy (2006)
+proposed a measure which has been used in very recent studies by Ehrmann, Eijffinger,
+and Fratzscher (Forthcoming) and Badarinza and Buchmann (2009).27 Our results, as
+can be seen in column (1), are confirmed using this alternative proxy for disagreement.
+Interestingly, the volume of news which was always on the borderline of being
+significant becomes significant at the 1% level. In column (2), we expand the set of
+macroeconomic control variables and consider the unemployment rate and the oil
+price (crude oil). The inclusion of both determinants does not alter our main results.
+Figure 1 may lead to the conjecture that different regimes of volatility may be present.
+Although we always control for heteroskedasticity in the error term, we additionally
+estimate an autoregressive conditional heteroskedasticity (ARCH) model to allow for
+time-varying heteroskedasticity. The resulting estimates are shown in column (3). We
+find no sufficient support for this class of models as the lagged ARCH coefficient is
+not significant. More importantly, our main findings still hold. Finally, Carroll (2003)
+and Lamla and Lein (2008) assume that the media transmit professional forecasts.
+Thus, the significant effect of the tone variable might be confounded by publicly
+available views and expectations of professional forecasts. The estimation in column
+(4) therefore accounts for the mean and the QSD of 1-month lagged professional
+forecasts taken from the Consensus Economics survey. The estimation show that the
+coefficients on the media variables are virtually unaffected.
+In sum, the above results confirm that media play a role for disagreement of
+consumers, but not for disagreement of professional forecasters. Consistent with
+Hypotheses 1, 2, and 3, we find that disagreement is increasing with the entropy in
+story content and declining in the amount of reports on inflation. Especially reports
+indicating rising prices seem to be of importance. According to the model view, this
+may result from a decline in predictor heterogeneity, caused by increasing importance
+consumers assign to predicting inflation. All results are conditional on a set of
+macroeconomic control variables and are robust to the inclusion of an alternative
+27. Dispersion is defined in the following way:
+σt =
+
+4
+j=1
+
+Ft, j (1 − Ft, j ),
+
+where Ft, j is the cumulative relative frequency of the jth category at time t. Note that the fifth category
+can be excluded, given that its cumulative relative frequency is equal to one, and accordingly does not
+provide any relevant information about the distribution of the variable. Both series are closely related,
+which is reflected in a very high correlation coefficient of 0.86.
+
+156
+
+156
+
+0.055
+(0.040)
+0.556∗∗∗
+(0.030)
+156
+
+0.091∗∗∗
+(0.022)
+0.839∗∗∗
+(0.039)
+
+−0.001∗
+(0.000)
+0.025∗∗
+(0.010)
+0.672∗∗∗
+(0.092)
+0.009
+(0.015)
+−0.014
+(0.010)
+0.002
+(0.002)
+0.004
+(0.016)
+−0.002
+(0.003)
+0.000
+(0.000)
+
+−0.001∗∗∗
+(0.000)
+0.020∗∗
+(0.009)
+0.859∗∗∗
+(0.086)
+0.000
+(0.015)
+−0.003
+(0.010)
+0.000
+(0.002)
+−0.002
+(0.015)
+
+−0.001
+(0.000)
+0.025∗∗∗
+(0.009)
+0.672∗∗∗
+(0.091)
+0.009
+(0.015)
+−0.014
+(0.010)
+0.003
+(0.002)
+0.005
+(0.016)
+
+0.092∗∗∗
+(0.017)
+0.818∗∗∗
+(0.014)
+
+Cons.
+
+Cons.Lacy
+
+(1)
+
+Cons. IQV
+
+(2)
+
+156
+
+0.094∗∗∗
+(0.029)
+0.434∗∗∗
+(0.100)
+
+0.000
+(0.001)
+0.007
+(0.034)
+0.465∗∗∗
+(0.098)
+0.063∗
+(0.032)
+−0.069∗∗∗
+(0.024)
+0.015∗∗
+(0.006)
+0.107∗
+(0.059)
+−0.006
+(0.009)
+−0.001∗∗
+(0.001)
+
+Prof.
+
+0.088∗∗∗
+(0.018)
+0.822∗∗∗
+(0.014)
+0.006
+(0.005)
+156
+
+−0.001
+(0.000)
+0.026∗∗∗
+(0.009)
+0.667∗∗∗
+(0.096)
+0.009
+(0.015)
+−0.014
+(0.009)
+0.003
+(0.002)
+0.003
+(0.016)
+
+Cons.
+
+(3)
+
+0.057∗∗
+(0.027)
+0.336∗∗∗
+(0.040)
+−0.001
+(0.004)
+156
+
+0.000
+(0.001)
+0.011
+(0.035)
+0.507∗∗∗
+(0.087)
+0.071∗∗
+(0.032)
+−0.068∗∗∗
+(0.025)
+0.013∗∗
+(0.006)
+0.107∗
+(0.061)
+
+Prof.
+
+(4)
+
+155
+
+0.049∗∗
+(0.021)
+−0.017∗
+(0.010)
+0.089∗∗
+(0.012)
+0.820∗∗∗
+(0.020)
+
+−0.001∗
+(0.000)
+0.025∗∗∗
+(0.009)
+0.615∗∗∗
+(0.091)
+0.014
+(0.014)
+−0.013
+(0.009)
+0.003
+(0.002)
+0.001
+(0.015)
+
+Cons.
+
+NOTES: Monthly data, January 1998–December 2010. Dependent variable for consumers is the index of qualitative variation, dependent variable for professional forecasters is the quasi-standard deviation of survey
+responses. In column (1) left panel, the dependent variable is the index of qualitative variation whereas the dependent variable in the right panel is the measure proposed by Lacy (2006). In column (3), an ARCH(1)
+model is estimated. ∗ , ∗∗ , and ∗∗∗ indicate statistical significance at the 10%, 5%, and 1% levels, respectively.
+
+Observations
+
+ARCH(t−1)
+
+Constant
+
+Dchangeover
+
+Prof. expectations(t−1)
+
+Prof. disagreement(t−1)
+
+Oil price(t−1)
+
+Unemployment(t−1)
+
+Inflation volatility(t−1)
+
+Inflation3(t−1)
+
+Inflation2(t−1)
+
+Inflation(t−1)
+
+Lagged dependent
+
+Entropy
+
+Volume
+
+ROBUSTNESS CHECKS
+
+TABLE 4
+
+MICHAEL J. LAMLA AND THOMAS MAAG
+
+:
+1347
+
+1348
+
+:
+
+MONEY, CREDIT AND BANKING
+
+measure of disagreement, further macroeconomic control variables, time-varying
+heteroskedasticity, and the mean and heterogeneity of professional forecasts.28
+4. CONCLUSION
+Although knowledge on the formation of inflation expectations is expanding, research on disagreement in expectations remains scant at best. Recent theoretical
+contributions, however, show that disagreement significantly affects economic allocations and may have important consequences for monetary policy. This paper
+contributes to the understanding of inflation forecast disagreement by investigating
+the role of media coverage about inflation. We propose a Bayesian learning model in
+which media coverage affects forecast disagreement by influencing information sets
+and predictor choice of agents. Forecast disagreement is governed by the dispersion
+of prior beliefs and by the amount, the heterogeneity, and the tone of media reports
+about consumer price inflation. Since agents obtain signals from various sources our
+empirical specifications control for a set of macroeconomic variables.
+We find that media coverage about inflation affects disagreement of consumers, but
+has no effect on disagreement of professional forecasters. This finding is in line with
+the hypothesis that professional forecasters have incentives to acquire information
+and chose their forecasting models irrespective of media coverage about inflation. We
+show empirically that professional disagreement is driven, besides inflation volatility,
+by the level of inflation. Interestingly, inflation affects disagreement in a nonlinear
+manner. A possible interpretation of this nonlinear effect is that agents begin to
+disagree about which forecasting model is adequate in an uncertain environment
+with inflation rates substantially diverging from the policy target. Disagreement of
+households is increasing with the heterogeneity of media coverage and declining in
+the amount of reports that point toward rising inflation. Both effects are consistent
+with the Bayesian learning model. Heterogeneity of media coverage increases the
+weight households put on heterogeneous priors. The tone of media coverage may
+determine predictor heterogeneity by an agenda setting channel.
+Refining both our theoretical and empirical understanding of the differential effects
+of news on information sets and predictor choice will be an important topic for future
+research on expectations.
+LITERATURE CITED
+Acemoglu, Daron, Victor Chernozhukov, and Muhamet Yildiz. (2007) “Learning and Disagreement in an Uncertain World.” NBER Working Paper No. 12648.
+
+28. There are obviously also some limitations to our approach. First, we do not model explicitly the
+process of choosing to read news but rather assume that people absorb an exogenous number of signals.
+Second, we can only control for a finite set of macroeconomic variables, in line with the existing literature.
+
+MICHAEL J. LAMLA AND THOMAS MAAG
+
+:
+
+1349
+
+Badarinza, Cristian, and Marco Buchmann. (2009) “Inflation Perceptions and Expectations in
+the Euro Area—The Role of News.” Working Paper Series 1088, European Central Bank.
+Batchelor, Roy. (2007) “Bias in Macroeconomic Forecasts.” International Journal of Forecasting, 23, 189–203.
+Blinder, Alan S., and Alan B. Krueger. (2004) “What Does the Public Know about Economic
+Policy, and How Does It Know It?” NBER Working Paper No. 10787.
+Branch, William A. (2004) “The Theory of Rationally Heterogeneous Expectations: Evidence from Survey Data on Inflation Expectations.” The Economic Journal, 114, 592–
+621.
+Branch, William A. (2007) “Sticky Information and Model Uncertainty in Survey Data on
+Inflation Expectations.” Journal of Economic Dynamics and Control, 31, 245–76.
+Brock, William A., and Cars H. Hommes. (1997) “A Rational Route to Randomness.” Econometrica, 65, 1059–95.
+Bryan, Michael F., and Guhan Venkatu. (2001a) “The Curiously Different Inflation Perspectives of Men and Women.” Federal Reserve Bank of Cleveland, Economic Commentary
+Series, October.
+Bryan, Michael F., and Guhan Venkatu. (2001b) “The Demographics of Inflation Opinion
+Surveys.” Federal Reserve Bank of Cleveland, Economic Commentary Series, November.
+Capistrán, Carlos, and Allan Timmermann. (2009) “Disagreement and Biases in Inflation
+Expectations.” Journal of Money, Credit and Banking, 41, 365–96.
+Carroll, Christopher D. (2003) “Macroeconomic Expectations of Households and Professional
+Forecasters.” Quarterly Journal of Economics, 118, 269–98.
+Curtin, Richard. (2007) “What U.S. Consumers Know about Economic Conditions.” Mimeo,
+University of Michigan.
+Dearing, James W., and Everett M. Rogers. (1996) Agenda Setting. Thousand Oaks, CA: Sage.
+Doms, Mark E., and Norman J. Morin. (2004) “Consumer Sentiment, the Economy, and the
+News Media.” FRBSF Working Paper 2004-09, Federal Reserve Bank of San Francisco.
+Döpke, Jörg, and Ulrich Fritsche. (2006) “When Do Forecasters Disagree? An Assessment of
+German Growth and Inflation Forecast Dispersion.” International Journal of Forecasting,
+22, 125–35.
+Ehrmann, Michael, Sylvester Eijffinger, and Marcel Fratzscher. (Forthcoming) “The Role of
+Central Bank Transparency for Guiding Private Sector Forecasts.” Scandinavian Journal of
+Economics.
+European Commission. (2007) The Joint Harmonised EU Programme of Business and Consumer Surveys, User Guide. European Commission, Directorate-General for Economic and
+Financial Affairs.
+Fullone, Flora, Michela Gamba, Enrico Giovannini, and Marco Malgarini. (2007) What
+Do Citizens Know About Statistics? The Results of an OECD/ISAE Survey on Italian
+Consumers.
+Giordani, Paolo, and Paul Söderlind. (2003) “Inflation Forecast Uncertainty.” European Economic Review, 47, 1037–59.
+Jaramillo, Carlos Felipe. (1999) “Inflation and Relative Price Variability: Reinstating Parks’
+Results.” Journal of Money, Credit and Banking, 31, 375–85.
+Jonung, Lars. (1981) “Perceived and Expected Rates of Inflation in Sweden.” American Economic Review, 71, 961–68.
+
+1350
+
+:
+
+MONEY, CREDIT AND BANKING
+
+Kandel, Eugene, and Ben-Zion Zilberfarb. (1999) “Differential Interpretation of
+Information in Inflation Forecasts.” Review of Economics and Statistics, 81,
+217–26.
+Lacy, Michael. (2006) “An Explained Variation Measure for Ordinal Response Models with
+Comparisons to Other Ordinal R 2 Measures.” Sociological Methods and Research, 34,
+469–520.
+Lahiri, Kajal, and Xuguang Sheng. (2008) “Evolution of Forecast Disagreement in a Bayesian
+Learning Model.” Journal of Econometrics, 144, 325–40.
+Lamla, Michael J., and Sarah M. Lein. (2008) “The Role of Media for Consumers’ Inflation
+Expectation Formation.” KOF Working Paper No. 201, ETH Zurich.
+Laster, David, Paul Bennett, and In Sun Geoum. (1999) “Rational Bias in Macroeconomic
+Forecasts.” Quarterly Journal of Economics, 114, 293–318.
+Maag, Thomas. (2009) “On the Accuracy of the Probability Method for Quantifying Beliefs
+about Inflation.” KOF Working Paper No. 230, ETH Zurich.
+Mankiw, N. Gregory, and Ricardo Reis. (2002) “Sticky Information versus Sticky Prices: A
+Proposal to Replace the New Keynesian Phillips Curve.” Quarterly Journal of Economics,
+117, 1295–328.
+Mankiw, N. Gregory, and Ricardo Reis. (2006) “Pervasive Stickiness.” American Economic
+Review, 96, 164–69.
+Mankiw, N. Gregory, Ricardo Reis, and Justin Wolfers. (2004) “Disagreement about Inflation
+Expectations.” NBER Macroeconomics Annual 2003, 18, 209–48.
+McCombs, E. Maxwell. (2004) Setting the Agenda: The Mass Media and Public Opinion.
+Cambridge: Polity Press.
+McCombs, E. Maxwell, and Donald L. Shaw (1972) “The Agenda Setting Function of MassMedia.” Public Opinion Quarterly, 36, 176–87.
+Newey, Whitney K., and Kenneth D. West. (1994) “Automatic Lag Selection in Covariance
+Matrix Estimation.” Review of Economic Studies, 61, 631–53.
+Patton, Andrew J., and Allan Timmermann. (2010) “Why Do Forecasters Disagree? Lessons
+from the Term Structure of Cross-Sectional Dispersion.” Journal of Monetary Economics,
+57, 803–20.
+Sheafer, Tamir. (2007) “How to Evaluate It: The Role of Story-Evaluative Tone in Agenda
+Setting and Priming.” Journal of Communication, 57, 21–39.
+Sims, Christopher A. (2003) “Implications of Rational Inattention.” Journal of Monetary
+Economics, 50, 665–90.
+Sims, Christopher A. (2009) “Inflation Expectations, Uncertainty and Monetary Policy.” BIS
+Working Papers 275, Bank for International Settlements.
+Soroka, Stuart N. (2006) “Good News and Bad News: Asymmetric Responses to Economic
+Information.” Journal of Politics, 68, 372–85.
+Souleles, Nicholas S. (2004) “Expectations, Heterogeneous Forecast Errors, and Consumption:
+Micro Evidence from the Michigan Consumer Sentiment Surveys.” Journal of Money, Credit
+and Banking, 36, 39–72.
+Williams, John C. (2004) “Comment on Disagreement about Inflation Expectations.” NBER
+Macroeconomics Annual 2003, 18, 257–68.
+
+

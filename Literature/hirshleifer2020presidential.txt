@@ -1,0 +1,3424 @@
+The Journal of FinanceR
+
+David Hirshleifer
+The President of the American Finance Association 2019
+
+THE JOURNAL OF FINANCE • VOL. LXXV, NO. 4 • AUGUST 2020
+
+Presidential Address:
+Social Transmission Bias
+in Economics and Finance
+DAVID HIRSHLEIFER∗
+ABSTRACT
+I discuss a new intellectual paradigm, social economics and finance—the study of the
+social processes that shape economic thinking and behavior. This emerging field recognizes that people observe and talk to each other. A key, underexploited building block
+of social economics and finance is social transmission bias: systematic directional shift
+in signals or ideas induced by social transactions. I use five “fables” (models) to illustrate the novelty and scope of the transmission bias approach, and offer several emergent themes. For example, social transmission bias compounds recursively, which can
+help explain booms, bubbles, return anomalies, and swings in economic sentiment.
+
+THIS ADDRESS DISCUSSES A NEW intellectual paradigm, which I call social economics and finance—the study of how social interaction affects economic outcomes. In standard analyses of economic behavior, people interact only impersonally via trading orders and observation of market price. A missing chapter
+in our understanding of finance consists of the social processes that shape
+economic thinking and behavior.
+Social economics and finance recognizes that people observe each other and
+talk to each other, where talking includes written text and social media. A key
+but underexploited intellectual building block of social economics and finance
+is social transmission bias, the systematic directional modification of ideas or
+signals as they pass from person to person.
+∗ David Hirshleifer is at Merage School of Business, University of California. This paper was
+the Presidential Address of the American Finance Association at the 2020 Annual Meeting in San
+Diego, CA. I thank Daniel Andrei, Julien Cujean, Darrell Duffie, Ben Golub, Cam Harvey, Michael
+Hirshleifer, Chong Huang, Nan Ma, Robert Merton, Amit Seru, Robert Shiller, Avanidhar Subrahmanyam, Siew Hong Teoh, Sheridan Titman, Johan Walden, Ivo Welch, Jeff Zwiebel, the 2019
+Retreat on Information and Social Economics (RINSE), the FRILLS (Finance Research Informal
+Lunchtime Seminar) at Stanford University, and the Editor, Stefan Nagel, for extremely helpful
+comments, and Yushui Shi and Josh Thornton for outstanding research assistance. Presentation
+slides for the talk are available at https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3513210.
+A transcript with integrated slides is available at https://ssrn.com/abstract=3513201. Video of the
+talk is available at https://youtu.be/KWlv2uFtsJY.
+Correspondence: David Hirshleifer, Merage School of Business, University of California, Irvine,
+CA 92697; email: david.h@uci.edu.
+
+DOI: 10.1111/jofi.12906
+
+C
+
+2020 the American Finance Association
+
+1779
+
+1780
+
+The Journal of FinanceR
+
+By way of comparison, previous intellectual paradigm shifts include information economics, which recognizes that some people know things that others
+do not, and behavioral economics and finance, which recognizes that people
+make systematic mistakes. Of course, scholars knew these obvious facts long
+before each of these paradigm shifts. The problem was that these facts were
+considered only informally and sporadically—they were not systematically, explicitly, and routinely incorporated in our thinking and models to generate test
+hypotheses. Similarly, social interaction is only starting to join the standard
+intellectual toolkit in finance research.
+As things stand, in behavioral finance, for example, the path from assumptions to conclusions is often very direct. With respect to beliefs, when we observe
+that investors trade too aggressively, we conclude that they must be overconfident. When we observe that expectations become more optimistic after price
+run-ups than after run-downs, we conclude that they must overextrapolate.
+With regard to preferences, when we see individual investors tilted toward buying lottery stocks, selling winners more than losers, or saving too little—well,
+we have behavioral models in which investors have preferences for skewness,
+for realizing gains not losses, and for immediate consumption.
+I am a fan of these direct approaches. They capture a large part of the
+truth. However, crucially, there can be attraction to a behavior without any
+preference for it. Moths are attracted to flame—a nearby light source. But
+moths are not flame-loving. There is no cognitive reward system that pays off
+more for approaching a flame. Instead, moths evolved under natural selection
+to navigate based on a distant light source, the moon. Nearby light sources
+fool their navigation systems. So attraction to flame is an indirect effect, not a
+direct preference.
+Another kind of indirect effect is social emergence—the phenomenon whereby
+social outcomes are not just the sums of individual propensities. An example
+of a socially emergent effect is the phenomenon of death spirals among army
+ants, as seen in Figure 1.
+These can be up to hundreds of feet wide. The ants continue to walk in circles
+until they die.
+Surely this could not happen to a smarter animal, such as a mammal. Except,
+apparently, for man’s best friend, as seen in videos of jostling dogs rotating
+about their shared food bowl. Are birds smarter? The most disturbing spectacle
+of all is seen in a video of turkeys marching in a circle around a dead cat—
+apparently some kind of religious ritual.
+Should we conclude from these behaviors that animals have a rotative instinct? A heuristic or bias for circular motion? Of course not. In the case of
+ants, there are instincts for random search for food, and instincts that promote following other ants. As a result, if the ant at the front of the line by
+chance starts following the ant at the back of the line, a dysfunctional social outcome results—somewhat reminiscent of a fad or bubble.1 These animal
+1 This phenomenon is closely akin to information cascades (Banerjee (1992), Bikhchandani,
+Hirshleifer, and Welch (1992)). In information cascades, even rational social learning results in
+fad-like outcomes.
+
+Presidential Address: Social Transmission Bias
+
+1781
+
+Figure 1. Army ant death spiral. Example of a dysfunctional emergent social
+outcome. Army ants continue to walk in circles until they die. Source: George Lin,
+https://www.youtube.com/watch?v=N0HoqjxfvJ4.
+
+circles illustrate that aggregate social outcomes often look nothing like individual propensities. There is no direct instinct for a single ant, dog, or bird to
+move endlessly in circles. Behavior is socially emergent.
+There are also socially emergent human behaviors. Consider, for example,
+self-enhancing transmission bias—the tendency of investors to discuss their
+trades with others more after experiencing strong performance than after weak
+performance.2 If listeners fail to adjust for this bias, they will tend to be unduly
+attracted to the sender’s investing strategy. As we will see, this effect favors the
+spread of some strategies over others (Han, Hirshleifer, and Walden (2019a)),
+but not because of any direct psychological bias for one strategy over another.
+The attraction to certain kinds of investment strategies is socially emergent.
+An implication of social emergence is that it is unwarranted to slip from
+an empirically observed behavior to the conclusion that there is a direct psychological bias “for” that behavior. We often forget this in the finance field.
+Emergent social effects are usually neglected. A key reason for this is that
+social transmission bias is missing from our standard intellectual toolkit.
+Social economics and finance seeks to expand the intellectual toolkit. To do
+so, it needs a firm foundation of standard concepts: preferences, beliefs, psychological bias, optimization, and equilibrium. Furthermore, as with behavioral
+economics, good social economics and finance requires good assumptions about
+psychological bias. Such assumptions need to derive from available evidence
+and evolutionary plausibility. Using this foundation, the purpose is to capture, in systematic and tractable ways, socially emergent effects on economic
+behavior, as well as more conventional direct effects.
+The main body of this talk consists of five “fables” (models) of social transmission bias in economics and finance. These fables describe research, including
+work-in-progress, by my coauthors and myself. My purpose is to suggest that
+2
+
+Evidence for this is provided by Heimer and Simon (2015), Ammann and Schaub (2016), Huang,
+Hwang, and Lou (2018), Escobar and Pedraza (2019), and Lim, Ng, and Uzzi (2020).
+
+1782
+
+The Journal of FinanceR
+
+Six Themes about Social Economics and Finance
+I oﬀer six themes about a new intellectual paradigm, social
+economics and finance, and one of its key intellectual building
+blocks, social transmission bias.
+• Compounding: Social transmission bias compounds recursively, so small bias can have large eﬀects.
+• Idiosyncrasy: Social transmission bias helps explain why
+aggregate outcomes are often error-prone and unpredictable.
+• Dynamics: Social transmission bias oﬀers an endogenous
+social explanation for action booms, price bubbles, and
+swings in investor sentiment.
+• Emergence: Socially emergent behavior often looks completely diﬀerent from individual propensities.
+• Mimicry: Social emergence can easily create the illusion of
+a direct individual propensity “for” a behavior when no such
+propensity exists. So the inferences drawn from empirical
+tests of behavioral hypotheses are often overstated.
+• Proxies: This approach suggests new test variables for empirical research: (i) general social and network proxies, and
+(ii) proxies for transmission bias.
+Figure 2. Six themes about social economics and finance. This figure summarizes six
+themes about a new intellectual paradigm, social economics and finance, and one of its building blocks, social transmission bias. (Color figure can be viewed at wileyonlinelibrary.com)
+
+the transmission bias approach may have novel messages to offer, and may be
+wide-ranging in scope of application. I then discuss some themes that emerge
+from these fables. Figure 2 summarizes six main themes about social economics
+and finance and the effects of social transmission bias.
+But first, in a necessarily selective way, I mention a few milestones of the
+social economics and finance paradigm shift. These include models of rational
+as well as biased social influence in networks3 ; the cultural transmission of
+ethnic, religious, and cooperative traits (Boyd and Richerson (1985), Bisin and
+3 Rational: Banerjee (1992), Bikhchandani, Hirshleifer, and Welch (1992), and Acemoglu et al.
+(2011). Biased: Ellison and Fudenberg (1993), DeMarzo, Vayanos, and Zwiebel (2001, 2003), Eyster
+and Rabin (2010), Golub and Jackson (2010), and Bohren (2016). Surveys include Jackson (2008)
+and Golub and Sadler (2016).
+
+Presidential Address: Social Transmission Bias
+
+1783
+
+Verdier (2000), Tabellini (2008)), and payoff interactions and games (Sandholm
+(2010)). In addition, empirical literatures have emerged on narratives and folk
+models in economics and finance4 ; on culture, ideology, norms, and economic
+outcomes5 ; and on contagion of economic/financial behaviors, at the levels of
+both individuals6 and firms.7
+Social transmission bias derives from combinations of bias in the messages
+that senders convey to others (or what is visible to others about “senders” as
+targets of observation) and bias on the part of receivers in what is absorbed and
+understood. There are of course other important intellectual building blocks for
+understanding human behavior. One such concept is social network structure,
+which has been the focus of intense interdisciplinary study in recent years. In
+contrast, the complementary concept of social transmission bias is underexplored and needs to join our standard intellectual toolkit.
+Transmission bias can take at least two forms. The first is signal distortion:
+a shift in the sign or intensity of what is transmitted. For example, the owner
+of a stock may talk up the firm to try to persuade others to buy it. If listeners
+do not adequately discount for this, their beliefs will be biased.
+The second is selection: a sender’s information is not always conveyed to
+a potential receiver. The beliefs of a receiver who neglects this fact will be
+biased. When censorship by a potential sender is a function of the values of the
+sender’s information signals, there is also selection bias, such as self-enhancing
+transmission bias, as discussed above.
+I now turn to five fables of social transmission bias in economics and finance.
+My main new model in this paper is Fable 4 on biased information percolation.
+I. Fable 1: Bandwidth Constraints and Simplistic Thinking
+Fable 1 is in-progress research (Hirshleifer and Tamuz (2020)).
+Communication bandwidth constraints, such as Twitter character limits and
+time constraints in conversation, are a major obstacle to conveying ideas with
+nuance. Another major hindrance is limited cognition. It takes considerable
+effort to convey and absorb message nuance. So there is usually a loss of nuance in social transmission, as is evident in TV sound-bite commentary about
+social issues.
+Suppose that in updating their beliefs, receivers do not adjust for loss of
+nuance. This is consistent with standard limited attention effects in psychology
+and in behavioral economics and finance. Suppose further that receivers believe
+4
+
+See Shiller, Kon-Ya, and Tsutsui (1996) and Shiller (2000b, 2017, 2019).
+See, for example, Grinblatt and Keloharju (2001), Barro and McCleary (2003), Guiso, Sapienza,
+and Zingales (2003, 2004), Hong and Kacperczyk (2009), Hong and Kostovetsky (2012), and Graham
+et al. (2019).
+6 See, for example, Glaeser, Sacerdote, and Scheinkman (1996), Kelly and O’Grada (2000), Brock
+and Durlauf (2001), Duflo and Saez (2002, 2003), Hong, Kubik, and Stein (2004), Rantala (2019),
+and Bailey et al. (2019).
+7 See, for example, Bizjak, Lemmon, and Whitby (2009), Chiu, Teoh, and Tian (2013), and
+Fracassi (2016).
+5
+
+1784
+
+The Journal of FinanceR
+
+that senders possess meaningful information. Then receivers will tend to infer
+that senders have simple or extreme beliefs. So receivers will adopt beliefs that
+actually are simplistic.
+As receivers become senders in turn, this loss of nuance may by iterated.
+So society can shift toward extremes of simplistic thinking, to the point that
+(conjecturally) judgments are worse than if people formed judgments in isolation. The reader can decide how realistic this is as a description of public
+understanding of economics and society.
+Of course, often social processes improve our collective intelligence, as emphasized by Henrich (2015) and as evidenced by the rise of sophisticated arts
+and sciences. The conditions under which social interaction lead to these very
+different outcomes deserves further study.
+II. Fable 2: Self-Enhancing Transmission Bias
+Fable 2 is a model of self-enhancing transmission bias (Han, Hirshleifer,
+and Walden (2019a)). Suppose that investors adopt one of two strategies: A for
+Active or P for Passive, where A refers to a strategy with either higher variance
+or higher skewness. Investors of type A or P are randomly selected to meet in
+pairs over time. In each meeting, the Sender has a probability of reporting the
+Sender’s strategy return to the Receiver. The Sender reports high return more
+often than low return.
+Owing to self-enhancing transmission, there is an upward selection bias in
+the return reports seen by receivers. This has a larger effect for the highvariance strategy, which generates a larger upper tail of high returns that are
+heavily reported and highly persuasive.
+Receivers are subject to two standard behavioral biases: they fail to adjust for
+self-enhancing transmission, and they think that reported past performance is
+strongly indicative of future performance. As a consequence, the high-variance
+A strategy tends to spread through the population, even if its payoff distribution
+is inferior. This can explain some puzzles in trading, such as nondiversification,
+as well as some pricing anomalies, such as the volatility and beta puzzles. There
+is also empirical support for this mechanism, as mentioned earlier.
+Consider now a variation. Suppose that extreme returns are highly salient,
+so that receivers pay more attention to very high and very low returns. Suppose that a receiver is only converted to a strategy if the receiver attends to
+the sender’s message. Then positive skewness strategies also tend to spread
+through the population—even after controlling for variance. Intuitively, positively skewed strategies generate the high-return outcomes that are both heavily transmitted and attended to, and highly persuasive to receivers.
+Fable 2 offers some important lessons. In the model, investors are attracted
+to high variance or skewness, but they do not have a preference for strategies
+based on variance or skewness. Nor do they have a belief that high variance
+or skewness is indicative of a superior investing opportunity. Indeed, they may
+be unaware of the variances and skewnesses of the available strategies. The
+attraction to these strategy characteristics is socially emergent. As we show,
+
+Presidential Address: Social Transmission Bias
+
+1785
+
+the social nature of these effects has distinctive empirical implications about
+the effects on investment choices of investor personality traits (e.g., degree
+of self-enhancing transmission bias), the position of an investor in the social
+network, and overall network connectivity.
+
+III. Fable 3: Visibility Bias and Overconsumption
+Fable 3 is a model of visibility bias and overconsumption (Han, Hirshleifer,
+and Walden (2019b)). In our context, visibility bias refers to the fact that engaging in a consumption activity is often more visible to others than refraining
+from doing so. For example, when the first Starbucks in a city in China opened,
+long lines of people stretching outdoors made it evident to others that many
+were willing to spend a lot on coffee instead of drinking cheaply at home.
+Wearable electronics are also highly visible.
+Suppose that observers do not adjust for the selection bias toward seeing
+consumption rather than nonconsumption events. Such neglect of the features
+of the data-generating process is a standard behavioral bias. Then observers
+will tend to infer that others are consuming heavily.
+Now let x denote people’s need for saving, such as the probability of experiencing a personal wealth disaster. It is the same for everyone, but its value
+is uncertain. Different people have different information signals about x, so
+they can learn by observing others. Owing to visibility bias, people mistakenly “learn” from the apparent high consumption of others that there is little
+need to save. So in equilibrium, there is overconsumption, that is, undersaving.
+Furthermore, there is a positive feedback effect, because people as targets of
+observation really are consuming heavily. So the total effect can be large.
+This approach to understanding savings decisions has some nonobvious consequences. For example, information asymmetry about others’ wealth weakens
+the overconsumption effect, consistent with some empirical findings (Jin, Li,
+and Wu (2011), Coibion et al. (2014)). This is in sharp contrast to wealth signaling models (with “Veblen effects”), in which information asymmetry is the
+source of overconsumption. This approach also offers a novel explanation (for
+reasons I will not get into here) for the large drop in the U.S. savings rate over
+a period of decades.
+The moral of the story is that overconsumption is an emergent social outcome. There is no direct bias for overconsumption. This contrasts with the
+standard behavioral economic theory that people find it tempting to consume
+immediately (present-biased preferences; see, Laibson (1997)).
+Owing to this difference, the social transmission bias approach has different empirical and policy implications from the behavioral economics approach.
+For example, in our model, overconsumption is driven by mistaken belief updating, so accurate disclosure about others’ consumption can help, in sharp
+contrast with most behavioral models of undersaving. The social transmission
+bias approach also suggests that there can be benefits to targeting policy interventions to people with central positions in the social network. So for good
+
+1786
+
+The Journal of FinanceR
+
+policy, empirical testing is vital. As it turns out, there is empirical support for
+both mechanisms (see, e.g., D’Acunto, Rossi, and Weber (2019)).
+
+IV. Fable 4: Biased Information Percolation, Action Booms, and Price
+Bubbles
+In the classic book The Psychology of Rumor, Allport and Postman (1947) describe transmission chain experiments in which subjects sequentially recount
+stories to each other, much like the game of telephone or Chinese whispers. A
+key conclusion is that information is systematically distorted in a process of
+leveling and sharpening. Subjects emphasize the perceived essence of a story by
+selectively retaining details consistent with it, intensifying details, increasing
+magnitudes, and adding compatible new details and explanations. As a result,
+rumors can become inaccurate and extreme.
+Like rumors, booms in social and economic activity and asset market bubbles
+often have a “beyond all reason” flavor, seemingly untethered from any sensible
+interpretation of publicly arriving news. Examples include sudden religious revivals, surges in the vilification of political enemies, ethnic groups, and foreign
+countries, and price bubble episodes (as recounted in Shiller (2000a)).
+In contrast, in existing models of information percolation, beliefs and actions
+become very accurate as information accumulates. In these models, rational
+agents meet and sequentially exchange private signals about the payoff of some
+action of common interest (e.g., Duffie, Malamud, and Manso (2009)). Here, I
+consider biased information percolation, a process in which there are distortions
+in information transmission. I explore whether biased information percolation
+can explain booms and collapses in aggregate behaviors and market prices.
+I consider a setting in which each member of a continuum of agents is endowed with one private signal about the per-unit payoff of an action of common
+interest (such as buying or selling an asset). The terminal payoff and signals
+are jointly Gaussian. At a sequence of Poisson arrival times, each agent is
+drawn in a meeting in which two agents share biased versions of the signals
+they have acquired up to that date. At each discrete date, public signals of
+growing informativeness arrive, which eventually correct the action boom or
+price bubble.
+At each continuous date, agents myopically maximize the mean-variance
+expected utility of their terminal wealth. In the Action Booms Model, there is
+no fixed constraint on the aggregate action taken by agents. So as enthusiasm
+temporarily grows, agents jointly undertake more—an action boom (or negative
+boom). The Action Booms Model can apply to behaviors of individuals, such as
+political action or day trading, as well as to firm-level behaviors, such as the
+adoption of organizational or governance structures, financing strategies, and
+projects or acquisitions.
+In the Price Bubbles Model, the action is buying or selling an asset, so the
+aggregate action—demand for the asset—is constrained to be equal to supply.
+Supply is an exogenous random variable, as in rational expectations models of
+
+Presidential Address: Social Transmission Bias
+
+1787
+
+securities markets. Investors partially infer the private information of others
+from market price. Biased information percolation results in asset mispricing.
+I introduce two types of social transmission biases to the information percolation setting. The first is misreporting—an upward or downward bias in senders’
+reports about their signal by some fixed amount b. I call this b bias. Each time
+an agent acquires a biased signal from others, an additional b is added to it, so
+b bias compounds recursively. Receivers interpret reports naively—without adjusting for b bias. The level of b is a random variable, the same for all meetings,
+and can be positive or negative, with E[b] > 0.
+The second transmission bias is meeting rate misperception. Agents underor overestimate the intensity of the Poisson process that selects agents into
+meetings by some fixed factor κ, where κ = 1 indicates no bias. I call this κ
+bias.
+For b bias, I view b > 0 as typical. There is evidence that consumers of media
+content are more likely to share positive than negative content (Berger and
+Milkman (2012)). As discussed in Berger (2014), one possible reason for doing
+so is to maintain a reputation for providing useful information. As argued in
+marketing literature, when there is a wide range of product choices, it is often
+more helpful to hear about what to buy than what not to buy. Furthermore,
+being positive is often seen as an attractive personality trait, which can be
+a motive for positive reporting (Tesser and Rosen (1975)). Both motives may
+have shaped the psychology of conscious or unconscious bias in information
+sharing.
+Alternatively, b bias can derive entirely from the message receiver. For example, receivers may be more attentive to positive than negative signals about
+consumer products if positive signals tend to be more useful. A related argument about net stock buying in response to news, given short-sale constraints,
+is made by Barber and Odean (2008). Also, if agents predominantly take long
+positions, then motivated reasoning (“wishful thinking”; see, e.g., the model of
+Bénabou and Tirole (2002)) promotes an optimistic bias in the interpretation
+of messages, b > 0.
+On the other hand, psychologists have documented negativity bias (Rozin and
+Royzman (2001), Baumeister et al. (2001))—a general tendency to pay more
+attention to negative information and to interpret information negatively. An
+evolutionary justification for negativity bias is that missing a threat just once
+can be fatal, whereas the cost of missing an opportunity is only incremental.
+Receiver naivete about b bias is consistent with evidence that people often
+take information at face value, instead of adjusting for features of the datagenerating process. There is extensive experimental and field evidence of this
+from several fields.
+Limited attention also provides a motivation for κ bias, where I regard
+downward bias, κ < 1, as typical. An agent does not directly observe most
+of other agents’ meetings. There is much evidence of “out-of-sight, out-ofmind” salience effects, whereby people underweight information that can be
+inferred rather than directly observed (see, e.g., Payne, Bettman, and Johnson
+(1993)). The κ bias is also in the spirit of models of persuasion bias and of naive
+
+The Journal of FinanceR
+
+1788
+2.0
+
+1.5
+
+Actual
+Smoothed
+
+E[vs |b]
+1.0
+Expected Price Path
+0.5
+
+5
+
+10
+
+15
+
+Time (s)
+Figure 3. Expected price path in the Price Bubbles Model. The figure plots (32) and shows
+the smoothed and unsmoothed expected price paths for positive bubbles (b > 0), where b is the
+transmission bias. These paths illustrate the following four phases: (i) the inception phase, (ii) the
+boom phase, (iii) the correction phase, and (iv) the terminal phase. As in (20), smoothed public
+precision is τ̂sZ ≡ eζ (s−0.5) τ P , where ζ parametrizes the growth rate in the smoothed precision, s is
+time, and τ P is the initial unsmoothed public precision. Parameter values: τ P = 0.1, τ θ = 0.1, τ S =
+0.1, τ X = 100, η = 0.39, γ = 0.1, κ = 0.5, ζ = 1, and b = 10, where τ θ is the supply shock precision,
+τ S is private signal precision, τ X is the precision of asset payoff, η is the percolation meeting rate,
+γ is the coefficient of absolute risk aversion, and κ is the coefficient for the misperception of the
+meeting rate.
+
+herding.8 In the Action Booms Model, κ bias does not come into play. Owing to
+b bias, when b > 0, on average the aggregate action follows a path that exceeds
+the rational benchmark (the case of b = 0). I define the excess action as the
+percentage difference between the expected aggregate action and the expected
+aggregate action under the rational benchmark. The smoothed path of the excess action increases slowly at first, but growth then accelerates. Eventually,
+as more and more informative public information arrives, the excess action is
+driven toward zero. Similarly, in the Price Bubbles Model, the expected price
+path conditional on b > 0, appropriately smoothed, rises above and then falls
+back toward fundamental value. So under appropriate parameter values, the
+smoothed excess action path and expected price path look qualitatively similar,
+with four phases as illustrated for the Price Bubbles Model in Figure 3. For
+positive bubbles (b > 0), these phases are:
+
+r
+
+The inception phase. Expected price or excess action grows at an accelerating rate (convexity).
+
+8 See DeMarzo, Vayanos, and Zwiebel (2001, 2003) and Eyster and Rabin (2010). My model
+shares with these the feature that agents do not properly account for how their information
+sources acquire signals from others. In these models, agents double-count signals that are received
+via multiple pathways in a social network. A difference here is that in the percolation setting, no
+signal is ever received from some other agent via multiple pathways.
+
+Presidential Address: Social Transmission Bias
+
+r
+r
+r
+
+1789
+
+The boom phase. Expected price or excess action grows at a decreasing rate
+(concavity), and reaches a peak.
+The correction phase. Starting from its peak, expected price or excess action
+declines at an increasing rate (concavity).
+The terminal phase. Expected price or excess action declines at a decreasing rate (convexity), asymptoting toward its fundamental value.
+
+For b < 0, these phases are inverted to create a U-shape instead of a
+hump-shape.
+The accelerating growth during the inception phase results from complementarity between the increase in the per capita number of signals that agents
+possess and the increase in the biases of those signals. As in previous models of
+information percolation, the per capita number of signals rises exponentially
+over time. Furthermore, I show that the average bias per signal possessed by
+agents increases linearly with time. Thus, at first, price or action rises, on average, more and more quickly relative to a zero-bias benchmark. Eventually,
+public information arrival corrects the overoptimism. Since these boom or price
+bubble effects are socially driven, a cross-sectional empirical implication is that
+more social agents take more extreme actions.
+Zooming in on the bubble trajectory without smoothing reveals oscillatory
+dynamics. In the b > 0 case, on each of the public information release dates,
+overoptimism is on average partially corrected, inducing discrete drops in the
+excess action. The reverse applies when b < 0. During the inception phase of the
+boom, these drops are quickly reversed and followed by further steepening. As
+the boom peaks, under appropriate parameter values there is a period during
+which the amplitude of the oscillations gets large, as the downward pressure
+on public news dates contends with the upward pressure of biased percolation
+between these dates. This peak oscillation is a distinctive testable property
+of the model. Eventually, public resolution of uncertainty starts to overwhelm
+biased percolation, so that on average the bubble enters the terminal phase
+and oscillations are dampened.
+Furthermore, dispersion across investors in their accumulated b biases
+promotes disagreement. This results in large cross-sectional differences
+in behavior, which, in the Price Bubbles Model, takes the form of heavy
+speculative trading. So irrational trading also tends to rise and fall with the
+bubble. Furthermore, if κ < 1, κ bias causes agents to perceive market price to
+be less informative than it really is. This also encourages irrational trading,
+even though there is no direct bias, such as overconfidence, “for” trading
+aggressively.
+As in the Action Booms Model, when b > 0, bias is amplified recursively. This
+results in convex growth in overvaluation that is only overcome when a very
+strong opposing force finally starts to operate. So the model is consistent with
+the “beyond all reason” flavor of many bubble episodes, such as the stupefying
+swings in Bitcoin prices. The implication of an accelerating initial rate of growth
+of bubbles is consistent with the evidence in Greenwood, Shleifer, and You
+
+1790
+
+The Journal of FinanceR
+
+(2019) that the price run-up in bubbles tends to have an explosive, that is,
+convex, shape before correcting.
+On average, when b > 0, there is a run-up over time during the inception and
+boom phases, with the expected price dropping discretely at each discrete news
+arrival date; the reverse applies when b < 0. So as in the Action Booms Model,
+there is peak oscillation— market valuations tend to totter before collapse.9
+During the correction and terminal phases of the bubble, the wiggling dampens
+as mispricing converges toward zero.
+The Price Bubbles Model also implies event-based return predictability. One
+reason for this is standard: firms may systematically undertake certain actions
+in response to mispricing, such as a new issue when b > 0 and a repurchase
+when b < 0. Furthermore, even for news events that do not depend on b, under
+appropriate parameter conditions there is on average postevent return continuation. Intuitively, public news events only partially correct misvaluation. So
+variation in b generates similar variation in both corrective event-date reactions and corrective postevent returns.
+The smoothed expected price path, conditional on b, is similar to the humpshaped or U-shaped impulse response functions that generate momentum
+and reversal in some behavioral models (e.g., Daniel, Hirshleifer, and Subrahmanyam (1998)). The randomness of b promotes positive comovement in
+returns that are separated by short time lags, and negative comovement in returns that are separated by longer lags, so that they lie on opposite sides of the
+hump- or U-shape. Furthermore, the oscillatory dynamics of the model—the
+high-frequency zigzags in price—suggest that under appropriate parameter
+values, serial correlations may be negative at short lags.
+A. The Basic Setting
+I now present explicitly the model introduced in the previous pages. I first lay
+out the assumptions common to the Action Booms and Price Bubbles models.
+Proofs are in the Appendix.
+Agents, Actions, and Payoffs
+At each continuous date s ∈ [0, T ), each agent from a continuum i ∈ [0, 1]
+undertakes some action with intensity θsi . The common payoff per unit of the
+action is
+
+
+1
+X ∼ N X, X ,
+τ
+where τ X is the precision of X, defined as the reciprocal of the variance. As seen
+in the timeline in Figure 4, the payoff is realized and received at finite date
+T . In the context of security trading, X is the terminal dividend of the risky
+asset.
+9
+
+Barberis et al. (2018) offer a model of wavering of investor beliefs at the peak of bubbles.
+
+Presidential Address: Social Transmission Bias
+
+1791
+
+Random meetings to share signals
+
+Si
+
+S1P
+
+S2P
+
+S3P
+
+0
+
+1
+
+2
+
+3
+
+···
+
+STP−2
+
+STP−1
+
+X
+
+T −2
+
+T −1
+
+T
+
+Action (e.g., trading)
+Figure 4. Timeline of payoffs for the basic setting of Action Booms and Price Bubbles
+Models. At each continuous date s ∈ [0, T ), each agent i chooses the level of an action with intensity
+θsi . Each agent is endowed with one private signal Si at date 0. Agents are randomly drawn in
+pairs in continuous time to meet and share private signals. At each discrete date agents receive
+public signals StP . The payoff X per unit of the action is realized and received at finite date T . In
+the context of security trading, X is the terminal dividend of the risky asset.
+
+Signals
+At date 0, each agent i directly obtains one private signal about X, of the
+form
+
+
+1
+Si = X +  i ,  i ∼ N 0, S ,
+τ
+where τ S is the precision of the private signal.
+Agents also receive public signals, denoted by a P superscript, at discrete
+dates t = 0, 1, 2, . . . T − 1. These signals satisfy
+
+
+1
+P
+P
+P
+St = X + t , t ∼ N 0, P ,
+τt
+where τtP is the precision of the date-t public signal, and by convention unsubscripted τ P ≡ τ0P .
+The new public signals arriving at each discrete date t < T are assumed to
+have growing precision in such a way that the total precision of the history of
+public signals grows exponentially at rate ζ > 0,
+τsZ = eζ s τ P ,
+
+0 ≤ s < T,
+
+(1)
+
+where the floor function indicates the greatest integer less than or equal to s.
+This is much like assuming that newly arriving public signals have exponentially growing precision.10 An alternative to this assumption is to assume that
+each agent is also endowed with an unbiased but low-precision signal, and that
+the percolation process for unbiased signals has a greater meeting rate than
+for biased signals. In such a setting, unbiased signals would have little effect at
+10
+
+There is full resolution of uncertainty (infinite precision) at terminal date T , so exponentially
+growing precision partially smooths the rate at which uncertainty is resolved over time.
+
+The Journal of FinanceR
+
+1792
+
+first, but as in Aesop’s fable of the tortoise and the hare, they would eventually
+outrace biased percolation.
+Meetings and Biased Signal Transmission
+Agents are selected randomly to meet in pairs and share private signals
+through conversation in continuous time. In each meeting, agents exchange
+biased summaries of their accumulated signals. We can view signals as transmitted either by physical meetings, or in a process in which bloggers randomly
+see each other’s posts at different moments in time.11
+Objective and Constraints
+At each date s, agents choose how much of the action, θsi , to undertake. The
+cost per unit of the strategy is vs units of date-T consumption. In the Action
+Booms Model, vs = v, an exogenous constant, where X > v > 0.
+At each date 0 ≤ s < t in continuous time, agent i myopically maximizes an
+exponential utility function,
+
+
+i
+subject to
+max E −e−γ WT | is
+θsi
+
+WTi = Wsi + θsi (X − vs ),
+
+(2)
+
+as if this were the last action the agent would ever take.12 Here, γ is absolute
+risk aversion, and Wsi is the agent’s wealth. Wealth is defined as either the
+date-0 endowed claims upon date-T consumption, or, in a market setting, the
+total market value at date s of the agent’s safe and risky claims denominated in
+date-T consumption.13 The investor’s information set is includes the private
+and public signals the agent has received. As is standard under normality
+and exponential utility, there is a mean-variance conditional expected utility
+function. So agent i’s optimal action is
+
+
+E X| is − vs
+i
+,
+(3)
+θs =
+γ V(X| is )
+where V denotes variance.
+B. Meeting Regimes, Signal Accumulation, and Average Beliefs
+The Meeting Regimes and Transmission Bias
+When two agents meet, they exchange messages about their accumulated
+private signals. With a continuum of agents and Gaussian learning, as in past
+11
+
+In a “blogger” setting, each “meeting” would have only one-way information transmission, but
+that distinction is not important for the qualitative nature of the results.
+12 Myopic optimization is algebraically convenient, and is perhaps more realistic than the opposite extreme of rational dynamic optimization. Also, since rational dynamic models generate
+closed-form solutions with convenient properties, similar conclusions to those that I derive may
+apply with forward-looking agents.
+13 Owing to the CARA (exponential) utility assumption, the value of W i is irrelevant for the optis
+mal action level, so I omit the details of its stochastic dynamics for case of the Price Bubbles Model.
+
+Presidential Address: Social Transmission Bias
+
+1793
+
+percolation models, the cross-population distribution of the number of signals
+possessed by different agents evolves deterministically over time. As the per
+capita average number of signals increases, agents can become better informed.
+Unfortunately for the agents, in my model these signals are biased, and all
+agents think that the messages they receive are unbiased. Specifically, the
+sender of a report adds a bias of size b to the mean of the sender’s signal
+batch each meeting. This would occur, for example, with one bias added to each
+of the signals. This can be referred to as full-batch transmission bias. Since
+meetings occur repeatedly, bias is amplified recursively. This transmission assumption reflects the fact that sometimes people are surprisingly credulous
+about favorable reports as excitement grows. The bias b is a random variable
+with E[b] > 0 that is realized at date 0, where b is independent of all other
+exogenous variables.
+For tractability, I further assume that at any date, only pairs of agents with
+the same number of signals are drawn to meet. This assumption is relaxed
+in a version of the model analyzed in the Internet Appendix.14 A tendency to
+interact with similar others is called homophily.15 Here, homophily by signal
+count causes the number of signals possessed by each agent to double with
+each meeting.
+After percolation has proceeded for some time, so that the per capita signal
+count is large, adding a bias to the agent’s entire batch of signals is, in a sense,
+a much stronger distortion than biasing a few signals. This raises the question of how robust the conclusions are to milder assumptions. In the Internet
+Appendix, I analyze an alternative possibility whereby at every meeting the
+sender of a batch of signals adds an additional bias of b to just one of the signals
+in this batch—single-signal transmission bias. This severely limits recursive
+amplification of bias. Almost all of the qualitative conclusions derived here apply in this setting as well (with no need for the homophily assumption), except
+that booms and busts are no longer of potentially unlimited magnitude.16
+The Information in Private and Public Signals
+Let nis be the running total number of private signals possessed by agent i
+at date s about the value of the action, X, 0 ≤ s < T , where ni0 = 1 for all i. Let
+Si j denote the value of the j th signal about X obtained by agent i through date
+s, exclusive of any biases that are added to signals during the sharing process,
+j = 1, . . . , nis . Let Sbi j be the signal inclusive of biases.
+Let nis be the number of signals that agent i obtains about X conditional
+upon i having a meeting at date s. For s ∈ (0, T ), the average signal value,
+14 The Internet Appendix is available in the online version of this article on The Journal of
+Finance website.
+15 Cujean (2020) also models homophily in information percolation and securities trading.
+16 A technical advantage of either the homophily assumption or single-signal transmission bias
+is that the number of biases that an agent has is a single-valued function of the number of signals.
+This reduces the dimensionality of the evolution of signals and biases. With regard to recursive
+amplification of bias, an interesting further direction would be to model an intermediate case in
+which the compounding of b-bias per signal in the population is concave, but is not bounded above
+at one bias per signal. This would still allow for “beyond all reason” bubbles.
+
+1794
+
+The Journal of FinanceR
+
+inclusive of biases, obtained by receiver i about X in a meeting at date s, if such
+a meeting occurs, suppressing s subscripts, is
+n
+1  b,i,k+ni−
+Y ≡
+S
+,
+ni
+i
+
+i
+
+(4)
+
+k=1
+
+where the “−” subscript denotes the number of signals possessed the instant
+(in a limiting sense) before the meeting at date s. Let the debiased mean of the
+signal batch be denoted by Y i (b = 0). With Gaussian distributions, a sufficient
+statistic for the information in a batch of signals acquired in a meeting is the
+total number of signals and their debiased mean, ( ni , Y i (b = 0)).
+I denote the average of the private signals accumulated by agent i through
+date s, inclusive of biases, as
+i
+Ys
+
+=
+
+nis
+bi j
+j=1 S
+nis
+
+.
+
+(5)
+
+The precision-weighted average of the public signals through discrete date t
+is
+Zt ≡
+
+t
+P P
+r=0 τr Sr
+t
+P
+r=0 τr
+
+.
+
+(6)
+
+For continuous date s, equation (6) holds with t replaced by s on the left-hand
+side (LHS) and by s on the right-hand side (RHS).
+C. Population Dynamics of Signal and Bias Counts
+Owing to the continuum of agents assumption, as in previous percolation
+models, the probability that a given agent’s meeting lineage ever overlaps with
+that of another given agent is zero. This allows a law of large numbers to be
+applied to matching outcomes (see Duffie and Sun (2007)).
+Let μs (n) and μsR(n), respectively, be the perceived and actual cross-sectional
+distribution of agents at date s who possess n private signals about the payoff,
+where the R superscript denotes a rational perception. The Poisson arrival rate
+for meetings is η > 0, but agents perceive this to be κη, where κ > 0, with an
+emphasis on the case κ ≤ 1. Owing to the perfect homophily assumption, the
+support of μs (n) is {n : n = 2k, k ∈ N0 }.
+Let the perceived and actual per capita number of signals in the population
+at date s be
+φs ≡
+
+∞
+
+
+nμs (n)
+
+n=1
+
+φsR ≡
+
+∞
+
+n=1
+
+nμsR(n),
+
+(7)
+
+Presidential Address: Social Transmission Bias
+
+1795
+
+where the R superscript (for “Rational”) highlights that an expression is based
+on a rational perception, and where μs and μsR are the perceived and actual
+distributions of agent signal counts in the population.
+To compare against the benchmark of unbiased updating, we count the
+number of biases per signal as batches get transmitted and bias accumulates. We call a signal r-biased if its value is Sk + rb = X +  k + rb, where r
+is a positive integer, and where agent k is the original holder of signal with
+value Sk.
+Let nbi
+s be the number of b biases in an agent’s signal set at date s. For
+example, if the agent has a total of one 1-biased signal and one 2-biased signal, then nbi = 1 + 2 = 3. Agent i’s number of biases per signal (the per-signal
+i
+bias count) is defined as fsbi ≡ nbi
+s /ns . Let the per-signal bias be the product
+bi
+bfs .
+Let νs (nb) be the frequency across the investor population of the number of
+biases nb possessed by investors. Let fsb be the per-signal bias count over the
+whole economy, defined as the ratio of the per capita number of signal biases
+to the per capita number of signals,
+fsb ≡
+
+∞
+nb
+
+nbνsR(nb)
+.
+φsR
+
+(8)
+
+Let Ns be the number of meetings an agent has experienced by date s. Agents
+perceive that this has a Poisson distribution, Ns ∼ Pois(ηκs), while in reality,
+κ = 1. The number of signals and the per-signal bias of an agent turns out to
+be an increasing function of the number of meetings that the agent has had.
+Based on this fact, we can also derive the population evolution of signals and
+biases as a function of time.
+PROPOSITION 1: At date s:
+(1) Agents perceive the per capita number of signals in the population to be
+φs = eηκs . The actual per capita number is eηs .
+(2) The aggregate per-signal bias count is fsb = ηs.
+(3) The perceived cross-sectional distribution for the number of signals possessed by agents in the population is
+μs (n) =
+
+(ηκs)log2 ne−ηκs
+,
+(log2 n)!
+
+(9)
+
+n ∈ {2 N } N=0,1,...∞ , where N is the number of meetings experienced by an
+agent with n signals. The actual distribution has κ = 1.
+From Proposition 1, we see that per-signal bias count increases linearly with
+time and therefore is unlimited. With recursive amplification of bias, there is
+explosive growth in the total number of biases in the population that is only
+partly offset by the exponential growth in the total number of signals.
+
+1796
+
+The Journal of FinanceR
+
+D. The Action Booms Model and b-Bias
+In the Action Booms Model, for simplicity there is no learning from observing aggregate actions or their consequences. In many applications, such as
+acquisitions, there is such observation, as reflected in models in which agents
+learn from an aggregate summary statistic of past actions (e.g., Bikhchandani,
+Hirshleifer, and Welch (1992)) or in rational expectations models in which investors learn from securities prices. The basic insights I wish to provide about
+biases in learning from aggregate consequences (κ bias effects) are captured
+in the Price Bubbles Model of Section IV.E. However, in some practical contexts aggregate consequences have low visibility or are observed very noisily,
+limiting such learning.
+D.1. Belief Updating with Learning from Private and Public Signals
+Under Gaussian updating, for a rational agent with n private signals and a
+set of public signals with total precision τ Z, the conditional precision of X is τ X +
+nτ S + τ Z. The conditional expectation of X given private signals with average
+value Y and public signals with average value Z places weights in proportion
+to the relative precisions of these signals. These precisions are identical for
+a biased agent and for a rational observer. So the signal weights, written as
+functions of dummy inputs, are
+
+λ X(n, τ S , τ X, τ Z) ≡
+
+τX
+τ X + nτ S + τ Z
+
+λ P (n, τ S , τ X, τ Z) ≡
+
+τZ
+τ X + nτ S + τ Z
+
+λ S (n, τ S , τ X, τ Z) ≡
+
+τX
+
+nτ S
+.
++ nτ S + τ Z
+
+(10)
+
+Everyone correctly understands that these are the weights that everyone uses
+to form their updates. When applied to a biased or unbiased average of signals,
+these weights generate a biased or rational expectation of the fundamental.
+Let Y be the agent’s average private signal inclusive of biases. Since the agent
+believes these biases are zero, the agent believes the expected fundamental
+to be
+ 
+
+B
+E X|Y , n; Z, τ Z =
+
+
+
+
+
+
+τX
+nτ S
+τZ
+X
++
+Y
++
+Z,
+τ X + nτ S + τ Z
+τ X + nτ S + τ Z
+τ X + nτ S + τ Z
+
+(11)
+where B (for “bias”) denotes an equality that is incorrectly perceived by an agent
+to hold.
+
+Presidential Address: Social Transmission Bias
+
+1797
+
+D.2. Optimal Action and Aggregate Action
+The average signal error of an agent i with n private signals is
+1  ij
+ ≡
+ .
+n
+n
+
+i
+
+(12)
+
+j=1
+
+By optimal action condition (3), and suppressing s subscripts, agents perceive
+the condition for an optimum to be
+γ τ X + nτ S + τ Z
+
+−1
+
+
+θ i = E X|
+B
+
+i
+
+
+
+−v
+i
+
+= λ X X + λS Y + λ P Z − v
+
+
+
+
+τX
+nτ S
+B
+=
+X+
+τ X + nτ S + τ Z
+τ X + nτ S + τ Z
+
+X + i
+  
+perceived unbiased
+
+
++
+
+
+
+τX
+
+τZ
+Z − v.
++ nτ S + τ Z
+
+(13)
+
+Since the signals that agents obtain are biased, their optimized positions actually satisfy
+
+
+
+
+−1
+τX
+nτ S
+X +  i + bf bi
+θi =
+X
++
+γ τ X + nτ S + τ Z
+τ X + nτ S + τ Z
+τ X + nτ S + τ Z 
+
+
+
++
+
+
+
+τ
+Z − v.
+τ X + nτ S + τ Z
+Z
+
+biased
+
+(14)
+
+Solving for agent i’s actual position gives
+θi =
+
+τ X(X − v) + nτ S X +  i + bf bi − v + τ Z(Z − v)
+.
+γ
+
+(15)
+
+So b bias boosts optimism and action (when b > 0) as reflected in the per-signal
+bias bf bi , which grows recursively as increasingly biased signals are exchanged.
+Aggregating across agents in the population gives the true aggregate action.
+PROPOSITION 2: In the Action Booms Model, the aggregate action s satisfies
+s =
+
+τ X(X − v) + φsRτ S X + bfsb − v + τsZ(Zs − v)
+.
+γ
+
+(16)
+
+Taking the expectation gives the expected aggregate action path conditional
+on b,
+E R[s |b] =
+
+(τ X + τsZ + φsRτ S )(X − v) + φsRτ S bfsb
+,
+γ
+
+(17)
+
+The Journal of FinanceR
+
+1798
+
+where X − v > 0. This depends on the actual per capita signal count φsR, not on
+the perceived count φs as biased by κ. Since there is no observation of, nor learning from, aggregate consequences in the Action Booms Model, misperception of
+the meeting rate has no effect on beliefs andoutcomes.
+When b > 0, social interaction drives overoptimism, and when b < 0, it
+drives overpessimism. Since these effects derive from social interaction, a
+testable implication is that more social agents are especially prone to bubble
+exuberance.
+PROPOSITION 3: In the Action Booms Model, consider a deviant agent i who is
+more sociable than others, that is, has a meeting rate η > η. Then if b > 0,
+agent i’s action is on average above the per capita action, E R[θsi |b] > E R[s |b].
+The reverse is the case if b < 0.
+Since action can positively or negatively boom even under full rationality,
+I focus on the percentage deviation of the expected aggregate action from the
+rational benchmark. This benchmark is the expected aggregate action if there
+were no transmission bias, b = 0 in (17). So the excess action is
+s (b) ≡
+
+φsRτ S bfsb
+E R[s |b] − E R[s |b = 0]
+=
+.
+R
+E [s |b = 0]
+(τ X + φsRτ S + τsZ)(X − v)
+
+(18)
+
+To describe this action path, I substitute the percolation dynamics for the
+number of signals and the per-signal bias count into (16) through (18). Substituting for φsR and fsb from Proposition 1 and for τsZ from (1) gives
+s (b) =
+
+eηs τ S bηs
+(τ X + eηs τ S + eζ s τ P )(X − v)
+
+.
+
+(19)
+
+To build intuition about the excess action path, suppose that public news
+arrives continuously. Then relative to (19), the jumps in precision are smoothed
+away, with public precision path τsZ = eζ s τ P replaced by
+τ̂sZ ≡ eζ (s−0.5) τ P .
+
+(20)
+
+A steady contributor to action booms here is the linear increase in per-signal
+bias as a function of time (Proposition 1). So focusing on the b > 0 case, the
+average bias in expectations can become arbitrarily large until opposed by
+some countervailing force. Here that force is an initially slow but accelerating rise in total public signal precision. Growth in per-signal bias affects
+beliefs and actions slowly at first, because with only a few signals, updating
+is weak relative to the prior. Updating then accelerates, owing to exponential growth in the per capita number of signals, φs . Together with rising persignal bias, there can be, for a time, explosive growth in overoptimism and
+action.
+If public signal precision takes long enough to have substantial force, action boom expectations about the fundamental come close to asymptoting to a
+
+Presidential Address: Social Transmission Bias
+
+1799
+
+positively sloped straight line. This line reflects the linear increase in per-signal
+bias. With enough signals, the prior is swamped—expectations are dominated
+by the average of the biased private signals. Even a large increase in the number of signals no longer causes much further updating per se. Rather, further
+updating comes mainly from the rising per-signal bias.
+Eventually, public signals, as reflected in Z, force correction, owing to the
+assumed exponential growth rate (with high enough exponent) in public signal
+precision τ Z. So there is a boom and bust in the excess expected aggregate
+action s .
+In the benchmark, for comparison, as s grows, there would be a rational
+positive (if X > v) or negative (if X < v) boom even when b = 0. The b bias
+induces large temporary swings away from this rational path. In summary,
+when b > 0 the trajectory of the excess action is hump-shaped, and when b < 0
+it is U -shaped.
+What about the unsmoothed excess action path? Since public information
+actually arrives discretely, the excess action path oscillates. Intuitively, when
+b > 0, at each date t on the lattice t = 1, 2, . . . , T − 1, the public signal on
+average partly corrects overoptimism, so that the aggregate excess expected
+action drops discretely. Percolation then on average causes the aggregate action
+to recover until the next lattice date arrives.
+The Internet Appendix provides a figure describing the excess action in the
+Action Booms Model. As in Figure 3 for the Price Bubbles Model, the amplitude of oscillations is very strong near the peak, as the boom loses impetus.
+Intuitively, for a boom to grow quickly, the expected decreases in excess action coming from public news arrival dates need to be small relative to the
+percolation-driven expected increases. For a boom to reach its peak, the drops
+deriving from public news arrival must grow to be comparable in size to the
+biased-percolation-driven increases, implying large zigzags. As in Figure 3,
+vigorous oscillation can persist until the accumulated precision of public information starts to overwhelm biased percolation. As this occurs, the percolationdriven recoveries are dampened. This stabilizes the excess action path closer
+and closer to zero in the terminal phase of the action boom. I call this pattern
+peak oscillation. (It is equally “trough oscillation,” since it occurs in mirror
+reflection near the trough of a negative boom, b < 0). It would be valuable to
+test empirically the prediction that action booms are characterized by peak
+oscillation.
+
+E. The Price Bubbles Model and κ Bias
+Suppose next that there is a centralized asset market with supply noise,
+and that investors draw biased inferences from market price. If investors underestimate (for example) the extent to which other agents meet and share
+private information—κ bias—they will underestimate the informativeness of
+the market price, which encourages excessive trading. There is also an interplay between b bias, trading, and mispricing.
+
+1800
+
+The Journal of FinanceR
+E.1. Belief Updating with Mislearning from Price
+
+Let aggregate supply of a risky asset be distributed normally,
+
+
+1
+ ∼ N ,  ,
+τ
+with precision τ  . Unlike the Action Booms Model,  is time-independent.
+Without loss of generality, for algebraic convenience I now set X = 0.
+Suppose that at each date agents forget the past history of prices, and form
+beliefs based solely on the current price (together with the full history of private
+and other public signals).17 Together with myopic optimization, this implies
+that at each date we can solve for a two-date trading equilibrium. It is standard
+in rational expectations models to conjecture and verify an equilibrium price
+function that is linear in the fundamental and the supply noise. In my setting
+price also depends on the average public signal and on the per-signal bias, bfsb:
+vs = αsRX X + αsRP Zs + αsR  + αsRbbfsb.
+
+(21)
+
+Here R indicates that this is the pricing function from the viewpoint of a rational observer. Since agents in the model are unaware of b bias, their perceived
+pricing function is
+B
+
+vs = αsX X + αsP Zs + αs ,
+
+(22)
+
+where the values of these alphas differ from the values of the corresponding
+rational alphas in (21).
+I define the normalized price signal as
+ P
+ 
+vs
+αs
+αs
+B
+,
+(23)
+ξs ≡ X −
+Zs = X +
+X
+αs
+αs
+αsX
+where the second equality in (23) is perceived by investors to hold based on
+the incorrect pricing coefficients of (22). Conditional on X, agents mistakenly
+perceive that
+  2 
+1
+αs
+B
+ξs ∼ N X,
+,
+(24)
+X
+αs
+τ
+so agents view ξ as another signal of the form “X plus independent noise.”
+By normality, the perceived variance of the fundamental, X, conditional on
+observing n private signals with precision τ S , public signals with total precision
+τ Z, and the normalized price signal with precision τ ξ is
+o(n, τ S , τ X, τ Z, τ ξ ) ≡ τ X + nτ S + τ Z + τ ξ
+
+−1
+
+,
+
+(25)
+
+where the actual precision of the normalized price τ Rξ = τ ξ .
+17
+
+Though unrealistic, the forgetting assumption suffices to illustrate some basic concepts simply.
+
+Presidential Address: Social Transmission Bias
+
+1801
+
+By normality and the equilibrium price conjecture, an investor who updates
+based on n private signals about X with average value Y , public signals with
+average value Z, and one normalized price signal ξs weights these signals by
+their perceived relative precisions. These precisions are assessed without bias,
+except for that of the price signal. I omit the s subscripts and view these weights
+as functions of dummy inputs:
+λ P (n, τ S , τ X, τ Z) ≡
+
+λ S (n, τ S , τ X, τ Z) ≡
+
+ξ
+
+λ (n, τ , τ , τ ) ≡
+S
+
+X
+
+Z
+
+τZ
+τ X + nτ S + τ Z +
+
+αX
+α
+
+2
+
+αX
+α
+
+2
+
+αX
+α
+
+2
+
+τ
+
+nτ S
+τ X + nτ S + τ Z +
+αX
+α
+
+2
+
+τ
+
+τ
+
+τ X + nτ S + τ Z +
+
+τ
+
+.
+
+(26)
+
+These coefficients depend on time through their dependence on n and τ Z.
+The above weights give an agent’s biased conditional expectation of the fundamental. Agents mistakenly assess the conditional expectation of X to be
+
+
+B
+(27)
+E X|Y , n; Z, τ Z; v = λ S (·)Y + λ P (·)Z + λξ (·)ξ.
+Everyone correctly understands the weights that are used by everyone else to
+update their beliefs given signals and price. Substituting agents’ equilibrium
+price conjecture (22) into (26) and (27) gives their perception of how beliefs
+depend on fundamentals X, supply shock , and signal realizations.
+E.2. Optimal Positions and Market Clearing
+To pin down the equilibrium pricing parameters, I solve for optimal positions
+and impose market clearing. I first use these conditions to derive the perceived
+pricing function, which is only perceived by agents to be self-confirming. I
+then derive the actual pricing function, which is actually self-confirming given
+agents’ misperceptions.
+E.3. Agents’ perceived pricing function
+Since investors think they are in a rational expectations setting, we can solve
+for their perceived self-confirming expectations in a standard way. Investors’
+expectations can be substituted into the investor optimality condition (3), together with the perceived conditional precision of the fundamental from (25).
+Integrating over investors (based on their perceptions of the distribution across
+the investor population of the number of private signals), the market-clearing
+
+The Journal of FinanceR
+
+1802
+
+condition for the asset pins down the coefficients of the perceived pricing
+function.
+PROPOSITION 4: In the Price Bubbles Model, the coefficients on the fundamental,
+the supply noise, and the public signal in the agents’ perceived equilibrium
+pricing function (22) are
+αsX =
+
+φs τ S (γ 2 + φs τ S τ  )
+(φs τ S )2 τ  + γ 2 τ X + φs τ S + τsZ
+γ (γ 2 + φs τ S τ  )
+(φs τ S )2 τ  + γ 2 τ X + φs τ S + τsZ
+
+(29)
+
+γ 2 τsZ
+.
+(φs τ S )2 τ  + γ 2 τ X + φs τ S + τsZ
+
+(30)
+
+αs = −
+
+αsP =
+
+(28)
+
+The pricing coefficients are time-dependent, since the per capita signal count,
+φs , and the public signal precision, τsZ as given in (1), are increasing with
+time. The market-clearing condition aggregates over investors, as their firstorder conditions are linear in their numbers of private signals (see the proof of
+Proposition 4). So by market clearing, the price coefficients are functions of the
+per capita signal count in the population, φs .
+E.4. Actual Trading and Equilibrium Prices
+The perceived α coefficients describing the dependence of price vs on state
+variables are incorrect. To pin down the coefficients of the true pricing function
+as given in (21), I again impose market clearing. The solution procedure takes
+into account the fact that investors’ optimized positions reflect their incorrect
+perceptions of several variables and the parameters of the pricing function.
+So in using the first-order condition for optimal investor trades, we must not
+replace the subjective α’s with the correct ones. We must substitute out for market price in (A9) using the true pricing function in (21). We must also replace
+the mistaken perception of each agent’s average private signal value, X +  is ,
+i
+
+with its true value Y s = X +  is + bfsbi . Also, when κ = 1, agents’ perceived aggregate signal count differs from the actual, as the agents misestimate the
+meeting rate.
+PROPOSITION 5: In the Price Bubbles Model, the market price in (21) is
+vs (X, Zs , , b) =
+
+τsZγ 2 Zs + (γ 2 + φs τ S τ  )[φsRτ S (X + bfsb) − γ ]
+,
+γ 2 (τ X + φsRτ S + τsZ) + φs φsR(τ S )2 τ 
+
+(31)
+
+where the coefficients on X, bfsb, Zs , and  are the α coefficients in the true
+equilibrium pricing function (21).
+
+Presidential Address: Social Transmission Bias
+
+1803
+
+Equating the corresponding coefficients in (31) and the equilibrium pricing
+function (21) gives the true equilibrium pricing function in terms of exogenous
+parameters and the perceived and actual per capita signal counts φs and φsR.
+Taking ratios of the corresponding alpha coefficients α R/α, true versus as perceived by agents in the model, reveals that if κ < 1, the true coefficients place
+greater weight on X and lower weight on the average public signal, Zs , and .
+Owing to κ bias, agents underestimate how much information about X is impounded into price, and correspondingly overestimate the dependence of price
+on public signal noise and on the supply shock.
+PROPOSITION 6: In the Price Bubbles Model, if κ < 1, then αsRX > αsX, αsRP < αsP ,
+and αsR < αs for all 0 < s < T . If κ > 1, the inequalities are reversed.
+E.5. Bubble Price Dynamics
+The biased percolation model captures several features of asset market trading, mispricing, and bubble episodes.
+Bubble Phases
+Market price is stochastic owing to supply shocks and the randomness of the
+public signal realizations. Taking the expectation of (31) conditional upon b,
+the true expected price dynamic is
+E R[vs |b] =
+
+(γ 2 + φs τ S τ  )φsRτ S bfsb
+.
+γ 2 (τ X + φsRτ S + τsZ) + φs φsR(τ S )2 τ 
+
+(32)
+
+The per capita number of signals is a determinant of the market price (see
+also Andrei and Cujean (2017), Cujean (2020)). The biased percolation process
+determines the increase over time in signal counts φsR and φsR and in per-signal
+bias bfsb in (32).
+Over time, percolation shifts the distribution toward higher per capita signal counts, both perceived and actual, φs and φsR, in the sense of First-Order
+Stochastic Dominance. Intuitively, when b > 0, higher φsR increases the market
+price, because a larger number of signals, as reflected in φsR, causes stronger
+impounding of the growing per-signal bias, as reflected in fsb, into price. This
+amplification of bias over time is reflected in the b term in the numerator.
+It is evident that expected price is increasing with the size of the bias, b.
+Indeed, when b = 0 the expected price is zero, so unconditionally, κ bias does
+not induce price bubbles on average. For b > 0, it is evident that expected price
+is at first increasing with time, since v0 = 0, whereas E R[vs |b] > 0 when s > 0
+(since φs , φsR, fsb > 0 when s > 0).
+Focusing on b > 0, to describe the curvature of the expected price path, consider the smoothed version of the path of public signal precision as in (20).
+Under appropriate parameter values, as depicted in Figure 3, the expected
+price dynamic in (32) has four phases, as described earlier, though of course realizations are very different from expectations. If, as is realistic for many asset
+
+1804
+
+The Journal of FinanceR
+
+markets, there are costs associated with or constraints on short-selling, positive
+bubbles (the b > 0 case) will tend to be more pronounced than negative ones.
+What causes the rise and fall in expected price? During the inception phase,
+recursive amplification of bias causes growth in expected price to accelerate.
+To build intuition from equation (32), first treat τsZ as approximately constant.
+The slow initial growth in expected price is reflected in the numerator by the
+fact that in the term in parentheses, φs τ S τ  is at first small relative to γ 2 ,
+so that there is only a modest effect of an increase in φs on the overall ratio
+(bearing in mind that the coefficient on this term and the denominator are also
+increasing with time). As φs grows exponentially, its effect intensifies.
+As s grows (still treating τsZ as approximately constant), the terms in the
+numerator and denominator containing the product φsRφs in (32) dominate.
+This reflects a high degree of certainty of investors who have accumulated
+many private signals, which leads them to incorporate per-signal bias bfsb
+almost completely into price. Owing to biased information percolation, this is
+linearly increasing with time (Proposition 1, Part 2). So the expected price is
+convex at first, but this acceleration ends eventually. Indeed, since τsZ grows
+exponentially (with a sufficiently high exponent), public information arrival
+eventually overwhelms mispricing and correction ensues.
+Ceteris paribus, higher κ (meaning lower κ bias) increases perceived per
+capita signal count φs . The partial derivative of the RHS of equation (32) with
+respect to φs is negative, so greater κ tends to attenuate (but cannot eliminate)
+the price effects of b bias. When κ is higher (lower κ bias), investors think price
+is more informative, so their trades weight their private signals less. So price
+reflects less b bias, reducing the bubble.
+Market Reactions to Public News Events
+Owing to mispricing, during bubbles the returns on the dates of foreseeable
+news arrival are predictable, even without conditioning on the value of the
+event realization.
+PROPOSITION 7: In the Price Bubbles Model, when b > 0, on average the price
+drops discretely when the date-t public signal arrives, t ≥ 1. The opposite is the
+case when b < 0.
+Intuitively, b > 0 on average temporarily results in growing overpricing over
+time as signals are shared with bias. Public news arrival partly corrects overpricing at each date. When b < 0, public news partly corrects underpricing.
+(The b > 0 implication would be modified if there were a positive expected supply of the asset, which would incrementally induce a positive announcement
+date risk premium.) To empirically test these predictions, the sign of b, that
+is, whether the asset is in an upward or downward bubble, can be proxied by
+price run-ups or run-downs not justified by fundamentals, that is, run-ups in
+value proxies.
+This return predictability does not derive from a general propensity to misinterpret value-relevant information signals, as in models of investor overconfidence or limited attention (Hirshleifer and Teoh (2003), Peng and Xiong (2006)).
+
+Presidential Address: Social Transmission Bias
+
+1805
+
+This predictability instead derives from investor misunderstanding of the social transmission process. This is also true of the return anomaly predictions
+of Section IV.E.6.
+When b > 0, the price drops in the model suggest that there is some truth
+to the Wall Street adage, “Buy on the rumor, sell on the news.” This reflects
+the idea that favorable rumors about a stock cause its price to rise, but that
+when reliable information arrives it tends to disconfirm the rumor, correcting
+price downward. Aboody, Lehavy, and Trueman (2010) provide evidence suggesting that earnings news has a downward corrective effect on stocks that
+have experienced run-ups.18
+Peak Oscillation and Dead Cat Bounce
+As illustrated in Figure 3, the model can generate predictable oscillations
+that, on average, intensify near the peak of the bubble and augur its collapse.
+There is a natural tottering of market valuations at the peak of a bubble before
+corrective forces come to dominate. Even in the terminal phase of the bubble,
+there is zigzagging, albeit less extreme, along the journey to zero—“dead cat
+bounce.”
+Intuitively, as discussed earlier, in the inception phase of the bubble, there
+is accelerating expected price growth. In the limit as time becomes large, if
+there were no public information arrival, the system would asymptote toward
+an increasing straight line. That line reflects certainty on the part of investors,
+based on sharing many signals, that the value of the fundamental is X + bfsb,
+the sum of the true fundamental and the per capita per-signal bias. Expected
+valuations would in principle increase without limit.
+Public signals arrive with exponentially growing precision. If, as I assume,
+the growth rate for public precision is high enough, investors’ optimistic faith in
+their biased private information is eventually challenged. There is, on average,
+a price drop on each discrete news arrival date, followed by recovery toward
+the peak owing to biased percolation and new meetings. As public information
+becomes more conclusive, the recovery curves successively flatten and the bubble collapses. The bubbly effects of biased percolation never completely vanish,
+however, so diminishing oscillations continue along the expected price path as
+it approaches zero.
+Trading Statics and Dynamics
+Both κ bias and b bias introduce irrational motives for trading. This provides
+a new perspective on empirical findings that investors trade actively and lose
+money thereby (Barber and Odean (2000)). Even when there is no direct behavioral bias, such as overconfidence, “for” excessive trading, social processes
+can attract investors to this behavior (see also Fable 2).
+18 These authors find that on average price rises in the lead-up to earnings announcement
+dates and drops immediately following them, after conditioning on longer term past price runups. Average run-ups are indeed a feature of the b > 0 case, which precedes a more rapid run-up
+near the public news event and subsequent reversal. However, the walkdown by analysts toward
+beatable forecasts also induces other return patterns over the earnings cycle (Richardson, Teoh,
+and Wysocki (2004), Linnainmaa and Zhang (2019)).
+
+1806
+
+The Journal of FinanceR
+
+If κ < 1 (my focal case), investors underestimate the per capita number of
+private signals, φs , that are reflected in price. This results in underweighting of
+price in forming beliefs, which favors extreme expectations and willingness to
+take bets against the market. At date 0, there is no such underestimation since
+there have been no meetings. So underweighting of the private information in
+price becomes more severe over time. At least for a time, as a bubble grows,
+speculative trading increases. Eventually, the bubble corrects and disagreement dissipates. So eventually speculative investor trading declines toward
+zero, and investors just absorb the supply shock.
+The underweighting of the information in market price is akin to cursedness
+as in Eyster, Rabin, and Vayanos (2018), that is, investor neglect of the extent
+to which the actions of others reflect private information. Here the underweighting of others’ information is endogenous. Investors underestimate how
+informative price is because they do not realize how often others are meeting
+to exchange signals. The model therefore describes the conditions under which
+people impute too little information into price versus too much (which would
+occur when the meeting rate is overestimated, κ > 1). Furthermore, the biased
+percolation approach suggests that such effects are modulated by the other
+parameters of the social interaction process, such as the intensity of social
+interaction (as reflected in the meeting rate η).
+The b bias further contributes to investor disagreement. Over time there
+is a tendency for signal counts nis and per-signal biases bfsbi to become more
+dispersed as investors randomly experience different meetings and acquire different numbers of private signals. This is reflected in the true cross-population
+signal count distribution (with κ = 1) in equation (9). By part 3 of Proposition 1,
+the distribution of the number of meetings N across investors is Pois(ηs), so
+the mean and variance are proportional to time, s. So a higher s also tends to
+spread the distribution of the number of signals, n = 2 N .
+Greater dispersion across investors in their signal counts also tends to
+increase the cross-investor dispersion in per-signal bias, since an investor’s
+per-signal bias is linearly increasing in the investor’s signal count (Proposition 1). As dispersion in per-signal bias accumulates, highly biased investors
+are motivated to buy (if, e.g., b > 0) from low-bias investors. Furthermore,
+the growing number of signals over time increases an investor’s confidence in
+the investor’s (biased) average signal value, further encouraging speculative
+trading.
+However, owing to public news arrival and the impounding of private information into market price, eventually disagreement must decline. So eventually,
+as the bubble loses impetus, open interest and trading volume decline. Accordingly, there is a rise-and-fall path for trading in a bubble analogous to the path
+for expected price. An interesting further direction would be to develop and
+contrast the implications for volume and price volatility of the biased information percolation approach to dynamic models of asymmetric information under
+rational updating (He and Wang (1995)).
+
+Presidential Address: Social Transmission Bias
+
+1807
+
+E.6. Return Anomalies
+Biased information percolation induces other patterns of abnormal return
+predictability, trading, and expectations based on both public news events and
+past returns.
+Event-Based Return Predictability
+Public news events positively predict future abnormal security returns. At
+the discrete arrival date t of a public signal, when b > 0, the stock is on average
+overpriced and the public news tends to correct it downward (Proposition 7).
+But on average the correction is only partial, resulting in a negative postevent
+long-run expected return. Symmetrically, when b < 0, on average the public
+news exceeds expectations and is followed by a positive postevent expected
+return. I describe this effect in terms of price reactions. Let the event-date
+price change be vt ≡ vt − vt− , where t− denotes a time just before date t.
+PROPOSITION 8: Conditional on b, after the arrival of the date-t public signal, the
+sign of the expected postevent price change through the terminal date T is the
+same as the sign of the expected event-date price reaction, Sign(E R[X − vt |b]) =
+Sign(E R[ vt |b]). Both expectations are negatively proportional to b.
+This implication of long-horizon return continuation after public corporate
+news events—that is, that when b > 0, on average the price falls on the event
+date and then has long-horizon downward drift, whereas when b < 0, on average the price jumps on the event date and has a long-run upward return
+drift—is consistent with the new issues puzzle (Loughran and Ritter (1995))
+and the repurchase anomaly (Ikenberry, Lakonishok, and Vermaelen (1995,
+2000)). These effects may be reinforced if, as evidence suggests, firms deliberately take informative actions in response to preexisting mispricing (Dong,
+Hirshleifer, and Teoh (2012)), as reflected in b here.
+The model further predicts that short-horizon postevent drift varies conditionally depending on the phase of the bubble. For example, when b > 0, during
+the bubble upswing a public news event is met on average with a price drop,
+but is followed on average by price increases through the peak of the bubble
+before eventual correction.
+So an untested implication here is that conditional on being in a bubble
+upswing, postearnings announcement drift (PEAD) is reversed (i.e., there is
+postearnings announcement reversal), and that PEAD is especially strong during the downward correction phase.
+Arguably, firms will time IPOs when b > 0 and during the inception or boom
+phases rather than the correction or terminal phases (“striking while the iron
+is hot” to ensure a successful offering). So it is intriguing that after IPOs we
+observe on average positive mean abnormal returns for several quarters before
+the eventual long-run underperformance (Ritter and Welch (2002)).
+The return predictability pattern is subtler during the correction phase of
+a bubble. When b > 0, between the price drops on discrete public news dates,
+percolation still promotes price increases. So there can still be reversal at very
+
+1808
+
+The Journal of FinanceR
+
+short horizons. However, returns over an only moderately short horizon—one
+that is long enough to include the next discrete news arrival date and the
+associated price drop—will exhibit postevent downward correction.
+We have seen that since higher b induces preevent overvaluation, on average
+it induces a lower (less positive or more negative) event-date price reaction and
+postevent price drift. This suggests that when we do not condition on b, its
+variability induces comovement between event-date corrective price reactions
+and subsequent corrective drift. For simplicity, I show this for public news at
+date 1.
+PROPOSITION 9: Consider a random sample of public news events in which different possible realizations of b are possible. If V(b) is sufficiently large, there is
+long-horizon return continuation after public news events, cov R( vt , X − vt ) > 0.
+Proposition 9 is consistent with PEAD, the tendency for earnings surprises
+to positively predict future returns up to three quarters forward, with the
+surprise measured by the market return reaction on the announcement date
+(or by earnings relative to analyst forecasts, which is highly correlated).
+Turning to postevent drift over a short horizon, the next proposition relies
+on public announcements occurring at regular intervals, as with quarterly
+earnings announcements.
+PROPOSITION 10: Conditional on b, in a sample of public announcements randomly selected from among the announcements at dates t = 1, . . . , T − 1, on average there is short-horizon price change continuation, Sign(E R[vt+1 − vt |b]) =
+Sign(E R[ vt |b]). Both expectations are negatively proportional to b.
+A favorable earnings surprise is associated with high profits, since the current earnings level includes its latest change. So the sluggish response to earnings news in the model is also consistent with the profitability anomaly—
+the finding that profits are a positive predictor of future abnormal returns
+(Novy-Marx (2013), Wahal (2019))—and with evidence that the profitability
+anomaly is associated with sluggish updating in expectations of fundamentals
+(Bouchaud et al. (2019)).
+Serial Correlation of Returns
+The average price trajectories after b > 0, as in Figure 3, or b < 0, are reminiscent of the hump-shaped and U-shaped impulse response functions that
+can generate momentum and reversal in behavioral models (see, e.g., figure 1
+of Daniel, Hirshleifer, and Subrahmanyam (1998)). Intuitively, conditional on
+b, the shapes of the expected price paths suggest that at short horizons high
+returns tend to be followed by high returns while low returns tend to be followed by low returns, that is, there is momentum. In contrast, with long lags,
+positive price changes during the boom phase tend to be followed by negative
+price changes during the correction (in the hump-shaped case), while negative
+price changes tend to be followed by positive ones (in the U-shaped case).
+The randomness of b tends to further promote positive autocorrelation at
+short lags and negative autocorrelation at long lags. By (31), a higher positive
+
+Presidential Address: Social Transmission Bias
+
+1809
+
+value of b, for given realizations of other random variables, increases the date 0
+to 1 price change, since fsb increases from zero to a positive quantity. During the
+early phase of the bubble, a similar effect promotes successive price increases at
+short lags, which contributes positively to positive autocorrelation. Similarly,
+during bubble correction, a higher positive value of b promotes successive price
+decreases at short lags. As time increases and public precision grows, the
+γ 2 τsZ term in the denominator discounts the b term more heavily. This also
+contributes to positive autocorrelation. Similar points apply to lower negative
+values of b during negative bubbles.
+Similar reasoning further suggests that b realizations have opposite effects
+on price changes separated by long lags that cross between the upswing and
+the downswing of the bubble. This suggests that randomness of b contributes
+negatively to long-lag return autocorrelation.19 I formally verify the contribution of b to short-lag momentum, where for simplicity I assume that public
+information arrives smoothly.20
+PROPOSITION 11: Suppose that public information arrives smoothly, such that
+precision satisfies τ̂sZ ≡ eζ (s−0.5) τ P , s ∈ [0, T ), and V(b) is sufficiently large. Then
+at a sufficiently short time horizon, successive price changes are positively autocorrelated.
+Without smoothing, as we have seen, there is oscillation in short-horizon
+conditional expected returns. The frequency of oscillation should depend on
+how often public news arrives (e.g., in the form of press releases, manager
+interviews, communications between investor relations staff and analysts, and
+investigative reports by financial media and commentators). So an interesting
+question for exploration is whether the model is consistent with the short-term
+reversal anomaly of Jegadeesh (1990), along with medium-term momentum
+and long-term reversal. If so, the approach may unify these seemingly disparate
+serial correlation effects.
+Several behavioral finance models offer explanations for return momentum
+and/or reversal when agents do not talk to each other (see, e.g., Barberis,
+Shleifer, and Vishny (1998), Daniel, Hirshleifer, and Subrahmanyam (1998),
+Hong and Stein (1999), and Duffie (2010)). Here, I offer a type of possible
+explanation that is seldom considered: rather than individual-level biases for
+over- or underrreaction, such as overextrapolation, overconfidence, or limited
+attention, return predictability derives from biases in the social transmission
+process.
+The social nature of this explanation implies that return predictability depends on features of the social interaction process, such as how heavily in19 Andrei and Cujean (2017) derive momentum and reversal in a fully rational information percolation setting. The imperfectly rational approach considered here addresses return predictability
+as an anomaly, in the sense of generating Sharpe ratios that are extreme relative to a rational
+assessment of risk. Biased percolation offers a new explanation for this quantitative puzzle.
+20 For simplicity, Proposition 11 is premised on public information arriving smoothly in continuous time. Conjecturally, this is much like assuming that the time horizon for the price-change
+autocorrelation, while short, is not too short.
+
+1810
+
+The Journal of FinanceR
+
+vestors interact and how bias is generated in these communications. This
+suggests looking to proxies for the extent to which people communicate through
+personal meetings versus electronically, communicate in a one-to-one fashion
+versus in blogs or social media, are socially connected, and bias or censor the reports they make to others. The implication that social structure affects bubbles
+and return anomalies deserves empirical testing.
+Let the precision-weighted expectation of the fundamental in the investor
+population be defined as in equation (IA.5) in the Internet Appendix. The next
+proposition verifies that after a recent price run-up, investor expectations become more optimistic.
+PROPOSITION 12: Suppose that public information arrives smoothly, such that
+precision satisfies τ̂sZ ≡ eζ (s−0.5) τ P , s ∈ [0, T ), and V(b) is sufficiently large. Then
+at a sufficiently short time horizon, the change in the precision-weighted expectation of the fundamental X is positively correlated with the immediately
+preceding price change.
+(I am grateful to Yushui Shi for help with the proof, which is in the Internet
+Appendix.) Intuitively, the rise-and-fall pattern of expected price suggests that
+beliefs become more optimistic after price run-ups than after run-downs. Again,
+the smoothness assumption seems much like assuming that the horizon is
+short but not “too short.” Proposition 12 is consistent with the evidence that
+forecasts are positively associated with past returns (Greenwood and Shleifer
+(2014)). Here, this correlation is an emergent, noncausal effect. Agents do not
+extrapolate past returns in forming their expectations. Rather, the illusion
+of extrapolation is created by the biased percolation process. During the rise
+of a bubble, percolation on average increases prices, and investors become
+increasingly optimistic. Similarly, during the correction phase of the bubble,
+correction of overpricing on average foreshadows further downward correction
+in investor beliefs.
+This highlights one of my key themes, which I call mimicry. In general, we
+cannot infer from an individual’s behavior that there is a direct bias “for” that
+behavior. Social transmission bias generates emergent outcomes that can look
+very similar to direct individual-level behavioral biases.
+F. Caveats and Extensions of Fable 4
+We have seen that biased information percolation offers an explanation for
+a wide set of trading and return patterns that are almost always attributed
+to relatively direct psychology biases “for” certain investor beliefs and behaviors. Missing from the model are rational arbitrageurs who understand b bias
+and κ bias. As in other behavioral asset pricing models, introducing rational
+arbitrageurs would reduce but not eliminate mispricing.
+How plausible is the assumption of b bias? Why would someone add b as a
+sender, and yet, as a receiver, neglect the fact that others do so? One reason,
+as mentioned earlier, is that b-bias may be introduced unconsciously. A second
+reason is that in reality people do indeed often fail to put themselves into
+
+Presidential Address: Social Transmission Bias
+
+1811
+
+others’ shoes, that is, to think through how others use information or behave
+strategically.21
+More broadly, if b were stochastic across agents (or they think that it is),
+then knowledge that one personally has a value bi > 0 would not conclusively
+refute, in the agent’s mind, the possibility that in the population E[b j ] = 0. In
+a related vein, there are plausible errors in higher order beliefs that would
+effectively induce neglect of b bias.22
+Since even small biases in the model are amplified recursively, outcomes are
+highly sensitive to small variations in bias b, making the sign and scale of
+action booms and price bubbles hard to predict. For example, an arbitrarily
+small difference in b between positive and negative values eventually makes
+the difference between a large positive or negative bubble.
+Importantly, the conclusions of the model apply even when b is very close to
+zero. Owing to recursive amplification of bias in sequential meetings, even a
+small bias ultimately has a very large effect. The b ≈ 0 possibility also suggests
+another reason why people would ignore b, that is, act as if b = 0. A heuristic
+of ignoring parameters that are very close to zero is highly effective in many
+decision domains. So treating b = 0 may be a misapplication of a generally
+effective heuristic. Furthermore, people may be fooled by early experience,
+since, when b ≈ 0, the model implies that for a long time the behavior of the
+system will be very close to the behavior when b = 0.
+The model takes the distribution of b bias as exogenous. What causes the
+level of transmission bias to be high or low? One likely contributor is general
+public mood. Good mood tends to induce more positive evaluations and recall
+(Wright and Bower (1992)). This suggests that good mood will induce more
+positive transmission of evaluations of possible actions, such as buying an
+asset, to others as well. This argument raises the question of whether episodes
+that induce good versus bad mood, such as the United States’ defeat in the
+Vietnam War during the mid-1970s or the victory of the West in the Cold War,
+affected social transmission dynamics.
+The millennial high-tech stock market boom is consistent with a high realization of b in reporting one’s opinion about high-tech start-ups. There was
+general positive mood about a strong economy, and the world felt much safer
+to many after the end of the Cold War. In addition, there was excitement about
+the rise of the internet and a sudden increase in admiration for the being techsavvy. This episode highlights the need for empirical study of whether and how
+general mood affects transmission bias, action booms, and mispricing.
+Mood is also likely to shift endogenously during a boom period, resulting in
+positive feedback to transmission bias. Growing excitement may cause people
+to bias their signals reports favorably during the inception phase of an action
+21
+
+This is reflected in the cognitive hierarchy model in game theory (level-k thinking; see,
+Camerer, Ho, and Chong (2004)), cursed equilibrium (Eyster and Rabin (2005)), and the extensive experimental evidence that motivates these approaches.
+22 Suppose most people understand b bias, but wrongly believe that everyone does. If some fools
+fail to adjust the signals they receive downward by b > 0, the signals they pass on will be upward
+biased and such bias will be amplified through the meeting process.
+
+1812
+
+The Journal of FinanceR
+
+boom or market bubble, with downward bias during the correction phase. There
+is evidence that people tend to pass on exaggeratedly bad news when a topic
+is emotionally negative, and exaggeratedly good news when a topic is positive
+(Heath (1996)). Such behaviors may exacerbate booms and their collapse. So
+the effect of mood on social transmission deserves exploration.
+In pioneering empirical tests of the effects of investor sentiment (Lee,
+Shleifer, and Thaler (1991), Baker and Wurgler (2006, 2007)), fluctuations in
+sentiment are taken as exogenous. The shifts in optimism or pessimism about
+an asset in the Price Bubbles Model endogenize swings in investor sentiment
+as an emergent social phenomenon. Behavioral finance has offered theories of
+sentiment as a direct reflection of individual-level psychological biases. So empirical testing is needed of the effects of the conditioning variables motivated by
+the social approach to investor sentiment. These include proxies for sociability,
+network structure, and shifts in communication technologies (such as the rise
+of the internet, blogs, and social media).
+V. Fable 5: Biased Transmission of Folk Models
+My final fable is about the biased transmission of folk models. I discuss
+why folk models are important, and I briefly sketch some work-in-progress to
+suggest how contagion of economic folk models can be analyzed.
+A folk model is an understanding of how the world works—an internal
+representation of external reality.23 Examples include belief in Heaven and
+Hell, or in the payback criterion for capital budgeting. (After all, Hell is a
+kind of payback.) Distinguished scholars have argued that what I refer to
+as folk models are key drivers of human behavior. As lenses for seeing the
+world, different folk models induce different biases in the social transmission of
+information signals.
+Folk models are often shaped by vivid narratives—stories (descriptions of
+sequences of events), often with emotional and moral overtones. But folk models
+also often consist of mundane beliefs about how the world works. In either case,
+since thinking is costly and requires effort, folk models are often oversimplified
+representations of reality.
+Folk models spread from person to person through conversation, and compete
+for human attention and belief. This competition is greatest for directly conflicting folk models. For example, the folk model that holds that past returns tend
+to continue (“the trend is your friend”) is opposed by the folk model that holds
+that they tend to reverse (“buy on the dips”). Shifts in the population frequencies of different folk models over time are examples of cultural evolution (see,
+23 An equivalent term from cognitive science and psychology is mental model (Craik (1943),
+Johnson (1983)). Folk economic models have been discussed under a variety of names, such as
+popular models (Shiller (1990)), mental constructs (Denzau and North (1994)), folk economics,
+models, or beliefs (Rubin (2003), Hirshleifer and Teoh (2009, 2018), Boyer and Petersen (2018)),
+mental models (Hoff and Stiglitz (2016)), and others (Rubin (2002), Caplan (2007), Hirshleifer
+(2008)).
+
+Presidential Address: Social Transmission Bias
+
+1813
+
+for example, the survey of Mesoudi, Whiten, and Laland (2006)). Behavioral finance takes extrapolative versus contrarian investor beliefs as given—perhaps
+even hard-wired. In contrast, in social finance, such beliefs spread contagiously
+and are potentially in competition.
+Several authors propose that compartmental models from epidemiology can
+capture the spread of folk models and financial behavior. In such models, an
+infection with a financial belief, such as enthusiasm for a technical strategy or
+for Bitcoin, spreads through a population over time via random contacts. Some
+versions of compartmental models, such as the SIR Model, have an epidemic
+rise-and-fall time path. So the SIR Model has been applied to help explain
+trading and price bubbles.24
+In the SIR Model, there are three types of agents: S (Susceptible), I (Infected),
+and R (Recovered/Resistant/Removed). Under appropriate parameter values,
+the fraction of I agents can rise in a bubble-like trajectory before declining
+toward zero. At the start, almost everyone is susceptible. In a random meeting,
+there is a probability that an S agent becomes infected. This probability is a
+measure of transmission bias toward infection. The infected randomly recover
+over time. Having joined the R compartment, an agent never changes again,
+so in the long run the fraction of infecteds declines to zero.
+The rise of infection is at first self-reinforcing. When the infected fraction
+increases, meetings more often include an I instead of a pair of S’s. So there
+is a convex upswing in the fraction of infected. Eventually, however, as the
+susceptible fraction declines, so does the rate of new infection. As a result,
+recovery draws the infected fraction toward zero.
+How should we adapt the compartmental approach to biased transmission of
+a novel folk model and its effects on economic behaviors? Consider a folk model
+that induces overestimation of the expected payoff (e.g., terminal dividend)
+from the relevant action, and three modifications to the SIR Model.
+First is to move from the SIR Model to the (also standard) SIRS Model,
+in which an R agent has a probability of becoming susceptible again. This
+replenishes the S compartment, so the infected fraction asymptotes toward
+a positive, endemic long-run steady state. This is often realistic. For example,
+after a religious awakening fades, the fraction of the population that is religious
+seldom declines to zero.
+Second, I introduce investors and an asset market. As in Fable 4, the model
+again has a single risky asset, a random terminal-date payoff, mean-variance
+preferences, and myopically optimal trading decisions. However, now there is
+no private information or supply noise, so (unrealistically) investor behavior
+and the price path are deterministic. Also, there are now two types of investor
+beliefs, namely, overoptimistic beliefs, which are held by the infected, and rational beliefs, which are held by the S and R agents.
+Third, I modify the transmission bias by introducing buzz, the level of excitement about the folk model. I argue that this makes the folk model more
+24
+
+See Shive (2010), Burnside, Eichenbaum, and Rebelo (2016), Shiller (2017, 2019), and Chinco
+(2019).
+
+The Journal of FinanceR
+
+1814
+0.06
+
+0.05
+
+0.04
+
+vs
+Price
+
+0.03
+
+0.02
+
+0.01
+
+0.00
+
+0
+
+2
+
+4
+
+6
+
+8
+
+Time (s)
+Figure 5. Price trajectory in SIRS model with asset market and buzz. This figure plots
+the price path over time in an SIRS model with asset market and buzz, with damped oscillations owing to overreaction and overcorrection. Effects are exacerbated by buzz, suggesting rich patterns in return autocorrelations at different lags. The figure plots the equilibrium price based on the following system of differential equations: R (s) = r I(s) − kR(s) and
+I (s) = −r I(s) + m(a + bDI (s))I(s)(1 − I(s)), where R(s) is the fraction of the population that is
+resistant at date s, r is the recovery rate, I(s) is the fraction of the population that is infected with
+the folk model, k is the rate of loss of resistance, m is the meeting frequency parameter, a is the inherent contagiousness parameter, b is buzz parameter, and D is an equilibrium pricing parameter
+that reflects agents’ risk aversion. Price is vs = DI(s) and D > 0 is a constant. Parameter values:
+a = 80, b = 5, r = 6.0, m = 0.58, k = 0.1, and D = 1. Initial conditions: I(0) = 0.001 and R(0) = 0.8.
+(Color figure can be viewed at wileyonlinelibrary.com)
+
+contagious—rapid growth in the number of adherents of a folk model generates excitement. When many people are adopting the pro-Bitcoin folk model,
+for example, others may hear that Bitcoin is “hot,” making a meeting with
+a Bitcoin enthusiast more persuasive. Letting the fraction of infected in the
+population be I, I capture buzz as proportional to the time derivative, denoted
+by İ.
+When İ < 0, there is negative buzz, which promotes recovery from the folk
+model. In the language of the SIRS Model, I am generalizing to allow the model’s
+contagion parameter to vary endogenously and to take negative values. This
+is not permitted in models of disease spread, where meetings can transmit an
+infection but cannot cure it. In contrast, it is realistic to assume that meetings
+can sometimes cure agents of belief in a folk model.
+In equilibrium, prices reflect a weighted average of the beliefs of the three
+investor types in the population. Figure 5 shows a possible price trajectory
+in my SIRS model with buzz. It shares with the standard SIRS Model the
+
+Presidential Address: Social Transmission Bias
+
+1815
+
+possibility that correction of the initial epidemic itself overshoots, resulting in
+damped oscillations. Under appropriate parameter values, there is an initial
+rise and fall in price. This is similar to some behavioral models in which a
+hump-shaped impulse response function induces return momentum at short
+lags and reversal at long lags. Trading also rises and falls with a bubble, because
+disagreement comes from the infected, whose frequency starts small, rises, and
+ends small.
+As the bubble collapses, the model implies that correction can overshoot.
+The fraction of infected declines below its long-run equilibrium value, so that
+after the crash, prices correct upward again, consistent with the evidence in
+Goetzmann and Kim (2018). As in Fable 4, there is possible dead cat bounce.
+The effect of buzz is to exaggerate the boom on way up and the collapse
+on the way down, that is, it intensifies the positive feedback feature of bubbles. The damped oscillation in stock price suggests rich patterns in return
+autocorrelations at different lags.25
+Buzz effects are somewhat akin to return extrapolation as modeled in behavioral finance (DeLong et al. (1990)), since shifts in the frequencies of types
+induce price changes. Empirically, one of the key differences is that in a social
+contagion model, the average effect of buzz on investor beliefs and trading depends on the frequencies of different investor types in the population. These
+determine the probability of a mixed meeting in which an agent can potentially
+be infected or cured.
+My main points in Fable 5 are about the general compartmental approach
+to folk models rather than the SIRS Model in particular. The SIRS Model is a
+useful example, since it is similar to the SIR Model, the compartmental model
+most familiar to economists. However, similar points can be made, for example,
+in compartmental models without resistants, and in models in which there is
+an exposed category of agents who take time before becoming infectious.
+My focus here has been on shifts in the frequencies of competing folk models.
+Ultimately, however, social economics and finance needs to analyze the content
+of folk models. Where do folk models come from, and what determines how they
+evolve, sometimes into elaborate forms? Pioneering steps along these lines have
+been taken, for example, by Bénabou and Tirole (2006, 2016) and Shiller (2017,
+2019).
+VI. Emergent Themes
+I now sum up with some themes about social transmission bias, and about
+social economics and finance, that emerge from my five fables.
+Theme 1. Compounding: Social transmission bias compounds recursively.
+25 At short horizons, price changes tend to continue, suggesting positive autocorrelation. At
+somewhat longer lags, a return on the rising side of a hump or the declining side of a trough tends
+to be paired with a return on the opposite side, which suggests reversal. At even longer lags, a
+return on the rising side of a hump or the declining side of a trough tends to be paired with a
+return in a similar position on the next hump or trough, suggesting positive autocorrelation.
+
+1816
+
+The Journal of FinanceR
+
+Small bias can therefore have large effects.
+Theme 2. Idiosyncrasy: Social transmission bias helps explain the idiosyncrasy of aggregate outcomes—why they are often error-prone and
+unpredictable.
+This derives from the sensitivity of outcomes to small biases
+(Theme 1), and from external shocks that interact with these biases.
+Theme 3. Dynamics: Social transmission bias can explain action booms, price
+bubbles, and swings in investor sentiment.
+This explanation can accommodate, but does not require, standard
+ingredients for bubbles from behavioral finance, such as overconfidence and overextrapolation.
+Theme 4. Emergence: Socially emergent behavior often looks completely different from individual propensities.
+Groups of army ants form death spirals, even though individual
+ants have no propensity to walk in circles. Self-enhancing transmission is a conversational behavior, which looks nothing like the
+emergent behavior of aggressive trading. Biased reporting of signals in the biased percolation model is a conversational behavior;
+the outcome of price bubbles and collapses is very different.
+Theme 5. Mimicry: Social emergence can easily create the illusion of a direct
+individual propensity “for” a behavior when no such propensity
+exists.
+Examples include the illusory appearance of lottery preferences
+in the self-enhancing transmission model, of present-biased consumption preference in the visibility bias model, and of extrapolative beliefs in the biased percolation model.
+Owing to the possibility of illusory effects, we often overstate the
+inferences from empirical tests.
+Theme 6. Proxies: The social transmission bias approach, and social economics and finance in general, suggests new test variables for
+empirical research. The first category of test variables consists
+of general proxies for social interaction and network position.26
+The second category consists of proxies for the sources of social
+transmission bias.27
+In closing, we academics, like the turkeys marching around a dead cat, sometimes get caught in closed loops. At worst, these loops degenerate into ritualistic
+cycles. At best, they blind us to part of reality. But we humans are smarter than
+26 Such proxies include measures of sociability, communication technologies and media, individual social network position, and overall social network connectivity. Also, since both social
+interaction and stock trading are associated with spatial proximity, firm location can proxy for
+features of the relevant social network.
+27 Such proxies include individual psychological traits and communication incentives, environmental cues, the content of folk models, and the textual characteristics of folk models and
+transmitted signals.
+
+Presidential Address: Social Transmission Bias
+
+1817
+
+turkeys—though it does not always seem that way. We can break out of our
+closed loops.
+Such breakout moments are rare and precious. I believe that social economics and finance is a once-in-a-generation research opportunity. The poet
+John Keats, on experiencing a life-changing revelation, said that he felt
+. . . like some watcher of the skies
+When a new planet swims into his ken . . .
+Like that astronomer, we have a new world to explore—a new way to understand human behavior. The outline of an emerging field of inquiry is now
+discernable—social economics and finance—and some of its key building blocks:
+social networks, folk models, and, as I emphasize in this address, social transmission bias.
+
+Appendix
+This appendix provides proofs of Propositions 1 to 11. The Internet Appendix
+analyzes biased information percolation with single-signal transmission bias,
+and provides the proof of Proposition 12 and a figure illustrating the Action
+Booms model.
+Proof of Proposition 1: I use the following lemma.
+LEMMA 1: For an agent who has had Ni ≥ 0 meetings and who possesses ni
+signals, in the Full-Batch Transmission Bias regime:
+(1) The number of signals the agent possesses is a function of the number of
+meetings,
+i
+
+ni = 2 N .
+
+(A1)
+
+(2) The agent’s per-signal bias count as a function of the number of meetings
+is
+f bi =
+
+Ni
+.
+2
+
+(A2)
+
+(3) The agent’s per-signal bias count is an increasing function of the number
+of signals the agent has
+f bi =
+
+log2 ni
+.
+2
+
+(A3)
+
+Proof of Lemma 1:
+I suppress i superscripts.
+Part 1: Let B(N) be the function that gives any agent’s number of biases as a
+function of the agent’s number of meetings N, and let n(N) be the function that
+
+1818
+
+The Journal of FinanceR
+
+gives any agent’s number of signals. For N = 0, n(0) = 1 as claimed. Suppose
+as inductive hypothesis that the claim holds through some value N. Then the
+next meeting is with a partner who also has 2 N signals. So n(N + 1) = 2 N+1 .
+Thus, by induction the result holds.
+Part 2: At agent i’s N’th meeting, N ≥ 0, agent i has n(N) = 2 N signals.
+Owing to homophily, agent i is paired with another agent who has the same
+number of signals.
+Let gb(N) be the function that gives any agent’s per-signal bias as a function
+of N. After zero meetings, an agent has zero biases, so B(0) = gb(0) = 0, as
+claimed. As inductive hypothesis, suppose that for all N ≤ N, gb(N ) = N /2,
+so that the number of biases possessed by an agent with N signals satisfies
+B(N ) = 2 N −1 N . I show that these relations also hold for N + 1.
+Coming into an agent’s (N + 1)th meeting, the total number of biases possessed by the agent and by the agent’s sending partner is B(N), and the sender
+adds a new b increment to his average signal, so the receiver receives a total of
+B(N) + n(N) additional biases. As of meeting N, the receiver’s per-signal bias
+count is gb(N) ≡ B(N)/n(N). After meeting N + 1, it is
+gb(N + 1) =
+
+2B(N) + n(N)
+2n(N)
+
+= gb(N) +
+=
+
+1
+2
+
+N+1
+.
+2
+
+Furthermore, the number of biases the agent possesses is 2 N+1 gb(N + 1) =
+2 N (N + 1), as was to be proved. So the claim follows by induction.
+Part 3 follows immediately from the other parts. 
+I now apply Lemma 1 to complete the proof.
+Part 1: The perceived per capita number of signals at date s is
+B
+
+
+
+φs =
+i∈[0,1],μ
+
+=
+
+∞
+
+
+nis di
+
+μs (n(N))n(N)
+
+N=0
+
+=
+
+∞
+
+(ηκs) N e−ηκs N
+2
+N!
+
+N=0
+
+= eηκs
+
+∞
+
+(2ηκs) N e−2ηκs
+N!
+
+N=0
+
+=e
+
+ηκs
+
+,
+
+(A4)
+
+Presidential Address: Social Transmission Bias
+
+1819
+
+where the last summation is the sum of the probabilities of a Pois(2κηs) distribution. The rational assessment sets κ = 1.
+Part 2: To calculate the population-wide per-signal bias count fsb, recall that
+for an agent with Ni meetings, by Proposition 1 the number of signals is n(Ni ) =
+i
+2 N , and the per-signal bias count is gb(Ni ) = Ni /2, so the agent’s total bias
+i
+count is 2 N −1 Ni . Thus, letting nbi denote the number of biases of agent i at
+date s, the per capita average number of biases at date s is
+
+Bs ≡
+i∈[0,1]
+
+=
+
+∞
+
+
+nbi
+s di
+
+μs (ni (N))gb(N)2 N
+
+N=0
+
+=
+
+∞
+eηκs  (2ηκs) N e−2ηκs
+N
+2
+N!
+N=0
+
+=e
+
+ηκs
+
+ηκs,
+
+(A5)
+
+since the mean of Pois(2ηκs) is 2ηκs. Dividing by φs as given in Part 1 gives the
+population per-signal bias count fsb = ηκs as asserted.
+Part 3: The perceived frequency of an agent with Ni meetings by date s is
+i
+Pois(κηs). But ni = 2 N by Proposition 1 Part 1, so the result follows immediately. 
+Proof of Proposition 2: Under Gaussian updating, for an agent with n private
+signals and a set of public signals with total precision τ Z, the variance of X
+given these signals is τ X + nτ S + τ Z. The private signal errors (i.e., the  terms)
+average tozero across any infinite set of agents with a given number of signals
+n, that is, i:ni =n  i di = 0. When κ < 1, agents misperceive the per capita signal
+count to be φs instead of φsR. This derives from their mistaken belief that κ = 1.
+An agent’s per-signal bias count fsbi depends only on nis , so I denote this function
+by hb(nis ). Restoring s subscripts, integrating across agents in (15) gives
+
+s =
+
+i∈[0,1],μ R
+
+θsi di =
+
+1
+γ
+
+
+i,μ R
+
+
+
+
+τ X X + nis τ S X +  is + bfsbi + τsZ Zs − τ X + nis τ S + τsZ v di
+
+
+
+
+1
+τ X X + nτ S X +  is + bfsbi + τsZ Zs − τ X + nτ S + τsZ v di
+=
+γ n i:ni =n;μ R
+=
+
+
+1 R  S
+(τsZ Zs + τ X X)
++
+μs (n) nτ X + bhb (n) − τ X + nτ S + τsZ v
+γ
+γ n
+
+
+1 Z
+τs Zs + τ X X + τ S φsR X + bBs − τ X + φsRτ S + τsZ v
+γ
+
+1 Z
+=
+τs Zs + τ X X + φsRτ S X + bfsb − τ X + φsRτ S + τsZ v ,
+γ
+=
+
+(A6)
+
+The Journal of FinanceR
+
+1820
+
+recalling that Bs is the per capita number of biases per agent and fsb = Bs /φsR
+is the per-signal bias count. So the aggregate amount of the activity is linear
+in the product of the per capita number of signals and the per-signal bias.
+The second equation follows directly by setting b = 0, subtracting, and
+dividing. 
+Proof of Proposition 3: The agent has measure zero, and thus does not affect
+the equilibrium. The expected aggregate action is given by equation (17).
+For the deviant agent, by (15), bearing in mind the independence of the
+number of signals nis , the fundamental X, and signal noise,
+γ E R[θsi |b] = E R[τ X(X − v) + nis τ S X +  i + bfsbi − v + τ Z(Z − v)|b]
+= τ X(X − v) + τ S bE R[nis fsbi |b] + τ S E R[nis |b](X − v) + τ Z(Z − v). (A7)
+The number of signals possessed by i is greater than that of other agents in
+a first-order stochastic dominance (FOSD) sense, owing to the higher meeting
+arrival rate. Furthermore, f bi is increasing in ni by equation (A3). So the
+product nis fsbi , the number of biases, is also higher in an FOSD sense for i
+than for other agents. It follows that E[nis fsbi |b] > φsR fsb and E R[nis |b] > φsR, so
+E R[θsi |b] > E R[s |b]. 
+Proof of Proposition 4: For visual clarity I omit s subscripts. Recalling that
+ξ is the normalized price, substituting into optimality condition (3), and using
+the conditional precision as in (25) and the definitions of λ’s in (26), an agent’s
+perceived optimal position satisfies
+
+
+
+
+γ τ + nτ + τ +
+X
+
+S
+
+Z
+
+αX
+α
+
+−1
+
+2
+τ
+
+
+
+
+θ i = E X|
+B
+
+i
+
+
+
+−v
+
+i
+
+= λ S Y + λ P Z + λξ ξ − v
+= λ S X +  i + λ P Z + λξ ξ − v
+⎡
+⎤
+⎢
+=⎣
+
+ni τ S
+τ X + ni τ S + τ Z +
+⎡
+
+⎢
++⎣
+⎡
+⎢
++⎣
+
+τ
+
+2
+
+τ
+
+⎥
+i
+⎦ X+ +
+⎤
+
+Z
+
+τ X + ni τ S + τ Z +
+αX
+α
+
+αX
+α
+
+2
+
+αX
+α
+
+2
+
+τ
+
+τ
+
+τ X + ni τ S + τ Z +
+
+αX
+α
+
+2
+
+τ
+
+⎥
+⎦Z
+
+⎤
+
+ P 
+α
+⎥ v
+Z − v.
+⎦ X−
+α
+αX
+
+
+(A8)
+
+Presidential Address: Social Transmission Bias
+
+1821
+
+Multiplying by the LHS bracketed expression gives the condition for agent i’s
+position,
+
+
+ X 
+
+α P α Xτ 
+α
+
+X
+X
+i S
+Z
+τ
+v.
+γ θ i = ni τ S X +  i + τ Z −
+Z
++
+(1
+−
+α
+)
+−
+τ
+−
+n
+τ
+−
+τ
+(α  )2
+(α  )2
+(A9)
+To solve for the perceived pricing coefficients, I impose market clearing by
+integrating demands over agents i. For any given number of private signals,
+signal noise errors
+ (i.e., the  terms) average to zero across infinite groups of
+agents, that is, i:ni =n  i di = 0, where  i is as defined in (12). So agents think
+s
+that in equilibrium, at each date,
+B
+
+
+
+γ =
+
+
+
+α P α Xτ 
+Z
+ni τ S X +  i + τ Z −
+(α  )2
+i∈[0,1],μ
+ !
+ X 
+α
+
+X
+X
+S
+Z
+(1
+−
+α
+)
+−
+τ
+−
+nτ
+−
+τ
+τ
+v di
++
+(α  )2
+
+
+α P α Xτ 
+Z
+= τZ −
+(α  )2
+ X 
+ !
+
+α
+
+X
+X
+S
+Z
+μ(n) nτ S X +
+(1
+−
+α
+)
+−
+τ
+−
+nτ
+−
+τ
++
+τ
+v
+(α  )2
+n
+
+
+γ θ i di =
+i∈[0,1],μ
+
+
+
+
+ X 
+α P α Xτ 
+α
+S
+
+X
+X
+S
+Z
+= τZ −
+τ
+v.
+Z
++
+φτ
+X
++
+(1
+−
+α
+)
+−
+τ
+−
+φτ
+−
+τ
+(α  )2
+(α  )2
+
+(A10)
+Solving for price,
+B
+
+v=
+
+
+γ − τZ −
+αX
+(α  )2
+
+α P α Xτ 
+(α  )2
+
+
+
+Z − φτ S X
+
+τ  (1 − α X) − τ X − φτ S − τ Z
+
+.
+
+(A11)
+
+Equating corresponding coefficients on the shocks , X, and Z in the agents’
+price conjecture (22) gives a system of equations that can be solved for the
+coefficients of the perceived equilibrium price,
+α =
+
+γ
+αX
+
+(α  )2
+
+αP =
+
+τ  (1 − α X) − τ X + φτ S + τ Z
+α P α Xτ 
+(α  )2
+
+αX
+(α  )2
+
+− τZ
+
+τ  (1 − α X) − τ X + φτ S + τ Z
+
+(A12)
+
+(A13)
+
+The Journal of FinanceR
+
+1822
+
+αX = −
+
+φτ S
+αX
+(α  )2
+
+.
+
+τ  (1 − α X) − τ X + φτ S + τ Z
+
+(A14)
+
+Dividing (A12) by (A14) gives
+α = −
+
+γ X
+α .
+φτ S
+
+(A15)
+
+Substituting this expression for α  into (A14) and solving for α X verifies (28).
+It follows by (A15) that α  satisfies (29).
+To solve for α P , replace α X/α  in the numerator of (A13) with −φτ S /γ (by
+(A15)) to obtain
+S
+
+α =
+
+P 
+
+− φτ γ αατ − τ Z
+
+P
+
+αX
+(α  )2
+
+τ  (1 − α X) − τ X + φτ S + τ Z
+
+.
+
+(A16)
+
+Dividing this equation by (A12) gives
+αP
+α P φτ S τ 
+τZ
+.
+=
+−
+−
+α
+α γ 2
+γ
+
+(A17)
+
+αP
+γτZ
+=
+−
+.
+α
+γ 2 + φτ S τ 
+
+(A18)
+
+Solving for α P /α  gives
+
+Finally, using (29), we obtain (30). 
+Proof of Proposition 5: Suppressing s subscripts, in first-order condition (A8),
+we replace the mistaken perception of the agent’s average private signal value,
+X +  i , with X +  i + bf bi to obtain
+
+ X 2 
+P
+Z
+α
+v
+−
+α
+τ
+γ θ i = ni τ S X +  i + bf bi + τ Z Z +
+α
+αX
+
+ X 2 
+α
+X
+i S
+Z
+τ
+−v τ + n τ + τ +
+α
+
+ X P 
+α α
+i S
+i
+bi
+Z
+τ Z
+= n τ X +  + bf + τ −
+(α  )2
+!
+ X 
+α
+X
+i S
+Z
+X
+
+(α − 1)τ v.
+− τ +nτ +τ +
+(α  )2
+(A19)
+
+Presidential Address: Social Transmission Bias
+
+1823
+
+Integrating across agents introduces the rational assessment of per capita
+signal count and per-signal bias. Bearing in mind that f bi depends only on ni ,
+
+γ =
+
+i∈[0,1],μ R
+
+γ θ i di
+
+
+
+ X P 
+α α
+ni τ S X +  i + bf bi + τ Z −
+τ Z
+ )2
+R
+(α
+i∈[0,1],μ
+! 
+ X 
+α
+X
+i S
+Z
+X
+
+(α − 1)τ v di
+− τ +nτ +τ +
+(α  )2
+
+ X P 
+α α
+Z
+= τ −
+τ Z
+(α  )2
+! 
+
+ X 
+
+α
+R
+S
+b
+X
+S
+Z
+X
+
+(α − 1)τ v
++
+μ (n) nτ X + bh (n) − τ + nτ + τ +
+(α  )2
+n
+
+ X P 
+α α
+τ  Z + τ S φ R X + bB
+= τZ −
+(α  )2
+!
+ X 
+α
+X
+
+(α
+v
+−
+1)τ
+− τ X + φ Rτ S + τ Z +
+(α  )2
+
+ X P 
+α α
+Z
+= τ −
+τ  Z + φ Rτ S X + bf b
+(α  )2
+ X 
+!
+α
+X
+R S
+Z
+X
+
+− τ +φ τ +τ +
+(α − 1)τ v,
+(A20)
+(α  )2
+
+
+=
+
+where as a reminder, B is the per capita number of biases per agent, and
+f b = B/φ R is the per-signal bias.
+Solving for the equilibrium market price gives
+
+v=
+
+
+τZ −
+
+α Xα P
+(α  )2
+
+
+τ  Z + φ Rτ S X + bf b − γ 
+
+τ X + φ Rτ S + τ Z +
+
+αX
+(α  )2
+
+(α X − 1)τ 
+
+.
+
+(A21)
+
+Equation (A21) contains α X/α  and α P /α  , ratios of mistaken coefficients that
+agents have in their price conjectures. The first of these, by (A15), is −φτ S /γ .
+The second of these is given by (A18). Also, by (28) and (29),
+γ τX +τZ
+αX − 1
+=
+.
+α
+γ 2 + φτ S τ 
+So we can substitute out all α ratios in (A21), which yields (31). 
+
+(A22)
+
+The Journal of FinanceR
+
+1824
+
+Proof of Proposition 6: By inspection of (31) in Proposition 5, the actual
+αcoefficients are
+αsRX = αsRb =
+
+αsRP =
+
+φsRτ S (γ 2 + φs τ S τ  )
+γ 2 (τ X + φsRτ S + τsZ) + φs φsR(τ S )2 τ 
+
+(A23)
+
+τsZγ 2
++ τsZ) + φs φsR(τ S )2 τ 
+
+(A24)
+
+γ 2 (τ X
+
+αsR = −
+
++
+
+φsRτ S
+
+γ (γ 2 + φs τ S τ  )
+.
+γ 2 (τ X + φsRτ S + τsZ) + φs φsR(τ S )2 τ 
+
+(A25)
+
+So
+ 2 S 2 
+
+φs (τ ) τ + γ 2 (τ X + φs τ S + τsZ )
+φsRτ S (γ 2 + φs τ S τ  )
+φs τ S (γ 2 + φs τ S τ  )
+φsRφs (τ S )2 τ  + γ 2 (τ X + φsRτ S + τsZ )
+
+
+φs2 (τ S )2 τ  + γ 2 (τ X + φs τ S + τsZ )
+φsR
+=
+φs φsRφs (τ S )2 τ  + γ 2 (τ X + φsRτ S + τsZ )
+
+
+
+
+φ R φ 2 (τ S )2 τ  + γ 2 (τ X + φs τ S + τsZ ) − φs φsRφs (τ S )2 τ  + γ 2 (τ X + φsRτ S + τsZ )
+
+
+= 1+ s s
+φs φsRφs (τ S )2 τ  + γ 2 (τ X + φsRτ S + τsZ )
+
+αsRX
+=
+αsX
+
+
+
+= 1+
+
+(φsR − φs )γ 2 (τ X + τsZ )
+.
+φs φsRφs (τ S )2 τ  + γ 2 (τ X + φsRτ S + τsZ )
+
+
+>
+
+(A26)
+
+<
+
+The term φsR − φs < 0 if and only if κ > 1. All other terms are also positive, so
+<
+>
+αsRX/αsX < 1 if and only if κ > 1. Similarly,
+αsRP
+=
+αsP
+=
+
+
+
+τsZγ 2
+τsZγ 2
+
+
+
+φs2 (τ S )2 τ  + γ 2 (τ X + φs τ S + τsZ)
+φsRφs (τ S )2 τ  + γ 2 (τ X + φsRτ S + τsZ )
+
+
+
+φs2 (τ S )2 τ  + γ 2 (τ X + φs τ S + τsZ)
+R
+φs φs (τ S )2 τ  + γ 2 (τ X + φsRτ S + τsZ)
+
+= 1+
+= 1+
+
+
+ 
+
+φs2 (τ S )2 τ  + γ 2 (τ X + φs τ S + τsZ) − φsRφs (τ S )2 τ  + γ 2 (τ X + φsRτ S + τsZ )
+φsRφs (τ S )2 τ  + γ 2 (τ X + φsRτ S + τsZ)
+(φs − φsR)τ S (γ 2 + φs τ S τ  )
+.
+φsRφs (τ S )2 τ  + γ 2 (τ X + φsRτ S + τsZ)
+<
+
+<
+
+(A27)
+
+So αsRP /αsP > 1 if and only if κ > 1.
+Finally, it is easy to see that αsR /αs = αsRP /αsP , since αsR and αs also have
+the same numerators. 
+Proof of Proposition 7: Let “t−” denote a date just before discrete date t, and
+recall τsZ as given in (1). By (31), the expected date-t price change conditional
+
+Presidential Address: Social Transmission Bias
+
+1825
+
+only on b is
+E R[vt − vt− |b] =
+
+(γ 2 + φt τ S τ  )φtRτ S bftb
+γ 2 (τ X + φtRτ S + eζ t τ P ) + φt φtR(τ S )2 τ 
+−
+
+=
+
+γ 2 (τ X
+
+(γ 2 + φt τ S τ  )φtRτ S bftb
++ φtRτ S + eζ (t−1) τ P ) + φt φtR(τ S )2 τ 
+
+(γ 2 + φt τ S τ  )φtRτ S bftbγ 2 (eζ (t−1) − eζ (t) )τ P
+.
+[γ 2 (τ X + φtRτ S + eζ t τ P ) + φt φtR(τ S )2 τ  ][γ 2 (τ X + φtRτ S + eζ (t−1) τ P ) + φt φtR(τ S )2 τ  ]
+
+(A28)
+Since ζ > 0, this expression is negatively proportional to b. 
+Proof of Proposition 8: By Proposition 7, Sign(E R[ vt |b]) = −Sign(b). By (32),
+the expected long-run postevent price change conditional on b at any date s is
+E R[X − vs |b] = −E R[vs |b]
+=−
+
+(γ 2 + φs τ S τ  )φsRτ S bfsb
+,
+γ 2 (τ X + φsRτ S + τsZ) + φs φsR(τ S )2 τ 
+
+(A29)
+
+so Sign(E R[X − vs |b]) = −Sign(b) = Sign(E R[ vt |b]). Inspection of (A28) and
+(A29) shows that both expectations are negatively proportional to b. 
+Proof of Proposition 9: By (31), both vt and vt− contain b in the numerator.
+Since b is independent of all other exogenous variables, the contribution of
+V(b) to the covariance comes from the b terms in the numerators, with the
+denominators as multiplied constants. Letting K > 0 denote the denominator
+of vt− , the denominator of vt is K + γ 2 τ P . Then the coefficient on b in vt is
+(γ 2 + φt τ S τ  )φtRτ S ftb
+K + γ 2τ P
+
+(A30)
+
+(γ 2 + φt τ S τ  )φtRτ S ftb
+.
+K
+
+(A31)
+
+and in vt− is
+
+Since the numerators are identical, the coefficient on b in vt − vt− is negative.
+Since the coefficient on b is negative in X − vt , when V(b) is sufficiently large,
+the covariance is positive. 
+Proof of Proposition 10: Consider a random sample of public news dates.
+Consider first the case b > 0. Let the terminal price be defined as vT ≡ X. By
+date 1, the stock is, on average, overpriced, E R[X|b] < E R[v1 |b], which implies
+that
+" 
+
+"
+T −1
+R
+R
+E
+(v
+−
+v
+)
+"b
+t+1
+t
+t=1
+E [X − v1 |b]
+=
+.
+(A32)
+0>
+T −1
+T −1
+The RHS is the expected value of vt+1 − vt in a random sample of public event
+dates from t = 1 . . . T − 1, that is, the expected short-horizon drift after these
+
+The Journal of FinanceR
+
+1826
+
+dates. The sign of the expectations in (A32) is reversed when b < 0. Furthermore, by Proposition 8, the LHS of the equality is negatively proportional to b,
+so the RHS is as well.
+The expected average event-date reaction in such a sample is E R[ vt |b] < 0,
+with opposite sign when b < 0, and is negatively proportional to b, by Proposition 7. So conditional on b, the expected event-date and short-horizon reactions
+have the same sign. 
+Proof of Proposition 11: Let be a short time interval. We seek to sign
+cov R(vs+ − vs , vs+2 − vs+ ) = E R[(vs+ − vs )(vs+2 − vs+ )],
+
+(A33)
+
+where the equality holds because E[vs ] = 0 for all s. Since V(b) is large, to an
+arbitrarily good approximation, in substituting for dated v values from (31)
+into (A33), we can consider only the coefficients on b. Let the relevant terms
+from the numerator and the denominator, from (31), be denoted
+g(s) ≡ (γ 2 + φs τ S τ  )τ S φsR fsb
+h(s) ≡ γ 2 (τ X + φsRτ S + τsZ) + φs φsR(τ S )2 τ  .
+
+(A34)
+
+When V(b) is large and small, two-term Taylor expansions applied to the
+factors of the expectation give the approximation
+E R[(vs+ − vs )(vs+2 − vs+ )] ≈
+
+
+
+g+g
+h+h
+
++1g
+2
++1h
+2
+
+2
+2
+
+
+− hg
+
+g+g 2 + 1 g 4 2
+2
+h+h 2 + 1 h 4 2
+2
+
+−
+
+g+g
+h+h
+
++1g
+2
++1h
+2
+
+2
+2
+
+
+V(b).
+
+I abbreviate this covariance as cov R and suppress s subscripts. Since the terms
+of order cancel, I remove terms of order higher than 2 to obtain
+cov R ≈
+≈
+
+(g h − h g)2
+h4 + 4h3 h + 5h2 h 2
+(g h − h g)2
+h4
+
+2
+
+2
+2
+
++ 3h3 h
+
+V(b) > 0.
+
+2
+
+V(b)
+(A35)
+
+(Of course, this covariance of price changes approaches zero as → 0, but the
+autocorrelation, which is scaled by standard deviations, does not.) 
+REFERENCES
+Aboody, David, Reuven Lehavy, and Brett Trueman, 2010, Limited attention and the earnings
+announcement returns of past stock market winners, Review of Accounting Studies 15, 317–
+344.
+Acemoglu, Daron, Munther Dahleh, Ilan Lobel, and Asuman E. Ozdaglar, 2011, Bayesian learning
+in social networks, Review of Economic Studies 78, 1201–1236.
+Allport, G. W., and L. Postman, 1947, The Psychology of Rumor (Henry Holt, New York, NY).
+Ammann, Manuel, and Nic Schaub, 2016, Social interaction and investing: Evidence from an online
+social trading network, Working paper, University of St. Gallen.
+Andrei, Daniel, and Julien Cujean, 2017, Information percolation, momentum and reversal, Journal of Financial Economics 123, 617–645.
+Bailey, Michael, Eduardo Dávila, Theresa Kuchler, and Johannes Stroebel, 2019, House price
+beliefs and mortgage leverage choice, Review of Economic Studies 86, 2403–2452.
+
+Presidential Address: Social Transmission Bias
+
+1827
+
+Baker, Malcolm, and Jeffrey Wurgler, 2006, Investor sentiment and the cross-section of stock
+returns, Journal of Finance 61, 1645–1680.
+Baker, Malcolm, and Jeffrey Wurgler, 2007, Investor sentiment in the stock market, Journal of
+Economic Perspectives 21, 129–151.
+Banerjee, Abhijit, 1992, A simple model of herd behavior, Quarterly Journal of Economics 107,
+797–817.
+Barber, Brad, and Terrance Odean, 2000, Trading is hazardous to your wealth: The common stock
+investment performance of individual investors, Journal of Finance 55, 773–806.
+Barber, Brad M., and Terrance Odean, 2008, All that glitters: The effect of attention and news on
+the buying behavior of individual and institutional investors, Review of Financial Studies 21,
+785–818.
+Barberis, Nicholas, Robin Greenwood, Lawrence Jin, and Andrei Shleifer, 2018, Extrapolation and
+bubbles, Journal of Financial Economics 129, 203–227.
+Barberis, Nicholas, Andrei Shleifer, and Robert Vishny, 1998, A model of investor sentiment,
+Journal of Financial Economics 49, 307–343.
+Barro, Robert J., and Rachel M. McCleary, 2003, Religion and economic growth across countries,
+American Sociological Review 68, 760–781.
+Baumeister, Roy F., Ellen Bratslavsky, Catrin Finkenauer, and Kathleen D. Vohs, 2001, Bad is
+stronger than good, Review of General Psychology 5, 323–370.
+Bénabou, Roland, and Jean Tirole, 2002, Self-confidence and personal motivation, Quarterly Journal of Economics 117, 871–915.
+Bénabou, Roland, and Jean Tirole, 2006, Belief in a just world and redistributive politics, Quarterly
+Journal of Economics 121, 699–746.
+Bénabou, Roland, and Jean Tirole, 2016, Mindful economics: The production, consumption, and
+value of beliefs, Journal of Economic Perspectives 30, 141–164.
+Berger, Jonah, 2014, Word of mouth and interpersonal communication: A review and directions
+for future research, Journal of Consumer Psychology 24, 586–607.
+Berger, Jonah, and Katherine L. Milkman, 2012, What makes online content viral?, Journal of
+Marketing Research 49, 192–205.
+Bikhchandani, Sushil, David Hirshleifer, and Ivo Welch, 1992, A theory of fads, fashion, custom,
+and cultural change as informational cascades, Journal of Political Economy 100, 992–1026.
+Bisin, Alberto, and Thierry Verdier, 2000, Beyond the melting pot: Cultural transmission, marriage, and the evolution of ethnic and religious traits, Quarterly Journal of Economics 115,
+955–988.
+Bizjak, John M., Michael L. Lemmon, and Ryan J. Whitby, 2009, Option backdating and board
+interlocks, Review of Financial Studies 22, 4821–4847.
+Bohren, Aislinn J., 2016, Informational herding with model misspecification, Journal of Economic
+Theory 163, 222–247.
+Bouchaud, Jean-Philippe, Philipp Krüger, Augustin Landier, and David Thesmar, 2019, Sticky
+expectations and the profitability anomaly, Journal of Finance 74, 639–674.
+Boyd, Robert, and Peter J. Richerson, 1985, Culture and the Evolutionary Process (University of
+Chicago Press, Chicago, IL).
+Boyer, Pascal, and Michael Bang Petersen, 2018, Folk-economic beliefs: An evolutionary cognitive
+model, Behavioral and Brain Sciences 41, e158.
+Brock, William A., and Steven N. Durlauf, 2001, Discrete choice with social interactions, Review
+of Economic Studies 68, 235–260.
+Burnside, Craig, Martin Eichenbaum, and Sergio T. Rebelo, 2016, Understanding booms and busts
+in housing markets, Journal of Political Economy 124, 1088–147.
+Camerer, Colin F., Teck-Hua Ho, and Juin-Kuan Chong, 2004, A cognitive hierarchy model of
+games, Quarterly Journal of Economics 119, 861–898.
+Caplan, Bryan, 2007, The Myth of the Rational Voter: Why Democracies Choose Bad Policies (Princeton University Press, Princeton, NJ).
+Chinco, Alex, 2019, The madness of crowds and the likelihood of bubbles, Working paper, University
+of Chicago.
+
+1828
+
+The Journal of FinanceR
+
+Chiu, Peng-Chia, Siew Hong Teoh, and Feng Tian, 2013, Board interlocks and earnings management contagion, The Accounting Review 88, 915–944.
+Coibion, Olivier, Yuriy Gorodnichenko, Marianna Kudlyak, and John Mondragon, 2014, Does
+greater inequality lead to more household borrowing? New evidence from household data,
+Working paper, University of Texas at Austin.
+Craik, Kenneth J. W., 1943, The Nature of Explanation (Cambridge University Press, Cambridge,
+UK).
+Cujean, Julien, 2020, Idea sharing and the performance of mutual funds, Journal of Financial
+Economics 135, 88–119.
+D’Acunto, Francesco, Alberto Rossi, and Michael Weber, 2019, Crowdsourcing financial information
+to change spending behavior, Working paper, Boston College.
+Daniel, Kent, David Hirshleifer, and Avanidhar Subrahmanyam, 1998, Investor psychology and
+security market under- and overreactions, Journal of Finance 53, 1839–1885.
+DeLong, Bradford J., Andrei Shleifer, Lawrence Summers, and Robert J. Waldmann, 1990, Positive
+feedback investment strategies and destabilizing rational speculation, Journal of Finance 45,
+375–395.
+DeMarzo, Peter, Dimitri Vayanos, and Jeff Zwiebel, 2001, Social networks and financial markets,
+Working paper, MIT and Stanford University.
+DeMarzo, Peter, Dimitri Vayanos, and Jeff Zwiebel, 2003, Persuasion bias, social influence, and
+uni-dimensional opinions, Quarterly Journal of Economics 118, 909–968.
+Denzau, Arthur T., and Douglass C. North, 1994, Shared mental models: Ideologies and institutions, Kyklos 47, 3–31.
+Dong, Ming, David A. Hirshleifer, and Siew Hong Teoh, 2012, Overvalued equity and financing
+decisions, Review of Financial Studies 25, 3645–3683.
+Duffie, Darrell, 2010, Presidential address: Asset price dynamics with slow-moving capital, Journal
+of Finance 65, 1237–1267.
+Duffie, Darrell, Semyon Malamud, and Gustavo Manso, 2009, Information percolation with equilibrium search dynamics, Econometrica 77, 1513–1574.
+Duffie, Darrell, and Yeneng Sun, 2007, Existence of independent random matching, Annals of
+Applied Probability 17, 386–419.
+Duflo, Esther, and Emmanuel Saez, 2002, Participation and investment decisions in a retirement
+plan: The influence of colleagues’ choices, Journal of Public Economics 85, 121–148.
+Duflo, Esther, and Emmanuel Saez, 2003, The role of information and social interactions in retirement plan decisions: Evidence from a randomized experiment, Quarterly Journal of Economics
+118, 815–842.
+Ellison, Glenn, and Drew Fudenberg, 1993, Rules of thumb for social learning, Journal of Political
+Economy 101, 612–643.
+Escobar, Laura, and Alvaro Pedraza, 2019, Active trading and (poor) performance, Working paper,
+World Bank.
+Eyster, Erik, and Matthew Rabin, 2005, Cursed equilibrium, Econometrica 73, 1623–1672.
+Eyster, Erik, and Matthew Rabin, 2010, Naı̈ve herding in rich-information settings, American
+Economic Journal: Microeconomics 2, 221–243.
+Eyster, Erik, Matthew Rabin, and Dimitri Vayanos, 2018, Financial markets where traders neglect
+the informational content of prices, Journal of Finance 74, 371–399.
+Fracassi, Cesare, 2016, Corporate finance policies and social networks, Management Science 63,
+2420–2438.
+Glaeser, Edward L., Bruce Sacerdote, and Jose A. Scheinkman, 1996, Crime and social interactions,
+Quarterly Journal of Economics 111, 507–548.
+Goetzmann, William N., and Dasol Kim, 2018, Negative bubbles: What happens after a crash,
+Working paper, Yale School of Management.
+Golub, Benjamin, and Matthew O. Jackson, 2010, Naive learning in social networks and the
+wisdom of crowds, American Economic Journal: Microeconomics 2, 112–149.
+Golub, Benjamin, and Evan Sadler, 2016, Learning in social networks, in Yann Bramoullé, Andrea
+Galeotti, and Brian W. Rogers, eds.: The Oxford Handbook of the Economics of Networks,
+chapter 19 (Oxford University Press, New York, NY).
+
+Presidential Address: Social Transmission Bias
+
+1829
+
+Graham, John R., Jillian Grennan, Campbell R. Harvey, and Shiva Rajgopal, 2019, Corporate
+culture: Evidence from the field, Working paper, Duke University.
+Greenwood, Robin, and Andrei Shleifer, 2014, Expectations of returns and expected returns, Review
+of Financial Studies 27, 714–746.
+Greenwood, Robin, Andrei Shleifer, and Yang You, 2019, Bubbles for Fama, Journal of Financial
+Economics 131, 20–43.
+Grinblatt, Mark, and Matti Keloharju, 2001, How distance, language and culture influence stockholdings and trades, Journal of Finance 56, 1053–1073.
+Guiso, Luigi, Paola Sapienza, and Luigi Zingales, 2003, People’s opium? Religion and economic
+attitudes, Journal of Monetary Economics 50, 225–282.
+Guiso, Luigi, Paola Sapienza, and Luigi Zingales, 2004, The role of social capital in financial
+development, American Economic Review 94, 526–556.
+Han, Bing, David Hirshleifer, and Johan Walden, 2019a, Social transmission bias and investor
+behavior, NBER Working Paper No. 24281.
+Han, Bing, David Hirshleifer, and Johan Walden, 2019b, Visibility bias in the transmission of
+consumption beliefs and undersaving, Working paper, University of Toronto.
+He, Hua, and Jiang Wang, 1995, Differential information and dynamic behavior of stock trading
+volume, Review of Financial Studies 8, 919–972.
+Heath, Chip, 1996, Do people prefer to pass along good or bad news? Valence and relevance as
+predictors of transmission propensity, Organizational Behavior and Human Decision Process
+68, 79–94.
+Heimer, Rawley, and David Simon, 2015, Facebook finance: How social interaction propagates
+active investing, Working paper, Brandeis University.
+Henrich, Joseph, 2015, The Secret of Our Success: How Culture Is Driving Human Evolution,
+Domesticating Our Species, and Making Us Smarter (Princeton University Press, Princeton,
+NJ).
+Hirshleifer, David, 2008, Psychological bias as a driver of financial regulation, European Financial
+Management 14, 856–874.
+Hirshleifer, David, and Omer Tamuz, 2020, Sound bites: Communication bandwidth constraints
+and simplistic thinking, University of California, Irvine. In progress.
+Hirshleifer, David, and Siew Hong Teoh, 2003, Herd behavior and cascading in capital markets: A
+review and synthesis, European Financial Management 9, 25–66.
+Hirshleifer, David, and Siew Hong Teoh, 2009, The psychological attraction approach to accounting
+and disclosure policy, Contemporary Accounting Research 26, 1067–1090.
+Hirshleifer, David, and Siew Hong Teoh, 2018, Social transmission bias and the cultural evolution
+of folk economic beliefs, Behavioral and Brain Sciences 41, e170.
+Hoff, Karla, and Joseph E. Stiglitz, 2016, Striving for balance in economics: Towards a theory of the
+social determination of behavior, Journal of Economic Behavior & Organization 126, 25–57.
+Hong, Harrison G., and Marcin T. Kacperczyk, 2009, The price of sin: The effects of social norms
+on markets, Journal of Financial Economics 93, 15–36.
+Hong, Harrison G., and Leonard Kostovetsky, 2012, Red and blue investing: Values and finance,
+Journal of Financial Economics 103, 1–19.
+Hong, Harrison G., Jeffrey D. Kubik, and Jeremy C. Stein, 2004, Social interaction and stock
+market participation, Journal of Finance 59, 137–163.
+Hong, Harrison G., and Jeremy C. Stein, 1999, A unified theory of underreaction, momentum
+trading and overreaction in asset markets, Journal of Finance 54, 2143–2184.
+Huang, Shiyang, Byoung-Hyoun Hwang, and Dong Lou, 2018, The speed of communication, Working paper, University of Hong Kong.
+Ikenberry, David, Josef Lakonishok, and Theo Vermaelen, 1995, Market underreaction to open
+market share repurchases, Journal of Financial Economics 39, 181–208.
+Ikenberry, David, Josef Lakonishok, and Theo Vermaelen, 2000, Stock repurchases in Canada:
+Performance and strategic trading, Journal of Finance 55, 2373–2397.
+Jackson, Matthew O., 2008, Social and Economic Networks (Princeton University Press, Princeton,
+NJ).
+
+1830
+
+The Journal of FinanceR
+
+Jegadeesh, Narasimhan, 1990, Evidence of predictable behavior of security returns, Journal of
+Finance 45, 881–898.
+Jin, Ye, Hongbin Li, and Binzhen Wu, 2011, Income inequality, consumption, and social-status
+seeking, Journal of Comparative Economics 39, 191–204.
+Johnson, Philip N., 1983, Mental Models (Cambridge University Press, Cambridge).
+Kelly, Morgan, and Cormac O. O’Grada, 2000, Market contagion: Evidence from the panics of 1854
+and 1857, American Economic Review 90, 1110–1124.
+Laibson, David, 1997, Golden eggs and hyperbolic discounting, Quarterly Journal of Economics
+112, 443–477.
+Lee, Charles, Andrei Shleifer, and Richard Thaler, 1991, Investor sentiment and the closed-end
+fund puzzle, Journal of Finance 46, 75–109.
+Lim, Sonya S., Jacqueline Ng, and Brian Uzzi, 2020, Biased information transmission in investor
+social network: Evidence from professional traders, Working paper, DePaul University.
+Linnainmaa, Juhani T., and Conson Zhang, 2019, The earnings announcement return cycle, Working paper, Dartmouth University.
+Loughran, Tim, and Jay Ritter, 1995, The new issues puzzle, Journal of Finance 50, 23–52.
+Mesoudi, Alex, Andrew Whiten, and Kevin N. Laland, 2006, Towards a unified science of cultural
+evolution, Behavioral and Brain Sciences 29, 329–347.
+Novy-Marx, Robert, 2013, The other side of value: The gross profitability premium, Journal of
+Financial Economics 108, 1–28.
+Payne, John, James Bettman, and Eric Johnson, 1993, The Adaptive Decisionmaker, first edition
+(Cambridge University Press, Cambridge).
+Peng, Lin, and Wei Xiong, 2006, Investor attention, overconfidence and category learning, Journal
+of Financial Economics 80, 563–602.
+Rantala, Ville, 2019, How do investment ideas spread through social interaction? Evidence from a
+Ponzi scheme, Journal of Finance 74, 2349–2389.
+Richardson, Scott, Siew Hong Teoh, and Peter David Wysocki, 2004, The walk-down to beatable
+analyst forecasts: The role of equity issuance and insider trading incentives, Contemporary
+Accounting Research 21, 885–924.
+Ritter, Jay R., and Ivo Welch, 2002, A review of IPO activity, pricing, and allocations, Journal of
+Finance 57, 1795–1828.
+Rozin, Paul, and Edward B. Royzman, 2001, Negativity bias, negativity dominance, and contagion,
+Personality and Social Psychology Review 5, 296–320.
+Rubin, Paul H., 2002, Darwinian Politics: The Evolutionary Origin of Freedom (Rutgers University
+Press, New Brunswick, NJ).
+Rubin, Paul H., 2003, Folk economics, Southern Economic Journal 70, 157–171.
+Sandholm, William H., 2010, Population Games and Evolutionary Dynamics (MIT Press, Cambridge, MA).
+Shiller, Robert J., 1990, Speculative prices and popular models, Journal of Economic Perspectives
+4, 55–65.
+Shiller, Robert J., 2000a, Irrational exuberance (Princeton University Press, Princeton, NJ).
+Shiller, Robert J., 2000b, Measuring bubble expectations and investor confidence, Journal of Psychology and Financial Markets 1, 49–60.
+Shiller, Robert J., 2017, Narrative economics, American Economic Review 107, 967–1004.
+Shiller, Robert J., 2019, Narrative Economics: How Stories Go Viral and Drive Major Economic
+Events (Princeton University Press, Princeton, NJ).
+Shiller, Robert J., Fumiko Kon-Ya, and Yoshiro Tsutsui, 1996, Why did the Nikkei crash? Expanding
+the scope of expectations data collection, Review of Economics and Statistics 78, 156–164.
+Shive, Sophie, 2010, An epidemic model of investor behavior, Journal of Financial and Quantitative
+Analysis 45, 169–198.
+Tabellini, Guido, 2008, The scope of cooperation: Values and incentives, Quarterly Journal of
+Economics 123, 905–950.
+Tesser, Abraham, and Sidney Rosen, 1975, The reluctance to transmit bad news, in Leonard
+Berkowitz, ed., Advances in Experimental Social Psychology, volume 8 (Academic Press, New
+York, NY).
+
+Presidential Address: Social Transmission Bias
+
+1831
+
+Wahal, Sunil, 2019, The profitability and investment premium: Pre-1963 evidence, Journal of
+Financial Economics 131, 362–377.
+Wright, William F., and Gordon H. Bower, 1992, Mood effects on subjective probability assessment,
+Organizational Behavior and Human Decision Processes 52, 276–291.
+
+Supporting Information
+Additional Supporting Information may be found in the online version of this
+article at the publisher’s website:
+Appendix S1: Internet Appendix.
+
+

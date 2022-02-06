@@ -1,0 +1,7264 @@
+FRBSF Working Paper 2004-09
+
+Consumer Sentiment, the Economy, and the News Media
+
+Mark Doms*
+Federal Reserve Bank of San Francisco
+Norman Morin**
+Board of Governors of the Federal Reserve System
+July 2004
+Abstract
+The news media affects consumers’ perceptions of the economy through three channels. First, the
+news media conveys the latest economic data and the opinions of professionals to consumers.
+Second, consumers receive a signal about the economy through the tone and volume of economic
+reporting. Last, the greater the volume of news about the economy, the greater the likelihood that
+consumers will update their expectations about the economy. We find evidence that all three of these
+channels affect consumer sentiment. We derive measures of the tone and volume of economic
+reporting, building upon the R-word index of The Economist. We find that there are periods when
+reporting on the economy has not been consistent with actual economic events, especially during the
+early 1990s. As a consequence, there are times during which consumer sentiment is driven away
+from what economic fundamentals would suggest. We also find evidence supporting that consumers
+update their expectations about the economy much more frequently during periods of high news
+coverage than in periods of low news coverage; high news coverage of the economy is concentrated
+during recessions and immediately after recessions, implying that “stickiness” in expectations is
+countercyclical. Finally, because the model of consumer sentiment is highly nonlinear, month-tomonth changes in sentiment are difficult to interpret. For instance, although an increase in the
+number of articles that mention “recession” typically is associated with a decline in sentiment, under
+certain conditions it can actually result in an increase in various sentiment indexes.
+* Federal
+
+Reserve Bank of San Francisco, MS 1130, 101 Market Street, San Francisco, CA
+94105, mark.doms@sf.frb.org
+** Board of Governors, MS 82, Washington, DC 20551, norman.j.morin@frb.gov
+
+We wish to thank Margaret Macleod, Kristen Hamden, Niels Burmester, Mathew Wilson, Brian Rowe, and Ashley Maurier
+for research assistance. We want to especially thank Jon Eller for his outstanding efforts in helping us to complete this
+project. We also wish to thank Gwen Eudey, Chris Carroll, Spencer Krane, Jose Lopez, Martha Starr, Justin Wolfers, Joyce
+Zickler, and numerous colleagues at the Board and FRB San Francisco, and seminar participants at the 2004 ASSA meetings
+and the FRB Chicago for helpful comments and suggestions. We also thank Carol Corrado who encouraged us and helped
+provide the resources for this project. The opinions expressed in this paper are those of the authors and do not necessarily
+reflect the views of the Federal Reserve System.
+
+I. Introduction
+Results from the consumer sentiment surveys conducted by the Conference Board and the
+University of Michigan are closely watched and widely reported. One reason for the wide coverage is
+that several studies have found a connection between sentiment and consumption.1 Over the past
+several years, consumer sentiment has received much attention in light of 9/11, accounting scandals,
+war, and the recent recession.
+Figure 1.1 shows the University of Michigan’s composite measure of consumer sentiment from
+January 1978 through May 2003.2 Although this and other consumer sentiment series receive a fair
+amount of attention, the research on consumer expectations about the economy is quite limited, with
+the exception of inflation expectations.3 This paper attempts to close the gap between the amount of
+attention that sentiment receives and the amount that is known about how sentiment is formed. In
+analyzing sentiment, we draw on the growing literature on information theory and decision making,
+especially the literature on “sticky expectations” and “rational inattention.” This literature
+emphasizes the costs and constraints in obtaining data and making decisions with that data. For
+instance, several papers extend Shannon’s (1948) seminal work in information theory (see, for
+example, Sims (2003) and Mascaroni (2003)). Many other papers that model decision making use
+different mechanisms that can generate “sticky expectations,” such as Reis (2003) and Carroll (2003
+and 2004).
+One of the more interesting aspects of our work, we believe, is our attempt to explicitly
+incorporate the role of the media in influencing consumer sentiment about the economy.4 This seems
+only natural because consumers are likely to form expectations largely based on what they hear from
+the media in addition to their own personal experiences.5 We derive several measures of the tone and
+volume of economic reporting and relate these to sentiment. Our models allow news sentiment
+through three channels. The first is through the dissemination of economic statistics and opinions of
+experts. Second, consumers receive a signal about the economy through the tone and volume of
+1
+
+Several authors have examined the relationship between sentiment and consumption, one of the most recent is
+Souleles (2004). Souleles finds that consumer sentiment is related to consumption even after controlling for a
+host of factors, similar to the results of Carroll, Fuhrer, and Wilcox (1994).
+2
+Most of the series in the graphs in this paper stop in May 2003, the last date for which we have data on media
+reporting.
+3
+There is a vast and growing literature on how inflation expectations are formed, and the consequences of the
+different models.
+4
+In this paper we use sentiment measures from the University of Michigan’s Survey of Consumers. Results
+from using the sentiment measures from the Conference Board are similar.
+5
+The alternative would be for consumers to wade through government press releases about the economy, such
+as the monthly employment report, industrial production, consumer prices, and so on. However, we do not
+believe that a measurable portion of the population consistently gleans their information on the economy by
+reading these sources directly.
+
+1
+
+economic reporting, and this signal may not be consistent over time with actual economic events. As
+Sims (2003) shows, the information theory model provides an explanation why the tone and volume
+of economic reporting affect sentiment above and beyond the economic information contained in the
+reporting. For instance, the headline “Recession Possible” is likely to elicit a greater negative
+response in people’s views about the economy than an article entitled “Economic Conference
+Presents Diverse Views” in which the possibilities of a recession are discussed in the last paragraph.
+This signal process may be why over the years public officials have expressed misgivings about using
+the word “recession”; a famous example is Alfred Kahn’s remarks in which he substituted the word
+“banana” for “recession.”
+The final channel through which the media influences sentiment is by affecting the likelihood that
+consumers will update their expectations, a tenet of the sticky expectations and rational inattention
+literatures. As suggested by Carroll (2003) in his study of inflation expectations, the greater the
+volume of news coverage, the more likely expectations will be updated. Expectations may be
+updated more frequently during periods of high news coverage for several reasons. The first is that
+the costs of acquiring information about the economy are likely to be lower when news coverage is
+high; all else equal, lower costs will increase how frequently people sample information (as is
+Mascaroni (2003) and Reis (2003)). Another reason for a link between the intensity of news coverage
+and the likelihood of updating expectations stems from the models of Akerloff, Dickens, and Perry
+(2001) and Gabaix, Laibson, and Moloche (2003): Consumers may be more likely to read articles
+with headlines like “Recession Possible” because such headlines suggest the information in the article
+may be related to their own financial futures. Regardless of the reasons, we find that expectations are
+much less “sticky” during periods of high news coverage than in periods of low news coverage.
+Given the potential importance of the media for consumer sentiment we investigate how closely
+the media’s coverage of the economy tracks the state f the economy. Several possible reasons that the
+reporting on the economy may deviate from the economic fundamentals include the effect on
+economic news coverage of the political cycle, the relative importance of other news events, the
+novelty of the economic data, and the incentive to make economic news more alluring to readers.6
+Our initial motivation to investigate the possibility of inconsistencies in how the media covers the
+economy stems from two data sources. The first, shown in figure 1.2, is the R-Word index from The
+Economist magazine, a quarterly index of the number of articles in the Washington Post and The New
+
+6
+
+With regard to this last point, a business reporter told us, in a bit of tongue in cheek, that what sells are articles
+that either describe how everyone is going to get rich or articles that describe how everyone is going to become
+poor.
+
+2
+
+York Times that mention “recession.”7 What we found striking from this admittedly crude series was
+the size of the spikes in the early 1990s compared with the 1980s when the economy was in much
+worse shape. Similarly, as shown in figure 1.3, we were surprised by the response to the question
+"During the last few months, have your heard of any favorable or unfavorable changes in business
+conditions?" from the Michigan Survey. More respondents reported hearing “unfavorable” news than
+“favorable” news in nearly all periods, although the 1980s and 1990s was marked by tremendous
+overall economic expansion.8 Also, we were surprised by how quickly the share of respondents
+hearing unfavorable news could increase.
+To measure the effect that economic reporting has on consumers’ perceptions of the economy, we
+need to construct quantitative measures of the volume and tone of economic reporting. How negative
+or positive is the article about the economy? What is the proper way to aggregate the tone of articles
+within a newspaper and then across newspapers and television? Perhaps because the answers to
+questions like these are daunting attempts to quantify the tone of economic reporting have been
+limited. One of the objectives of this paper is to take a step toward quantifying how economic news
+is reported. Our approach builds on of The Economist’s R-word index. We use 30 newspapers and
+search for articles that contain certain words and phrases. We next filter the results based on a
+number of criteria and then construct indexes weighted by circulation. This approach is relatively
+simple, but we are able to demonstrate that our indexes indeed represent the volume and tone of
+economic reporting. Additionally, the results suggest a strong correlation between the newspaperbased indexes and various measures of consumer sentiment. Further, our indexes are also strongly
+correlated with the series on “favorable” and “unfavorable” news heard in figure 1.3.
+We created an R-word index like The Economist’s with some modifications. First, we require the
+word “recession” or “economic slowdown” to appear in the headline or first paragraph of the article
+because we found that these articles tended to portray some negative aspect of the economy, such as
+high unemployment, budget difficulties, low profits, and how people cope when the economy sours.
+As a further refinement, we purged all of the “recession” articles that contained references to foreign
+economic activity in order to avoid the possibility of counting stories on recessions or slowdowns
+abroad as bad news about the U.S. economy. We also, extended our index to include 28 papers in
+addition to the Washington Post and The New York Times. Also, we were able to compute a similar
+
+7
+
+Similarly, Carroll (2003) collects the number of articles that mention the word “inflation” in front-page stories
+from The New York Times and the Washington Post.
+8
+Just why unfavorable news is heard outweighs favorable news being heard is an interesting question. Gassner
+(1999) argues that the media has a strong propensity, and history, to publish stories that instill fear, as would
+articles that dwelled on the possibility of a recession.
+
+3
+
+index from the nightly news broadcasts for ABC, NBC, and CBS. The recession indexes from
+newspapers and the nightly news broadcasts are very similar. Finally, we asked colleagues to read a
+large, random subset of articles more carefully to test whether the spikes in our R-word indexes are
+the consequence of increases in articles that highlight some negative aspect of the economy; we find
+that this is indeed the case.
+We also created a “layoff” index in a similar manner to the R-word index. Like the recession
+index, articles that mentioned “layoff” or similar phrases such as “job cuts” and “firings” in the title
+or first paragraph tended to focus on some negative aspect of the job market. One reason for creating
+a layoff index is that several consumer sentiment questions deal specifically with the job market, and
+we noticed an extremely large spike in the number of articles about layoffs in the beginning of 2001.
+Indeed, we find that our layoff index is related to the employment expectations component of the
+Michigan Survey.
+Constructing a measure based on articles that were upbeat about the economy was more difficult-the words “recession,” “layoff,” and “downsizing” are less ambiguous than their positive
+counterparts. “Economic recovery” was one phrase that we used, and our index does align fairly well
+with the “favorable news” index from the Michigan Survey.
+With these newspaper indexes, we attempt to answer two questions; what drives the movements
+in the recession and layoff indexes, and how are these indexes related to consumer sentiment?
+To answer the first question, we regress our indexes on past, current, and future values of
+traditional economic measures. We find that the frequency of articles that mention recession and
+layoffs generally follows the path of the business cycle with two notable exceptions. First, the
+number of articles that mention “recession” spikes up in 1990, and the number of articles that mention
+recession in the 1991-1992 period reach levels that are much higher than any other recession since the
+early 1970s. Although the actual downturn during the early 1990s was relatively mild, the R-word
+index is much higher during this period than during the recessions in the 1980s and late 1970’s (this is
+true for the television data as well). During the most recent recession, we found that our R-word
+index only deviated slightly from the predicted index based on the economic measures.
+In terms of the layoff index, the model has difficulty explaining the size of the spike in early 2001
+when many high-tech firms announced layoffs. Additionally, in the mid 1990s, when “downsizing”
+was a popular story, the index appeared to disproportionately represent what was happening in the job
+market overall. Of the three newspaper indexes, our economic recovery index is the most closely tied
+to actual economic activity (which is somewhat surprising because it was the most difficult index to
+derive). That said, in the early 1980s, the recovery index spikes to levels far above what a simple
+
+4
+
+model would predict. Of our three indexes, our recovery index appears to be only loosely related to
+consumer sentiment.
+We test how our indexes are related to consumer sentiment in several ways. We estimate models
+of consumer sentiment that include variables directly reflecting the state of the economy, forecasts
+from the Survey of Professional Forecasters, and our three newspaper indexes. We then estimate a
+vector autoregression (VAR) that allows for greater dynamics among the variables. Finally, we
+estimate models that allow for the proportion of people updating their assessments of the economy to
+vary as a function of the volume of reporting, as does Carroll (2003).
+Overall, we find that our newspaper indexes, especially the recession index, appear to have an
+independent influence on consumer sentiment after controlling for actual and forecasted economic
+conditions. We find that the layoff and recession indexes enter significantly into models for many
+measures of sentiment. Specifically, the various sentiment measures are negatively related to the
+recession and layoff indexes and positively related to the economic recovery index. In fact, sentiment
+models that contain the newspaper information do a noticeably better job of explaining several
+periods when sentiment dropped suddenly, such as in 1990 and again in early 2001. We find that the
+newspaper indexes are more influential in models of sentiment for general “business conditions” than
+in the personal financial conditions of the respondents to the sentiment surveys.
+The results from the VAR suggest that the recession index plays a role in understanding the drop
+in sentiment in the early 1990s, although the effects are not as strong as the previous results. Not
+surprisingly, we find that the effect on sentiment of a shock to our recession index, though
+statistically significant, fades fairly quickly; that is, repeated shocks to the recession index are needed
+to suppress sentiment for any considerable period, such as in the early 1990s when the recession
+index was significantly above its predicted value (given the state of the economy) for several
+months.
+Perhaps the most important channel in which the news affects sentiment is through how quickly
+people update their expectations. We find that during periods of a high volume of economic news
+coverage, people update their expectations much more frequently than in periods of low news
+coverage; updating occurs about twice as often during periods of high news coverage than low.
+When time-varying updating of expectations is incorporated, we find that the recession index still
+appears to influence sentiment.
+The next section of the paper presents an overview of the Michigan SRC Survey of Consumers.
+We follow by presenting our model of consumer sentiment, identifying the sources of information
+that consumers receive. Section IV goes into some depth about our newspaper indexes. This section
+
+5
+
+also talks about the ways in which we test whether our indexes are capturing what we want them to
+capture. Section V presents the empirical results from models of consumer sentiment that include the
+newspaper indexes. Section VI summarizes our conclusions.
+
+II. Surveys of Consumer Sentiment
+The two most popular measures of consumer sentiment are the Conference Board’s Consumer
+Confidence Index and the University of Michigan’s Survey of Consumers (SC). In this paper, we
+focus on the SC, although results from using the Conference Board measures are largely similar to the
+results from the SC.
+Salient features of the SC are summarized in table 2.1. The SC calls a sample of about 500
+households each month and asks a series of questions about current and expected economic
+conditions. These questions range from inquiries into the personal economic conditions of the
+respondent to more general questions related to the overall business climate.9 For most of the
+questions, respondents choose between one of three qualitative responses, and two types of indexes,
+aggregate and diffusion, are constructed from the answers. Aggregate indexes are computed as
+averages of responses to the individual questions; they include an index of current conditions and an
+expected conditions index, and their aggregate, the composite index. While these series receive the
+bulk of attention, both from the press and in economic studies, we also study the SC’s index of
+employment expectations.10
+The first panel of figure 2.1 shows the current and expected conditions indexes, along with the
+employment expectations index.11 The subsequent panels show the subcomponents that make up the
+composite index. In most time periods, the current conditions and expected conditions indexes are
+fairly closely aligned. However, the employment index exhibits several relatively large swings
+compared with the current and expected conditions indexes, especially in 1983, when employment
+expectations soared, and in 2000 and 2001, when employment expectations were extremely low. The
+next panel in figure 2.1 shows the two components of the current conditions index: current buying
+conditions and personal financial conditions. These two series are highly correlated and exhibit very
+similar swings during business cycles. The last panel of figure 2.1 shows the components of the
+9
+
+This distinction appears to be important since the role of the media is likely to have greater influence in the
+perceptions of overall business conditions rather than personal conditions.
+10
+This question receives attention, in part, because Carroll and Dunn (1997) suggest it may be related to
+changes in precautionary savings.
+11
+To more easily compare the question about unemployment expectations and the other questions easier, we
+construct a diffusion index for unemployment expectations for which increases in the index are associated with
+greater optimism about future employment prospects.
+
+6
+
+expected conditions index. Interestingly, consumers’ expectations for their income one year ahead do
+not necessarily align with their expectations for business conditions. In particular, in 2001 and 2002,
+consumers were more pessimistic about future business conditions compared to their expected
+incomes. Conversely, consumers were extremely bullish in late 2000 about expected business
+conditions five years out.
+For illustrative purposes, figure 2.2 shows the various indexes along with fitted values from a
+regression that explains the indexes using a basic set of economic variables, including current and
+lagged measures of stock market performance, inflation, employment growth, and the unemployment
+rate. Previous research has used similar sets of variables to model consumption. A fuller description
+of the variables used is in section V, as are the details of the regression results. The objective in this
+section is simply to illustrate how a set of economic variables is related the movements in sentiment.
+The economic variables in the simple model (which does not include newspaper information) cannot
+fully account for the sharp drop in the composite index in 1990; moreover, it poorly explains the
+ebullience of the late 1990s and 2000 and the subsequent decline in the index. This is true, as well,
+for most of the sub-indexes. In other periods, the models generally fare well.
+
+III. Model of Information Flows and Sentiment
+The literature on how people gather information and make decisions based on that information
+has been growing rapidly. One of the primary motivations for this literature is the realization that
+more traditional models that rely on rational expectations require refinement to account for the costs
+associated with gathering and processing information. To help organize the discussion of the
+literature and our approach to modeling sentiment in this paper, figure 3.1 shows a simplified diagram
+of information flows and decision making by consumers. The rays in the diagram represent potential
+information flows between points. These rays can be thought of in Shannon’s (1948)
+communications framework. The ray originates at an information source, some information is
+transmitted, and there may be noise in the transmission. There are constraints in how much and what
+type of information is transmitted as well as constraints on the receiving end. Therefore, the
+information received is not necessarily the same as the potential set of information.
+On the far left of the diagram is actual economic activity, which comprises the production of
+goods and services, financial markets, incomes, et cetera. Let all of the information about the
+economy up until time t be represented by Ωt . Information about the economy flows out primarily to
+four different sources. One is to the producers of economic statistics. The number of participants in
+this segment is large and includes federal government statistical agencies (the BLS, the BEA, the
+
+7
+
+Census), trade organizations, and private groups (such as the Conference Board). Many economic
+statistic producers rely on survey information and produce statistics with a lag and with error. Let
+
+ΩtES be the statistics that are released about the economy that are available at time t,
+(1)
+
+ΩtES = ES (Ωt ).
+The second place where information about the economy is analyzed is by experts, people who
+
+earn a living by interpreting information and make forecasts. This group takes information from the
+statistics producers, (1), as well as information gleaned from direct observations of the economy
+itself, such as company announcements. The information they potentially transmit to the public,
+(2)
+
+ΩtSPF = E (Ωt , ΩtES ).
+Another consumer of information from the statistics group is the media. In this paper, we posit,
+
+like Carroll (2003), that consumers get much of their information about the economy from the media.
+The media takes in information from experts, statistics groups, and from their own observations,
+(3)
+
+ΩtM = M (ΩtES , ΩtSPF , Ωt )
+From the consumer’s perspective, the information received from the media is not simply in the
+
+form of the facts produced by statistical agencies or the forecasts of professionals, but is a set of
+economic intelligence that has been filtered and interpreted by the media. An explanation for the
+importance of measuring how the media transmits stories about the information stems from
+information theory, as initially developed by Shannon (1948) and extended by Sims (2003) and
+Moscarini (2004). Sims (2003) notes that people have capacity constraints in processing information,
+and face the problem of extracting a signal from the information that is transmitted to them. In our
+case, consumers receive signals from news broadcasts and newspapers. As Sims notes,
+“Many newspapers report that the Federal Funds Rate to 3 significant figures
+every day, at a predictable location in the back of the business section. The vast
+majority of newspaper readers do not look at this number every day, and of those that
+do look at the page containing the number, the vast majority make no adjustment in
+their behavior, in reaction to the number. On the other hand, if the New York Times
+ran as a three-column, front page headline “FED UNEXPECTEDLY RAISES
+FEDERAL FUNDS RATE 1.5%”, many readers of the newspaper would likely act
+on the news…..If everyone were tracking the Federal Funds rate by the hour, it would
+not matter whether the newspaper put it on page one in one type, on the front page
+below the fold, on the first business page, or simply in the usual daily table with no
+mention in a text story. But in fact the treatment that newspapers (and TV) give the
+news affects the way people react to it, creating a common component to the
+idiosyncratic error generated by information-processing.”
+
+8
+
+Therefore, not only does the information that is conveyed in a newspaper story affect consumers’
+expectations, but also the way that information is transmitted. Perhaps related to the Sims argument
+is the apprehension about using the “R-word” for fear of damping expectations. For instance, during
+the Carter Administration, Alfred Kahn used the word “banana” instead of the word “recession” to
+reduce anxiety over the economy. More recently, The Economist magazine stated, “Some critics
+accuse the press of talking the economy into recession. More stories about recession, they claim,
+make businessmen and consumers feel gloomy, and so they stop spending.”12
+Let ν tM be a measure of the volume of various types of economic reporting (the next section of
+this paper delves into how we derive measures of ν tM ). The potential information that the consumer
+receives from the media is then
+
+ΩtM = M (ΩtES , ΩtSPF , Ωt ,ν tM ) .
+
+(4)
+
+In addition to the media, consumer i also receives information about the economy from her own
+experiences (and the experiences of people she knows), Ωi ,t . The potential information set of
+consumer i at time t, ΩCi,t , is the union of her own information and the information she receives from
+the news media, ΩtM ,
+(5)
+
+ΩCi ,t = C ( M (ΩtES , ΩtSPF , Ωt ,ν tM ), Ωi ,t ) .
+How consumers use that information in forming sentiment is described by
+
+(6)
+
+(
+
+)
+
+SiC,t = S C ( M (ΩtES , ΩtSPF , Ωt ,ν tM ), Ωi ,t ) .
+
+Our objective in this paper is to estimate (6). Much attention has recently been devoted to modeling
+equations such as (6), including models referred to as rational inattention, bounded rationality, and
+sticky information. Several of the more recent models emphasize the costs and constraints of
+acquiring and processing information, particularly when that information is imperfect. We believe
+that a more complete model of consumer sentiment should borrow elements from several of these
+models, as we describe below.
+As a simple benchmark, we pose that consumers continuously update their expectations, and
+represent this by linearizing (6),
+(7)
+
+12
+
+Si ,t = α + β 0 ESt + β1SPFt + β 2ν tM + β 3Ωii ,t + ε i ,t .
+
+“The R-word,” The Economist, April 5, 2001.
+
+9
+
+Information about the economy, ΩtES , is represented by the vector ESt, and the opinions of experts,
+
+ΩtSPF , is captured by a vector SPFt. The error term, ε i ,t , captures the information about the economy
+not contained in the three terms (ES, SPF, and ν M ).
+Aggregating across individuals for equation (7) yields an identification problem between
+
+β 0 and β 3 , i.e., if the surveys of consumer sentiment are random samples, then the aggregation of
+their own personal experiences of the economy may match of those of the national statistics. The
+resulting equation for estimation in our naïve model then is,
+(8)
+
+St = α + β 4 ESt + β1SPFt + β 2ν tM + ε t .
+
+Equation (8) posits that each consumer forms expectations about the economy at time t based on the
+information available to them. However, this model potentially deviates from a rational expectations
+model with costless information gathering and processing in that the parameters of (8) can identify
+what information is used to form expectations. For instance, consumers, in an effort to reduce costs,
+may place weight on the ν tM terms. Another way in which consumers may reduce costs in forming
+expectations is to use adaptive expectations, placing weight on the most current observations and
+ignoring the forecasts of professionals. Further, as the behavioral literature suggests, people may use
+rather simple rules of thumb when forming their expectations about the economy (see Gabaix and
+Laibson (2002)). The rules of thumb would involve lower costs of processing information and
+perhaps lower costs of acquiring information (consumers may rely on data that easily accessible, like
+gasoline prices and whether their friends and family are having a tough time in the job market).
+Although we do not place a great deal of weight on (8), we argue that it should not be dismissed
+entirely. Unlike the questions on inflation expectations, the responses we model are not ones in
+which point estimates are asked for, but instead are more qualitative, which implies that the cost of
+processing whatever information is at hand (on the mind, actually) may not be great. When asking
+consumers about their own financial conditions or what they think about their own employment
+prospects over the next year, these may be questions that many people do think about frequently, and
+could readily answer the question using information that is fairly recent. Additionally, in the models
+that follow, much weight is placed on the serial correlation of the error terms. We recognize that the
+
+10
+
+error term captures, among other things, variables that affect sentiment but are not contained in the
+model, and these omitted variables are likely to be serially correlated.13
+As reviewed in Reis (2003), a growing number of models differ in their mechanisms but generate
+the prediction that not everyone continuously updates her expectations and, instead, only updates her
+expectations periodically. Several papers assume or generate time dependent rules, of which one
+extreme rule is that expectations are updated only at fixed intervals, as in Carroll (2003) and Mankiw
+and Reis (2002). Following Carroll (2003), let λ be the share of the sample that updates their
+expectations between time t and t-1, and the remaining (1-λ) leave their expectations unchanged from
+the previous period. In this case we have
+
+St = λ (α + β 4 Et + β1SPFt + β 2ν tM ) + (1 − λ ) St −1 + ε t ,
+
+(9)
+
+the general equation Carroll (2003) estimated for inflation and employment expectations. The mean
+time between updates is 1/λ. Mankiw, Reis, and Wolfers (2004) find evidence for inflation
+expectations that is consistent with this model.
+However, an unattractive quality of (9) is that λ is fixed, and is not derived from a model.
+Instead, there are several compelling reasons to believe that λ varies over time and would be an
+increasing function of the amount of news on the economy. For instance, increased news coverage of
+the economy may be a signal to consumers that there has been a change in economic conditions, and
+therefore consumers will be more likely to update their expectations. Additionally, the models of
+Reis (2003) and Moscarini (2003) produce the result that expectations are only updated intermittently
+because of the costs associated with acquiring and processing information. Reducing those costs
+would increase the frequency that expectations are updated.14 In periods in which there is abundant
+news on the economy, it is easier (i.e., less costly) for individuals to gather information about the
+economy. One way in which the Reis (2003) and Moscarini (2003) models differ is that Reis (2003)
+assumes that correct information is used when updating expectations (β2 =0) whereas Mocarini’s
+model is similar to Sims in that β2 may not be 0.
+Let TN be a measure of the total news about the economy, and
+(10)
+
+λ = λ (TN ), where
+
+∂λ
+> 0.
+∂TN
+
+Our consumer sentiment model at time t then becomes,
+(11)
+
+St = λ (TN t )(α + β 4 Et + β1SPFt + β 2ν tM ) + (1 − λ (TN t )) St −1 + ε t .
+
+13
+
+Examples of omitted variables are concerns over corporate malfeasance, events overseas, and high inflation.
+We recognize the possible omitted variables, and that these omissions contribute to the serial correlation of ε t .
+
+14
+
+In particular, Reis (2003) shows that the time between updates depends on the square root of planning costs.
+
+11
+
+Carroll (2003) indeed finds some evidence that inflation expectations are updated more frequently
+when there are more news stories about inflation.
+Equation (11) shows that there are three channels in which the media affects sentiment. The first
+is in conveying basic economic information and the opinions of professionals; the second is through
+the intensity of coverage; and the third is through the proportion of the population that updates their
+expectations. Measures of ν tM are needed in order to estimate (11), and the construction of these
+measures is described in the next section.15
+
+IV. Construction of the media indexes
+This section details how we construct measures to quantify the tenor and volume of economic
+reporting. Our approach is an elaboration of The Economist’s R-word index; we construct indexes
+reflecting the number of articles about recession, layoffs, and economic recovery based on articles
+from 30 large newspapers. We also perform a number of checks to ensure that the indexes we
+construct are indeed correlated with the volume and the tone of reporting. In particular, there are two
+types of error that we address. The first type of error occurs if the keywords we search for do not
+reflect the tone of the articles nor where the appear in the paper. To address this concern, we
+correlate our recession index with indexes based on articles that mention recession in the headline or
+appear on the front page, in addition to an index based on the evening news. As a further step in
+quality control, we draw a random sample of articles over time and manually categorize them based
+on the thrust of the article. A second type of error is occurs if our indexes cover only a small portion
+of the economic news that is being reported, i.e., the search procedure misses a significant number of
+relevant articles. However, we find that our indexes are very highly correlated with responses to
+favorable and unfavorable news heard questions from the Michigan SRC Survey of Consumers.
+This section is somewhat lengthy, and readers can jump ahead to the results section if they are not
+interested in the details of how the indexes are constructed and the alternative indexes that were
+considered.
+
+15
+
+Another extension we pursued borrows from the ideas presented in Akerlof, Dickens, and Perry (2001)--that
+expectations are updated more frequently when economic conditions are changing rapidly, that is, when the
+return to updating expectations is higher. In this case, λ may be a function of other variables as well, some of
+which are contained in Et. However, separately identifying the effects of the economy from the effects of total
+news proved difficult, which is not surpising given the correlation between TN and E.
+
+12
+
+IV.1 Data sources
+Our newspaper indexes are based on the number of articles that contain keywords or phrases that
+appear in the headline or first paragraph of articles from 30 large papers. Two databases were used:
+Dow Jones Interactive and Newslibrary. As shown in table 4.1, of the top 50 papers in 1998 ranked
+by circulation, we were able to retrieve usable information from 26; we also retrieved data for four
+other papers not in the ranking. By circulation, our sample comprises 67.4 percent of the top 50
+papers. The far right column in table 4.1 shows the dates for which the data from the various
+newspapers are first available.16 The newspaper with the earliest data in our sample is the New York
+Times, for which observations begin in January 1969. Other papers enter our sample between 1977
+(the Washington Post) and 1988 (the Denver Post). We did not include papers whose data began
+after 1988 because, for the benefit of time consistency, we wanted a long time series for each paper in
+the sample.
+Table 4.2 contains summaries of the search algorithms used to create our three indexes: recession,
+layoffs, and economic recovery. We gathered only those articles in which the keywords were in the
+headline or the first paragraph. Additionally, we purged articles that contained any of a long list of
+keywords, mainly names of foreign countries and foreign cities. For example, we found that most
+articles that mentioned “Japan” in the headline or first paragraph focused on economic activity in
+Japan and not the U.S. We also created indexes for tax increases; increasing and decreasing inflation;
+and plant closings.17 The results from regressions with these other indexes did not add to
+understanding swings in consumer sentiment.
+Additionally, we construct indexes using different weighting schemes. For instance, the index we
+use in section V is based on the aggregating the percent changes between periods of articles in each
+paper weighted with circulation weights. This index assumes that the change in the number of
+articles that mention recession in a specific paper matters for sentiment, not the absolute number.18
+Our results are insensitive to exactly how the indexes are constructed.
+16
+
+One problem that arises in our data is the manner in which articles from wire services are included. For
+instance, an Associated Press (AP) story that is included in a newspaper may or may not be in the database.
+However, looking through our data we noticed that some AP based stories will appear in our database for
+multiple papers in a day. We also wanted to include the AP and other news wire services directly, but we found
+that the news wire data was polluted by multiple mentions of the same article. That is, a story would appear
+multiple times as it becomes modified during the day. Some articles would appear many times, while others
+would appear just once.
+17
+We found that our inflation indexes were useful for modeling inflation expectations from the Michigan
+Survey, much like Carroll (2003), but the inflation indexes were only marginally useful in explaining the swings
+in other sentiment measures.
+18
+There is variance across papers in the mean number of articles that mention recession. For instance, between
+May 1990 and July 1992, a period in which the number of recession articles was very high, the Wall Street
+
+13
+
+For each of our three indexes, we also construct a number of sub-indexes that vary by timing,
+whether or not the keywords are in the headline of the article. Since this paper mainly focuses on the
+Michigan survey, we compute the change in articles from month to month based on lagging the daily
+newspaper data so that the current period value of the newspaper index represents a month’s worth of
+articles that could be in the information set of the nearly all the survey respondents.19
+
+IV.2 Recession indexes
+Figure 4.1 shows three different recession indexes that have been standardized. One series is The
+Economist’s R-word index, a quarterly series of the number of articles in the Washington Post and the
+New York Times that mention the word recession. A second is a quarterly index based on articles that
+met the criteria in table 4.1. The last series is a recession word index from the evening news
+programs of ABC, NBC and CBS, constructed in the same manner as our newspaper recession
+index.20 We include the evening news index to examine whether the news reported in newspapers has
+similar properties to news reported elsewhere.21
+There are several things to note about the time series patterns of the three series. First, the series
+have roughly the same contours, suggesting that our newspaper indexes are also capturing the
+changes in television reporting of the economy. Second, and what is perhaps most surprising, for
+each of the three indexes, the peaks of the early 1990s exceeded the peaks of the 1980s, although the
+economic downturn in the early 1980s was much more severe than the 1991 recession. Third, the
+three series also have a double peak for the recession of the early 1990s, and the peak in 1992 exceeds
+the peak in 1991 for the TV and the R-word indexes. Fourth, at the beginning of downturns, all of the
+indexes quickly ramp up. However, as the economy improves, the TV and the newspaper indexes fall
+off more sharply than The Economist’s R-word index.
+Journal averaged 1.69 recession articles per day whereas the San Francisco Chronicle averaged just 1.17
+articles.
+19
+We experimented greatly with the timing of all of our newspaper indexes. For the recession index, we found
+that an index based on articles that appear in the first half of the month performed marginally better than
+indexes based on other timing methods.
+20
+We performed a “recession” search for the major network evening news programs by using the Television
+News Archive (TNA) maintained by Vanderbilt University. The TNA includes summaries of all of the stories
+ABC, CBS, and NBC going back to 1968. We downloaded the data for 1970 forward and deleted those
+summaries that mentioned foreign countries, just as we did for the newspaper indexes. We constructed an
+evening news recession index by weighting each network’s news program by their ratings.
+Data for CNN began in 1996. Dow Jones Interactive and other web sites contain information on other
+television news programs, but most of this information is only available beginning in the late 1990s.
+21
+The evening news broadcast of the major networks has been a major news source for consumers, according to
+the Pew Research Center (2002), although its importance had declined over time. Blinder and Krueger (2004)
+find that most popular source of information about economic information is television, followed by newspapers.
+
+14
+
+Our recession index is also highly correlated (0.90) with a sub-index based on articles that have
+“recession” in the headline, as seen in figure 4.2. Not surprisingly, we find that the results in section
+V are robust to the choice of recession index.
+We also have attempted to measure the tone of the articles that mention recession, because a
+simple count of articles that mention recession or economic slowdown may not be indicative of the
+tone of the article or the quantity of information about the economy flowing to consumers. To see
+whether the tone of articles change over time, and especially over the course of a business cycle, we
+chose a random sample of articles each month and had two people review them. Each person placed
+an article in up to two of eight different categories.22 Finally, one of the authors reviewed all of the
+independently graded articles to make sure that all of the people reviewing the articles were working
+under the same assumptions. The random sample ranged from 30 to 60 articles per month, depending
+on the total number of articles in the database for a month.23
+We found that about ½ of the articles fell into the “bad conditions” or “expected bad future
+conditions” categories, and the share of articles that fell into these negative categories did not vary
+much over the business cycles of the early 1980s, early 1990s, and start of this century. Surprisingly,
+the proportion of articles about “bad future conditions” was small, except for a small jump in the late
+summer of 1990, after Iraq invaded Kuwait.
+Figure 4.3 shows our recession index divided by 2 and our recession index multiplied by the
+share of articles each month that fell into the bad conditions or expected bad future conditions
+categories for each of the recessionary periods of our sample. The series are strongly correlated;
+suggesting the “bad” index possesses similar time series properties to those of the overall recession
+index for each of the business cycles in our sample.24
+22
+
+The categories vary by whether the article is about current conditions or future conditions and whether the
+tone of the article is negative, positive, or neither. Additionally, there are categories for articles that primarily
+concern the Federal Reserve or the political process. Articles were put in the Federal Reserve category if the
+main subject was a statement by a Federal Reserve official or the articles were about monetary policy. Articles
+placed in the political category were those where the primary subject was a statement made by a political leader.
+Many of these articles often have a rebuttal, so ascertaining whether the article is negative or positive is often
+difficult. Also, we noticed that some of the increase in the indexes for 1992 may have been because of the
+elections and newspapers were reporting quotes from major candidates that discussed “recession.” Articles that
+dwelled on local government budget problems during economic downturns usually were not placed in the
+political category.
+23
+We chose this approach because the enormous flexibility of the English language makes it difficult to write
+algorithms that would somehow make a judgment about the tone of the article. One program, Diction, has been
+used by Hamilton (2004) to help distinguish between hard and soft news, but this program is not geared for
+what we needed.
+24
+As we stated in the introduction, because of the political cycle, our recession index may deviate away from
+what economic fundamentals would suggest. Based on our random sample results, the political cycle plays
+some role, but that role is relatively minor. We also used algorithms to flag articles of a political nature by
+
+15
+
+We should also note that the swings in the recession index (and for the other indexes used in this
+paper as well) are not the result of a large swing from a single paper or from a small subset of the
+newspapers in our sample. We constructed four regional indexes and found that the contours of the
+series were very similar, with one interesting exception--our index for the western part of the country
+had a more pronounced spike in 1992 than the other three, which resulted from newspapers in
+Southern California, an area that was hit particularly hard in the early 1990s.
+
+IV.3 Layoffs
+Another set of articles that caught our attention that may adversely affect people’s perceptions of
+the economy are articles that focus on the labor market, particularly about layoffs. We collected
+articles that mention in the title or first paragraph the words “layoff,” “layoffs,” “job cuts,”
+“downsize,” or “downsizing.”25 Figure 4.5 shows our layoff index and the layoff-headline index.
+Like the indexes for recession, we find that the headline index tends to be more volatile, but
+experiences coincident swings. The correlation between the two series is 0.82. In the work that
+follows, we rely on the overall layoff index.
+Two differences between the layoff and recession indexes stand out. First, the layoff index
+exhibits much greater high-frequency variance. Second, the layoff index is not nearly as cyclical as
+the recession index. For instance, one of the larger spikes in the layoff index occurs in the mid-1990s
+when there was much discussion of “downsizing.” The other noticeable spike occurred in late 2000
+when there were many stories about individual companies laying people off. Frequently, a layoff
+announcement by a company resulted in an individual article about that announcement in several
+newspapers. For the tone of the articles, we did not perform the same analysis as for recession since
+most of the articles that mention the key words tended to focus on adverse news about employment.
+
+IV.4 Bad news index
+The recession and layoff indexes are indicators of “bad” news that is being reported in the
+economy. As a crude test of whether these indexes are capturing the amount of bad news being
+searching for a long list of keywords. This list of keywords included the names of major political figures over
+the past several decades along with words such as “congress,” “democrats,” “republican,” and “election.”
+Figure 4.4 shows that for the 1990-1993 period, the algorithm based method for flagging political articles yields
+similar results to our judgmental results from the random sample. If the political articles were eliminated from
+our recession index, the variance of the series would decrease only by about 5 percent. Furthermore, only a
+relatively small portion of the magnitude of the recession index in the early 1990s is attributable to political
+articles.
+25
+Other words or phrases that we searched for, such as firings, a problem in that they were ambiguous--for
+instance, “firings” had the problem of bringing up articles about gunshot cases.
+
+16
+
+reported, figure 4.6 shows the proportion of respondents in the Michigan SRC Survey of Consumers
+(SC) that reported they heard unfavorable news over the past several months fitted with the two
+indexes. The fitted values are what we refer to our “bad news” index. The bad news index matches
+most of the swings in the unfavorable news heard question. One exception is in the early 1980s,
+when our bad news index remains at fairly low levels. Like Carroll (2003), we find that articles about
+in inflation are rampant during this period, and inflation articles are not part of our index. Also, after
+2001, the proportion of respondents that report having heard unfavorable news remains high while
+our bad news index drifts downward. One reason for this discrepancy could be stories about
+corporate malfeasance and accounting scandals.
+
+IV.5 Economic recovery indexes
+The recession and layoff indexes capture two elements that may affect consumer sentiment. We
+found that deriving algorithms that portray the opposite side of the coin was more problematic. The
+one phrase we found that appears to be the most promising is “economic recovery,” and we
+constructed indexes for this phrase exactly like we constructed for recession and layoffs. Figure 4.7
+shows the economic recovery index along with the Michigan Survey’s favorable news heard index.
+The two series are positively correlated (0.56) and experience some rather large co-movements in the
+early 1980s. After the 1980s, the series are less correlated. However, we are puzzled by the
+relatively low values of the favorable news heard index in the late 1990s, a period of exceptionally
+strong economic performance.
+
+IV.6 Understanding the swings in the newspaper indexes
+Before delving into the relationship between reporting and consumer sentiment, this section
+examines the relationship between measures of economic activity and measures of economic
+forecasts and our newspaper indexes. The objective of this section is to explore how much of the
+variation of the newspaper indexes is accounted for by the state of the economy.
+The models we estimate are of the form,
+(12)
+
+N j ,t = α 0 + α1 ESt + α 2 SPFt +ν Mj ,t
+
+where the α’s are parameters to be estimated, ESt is a vector of economic information that is available
+to newspapers at time t, and SPFt is a vector of forecasts from the Survey of Professional Forecasters.
+More thorough descriptions of the variables that compose ES and SPF are in table 5.1. The
+dependent variables are the newspaper indexes, where the subscript j refers to the recession, layoff, or
+recovery index. Detailed results of these regressions are available upon request.
+
+17
+
+Figures 4.8 through 4.10 compare the fitted values from (12) to the actual values. The largest
+residuals are in the early 1990s for the recession index. The fitted values indicate that, given the state
+of the economy, there were more recession articles than in the early 1980s. For the layoff index,
+figure 4.9, the large spike in 2000 is largely unexplained by the economic variables. There are
+sporadic spikes in the layoff series from 1992 through 1996 that are also hard to explain. The results
+for the economic recovery index are presented in figure 4.10. The models fail to explain the size of
+the jump in the economic recovery index in 1983, although, as we mentioned before, that spike does
+coincide with the favorable news heard index.26
+
+V. Empirical Results
+This section presents results from several models of consumer sentiment, building upon the
+models presented in section III and using the newspaper indexes presented in section IV.
+
+V.1 Variables
+The variables used in the models, their definitions, means and standard deviations are presented
+in table 5.1. The variables fall into three sets; economic statistics (ES), survey of professional
+forecasters (SPF), and newspaper variables (ν M ). All of the variables are constructed so that they
+represent information that would be available to consumers and the media at the time consumers are
+interviewed for the sentiment measures. For instance, the economic variables include the monthly
+percent change of the S&P index through the first Friday of the month and the percent change in
+gasoline prices is based on the current reading of the Lundberg Survey. The change in private payroll
+employment and unemployment data are appropriately lagged (the employment report for month t is
+usually released on the first Friday of month t+1).
+The newspaper variables, ν M , are residuals from the recession, layoff, and economic recovery
+indexes described in section IV. The SPF variables are forecasts for real GDP growth for the current
+quarter and up to four quarters ahead after controlling for the current economic statistics.
+26
+
+In this paper we do not model the media’s decision on what news to publish, although we think that is an
+interesting area for further research. In particular, we think that research that addresses the question of why the
+media intensely covers one story very intensely for a period of time deserves attention. The patterns we find in
+how coverage varies over time are more closely tied to the reviews provided in Glassner (1999). Glassner
+provides numerous examples of how the media emphasizes certain stories, especially stories that cause fear,
+such as crime, plane crashes, road rage, and many others. He claims that the amount of coverage given to these
+stories is not consistent with either the risk faced by the public nor what has been happening over time. He
+contends that “fear” sells, and an interesting question is why that would be the case.
+
+18
+
+V.2 Results
+Table 5.2 presents the results from estimating the continuous updating model,
+(13)
+
+St = β 0 + β1 ESt + β 2 SPFt + β3ν tM + ε t .
+
+The columns in the table vary depending on the sets of variables included in the model and by
+whether or not lags of the dependent variable are included. The first column of table 5.2 shows the
+estimates of the β’s for the composite SC index when only the economic variables are used.27
+Generally we have found that relatively short lags enter into the models of sentiment, and the vector
+of economic variables usually contains the information that arose over the past two months. The
+exceptions to this are the CPI (which is measured on a year-over-year basis) and the stock market
+(which contains a year-over-year change in addition to the two months of most recent changes). In
+this model, most of the variables are significant and the adjusted R-squared is 0.76. The second
+model augments the first by including SPF and newspaper variables, and the amount of the variance
+explained increases to 0.87. The contemporaneous values of the recession, layoff, and recovery
+indexes enter significantly, as does the lag of the layoff index.
+One of the channels through which the news affects consumer sentiment is by providing
+information about the economy. Certainly the conveyance of information from professionals to
+consumers is performed largely by the media. However, as mentioned earlier, to what extent some of
+the economic variables in the model reflect information heard from the news rather than from
+personal experience is not clear. This is especially true for the variables on changes in private payroll
+employment and the unemployment rate. As a crude test of where consumers get their information
+about the economy, we also included contemporaneous values of payroll and unemployment rate
+information into our models. For instance, sentiment in June could also depend on the unemployment
+rate in June although the official unemployment rate for June is not released until July. If consumers
+place much weight on their personal experiences in forming their opinions, then sentiment could
+depend on contemporaneous values of these variables. We repeatedly found that sentiment was not
+correlated with the contemporaneous values of changes in private payrolls and the unemployment rate
+but was related to a month lag of these variables.
+Figure 5.1a presents the composite index and several sets of fitted values. The first set of fitted
+values is from a model that only uses the economic variables, and the second set of fitted values is
+based on the model that also include the SPF and newspaper measures. As shown in figure 5.1a, the
+27
+
+The standard errors are based on heteroskedasticity and autocorrelation consistent estimators.
+
+19
+
+SPF and newspaper variables greatly assist in explaining several of the extreme episodes in
+sentiment. First, the SPF and newspaper indexes help to understand the precipitous drop in sentiment
+in 1990. Second, to a lesser extent, the indexes better help explain the low values of the sentiment
+index in late 1991 and early 1992. More recently, the SPF and newspaper indexes help us better
+understand the ebullience in 2000 and the rapid fall thereafter. These observations for the composite
+index also hold for the expected conditions index and, to a lesser extent, for the current conditions
+index. For the unemployment expectations index, the SPF and newspaper variables again provide
+useful information for the 1990-1991 and the 1999-present periods.
+Just how much the newspaper indexes, the SPF, and the other variables in the models help to
+understand the swings in sentiment is shown in the next set of figures. The means of all of the
+relative contributions in this set of figures are set to zero. The top panel of figure 5.2 shows the
+relative contributions of the three newspaper indexes and their sum (as shown by the solid black line)
+for the composite index. The newspaper indexes take off about 10 points from the composite indexes
+in late 1991 and early 1992, mainly because of the recession index. In late 2000 the spike in layoff
+articles removes about 9 points from the composite index. On the plus side, in the spring and summer
+of 1982, the newspaper indexes added 4 to 8 points. During 2002, the news boosted sentiment by a
+couple of points, mainly because the number of articles about layoffs was lower than the models
+would have predicted (that is, the layoff residuals were negative).
+The contributions of newspaper articles to the expected conditions and current conditions indexes
+are very similar. However, the contributions of newspapers to the employment expectations are very
+large, especially the contribution coming from the layoff index, as we would expect. In late 2000, the
+contribution from layoff articles lopped off nearly 15 points from the employment expectations index.
+The contributions from the recession indexes are not as large, relatively speaking. Another
+interesting feature of the employment expectations index is that the contributions from the economic
+recovery index are larger than in the models for the other measures of sentiment.28
+
+28
+
+There are several reasons to suppose that some of the coefficients in the models presented in this section may
+vary over time. Regarding the news variables, it has been documented that the share of the population that
+reads a daily newspaper (American Newspaper Association of America) or watch the evening news (The Pew
+Research Center) has declined over time. However, counter acting these downward trends are increases in the
+share of people getting news from the Internet and from cable news channels. We tested many models whether
+the news coefficients changed over time and did not find there to be compelling evidence of changes.
+Another hypothesis we explored was whether the coefficients on the stock market variables changed over
+time, reflecting the increasing share of the population that hold equities. Again, we found no evidence that the
+coefficients on the stock market variable changed over time.
+
+20
+
+The results presented so far are from the simplest model we estimate. One set of statistics not
+reported on table 5.2 is the serial correlation of the error terms in (13), which is indeed significant.
+The next section explores models that include a lagged dependent variable, to account, as discussed in
+section III, for the possibility of “sticky expectations”.
+
+V.3 Vector autoregressions
+The continuous updating model discussed in the previous sections was an exercise to parse out
+the contributions of the newspaper variables, controlling for variables related to the current and
+expected state of the economy. It explicitly did not account for the dynamic interactions among the
+variables. We next estimate a VAR to attempt to trace out the dynamic interrelations of the sentiment
+and newspaper variables, while controlling for the effects of the state of the economy.
+When constructing the VAR, it unreasonable to include all of the economic variables from the
+previous sections as endogenous variables. It is important, however, to include these variables in the
+specification to account for those parts of the sentiment and newspaper variables that reflect the
+current state of the economy. It could be the case that consumer sentiment affects investor behavior,
+the opinions of forecasters, and the decisions of businesses through several channels. Those
+relationships could be quite complex and we are currently investigating those relationships in a
+companion paper. In this paper, we take a more restrictive approach and assume that the economic
+variables are exogenous. This assumption is supported by tests of causality in small models or
+several variable VARs that consistently ruled out any effects of sentiment or newspaper-related
+variables on the economic variables.
+The specification of the VARs we estimate is,
+(14)
+
+X t = Π 0 + Π1 X t −1 + K Π p X t − p + ΦZ t + ε t ,
+
+where Xt is a vector consisting of the endogenous variables (a sentiment variable, a newspaper
+‘recession’ variable, and a newspaper ‘layoffs’ variable) and Zt is a vector containing the exogenous
+variables.29 The VARs included two lags of the endogenous variables, as chosen by the AIC, FPE,
+and HQ information criteria.30 Tests of Granger-Causality were performed to determine whether,
+after controlling for the state of the economy with the vector of exogenous variables, lags of the
+newspaper variables were predictors of sentiment and vice-versa.31 One rejects the non-causality
+29
+
+We dropped the economic recovery index from the VARs because it proved not to be related to any of the
+four sentiment measures in the analysis.
+30
+The BIC/SIC always chose one lag.
+31
+Results of unit root tests were mildly ambiguous about the degree of integration of the sentiment and
+newspaper variables (depending on the test performed and lag length selection procedure, though unit roots
+
+21
+
+hypothesis of the recession newspaper index. However, one does not reject the non-causality
+hypothesis of the layoffs index in the sentiment or recession newspaper equations.
+Figures 5.3 display the impulse responses generated from the estimated VARs. For each of the
+systems, the contemporaneous innovations are ordered sentiment-‘recession’-‘layoff’;
+contemporaneously, a shock to sentiment affects all three variables; a shock to ‘recession’ affects
+itself and ‘layoff’ contemporaneously; and a shock to ‘layoffs’ only affects itself contemporaneously.
+Unlike what is often the case with VAR analysis, this is uncontroversial. By construction, the timing
+of the current period newspaper series is such that they cannot contemporaneously affect the
+sentiment variables. The contemporaneous shocks are decomposed with a Choleski decomposition.32
+The first row of the impulse response graphs displays the results of a shock to the sentiment
+variables, controlling for the economic variables. For each of the four models, the effect of a shock to
+sentiment on itself and on the newspaper variables is significant and fairly long lasting.
+The second row displays the results of a shock to the recession index. As in the results presented
+in table 5.2, this shock has a statistically significant effect on sentiment. The shock tends to be short
+lived, returning to close to zero in several months and being statistically insignificant from zero after
+the first month.33 As a result, a long-lived effect of news on sentiment would require a sequence of
+shocks. One exception is for the Michigan current conditions index where a shock to the recession
+index has a significantly negative effect on sentiment for nearly a year.34 In terms of magnitudes, the
+
+were rejected more often than not). Because of there was some uncertainty of the order of integration, however,
+the modifications of the Granger-causality tests suggested by Toda and Yamato (1995) were employed. These
+tests are robust to the order of integration of the variables and are performed as follows: Suppose one believes
+the true lag length of the VAR in (1) is p, and so one wants to test the hypothesis that lags 1 through p of the ith
+variable are jointly insignificant in the equation for the jth variable. If one assumes the maximum order of
+integration of the variables in the VAR is k, one estimates a VAR with p+k lags and tests whether the first p lags
+of the variable i are significant in the jth equation; like the standard Granger-causality tests, the test is
+asymptotically χ2. The drawback of the tests is, as one would expect, that overfitting the VAR with p additional
+lags of the all the endogenous variables reduces the power of the test. But, the tests have a standard asymptotic
+distribution and, although one might be uncertain about the order of integration of the variables in questions,
+one is likely to have a reasonable idea of an upper bound to the order of integration. In this case, the maximum
+order of integration of the sentiment and newspaper variables is fixed at one, and the model selection criteria
+pick two lags for the VAR. Therefore, for the Granger-causality tests, a VAR(3) is estimated, and the
+significance of first two lags of each of the variables is tested in equations for the other variables. As shown in
+table 5.5, one generally fails to rejects non-causality of the sentiment variables in each equation of the
+newspaper variables.
+32
+Because the order of integration of the variables is not certain, as shown in Phillips (2000), any long-run
+analysis using the resulting impulse responses should be treated with a great deal of caution. The short-term
+responses, however, should not be problematic.
+33
+The standard errors provide 90 percent coverage and are constructed by the bootstrap technique proposed by
+Runkle (1987) using 10,000 iterations.
+34
+The Michigan current conditions index is a linear combination of the current buying conditions index and the
+current financial conditions index. The VARs were estimated using both measures as the sentiment variable.
+
+22
+
+effects of a one standard deviation shock to the recession index are about half as much as the effect
+from the continuous updating model.
+The third row displays the results of a shock to the layoff index. Unlike the results in the
+continuous updating model, the layoff index only has a significant effect on sentiment for the
+employment expectations measure. Also, the magnitudes of the effects of a shock of layoffs on
+sentiment are much smaller than those found in the continuous updating model.
+
+V.4 Updating expectations
+The continuous updating model was estimated with heteroskedasticity and autocorrelation
+consistent standard errors, and was agnostic on the source of the serial correlation in the error terms.
+We now assume that the serial correlation arises because expectations are sticky, that is, not everyone
+updating their expectations in a given period. As discussed previously, it is likely that the proportion
+of people that update their expectations about the economy (λ) varies over time, and Carroll (2003)
+finds strong support for this hypothesis. As we argued in section III, λ is likely to be a function of the
+total news about the economy, TN. We construct TN as the sum of articles that comprise the
+recovery, recession and layoff indexes, and this index is presented in figure 5.4.35
+The first model we estimate has two news regimes, high and low, like Carroll (2003). High news
+is defined when TN is more than one standard deviation above its mean, and the other periods are
+“low news”. The estimated model is,
+(15)
+
+St = (λ0 (1 − Dt ) + λ1 Dt ))( β 0 + β 4 Et + β1SPFt + β 2ν tM ) + (1 − (λ0 (1 − Dt ) + λ1 Dt )) St −1 + ε t ,
+
+where Dt is 0 in low news periods and 1 in high new periods. The estimates and standard errors for λ0
+and λ1 from estimating (15) are presented in table 5.6. The later columns display 1/λ, the mean time
+between updates.
+Except for the current conditions index, the differences in λ0 and λ1 are statistically different and
+economically stark. In terms of statistical significance, λ0 is significantly different from λ1 at the 1
+percent level for the three sentiment measures. In terms of the magnitude of the difference, λ1 is 7090 percent larger than λ0. These differences imply large differences in the mean time between
+updates. For instance, the mean time between updates for employment expectations drops from an
+The significant and long-lasting effects of shocks to newspaper indexes come through both channels. The
+effects of newspaper shocks to both current financial conditions index are significant and long-lived.
+We also estimated (14) for the three components that make up the expected conditions index. We find that
+the shock to the recession index is much larger for expected business conditions (1 and 5 years out) compared to
+the expected personal financial conditions.
+35
+We tried several other measures for total news and came up with similar results.
+
+23
+
+average of 5.4 months to 1.9 months when transitioning from the low to high news states. These
+results are striking in that they show there are periods in which consumers do update their perceptions
+and expectations about the economy quite regularly.
+Table 5.5 presents the remaining summary statistics from estimating (15) for the four measures of
+sentiment. Unlike the case in the continuous updating model, many of the variables in the model are
+statistically and economically insignificant. The change in the S&P 500 in each of the two previous
+months is significant for all of the equations, as is the unemployment rate (check). However, the
+change in payroll employment, most of the SPF variables, and gasoline prices tend to have high
+standard errors relative to the magnitude of their coefficients.
+In terms of the newspaper variables, the recession index is significant for the composite index and
+the current conditions index. The layoff index is significant for employment expectations. We also
+estimated (15) using the “bad news” index presented in section IV, which is a linear combination of
+the recession and layoff indexes. In each of the four models, the coefficient on the bad news index
+was significantly different from 0 at the 1 percent level.
+How sentiment in (15) is affected by a one standard deviation shock to the newspaper variables is
+summarized in table 5.6. During periods of high news, the effects of shocks to the newspaper indexes
+are almost twice as large during high news periods than low news periods for all the sentiment
+measures except the current conditions index. Also, the results from the VARs tend to lie between
+the high and low periods.
+We extend our periodic updating model one step further by allowing a more flexible structure for
+λ(TN). Specifically, we estimate
+(16)
+
+St = λ (TN )( β 0 + β 4 Et + β1SPFt + β 2ν tM ) + (1 − (λ (TN )) St −1 + ε t ,
+
+where
+(17)
+
+λ (TN ) = δ +
+
+φ
+ −(TN − κ ) 
+1 + exp 
+
+ρ
+
+
+
+.
+
+Equation (17) is a form of the logistic distribution where the four lower case Greek letters are
+parameters to be estimated. The model converged for composite and for employment expectations.
+For the expected conditions index, several quite different parameterizations for λ(TN) fit the data
+equally well.36
+
+36
+
+The estimates of λ were all monotonically increasing in TN, but varied significantly in their shapes.
+
+24
+
+Figure 5.5 shows our estimates for λ(TN) for the composite index and employment expectations
+over the range of value for TN.37 The estimates from the employment expectations model are
+relatively flat and close to 0.2 until the 75th percentile of the distribution of TN (that is, we estimate
+that for ¾ of time period we examine, 20 percent of people update their employment expectations on
+a monthly basis). After that point, our estimates rise sharply, to 0.50 at the 90th percentile and 0.73 at
+the 95th percentile. For the composite index, our estimates of λ(TN) rise more smoothly and less
+dramatically than for employment expectations. With that said, the increases are stark, rising from
+0.14 at the 25th percentile to .26 at the 75th percentile and to 0.45 at the 90th percentile.
+How the estimates of updating for the composite index and employment expectations vary over
+time is shown in figure 5.6. Both series have long stretches with little movement. During recessions,
+the proportion of respondents updating shifts sharply up and often stays at high levels beyond the end
+of a recession.
+These results suggest that the relationships between sentiment, economic variables, and the news
+are more complicated than the results for the continuous updating model and by the VARs. Using the
+results from (16), we compute how the composite index responds to a one standard deviation shock to
+the recession index for newspaper variables and how employment expectations responds to a one
+standard deviation shock to the recession index and to the layoff index.38 To perform this exercise,
+we assume there is a shock to newspaper reporting and no changes in economic variables. How a
+shock to news in (16) affects sentiment in the immediate period is shown in the following derivative,
+(18)
+
+∂St
+∂λ (TN t )
+= λ (TN t ) β 2 +
+β 0 + β 4 Et + β1SPFt + β 2ν tM − St −1 ) .
+(
+M
+M
+∂ν t
+∂ν t
+
+The first part, λ (TN ) β 2 , reflects the effect of news on sentiment for those people updating their
+expectations at time t, similar to the results for presented for the dummy variable specification, (15).
+The second part of the derivative captures the effect of changing the news on the share of the
+population updating their expectations,
+
+∂λ (TN t )
+> 0 . Changing the share of the population that
+∂ν tM
+
+updates their expectations has ambiguous effects on the sentiment indexes. If the model predicts that
+sentiment should improve, that is, β 0 + β 4 Et + β1SPFt + β 2ν tM > St-1, then the proportion effect is
+positive. Conversely, if β 0 + β 4 Et + β1SPFt + β 2ν tM < St-1, then the proportion effect is negative.
+37
+
+The TN measure has a fair amount of high frequency variance. Because some of the month to month swings
+in TN may be noise, we also estimated our models using a two-month moving average of TN. The results were
+very similar to those shown.
+38
+The coefficients on the layoff index are small and insignificant in the composite index model.
+
+25
+
+This result raises the intriguing possibility that an increase in the recession index could actually lead
+to an increase in sentiment. For example, upon seeing a rise in the number of recession articles,
+consumers are more likely to update their expectations, but if the tone of the articles is not consistent
+with economic conditions as assessed by consumers as part of their updating process, consumers’
+expectations may be revised upwards. On the other hand, in poor economic conditions an increase in
+the articles on the economy will likely lead a larger share of consumers to update their expectations,
+which may, therefore, hasten a fall in sentiment,
+To illustrate the extent to which the response of sentiment to a shock in newspaper reporting can
+vary, figure 5.7 shows the difference between our fitted values of the composite index and fitted
+values assuming a one standard deviation shock to recession. This exercise asks how sentiment at
+time t would change if there were a one standard deviation shock to the recession index at time t.
+This graph shows when sentiment was most sensitive to a shock in recession reporting. This is in
+essence the same exercise that was conducted for the continuous updating model and the initial shock
+in the VAR system.39 In those models, the effect to sentiment from a shock to the newspaper series is
+constant over time.
+The mean effect of a shock to the recession index is -0.83, only slightly larger than the -0.77
+result from the VAR. The standard deviation of the series is 0.67, showing that a given shock can
+have quite different effects depending on a number of factors. The period that was most susceptible
+to a shock in recession reporting was November 1987, the month after the stock market crash.
+Sentiment, being a function of the stock market, would be revised downward substantially, so
+increasing the news would increase the proportion of people revising down their expectations. A
+similar story holds for August 1990, the month Iraq invaded Kuwait. Our total news index doubled in
+August from July (increasing the proportion of people updating their expectations from 17 to 31
+percent) and economic variables deteriorated (the unemployment rate, stock market, and gasoline
+prices).
+Although relatively rare, there are also a handful of periods when the composite index would
+have increased if the recession index increased by one standard deviation. For instance, in November
+2002 the model implied that those updating their expectations would do so substantially; sentiment in
+October (St-1) was 80.6 and the model implied those people updating their expectations would
+increase their expectations to 102.5 (helped by improvements in the stock market).
+
+39
+
+The degree to which the effects of the nonlinear specification change the duration of the effect of a shock to
+the newspaper variables is an interesting, and open, question. We will be looking at that question in our next
+paper.
+
+26
+
+V.5 Summary of results
+This section has presented the results from several models of sentiment. Table 5.6 presents
+summaries of how the various models and measures of sentiment respond to one standard deviation
+shocks to the recession and layoff indexes. As shown in previous tables, the coefficient on the
+recession index is usually statistically less than zero at high levels of significance, whereas the layoff
+index is only significant in the employment expectations models. Also, a shock to recession and
+layoff indexes has the largest effects in the continuous updating model, usually 60 to 80 percent
+greater than in the VARs. However, we find strong evidence that the VARs mask how the dynamic
+relationship between news and sentiment can vary over time. During periods of high news coverage
+on the economy (which happen mostly during recessions and immediately after the end of
+recessions), the shock to the recession news index will have twice the effect on sentiment than during
+low periods of news coverage.
+The results in table show the effects of one standard deviation shocks. The recession news index
+reaches a maximum of over 5 standard deviations above its mean in early 1992 and over 4 standard
+deviations in early 1991, two periods in which sentiment was very low relative to economic
+fundamentals.
+
+VI. Conclusions
+Consumer sentiment is often discussed but rarely modeled. We estimate a large set of consumer
+sentiment models, drawing on numerous recent contributions in the field such as sticky expectations,
+rational inattention, and bounded rationality. This body of literature proposes that gathering and
+processing information about the economy is far from a costless process. As a result, expectations
+may not be continuously updated, and when they are updated, imperfect information may be used.
+Further, the proportion of the population that updates their expectations each period as new
+information arrives can vary tremendously over time.
+Recognizing that many consumers receive information about the economy from the media, we
+develop a set of measures of economic reporting based on articles from 30 newspapers. The media
+affects sentiment through three channels. The first is by informing consumers about economic data
+and professional opinions. The second is by sending signals about the economy through the tone and
+volume of economic reporting, and this signal may not be consistent over time. As Sims (2003)
+shows, the information theory model provides an explanation why the tone and volume of economic
+reporting affect sentiment beyond the economic information contained in the reporting. The final
+
+27
+
+channel through which the media influences sentiment is through the likelihood that consumers will
+update their expectations, a tenet of the sticky expectations and rational inattention literatures. The
+more intense the news coverage, the more likely expectations will be updated.
+We consistently find that the volume and tone of economic reporting--independent of economic
+activity and the opinions of professionals--affect sentiment. The most straightforward result is that an
+increase in the number of articles that mention recession or layoffs, after controlling for the current
+and forecasted state of the economy, is associated with a decline in sentiment. In particular,
+according to our measures, the volume of news coverage was much greater in the 1990s than was
+predicted by the economic fundamentals, and as a result, various measures of sentiment were 3 to 10
+points lower than otherwise would have been the case. Given the inherent difficulty of quantifying
+the tone and volume of economic reporting, and given that we are examining aggregate measures of
+sentiment and not responses from individuals, our results could well be understating the effects of the
+media on sentiment.
+Although media coverage may affect sentiment, the effects are estimated to be short-lived. That
+is, a spike in reporting about bad economic times (a spike that is not attributable to economic statistics
+and forecasts) will affect sentiment for a couple of months at most. Based on these results, a natural
+question that arises is whether the media-induced effects on sentiment have any meaningful effect on
+economic activity. This is a question we hope to address in future work.40
+Another area that our research suggests needs further exploration is the frequency at which people
+update their expectations. “Sticky expectations” has been cited frequently as a possible reason for the
+relatively slow responses to shocks. We find that several measures of consumer sentiment tend not to
+be very sticky during times when there is much reporting on the economy, times that are usually
+characterized by economic distress, while sentiment measures are fairly persistent during periods
+characterized by lower levels of economic reporting. These conclusions differ from those of Carroll
+(2003), who found that expectations about employment are updated on average once a year, while our
+results suggest that expectations about employment prospects are updated in just a couple of months.
+We need to explore the reasons for these differences.
+
+40
+
+Another natural question is why does the media report what it does? In this paper we have taken media
+reporting on the economy as given. However, as Hamilton (2004) stresses, the news industry is a business, and
+the objective function of the news industry must take into account consumer preferences about the news. What
+is it about the news industry and consumer preferences that generate the patterns that we witnessed in news
+reporting? Glassner (1999) raises a very similar question for the reporting of a number of events that instill
+fear.
+
+28
+
+References
+Akerloff, George, William Dickens, and George Perry (2000), “Near-Rational Wage and Price
+Setting and the Optimal Rates of Inflation and Unemployment,” Brookings Papers on Economic
+Activity I, pp. 1-60.
+Blinder, Alan and Alan Krueger (2004), “What Does the Public Know about Economic Policy, and
+How Does it Know it?,” draft prepared for the Brookings Panel on Economic Activity.
+Carroll, Christopher (2003), “Macroeconomic Expectations of Households and Professional
+Forecasters,” Quarterly Journal of Economics, 118(1),
+Carroll, Christopher (forthcoming), “The Epidemiology of Macroeconomic Expectations,” in The
+Economy as an Evolving Complex System, III, ed. by Larry Blume, and Steven Durlauf. Oxford
+University Press.
+Carroll, Christopher, Jeffrey Fuhrer, and David Wilcox (1994), “Does Consumer Sentiment Forecast
+Household Spending? If So, Why?,'” (1994), American Economic Review, 84(5), 1397-1408.
+Downs, A (1957). An Economic Theory of Democracy. Harper and Row: New York.
+Gabaix, Xavier, David Laibson, and Guillermo Moloche (2003), “The Allocation of Attention:
+Theory and Evidence,” working paper.
+Glassner, Barry (1999), The Culture of Fear, Why Americans Are Afraid of the Wrong Things, Basic
+Books, New York.
+Hamilton, James (2004), All the News That’s Fit to Sell, Princeton University Press, Princeton, NJ.
+Mankiw, N. Gregory and Ricardo Ries (2002), “Sticky Information Versus Sticky Prices: A Proposal
+to Replace the New Keynesian Phillips Curve,” Quarterly Journal of Economics, vol. 117 (4), pp.
+1295-1328.
+Mankiw, N. Gregory, Ricardo Ries, and Justin Wolfers (2003), “Disagreement About Inflation
+Expectations,” forthcoming in NBER Macroeconomics Annual 2003.
+Moscarini, Giuseppe (2004), “Limited Information Capacity as a Source of Inertia,” forthcoming in
+the Journal of Economic Dynamics and Control.
+Pew Research Center (2002), “Public's News Habits Little Changed by September 11 : Americans
+Lack Background to Follow International News.”
+Phillips, P.C.B. (1998): "Impulse Response and Forecast Error Variance Asymptotics in
+Nonstationary VAR's," Journal of Econometrics, Vol. 83, pp. 21–56.
+Reis, Ricardo (2003), “Inattentive Consumers,” job market paper, Harvard University.
+Runkle, D. (1987): "Vector Autoregressions and Reality", Journal of Business and Economic
+Statistics, 5, 437-442.
+
+29
+
+Shannon, C.E. (1948), “A Mathematical Theory of Communication,” Bell System Technology
+Journal, 27, pp. 379-423 and 623-656.
+Sims, Christopher (2003), “Implications of Rational Inattention,” Journal of Monetary Economics,
+50(3), 665-690.
+Souleles, Nicholas (2004), “Expectations, Heterogeneous Forecast Errors and Consumption: Micro
+Evidence from the Michigan Consumer Sentiment Surveys,” Journal of Money, Credit, and
+Banking, vol. 36(1), 39-72.
+Toda, Hiro Y. and Taku Yamamoto (1995):"Statistical Inference in Vector Autoregressions with
+Possibly Integrated Processes," Journal of Econometrics, vol. 66, (1-2), pp. 225-50.
+
+30
+
+Table 2.1 Characteristics of the University of Michigan’s Survey of Consumers
+Sample size
+
+Currently 500 respondents a month.
+
+History and timing
+
+Data are available available monthly since 1978. Some questions asked at a lower frequency in 1946.
+
+Questions about current
+conditions
+
+1. Are you and your family better or worse financially than you were a year ago?
+2. About the big things people buy for their homes – such as furniture, a refrigerator, stove, television, and things
+like that. Generally speaking, do you think is a good time or a bad time for people to buy major household
+items?
+
+Questions about future
+conditions
+
+1. Do you think that a year from now you will be better off financially, or worse off, or just about the same as
+now?
+2. And how about a year from now, do you expect that in the country as a whole business conditions will be
+better, or worse than they are at present, or just abut the same?
+3. Looking ahead, which would you say is more likely – that in the country as a whole we’ll have continuous
+good times during the next five years or so, or that we’ll have periods of widespread unemployment or
+depression, or what?
+
+Selected other questions
+
+1. How about people out of work during the coming 12 months--do you think that there will be more
+unemployment than now, about the same, or less?
+
+Seasonally adjusted
+
+No
+
+Table 4.1: Top 50 U.S. Newspapers by Circulation
+1998
+First year of
+Circulation
+Newspaper
+Circulation available data
+Rank
+*
+1
+Wall Street Journal (New York, N.Y.)
+1,740,450
+1980
+*
+2
+USA Today (Arlington, Va.)
+1,653,428
+1987
+*
+3
+Times (Los Angeles)
+1,067,540
+1985
+*
+4
+Times (New York, N.Y.)
+1,066,658
+1970
+*
+5
+Post (Washington, D.C.)
+759,122
+1977
+6
+Daily News (New York, N.Y.)
+723,143
+1992
+*
+7
+Tribune (Chicago)
+673,508
+1985
+*
+8
+Newsday (Long Island, N.Y.)
+572,444
+1985
+*
+9
+Chronicle (Houston)
+550,763
+1985
+*
+10
+Sun-Times (Chicago)
+485,666
+1985
+*
+11
+Morning News (Dallas)
+479,863
+1984
+*
+12
+Chronicle (San Francisco)
+475,324
+1985
+*
+13
+Globe (Boston)
+470,825
+1979
+14
+Post (New York, N.Y.)
+437,467
+1997
+15
+Arizona Republic (Phoenix)
+435,330
+1989
+*
+16
+Inquirer (Philadelphia)
+428,895
+1981
+17
+Star-Ledger (Newark, N.J.)
+407,026
+1989
+18
+Plain Dealer (Cleveland)
+382,933
+1989
+*
+19
+Free Press (Detroit)
+378,256
+1982
+*
+20
+Union-Tribune (San Diego)
+378,112
+1986
+*
+21
+Register (Orange County, Calif.)
+356,953
+1986
+*
+22
+Herald (Miami)
+349,114
+1982
+*
+23
+Oregonian (Portland)
+346,593
+1987
+*
+24
+Times (St. Petersburg, Fla.)
+344,784
+1986
+*
+25
+Post (Denver)
+341,554
+1988
+*
+26
+Star Tribune (Minneapolis)
+334,751
+1986
+27
+Rocky Mountain News (Denver)
+331,978
+1993
+28
+Post-Dispatch (St. Louis)
+329,582
+1992
+29
+Sun (Baltimore)
+314,033
+1990
+30
+Journal-Constitution (Atlanta)
+303,698
+1986
+*
+31
+Mercury News (San Jose, Calif.)
+290,885
+1985
+32
+Journal Sentinel (Milwaukee)
+285,776
+1990
+33
+Bee (Sacramento, Calif.)
+283,589
+1990
+34
+Star (Kansas City, Mo.)
+281,596
+1991
+35
+Herald (Boston)
+271,425
+1991
+36
+Times-Picayune (New Orleans)
+259,317
+1992
+37
+Sun-Sentinel (Fort Lauderdale, Fla.)
+258,726
+1991
+38
+Sentinel (Orlando, Fla.)
+258,726
+1991
+39
+Investor's Business Daily (Los Angeles)
+251,172
+1994-98
+40
+Dispatch (Columbus, Ohio)
+246,528
+1991
+*
+41
+News (Detroit)
+245,351
+1990
+*
+42
+Observer (Charlotte, N.C.)
+243,818
+1985
+43
+Post-Gazette (Pittsburgh, Pa.)
+243,453
+1990
+44
+News (Buffalo, N.Y.)
+237,229
+1992
+45
+Tribune (Tampa, Fla.)
+235,786
+1994
+46
+Star-Telegram (Fort Worth, Tex.)
+232,112
+1990
+47
+Star (Indianapolis)
+230,223
+1985
+48
+Courier-Journal (Louisville, Ky.)
+228,144
+1988
+*
+49
+Times (Seattle)
+227,715
+1984
+*
+50
+World-Herald (Omaha, Neb.)
+219,891
+1983
+* NR
+Post-Intelligencer (Seattle)
+199,200
+1986
+* NR
+Daily News (Philadelphia)
+175,448
+1982
+* NR
+Bee (Fresno, CA)
+158,400
+1986
+* NR
+Herald-Leader (Lexington, KY)
+113,200
+1983
+Percentage of Top 50 Newspapers included (by circulation)
+67.4
+* Currently included in recession, layoff and economic recovery indexes
+** Not used in creation of indexes
+
+Table 4.2: Summary of Newspaper Indexes
+Index group
+Recession
+
+Criteria: words included in the title or first
+paragraph of the article
+“recession” or “economic slowdown”
+
+Layoff
+
+“layoff,” “layoffs,” “job cuts,” “downsize,” or
+“downsizing”
+
+Economic recovery
+
+“Economic” and “recovery” within 3 words of
+each other
+
+Articles that contained “baseball”, “education recession,” and a large number
+of foreign countries and cities were excluded
+
+Table 5.1: Variable Definitions, Means, and Standard Deviations
+
+Economic Variables
+S&P 500, percent change
+
+Definition
+The percent change in the Wilshire 5000 between the first Friday
+of the previous month and the first Friday of the current month.
+
+S&P 500, year over year change
+
+The percent change in the Wilshire 5000 between the first Friday
+from two months ago to the first Friday of the month from a year
+ago.
+The 12 month change in the CPI ending last month
+The published unemployment rate from last month (the
+employment report that contains this information is released on the
+first Friday of the current month.)
+The published change in private payroll unemployment, in millions,
+for the previous month
+Percent change in the Lundberg survey for gasoline prices over
+the past month
+
+CPI, 12 month change (t-1)
+Unemployment rate (t-1)
+
+Change in payroll employment (t-1)
+Change in gasoline prices
+
+Survey of professional forecasters
+SPF, real GDP growth, current quarter
+
+Percent change in real GDP for the next quarter. This survey is
+conducted quarterly and the results are interpolated to a monthly
+frequency. This series is puged of all of the economic variables.
+
+SPF, real GDP growth, two quarters out
+SPF, real GDP growth, three quarters out
+SPF, real GDP growth, four quarters out
+
+see above
+see above
+see above
+
+Layoff
+
+Recovery
+
+0.74
+
+4.79
+
+8.36
+4.31
+
+15.16
+2.89
+
+6.26
+
+1.46
+
+0.15
+
+0.22
+
+0.0026
+
+0.035
+
+0
+
+0.37
+
+0
+0
+0
+0
+
+0.30
+0.28
+0.24
+0.27
+
+0
+
+18.3
+
+0
+
+22.2
+
+0
+
+42.9
+
+Percent change in real GDP for the current quarter. This survey is
+conducted quarterly and the results are interpolated to a monthly
+frequency. This series is puged of all of the economic variables.
+
+SPF, real GDP growth, one quarter out
+
+Newspaper indexes
+Recession
+
+Standard
+Deviation
+
+Mean
+
+The level of the recession index for the two weeks up to 8th of the
+current month after contolling for all of the economic and SPF
+variables.
+The level of the layoff index for the two weeks up to 8th of the
+current month after controlling for all of the economic and SPF
+variables.
+The level of the recovery index for the 30 days up to 8th of the
+current month after controlloing for all of the economic and SPF
+variables.
+
+All means and standard deviations are computed from March 1978 to June 2003
+
+Table 5.2: Regression Results from the Michigan Survey of Consumer Sentiment
+(standard errors in small font beneath coefficients)
+Dependent Variable
+
+Constant
+
+Composite
+(1)
+(2)
+116.017 116.325
+
+Expected Conditions
+(3)
+(4)
+107.002 107.488
+
+Current Conditions
+(5)
+(6)
+130.320 130.340
+
+Employment
+Expectations
+(7)
+(8)
+63.185
+63.770
+
+1.785
+
+1.369
+
+2.294
+
+1.721
+
+1.433
+
+1.219
+
+2.956
+
+2.246
+
+0.195
+
+0.188
+
+0.235
+
+0.235
+
+0.134
+
+0.117
+
+0.296
+
+0.317
+
+0.078
+
+0.060
+
+0.100
+
+0.076
+
+0.063
+
+0.054
+
+0.129
+
+0.099
+
+S&P 500, percent change (t-1)
+
+0.274
+
+0.272
+
+0.317
+
+0.316
+
+0.208
+
+0.205
+
+0.339
+
+0.339
+
+0.078
+
+0.060
+
+0.100
+
+0.075
+
+0.062
+
+0.053
+
+0.129
+
+0.098
+
+S&P 500, year over year change
+
+0.087
+
+0.087
+
+0.115
+
+0.115
+
+0.040
+
+0.040
+
+0.109
+
+0.107
+
+Economic Variables
+S&P 500, percent change
+
+CPI, 12 month change (t-1)
+CPI, 12 month change (t-2)
+CPI, 12 month change (t-3)
+
+0.027
+
+0.021
+
+0.035
+
+0.026
+
+0.022
+
+0.018
+
+0.045
+
+0.034
+
+-4.579
+
+-4.527
+
+-5.516
+
+-5.327
+
+-3.024
+
+-3.192
+
+-5.258
+
+-4.637
+
+1.510
+
+1.170
+
+1.941
+
+1.471
+
+1.213
+
+1.042
+
+2.502
+
+1.920
+
+0.759
+
+0.732
+
+0.412
+
+0.246
+
+1.359
+
+1.552
+
+2.099
+
+1.421
+
+2.336
+
+1.802
+
+3.002
+
+2.266
+
+1.876
+
+1.604
+
+3.870
+
+2.957
+
+1.290
+
+1.244
+
+2.316
+
+2.255
+
+-0.538
+
+-0.559
+
+1.126
+
+1.131
+
+1.374
+
+1.053
+
+1.766
+
+1.324
+
+1.104
+
+0.938
+
+2.277
+
+1.728
+
+Unemployment rate (t-1)
+
+-4.252
+
+-4.288
+
+-5.009
+
+-5.080
+
+-3.136
+
+-3.113
+
+-11.161
+
+-11.034
+
+2.433
+
+1.878
+
+3.126
+
+2.362
+
+1.953
+
+1.672
+
+4.030
+
+3.083
+
+Unemployment rate (t-2)
+
+1.487
+
+0.971
+
+3.044
+
+2.295
+
+-0.885
+
+-1.035
+
+4.142
+
+3.033
+
+3.129
+
+2.400
+
+4.021
+
+3.018
+
+2.512
+
+2.137
+
+5.183
+
+3.938
+
+-0.553
+
+0.003
+
+-0.937
+
+-0.107
+
+0.060
+
+0.184
+
+10.079
+
+11.083
+
+2.438
+
+1.873
+
+3.134
+
+2.355
+
+1.958
+
+1.667
+
+4.039
+
+3.073
+
+Change in payroll employment (t-1)
+
+5.043
+
+4.516
+
+4.585
+
+4.092
+
+5.563
+
+4.962
+
+18.852
+
+18.949
+
+2.612
+
+2.031
+
+3.357
+
+2.554
+
+2.098
+
+1.808
+
+4.328
+
+3.333
+
+Change in payroll employment (t-2)
+
+4.952
+
+4.688
+
+4.221
+
+3.626
+
+5.992
+
+6.267
+
+12.528
+
+11.373
+
+2.635
+
+2.022
+
+3.387
+
+2.543
+
+2.116
+
+1.801
+
+4.366
+
+3.319
+
+Change in payroll employment (t-3)
+
+5.843
+
+5.946
+
+5.503
+
+5.464
+
+6.423
+
+6.765
+
+5.872
+
+5.543
+
+Unemployment rate (t-3)
+
+Change in gasoline prices
+Survey of professional forecasters
+SPF, current quarter real GDP growth
+
+2.529
+
+1.939
+
+3.250
+
+2.439
+
+2.031
+
+1.727
+
+4.189
+
+3.182
+
+-6.566
+
+-5.448
+
+-13.530
+
+-10.658
+
+4.094
+
+2.258
+
+22.583
+
+26.293
+
+12.107
+
+9.400
+
+15.559
+
+11.820
+
+9.721
+
+8.369
+
+20.055
+
+15.425
+
+0.225
+
+0.662
+
+-0.400
+
+0.308
+
+0.387
+
+0.274
+
+0.505
+
+SPF, next quarter's real GDP growth
+
+1.678
+
+1.984
+
+1.215
+
+2.873
+
+0.443
+
+0.557
+
+0.394
+
+0.726
+
+SPF , real GDP growth 2 quarters ahead
+
+2.339
+
+2.938
+
+1.255
+
+2.194
+
+0.492
+
+0.619
+
+0.438
+
+0.807
+
+0.154
+
+1.080
+
+-1.453
+
+1.239
+
+0.454
+
+0.571
+
+0.404
+
+0.745
+
+0.946
+
+1.415
+
+0.241
+
+1.770
+
+0.393
+
+0.494
+
+0.350
+
+0.645
+
+-0.102
+
+-0.107
+
+-0.092
+
+-0.091
+
+0.028
+
+0.035
+
+0.025
+
+0.046
+
+0.040
+
+0.037
+
+0.046
+
+0.003
+
+SPF , real GDP growth 3 quarters ahead
+SPF , real GDP growth 4 quarters ahead
+Newspaper indexes
+Recession
+Recession (t-1)
+
+1.780
+
+0.029
+
+0.037
+
+0.026
+
+0.048
+
+-0.054
+
+-0.066
+
+-0.036
+
+-0.116
+
+0.017
+
+0.021
+
+0.015
+
+0.028
+
+-0.042
+
+-0.041
+
+-0.045
+
+-0.020
+
+0.017
+
+0.022
+
+0.015
+
+0.029
+
+Recovery
+
+0.016
+
+0.026
+
+0.001
+
+0.056
+
+0.009
+
+0.011
+
+0.008
+
+0.015
+
+Recovery (t-1)
+
+0.011
+
+0.022
+
+-0.007
+
+0.048
+
+0.009
+
+0.011
+
+0.008
+
+Layoff
+Layoff (t-1)
+
+Adjusted R-squared
+0.755
+0.857
+0.664
+0.811
+0.826
+0.875
+All models are estimated using monthly data from March 1978 to June 2003. The number of observations is 304.
+
+0.015
+
+0.567
+
+0.751
+
+Table 5.3: p-values for Granger causality tests
+
+Composite index
+Composite index
+Recession index
+Layoff index
+
+0.0006
+0.3059
+
+Expected conditions
+Expected conditions
+Recession index
+Layoff index
+
+0.0057
+0.2924
+
+Current conditions
+Michigan current conditions
+Recession index
+Layoff index
+
+0.0003
+0.0941
+
+Recession index
+1.0006
+1.3059
+
+Recession index
+1.0057
+1.2924
+
+Recession index
+1.0003
+1.0941
+
+Layoff index
+0.3717
+0.4377
+
+Layoff index
+0.2314
+0.523
+
+Layoff index
+0.1198
+0.3416
+
+H0: The lags of the variables in row i are jointly insignificant in the equation for the
+variable in column j . The Toda and Yamato (2000) version of a Granger-causality test,
+which is robust to having variables of unknown orders of integration, is used
+
+Table 5.4: Estimates of the Proportion of Respondents Updating
+Expectations During High and Low News Periods
+
+Composite
+Current conditions
+Expected conditions
+Employment expectations
+
+Low news
+λ0 (t-statistic)
+0.21 (5.29)
+0.37 (6.95)
+0.21 (5.38)
+0.32 (6.19)
+
+High news
+λ1 (t-statistic)
+0.35 (4.27)
+0.46 (4.34)
+0.33 (4.23)
+0.49 (4.70)
+
+Mean time between updates (months)1
+Low news
+High news
+4.83
+2.86
+2.72
+2.17
+4.74
+2.99
+3.16
+2.03
+
+1. Mean time between updates is 1/λ.
+2. λ1 is significantly greater than λ0 at the 99 percent level for all models except current conditions.
+
+Table 5.5: Estimates for the Two-Regime Models
+(standard errors in small font beneath coefficients)
+
+Dependent Variable
+
+λ0
+λ1
+Constant
+
+Composite
+(1)
+(2)
+0.207
+0.196
+
+S&P 500, percent change (t-1)
+S&P 500, year over year change
+CPI, 12 month change (t-1)
+CPI, 12 month change (t-2)
+CPI, 12 month change (t-3)
+
+Current Conditions
+(5)
+(6)
+0.367
+0.324
+
+Employment
+Expectations
+(7)
+(8)
+0.316
+0.308
+
+(0.039)
+
+(0.038)
+
+(0.039)
+
+(0.038)
+
+(0.053)
+
+(0.050)
+
+(0.051)
+
+0.350
+
+0.358
+
+0.334
+
+0.340
+
+0.461
+
+0.519
+
+0.493
+
+0.490
+
+(0.082)
+
+(0.084)
+
+(0.079)
+
+(0.080)
+
+(0.106)
+
+(0.114)
+
+(0.105)
+
+(0.105)
+
+128.461 128.214
+
+63.661
+
+63.672
+
+(5.025)
+
+(5.118)
+
+112.943 112.732
+(3.958)
+
+Economic Variables
+S&P 500, percent change
+
+Expected Conditions
+(3)
+(4)
+0.211
+0.205
+
+(4.098)
+
+104.269 104.231
+(4.875)
+
+(4.947)
+
+(2.579)
+
+(2.746)
+
+(0.048)
+
+0.933
+
+0.977
+
+1.230
+
+1.260
+
+0.299
+
+0.320
+
+1.086
+
+1.100
+
+(0.246)
+
+(0.255)
+
+(0.313)
+
+(0.317)
+
+(0.120)
+
+(0.128)
+
+(0.275)
+
+(0.275)
+
+0.529
+
+0.542
+
+0.586
+
+0.602
+
+0.323
+
+0.328
+
+0.515
+
+0.548
+
+(0.181)
+
+(0.187)
+
+(0.221)
+
+(0.224)
+
+(0.116)
+
+(0.124)
+
+(0.227)
+
+(0.230)
+
+0.024
+
+0.016
+
+0.051
+
+0.047
+
+0.022
+
+0.008
+
+0.083
+
+0.087
+
+(0.062)
+
+(0.064)
+
+(0.076)
+
+(0.078)
+
+(0.040)
+
+(0.043)
+
+(0.079)
+
+(0.080)
+
+-2.030
+
+-1.68
+
+-2.691
+
+-2.332
+
+-1.647
+
+-1.402
+
+-5.153
+
+-4.877
+
+(3.325)
+
+(3.392)
+
+(4.171)
+
+(4.198)
+
+(2.188)
+
+(2.283)
+
+(4.266)
+
+(4.317)
+
+-3.346
+
+-3.766
+
+-3.892
+
+-4.370
+
+-0.996
+
+-1.256
+
+1.764
+
+1.307
+
+(5.051)
+
+(5.153)
+
+(6.336)
+
+(6.383)
+
+(3.362)
+
+(3.496)
+
+(6.531)
+
+(6.612)
+
+2.898
+
+2.987
+
+3.858
+
+3.990
+
+0.411
+
+0.457
+
+1.315
+
+1.493
+
+(2.894)
+
+(2.956)
+
+(3.634)
+
+(3.666)
+
+(1.955)
+
+(2.034)
+
+(3.803)
+
+(3.860)
+
+-12.241
+
+-13.031
+
+-12.279
+
+-12.958
+
+-7.657
+
+-8.819
+
+-21.66
+
+-22.422
+
+(5.373)
+
+(5.508)
+
+(6.617)
+
+(6.682)
+
+(3.579)
+
+(3.741)
+
+(7.117)
+
+(7.223)
+
+Unemployment rate (t-2)
+
+12.922
+
+13.315
+
+18.323
+
+18.579
+
+1.798
+
+2.207
+
+13.039
+
+13.257
+
+(7.208)
+
+(7.426)
+
+(9.104)
+
+(9.215)
+
+(4.491)
+
+(4.760)
+
+(9.080)
+
+(9.221)
+
+Unemployment rate (t-3)
+
+-3.529
+
+-3.093
+
+-8.563
+
+-8.126
+
+2.24
+
+3.055
+
+11.823
+
+12.379
+
+(5.364)
+
+(5.512)
+
+(6.903)
+
+(6.976)
+
+(3.506)
+
+(3.717)
+
+(6.958)
+
+(7.075)
+
+7.569
+
+6.363
+
+6.791
+
+4.837
+
+5.489
+
+5.229
+
+18.308
+
+14.715
+
+(6.022)
+
+(6.273)
+
+(7.490)
+
+(7.640)
+
+(3.829)
+
+(4.158)
+
+(7.772)
+
+(7.953)
+
+1.843
+
+2.716
+
+0.250
+
+1.785
+
+5.826
+
+5.592
+
+5.84
+
+8.350
+
+(5.981)
+
+(6.240)
+
+(7.430)
+
+(7.618)
+
+(3.846)
+
+(4.201)
+
+(7.846)
+
+(8.020)
+
+-1.395
+
+Unemployment rate (t-1)
+
+Change in payroll employment (t-1)
+Change in payroll employment (t-2)
+Change in payroll employment (t-3)
+Change in gasoline prices
+Survey of professional forecasters
+SPF, current quarter real GDP growth
+SPF, next quarter's real GDP growth
+SPF , real GDP growth 2 quarters ahead
+SPF , real GDP growth 3 quarters ahead
+SPF , real GDP growth 4 quarters ahead
+Newspaper indexes
+Recession
+Recession (t-1)
+Layoff
+Layoff (t-1)
+
+5.255
+
+4.896
+
+6.303
+
+5.972
+
+5.624
+
+5.254
+
+-1.116
+
+(5.768)
+
+(5.989)
+
+(7.154)
+
+(7.277)
+
+(3.691)
+
+(4.021)
+
+(7.604)
+
+(7.752)
+
+-48.938
+
+-44.182
+
+-80.374
+
+-77.652
+
+-4.086
+
+1.792
+
+27.645
+
+25.983
+
+(29.767)
+
+(30.434)
+
+(38.853)
+
+(39.241)
+
+(17.525)
+
+(18.512)
+
+(35.569)
+
+(35.953)
+
+-0.192
+
+-0.17
+
+0.194
+
+0.246
+
+-0.496
+
+-0.605
+
+1.189
+
+1.197
+
+(0.930)
+
+(0.967)
+
+(1.151)
+
+(1.172)
+
+(0.591)
+
+(0.649)
+
+(1.214)
+
+(1.237)
+
+1.782
+
+2.142
+
+2.06
+
+2.335
+
+1.261
+
+1.669
+
+3.147
+
+3.191
+
+(1.351)
+
+(1.394)
+
+(1.675)
+
+(1.693)
+
+(0.847)
+
+(0.927)
+
+(1.745)
+
+(1.762)
+
+1.975
+
+1.781
+
+2.041
+
+1.869
+
+1.479
+
+1.354
+
+1.104
+
+1.058
+
+(1.428)
+
+(1.479)
+
+(1.785)
+
+(1.812)
+
+(0.926)
+
+(0.998)
+
+(1.873)
+
+(1.905)
+
+2.823
+
+3.074
+
+3.823
+
+3.956
+
+-0.4
+
+0.038
+
+2.836
+
+2.789
+
+(1.384)
+
+(1.432)
+
+(1.697)
+
+(1.719)
+
+(0.866)
+
+(0.926)
+
+(1.715)
+
+(1.741)
+
+1.304
+
+1.2
+
+1.993
+
+1.897
+
+0.218
+
+0.138
+
+2.336
+
+2.271
+
+(1.116)
+
+(1.144)
+
+(1.398)
+
+(1.411)
+
+(0.731)
+
+(0.776)
+
+(1.466)
+
+(1.487)
+
+-0.174
+
+-0.174
+
+-0.136
+
+-0.149
+
+(0.073)
+
+(0.091)
+
+(0.051)
+
+(0.096)
+
+0.14
+
+0.137
+
+0.107
+
+0.071
+
+(0.078)
+
+(0.097)
+
+(0.054)
+
+(0.099)
+
+-0.034
+
+-0.056
+
+-0.016
+
+-0.134
+
+(0.046)
+
+(0.058)
+
+(0.032)
+
+(0.061)
+
+-0.026
+
+-0.003
+
+-0.06
+
+0.055
+
+(0.048)
+
+(0.061)
+
+(0.032)
+
+(0.065)
+
+Bad News
+Bad News (t-1)
+Recovery
+Recovery (t-1)
+
+-0.328
+
+-0.376
+
+-0.227
+
+-0.534
+
+(0.125)
+
+(0.158)
+
+(0.090)
+
+(0.171)
+
+0.176
+
+0.214
+
+0.053
+
+0.258
+
+(0.141)
+
+(0.177)
+
+(0.096)
+
+(0.188)
+
+0.001
+
+-0.004
+
+0.011
+
+0.007
+
+-0.005
+
+-0.008
+
+0.049
+
+0.049
+
+(0.022)
+
+(0.022)
+
+(0.028)
+
+(0.028)
+
+(0.016)
+
+(0.016)
+
+(0.029)
+
+(0.029)
+
+0.028
+
+0.031
+
+0.041
+
+0.044
+
+-0.001
+
+0.001
+
+0.04
+
+0.040
+
+(0.023)
+
+(0.024)
+
+(0.029)
+
+(0.029)
+
+(0.016)
+
+(0.016)
+
+(0.030)
+
+(0.031)
+
+Adjusted R-squared
+0.935
+0.935
+0.916
+0.917
+0.918
+0.917
+0.841
+0.842
+All models are estimated using nonlinear least squares on monthly data from March 1978 to June 2003. The number of observations is
+304.
+
+Table 5.6: Summary of Responses to a One Standard Deviation Shock to
+News Measures on Sentiment by Model Type
+Two regimes: high total news & low
+total news
+
+A smooth function of total news
+10th
+90th
+1
+percentile
+percentile1 Average2
+
+Continuous
+updating
+
+VAR
+
+Overall sentiment
+Recession
+Layoffs
+
+-1.8
+-1.2
+
+-0.8
+-0.3
+
+-0.6
+-0.1
+
+-1.1
+-0.2
+
+-0.7
+-0.2
+
+-0.6
+N.A.3
+
+-1.4
+N.A.
+
+-0.8
+N.A.
+
+Expected conditions
+Recession
+Layoffs
+
+-1.9
+-1.5
+
+-0.8
+-0.3
+
+-0.6
+-0.2
+
+-1.1
+-0.4
+
+-0.7
+-0.2
+
+N.A.
+N.A.
+
+N.A.
+N.A.
+
+N.A.
+N.A.
+
+Current conditions
+Recession
+Layoffs
+
+-1.6
+-0.8
+
+-1.0
+-0.3
+
+-0.8
+-0.2
+
+-0.9
+-0.2
+
+-0.8
+-0.2
+
+N.A.
+N.A.
+
+N.A.
+N.A.
+
+N.A.
+N.A.
+
+Employment expectations
+Recession
+-1.5
+Layoffs
+-2.7
+
+-0.9
+-0.8
+
+-0.8
+-0.8
+
+-1.5
+-1.5
+
+-0.9
+-0.9
+
+-0.8
+-0.5
+
+-2.3
+-1.4
+
+-1.3
+-0.8
+
+Low news
+
+High news Average2
+
+1. The estimates for the 10th and 90th percentiles are based on the average values of the derivative surrounding those points.
+2. Averages are based on actual sample means.
+3. Not applicable
+
+Figure 1.1: Consumer Sentiment, Michigan Composite Index
+January 1978 to June 2003, standardized
+
+2.0
+
+2.0
+
+1.5
+
+1.5
+
+1.0
+
+1.0
+
+0.5
+
+0.5
+
+0.0
+
+0.0
+
+-0.5
+
+-0.5
+
+-1.0
+
+-1.0
+
+-1.5
+
+-1.5
+
+-2.0
+
+-2.0
+
+-2.5
+
+-2.5
+
+-3.0
+
+1978
+
+1980
+
+1982
+
+1984
+
+1986
+
+1988
+
+1990
+
+1992
+
+1994
+
+1996
+
+1998
+
+2000
+
+2002
+
+-3.0
+
+Figure 1.2: The Economist’s R-word Index (quarterly)
+2500
+
+Number of articles
+
+2500
+
+2000
+
+2000
+
+1500
+
+1500
+
+1000
+
+1000
+
+500
+
+500
+
+0
+
+1978
+
+1980
+
+1982
+
+1984
+
+1986
+
+1988
+
+1990
+
+1992
+
+1994
+
+1996
+
+1998
+
+2000
+
+The number of articles that mention ’recession’ in the Washington Post and the New York Times.
+
+2002
+
+0
+
+Figure 1.3: News Heard of Recent Changes in Business Conditions
+(percent of respondents)
+Favorable
+
+120
+
+Unfavorable
+
+120
+
+100
+
+100
+
+Stock Market Crash
+80
+
+80
+
+Russian Default
+
+60
+
+60
+
+40
+
+40
+
+20
+
+20
+
+0
+
+1978
+
+1980
+
+1982
+
+1984
+
+1986
+
+1988
+
+1990
+
+1992
+
+1994
+
+1996
+
+1998
+
+2000
+
+2002
+
+0
+
+Figure 2.1: Components of Consumer Sentiment
+(all series are standardized)
+
+Expected conditions
+Current conditions
+Employment expectations
+
+4
+
+4
+
+3
+
+3
+
+2
+
+2
+
+1
+
+1
+
+0
+
+0
+
+-1
+
+-1
+
+-2
+
+-2
+
+-3
+
+-3
+
+-4
+
+1978
+
+1980
+
+1982
+
+1984
+
+1986
+
+1988
+
+1990
+
+1992
+
+1994
+
+1996
+
+1998
+
+2000
+
+2002
+
+2004
+
+-4
+
+Figure 2.1 (continued): Components of Consumer Sentiment
+(all series are standardized)
+
+Components of current conditions
+
+3
+
+Current buying conditions
+Personal financial conditions
+
+3
+
+2
+
+2
+
+1
+
+1
+
+0
+
+0
+
+-1
+
+-1
+
+-2
+
+-2
+
+-3
+
+-3
+
+-4
+
+1978 1980 1982 1984 1986 1988 1990 1992 1994 1996 1998 2000 2002 2004
+
+-4
+
+Components of expected conditions
+
+3
+
+Business conditions in 12 months
+Business conditions in 5 years
+Personal financial conditions
+
+3
+
+2
+
+2
+
+1
+
+1
+
+0
+
+0
+
+-1
+
+-1
+
+-2
+
+-2
+
+-3
+
+-3
+
+-4
+
+1978 1980 1982 1984 1986 1988 1990 1992 1994 1996 1998 2000 2002 2004
+
+-4
+
+Figure 2.2: Consumer Sentiment and Fitted Values
+
+Michigan composite
+
+120
+
+Actual
+Fitted values
+
+120
+
+110
+
+110
+
+100
+
+100
+
+90
+
+90
+
+80
+
+80
+
+70
+
+70
+
+60
+
+60
+
+50
+
+50
+
+40
+
+1978 1980 1982 1984 1986 1988 1990 1992 1994 1996 1998 2000 2002 2004
+
+40
+
+Michigan expected
+
+110
+
+Actual
+Fitted values
+
+110
+
+100
+
+100
+
+90
+
+90
+
+80
+
+80
+
+70
+
+70
+
+60
+
+60
+
+50
+
+50
+
+40
+
+40
+
+30
+
+1978 1980 1982 1984 1986 1988 1990 1992 1994 1996 1998 2000 2002 2004
+
+30
+
+Figure 2.2 (continued): Consumer Sentiment and Fitted Values
+
+Current conditions
+
+130
+
+Actual
+Fitted values
+
+130
+
+120
+
+120
+
+110
+
+110
+
+100
+
+100
+
+90
+
+90
+
+80
+
+80
+
+70
+
+70
+
+60
+
+60
+
+50
+
+1978 1980 1982 1984 1986 1988 1990 1992 1994 1996 1998 2000 2002 2004
+
+50
+
+Employment expectations
+
+140
+
+Actual
+Fitted values
+
+140
+
+120
+
+120
+
+100
+
+100
+
+80
+
+80
+
+60
+
+60
+
+40
+
+40
+
+20
+
+1978 1980 1982 1984 1986 1988 1990 1992 1994 1996 1998 2000 2002 2004
+
+20
+
+Figure 2.2 (continued): Consumer Sentiment and Fitted Values
+
+Business conditions, 12 months ahead
+
+180
+
+Actual
+Fitted values
+
+180
+
+160
+
+160
+
+140
+
+140
+
+120
+
+120
+
+100
+
+100
+
+80
+
+80
+
+60
+
+60
+
+40
+
+40
+
+20
+
+20
+
+0
+
+1978 1980 1982 1984 1986 1988 1990 1992 1994 1996 1998 2000 2002 2004
+
+0
+
+Business conditions, 5 years ahead
+
+140
+
+Actual
+Fitted values
+
+140
+
+120
+
+120
+
+100
+
+100
+
+80
+
+80
+
+60
+
+60
+
+40
+
+40
+
+20
+
+1978 1980 1982 1984 1986 1988 1990 1992 1994 1996 1998 2000 2002 2004
+
+20
+
+Figure 2.2 (continued): Consumer Sentiment and Fitted Values
+
+Personal financial conditions, 12 months ahead
+
+150
+
+Actual
+Fitted values
+
+150
+
+140
+
+140
+
+130
+
+130
+
+120
+
+120
+
+110
+
+110
+
+100
+
+100
+
+90
+
+90
+
+80
+
+1978 1980 1982 1984 1986 1988 1990 1992 1994 1996 1998 2000 2002 2004
+
+80
+
+Current financial conditions
+
+150
+
+Actual
+Fitted values
+
+150
+
+140
+
+140
+
+130
+
+130
+
+120
+
+120
+
+110
+
+110
+
+100
+
+100
+
+90
+
+90
+
+80
+
+80
+
+70
+
+70
+
+60
+
+1978 1980 1982 1984 1986 1988 1990 1992 1994 1996 1998 2000 2002 2004
+
+60
+
+Figure 2.2 (continued): Consumer Sentiment and Fitted Values
+
+Current buying conditions
+
+200
+
+Actual
+Fitted values
+
+200
+
+180
+
+180
+
+160
+
+160
+
+140
+
+140
+
+120
+
+120
+
+100
+
+100
+
+80
+
+80
+
+60
+
+1978 1980 1982 1984 1986 1988 1990 1992 1994 1996 1998 2000 2002 2004
+
+60
+
+Figure 3.1: Information Flows to Consumers
+
+Professionals
+Economic
+Activity
+
+Media
+Statistics
+Producers
+
+Consumers
+
+Sentiment
+
+Figure 4.1: Indexes of Recession Articles and Stories
+(all series normalized and are quarterly)
+The Economist’s R-word index
+Television nightly news index
+
+5
+
+Our newspaper recession and economic slowdown index
+
+5
+
+4
+
+4
+
+3
+
+3
+
+2
+
+2
+
+1
+
+1
+
+0
+
+0
+
+-1
+
+-1
+
+-2
+
+1980
+
+1982
+
+1984
+
+1986
+
+1988
+
+1990
+
+1992
+
+1994
+
+1996
+
+1998
+
+2000
+
+2002
+
+-2
+
+Figure 4.2: Newspaper Recession Article and Headline Indexes
+(monthly, normalized series)
+Overall newspaper index
+
+6
+
+Headline newspaper index
+
+6
+
+5
+
+5
+
+4
+
+4
+
+3
+
+3
+
+2
+
+2
+
+1
+
+1
+
+0
+
+0
+
+-1
+
+1978
+
+1980
+
+1982
+
+1984
+
+1986
+
+1988
+
+1990
+
+1992
+
+1994
+
+1996
+
+1998
+
+2000
+
+2002
+
+-1
+
+Figure 4.3: Decomposition of the Recession Index
+1981-1983
+Bad current and future conditions
+Good current and future conditions
+Overall index/2
+
+70
+
+70
+
+60
+
+60
+
+50
+
+50
+
+40
+
+40
+
+30
+
+30
+
+20
+
+20
+
+10
+
+10
+
+0
+
+Q1
+
+Q2
+
+Q3
+1981
+
+Q4
+
+Q1
+
+Q2
+
+Q3
+1982
+
+Q4
+
+Q1
+
+Q2
+
+Q3
+1983
+
+Q4
+
+0
+
+1990-1993
+Bad current and future conditions
+Good current and future conditions
+Overall index/2
+
+80
+
+80
+
+70
+
+70
+
+60
+
+60
+
+50
+
+50
+
+40
+
+40
+
+30
+
+30
+
+20
+
+20
+
+10
+
+10
+
+0
+
+1990
+
+1991
+
+1992
+
+1993
+
+0
+
+Figure 4.3 (continued): Decomposition of Recession Index
+2000-2002
+Bad current and future conditions
+Good current and future conditions
+Overall index/2
+
+50
+
+50
+
+45
+
+45
+
+40
+
+40
+
+35
+
+35
+
+30
+
+30
+
+25
+
+25
+
+20
+
+20
+
+15
+
+15
+
+10
+
+10
+
+5
+
+5
+
+0
+
+Q3
+
+Q4
+
+Q1
+
+Q2
+
+Q3
+2001
+
+Q4
+
+Q1
+
+0
+
+Q2
+2002
+
+Figure 4.4: Two Recession Article Political Indexes
+1991-1992
+Judgement based
+Algorithm based
+
+45
+
+45
+
+40
+
+40
+
+35
+
+35
+
+30
+
+30
+
+25
+
+25
+
+20
+
+20
+
+15
+
+15
+
+10
+
+10
+
+5
+
+5
+
+0
+
+Q3
+1990
+
+Q4
+
+Q1
+
+Q2
+
+Q3
+1991
+
+Q4
+
+Q1
+
+Q2
+
+Q3
+1992
+
+Q4
+
+Q1
+
+Q2
+
+0
+
+Figure 4.5: Recession Indexes: Political and Other
+Other
+Political
+Combined
+
+7
+
+7
+
+6
+
+6
+
+5
+
+5
+
+4
+
+4
+
+3
+
+3
+
+2
+
+2
+
+1
+
+1
+
+0
+
+0
+
+-1
+
+1978
+
+1980
+
+1982
+
+1984
+
+1986
+
+1988
+
+1990
+
+1992
+
+1994
+
+1996
+
+1998
+
+2000
+
+2002
+
+-1
+
+Figure 4.6: Unfavorable News Heard Fitted by the Recession and Layoff Indexes
+120
+
+Unfavorable news heard
+Fitted values based on recession and layoffs indexes
+
+120
+
+100
+
+100
+
+80
+
+80
+
+60
+
+60
+
+40
+
+40
+
+20
+
+20
+
+0
+
+1978 1980 1982 1984 1986 1988 1990 1992 1994 1996 1998 2000 2002
+
+0
+
+Figure 4.7: Favorable News Heard and the Economic Recovery Index
+(standardized to zero mean and unit variance)
+
+5
+
+Favorable news heard
+Economic recovery index
+
+5
+
+4
+
+4
+
+3
+
+3
+
+2
+
+2
+
+1
+
+1
+
+0
+
+0
+
+-1
+
+-1
+
+-2
+
+1978 1980 1982 1984 1986 1988 1990 1992 1994 1996 1998 2000 2002
+
+-2
+
+Figure 4.8: Newspaper Recession Index--Actual and Fitted Values
+Actual
+
+180
+
+Fitted values
+
+180
+
+160
+
+160
+
+140
+
+140
+
+120
+
+120
+
+100
+
+100
+
+80
+
+80
+
+60
+
+60
+
+40
+
+40
+
+20
+
+20
+
+0
+
+0
+
+-20
+
+1978
+
+1980
+
+1982
+
+1984
+
+1986
+
+1988
+
+1990
+
+1992
+
+1994
+
+1996
+
+1998
+
+2000
+
+2002
+
+-20
+
+Figure 4.9: Newspaper Layoff Index--Actual and Fitted Values
+Actual
+
+250
+
+Fitted values
+
+250
+
+200
+
+200
+
+150
+
+150
+
+100
+
+100
+
+50
+
+50
+
+0
+
+1978
+
+1980
+
+1982
+
+1984
+
+1986
+
+1988
+
+1990
+
+1992
+
+1994
+
+1996
+
+1998
+
+2000
+
+2002
+
+0
+
+Figure 4.10: Newspaper Recovery Index--Actual and Fitted Values
+Actual
+
+500
+
+Fitted values
+
+500
+
+400
+
+400
+
+300
+
+300
+
+200
+
+200
+
+100
+
+100
+
+0
+
+-100
+
+0
+
+1978
+
+1980
+
+1982
+
+1984
+
+1986
+
+1988
+
+1990
+
+1992
+
+1994
+
+1996
+
+1998
+
+2000
+
+2002
+
+-100
+
+Figure 5.1a: Michigan Composite Index and Fitted Values
+Michigan composite index
+Fitted values--economic variables
+Fitted values--economic, SPF, and newspaper variables
+
+120
+
+120
+
+110
+
+110
+
+100
+
+100
+
+90
+
+90
+
+80
+
+80
+
+70
+
+70
+
+60
+
+60
+
+50
+
+50
+
+40
+
+1980
+
+1982
+
+1984
+
+1986
+
+1988
+
+1990
+
+1992
+
+1994
+
+1996
+
+1998
+
+2000
+
+2002
+
+40
+
+Figure 5.1b: Michigan Expected Conditions Index and Fitted Values
+Michigan expected conditions index
+Fitted values--economic variables
+Fitted values--economic, SPF, and newspaper variables
+
+120
+
+120
+
+110
+
+110
+
+100
+
+100
+
+90
+
+90
+
+80
+
+80
+
+70
+
+70
+
+60
+
+60
+
+50
+
+50
+
+40
+
+40
+
+30
+
+1980
+
+1982
+
+1984
+
+1986
+
+1988
+
+1990
+
+1992
+
+1994
+
+1996
+
+1998
+
+2000
+
+2002
+
+30
+
+Figure 5.1c: Michigan Current Conditions Index and Fitted Values
+Michigan current conditions index
+Fitted values--economic SPF variables
+Fitted values--economic, SPF, and newspaper variables
+
+130
+
+130
+
+120
+
+120
+
+110
+
+110
+
+100
+
+100
+
+90
+
+90
+
+80
+
+80
+
+70
+
+70
+
+60
+
+1980
+
+1982
+
+1984
+
+1986
+
+1988
+
+1990
+
+1992
+
+1994
+
+1996
+
+1998
+
+2000
+
+2002
+
+60
+
+Figure 5.1d: Michigan Unemployment Expectations Index and Fitted Values
+Michigan unemployment expectations index
+Fitted values--economic SPF variables
+Fitted values--economic, SPF, and newspaper variables
+
+140
+
+140
+
+120
+
+120
+
+100
+
+100
+
+80
+
+80
+
+60
+
+60
+
+40
+
+40
+
+20
+
+1980
+
+1982
+
+1984
+
+1986
+
+1988
+
+1990
+
+1992
+
+1994
+
+1996
+
+1998
+
+2000
+
+2002
+
+20
+
+Figure 5.2: Contributions of the Newspaper Indexes to Fitted Values
+Composite index
+Contribution of all newspaper indexes
+Contribution of recession index
+Contribution of layoff index
+Contribution of recovery index
+
+10
+
+10
+
+5
+
+5
+
+0
+
+0
+
+-5
+
+-5
+
+-10
+
+-10
+
+-15
+
+1980
+
+1982
+
+1984
+
+1986
+
+1988
+
+1990
+
+1992
+
+1994
+
+1996
+
+1998
+
+2000
+
+-15
+2002
+
+Expected conditions index
+Contribution of all newspaper indexes
+Contribution of recession index
+Contribution of layoff index
+Contribution of recovery index
+
+15
+
+15
+
+10
+
+10
+
+5
+
+5
+
+0
+
+0
+
+-5
+
+-5
+
+-10
+
+-10
+
+-15
+
+1980
+
+1982
+
+1984
+
+1986
+
+1988
+
+1990
+
+1992
+
+1994
+
+1996
+
+1998
+
+2000
+
+-15
+2002
+
+Figure 5.2 (cont’d): Contributions of the Newspaper Indexes to Fitted Values
+Current conditions index
+Contribution of all newspaper indexes
+Contribution of recession index
+Contribution of layoff index
+Contribution of recovery index
+
+10
+
+10
+
+5
+
+5
+
+0
+
+0
+
+-5
+
+-5
+
+-10
+
+-10
+
+-15
+
+1980
+
+1982
+
+1984
+
+1986
+
+1988
+
+1990
+
+1992
+
+1994
+
+1996
+
+1998
+
+2000
+
+-15
+2002
+
+Employment expectations index
+Contribution of all newspaper indexes
+Contribution of recession index
+Contribution of layoff index
+Contribution of recovery index
+
+20
+
+20
+
+15
+
+15
+
+10
+
+10
+
+5
+
+5
+
+0
+
+0
+
+-5
+
+-5
+
+-10
+
+-10
+
+-15
+
+-15
+
+-20
+
+1980
+
+1982
+
+1984
+
+1986
+
+1988
+
+1990
+
+1992
+
+1994
+
+1996
+
+1998
+
+2000
+
+-20
+2002
+
+Figure 5.3: Impulse responses (one standard deviation shocks)
+Response of Michigan sentiment to Michigan sentiment
+
+4
+
+4
+
+3
+2
+1
+0
+
+1
+
+3
+2
+
+5
+4
+
+7
+6
+
+9
+8
+
+11
+10
+
+2
+
+2
+
+3
+
+0
+
+0
+
+2
+
+-2
+
+-2
+
+1
+
+-4
+
+0
+
+-6
+
+0.5
+
+0.0
+
+0.0
+
+-0.5
+
+-0.5
+
+-1.0
+
+-1.0
+3
+2
+
+5
+4
+
+7
+6
+
+9
+8
+
+1
+
+-1.5
+
+11
+10
+
+3
+2
+
+0.5
+
+1
+
+-4
+
+12
+
+Response of Michigan sentiment to ’Recession’
+
+-1.5
+
+Response of ’Recession’ to Michigan sentiment
+
+4
+
+7
+6
+
+9
+8
+
+-6
+
+11
+10
+
+Response of ’Recession’ to ’Recession’
+
+15
+
+10
+
+5
+
+5
+
+1
+
+3
+2
+
+5
+4
+
+7
+6
+
+9
+8
+
+0
+
+11
+10
+
+Response of ’Recession’ to ’Layoffs’
+
+1
+
+0.0
+
+0.0
+
+0
+
+0
+
+-0.2
+
+-0.2
+
+-1
+
+-1
+
+-0.6
+
+1
+
+3
+2
+
+5
+4
+
+7
+6
+
+9
+8
+
+11
+10
+
+12
+
+-2
+
+-0.6
+
+-3
+
+1
+
+-2
+1
+
+3
+2
+
+5
+4
+
+7
+6
+
+9
+8
+
+-3
+
+11
+10
+
+-1
+
+-2
+
+-2
+
+-3
+
+-3
+
+-4
+
+-4
+
+-5
+
+1
+
+12
+
+3
+
+8
+
+5
+4
+
+7
+6
+
+9
+8
+
+-5
+
+11
+10
+
+12
+
+Response of ’Layoffs’ to ’Recession’
+
+8
+
+6
+
+6
+
+4
+
+4
+
+2
+
+2
+
+0
+
+0
+
+-2
+
+1
+
+3
+2
+
+0.2
+
+-0.4
+
+-1
+
+12
+
+0.2
+
+-0.4
+
+0
+
+2
+
+10
+
+0
+
+0
+
+12
+
+15
+
+12
+
+Response of Michigan sentiment to ’Layoffs’
+
+5
+
+Response of ’Layoffs’ to Michigan sentiment
+
+20
+
+5
+4
+
+7
+6
+
+9
+8
+
+-2
+
+11
+10
+
+12
+
+Response of ’Layoffs’ to ’Layoffs’
+
+20
+
+15
+
+15
+
+10
+
+10
+
+5
+
+5
+
+0
+
+0
+
+-5
+
+1
+
+3
+2
+
+5
+4
+
+7
+6
+
+9
+8
+
+-5
+
+11
+10
+
+12
+
+Figure 5.3 (cont.): Impulse responses (one standard deviation shocks)
+Response of Current Conditions to Current Conditions
+
+4
+
+4
+
+3
+
+3
+
+2
+
+1
+1
+
+3
+2
+
+5
+4
+
+7
+6
+
+9
+8
+
+0
+
+11
+10
+
+0
+
+0
+
+-1
+
+-1
+
+-2
+
+-2
+
+-3
+
+-3
+
+0.5
+
+0.0
+
+0.0
+
+-0.5
+
+-0.5
+
+-1.0
+
+-1.0
+1
+
+3
+2
+
+5
+4
+
+7
+6
+
+9
+8
+
+-1.5
+
+11
+10
+
+0.2
+
+0.0
+
+0.0
+
+-0.2
+
+-0.2
+
+-0.4
+
+-0.4
+
+-0.6
+
+-0.6
+
+2
+
+5
+4
+
+7
+6
+
+9
+8
+
+-0.8
+
+11
+10
+
+12
+
+3
+
+5
+4
+
+7
+6
+
+9
+8
+
+-4
+
+11
+10
+
+Response of ’Layoffs’ to Current Conditions
+
+0
+
+0
+
+-2
+
+-2
+
+-4
+
+-4
+
+Response of ’Recession’ to ’Recession’
+
+15
+
+10
+
+5
+
+5
+
+1
+
+3
+
+1
+
+5
+4
+
+7
+6
+
+9
+8
+
+1
+
+0
+
+11
+10
+
+8
+
+5
+4
+
+7
+6
+
+9
+8
+
+-6
+
+11
+10
+
+12
+
+Response of ’Layoffs’ to ’Recession’
+
+8
+
+6
+
+6
+
+4
+
+4
+
+2
+
+2
+
+0
+
+0
+
+-2
+
+1
+
+12
+
+Response of ’Recession’ to ’Layoffs’
+
+3
+2
+
+10
+
+0
+
+-6
+
+12
+
+15
+
+2
+
+Response of Current Conditions to ’Layoffs’
+
+3
+
+1
+
+12
+
+0.2
+
+1
+
+-4
+
+2
+
+Response of Current Conditions to ’Recession’
+
+-0.8
+
+1
+
+12
+
+0.5
+
+-1.5
+
+1
+
+2
+
+1
+0
+
+Response of ’Recession’ to Current Conditions
+
+3
+2
+
+5
+4
+
+7
+6
+
+9
+8
+
+-2
+
+11
+10
+
+12
+
+Response of ’Layoffs’ to ’Layoffs’
+
+1
+
+20
+
+0
+
+0
+
+15
+
+15
+
+-1
+
+-1
+
+10
+
+10
+
+-2
+
+-2
+
+5
+
+5
+
+-3
+
+0
+
+-3
+
+1
+
+3
+2
+
+5
+4
+
+7
+6
+
+9
+8
+
+11
+10
+
+12
+
+1
+
+3
+2
+
+5
+4
+
+7
+6
+
+9
+8
+
+0
+
+11
+10
+
+20
+
+12
+
+Figure 5.3 (cont.): Impulse responses (one standard deviation shocks)
+Response of Expected Conditions to Expected Conditions
+
+4
+
+4
+
+3
+
+Response of ’Recession’ to Expected Conditions
+
+2
+
+2
+
+3
+
+0
+
+2
+
+2
+
+1
+0
+
+1
+
+3
+2
+
+5
+4
+
+7
+6
+
+9
+8
+
+11
+10
+
+2
+
+2
+
+0
+
+0
+
+0
+
+-2
+
+-2
+
+-2
+
+-2
+
+1
+
+-4
+
+-4
+
+-4
+
+-4
+
+0
+
+-6
+
+-6
+
+-6
+
+1.0
+
+0.5
+
+0.5
+
+0.0
+
+0.0
+
+-0.5
+
+-0.5
+
+-1.0
+
+-1.0
+3
+2
+
+5
+4
+
+7
+6
+
+9
+8
+
+-1.5
+
+11
+10
+
+0.5
+
+0.0
+
+0.0
+
+-0.5
+
+-1.0
+
+-0.5
+
+1
+
+3
+2
+
+5
+4
+
+7
+6
+
+9
+8
+
+-1.0
+
+11
+10
+
+12
+
+4
+
+7
+6
+
+9
+8
+
+11
+10
+
+15
+
+10
+
+5
+
+5
+
+1
+
+3
+
+1
+
+5
+4
+
+7
+6
+
+9
+8
+
+0
+
+11
+10
+
+1
+0
+
+-1
+
+-1
+
+-2
+
+-2
+1
+
+3
+2
+
+5
+4
+
+7
+6
+
+9
+8
+
+-3
+
+11
+10
+
+12
+
+5
+4
+
+7
+6
+
+9
+8
+
+-6
+
+11
+10
+
+12
+
+Response of ’Layoffs’ to ’Recession’
+
+8
+
+6
+
+6
+
+4
+
+4
+
+2
+
+2
+
+0
+
+0
+
+-2
+
+1
+
+3
+2
+
+0
+
+-3
+
+8
+
+12
+
+Response of ’Recession’ to ’Layoffs’
+
+3
+2
+
+10
+
+0
+
+1
+
+12
+
+Response of ’Recession’ to ’Recession’
+
+2
+
+Response of Expected Conditions to ’Layoffs’
+
+5
+
+15
+
+12
+
+0.5
+
+3
+2
+
+1.0
+
+1
+
+1
+
+12
+
+Response of Expected Conditions to ’Recession’
+
+-1.5
+
+Response of ’Layoffs’ to Expected Conditions
+
+20
+
+5
+4
+
+7
+6
+
+9
+8
+
+-2
+
+11
+10
+
+12
+
+Response of ’Layoffs’ to ’Layoffs’
+
+20
+
+15
+
+15
+
+10
+
+10
+
+5
+
+5
+
+0
+
+0
+
+-5
+
+1
+
+3
+2
+
+5
+4
+
+7
+6
+
+9
+8
+
+-5
+
+11
+10
+
+12
+
+Figure 5.3 (cont.): Impulse responses (one standard deviation shocks)
+Response of Michigan employment to Michigan employment
+
+8
+
+8
+
+6
+
+Response of ’Recession’ to Michigan employment
+
+2
+
+2
+
+6
+
+0
+
+4
+
+4
+
+2
+0
+
+1
+
+3
+2
+
+5
+4
+
+7
+6
+
+9
+8
+
+11
+10
+
+2
+
+2
+
+0
+
+0
+
+0
+
+-2
+
+-2
+
+-2
+
+-2
+
+2
+
+-4
+
+-4
+
+-4
+
+-4
+
+0
+
+-6
+
+-6
+
+-6
+
+1.0
+
+0.5
+
+0.5
+
+0.0
+
+0.0
+
+-0.5
+
+-0.5
+
+-1.0
+
+-1.0
+3
+2
+
+5
+4
+
+7
+6
+
+9
+8
+
+-1.5
+
+11
+10
+
+3
+2
+
+1.0
+
+1
+
+1
+
+12
+
+Response of Michigan employment to ’Recession’
+
+-1.5
+
+4
+
+7
+6
+
+9
+8
+
+11
+10
+
+15
+
+10
+
+5
+
+5
+
+1
+
+3
+
+5
+4
+
+7
+6
+
+9
+8
+
+0
+
+11
+10
+
+0.5
+
+1
+
+0.0
+
+0.0
+
+0
+
+0
+
+-0.5
+
+-0.5
+
+-1
+
+-1
+
+-1.5
+
+1
+
+3
+2
+
+5
+4
+
+7
+6
+
+9
+8
+
+11
+10
+
+12
+
+-2
+
+-1.5
+
+-3
+
+1
+
+-2
+1
+
+3
+2
+
+5
+4
+
+7
+6
+
+9
+8
+
+-3
+
+11
+10
+
+12
+
+5
+4
+
+7
+6
+
+9
+8
+
+-6
+
+11
+10
+
+12
+
+Response of ’Layoffs’ to ’Recession’
+
+8
+
+6
+
+6
+
+4
+
+4
+
+2
+
+2
+
+0
+
+0
+
+-2
+
+1
+
+3
+2
+
+0.5
+
+-1.0
+
+8
+
+12
+
+Response of ’Recession’ to ’Layoffs’
+
+3
+2
+
+10
+
+0
+
+1
+
+12
+
+Response of ’Recession’ to ’Recession’
+
+2
+
+Response of Michigan employment to ’Layoffs’
+
+5
+
+15
+
+12
+
+-1.0
+
+Response of ’Layoffs’ to Michigan employment
+
+20
+
+5
+4
+
+7
+6
+
+9
+8
+
+-2
+
+11
+10
+
+12
+
+Response of ’Layoffs’ to ’Layoffs’
+
+20
+
+15
+
+15
+
+10
+
+10
+
+5
+
+5
+
+0
+
+0
+
+-5
+
+1
+
+3
+2
+
+5
+4
+
+7
+6
+
+9
+8
+
+-5
+
+11
+10
+
+12
+
+Figure: 5.4: Index of Total Economic News
+350
+
+350
+
+300
+
+300
+
+250
+
+250
+
+200
+
+200
+
+150
+
+One Standard Deviation
+above the Mean
+
+150
+
+100
+
+100
+
+50
+
+50
+
+0
+
+1978
+
+1980
+
+1982
+
+1984
+
+1986
+
+1988
+
+1990
+
+1992
+
+1994
+
+1996
+
+1998
+
+2000
+
+The index of economic news is based on articles used in the recession, layoff, and economic recovery indexes.
+The red line indicates one standard deviation above the mean.
+
+2002
+
+0
+
+Figure 5.5: Estimates of the Proportion of Respondents Updating
+Expectations as a Function of Total News
+0.9
+
+Percentiles of total news
+10th 25th
+
+0.8
+
+50th
+
+75th
+
+90th
+
+95th
+
+Employment expectations
+0.7
+
+Proportion
+
+0.6
+0.5
+
+Composite index
+
+0.4
+0.3
+0.2
+0.1
+0.0
+0
+
+40
+
+80
+
+120
+
+160
+
+Total news
+
+200
+
+240
+
+280
+
+8m
+19 03
+79
+m
+19 03
+80
+m
+19 03
+81
+m
+19 03
+82
+m
+19 03
+83
+m
+19 03
+84
+m
+19 03
+85
+m
+19 03
+86
+m
+19 03
+87
+m
+19 03
+88
+m
+19 03
+89
+m
+19 03
+90
+m
+19 03
+91
+m
+19 03
+92
+m
+19 03
+93
+m
+19 03
+94
+m
+19 03
+95
+m
+19 03
+96
+m
+19 03
+97
+m
+19 03
+98
+m
+19 03
+99
+m
+20 03
+00
+m
+20 03
+01
+m
+20 03
+02
+m
+20 03
+03
+m
+03
+
+19
+7
+
+Proportion
+0.9
+
+Figure 5.6: Estimates of the Proportion of Respondents
+Updating Expectations over Time
+
+0.8
+Employment expectations
+
+0.7
+Composite index
+
+0.6
+
+0.5
+
+0.4
+
+0.3
+
+0.2
+
+0.1
+
+0.0
+
+8m
+19 03
+79
+m
+19 03
+80
+m
+19 03
+81
+m
+19 03
+82
+m
+19 03
+83
+m
+19 03
+84
+m
+19 03
+85
+m
+19 03
+86
+m
+19 03
+87
+m
+19 03
+88
+m
+19 03
+89
+m
+19 03
+90
+m
+19 03
+91
+m
+19 03
+92
+m
+19 03
+93
+m
+19 03
+94
+m
+19 03
+95
+m
+19 03
+96
+m
+19 03
+97
+m
+19 03
+98
+m
+19 03
+99
+m
+20 03
+00
+m
+20 03
+01
+m
+20 03
+02
+m
+20 03
+03
+m
+03
+
+19
+7
+
+Change in the composite index
+2.0
+
+Figure 5.7: Estimates of the Contemporanous Change in the Composite Index
+from a One Standard Deviation Increase in the Recession Index
+
+1.0
+
+0.0
+
+-1.0
+
+-2.0
+
+-3.0
+
+-4.0
+
+-5.0
+
+

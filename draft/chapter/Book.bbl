@@ -1,854 +1,683 @@
-\begin{thebibliography}{130}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+\ifx\undefined\BySame
+\newcommand{\BySame}{\leavevmode\rule[.5ex]{3em}{.5pt}\ }
+\fi
+\begin{thebibliography}{}
 
-\bibitem[Acemoglu et~al.(2010)Acemoglu, Ozdaglar, and
-  ParandehGheibi]{acemoglu2010spread}
-Daron Acemoglu, Asuman Ozdaglar, and Ali ParandehGheibi.
-\newblock Spread of (mis) information in social networks.
-\newblock \emph{Games and Economic Behavior}, 70\penalty0 (2):\penalty0
-  194--227, 2010.
+\harvarditem[Acemo{\u{g}}lu, Como, Fagnani, and Ozdaglar]{Acemo{\u{g}}lu, Como,
+  Fagnani, and Ozdaglar}{2013}{acemouglu2013opinion}
+\textsc{Acemo{\u{g}}lu, Daron, Giacomo Como, Fabio Fagnani,  {and} Asuman
+  Ozdaglar}  (2013): ``Opinion fluctuations and disagreement in social
+  networks,'' \emph{Mathematics of Operations Research}, 38(1), 1--27.
 
-\bibitem[Acemo{\u{g}}lu et~al.(2013)Acemo{\u{g}}lu, Como, Fagnani, and
-  Ozdaglar]{acemouglu2013opinion}
-Daron Acemo{\u{g}}lu, Giacomo Como, Fabio Fagnani, and Asuman Ozdaglar.
-\newblock Opinion fluctuations and disagreement in social networks.
-\newblock \emph{Mathematics of Operations Research}, 38\penalty0 (1):\penalty0
-  1--27, 2013.
+\harvarditem[Acemoglu, Ozdaglar, and ParandehGheibi]{Acemoglu, Ozdaglar, and
+  ParandehGheibi}{2010}{acemoglu2010spread}
+\textsc{Acemoglu, Daron, Asuman Ozdaglar,  {and} Ali ParandehGheibi}  (2010):
+  ``Spread of (mis) information in social networks,'' \emph{Games and Economic
+  Behavior}, 70(2), 194--227.
 
-\bibitem[Ahern and Sosyura(2015)]{ahern2015rumor}
-Kenneth~R Ahern and Denis Sosyura.
-\newblock Rumor has it: Sensationalism in financial media.
-\newblock \emph{The Review of Financial Studies}, 28\penalty0 (7):\penalty0
-  2050--2093, 2015.
+\harvarditem[Ahern and Sosyura]{Ahern and Sosyura}{2015}{ahern2015rumor}
+\textsc{Ahern, Kenneth~R,  {and} Denis Sosyura}  (2015): ``Rumor has it:
+  Sensationalism in financial media,'' \emph{The Review of Financial Studies},
+  28(7), 2050--2093.
 
-\bibitem[Allcott and Gentzkow(2017)]{allcott2017social}
-Hunt Allcott and Matthew Gentzkow.
-\newblock Social media and fake news in the 2016 election.
-\newblock \emph{Journal of economic perspectives}, 31\penalty0 (2):\penalty0
-  211--36, 2017.
+\harvarditem[Allcott and Gentzkow]{Allcott and
+  Gentzkow}{2017}{allcott2017social}
+\textsc{Allcott, Hunt,  {and} Matthew Gentzkow}  (2017): ``Social media and
+  fake news in the 2016 election,'' \emph{Journal of economic perspectives},
+  31(2), 211--36.
 
-\bibitem[Anderson et~al.(1992)Anderson, Anderson, and
-  May]{anderson_infectious_1992}
-Roy~M. Anderson, B.~Anderson, and Robert~M. May.
-\newblock \emph{Infectious {Diseases} of {Humans}: {Dynamics} and {Control}}.
-\newblock OUP Oxford, August 1992.
-\newblock ISBN 978-0-19-854040-3.
+\harvarditem[Anderson, Anderson, and May]{Anderson, Anderson, and
+  May}{1992}{anderson_infectious_1992}
+\textsc{Anderson, Roy~M., B.~Anderson,  {and} Robert~M. May}  (1992):
+  \emph{Infectious {Diseases} of {Humans}: {Dynamics} and {Control}}. OUP
+  Oxford.
 
-\bibitem[Arifovic et~al.(2018)Arifovic, Schmitt-Groh{\'e}, and
-  Uribe]{arifovic2018learning}
-Jasmina Arifovic, Stephanie Schmitt-Groh{\'e}, and Martin Uribe.
-\newblock Learning to live in a liquidity trap.
-\newblock \emph{Journal of Economic Dynamics and Control}, 89:\penalty0
-  120--136, 2018.
+\harvarditem[Arifovic, Schmitt-Groh{\'e}, and Uribe]{Arifovic,
+  Schmitt-Groh{\'e}, and Uribe}{2018}{arifovic2018learning}
+\textsc{Arifovic, Jasmina, Stephanie Schmitt-Groh{\'e},  {and} Martin Uribe}
+  (2018): ``Learning to live in a liquidity trap,'' \emph{Journal of Economic
+  Dynamics and Control}, 89, 120--136.
 
-\bibitem[Arrondel et~al.(2020)Arrondel, Calvo~Pardo, Giannitsarou, and
-  Haliassos]{arrondel2020informative}
-Luc Arrondel, Hector~F Calvo~Pardo, Chryssi Giannitsarou, and Michael
-  Haliassos.
-\newblock Informative social interactions.
-\newblock \emph{Available at SSRN 3171564}, 2020.
+\harvarditem[Arrondel, Calvo~Pardo, Giannitsarou, and Haliassos]{Arrondel,
+  Calvo~Pardo, Giannitsarou, and Haliassos}{2020}{arrondel2020informative}
+\textsc{Arrondel, Luc, Hector~F Calvo~Pardo, Chryssi Giannitsarou,  {and}
+  Michael Haliassos}  (2020): ``Informative social interactions,''
+  \emph{Available at SSRN 3171564}.
 
-\bibitem[Arrow(1969)]{arrow_classificatory_1969}
-Kenneth~J. Arrow.
-\newblock Classificatory {Notes} on the {Production} and {Transmission} of
-  {Technological} {Knowledge}.
-\newblock \emph{The American Economic Review}, 59\penalty0 (2):\penalty0
-  29--35, 1969.
-\newblock ISSN 0002-8282.
-\newblock URL \url{https://www.jstor.org/stable/1823650}.
+\harvarditem[Arrow]{Arrow}{1969}{arrow_classificatory_1969}
+\textsc{Arrow, Kenneth~J.}  (1969): ``Classificatory {Notes} on the
+  {Production} and {Transmission} of {Technological} {Knowledge},'' \emph{The
+  American Economic Review}, 59(2), 29--35.
 
-\bibitem[Ash et~al.(2021)Ash, Gauthier, and Widmer]{ash2021text}
-Elliott Ash, Germain Gauthier, and Philine Widmer.
-\newblock Text semantics capture political and economic narratives.
-\newblock \emph{arXiv preprint arXiv:2108.01720}, 2021.
+\harvarditem[Ash, Gauthier, and Widmer]{Ash, Gauthier, and
+  Widmer}{2021}{ash2021text}
+\textsc{Ash, Elliott, Germain Gauthier,  {and} Philine Widmer}  (2021): ``Text
+  Semantics Capture Political and Economic Narratives,'' \emph{arXiv preprint
+  arXiv:2108.01720}.
 
-\bibitem[Auclert et~al.(2020)Auclert, Rognlie, and Straub]{auclert2020micro}
-Adrien Auclert, Matthew Rognlie, and Ludwig Straub.
-\newblock Micro jumps, macro humps: Monetary policy and business cycles in an
-  estimated hank model.
-\newblock Technical report, National Bureau of Economic Research, 2020.
+\harvarditem[Auclert, Rognlie, and Straub]{Auclert, Rognlie, and
+  Straub}{2020}{auclert2020micro}
+\textsc{Auclert, Adrien, Matthew Rognlie,  {and} Ludwig Straub}  (2020):
+  ``Micro jumps, macro humps: Monetary policy and business cycles in an
+  estimated HANK model,'' Discussion paper, National Bureau of Economic
+  Research.
 
-\bibitem[Bailey et~al.(2018)Bailey, Cao, Kuchler, and
-  Stroebel]{bailey2018economic}
-Michael Bailey, Ruiqing Cao, Theresa Kuchler, and Johannes Stroebel.
-\newblock The economic effects of social networks: Evidence from the housing
-  market.
-\newblock \emph{Journal of Political Economy}, 126\penalty0 (6):\penalty0
-  2224--2276, 2018.
+\harvarditem[Bailey, Cao, Kuchler, and Stroebel]{Bailey, Cao, Kuchler, and
+  Stroebel}{2018}{bailey2018economic}
+\textsc{Bailey, Michael, Ruiqing Cao, Theresa Kuchler,  {and} Johannes
+  Stroebel}  (2018): ``The economic effects of social networks: Evidence from
+  the housing market,'' \emph{Journal of Political Economy}, 126(6),
+  2224--2276.
 
-\bibitem[Bailey et~al.(2019)Bailey, D{\'a}vila, Kuchler, and
-  Stroebel]{bailey2019house}
-Michael Bailey, Eduardo D{\'a}vila, Theresa Kuchler, and Johannes Stroebel.
-\newblock House price beliefs and mortgage leverage choice.
-\newblock \emph{The Review of Economic Studies}, 86\penalty0 (6):\penalty0
-  2403--2452, 2019.
+\harvarditem[Bailey, D{\'a}vila, Kuchler, and Stroebel]{Bailey, D{\'a}vila,
+  Kuchler, and Stroebel}{2019}{bailey2019house}
+\textsc{Bailey, Michael, Eduardo D{\'a}vila, Theresa Kuchler,  {and} Johannes
+  Stroebel}  (2019): ``House price beliefs and mortgage leverage choice,''
+  \emph{The Review of Economic Studies}, 86(6), 2403--2452.
 
-\bibitem[Bailey et~al.(1975)]{bailey1975mathematical}
-Norman~TJ Bailey et~al.
-\newblock \emph{The mathematical theory of infectious diseases and its
-  applications}.
-\newblock Charles Griffin \& Company Ltd, 5a Crendon Street, High Wycombe,
-  Bucks HP13 6LE., 1975.
+\harvarditem[Bailey et~al.]{Bailey et~al.}{1975}{bailey1975mathematical}
+\textsc{Bailey, Norman~TJ,  et~al.}  (1975): \emph{The mathematical theory of
+  infectious diseases and its applications}. Charles Griffin \& Company Ltd, 5a
+  Crendon Street, High Wycombe, Bucks HP13 6LE.
 
-\bibitem[Baker et~al.(2016)Baker, Bloom, and Davis]{baker2016measuring}
-Scott~R Baker, Nicholas Bloom, and Steven~J Davis.
-\newblock Measuring economic policy uncertainty.
-\newblock \emph{The quarterly journal of economics}, 131\penalty0 (4):\penalty0
-  1593--1636, 2016.
+\harvarditem[Baker, Bloom, and Davis]{Baker, Bloom, and
+  Davis}{2016}{baker2016measuring}
+\textsc{Baker, Scott~R, Nicholas Bloom,  {and} Steven~J Davis}  (2016):
+  ``Measuring economic policy uncertainty,'' \emph{The quarterly journal of
+  economics}, 131(4), 1593--1636.
 
-\bibitem[Baley and Veldkamp(2022)]{bv2022bayesianlearning}
-Isaac Baley and Laura Veldkamp.
-\newblock Bayesian learning.
-\newblock In \emph{Handbook of Economic Expectations}, 2022.
+\harvarditem[Baley and Veldkamp]{Baley and
+  Veldkamp}{2022}{bv2022bayesianlearning}
+\textsc{Baley, Isaac,  {and} Laura Veldkamp}  (2022): ``Bayesian learning,'' in
+  \emph{Handbook of Economic Expectations}.
 
-\bibitem[Banerjee et~al.(2013)Banerjee, Chandrasekhar, Duflo, and
-  Jackson]{banerjee2013diffusion}
-Abhijit Banerjee, Arun~G Chandrasekhar, Esther Duflo, and Matthew~O Jackson.
-\newblock The diffusion of microfinance.
-\newblock \emph{Science}, 341\penalty0 (6144), 2013.
+\harvarditem[Banerjee, Chandrasekhar, Duflo, and Jackson]{Banerjee,
+  Chandrasekhar, Duflo, and Jackson}{2013}{banerjee2013diffusion}
+\textsc{Banerjee, Abhijit, Arun~G Chandrasekhar, Esther Duflo,  {and} Matthew~O
+  Jackson}  (2013): ``The diffusion of microfinance,'' \emph{Science},
+  341(6144).
 
-\bibitem[Barab{\'a}si et~al.(2016)]{barabasi2016network}
-Albert-L{\'a}szl{\'o} Barab{\'a}si et~al.
-\newblock \emph{Network Science}.
-\newblock Cambridge University Press, 2016.
+\harvarditem[Barab{\'a}si et~al.]{Barab{\'a}si
+  et~al.}{2016}{barabasi2016network}
+\textsc{Barab{\'a}si, Albert-L{\'a}szl{\'o},  et~al.}  (2016): \emph{Network
+  Science}. Cambridge University Press.
 
-\bibitem[Bauckhage(2011)]{bauckhage2011insights}
-Christian Bauckhage.
-\newblock Insights into internet memes.
-\newblock In \emph{Proceedings of the International AAAI Conference on Web and
-  Social Media}, volume~5, 2011.
+\harvarditem[Bauckhage]{Bauckhage}{2011}{bauckhage2011insights}
+\textsc{Bauckhage, Christian}  (2011): ``Insights into internet memes,'' in
+  \emph{Proceedings of the International AAAI Conference on Web and Social
+  Media}, vol.~5.
 
-\bibitem[Bayer et~al.(2021)Bayer, Mangum, and Roberts]{bayer2021speculative}
-Patrick Bayer, Kyle Mangum, and James~W Roberts.
-\newblock Speculative fever: Investor contagion in the housing bubble.
-\newblock \emph{American Economic Review}, 111\penalty0 (2):\penalty0 609--51,
-  2021.
+\harvarditem[Bayer, Mangum, and Roberts]{Bayer, Mangum, and
+  Roberts}{2021}{bayer2021speculative}
+\textsc{Bayer, Patrick, Kyle Mangum,  {and} James~W Roberts}  (2021):
+  ``Speculative fever: Investor contagion in the housing bubble,''
+  \emph{American Economic Review}, 111(2), 609--51.
 
-\bibitem[Berger and Milkman(2012)]{berger2012makes}
-Jonah Berger and Katherine~L Milkman.
-\newblock What makes online content viral?
-\newblock \emph{Journal of marketing research}, 49\penalty0 (2):\penalty0
-  192--205, 2012.
+\harvarditem[Berger and Milkman]{Berger and Milkman}{2012}{berger2012makes}
+\textsc{Berger, Jonah,  {and} Katherine~L Milkman}  (2012): ``What makes online
+  content viral?,'' \emph{Journal of marketing research}, 49(2), 192--205.
 
-\bibitem[Bettencourt et~al.(2006)Bettencourt, Cintr{\'o}n-Arias, Kaiser, and
-  Castillo-Ch{\'a}vez]{bettencourt2006power}
-Lu{\'\i}s~MA Bettencourt, Ariel Cintr{\'o}n-Arias, David~I Kaiser, and Carlos
-  Castillo-Ch{\'a}vez.
-\newblock The power of a good idea: Quantitative modeling of the spread of
-  ideas from epidemiological models.
-\newblock \emph{Physica A: Statistical Mechanics and its Applications},
-  364:\penalty0 513--536, 2006.
+\harvarditem[Bettencourt, Cintr{\'o}n-Arias, Kaiser, and
+  Castillo-Ch{\'a}vez]{Bettencourt, Cintr{\'o}n-Arias, Kaiser, and
+  Castillo-Ch{\'a}vez}{2006}{bettencourt2006power}
+\textsc{Bettencourt, Lu{\'\i}s~MA, Ariel Cintr{\'o}n-Arias, David~I Kaiser,
+  {and} Carlos Castillo-Ch{\'a}vez}  (2006): ``The power of a good idea:
+  Quantitative modeling of the spread of ideas from epidemiological models,''
+  \emph{Physica A: Statistical Mechanics and its Applications}, 364, 513--536.
 
-\bibitem[Bordalo et~al.(2018)Bordalo, Gennaioli, and
-  Shleifer]{bordalo2018diagnostic}
-Pedro Bordalo, Nicola Gennaioli, and Andrei Shleifer.
-\newblock Diagnostic expectations and credit cycles.
-\newblock \emph{The Journal of Finance}, 73\penalty0 (1):\penalty0 199--227,
-  2018.
+\harvarditem[Bordalo, Gennaioli, and Shleifer]{Bordalo, Gennaioli, and
+  Shleifer}{2018}{bordalo2018diagnostic}
+\textsc{Bordalo, Pedro, Nicola Gennaioli,  {and} Andrei Shleifer}  (2018):
+  ``Diagnostic expectations and credit cycles,'' \emph{The Journal of Finance},
+  73(1), 199--227.
 
-\bibitem[Brauer(2017)]{brauer2017mathematical}
-Fred Brauer.
-\newblock Mathematical epidemiology: Past, present, and future.
-\newblock \emph{Infectious Disease Modelling}, 2\penalty0 (2):\penalty0
-  113--127, 2017.
+\harvarditem[Brauer]{Brauer}{2017}{brauer2017mathematical}
+\textsc{Brauer, Fred}  (2017): ``Mathematical epidemiology: Past, present, and
+  future,'' \emph{Infectious Disease Modelling}, 2(2), 113--127.
 
-\bibitem[Brown et~al.(2008)Brown, Ivkovi{\'c}, Smith, and
-  Weisbenner]{brown2008neighbors}
-Jeffrey~R Brown, Zoran Ivkovi{\'c}, Paul~A Smith, and Scott Weisbenner.
-\newblock Neighbors matter: Causal community effects and stock market
-  participation.
-\newblock \emph{The Journal of Finance}, 63\penalty0 (3):\penalty0 1509--1531,
-  2008.
+\harvarditem[Brown, Ivkovi{\'c}, Smith, and Weisbenner]{Brown, Ivkovi{\'c},
+  Smith, and Weisbenner}{2008}{brown2008neighbors}
+\textsc{Brown, Jeffrey~R, Zoran Ivkovi{\'c}, Paul~A Smith,  {and} Scott
+  Weisbenner}  (2008): ``Neighbors matter: Causal community effects and stock
+  market participation,'' \emph{The Journal of Finance}, 63(3), 1509--1531.
 
-\bibitem[Browning et~al.(1999)Browning, Hansen, and
-  Heckman]{browning_chapter_1999}
-Martin Browning, Lars~Peter Hansen, and James~J. Heckman.
-\newblock Chapter 8 {Micro} data and general equilibrium models.
-\newblock In \emph{Handbook of {Macroeconomics}}, volume~1, pages 543--633.
-  Elsevier, January 1999.
-\newblock \doi{10.1016/S1574-0048(99)01011-3}.
-\newblock URL
-  \url{http://www.sciencedirect.com/science/article/pii/S1574004899010113}.
+\harvarditem[Browning, Hansen, and Heckman]{Browning, Hansen, and
+  Heckman}{1999}{browning_chapter_1999}
+\textsc{Browning, Martin, Lars~Peter Hansen,  {and} James~J. Heckman}  (1999):
+  ``Chapter 8 {Micro} data and general equilibrium models,'' in \emph{Handbook
+  of {Macroeconomics}}, vol.~1, pp. 543--633. Elsevier.
 
-\bibitem[Bruine~de Bruin et~al.(2022)Bruine~de Bruin, Chin, Jeff, and Van
-  Der~Klaauw]{bdk2021household}
-W{\"a}ndi Bruine~de Bruin, Alycia Chin, Dominitz Jeff, and Wilbert Van
-  Der~Klaauw.
-\newblock Household surveys and probabilistic questions.
-\newblock In \emph{Handbook of Economic Expectations}, 2022.
+\harvarditem[Bruine~de Bruin, Chin, Jeff, and Van Der~Klaauw]{Bruine~de Bruin,
+  Chin, Jeff, and Van Der~Klaauw}{2022}{bdk2021household}
+\textsc{Bruine~de Bruin, W{\"a}ndi, Alycia Chin, Dominitz Jeff,  {and} Wilbert
+  Van Der~Klaauw}  (2022): ``Household surveys and probabilistic questions,''
+  in \emph{Handbook of Economic Expectations}.
 
-\bibitem[Burnside et~al.(2016)Burnside, Eichenbaum, and
-  Rebelo]{burnside_understanding_2016}
-Craig Burnside, Martin Eichenbaum, and Sergio Rebelo.
-\newblock Understanding {Booms} and {Busts} in {Housing} {Markets}.
-\newblock \emph{Journal of Political Economy}, 124\penalty0 (4):\penalty0
-  1088--1147, August 2016.
-\newblock ISSN 0022-3808.
-\newblock \doi{10.1086/686732}.
-\newblock URL \url{https://www.journals.uchicago.edu/doi/abs/10.1086/686732}.
+\harvarditem[Burnside, Eichenbaum, and Rebelo]{Burnside, Eichenbaum, and
+  Rebelo}{2016}{burnside_understanding_2016}
+\textsc{Burnside, Craig, Martin Eichenbaum,  {and} Sergio Rebelo}  (2016):
+  ``Understanding {Booms} and {Busts} in {Housing} {Markets},'' \emph{Journal
+  of Political Economy}, 124(4), 1088--1147.
 
-\bibitem[Bybee et~al.(2020)Bybee, Kelly, Manela, and Xiu]{bybee2020structure}
-Leland Bybee, Bryan~T Kelly, Asaf Manela, and Dacheng Xiu.
-\newblock The structure of economic news.
-\newblock Technical report, National Bureau of Economic Research, 2020.
+\harvarditem[Bybee, Kelly, Manela, and Xiu]{Bybee, Kelly, Manela, and
+  Xiu}{2020}{bybee2020structure}
+\textsc{Bybee, Leland, Bryan~T Kelly, Asaf Manela,  {and} Dacheng Xiu}  (2020):
+  ``The structure of economic news,'' Discussion paper, National Bureau of
+  Economic Research.
 
-\bibitem[Cabrales et~al.(2015)Cabrales, Gale, and
-  Gottardi]{cabrales2015financial}
-Antonio Cabrales, Douglas Gale, and Piero Gottardi.
-\newblock Financial contagion in networks.
-\newblock In \emph{The Oxford Handbook of the Economics of Networks}. Oxford
-  University Press, 2015.
+\harvarditem[Cabrales, Gale, and Gottardi]{Cabrales, Gale, and
+  Gottardi}{2015}{cabrales2015financial}
+\textsc{Cabrales, Antonio, Douglas Gale,  {and} Piero Gottardi}  (2015):
+  ``Financial contagion in networks,'' in \emph{The Oxford Handbook of the
+  Economics of Networks}. Oxford University Press.
 
-\bibitem[Carroll(2001)]{carrollEpidemiologySFI}
-Christopher~D Carroll.
-\newblock The epidemiology of macroeconomic expectations, 2001.
+\harvarditem[Carroll]{Carroll}{2001}{carrollEpidemiologySFI}
+\textsc{Carroll, Christopher~D}  (2001): ``The epidemiology of macroeconomic
+  expectations,'' .
 
-\bibitem[Carroll(2003)]{carroll2003macroeconomic}
-Christopher~D Carroll.
-\newblock Macroeconomic expectations of households and professional
-  forecasters.
-\newblock \emph{the Quarterly Journal of economics}, 118\penalty0 (1):\penalty0
-  269--298, 2003.
+\harvarditem[Carroll]{Carroll}{2003}{carroll2003macroeconomic}
+\textsc{\BySame{}}  (2003): ``Macroeconomic expectations of households and
+  professional forecasters,'' \emph{the Quarterly Journal of economics},
+  118(1), 269--298.
 
-\bibitem[Carroll et~al.(1994)Carroll, Fuhrer, and Wilcox]{cfwSentiment}
-Christopher~D. Carroll, Jeffrey~C. Fuhrer, and David~W. Wilcox.
-\newblock Does consumer sentiment forecast household spending? {I}f so, why?
-\newblock \emph{American Economic Review}, 84\penalty0 (5):\penalty0
-  1397--1408, 1994.
-\newblock URL
-  \url{https://www.econ2.jhu.edu/people/ccarroll/SentAERCarrollFuhrerWilcox.pdf}.
-\newblock
+\harvarditem[Carroll, Crawley, Slacalek, Tokuoka, and White]{Carroll, Crawley,
+  Slacalek, Tokuoka, and White}{2020}{carroll2020sticky}
+\textsc{Carroll, Christopher~D, Edmund Crawley, Jiri Slacalek, Kiichi Tokuoka,
+  {and} Matthew~N White}  (2020): ``Sticky expectations and consumption
+  dynamics,'' \emph{American economic journal: macroeconomics}, 12(3), 40--76.
+
+\harvarditem[Carroll, Fuhrer, and Wilcox]{Carroll, Fuhrer, and
+  Wilcox}{1994}{cfwSentiment}
+\textsc{Carroll, Christopher~D., Jeffrey~C. Fuhrer,  {and} David~W. Wilcox}
+  (1994): ``Does Consumer Sentiment Forecast Household Spending? {I}f So,
+  Why?,'' \emph{American Economic Review}, 84(5), 1397--1408,
   \url{https://www.econ2.jhu.edu/people/ccarroll/SentAERCarrollFuhrerWilcox.pdf}.
 
-\bibitem[Carroll et~al.(2020)Carroll, Crawley, Slacalek, Tokuoka, and
-  White]{carroll2020sticky}
-Christopher~D Carroll, Edmund Crawley, Jiri Slacalek, Kiichi Tokuoka, and
-  Matthew~N White.
-\newblock Sticky expectations and consumption dynamics.
-\newblock \emph{American economic journal: macroeconomics}, 12\penalty0
-  (3):\penalty0 40--76, 2020.
-
-\bibitem[Chahrour et~al.(2021)Chahrour, Nimark, and
-  Pitschner]{chahrour2021sectoral}
-Ryan Chahrour, Kristoffer Nimark, and Stefan Pitschner.
-\newblock Sectoral media focus and aggregate fluctuations.
-\newblock \emph{American Economic Review}, 111\penalty0 (12):\penalty0
-  3872--3922, 2021.
-
-\bibitem[Choi and Varian(2012)]{choi2012predicting}
-Hyunyoung Choi and Hal Varian.
-\newblock Predicting the present with google trends.
-\newblock \emph{Economic record}, 88:\penalty0 2--9, 2012.
-
-\bibitem[Cohen et~al.(2008)Cohen, Frazzini, and Malloy]{cohen2008small}
-Lauren Cohen, Andrea Frazzini, and Christopher Malloy.
-\newblock The small world of investing: Board connections and mutual fund
-  returns.
-\newblock \emph{Journal of Political Economy}, 116\penalty0 (5):\penalty0
-  951--979, 2008.
-
-\bibitem[Comin and Hobijn(2010)]{comin2010exploration}
-Diego Comin and Bart Hobijn.
-\newblock An exploration of technology diffusion.
-\newblock \emph{American Economic Review}, 100\penalty0 (5):\penalty0 2031--59,
-  2010.
-
-\bibitem[D'Acunto et~al.(2022)D'Acunto, Malmendier, and
-  Weber]{dmw2022inflationexpectation}
-Francesco D'Acunto, Ulrike Malmendier, and Michael Weber.
-\newblock What do the data tell us about inflation expectations?
-\newblock In \emph{Handbook of Economic Expectations}, 2022.
-
-\bibitem[Daley and Kendall(1964)]{daley1964epidemics}
-Daryl~J Daley and David~G Kendall.
-\newblock Epidemics and rumours.
-\newblock \emph{Nature}, 204\penalty0 (4963):\penalty0 1118--1118, 1964.
-
-\bibitem[Damstra and Boukes(2021)]{damstra2021economy}
-Alyt Damstra and Mark Boukes.
-\newblock The economy, the news, and the public: A longitudinal study of the
-  impact of economic news on economic evaluations and expectations.
-\newblock \emph{Communication Research}, 48\penalty0 (1):\penalty0 26--50,
-  2021.
-
-\bibitem[Dawid and Gatti(2018)]{ddAgentBasedMacro}
-Herbert Dawid and Domenico~Delli Gatti.
-\newblock Agent-based macroeconomics.
-\newblock \emph{Handbook of computational economics}, 4:\penalty0 63--156,
-  2018.
-
-\bibitem[De~La~Vega(1688)]{vegaConfusion}
-Joseph De~La~Vega.
-\newblock \emph{Confusion de Confusiones}.
-\newblock Amsterdam, 1688.
-
-\bibitem[Diamond and Dybvig(1983)]{diamond_bank_1983}
-Douglas~W. Diamond and Philip~H. Dybvig.
-\newblock Bank {Runs}, {Deposit} {Insurance}, and {Liquidity}.
-\newblock \emph{Journal of Political Economy}, 91\penalty0 (3):\penalty0
-  401--419, 1983.
-\newblock ISSN 0022-3808.
-\newblock URL \url{https://www.jstor.org/stable/1837095}.
-\newblock Publisher: University of Chicago Press.
-
-\bibitem[Doms and Morin(2004)]{doms2004consumer}
-Mark~E Doms and Norman~J Morin.
-\newblock Consumer sentiment, the economy, and the news media.
-\newblock Technical Report 2004-09, Federal Reserve Bank of San Francisco,
-  2004.
-
-\bibitem[Dougal et~al.(2012)Dougal, Engelberg, Garcia, and
-  Parsons]{dougal2012journalists}
-Casey Dougal, Joseph Engelberg, Diego Garcia, and Christopher~A Parsons.
-\newblock Journalists and the stock market.
-\newblock \emph{The Review of Financial Studies}, 25\penalty0 (3):\penalty0
-  639--679, 2012.
-
-\bibitem[Easaw and Mossay(2015)]{easaw2015households}
-Joshy Easaw and Pascal Mossay.
-\newblock Households forming macroeconomic expectations: inattentive behavior
-  with social learning.
-\newblock \emph{The BE Journal of Macroeconomics}, 15\penalty0 (1):\penalty0
-  339--363, 2015.
-
-\bibitem[Erdos et~al.(1960)Erdos, R{\'e}nyi, et~al.]{erdos1960evolution}
-Paul Erdos, Alfr{\'e}d R{\'e}nyi, et~al.
-\newblock On the evolution of random graphs.
-\newblock \emph{Publ. Math. Inst. Hung. Acad. Sci}, 5\penalty0 (1):\penalty0
-  17--60, 1960.
-
-\bibitem[Fogli and Veldkamp(2021)]{fogli2021germs}
-Alessandra Fogli and Laura Veldkamp.
-\newblock Germs, social networks, and growth.
-\newblock \emph{The Review of Economic Studies}, 88\penalty0 (3):\penalty0
-  1074--1100, 2021.
-
-\bibitem[Gabaix(2020)]{gabaix2020behavioral}
-Xavier Gabaix.
-\newblock A behavioral new keynesian model.
-\newblock \emph{American Economic Review}, 110\penalty0 (8):\penalty0
-  2271--2327, 2020.
-
-\bibitem[Galesic et~al.(2018)Galesic, de~Bruin, Dumas, Kapteyn, Darling, and
-  Meijer]{galesic2018asking}
-Mirta Galesic, W~Bruine de~Bruin, Marion Dumas, A~Kapteyn, JE~Darling, and
-  E~Meijer.
-\newblock Asking about social circles improves election predictions.
-\newblock \emph{Nature Human Behaviour}, 2\penalty0 (3):\penalty0 187--193,
-  2018.
-
-\bibitem[Gentzkow et~al.(2019)Gentzkow, Kelly, and Taddy]{gentzkow2019text}
-Matthew Gentzkow, Bryan Kelly, and Matt Taddy.
-\newblock Text as data.
-\newblock \emph{Journal of Economic Literature}, 57\penalty0 (3):\penalty0
-  535--74, 2019.
-
-\bibitem[Giglio et~al.(2021)Giglio, Maggiori, Stroebel, and Utkus]{gmsuBeliefs}
-Stefano Giglio, Matteo Maggiori, Johannes Stroebel, and Stephen Utkus.
-\newblock Five facts about beliefs and portfolios.
-\newblock \emph{American Economic Review}, 111\penalty0 (5):\penalty0
-  1481--1522, 2021.
-
-\bibitem[Glasserman and Young(2016)]{glasserman2016contagion}
-Paul Glasserman and H~Peyton Young.
-\newblock Contagion in financial networks.
-\newblock \emph{Journal of Economic Literature}, 54\penalty0 (3):\penalty0
-  779--831, 2016.
-
-\bibitem[Gourieroux and Jasiak(2020)]{gourieroux2020time}
-Christian Gourieroux and Joann Jasiak.
-\newblock Time varying markov process with partially observed aggregate data:
-  An application to coronavirus.
-\newblock \emph{Journal of Econometrics}, 2020.
-
-\bibitem[Granovetter(1978)]{granovetter1978threshold}
-Mark Granovetter.
-\newblock Threshold models of collective behavior.
-\newblock \emph{American journal of sociology}, 83\penalty0 (6):\penalty0
-  1420--1443, 1978.
-
-\bibitem[Granovetter(1973)]{granovetter1973strength}
-Mark~S Granovetter.
-\newblock The strength of weak ties.
-\newblock \emph{American journal of sociology}, 78\penalty0 (6):\penalty0
-  1360--1380, 1973.
-
-\bibitem[Guare(1990)]{guareSixDegrees}
-John Guare.
-\newblock \emph{Six degrees of separation: A play}.
-\newblock Vintage, 1990.
-
-\bibitem[Hachem and Wu(2017)]{hachem_inflation_2017}
-Kinda Hachem and Jing~Cynthia Wu.
-\newblock Inflation {Announcements} and {Social} {Dynamics}.
-\newblock \emph{Journal of Money, Credit and Banking}, 49\penalty0
-  (8):\penalty0 1673--1713, 2017.
-\newblock ISSN 1538-4616.
-\newblock \doi{10.1111/jmcb.12428}.
-\newblock URL \url{https://onlinelibrary.wiley.com/doi/abs/10.1111/jmcb.12428}.
-
-\bibitem[Hagberg et~al.(2008)Hagberg, Swart, and S~Chult]{hagberg2008exploring}
-Aric Hagberg, Pieter Swart, and Daniel S~Chult.
-\newblock Exploring network structure, dynamics, and function using networkx.
-\newblock Technical report, Los Alamos National Lab.(LANL), Los Alamos, NM
-  (United States), 2008.
-
-\bibitem[Haldane and Turrell(2019)]{haldane_drawing_2019}
-Andrew~G. Haldane and Arthur~E. Turrell.
-\newblock Drawing on different disciplines: macroeconomic agent-based models.
-\newblock \emph{Journal of Evolutionary Economics}, 29\penalty0 (1):\penalty0
-  39--66, March 2019.
-\newblock ISSN 1432-1386.
-\newblock \doi{10.1007/s00191-018-0557-5}.
-\newblock URL \url{https://doi.org/10.1007/s00191-018-0557-5}.
-
-\bibitem[Harko et~al.(2014)Harko, Lobo, and Mak]{harko2014exact}
-Tiberiu Harko, Francisco~SN Lobo, and MK~Mak.
-\newblock Exact analytical solutions of the susceptible-infected-recovered
-  (sir) epidemic model and of the sir model with equal death and birth rates.
-\newblock \emph{Applied Mathematics and Computation}, 236:\penalty0 184--194,
-  2014.
-
-\bibitem[Hethcote(2000)]{hethcote_mathematics_2000}
-Herbert~W. Hethcote.
-\newblock The {Mathematics} of {Infectious} {Diseases}.
-\newblock \emph{SIAM Review}, 42\penalty0 (4):\penalty0 599--653, January 2000.
-\newblock ISSN 0036-1445, 1095-7200.
-\newblock \doi{10.1137/S0036144500371907}.
-\newblock URL \url{http://epubs.siam.org/doi/10.1137/S0036144500371907}.
-
-\bibitem[Hirshleifer(2020)]{hirshleifer2020presidential}
-David Hirshleifer.
-\newblock Presidential address: Social transmission bias in economics and
-  finance.
-\newblock \emph{The Journal of Finance}, 75\penalty0 (4):\penalty0 1779--1831,
-  2020.
-
-\bibitem[Hommes(2006)]{hommes2006heterogeneous}
-Cars~H Hommes.
-\newblock Heterogeneous agent models in economics and finance.
-\newblock \emph{Handbook of computational economics}, 2:\penalty0 1109--1186,
-  2006.
-
-\bibitem[Hong et~al.(2004)Hong, Kubik, and Stein]{hong2004social}
-Harrison Hong, Jeffrey~D Kubik, and Jeremy~C Stein.
-\newblock Social interaction and stock-market participation.
-\newblock \emph{The journal of finance}, 59\penalty0 (1):\penalty0 137--163,
-  2004.
-
-\bibitem[Hong et~al.(2005)Hong, Kubik, and Stein]{hong2005thy}
-Harrison Hong, Jeffrey~D Kubik, and Jeremy~C Stein.
-\newblock Thy neighbor's portfolio: Word-of-mouth effects in the holdings and
-  trades of money managers.
-\newblock \emph{The Journal of Finance}, 60\penalty0 (6):\penalty0 2801--2824,
-  2005.
-
-\bibitem[Huang et~al.(2021)Huang, Hwang, and Lou]{huang2021rate}
-Shiyang Huang, Byoung-Hyoun Hwang, and Dong Lou.
-\newblock The rate of communication.
-\newblock \emph{Journal of Financial Economics}, 2021.
-
-\bibitem[Hume(1748)]{humeenquiry}
-David Hume.
-\newblock \emph{An Enquiry Concerning Human Understanding}.
-\newblock Andrew Millar, 1748.
-
-\bibitem[Hvide and {\"O}stberg(2015)]{hvide2015social}
-Hans~K Hvide and Per {\"O}stberg.
-\newblock Social interaction at work.
-\newblock \emph{Journal of Financial Economics}, 117\penalty0 (3):\penalty0
-  628--652, 2015.
-
-\bibitem[Ilut and Valchev(2020)]{ilut2020economic}
-Cosmin~L Ilut and Rosen Valchev.
-\newblock Economic agents as imperfect problem solvers.
-\newblock Technical report, National Bureau of Economic Research, 2020.
-
-\bibitem[Ivkovi{\'c} and Weisbenner(2007)]{ivkovic2007information}
-Zoran Ivkovi{\'c} and Scott Weisbenner.
-\newblock Information diffusion effects in individual investors' common stock
-  purchases: Covet thy neighbors' investment choices.
-\newblock \emph{The Review of Financial Studies}, 20\penalty0 (4):\penalty0
-  1327--1357, 2007.
-
-\bibitem[Iyer and Puri(2012)]{iyer2012understanding}
-Rajkamal Iyer and Manju Puri.
-\newblock Understanding bank runs: The importance of depositor-bank
-  relationships and networks.
-\newblock \emph{American Economic Review}, 102\penalty0 (4):\penalty0 1414--45,
-  2012.
-
-\bibitem[Jackson(2010)]{jackson_social_2010}
-Matthew~O. Jackson.
-\newblock \emph{Social and {Economic} {Networks}}.
-\newblock Princeton University Press, November 2010.
-\newblock ISBN 978-1-4008-3399-3.
-\newblock Google-Books-ID: rFzHinVAq7gC.
-
-\bibitem[Jackson and Yariv(2007)]{jackson2007diffusion}
-Matthew~O Jackson and Leeat Yariv.
-\newblock Diffusion of behavior and equilibrium properties in network games.
-\newblock \emph{American Economic Review}, 97\penalty0 (2):\penalty0 92--98,
-  2007.
-
-\bibitem[Jin et~al.(2013)Jin, Dougherty, Saraf, Cao, and
-  Ramakrishnan]{jin2013epidemiological}
-Fang Jin, Edward Dougherty, Parang Saraf, Yang Cao, and Naren Ramakrishnan.
-\newblock Epidemiological modeling of news and rumors on twitter.
-\newblock In \emph{Proceedings of the 7th workshop on social network mining and
-  analysis}, pages 1--9, 2013.
-
-\bibitem[Kelly and O'Grada(2000)]{kelly2000market}
-Morgan Kelly and Cormac O'Grada.
-\newblock Market contagion: Evidence from the panics of 1854 and 1857.
-\newblock \emph{American Economic Review}, 90\penalty0 (5):\penalty0
-  1110--1124, 2000.
-
-\bibitem[Kermack et~al.(1927)Kermack, McKendrick, and
-  Walker]{kermack_contribution_1927}
-William~Ogilvy Kermack, A.~G. McKendrick, and Gilbert~Thomas Walker.
-\newblock A contribution to the mathematical theory of epidemics.
-\newblock \emph{Proceedings of the Royal Society of London. Series A,
-  Containing Papers of a Mathematical and Physical Character}, 115\penalty0
-  (772):\penalty0 700--721, August 1927.
-\newblock \doi{10.1098/rspa.1927.0118}.
-\newblock URL
-  \url{https://royalsocietypublishing.org/doi/10.1098/rspa.1927.0118}.
-
-\bibitem[Kohlhas and Walther(2021)]{kohlhasasymmetric}
-Alexandre~N Kohlhas and Ansgar Walther.
-\newblock Asymmetric attention.
-\newblock \emph{American Economic Review}, 111\penalty0 (9), September 2021.
-
-\bibitem[Kr{\"o}ger and Schlickeiser(2020)]{kroger2020analytical}
-Martin Kr{\"o}ger and Reinhard Schlickeiser.
-\newblock Analytical solution of the sir-model for the temporal evolution of
-  epidemics. part a: time-independent reproduction factor.
-\newblock \emph{Journal of Physics A: Mathematical and Theoretical},
-  53\penalty0 (50):\penalty0 505601, 2020.
-
-\bibitem[Krueger et~al.(2016)Krueger, Mitman, and Perri]{kmpHandbook}
-Dirk Krueger, Kurt Mitman, and Fabrizio Perri.
-\newblock Macroeconomics and household heterogeneity.
-\newblock \emph{Handbook of Macroeconomics}, 2:\penalty0 843--921, 2016.
-\newblock \doi{10.3386/w22319}.
-\newblock URL \url{http://www.nber.org/papers/w22319}.
-
-\bibitem[Kucharski(2016)]{kucharski2016modelling}
-Adam~J Kucharski.
-\newblock Modelling the transmission dynamics of online social contagion.
-\newblock \emph{arXiv preprint arXiv:1602.00248}, 2016.
-
-\bibitem[Kuchler and Stroebel(2021)]{kuchler2021social}
-Theresa Kuchler and Johannes Stroebel.
-\newblock Social finance.
-\newblock \emph{Annual Review of Financial Economics}, 13, 2021.
-
-\bibitem[Kuchler et~al.(2022)Kuchler, Piazzesi, and
-  Stroebel]{kps2022housingexpectation}
-Theresa Kuchler, Monika Piazzesi, and Johannes Stroebel.
-\newblock Housing market expectations.
-\newblock In \emph{Handbook of Economic Expectations}, 2022.
-
-\bibitem[Lamla and Lein(2014)]{lamla2014role}
-Michael~J Lamla and Sarah~M Lein.
-\newblock The role of media for consumers' inflation expectation formation.
-\newblock \emph{Journal of Economic Behavior \& Organization}, 106:\penalty0
-  62--77, 2014.
-
-\bibitem[Lamla and Maag(2012)]{lamla2012role}
-Michael~J Lamla and Thomas Maag.
-\newblock The role of media for inflation forecast disagreement of households
-  and professional forecasters.
-\newblock \emph{Journal of Money, Credit and Banking}, 44\penalty0
-  (7):\penalty0 1325--1350, 2012.
-
-\bibitem[Larsen and Thorsrud(2019)]{larsen2019business}
-Vegard~H Larsen and Leif~Anders Thorsrud.
-\newblock Business cycle narratives.
-\newblock Technical report, CESifo Working Paper, 2019.
-
-\bibitem[Larsen et~al.(2021)Larsen, Thorsrud, and Zhulanova]{larsen2021news}
-Vegard~H Larsen, Leif~Anders Thorsrud, and Julia Zhulanova.
-\newblock News-driven inflation expectations and information rigidities.
-\newblock \emph{Journal of Monetary Economics}, 117:\penalty0 507--520, 2021.
-
-\bibitem[LeBaron(2006)]{lebaronAgentCompFinance}
-Blake LeBaron.
-\newblock Agent-based computational finance.
-\newblock \emph{Handbook of computational economics}, 2:\penalty0 1187--1233,
-  2006.
-
-\bibitem[Lewis(2011)]{lewis2011big}
-Michael Lewis.
-\newblock \emph{The big short: Inside the doomsday machine}.
-\newblock Penguin UK, 2011.
-
-\bibitem[Lucas and Moll(2014)]{lucas2014knowledge}
-Robert~E Lucas and Benjamin Moll.
-\newblock Knowledge growth and the allocation of time.
-\newblock \emph{Journal of Political Economy}, 122\penalty0 (1):\penalty0
-  1--51, 2014.
-
-\bibitem[Ludvigson(2004)]{ludvigson2004consumer}
-Sydney~C Ludvigson.
-\newblock Consumer confidence and consumer spending.
-\newblock \emph{Journal of Economic perspectives}, 18\penalty0 (2):\penalty0
-  29--50, 2004.
-
-\bibitem[MacKay(1850)]{mackay1850memoirs}
-Charles MacKay.
-\newblock \emph{Memoirs of extraordinary popular delusions}, volume~1.
-\newblock Lindsay and Blakiston, 1850.
-
-\bibitem[Makridis and Wang(2020)]{makridis2020learning}
-Christos Makridis and Tao Wang.
-\newblock Learning from friends in a pandemic: Social networks and the
-  macroeconomic response of consumption.
-\newblock \emph{Available at SSRN 3601500}, 2020.
-
-\bibitem[Mankiw and Reis(2002)]{mr2002Sticky}
-N~Gregory Mankiw and Ricardo Reis.
-\newblock Sticky information versus sticky prices: a proposal to replace the
-  new keynesian phillips curve.
-\newblock \emph{The Quarterly Journal of Economics}, 117\penalty0 (4):\penalty0
-  1295--1328, 2002.
-
-\bibitem[Mankiw and Reis(2007)]{mankiw2007sticky}
-N~Gregory Mankiw and Ricardo Reis.
-\newblock Sticky information in general equilibrium.
-\newblock \emph{Journal of the European Economic Association}, 5\penalty0
-  (2-3):\penalty0 603--613, 2007.
-
-\bibitem[Manski(2017)]{manski2017survey}
-CF~Manski.
-\newblock Survey measurement of probabilistic macroeconomic expectations:
-  Progress and promise. forthcoming in nber macro annual.
-\newblock \emph{NBER Macro Annual}, 2017.
-
-\bibitem[Manski(1993)]{manski1993identification}
-Charles~F Manski.
-\newblock Identification of endogenous social effects: The reflection problem.
-\newblock \emph{The review of economic studies}, 60\penalty0 (3):\penalty0
-  531--542, 1993.
-
-\bibitem[Meeuwis et~al.(2021)Meeuwis, Parker, Schoar, and
-  Simester]{meeuwis2018belief}
-Maarten Meeuwis, Jonathan~A Parker, Antoinette Schoar, and Duncan~I Simester.
-\newblock Belief disagreement and portfolio choice.
-\newblock \emph{The Journal of Finance}, forthcoming, 2021.
-
-\bibitem[Milgram(1967)]{milgram1967small}
-Stanley Milgram.
-\newblock The small world problem.
-\newblock \emph{Psychology today}, 2\penalty0 (1):\penalty0 60--67, 1967.
-
-\bibitem[Miller(2012)]{miller2012note}
-Joel~C Miller.
-\newblock A note on the derivation of epidemic final sizes.
-\newblock \emph{Bulletin of mathematical biology}, 74\penalty0 (9):\penalty0
-  2125--2141, 2012.
-
-\bibitem[Munshi(2004)]{munshi2004social}
-Kaivan Munshi.
-\newblock Social learning in a heterogeneous population: technology diffusion
-  in the indian green revolution.
-\newblock \emph{Journal of development Economics}, 73\penalty0 (1):\penalty0
-  185--213, 2004.
-
-\bibitem[Newman(2002)]{newman2002spread}
-Mark~EJ Newman.
-\newblock Spread of epidemic disease on networks.
-\newblock \emph{Physical review E}, 66\penalty0 (1):\penalty0 016128, 2002.
-
-\bibitem[Nolan(2010)]{Inception2010}
-Christopher Nolan.
-\newblock Inception [motion picture]: the shooting script.
-\newblock Technical report, Producers: Christopher Nolan, Emma Thomas;
+\harvarditem[Chahrour, Nimark, and Pitschner]{Chahrour, Nimark, and
+  Pitschner}{2021}{chahrour2021sectoral}
+\textsc{Chahrour, Ryan, Kristoffer Nimark,  {and} Stefan Pitschner}  (2021):
+  ``Sectoral media focus and aggregate fluctuations,'' \emph{American Economic
+  Review}, 111(12), 3872--3922.
+
+\harvarditem[Choi and Varian]{Choi and Varian}{2012}{choi2012predicting}
+\textsc{Choi, Hyunyoung,  {and} Hal Varian}  (2012): ``Predicting the present
+  with Google Trends,'' \emph{Economic record}, 88, 2--9.
+
+\harvarditem[Cohen, Frazzini, and Malloy]{Cohen, Frazzini, and
+  Malloy}{2008}{cohen2008small}
+\textsc{Cohen, Lauren, Andrea Frazzini,  {and} Christopher Malloy}  (2008):
+  ``The small world of investing: Board connections and mutual fund returns,''
+  \emph{Journal of Political Economy}, 116(5), 951--979.
+
+\harvarditem[Comin and Hobijn]{Comin and Hobijn}{2010}{comin2010exploration}
+\textsc{Comin, Diego,  {and} Bart Hobijn}  (2010): ``An exploration of
+  technology diffusion,'' \emph{American Economic Review}, 100(5), 2031--59.
+
+\harvarditem[D'Acunto, Malmendier, and Weber]{D'Acunto, Malmendier, and
+  Weber}{2022}{dmw2022inflationexpectation}
+\textsc{D'Acunto, Francesco, Ulrike Malmendier,  {and} Michael Weber}  (2022):
+  ``What do the data tell us about inflation expectations?,'' in \emph{Handbook
+  of Economic Expectations}.
+
+\harvarditem[Daley and Kendall]{Daley and Kendall}{1964}{daley1964epidemics}
+\textsc{Daley, Daryl~J,  {and} David~G Kendall}  (1964): ``Epidemics and
+  rumours,'' \emph{Nature}, 204(4963), 1118--1118.
+
+\harvarditem[Damstra and Boukes]{Damstra and Boukes}{2021}{damstra2021economy}
+\textsc{Damstra, Alyt,  {and} Mark Boukes}  (2021): ``The economy, the news,
+  and the public: A longitudinal study of the impact of economic news on
+  economic evaluations and expectations,'' \emph{Communication Research},
+  48(1), 26--50.
+
+\harvarditem[Dawid and Gatti]{Dawid and Gatti}{2018}{ddAgentBasedMacro}
+\textsc{Dawid, Herbert,  {and} Domenico~Delli Gatti}  (2018): ``Agent-based
+  macroeconomics,'' \emph{Handbook of computational economics}, 4, 63--156.
+
+\harvarditem[De~La~Vega]{De~La~Vega}{1688}{vegaConfusion}
+\textsc{De~La~Vega, Joseph}  (1688): \emph{Confusion de Confusiones}.
+  Amsterdam.
+
+\harvarditem[Diamond and Dybvig]{Diamond and Dybvig}{1983}{diamond_bank_1983}
+\textsc{Diamond, Douglas~W.,  {and} Philip~H. Dybvig}  (1983): ``Bank {Runs},
+  {Deposit} {Insurance}, and {Liquidity},'' \emph{Journal of Political
+  Economy}, 91(3), 401--419, Publisher: University of Chicago Press.
+
+\harvarditem[Doms and Morin]{Doms and Morin}{2004}{doms2004consumer}
+\textsc{Doms, Mark~E,  {and} Norman~J Morin}  (2004): ``Consumer sentiment, the
+  economy, and the news media,'' Discussion Paper 2004-09, Federal Reserve Bank
+  of San Francisco.
+
+\harvarditem[Dougal, Engelberg, Garcia, and Parsons]{Dougal, Engelberg, Garcia,
+  and Parsons}{2012}{dougal2012journalists}
+\textsc{Dougal, Casey, Joseph Engelberg, Diego Garcia,  {and} Christopher~A
+  Parsons}  (2012): ``Journalists and the stock market,'' \emph{The Review of
+  Financial Studies}, 25(3), 639--679.
+
+\harvarditem[Easaw and Mossay]{Easaw and Mossay}{2015}{easaw2015households}
+\textsc{Easaw, Joshy,  {and} Pascal Mossay}  (2015): ``Households forming
+  macroeconomic expectations: inattentive behavior with social learning,''
+  \emph{The BE Journal of Macroeconomics}, 15(1), 339--363.
+
+\harvarditem[Erdos, R{\'e}nyi, et~al.]{Erdos, R{\'e}nyi,
+  et~al.}{1960}{erdos1960evolution}
+\textsc{Erdos, Paul, Alfr{\'e}d R{\'e}nyi,  et~al.}  (1960): ``On the evolution
+  of random graphs,'' \emph{Publ. Math. Inst. Hung. Acad. Sci}, 5(1), 17--60.
+
+\harvarditem[Fogli and Veldkamp]{Fogli and Veldkamp}{2021}{fogli2021germs}
+\textsc{Fogli, Alessandra,  {and} Laura Veldkamp}  (2021): ``Germs, Social
+  Networks, and Growth,'' \emph{The Review of Economic Studies}, 88(3),
+  1074--1100.
+
+\harvarditem[Gabaix]{Gabaix}{2020}{gabaix2020behavioral}
+\textsc{Gabaix, Xavier}  (2020): ``A behavioral New Keynesian model,''
+  \emph{American Economic Review}, 110(8), 2271--2327.
+
+\harvarditem[Galesic, de~Bruin, Dumas, Kapteyn, Darling, and Meijer]{Galesic,
+  de~Bruin, Dumas, Kapteyn, Darling, and Meijer}{2018}{galesic2018asking}
+\textsc{Galesic, Mirta, W~Bruine de~Bruin, Marion Dumas, A~Kapteyn, JE~Darling,
+   {and} E~Meijer}  (2018): ``Asking about social circles improves election
+  predictions,'' \emph{Nature Human Behaviour}, 2(3), 187--193.
+
+\harvarditem[Gentzkow, Kelly, and Taddy]{Gentzkow, Kelly, and
+  Taddy}{2019}{gentzkow2019text}
+\textsc{Gentzkow, Matthew, Bryan Kelly,  {and} Matt Taddy}  (2019): ``Text as
+  data,'' \emph{Journal of Economic Literature}, 57(3), 535--74.
+
+\harvarditem[Giglio, Maggiori, Stroebel, and Utkus]{Giglio, Maggiori, Stroebel,
+  and Utkus}{2021}{gmsuBeliefs}
+\textsc{Giglio, Stefano, Matteo Maggiori, Johannes Stroebel,  {and} Stephen
+  Utkus}  (2021): ``Five facts about beliefs and portfolios,'' \emph{American
+  Economic Review}, 111(5), 1481--1522.
+
+\harvarditem[Glasserman and Young]{Glasserman and
+  Young}{2016}{glasserman2016contagion}
+\textsc{Glasserman, Paul,  {and} H~Peyton Young}  (2016): ``Contagion in
+  financial networks,'' \emph{Journal of Economic Literature}, 54(3), 779--831.
+
+\harvarditem[Gourieroux and Jasiak]{Gourieroux and
+  Jasiak}{2020}{gourieroux2020time}
+\textsc{Gourieroux, Christian,  {and} Joann Jasiak}  (2020): ``Time varying
+  Markov process with partially observed aggregate data: An application to
+  coronavirus,'' \emph{Journal of Econometrics}.
+
+\harvarditem[Granovetter]{Granovetter}{1978}{granovetter1978threshold}
+\textsc{Granovetter, Mark}  (1978): ``Threshold models of collective
+  behavior,'' \emph{American journal of sociology}, 83(6), 1420--1443.
+
+\harvarditem[Granovetter]{Granovetter}{1973}{granovetter1973strength}
+\textsc{Granovetter, Mark~S}  (1973): ``The strength of weak ties,''
+  \emph{American journal of sociology}, 78(6), 1360--1380.
+
+\harvarditem[Guare]{Guare}{1990}{guareSixDegrees}
+\textsc{Guare, John}  (1990): \emph{Six degrees of separation: A play}.
+  Vintage.
+
+\harvarditem[Hachem and Wu]{Hachem and Wu}{2017}{hachem_inflation_2017}
+\textsc{Hachem, Kinda,  {and} Jing~Cynthia Wu}  (2017): ``Inflation
+  {Announcements} and {Social} {Dynamics},'' \emph{Journal of Money, Credit and
+  Banking}, 49(8), 1673--1713.
+
+\harvarditem[Hagberg, Swart, and S~Chult]{Hagberg, Swart, and
+  S~Chult}{2008}{hagberg2008exploring}
+\textsc{Hagberg, Aric, Pieter Swart,  {and} Daniel S~Chult}  (2008):
+  ``Exploring network structure, dynamics, and function using NetworkX,''
+  Discussion paper, Los Alamos National Lab.(LANL), Los Alamos, NM (United
+  States).
+
+\harvarditem[Haldane and Turrell]{Haldane and
+  Turrell}{2019}{haldane_drawing_2019}
+\textsc{Haldane, Andrew~G.,  {and} Arthur~E. Turrell}  (2019): ``Drawing on
+  different disciplines: macroeconomic agent-based models,'' \emph{Journal of
+  Evolutionary Economics}, 29(1), 39--66.
+
+\harvarditem[Harko, Lobo, and Mak]{Harko, Lobo, and Mak}{2014}{harko2014exact}
+\textsc{Harko, Tiberiu, Francisco~SN Lobo,  {and} MK~Mak}  (2014): ``Exact
+  analytical solutions of the Susceptible-Infected-Recovered (SIR) epidemic
+  model and of the SIR model with equal death and birth rates,'' \emph{Applied
+  Mathematics and Computation}, 236, 184--194.
+
+\harvarditem[Hethcote]{Hethcote}{2000}{hethcote_mathematics_2000}
+\textsc{Hethcote, Herbert~W.}  (2000): ``The {Mathematics} of {Infectious}
+  {Diseases},'' \emph{SIAM Review}, 42(4), 599--653.
+
+\harvarditem[Hirshleifer]{Hirshleifer}{2020}{hirshleifer2020presidential}
+\textsc{Hirshleifer, David}  (2020): ``Presidential address: Social
+  transmission bias in economics and finance,'' \emph{The Journal of Finance},
+  75(4), 1779--1831.
+
+\harvarditem[Hommes]{Hommes}{2006}{hommes2006heterogeneous}
+\textsc{Hommes, Cars~H}  (2006): ``Heterogeneous agent models in economics and
+  finance,'' \emph{Handbook of computational economics}, 2, 1109--1186.
+
+\harvarditem[Hong, Kubik, and Stein]{Hong, Kubik, and
+  Stein}{2004}{hong2004social}
+\textsc{Hong, Harrison, Jeffrey~D Kubik,  {and} Jeremy~C Stein}  (2004):
+  ``Social interaction and stock-market participation,'' \emph{The journal of
+  finance}, 59(1), 137--163.
+
+\harvarditem[Hong, Kubik, and Stein]{Hong, Kubik, and Stein}{2005}{hong2005thy}
+\textsc{\BySame{}}  (2005): ``Thy neighbor's portfolio: Word-of-mouth effects
+  in the holdings and trades of money managers,'' \emph{The Journal of
+  Finance}, 60(6), 2801--2824.
+
+\harvarditem[Huang, Hwang, and Lou]{Huang, Hwang, and Lou}{2021}{huang2021rate}
+\textsc{Huang, Shiyang, Byoung-Hyoun Hwang,  {and} Dong Lou}  (2021): ``The
+  rate of communication,'' \emph{Journal of Financial Economics}.
+
+\harvarditem[Hume]{Hume}{1748}{humeenquiry}
+\textsc{Hume, David}  (1748): \emph{An Enquiry Concerning Human Understanding}.
+  Andrew Millar.
+
+\harvarditem[Hvide and {\"O}stberg]{Hvide and
+  {\"O}stberg}{2015}{hvide2015social}
+\textsc{Hvide, Hans~K,  {and} Per {\"O}stberg}  (2015): ``Social interaction at
+  work,'' \emph{Journal of Financial Economics}, 117(3), 628--652.
+
+\harvarditem[Ilut and Valchev]{Ilut and Valchev}{2020}{ilut2020economic}
+\textsc{Ilut, Cosmin~L,  {and} Rosen Valchev}  (2020): ``Economic agents as
+  imperfect problem solvers,'' Discussion paper, National Bureau of Economic
+  Research.
+
+\harvarditem[Ivkovi{\'c} and Weisbenner]{Ivkovi{\'c} and
+  Weisbenner}{2007}{ivkovic2007information}
+\textsc{Ivkovi{\'c}, Zoran,  {and} Scott Weisbenner}  (2007): ``Information
+  diffusion effects in individual investors' common stock purchases: Covet thy
+  neighbors' investment choices,'' \emph{The Review of Financial Studies},
+  20(4), 1327--1357.
+
+\harvarditem[Iyer and Puri]{Iyer and Puri}{2012}{iyer2012understanding}
+\textsc{Iyer, Rajkamal,  {and} Manju Puri}  (2012): ``Understanding bank runs:
+  The importance of depositor-bank relationships and networks,'' \emph{American
+  Economic Review}, 102(4), 1414--45.
+
+\harvarditem[Jackson]{Jackson}{2010}{jackson_social_2010}
+\textsc{Jackson, Matthew~O.}  (2010): \emph{Social and {Economic} {Networks}}.
+  Princeton University Press, Google-Books-ID: rFzHinVAq7gC.
+
+\harvarditem[Jackson and Yariv]{Jackson and Yariv}{2007}{jackson2007diffusion}
+\textsc{Jackson, Matthew~O,  {and} Leeat Yariv}  (2007): ``Diffusion of
+  behavior and equilibrium properties in network games,'' \emph{American
+  Economic Review}, 97(2), 92--98.
+
+\harvarditem[Jin, Dougherty, Saraf, Cao, and Ramakrishnan]{Jin, Dougherty,
+  Saraf, Cao, and Ramakrishnan}{2013}{jin2013epidemiological}
+\textsc{Jin, Fang, Edward Dougherty, Parang Saraf, Yang Cao,  {and} Naren
+  Ramakrishnan}  (2013): ``Epidemiological modeling of news and rumors on
+  twitter,'' in \emph{Proceedings of the 7th workshop on social network mining
+  and analysis}, pp. 1--9.
+
+\harvarditem[Kelly and O'Grada]{Kelly and O'Grada}{2000}{kelly2000market}
+\textsc{Kelly, Morgan,  {and} Cormac O'Grada}  (2000): ``Market Contagion:
+  Evidence from the Panics of 1854 and 1857,'' \emph{American Economic Review},
+  90(5), 1110--1124.
+
+\harvarditem[Kermack, McKendrick, and Walker]{Kermack, McKendrick, and
+  Walker}{1927}{kermack_contribution_1927}
+\textsc{Kermack, William~Ogilvy, A.~G. McKendrick,  {and} Gilbert~Thomas
+  Walker}  (1927): ``A contribution to the mathematical theory of epidemics,''
+  \emph{Proceedings of the Royal Society of London. Series A, Containing Papers
+  of a Mathematical and Physical Character}, 115(772), 700--721.
+
+\harvarditem[Kohlhas and Walther]{Kohlhas and Walther}{2021}{kohlhasasymmetric}
+\textsc{Kohlhas, Alexandre~N,  {and} Ansgar Walther}  (2021): ``Asymmetric
+  Attention,'' \emph{American Economic Review}, 111(9).
+
+\harvarditem[Kr{\"o}ger and Schlickeiser]{Kr{\"o}ger and
+  Schlickeiser}{2020}{kroger2020analytical}
+\textsc{Kr{\"o}ger, Martin,  {and} Reinhard Schlickeiser}  (2020): ``Analytical
+  solution of the SIR-model for the temporal evolution of epidemics. Part A:
+  time-independent reproduction factor,'' \emph{Journal of Physics A:
+  Mathematical and Theoretical}, 53(50), 505601.
+
+\harvarditem[Krueger, Mitman, and Perri]{Krueger, Mitman, and
+  Perri}{2016}{kmpHandbook}
+\textsc{Krueger, Dirk, Kurt Mitman,  {and} Fabrizio Perri}  (2016):
+  ``Macroeconomics and Household Heterogeneity,'' \emph{Handbook of
+  Macroeconomics}, 2, 843--921.
+
+\harvarditem[Kucharski]{Kucharski}{2016}{kucharski2016modelling}
+\textsc{Kucharski, Adam~J}  (2016): ``Modelling the transmission dynamics of
+  online social contagion,'' \emph{arXiv preprint arXiv:1602.00248}.
+
+\harvarditem[Kuchler, Piazzesi, and Stroebel]{Kuchler, Piazzesi, and
+  Stroebel}{2022}{kps2022housingexpectation}
+\textsc{Kuchler, Theresa, Monika Piazzesi,  {and} Johannes Stroebel}  (2022):
+  ``Housing market expectations,'' in \emph{Handbook of Economic Expectations}.
+
+\harvarditem[Kuchler and Stroebel]{Kuchler and
+  Stroebel}{2021}{kuchler2021social}
+\textsc{Kuchler, Theresa,  {and} Johannes Stroebel}  (2021): ``Social
+  finance,'' \emph{Annual Review of Financial Economics}, 13.
+
+\harvarditem[Lamla and Lein]{Lamla and Lein}{2014}{lamla2014role}
+\textsc{Lamla, Michael~J,  {and} Sarah~M Lein}  (2014): ``The role of media for
+  consumers' inflation expectation formation,'' \emph{Journal of Economic
+  Behavior \& Organization}, 106, 62--77.
+
+\harvarditem[Lamla and Maag]{Lamla and Maag}{2012}{lamla2012role}
+\textsc{Lamla, Michael~J,  {and} Thomas Maag}  (2012): ``The role of media for
+  inflation forecast disagreement of households and professional forecasters,''
+  \emph{Journal of Money, Credit and Banking}, 44(7), 1325--1350.
+
+\harvarditem[Larsen and Thorsrud]{Larsen and
+  Thorsrud}{2019}{larsen2019business}
+\textsc{Larsen, Vegard~H,  {and} Leif~Anders Thorsrud}  (2019): ``Business
+  Cycle Narratives,'' Discussion paper, CESifo Working Paper.
+
+\harvarditem[Larsen, Thorsrud, and Zhulanova]{Larsen, Thorsrud, and
+  Zhulanova}{2021}{larsen2021news}
+\textsc{Larsen, Vegard~H, Leif~Anders Thorsrud,  {and} Julia Zhulanova}
+  (2021): ``News-driven inflation expectations and information rigidities,''
+  \emph{Journal of Monetary Economics}, 117, 507--520.
+
+\harvarditem[LeBaron]{LeBaron}{2006}{lebaronAgentCompFinance}
+\textsc{LeBaron, Blake}  (2006): ``Agent-based computational finance,''
+  \emph{Handbook of computational economics}, 2, 1187--1233.
+
+\harvarditem[Lewis]{Lewis}{2011}{lewis2011big}
+\textsc{Lewis, Michael}  (2011): \emph{The big short: Inside the doomsday
+  machine}. Penguin UK.
+
+\harvarditem[Lucas and Moll]{Lucas and Moll}{2014}{lucas2014knowledge}
+\textsc{Lucas, Robert~E,  {and} Benjamin Moll}  (2014): ``Knowledge growth and
+  the allocation of time,'' \emph{Journal of Political Economy}, 122(1), 1--51.
+
+\harvarditem[Ludvigson]{Ludvigson}{2004}{ludvigson2004consumer}
+\textsc{Ludvigson, Sydney~C}  (2004): ``Consumer confidence and consumer
+  spending,'' \emph{Journal of Economic perspectives}, 18(2), 29--50.
+
+\harvarditem[MacKay]{MacKay}{1850}{mackay1850memoirs}
+\textsc{MacKay, Charles}  (1850): \emph{Memoirs of extraordinary popular
+  delusions}, vol.~1. Lindsay and Blakiston.
+
+\harvarditem[Makridis and Wang]{Makridis and Wang}{2020}{makridis2020learning}
+\textsc{Makridis, Christos,  {and} Tao Wang}  (2020): ``Learning from friends
+  in a pandemic: Social networks and the macroeconomic response of
+  consumption,'' \emph{Available at SSRN 3601500}.
+
+\harvarditem[Mankiw and Reis]{Mankiw and Reis}{2002}{mr2002Sticky}
+\textsc{Mankiw, N~Gregory,  {and} Ricardo Reis}  (2002): ``Sticky information
+  versus sticky prices: a proposal to replace the New Keynesian Phillips
+  curve,'' \emph{The Quarterly Journal of Economics}, 117(4), 1295--1328.
+
+\harvarditem[Mankiw and Reis]{Mankiw and Reis}{2007}{mankiw2007sticky}
+\textsc{\BySame{}}  (2007): ``Sticky information in general equilibrium,''
+  \emph{Journal of the European Economic Association}, 5(2-3), 603--613.
+
+\harvarditem[Manski]{Manski}{2017}{manski2017survey}
+\textsc{Manski, CF}  (2017): ``Survey Measurement of Probabilistic
+  Macroeconomic Expectations: Progress and Promise. forthcoming in NBER Macro
+  Annual,'' \emph{NBER Macro Annual}.
+
+\harvarditem[Manski]{Manski}{1993}{manski1993identification}
+\textsc{Manski, Charles~F}  (1993): ``Identification of endogenous social
+  effects: The reflection problem,'' \emph{The review of economic studies},
+  60(3), 531--542.
+
+\harvarditem[Meeuwis, Parker, Schoar, and Simester]{Meeuwis, Parker, Schoar,
+  and Simester}{2021}{meeuwis2018belief}
+\textsc{Meeuwis, Maarten, Jonathan~A Parker, Antoinette Schoar,  {and} Duncan~I
+  Simester}  (2021): ``Belief Disagreement and Portfolio Choice,'' \emph{The
+  Journal of Finance}, forthcoming.
+
+\harvarditem[Milgram]{Milgram}{1967}{milgram1967small}
+\textsc{Milgram, Stanley}  (1967): ``The small world problem,''
+  \emph{Psychology today}, 2(1), 60--67.
+
+\harvarditem[Miller]{Miller}{2012}{miller2012note}
+\textsc{Miller, Joel~C}  (2012): ``A note on the derivation of epidemic final
+  sizes,'' \emph{Bulletin of mathematical biology}, 74(9), 2125--2141.
+
+\harvarditem[Munshi]{Munshi}{2004}{munshi2004social}
+\textsc{Munshi, Kaivan}  (2004): ``Social learning in a heterogeneous
+  population: technology diffusion in the Indian Green Revolution,''
+  \emph{Journal of development Economics}, 73(1), 185--213.
+
+\harvarditem[Newman]{Newman}{2002}{newman2002spread}
+\textsc{Newman, Mark~EJ}  (2002): ``Spread of epidemic disease on networks,''
+  \emph{Physical review E}, 66(1), 016128.
+
+\harvarditem[Nolan]{Nolan}{2010}{Inception2010}
+\textsc{Nolan, Christopher}  (2010): ``Inception [Motion Picture]: the Shooting
+  Script,'' Discussion paper, Producers: Christopher Nolan, Emma Thomas;
   Director: Christopher Nolan; Screenwriter: Christopher Nolan; Studios:
-  Legendary Pictures, Syncopy, 2010.
+  Legendary Pictures, Syncopy.
 
-\bibitem[Okabe and Shudo(2021)]{okabe2021microscopic}
-Yutaka Okabe and Akira Shudo.
-\newblock Microscopic numerical simulations of epidemic models on networks.
-\newblock \emph{Mathematics}, 9\penalty0 (9):\penalty0 932, 2021.
+\harvarditem[Okabe and Shudo]{Okabe and Shudo}{2021}{okabe2021microscopic}
+\textsc{Okabe, Yutaka,  {and} Akira Shudo}  (2021): ``Microscopic Numerical
+  Simulations of Epidemic Models on Networks,'' \emph{Mathematics}, 9(9), 932.
 
-\bibitem[Pfajfar and Santoro(2013)]{pfajfar2013news}
-Damjan Pfajfar and Emiliano Santoro.
-\newblock News on inflation and the epidemiology of inflation expectations.
-\newblock \emph{Journal of Money, Credit and Banking}, 45\penalty0
-  (6):\penalty0 1045--1067, 2013.
+\harvarditem[Pfajfar and Santoro]{Pfajfar and Santoro}{2013}{pfajfar2013news}
+\textsc{Pfajfar, Damjan,  {and} Emiliano Santoro}  (2013): ``News on inflation
+  and the epidemiology of inflation expectations,'' \emph{Journal of Money,
+  Credit and Banking}, 45(6), 1045--1067.
 
-\bibitem[Radas and Prelec(2021)]{radas2021predicted}
-Sonja Radas and Dra{\v{z}}en Prelec.
-\newblock Predicted preference conjoint analysis.
-\newblock \emph{PloS one}, 16\penalty0 (8):\penalty0 e0256010, 2021.
+\harvarditem[Radas and Prelec]{Radas and Prelec}{2021}{radas2021predicted}
+\textsc{Radas, Sonja,  {and} Dra{\v{z}}en Prelec}  (2021): ``Predicted
+  preference conjoint analysis,'' \emph{PloS one}, 16(8), e0256010.
 
-\bibitem[Rasmussen(2017)]{rasmussen2017infidel}
-Dennis~C Rasmussen.
-\newblock \emph{The infidel and the professor}.
-\newblock Princeton University Press, 2017.
+\harvarditem[Rasmussen]{Rasmussen}{2017}{rasmussen2017infidel}
+\textsc{Rasmussen, Dennis~C}  (2017): \emph{The infidel and the professor}.
+  Princeton University Press.
 
-\bibitem[Rogers et~al.(1962)]{rogers1962diffusion}
-Everett~M Rogers et~al.
-\newblock Diffusion of innovations.
-\newblock \emph{Diffusion of innovations.}, 1962.
+\harvarditem[Rogers et~al.]{Rogers et~al.}{1962}{rogers1962diffusion}
+\textsc{Rogers, Everett~M,  et~al.}  (1962): ``Diffusion of innovations.,''
+  \emph{Diffusion of innovations.}
 
-\bibitem[Rossetti et~al.(2018)Rossetti, Milli, Rinzivillo, S{\^\i}rbu,
-  Pedreschi, and Giannotti]{rossetti2018ndlib}
-Giulio Rossetti, Letizia Milli, Salvatore Rinzivillo, Alina S{\^\i}rbu, Dino
-  Pedreschi, and Fosca Giannotti.
-\newblock Ndlib: a python library to model and analyze diffusion processes over
-  complex networks.
-\newblock \emph{International Journal of Data Science and Analytics},
-  5\penalty0 (1):\penalty0 61--79, 2018.
+\harvarditem[Rossetti, Milli, Rinzivillo, S{\^\i}rbu, Pedreschi, and
+  Giannotti]{Rossetti, Milli, Rinzivillo, S{\^\i}rbu, Pedreschi, and
+  Giannotti}{2018}{rossetti2018ndlib}
+\textsc{Rossetti, Giulio, Letizia Milli, Salvatore Rinzivillo, Alina
+  S{\^\i}rbu, Dino Pedreschi,  {and} Fosca Giannotti}  (2018): ``NDlib: a
+  python library to model and analyze diffusion processes over complex
+  networks,'' \emph{International Journal of Data Science and Analytics}, 5(1),
+  61--79.
 
-\bibitem[Shiller(1995)]{shiller1995conversation}
-Robert~J Shiller.
-\newblock Conversation, information, and herd behavior.
-\newblock \emph{The American economic review}, 85\penalty0 (2):\penalty0
-  181--185, 1995.
+\harvarditem[Shiller]{Shiller}{1995}{shiller1995conversation}
+\textsc{Shiller, Robert~J}  (1995): ``Conversation, information, and herd
+  behavior,'' \emph{The American economic review}, 85(2), 181--185.
 
-\bibitem[Shiller(2017)]{shiller2017narrative}
-Robert~J Shiller.
-\newblock Narrative economics.
-\newblock \emph{American Economic Review}, 107\penalty0 (4):\penalty0
-  967--1004, 2017.
+\harvarditem[Shiller]{Shiller}{2017}{shiller2017narrative}
+\textsc{\BySame{}}  (2017): ``Narrative economics,'' \emph{American Economic
+  Review}, 107(4), 967--1004.
 
-\bibitem[Shiller(2019)]{shiller_narrative_2019}
-Robert~J. Shiller.
-\newblock \emph{Narrative {Economics}: {How} {Stories} {Go} {Viral} and {Drive}
-  {Major} {Economic} {Events}}.
-\newblock Princeton University Press, October 2019.
-\newblock ISBN 978-0-691-18229-2.
-\newblock Google-Books-ID: HciXDwAAQBAJ.
+\harvarditem[Shiller]{Shiller}{2019}{shiller_narrative_2019}
+\textsc{Shiller, Robert~J.}  (2019): \emph{Narrative {Economics}: {How}
+  {Stories} {Go} {Viral} and {Drive} {Major} {Economic} {Events}}. Princeton
+  University Press, Google-Books-ID: HciXDwAAQBAJ.
 
-\bibitem[Shiller(2020)]{shiller2020popular}
-Robert~J Shiller.
-\newblock Popular economic narratives advancing the longest us economic
-  expansion 2009-2019.
-\newblock Technical report, National Bureau of Economic Research, 2020.
+\harvarditem[Shiller]{Shiller}{2020}{shiller2020popular}
+\textsc{Shiller, Robert~J}  (2020): ``Popular economic narratives advancing the
+  longest US economic expansion 2009-2019,'' Discussion paper, National Bureau
+  of Economic Research.
 
-\bibitem[Shiller and Pound(1989)]{shiller1989survey}
-Robert~J Shiller and John Pound.
-\newblock Survey evidence on diffusion of interest and information among
-  investors.
-\newblock \emph{Journal of Economic Behavior \& Organization}, 12\penalty0
-  (1):\penalty0 47--66, 1989.
+\harvarditem[Shiller, Fischer, and Friedman]{Shiller, Fischer, and
+  Friedman}{1984}{shiller1984stock}
+\textsc{Shiller, Robert~J, Stanley Fischer,  {and} Benjamin~M Friedman}
+  (1984): ``Stock prices and social dynamics,'' \emph{Brookings papers on
+  economic activity}, 1984(2), 457--510.
 
-\bibitem[Shiller et~al.(1984)Shiller, Fischer, and Friedman]{shiller1984stock}
-Robert~J Shiller, Stanley Fischer, and Benjamin~M Friedman.
-\newblock Stock prices and social dynamics.
-\newblock \emph{Brookings papers on economic activity}, 1984\penalty0
-  (2):\penalty0 457--510, 1984.
+\harvarditem[Shiller and Pound]{Shiller and Pound}{1989}{shiller1989survey}
+\textsc{Shiller, Robert~J,  {and} John Pound}  (1989): ``Survey evidence on
+  diffusion of interest and information among investors,'' \emph{Journal of
+  Economic Behavior \& Organization}, 12(1), 47--66.
 
-\bibitem[Shive(2010)]{shive2010epidemic}
-Sophie Shive.
-\newblock An epidemic model of investor behavior.
-\newblock \emph{Journal of Financial and Quantitative Analysis}, pages
-  169--198, 2010.
+\harvarditem[Shive]{Shive}{2010}{shive2010epidemic}
+\textsc{Shive, Sophie}  (2010): ``An epidemic model of investor behavior,''
+  \emph{Journal of Financial and Quantitative Analysis}, pp. 169--198.
 
-\bibitem[Sikder et~al.(2020)Sikder, Smith, Vivo, and
-  Livan]{sikder2020minimalistic}
-Orowa Sikder, Robert~E Smith, Pierpaolo Vivo, and Giacomo Livan.
-\newblock A minimalistic model of bias, polarization and misinformation in
-  social networks.
-\newblock \emph{Scientific reports}, 10\penalty0 (1):\penalty0 1--11, 2020.
+\harvarditem[Sikder, Smith, Vivo, and Livan]{Sikder, Smith, Vivo, and
+  Livan}{2020}{sikder2020minimalistic}
+\textsc{Sikder, Orowa, Robert~E Smith, Pierpaolo Vivo,  {and} Giacomo Livan}
+  (2020): ``A minimalistic model of bias, polarization and misinformation in
+  social networks,'' \emph{Scientific reports}, 10(1), 1--11.
 
-\bibitem[Simon(1984)]{simon_behavioral_1984}
-Herbert~A. Simon.
-\newblock On the behavioral and rational foundations of economic dynamics.
-\newblock \emph{Journal of Economic Behavior \& Organization}, 5\penalty0
-  (1):\penalty0 35--55, March 1984.
-\newblock ISSN 0167-2681.
-\newblock \doi{10.1016/0167-2681(84)90025-8}.
-\newblock URL
-  \url{http://www.sciencedirect.com/science/article/pii/0167268184900258}.
+\harvarditem[Simon]{Simon}{1984}{simon_behavioral_1984}
+\textsc{Simon, Herbert~A.}  (1984): ``On the behavioral and rational
+  foundations of economic dynamics,'' \emph{Journal of Economic Behavior \&
+  Organization}, 5(1), 35--55.
 
-\bibitem[Sims(2003)]{sims2003implications}
-Christopher~A Sims.
-\newblock Implications of rational inattention.
-\newblock \emph{Journal of monetary Economics}, 50\penalty0 (3):\penalty0
-  665--690, 2003.
+\harvarditem[Sims]{Sims}{2003}{sims2003implications}
+\textsc{Sims, Christopher~A}  (2003): ``Implications of rational inattention,''
+  \emph{Journal of monetary Economics}, 50(3), 665--690.
 
-\bibitem[Smith(1776)]{smithwealth}
-Adam Smith.
-\newblock \emph{The Wealth of Nations (1776)}.
-\newblock W. Strahan and T. Cadell, London, March 1776.
+\harvarditem[Smith]{Smith}{1776}{smithwealth}
+\textsc{Smith, Adam}  (1776): \emph{The Wealth of Nations (1776)}. W. Strahan
+  and T. Cadell, London.
 
-\bibitem[Soo(2015)]{soo_quantifying_2015}
-Cindy Soo.
-\newblock Quantifying {Animal} {Spirits}: {News} {Media} and {Sentiment} in the
-  {Housing} {Market}.
-\newblock {SSRN} {Scholarly} {Paper} ID 2330392, Social Science Research
-  Network, Rochester, NY, October 2015.
-\newblock URL \url{https://papers.ssrn.com/abstract=2330392}.
+\harvarditem[Soo]{Soo}{2015}{soo_quantifying_2015}
+\textsc{Soo, Cindy}  (2015): ``Quantifying {Animal} {Spirits}: {News} {Media}
+  and {Sentiment} in the {Housing} {Market},'' {SSRN} {Scholarly} {Paper} ID
+  2330392, Social Science Research Network, Rochester, NY.
 
-\bibitem[Soroka et~al.(2015)Soroka, Stecula, and Wlezien]{soroka2015s}
-Stuart~N Soroka, Dominik~A Stecula, and Christopher Wlezien.
-\newblock It's (change in) the (future) economy, stupid: economic indicators,
-  the media, and public opinion.
-\newblock \emph{American Journal of Political Science}, 59\penalty0
-  (2):\penalty0 457--474, 2015.
+\harvarditem[Soroka, Stecula, and Wlezien]{Soroka, Stecula, and
+  Wlezien}{2015}{soroka2015s}
+\textsc{Soroka, Stuart~N, Dominik~A Stecula,  {and} Christopher Wlezien}
+  (2015): ``It's (change in) the (future) economy, stupid: economic indicators,
+  the media, and public opinion,'' \emph{American Journal of Political
+  Science}, 59(2), 457--474.
 
-\bibitem[Tetlock(2015)]{TETLOCK2015701}
-Paul~C. Tetlock.
-\newblock Chapter 18 - the role of media in finance.
-\newblock In Simon~P. Anderson, Joel Waldfogel, and David Stromberg, editors,
-  \emph{Handbook of Media Economics}, volume~1 of \emph{Handbook of Media
-  Economics}, pages 701--721. North-Holland, 2015.
-\newblock \doi{https://doi.org/10.1016/B978-0-444-63685-0.00018-8}.
-\newblock URL
-  \url{https://www.sciencedirect.com/science/article/pii/B9780444636850000188}.
+\harvarditem[Tetlock]{Tetlock}{2015}{TETLOCK2015701}
+\textsc{Tetlock, Paul~C.}  (2015): ``Chapter 18 - The Role of Media in
+  Finance,'' in \emph{Handbook of Media Economics}, ed. by Simon~P. Anderson,
+  Joel Waldfogel,  {and} David Stromberg, vol.~1 of \emph{Handbook of Media
+  Economics}, pp. 701--721. North-Holland.
 
-\bibitem[Vel\'asquez-Giraldo(2022)]{Velasquez2022}
-Mateo Vel\'asquez-Giraldo.
-\newblock Beliefs, stockholding and wealth accumulation throughout the life
-  cycle.
-\newblock Unpublished manuscript, January 2022.
-\newblock URL \url{https://github.com/Mv77/BeliefsStocks_public}.
+\harvarditem[Vel\'asquez-Giraldo]{Vel\'asquez-Giraldo}{2022}{Velasquez2022}
+\textsc{Vel\'asquez-Giraldo, Mateo}  (2022): ``Beliefs, Stockholding and Wealth
+  Accumulation Throughout the Life Cycle,'' Unpublished manuscript.
 
-\bibitem[Violante(2021)]{violante_marginal_2021}
-Gianluca Violante.
-\newblock The {Marginal} {Propensity} to {Consume} in {Macroeconomics}.
-\newblock JJ Laffont Lecture, EEA-ESEM Congress, 2021.
+\harvarditem[Violante]{Violante}{2021}{violante_marginal_2021}
+\textsc{Violante, Gianluca}  (2021): ``The {Marginal} {Propensity} to {Consume}
+  in {Macroeconomics},'' JJ Laffont Lecture, EEA-ESEM Congress.
 
-\bibitem[Vosoughi et~al.(2018)Vosoughi, Roy, and Aral]{vosoughi_spread_2018}
-Soroush Vosoughi, Deb Roy, and Sinan Aral.
-\newblock The spread of true and false news online.
-\newblock \emph{Science}, 359\penalty0 (6380):\penalty0 1146--1151, March 2018.
-\newblock ISSN 0036-8075, 1095-9203.
-\newblock \doi{10.1126/science.aap9559}.
-\newblock URL \url{https://science.sciencemag.org/content/359/6380/1146}.
+\harvarditem[Vosoughi, Roy, and Aral]{Vosoughi, Roy, and
+  Aral}{2018}{vosoughi_spread_2018}
+\textsc{Vosoughi, Soroush, Deb Roy,  {and} Sinan Aral}  (2018): ``The spread of
+  true and false news online,'' \emph{Science}, 359(6380), 1146--1151.
 
-\bibitem[Wang and Wood(2011)]{wang2011epidemiological}
-Lin Wang and Brendan~C Wood.
-\newblock An epidemiological approach to model the viral propagation of memes.
-\newblock \emph{Applied Mathematical Modelling}, 35\penalty0 (11):\penalty0
-  5442--5447, 2011.
+\harvarditem[Wang and Wood]{Wang and Wood}{2011}{wang2011epidemiological}
+\textsc{Wang, Lin,  {and} Brendan~C Wood}  (2011): ``An epidemiological
+  approach to model the viral propagation of memes,'' \emph{Applied
+  Mathematical Modelling}, 35(11), 5442--5447.
 
-\bibitem[Watts and Strogatz(1998)]{wsSmallWorld}
-Duncan~J Watts and Steven~H Strogatz.
-\newblock Collective dynamics of `small-world' networks.
-\newblock \emph{nature}, 393\penalty0 (6684):\penalty0 440--442, 1998.
+\harvarditem[Watts and Strogatz]{Watts and Strogatz}{1998}{wsSmallWorld}
+\textsc{Watts, Duncan~J,  {and} Steven~H Strogatz}  (1998): ``Collective
+  dynamics of `small-world' networks,'' \emph{nature}, 393(6684), 440--442.
 
-\bibitem[Young(2009)]{young2009innovation}
-H~Peyton Young.
-\newblock Innovation diffusion in heterogeneous populations: Contagion, social
-  influence, and social learning.
-\newblock \emph{American economic review}, 99\penalty0 (5):\penalty0
-  1899--1924, 2009.
+\harvarditem[Young]{Young}{2009}{young2009innovation}
+\textsc{Young, H~Peyton}  (2009): ``Innovation diffusion in heterogeneous
+  populations: Contagion, social influence, and social learning,''
+  \emph{American economic review}, 99(5), 1899--1924.
 
-\bibitem[Zannettou et~al.(2018)Zannettou, Caulfield, Blackburn, De~Cristofaro,
-  Sirivianos, Stringhini, and Suarez-Tangil]{zannettou2018origins}
-Savvas Zannettou, Tristan Caulfield, Jeremy Blackburn, Emiliano De~Cristofaro,
-  Michael Sirivianos, Gianluca Stringhini, and Guillermo Suarez-Tangil.
-\newblock On the origins of memes by means of fringe web communities.
-\newblock In \emph{Proceedings of the Internet Measurement Conference 2018},
-  pages 188--202, 2018.
+\harvarditem[Zannettou, Caulfield, Blackburn, De~Cristofaro, Sirivianos,
+  Stringhini, and Suarez-Tangil]{Zannettou, Caulfield, Blackburn,
+  De~Cristofaro, Sirivianos, Stringhini, and
+  Suarez-Tangil}{2018}{zannettou2018origins}
+\textsc{Zannettou, Savvas, Tristan Caulfield, Jeremy Blackburn, Emiliano
+  De~Cristofaro, Michael Sirivianos, Gianluca Stringhini,  {and} Guillermo
+  Suarez-Tangil}  (2018): ``On the origins of memes by means of fringe web
+  communities,'' in \emph{Proceedings of the Internet Measurement Conference
+  2018}, pp. 188--202.
 
 \end{thebibliography}

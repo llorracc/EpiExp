@@ -1,0 +1,1477 @@
+Applied Mathematics and Computation 236 (2014) 184–194
+
+Contents lists available at ScienceDirect
+
+Applied Mathematics and Computation
+journal homepage: www.elsevier.com/locate/amc
+
+Exact analytical solutions of the Susceptible-Infected-Recovered
+(SIR) epidemic model and of the SIR model with equal death
+and birth rates
+Tiberiu Harko a,⇑, Francisco S.N. Lobo b, M.K. Mak c
+a
+
+Department of Mathematics, University College London, Gower Street, London WC1E 6BT, United Kingdom
+Centro de Astronomia e Astrofísica da Universidade de Lisboa, Campo Grande, Ediﬁcío C8, 1749-016 Lisboa, Portugal
+c
+Department of Computing and Information Management, Hong Kong Institute of Vocational Education, Chai Wan, Hong Kong, PR China
+b
+
+a r t i c l e
+
+i n f o
+
+Keywords:
+Susceptible-Infected-Recovered (SIR)
+epidemic model
+Exact solution
+Abel equation
+
+a b s t r a c t
+In this paper, the exact analytical solution of the Susceptible-Infected-Recovered (SIR)
+epidemic model is obtained in a parametric form. By using the exact solution we investigate
+some explicit models corresponding to ﬁxed values of the parameters, and show that
+the numerical solution reproduces exactly the analytical solution. We also show that the
+generalization of the SIR model, including births and deaths, described by a nonlinear
+system of differential equations, can be reduced to an Abel type equation. The reduction
+of the complex SIR model with vital dynamics to an Abel type equation can greatly simplify
+the analysis of its properties. The general solution of the Abel equation is obtained by using a
+perturbative approach, in a power series form, and it is shown that the general solution of
+the SIR model with vital dynamics can be represented in an exact parametric form.
+Ó 2014 Elsevier Inc. All rights reserved.
+
+1. Introduction
+The outbreak and spread of diseases has been questioned and studied for many years. In fact, Graunt was the ﬁrst scientist
+who attempted to quantify causes of death systematically [1], and his analysis of causes of death ended up with a theory that
+is now well established among modern epidemiologists. Bernoulli was the ﬁrst mathematician to propose a mathematical
+model describing an infectious disease. In 1760 he modeled the spread of smallpox [2], which was prevalent at the time,
+and argued the advantages of variolation [3]. A simple deterministic (compartmental) model predicting the behavior of
+epidemic outbreaks was formulated by McKendrick and Kermack in 1927 [4]. In their mathematical epidemic model, called
+the Susceptible-Infected-Recovered (SIR) model, or the xyz model, to describe the spread of diseases, McKendrick and
+Kermack proposed the following nonlinear system of ordinary differential equations [4]
+
+dx
+¼ bxðtÞyðtÞ;
+dt
+
+ð1Þ
+
+dy
+¼ bxðtÞyðtÞ  cyðtÞ
+dt
+
+ð2Þ
+
+⇑ Corresponding author.
+E-mail addresses: t.harko@ucl.ac.uk (T. Harko), ﬂobo@cii.fc.ul.pt (F.S.N. Lobo), mkmak@vtc.edu.hk (M.K. Mak).
+http://dx.doi.org/10.1016/j.amc.2014.03.030
+0096-3003/Ó 2014 Elsevier Inc. All rights reserved.
+
+T. Harko et al. / Applied Mathematics and Computation 236 (2014) 184–194
+
+185
+
+and
+
+dz
+¼ cyðtÞ;
+dt
+
+ð3Þ
+
+respectively, with the initial conditions xð0Þ ¼ N 1 P 0; yð0Þ ¼ N 2 P 0 and zð0Þ ¼ N 3 P 0; N i 2 R; i ¼ 1; 2; 3, and where the
+infection rate b and the mean recovery rate c are positive constants. In this model a ﬁxed population with only three compartments is considered: susceptible (S) xðtÞ, infected (I) yðtÞ, and recovered (R) zðtÞ, respectively. The compartments used for
+this model consist of three classes:
+(a) the function xðtÞ represents the number of individuals not yet infected with disease at time t or those susceptible to
+the disease,
+(b) the function yðtÞ represents the number of individuals who have been infected with the disease, and are capable of
+spreading the disease to those in the susceptible category, and
+(c) the function zðtÞ is the compartment of the individuals who have been infected and then recovered from the disease. Those in this category are not able to be infected again, or to transmit the infection to others. For this model
+the initial conditions xð0Þ ¼ N 1 ; yð0Þ ¼ N 2 and zð0Þ ¼ N 3 are not independent, since they must satisfy the condition
+N 1 þ N 2 þ N 3 ¼ N, where N is the total ﬁxed number of the individuals in the given population. The constants b and
+c give the transition rates between compartments. The transition rate between S (Susceptible) and I (infected) is b,
+where b is the contact rate, which takes into account the probability of getting the disease in a contact between a
+susceptible and an infectious subject [5–8]. The transition rate between I (Infected) and R (recovered), is c, which
+has the meaning of the rate of recovery or death. If the duration of the infection is denoted D, then c ¼ 1=D, since
+an individual experiences one recovery in D units of time [5–8]. Since b and c are interpreted as transition rates
+(probabilities), their range is 0 6 b 6 1 and 0 6 c 6 1, respectively.
+In many infectious diseases, such as in the case of measles, there is an arrival of new susceptible individuals into the
+population. For this type of situation deaths must be included in the model. By considering a population characterized by
+a death rate l and a birth rate equal to the death rate, the non-linear system of the differential equations representing this
+epidemic model is given by [5–8],
+
+dx
+¼ bxy þ lðN  xÞ;
+dt
+
+ð4Þ
+
+dy
+¼ bxy  ðc þ lÞy;
+dt
+
+ð5Þ
+
+dz
+¼ cy  lz
+dt
+
+ð6Þ
+
+and it must be considered with the initial conditions xð0Þ ¼ N 1 ; yð0Þ ¼ N 2 and zð0Þ ¼ N 3 , with the constants N i ; i ¼ 1; 2; 3
+P
+satisfying the condition 3i¼1 N i ¼ N.
+The non-linear differential equations systems, given by Eqs. (1)–(3) and (4)–(6) represent modiﬁed three-dimensional
+competitive Lotka–Volterra type models [5,7]. These systems can also be related to the so-called T systems, introduced
+recently in [9], and which have the form
+
+dx
+¼ a0 ðy  xÞ;
+dt
+
+ð7Þ
+
+dy
+¼ ðc0  a0 Þx  a0 xz;
+dt
+
+ð8Þ
+
+dz
+¼ b0 z þ xy;
+dt
+
+ð9Þ
+
+which is chaotic for a0 ¼ 2:1; b0 ¼ 0:6 and c0 ¼ 30. The mathematical properties of the T-system were studied in [10–12].
+In recent years, the mathematical epidemic models given by Eqs. (1)–(3) and (4)–(6) were investigated numerically in a
+number of papers, with the use of a wide variety of methods and techniques, namely, the Adomian decomposition method
+[13], the variational iteration method [14], the homotopy perturbation method [15], and the differential transformation
+method [16], respectively. Very recently, a stochastic epidemic-type model with enhanced connectivity was analyzed
+in [17], and an exact solution of the model was obtained. With the use of a quantum mechanical approach the master equation
+was transformed via a quantum spin operator formulation. The time-dependent density of infected, recovered and susceptible
+populations for random initial conditions was calculated exactly. An exact solution of a particular case of the SIR and
+Susceptible–Infected–Susceptible (SIS) epidemic models was presented in [18]. Note that in the latter SIS model, the infected
+return to the susceptible class on recovery because the disease confers no immunity against reinfection. A SIR epidemic model
+
+186
+
+T. Harko et al. / Applied Mathematics and Computation 236 (2014) 184–194
+
+with nonlinear incidence rate and time delay was investigated in [19], while an age-structured SIR epidemic model with
+time periodic coefﬁcients was studied in [20]. In fact, the standard pair approximation equations for the SusceptibleInfective-Recovered-Susceptible (SIRS) model of infection spread on a network of homogeneous degree k predict a thin phase
+of sustained oscillations for parameter values that correspond to diseases that confer long lasting immunity. Indeed, the latter
+SIRS model has been thoroughly studied, with the results strongly suggesting that its stochastic Markovian version does not
+yield sustained oscillations [21]. A stochastic model of infection dynamics based on the Susceptible-Infective-Recovered
+model, where the distribution of the recovery times can be tuned, interpolating between exponentially distributed recovery
+times, as in the standard SIR model, and recovery after a ﬁxed infectious period, was investigated in [22]. For large
+populations, the spectrum of ﬂuctuations around the deterministic limit of the model was obtained analytically.
+An epidemic model with stage structure was introduced in [23], with the period of infection partitioned into the early and
+later stages according to the developing process of infection. The basic reproduction number of this model is determined by
+the method of next generation matrix. The global stability of the disease-free equilibrium and the local stability of the
+endemic equilibrium have been obtained, with the global stability of the endemic equilibrium is determined under the
+condition that the infection is not fatal. Lyapunov functions for classical SIR and SIS epidemiological models were introduced
+in [24], and the global stability of the endemic equilibrium states of the models were thereby established. A new Lyapunov
+function for a variety of SIR and SIRS models in epidemiology was introduced in [25]. Traveling wave trains in generalized
+two-species predator–prey models and two-component reaction–diffusion equations were considered in [26], and the
+stability of the ﬁxed points of the traveling wave ordinary differential equations in the usual ‘‘spatial’’ variable was analyzed.
+For general functional forms of the nonlinear prey birthrate/prey death rate or reaction terms, a Hopf bifurcation occurs at
+two different critical values of the traveling wave speed. Subcritical Hopf bifurcations yield more complex post-bifurcation
+dynamics in the wavetrains of the system of the partial differential equations. In order to investigate the post-bifurcation
+dynamics all the models were integrated numerically, and chaotic regimes were characterized by computing power spectra,
+autocorrelation functions, and fractal dimensions, respectively.
+It is the purpose of this paper to present the exact analytical solution of the SIR epidemic model. The solution is obtained
+in an exact parametric form. The generalization of the SIR model including births deaths, described by Eqs. (4)–(6), is also
+considered, and we show that the nonlinear system of differential equations governing the generalized SIR model can be
+reduced to an Abel type equation. The general solution of the Abel equations is obtained by using an iterative method
+and, once the solution of this ordinary differential equation is known, the general solution of the SIR model with vital
+dynamics can be obtained, similarly to the standard SIR model, in an exact parametric form.
+The present paper is organized as follows. The exact solution of the SIR epidemic model is presented in Section 2. The
+nonlinear system of differential equations governing the SIR model with deaths is reduced to an Abel type equation, and
+the general solution of the model equations is obtained in an exact parametric form in Section 3. We conclude our results
+in Section 4.
+2. The exact solution of the SIR epidemic model
+By adding Eqs. (1)–(3), yields the following differential equation,
+
+d
+½xðtÞ þ yðtÞ þ zðtÞ ¼ 0;
+dt
+
+ð10Þ
+
+which can be immediately integrated to give
+
+xðtÞ þ yðtÞ þ zðtÞ ¼ N;
+
+8t P 0;
+
+ð11Þ
+
+where xðtÞ > 0; yðtÞ > 0 and zðtÞ > 0; 8t P 0. Hence, the total population N ¼ N 1 þ N 2 þ N 3 must be an arbitrary positive
+integration constant. This is consistent with the model in which only a ﬁxed population N with only three compartments
+is considered.
+2.1. The general evolution equation for the SIR model
+As a next step in our study, we differentiate Eq. (1) with respect to the time t, thus obtaining the following second order
+differential equation,
+
+"
+ 0 2 #
+dy
+1 x00
+x
+;
+¼
+
+dt
+b x
+x
+
+ð12Þ
+
+where the prime represents the derivative with respect to time t. By inserting Eqs. (1) and (12) into Eq. (2), the latter is transformed into
+
+ 0 2
+x00
+x
+x0
+
+þ c  bx0 ¼ 0:
+x
+x
+x
+
+ð13Þ
+
+T. Harko et al. / Applied Mathematics and Computation 236 (2014) 184–194
+
+187
+
+By eliminating y from Eqs. (1) and (3) yields
+
+ 
+dz
+c x0
+:
+¼
+dt
+b x
+
+ð14Þ
+
+which can be integrated to give
+b
+
+x ¼ x0 e  c z ;
+
+ð15Þ
+
+where x0 is a positive integration constant. By estimating Eq. (15) at t ¼ 0 provides the following value for the integration
+constant
+b
+
+x0 ¼ N 1 e c N 3 :
+
+ð16Þ
+
+From Eq. (15), it is easy to obtain the relation
+
+x0 b
+
+x0 ¼ 
+
+c
+
+b
+
+z0 ecz :
+
+ð17Þ
+
+Now, differentiation of Eq. (14) with respect to the time t leads to the second order differential equation
+
+"
+
+z00 ¼ 
+
+c x00
+b x
+
+
+
+ 0 2 #
+x
+:
+x
+
+ð18Þ
+
+By inserting Eqs. (14), (17) and (18) into Eq. (13 ), the latter becomes the basic differential equation describing the spread
+of a non-fatal disease in a given population
+b
+
+z00 ¼ x0 bz0 ecz  cz0 :
+
+ð19Þ
+
+Eq. (19) is equivalent to the system of differential equations Eqs. (1)–(3), respectively.
+2.2. The general solution of the evolution equation of the SIR model
+In order to solve the nonlinear differential equation Eq. (19), we introduce a new function uðtÞ deﬁned as
+b
+
+u ¼ ecz :
+
+ð20Þ
+
+At t ¼ 0; u has the initial value
+b
+
+uð0Þ ¼ u0 ¼ ecN3 :
+
+ð21Þ
+
+Substituting Eq. (20) into Eq. (19), we obtain the following second order differential equation for u,
+2
+
+u
+
+d u
+dt
+
+2
+
+
+
+ 2
+du
+du
+þ ðc  x0 buÞ u
+¼ 0:
+dt
+dt
+
+ð22Þ
+
+Next we introduce the new function /, deﬁned as
+
+/¼
+
+dt
+:
+du
+
+ð23Þ
+
+With the help of the transformation given by Eq. (23), Eq. (22) becomes a Bernoulli type differential equation,
+
+d/ 1
+þ / ¼ ðc  x0 buÞ/2
+du u
+
+ð24Þ
+
+with the general solution given by
+
+/¼
+
+1
+;
+uðC 1  c ln u þ x0 buÞ
+
+ð25Þ
+
+where C 1 is an arbitrary integration constant. In view of Eqs. (23) and (25), we obtain the integral representation of the time
+as
+
+t  t0 ¼
+
+Z
+
+u
+
+u0
+
+dn
+;
+nðC 1  c ln n þ x0 bnÞ
+
+ð26Þ
+
+where t 0 is an arbitrary integration constant, and one may choose t 0 ¼ 0, without loss of generality. Hence we have obtained
+the complete exact solution of the system of Eqs. (1)–(3), describing the SIR epidemic model, given in a parametric form by
+
+x ¼ x0 u;
+
+ð27Þ
+
+188
+
+T. Harko et al. / Applied Mathematics and Computation 236 (2014) 184–194
+
+y¼
+
+c
+b
+
+z¼
+
+ln u  x0 u 
+
+c
+b
+
+C1
+;
+b
+
+ð28Þ
+
+ln u
+
+ð29Þ
+
+with u taken as a parameter. Now adding Eqs. (27)–(29), we obtain
+
+xþyþz¼
+
+C1
+:
+b
+
+ð30Þ
+
+Comparing Eq. (30) with Eq. (11), we have
+
+C 1 ¼ bN
+
+ð31Þ
+
+and hence C 1 is a negative integration constant. Eqs. (26)–(31) give the exact parametric solution of the SIR system of three
+differential equations, with u taken as parameter. The solution describes exactly the dynamical evolution of the SIR system
+for any given initial conditions xð0Þ ¼ N 1 ; yð0Þ ¼ N 2 and zð0Þ ¼ N 3 , and for arbitrary values of b and c. The numerical values
+of the two constants in the solution, u0 and C 1 are determined by the model parameters and the initial conditions. Any
+change in the numerical values of the initial conditions and/or of the rate parameters will not affect the validity of the
+solution.
+In order to compare the results of the present analytical solution with the results of the numerical integration of the system of differential equations Eqs. (1)–(3) we adopt the initial values and the numerical values for the coefﬁcients considered
+in [16]. Hence we take N 1 ¼ 20, N 2 ¼ 15, and N 3 ¼ 10, respectively. For the parameter b we take the value b ¼ 0:01, while
+c ¼ 0:02. The variations of xðtÞ, yðtÞ and zðtÞ obtained by both numerical integration and the use of the analytical solution
+are represented, as a function of time, in Fig. 1.
+As one can see from the ﬁgure, the analytical solution perfectly reproduces the results of the numerical integration. The
+exact solution we found here is also in complete agreement with the numerical results obtained in [13–16]. The variation of
+zðtÞ for different initial conditions xð0Þ; yð0Þ and zð0Þ is represented in Fig. 2.
+In the present Section, after a brief discussion of the general properties of the SIR model with births and deaths, we will
+show that the time evolution of the SIR model with equal birth and death rates can be obtained from the study of a single
+ﬁrst order Abel type differential equation. An iterative approach for solving this equation is also presented.
+3. The SIR model with equal death and birth rates
+In the present Section we consider the extension of the simple SIR model given by Eqs. (1)–(3) by including equal rates of
+births and deaths. In this case the system of differential equations we are going to consider is given by Eqs. (4)–(6).
+It is easy to see that by adding Eqs. (4)–(6), and integrating the resulting equation yields the following result
+
+xðtÞ þ yðtÞ þ zðtÞ ¼ N þ N0 elt
+
+ð32Þ
+
+for this model, where N 0 is an arbitrary integration constant. In order that to total number of individuals is a constant,
+
+xðtÞ þ yðtÞ þ zðtÞ ¼ N;
+
+8t P 0;
+
+ð33Þ
+
+Fig. 1. Variation of xðtÞ (solid curve), yðtÞ (dotted curve) and zðtÞ (dashed curve), obtained by the numerical integration of the differential equations Eqs. (1)–
+(3), and with the use of the analytical solution, for b ¼ 0:01 and c ¼ 0:02. The initial conditions are xð0Þ ¼ N 1 ¼ 20; yð0Þ ¼ N 2 ¼ 15, and zð0Þ ¼ N 3 ¼ 10,
+respectively. The numerical and the analytical solutions completely overlap.
+
+T. Harko et al. / Applied Mathematics and Computation 236 (2014) 184–194
+
+189
+
+18
+
+z t
+
+16
+
+14
+
+12
+
+10
+
+0
+
+5
+
+10
+
+15
+
+20
+
+t
+Fig. 2. Time variation of zðtÞ obtained with the use of the analytical solution, for b ¼ 0:01 and c ¼ 0:02, and for different initial conditions:
+xð0Þ ¼ N 1 ¼ 20; yð0Þ ¼ N 2 ¼ 15, and zð0Þ ¼ N 3 ¼ 10 (solid curve), xð0Þ ¼ N 1 ¼ 19; yð0Þ ¼ N 2 ¼ 16, and zð0Þ ¼ N 3 ¼ 11 (dotted curve),
+xð0Þ ¼ N 1 ¼ 22; yð0Þ ¼ N 2 ¼ 11, and zð0Þ ¼ N 3 ¼ 11 (dashed curve), and xð0Þ ¼ N 1 ¼ 24; yð0Þ ¼ N 2 ¼ 9, and zð0Þ ¼ N 3 ¼ 9 (long dashed curve), respectively.
+
+we must ﬁx the arbitrary integration constant N 0 as zero, N 0 ¼ 0.
+The variation of xðtÞ; yðtÞ and zðtÞ for the SIR model with vital dynamics is represented in Fig. 3.
+3.1. Qualitative properties of the SIR model with vital dynamics
+Both the simple SIR model (l ¼ 0) and the SIR model with vital dynamics (l – 0) are two dimensional dynamical systems
+in the x þ y þ z ¼ N invariant plane. There is no chaotic behavior in the plane – essentially because the existence and unicity
+theorem prevents (in dimension 2) the existence of transversal homoclinic points. The dynamics of both systems is simple,
+and well understood, including the bifurcation that takes place at bN ¼ c þ l. There is also no chaotic behavior for l – 0 outside the x þ y þ z ¼ N invariant plane, because, as one can see from Eqs. (4)–(6), for the time evolution of x þ y þ z, trajectories with initial conditions out of the invariant plane tend exponentially fast to the invariant plane – there can be no attractor
+or invariant set, chaotic or otherwise, outside the invariant plane. For l ¼ 0; y ¼ 0 is a line of degenerate equilibria, for all
+parameter values.
+For l – 0 and b < 0; x ¼ N; y ¼ 0; z ¼ 0 is a global attractor – a stable node –, while for b > 0,
+
+x ¼
+
+y ¼
+
+cþl
+b
+
+l
+
+
+
+ð34Þ
+
+;
+
+Nb
+1
+b cþl
+
+
+ð35Þ
+
+and
+25
+
+20
+
+x t
+
+15
+
+10
+
+5
+
+0
+
+5
+
+10
+
+15
+
+20
+
+25
+
+t
+Fig. 3. Variation of xðtÞ (solid curve), yðtÞ (dotted curve) and zðtÞ (dashed curve), obtained by the numerical integration of the differential equations Eqs. (4)–
+(6) of the SIR model with equal death and birth rates for b ¼ 0:01; c ¼ 0:02, and l ¼ 0:20. The initial conditions are xð0Þ ¼ N 1 ¼ 20; yð0Þ ¼ N 2 ¼ 15, and
+zð0Þ ¼ N 3 ¼ 10, respectively.
+
+190
+
+T. Harko et al. / Applied Mathematics and Computation 236 (2014) 184–194
+
+c
+
+
+
+Nb
+1
+b cþl
+
+z ¼
+
+
+ð36Þ
+
+is a global attractor – a stable node/focus. In the two-dimensional invariant plane x þ y þ z ¼ N the basic equations of the SIR
+model with deaths and births are
+
+dx
+¼ lN  bxy  lx
+dt
+
+ð37Þ
+
+dy
+¼ bxy  ðc þ lÞy;
+dt
+
+ð38Þ
+
+and
+
+respectively. Let x and y the equilibrium points of the system. In the following we rigorously show that the equilibrium
+ðx ; y Þ is globally asymptotically stable, i.e., all initial conditions with xð0Þ > 0 and yð0Þ > 0 give solutions that converge onto
+this equilibrium point. We will prove this result by using the Lyapounov direct method. As a ﬁrst step we scale the variables
+by population size, so that x ! x=N, and y ! y=N, respectively. Next we introduce the function Lðx; yÞ deﬁned as [8]
+
+Lðx; yÞ ¼ x  x ln x þ y  y ln y;
+
+x; y 2 ð0; 1Þ:
+
+ð39Þ
+
+Then, with the use of Eqs. (37) and (38) it immediately follows that
+
+
+
+dLðx; yÞ
+dx dy
+< 0;
+¼ rVðx; yÞ 
+;
+dt
+dt dt
+
+x; y 2 ð0; 1Þ:
+
+ð40Þ
+
+Lðx; yÞ is therefore a Lyapunov function for the basic SIR model with vital dynamics. The existence of a Lyapounov function L
+ensures the global asymptotic stability of the equilibrium point ðx ; y Þ [8].
+3.2. The evolution equation of the SIR models with vital dynamics
+We derive now the basic differential equation describing the dynamics of the SIR model with equal birth and death rates.
+We differentiate Eq. (6) with respect to the time t and obtain ﬁrst the second order differential equation
+
+y0 ¼
+
+1
+
+c
+
+ðz00 þ lz0 Þ:
+
+ð41Þ
+
+By inserting Eq. (6) into Eq. (4) leads to the following differential equation,
+
+b
+x0 ¼  x ðz0 þ lzÞ þ l ðN  xÞ:
+
+c
+
+ð42Þ
+
+Now, substituting Eqs. (6) and (41) into Eq. (5) yields the differential equation:
+
+bx ¼
+
+z00 þ lz0
+þ c þ l:
+z0 þ lz
+
+ð43Þ
+
+Then, by differentiating Eq. (43) with respect to the time t gives the third order differential equation,
+
+bx0 ¼
+
+ 00
+2
+z000 þ lz00
+z þ lz0
+
+:
+z0 þ lz
+z0 þ lz
+
+ð44Þ
+
+Finally, by substituting Eqs. (43) and (44) into Eq. (42) gives the basic differential equation describing the SIR model with
+equal rate of deaths and births,
+
+ 00
+2
+ 00
+
+
+z000 þ lz00
+z þ lz0
+z þ lz0
+b 0
+þ blN:
+
+¼
+
+þ
+c
+þ
+l
+ð
+z
+þ
+l
+z
+Þ
+þ
+l
+z0 þ lz
+z0 þ lz
+z0 þ lz
+c
+
+ð45Þ
+
+Eq. (45) must be integrated by taking into account the initial conditions of the SIR model with equal rates of deaths and
+births, given by zð0Þ ¼ N 3 ; z0 ð0Þ ¼ cN 2  lN 3 , and z00 ð0Þ ¼ bcN 1 N 2  cðc þ 2lÞN 2 þ l2 N 3 , respectively.
+3.3. Reduction of the evolution equation for the SIR model with vital dynamics to an Abel type equation
+In order to simplify Eq. (45), we introduce a set of transformations deﬁned as
+
+w ¼ z0 þ lz;
+
+ð46Þ
+
+w0 ¼ z00 þ lz0 ;
+
+ð47Þ
+
+w00 ¼ z000 þ lz00 :
+
+ð48Þ
+
+T. Harko et al. / Applied Mathematics and Computation 236 (2014) 184–194
+
+191
+
+By substituting Eqs. (46)–(48) into Eq. (45) leads to a second order differential equation
+
+ 0 2
+
+
+w
+w00 b 0
+w0
+l
+
+¼ w þl þb
+þ 1 w þ lðl þ c  bNÞ;
+w
+w
+c
+w
+c
+
+ð49Þ
+
+which can be rewritten as
+
+ 2
+2
+dw
+d w
+dw
+ w 2 ¼ ðlw þ cw2 Þ
+þ bw2 þ aw3 ;
+dt
+dt
+dt
+
+ð50Þ
+
+where we have denoted
+
+
+
+l
+a¼b
+þ1 ;
+
+ð51Þ
+
+b ¼ lðl þ c  bNÞ
+
+ð52Þ
+
+b
+c¼ ;
+
+ð53Þ
+
+c
+
+and
+
+c
+
+respectively. The initial conditions for the integration of Eq. (50) are wð0Þ ¼ cN 2 , and w0 ð0Þ ¼ c½bN 1  ðc þ lÞN 2 .
+With the help of the transformation deﬁned as
+
+w¼
+
+dt
+1
+¼ ;
+dw w0
+
+ð54Þ
+
+Eq. (50) takes the form of the standard Abel type ﬁrst order differential equation of the ﬁrst kind,
+
+dw
+1
+¼ ðaw2 þ bwÞ w3 þ ðcw þ lÞ w2  w
+dw
+w
+
+ð55Þ
+
+with the corresponding initial condition given by wðcN 2 Þ ¼ 1=c½bN 1  ðc þ lÞ N 2 .
+By introducing a new function v deﬁned as
+
+v ¼ ww ¼
+
+w
+;
+w0
+
+ð56Þ
+
+the Abel Eq. (55) reduces to the form
+
+
+
+
+
+dv
+b 3
+l
+¼ aþ
+v þ c þ v 2;
+w
+dw
+w
+
+ð57Þ
+
+which is equivalent to the non-linear system of Eqs. (4)–(6), and must be integrated with the initial condition
+v ðcN2 Þ ¼ 1=½bN1  ðc þ lÞ.
+The mathematical properties of the Abel type equation, and its applications, have been intensively investigated in a series
+of papers [27–31]. Note that when the average death rate l is zero, in view of Eq. (52) then b ¼ 0, and the Abel equation (57)
+becomes a separate variable type differential equation of the form
+
+dv
+¼ av 3 þ cv 2 :
+dw
+
+ð58Þ
+
+Eq. (58) is equivalent to the system of differential equations Eqs. (1)–(3) describing the SIR epidemic model without
+deaths. We shall not present the simple solution of Eq. (58) here since we have already presented the complete exact solution of Eqs. (1)–(3) in Section 2.
+3.4. The iterative solution of the Abel equation
+By introducing a new independent variable W deﬁned as
+
+W ¼ ln v ;
+
+ð59Þ
+
+Eq. (57) takes the form
+
+
+
+
+
+dW
+b 2W
+l W
+e þ cþ
+e
+¼ aþ
+w
+dw
+w
+
+ð60Þ
+
+or, equivalently,
+
+# 
+#
+
+"
+"
+dW
+b
+ð2WÞ2 ð2WÞ3
+l
+W2 W3
+1 þ 2W þ
+1þWþ
+¼ aþ
+þ
+þ  þ c þ
+þ
+þ 
+w
+dw
+2!
+3!
+w
+2!
+3!
+
+and must be integrated with the initial condition given by WðcN 2 Þ ¼  ln jbN 1  ðc þ lÞj.
+
+ð61Þ
+
+192
+
+T. Harko et al. / Applied Mathematics and Computation 236 (2014) 184–194
+
+In the limit of small W, in the zero order of approximation Eq. (61) becomes a ﬁrst order differential equation of the form
+
+
+
+dW0
+2b þ l
+bþl
+¼ 2a þ c þ
+W0 þ a þ c þ
+;
+dw
+w
+w
+
+ð62Þ
+
+with the general solution given by
+
+
+
+
+ 
+bþl
+dw
+eð2aþcÞw wð2bþlÞ a þ c þ
+w
+2bl ð2aþcÞðcN 2 wÞ n
+
+
+ðcN2 Þ
+e
+w2bþl ðbc  alÞecN2 ð2aþcÞ E2bþlþ1 ðð2a þ cÞN2 cÞ  ð2a þ cÞ ln jbN1  c  lj þ a þ c
+¼
+2a þ c
+
+o
+ ðcN2 Þ2bþl eð2aþcÞðcN2 wÞ  a þ c  ewð2aþcÞ ðbc  alÞE2bþlþ1 ðð2a þ cÞwÞ ;
+ð63Þ
+
+W0 ðwÞ ¼ eð2aþcÞw w2bþl C 0 þ
+
+Z
+
+R1
+where En ðxÞ is the exponential integral En ðxÞ ¼ 1 ext =tn dt, and C 0 is an arbitrary constant of integration, which has been
+determined from the initial condition.
+In order to obtain the solution of the Abel equation in the next order of approximation, we write Eq. (61) as
+
+
+
+ 
+
+1  
+dW
+2b þ l
+bþl X
+b
+l Wk
+þ cþ
+¼ 2a þ c þ
+Wþaþcþ
+þ
+2k a þ
+:
+w
+dw
+w
+w
+w
+k!
+k¼2
+
+ð64Þ
+
+To obtain the ﬁrst order approximation W1 of the solution of the Abel equation, we substitute in Eq. (64) the non-linear
+terms containing W with W0 . Therefore the ﬁrst order approximation W1 for Eq. (61) or Eq. (64) satisﬁes the following linear
+differential equation,
+
+
+
+ 
+
+1  
+dW1
+2b þ l
+bþl X
+b
+l Wk0
+þ cþ
+¼ 2a þ c þ
+W1 þ a þ c þ
+þ
+2k a þ
+w
+dw
+w
+w
+w
+k!
+k¼2
+
+ð65Þ
+
+with the general solution given by
+
+(
+
+ 
+ # )
+1  
+bþl X
+b
+l Wk0
+þ cþ
+þ
+2k a þ
+dw
+w
+w
+w
+k!
+k¼2
+ 
+
+Z
+1  
+X
+b
+l Wk0
+þ cþ
+¼ W0 ðwÞ þ eð2aþcÞw w2bþl eð2aþcÞw wð2bþlÞ
+2k a þ
+dw:
+w
+w
+k!
+k¼2
+
+W1 ðwÞ ¼ eð2aþcÞw w2bþl C 0 þ
+
+Z
+
+"
+
+eð2aþcÞw wð2bþlÞ a þ c þ
+
+ð66Þ
+
+The nth order of approximation of the Abel equation satisﬁes the following linear differential equation,
+
+
+
+ 
+
+1  
+dWn
+2b þ l
+bþl X
+b
+l Wkn1
+þ cþ
+¼ 2a þ c þ
+Wn þ a þ c þ
+þ
+2k a þ
+w
+dw
+w
+w
+w
+k!
+k¼2
+
+ð67Þ
+
+with the general iterative solution given by
+
+(
+
+# )
+ 
+
+1  
+bþl X
+b
+l Wkn1
+k
+þ cþ
+Wn ðwÞ ¼ e
+w
+C0 þ e
+w
+aþcþ
+þ
+2 aþ
+dw
+w
+w
+k!
+w
+k¼2
+ 
+
+Z
+1  
+X
+b
+l Wkn1
+¼ W0 ðwÞ þ eð2aþcÞw w2bþl eð2aþcÞw wð2bþlÞ
+þ cþ
+2k a þ
+dw:
+w
+w
+k!
+k¼2
+ð2aþcÞw
+
+Z
+
+2bþl
+
+"
+
+ð2aþcÞw
+
+ð2bþlÞ
+
+ð68Þ
+
+Therefore the general solution of the Abel equation can be obtained as
+
+WðwÞ ¼ lim Wn ðwÞ:
+
+ð69Þ
+
+n!1
+
+Once the function W is known, we obtain immediately v ðwÞ ¼ eWðwÞ , and wðwÞ ¼ eWðwÞ =w, respectively. Therefore the time
+evolution of the SIR model with deaths can be obtained, as a function of the parameter w, as
+
+Z
+
+t  t0 ¼
+
+wdw ¼
+
+Z
+
+eWðwÞ
+dw:
+w
+
+ð70Þ
+
+In terms of the variable w, Eq. (42) for x becomes
+
+
+
+dx
+l
+eWðwÞ
+x þ lN
+¼ eWðwÞ c þ
+dw
+w
+w
+
+ð71Þ
+
+and must be integrated with the initial condition xðcN 2 Þ ¼ N 1 . Eq. (71) has the general solution given by
+
+
+xðwÞ ¼ e
+
+R w eWðnÞ ðcnþlÞ
+1
+
+n
+
+2
+Z
+
+dn 4
+
+w
+1
+
+R v eWðnÞ ðcnþlÞ
+
+lNeWðvÞþ
+
+1
+
+v
+
+n
+
+dn
+
+dv 
+
+Z
+1
+
+cN2
+
+R v eWðnÞ ðcnþlÞ
+
+lNeWðvÞþ
+
+1
+
+v
+
+n
+
+dn
+
+dv þ N1 e
+
+R cN2 eWðnÞ ðcnþlÞ
+1
+
+n
+
+3
+
+dn 5
+
+:
+
+ð72Þ
+
+T. Harko et al. / Applied Mathematics and Computation 236 (2014) 184–194
+
+193
+
+22
+21
+20
+
+y t
+
+19
+18
+17
+16
+15
+0
+
+5
+
+10
+
+15
+
+20
+
+25
+
+t
+Fig. 4. Comparison of yðtÞ, obtained from the numerical integration of the equations of the SIR model with vital dynamics (solid curve), and of yn ðtÞ,
+obtained by iteratively solving the Abel equation (61), for different orders of approximations: n ¼ 1 (dotted curve), n ¼ 2 (small dashed curve), n ¼ 3
+(medium dashed curve), n ¼ 5 (dashed curve), n ¼ 10 (long dashed curve), and n ¼ 20 (ultra-long dashed curve). The initial value of yðtÞ is yð0Þ ¼ 15.
+
+With the use of Eq. (47), Eq. (41) for y takes the form
+
+y0 ¼
+
+1
+
+c
+
+w0
+
+ð73Þ
+
+with the general solution
+
+yðwÞ ¼
+
+1
+
+c
+
+w þ Y 0;
+
+ð74Þ
+
+where Y 0 is an arbitrary constant of integration. By estimating Eq. (74) at t ¼ 0, corresponding to wjt¼0 ¼ cN 2 , we obtain
+
+yðcN2 Þ ¼ yðt ¼ 0Þ ¼ N2 ¼ N2 þ Y 0 ;
+
+ð75Þ
+
+a condition that ﬁxes the integration constant Y 0 as Y 0 ¼ 0.
+Finally, in the new variable w, Eq. (46) for z takes the form
+
+w¼
+
+dz dw
+þ lz
+dw dt
+
+ð76Þ
+
+or, equivalently,
+
+dzðwÞ
+eWðwÞ
+¼ l
+zðwÞ þ eWðwÞ
+dw
+w
+
+ð77Þ
+
+with the initial condition zðcN 2 Þ ¼ N 3 . The general solution of Eq. (77) is provided by
+l
+
+zðwÞ ¼ e
+
+R w eWðnÞ Z
+1
+
+n
+
+dn
+
+1
+
+w
+
+WðvÞþl
+
+e
+
+R v eWðnÞ
+1
+
+n
+
+dn
+
+dv 
+
+Z
+
+cN2
+
+WðvÞþl
+
+e
+
+R v eWðnÞ
+1
+
+n
+
+dn
+
+l
+
+dv þ N3 e
+
+R cN2 eWðnÞ 
+1
+
+n
+
+dn
+
+:
+
+ð78Þ
+
+1
+
+Eqs. (70), (72), (74) and (78) give the general solution of the SIR model with vital dynamics, in a parametric form, with w
+taken as a parameter.
+In Fig. 4 we present the comparison of the exact numerical solution for yðtÞ with the different order approximations
+obtained by iteratively solving the Abel equation (61). After twenty steps the iterative and the numerical solution
+approximately overlap.
+4. Conclusions
+In the present paper we have considered two versions of the SIR model, describing the spread of an epidemic in a given
+population. For the SIR model without births and deaths the exact analytical solution was obtained in a parametric form. The
+main properties of the exact solution were investigated numerically, and it was shown that it reproduces exactly the
+numerical solution of the model equations.
+For the SIR model with births and deaths we have shown that the non-linear system of differential equations governing it
+can be reduced to the Abel equation (57). This Abel equation can be easily studied by means of semi-analytical/numerical
+methods, thus leading to a signiﬁcant simpliﬁcation in the study of the model. Once the general solution of the Abel equation
+is known, the general solution of the SIR epidemic model with deaths can be obtained in an exact parametric form.
+
+194
+
+T. Harko et al. / Applied Mathematics and Computation 236 (2014) 184–194
+
+The exact solution is important because biologists could use it to run experiments to observe the spread of infectious diseases by introducing natural initial conditions. Through these experiments one can learn the ways on how to control the
+spread of epidemics.
+Acknowledgments
+We would like to thank the two anonymous referees for comments and suggestions that helped us to signiﬁcantly improve our manuscript. We also express our special thanks to Ana Nunes for a careful reading of the manuscript, and for very
+helpful comments and suggestions.
+References
+[1] John Graunt, Natural and Political Observations Made Upon the Bills of Mortality, 1662.
+[2] D. Bernoulli, Essai d’une nouvelle analyse de la mortalite causee par la petite verole et des avantages de l’inoculation pour la prevenir, Mem. Math.
+Phys. Acad. Roy. Sci., Paris 1 (1760).
+[3] D. Bernoulli, Reﬂexions sur les avantages de l’inoculation, Mercure de France 173 (1760) (June issue).
+[4] W.O. Kermack, A.G. McKendrick, Contribution to the mathematical theory of epidemics, Proc. R. Soc. Lond A 115 (1927) 700–721.
+[5] F. Brauer, C. Castillo-Chávez, Mathematical Models in Population Biology and Epidemiology, Springer, New York, 2001.
+[6] J.D. Murray, Mathematical Biology: I. An Introduction, Springer-Verlag, New York, Berlin, Heidelberg, 2002.
+[7] D.J. Daley, J. Gani, Epidemic Modeling: An Introduction, Cambridge University Press, Cambridge, 2005.
+[8] F. Brauer, P. van den Driessche, J. Wu (Eds.), Lecture Notes in Mathematical Epidemiology, Springer-Verlag, Berlin, Heidelberg, 2008.
+[9] G. Tigan, Analysis of a dynamical system derived from the Lorenz system, Sci. Bull. Politehnica Univ. Timisoara, Trans. Math. Phys. 50 (2005) 61–72.
+[10] G. Tigan, D. Opris, Analysis of a 3D chaotic system, Chaos Solitons Fract. 36 (2008) 1315G9.
+[11] R.A. Van Gorder, S. Roy, Choudhury, analytical Hopf bifurcation and stability analysis of T system, Commun. Theor. Phys. 55 (2011) 609G.
+[12] R. Zhang, Bifurcation analysis for T system with delayed feedback and its application to control of chaos, Nonlinear Dyn. 72 (2013) 629G.
+[13] J. Biazar, Solution of the epidemic model by Adomian decomposition method, Appl. Math. Comput. 173 (2006) 1101–1106.
+[14] M. Rafei, H. Daniali, D.D. Ganji, Variational iteration method for solving the epidemic model and the prey and predator problem, Appl. Math. Comput.
+186 (2007) 1701–1709.
+[15] M. Rafei, D.D. Ganji, H. Daniali, Solution of the epidemic model by homotopy perturbation method, Appl. Math. Comput. 187 (2007) 1056–1062.
+[16] Abdul-Monim Batiha, Belal Batiha, A new method for solving epidemic model, Aust. J. Basic Appl. Sci. 5 (2011) 3122–3126.
+[17] H.T. Williams, I. Mazilu, D.A. Mazilu, Stochastic epidemic-type model with enhanced connectivity: exact solution, J. Stat. Mech.: Theory Exp. 01 (2012)
+01017.
+[18] G. Shabbir, H. Khan, M.A. Sadiq, A note on Exact solution of SIR and SIS epidemic models, 2010, <arXiv:1012.5035>.
+[19] R. Xu, Z. Ma, Global stability of a SIR epidemic model with nonlinear incidence rate and time delay, Nonlinear Anal.: Real World Appl. 10 (2009) 3175–
+3189.
+[20] T. Kuniya, Existence of a nontrivial periodic solution in an age-structured SIR epidemic model with time periodic coefﬁcients, Appl. Math. Lett. 27
+(2014) 15–20.
+[21] G. Rozhnova, A. Nunes, SIRS dynamics on random networks: simulations and analytical models, in: J. Zhou (Ed.), Complex Sciences, vol. 4, Springer,
+Berlin, Heidelberg, 2009, p. 792.
+[22] A.J. Black, A.J. McKane, A. Nunes, A. Parisi, Stochastic ﬂuctuations in the susceptible-infective-recovered model with distributed infectious periods,
+Phys. Rev. E 80 (2009) 021922.
+[23] J. Lia, Z. Ma, F. Zhang, Stability analysis for an epidemic model with stage structure, Nonlinear Anal.: Real World Appl. 9 (2008) 1672–1679.
+[24] A. Korobeinikov, G.C. Wake, Lyapunov functions and global stability for SIR, SIRS, and SIS epidemiological models, Appl. Math. Lett. 15 (2002) 955–960.
+[25] S.M. O’Regan, T.C. Kelly, A. Korobeinikov, M.J.A. O’Callaghan, A.V. Pokrovskii, Lyapunov functions for SIR and SIRS epidemic models, Appl. Math. Lett. 23
+(2010) 446–448.
+[26] S.C. Mancas, R.S. Choudhury, Periodic and chaotic traveling wave patterns in reaction-diffusion/ predator-prey models with general nonlinearities, Far
+East J. Dyn. Syst. 11 (2009) 117–142.
+[27] T. Harko, M.K. Mak, Relativistic dissipative cosmological models and Abel differential equation, J. Comput. Math. Appl. 46 (2003) 849–853.
+[28] M.K. Mak, T. Harko, New method for generating general solution of Abel differential equations, J. Comput. Math. Appl. 43 (2002) 91–94.
+[29] M.K. Mak, H.W. Chan, T. Harko, Solutions generating technique for Abel type non-linear ordinary differential equations, J. Comput. Math. Appl. 41
+(2001) 1395–1401.
+[30] S.C. Mancas, H.C. Rosu, Integrable dissipative nonlinear second order differential equations via factorizations and Abel equations, Phys. Lett. A 377
+(2013) 1434–1438.
+[31] S.C. Mancas, H.C. Rosu, Ermakov–Pinney Equations with Abel-Induced Dissipation, 2013, <arXiv:1301.3567>.
+
+

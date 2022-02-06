@@ -1,47 +1,48 @@
 This is BibTeX, Version 0.99d (TeX Live 2020)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Book.aux
-The style file: plainnat.bst
+The style file: econtex.bst
 A level-1 auxiliary file: epi_chapter.aux
 Database file #1: reference.bib
+Done.
 You've used 130 entries,
-            2773 wiz_defined-function locations,
-            1361 strings with 25857 characters,
-and the built_in function-call counts, 57449 in all, are:
-= -- 5278
-> -- 2952
-< -- 94
-+ -- 1012
-- -- 882
-* -- 4646
-:= -- 8890
-add.period$ -- 432
+            2309 wiz_defined-function locations,
+            1241 strings with 23278 characters,
+and the built_in function-call counts, 65782 in all, are:
+= -- 6428
+> -- 3937
+< -- 11
++ -- 1299
+- -- 1172
+* -- 6079
+:= -- 12611
+add.period$ -- 145
 call.type$ -- 130
-change.case$ -- 674
+change.case$ -- 816
 chr.to.int$ -- 130
-cite$ -- 260
-duplicate$ -- 2650
-empty$ -- 4898
-format.name$ -- 1093
-if$ -- 11970
+cite$ -- 130
+duplicate$ -- 2242
+empty$ -- 3985
+format.name$ -- 1318
+if$ -- 12687
 int.to.chr$ -- 1
-int.to.str$ -- 1
+int.to.str$ -- 0
 missing$ -- 130
-newline$ -- 697
-num.names$ -- 522
-pop$ -- 1230
+newline$ -- 396
+num.names$ -- 781
+pop$ -- 690
 preamble$ -- 1
-purify$ -- 549
+purify$ -- 809
 quote$ -- 0
-skip$ -- 1949
+skip$ -- 2036
 stack$ -- 0
-substring$ -- 2488
-swap$ -- 189
+substring$ -- 3712
+swap$ -- 414
 text.length$ -- 11
 text.prefix$ -- 0
-top$ -- 0
-type$ -- 1370
+top$ -- 1
+type$ -- 1394
 warning$ -- 0
-while$ -- 566
+while$ -- 739
 width$ -- 0
-write$ -- 1754
+write$ -- 1547
