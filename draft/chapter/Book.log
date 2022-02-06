@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  6 FEB 2022 17:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  6 FEB 2022 17:32
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -898,25 +898,938 @@ Package auxhook Info: \AddLineBeginMainAux comes a little late,
 ))
 \openout2 = `epi_chapter.aux'.
 
- (.//epi_chapter.tex)
-Runaway argument?
-{\author {Christopher D. Carroll\authNum \\ \\ Tao Wang\authNum } \par \title {Epidemiological Expectations} \renewcommand {\forcedate }{February 5, 2022} \keywords {Economic Expectations, Epidemiological Expectations, Social interactions, Soci\ETC.
-! File ended while scanning use of \NROrg@ifthenelse.
+ (.//epi_chapter.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 141.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 141.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 141.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 141.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+)
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 141.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+! Missing } inserted.
 <inserted text> 
-                \par 
-l.53 \include{epi_chapter}
-                          
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
+                }
+l.141   }
+         
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten \endgroup.
+\@begin@tempboxa #1#2->\begingroup \setbox \@tempboxa #1{\color@begingroup #2\color@endgroup }
+                                                                                              \def \width {\wd \@tempboxa }\def \height {\ht \@tempboxa }\def \depth {\dp \@tempboxa }\let \totalheight \@ovri \totalheight \height \advance \totalheight \...
+l.141   }
+         
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+[1
+
+\openout3 = `Book.upa'.
+
+
+{/usr/local/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+\tf@toc=\write5
+\openout5 = `Book.toc'.
+
+ [3]
+\tf@lof=\write6
+\openout6 = `Book.lof'.
+
+\tf@lot=\write7
+\openout7 = `Book.lot'.
+
+ [4]
+\verbatim@out=\write8
+\openout8 = `./Slides/QuoteArrow1969.tex'.
+
+
+
+LaTeX Warning: Characters dropped after `\end{verbatimwrite}' on input line 154.
+
+(./Slides/QuoteArrow1969.tex
+
+Package natbib Warning: Citation `arrow_classificatory_1969' on page 1 undefined on input line 7.
+
+)
+\openout8 = `./Slides/QuoteSimon1984.tex'.
+
+
+
+LaTeX Warning: Characters dropped after `\end{verbatimwrite}' on input line 166.
+
+(./Slides/QuoteSimon1984.tex
+
+Package natbib Warning: Citation `simon_behavioral_1984' on page 1 undefined on input line 7.
+
+)
+\openout8 = `./Slides/QuoteShiller2017.tex'.
+
+
+
+LaTeX Warning: Characters dropped after `\end{verbatimwrite}' on input line 178.
+
+(./Slides/QuoteShiller2017.tex
+
+Package natbib Warning: Citation `shiller2017narrative' on page 1 undefined on input line 7.
+
+)
+\openout8 = `./Slides/QuoteInception2010.tex'.
+
+
+
+LaTeX Warning: Characters dropped after `\end{verbatimwrite}' on input line 190.
+
+(./Slides/QuoteInception2010.tex
+
+Package natbib Warning: Citation `Inception2010' on page 1 undefined on input line 7.
+
+)
+
+Package natbib Warning: Citation `shiller2017narrative' on page 1 undefined on input line 200.
+
+
+Package natbib Warning: Citation `humeenquiry' on page 1 undefined on input line 200.
+
+
+Package natbib Warning: Citation `smithwealth' on page 1 undefined on input line 201.
+
+
+Package natbib Warning: Citation `rasmussen2017infidel' on page 1 undefined on input line 201.
+
+
+LaTeX Warning: Reference `subsec:microEvidence' on page 1 undefined on input line 206.
+
+
+Package natbib Warning: Citation `sims2003implications' on page 1 undefined on input line 206.
+
+
+Package natbib Warning: Citation `bordalo2018diagnostic' on page 1 undefined on input line 206.
+
+
+Package natbib Warning: Citation `gabaix2020behavioral' on page 1 undefined on input line 206.
+
+
+Package natbib Warning: Citation `ilut2020economic' on page 1 undefined on input line 206.
+
+[1]
+\openout8 = `./Slides/FullFledgedEE.tex'.
+
+ (./Slides/FullFledgedEE.tex)
+
+LaTeX Warning: Reference `subsec:techDiffusion' on page 2 undefined on input line 225.
+
+
+LaTeX Warning: Reference `subsec:assetprice' on page 2 undefined on input line 225.
+
+
+LaTeX Warning: Reference `subsec:macroExp' on page 2 undefined on input line 225.
+
+
+LaTeX Warning: Reference `fig:graph_mixer' on page 2 undefined on input line 225.
+
+
+Package natbib Warning: Citation `kermack_contribution_1927' on page 2 undefined on input line 225.
+
+
+LaTeX Warning: Reference `subsec:microEvidence' on page 2 undefined on input line 225.
+
+
+LaTeX Warning: Reference `subsec:Contagion' on page 2 undefined on input line 225.
+
+
+LaTeX Warning: Reference `subsec:nonecon' on page 2 undefined on input line 225.
+
+
+Package natbib Warning: Citation `gourieroux2020time' on page 2 undefined on input line 225.
+
+\openout8 = `./Slides/QuoteBrowningHansenHeckman1999.tex'.
+
+
+LaTeX Warning: Characters dropped after `\end{verbatimwrite}' on input line 234.
+
+(./Slides/QuoteBrowningHansenHeckman1999.tex
+
+Package natbib Warning: Citation `browning_chapter_1999' on page 2 undefined on input line 2.
+
+)
+\openout8 = `./Slides/QuoteHandbookOfMacro.tex'.
+
+ [2]
+
+Package natbib Warning: Citation `kmpHandbook' on page 3 undefined on input line 244.
+
+
+Package natbib Warning: Citation `violante_marginal_2021' on page 3 undefined on input line 244.
+
+
+Package natbib Warning: Citation `gmsuBeliefs' on page 3 undefined on input line 248.
+
+
+Package natbib Warning: Citation `Velasquez2022' on page 3 undefined on input line 248.
+
+
+Package natbib Warning: Citation `manski2017survey' on page 3 undefined on input line 250.
+
+
+Package natbib Warning: Citation `bdk2021household' on page 3 undefined on input line 251.
+
+
+Package natbib Warning: Citation `bailey2018economic' on page 3 undefined on input line 253.
+
+
+Package natbib Warning: Citation `bailey2019house' on page 3 undefined on input line 253.
+
+[3]
+
+Package natbib Warning: Citation `kermack_contribution_1927' on page 4 undefined on input line 299.
+
+
+Package natbib Warning: Citation `erdos1960evolution' on page 4 undefined on input line 301.
+
+
+Package natbib Warning: Citation `jackson_social_2010' on page 4 undefined on input line 301.
+
+
+LaTeX Warning: Reference `subsec:shillerpound' on page 4 undefined on input line 305.
+
+[4]
+
+Package natbib Warning: Citation `wsSmallWorld' on page 5 undefined on input line 309.
+
+
+Package natbib Warning: Citation `barabasi2016network' on page 5 undefined on input line 309.
+
+
+Package natbib Warning: Citation `milgram1967small' on page 5 undefined on input line 311.
+
+
+Package natbib Warning: Citation `guareSixDegrees' on page 5 undefined on input line 311.
+
+
+Package natbib Warning: Citation `granovetter1973strength' on page 5 undefined on input line 313.
+
+
+Package natbib Warning: Citation `acemouglu2013opinion' on page 5 undefined on input line 327.
+
+
+Package natbib Warning: Citation `sikder2020minimalistic' on page 5 undefined on input line 327.
+
+
+Package natbib Warning: Citation `meeuwis2018belief' on page 5 undefined on input line 335.
+
+
+LaTeX Warning: Reference `fig:parker' on page 5 undefined on input line 335.
+
+[5]
+\openout8 = `./Slides/FigureParker.tex'.
+
+
+
+LaTeX Warning: Characters dropped after `\end{verbatimwrite}' on input line 353.
+
+(./Slides/FigureParker.tex
+
+pdfTeX warning: pdflatex (file .//./figures/parker.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures/parker.pdf, id=113, 366.36874pt x 270.00874pt>
+File: ./figures/parker.pdf Graphic file (type pdf)
+<use ./figures/parker.pdf>
+Package pdftex.def Info: ./figures/parker.pdf  used on input line 5.
+(pdftex.def)             Requested size: 448.13095pt x 330.28773pt.
+
+Package natbib Warning: Citation `meeuwis2018belief' on page 6 undefined on input line 7.
+
+) [6 <.//./figures/parker.pdf>]
+
+LaTeX Warning: Reference `table:SIDyn' on page 7 undefined on input line 388.
+
+\openout8 = `./Tables/SIDynCS.tex'.
+
+(./Tables/SIDynCS.tex)
+
+LaTeX Warning: Reference `table:SIDynTrans' on page 7 undefined on input line 413.
+
+\openout8 = `./Tables/SIDynTrans.tex'.
+
+(./Tables/SIDynTrans.tex)
+
+Package natbib Warning: Citation `kermack_contribution_1927' on page 7 undefined on input line 439.
+
+[7]
+
+Package natbib Warning: Citation `miller2012note' on page 8 undefined on input line 443.
+
+
+Package natbib Warning: Citation `harko2014exact' on page 8 undefined on input line 443.
+
+
+Package natbib Warning: Citation `kermack_contribution_1927' on page 8 undefined on input line 443.
+
+
+Package natbib Warning: Citation `kermack_contribution_1927' on page 8 undefined on input line 443.
+
+
+Package natbib Warning: Citation `kermack_contribution_1927' on page 8 undefined on input line 445.
+
+
+Package natbib Warning: Citation `bailey1975mathematical' on page 8 undefined on input line 445.
+
+
+Package natbib Warning: Citation `anderson_infectious_1992' on page 8 undefined on input line 445.
+
+
+Package natbib Warning: Citation `hethcote_mathematics_2000' on page 8 undefined on input line 445.
+
+
+Package natbib Warning: Citation `brauer2017mathematical' on page 8 undefined on input line 445.
+
+[8]
+
+Package natbib Warning: Citation `granovetter1978threshold' on page 9 undefined on input line 468.
+
+
+Package natbib Warning: Citation `jackson2007diffusion' on page 9 undefined on input line 468.
+
+
+Package natbib Warning: Citation `glasserman2016contagion' on page 9 undefined on input line 468.
+
+(.//subparts/shiller_pound.tex
+
+LaTeX Warning: Reference `subsec:assetprice' on page 9 undefined on input line 7.
+
+
+Package natbib Warning: Citation `shiller1989survey' on page 9 undefined on input line 9.
+
+
+Package natbib Warning: Citation `shiller1984stock' on page 9 undefined on input line 9.
+
+
+LaTeX Warning: Reference `fig:sir_diagram' on page 9 undefined on input line 11.
+
+\openout8 = `./Slides/FigureSIRFlowDiagram.tex'.
+
+
+LaTeX Warning: Characters dropped after `\end{verbatimwrite}' on input line 21.
+
+(./Slides/FigureSIRFlowDiagram.tex
+<./figures/flow_diagram.pdf, id=169, 867.11955pt x 216.77989pt>
+File: ./figures/flow_diagram.pdf Graphic file (type pdf)
+<use ./figures/flow_diagram.pdf>
+Package pdftex.def Info: ./figures/flow_diagram.pdf  used on input line 5.
+(pdftex.def)             Requested size: 403.31511pt x 100.83136pt.
+
+
+Package natbib Warning: Citation `shiller1989survey' on page 9 undefined on input line 7.
+
+)
+
+Package natbib Warning: Citation `erdos1960evolution' on page 9 undefined on input line 26.
+
+
+Package natbib Warning: Citation `newman2002spread' on page 9 undefined on input line 26.
+
+
+Package natbib Warning: Citation `jackson_social_2010' on page 9 undefined on input line 26.
+
+\openout8 = `./Equations/beta.tex'.
+
+(./Equations/beta.tex [9])
+
+LaTeX Warning: Reference `subsec:epi_framework' on page 10 undefined on input line 49.
+
+
+Package natbib Warning: Citation `shiller1989survey' on page 10 undefined on input line 54.
+
+
+Package natbib Warning: Citation `rossetti2018ndlib' on page 10 undefined on input line 56.
+
+
+Package natbib Warning: Citation `hagberg2008exploring' on page 10 undefined on input line 56.
+
+
+Package natbib Warning: Citation `erdos1960evolution' on page 10 undefined on input line 56.
+
+
+LaTeX Warning: Reference `eq:beta' on page 10 undefined on input line 56.
+
+[10 <.//./figures/flow_diagram.pdf>]
+
+LaTeX Warning: Reference `fig:sir_simulate' on page 11 undefined on input line 58.
+
+
+Package natbib Warning: Citation `harko2014exact' on page 11 undefined on input line 58.
+
+
+Package natbib Warning: Citation `kroger2020analytical' on page 11 undefined on input line 58.
+
+
+Package natbib Warning: Citation `okabe2021microscopic' on page 11 undefined on input line 58.
+
+
+LaTeX Warning: Reference `subsec:assetprice' on page 11 undefined on input line 62.
+
+)
+<./figures/graph_mixer.pdf, id=203, 1434.86063pt x 947.03813pt>
+File: ./figures/graph_mixer.pdf Graphic file (type pdf)
+<use ./figures/graph_mixer.pdf>
+Package pdftex.def Info: ./figures/graph_mixer.pdf  used on input line 517.
+(pdftex.def)             Requested size: 448.13095pt x 295.77528pt.
+
+
+LaTeX Warning: Reference `fig:graph_mixer' on page 11 undefined on input line 523.
+
+(.//subparts/tech_diffusion.tex
+<./figures/graph_diffusion.pdf, id=205, 1235.36531pt x 898.10532pt>
+File: ./figures/graph_diffusion.pdf Graphic file (type pdf)
+<use ./figures/graph_diffusion.pdf>
+Package pdftex.def Info: ./figures/graph_diffusion.pdf  used on input line 9.
+(pdftex.def)             Requested size: 403.31511pt x 293.21005pt.
+
+
+Package natbib Warning: Citation `arrow_classificatory_1969' on page 11 undefined on input line 17.
+
+
+LaTeX Warning: Reference `fig:graph_diffusion' on page 11 undefined on input line 17.
+
+
+LaTeX Warning: Reference `subsec:nonecon' on page 11 undefined on input line 17.
+
+[11] [12 <.//./figures/graph_mixer.pdf>]
+
+Package natbib Warning: Citation `banerjee2013diffusion' on page 13 undefined on input line 21.
+
+
+Package natbib Warning: Citation `rogers1962diffusion' on page 13 undefined on input line 23.
+
+[13 <.//./figures/graph_diffusion.pdf>]
+
+Package natbib Warning: Citation `young2009innovation' on page 14 undefined on input line 25.
+
+
+Package natbib Warning: Citation `munshi2004social' on page 14 undefined on input line 25.
+
+
+Package natbib Warning: Citation `comin2010exploration' on page 14 undefined on input line 25.
+
+
+Package natbib Warning: Citation `banerjee2013diffusion' on page 14 undefined on input line 28.
+
+
+Package natbib Warning: Citation `lucas2014knowledge' on page 14 undefined on input line 30.
+
+
+Package natbib Warning: Citation `fogli2021germs' on page 14 undefined on input line 45.
+
+
+Package natbib Warning: Citation `erdos1960evolution' on page 14 undefined on input line 45.
+
+
+LaTeX Warning: Reference `subsec:epiNet' on page 14 undefined on input line 45.
+
+) (.//subparts/finance.tex
+<./figures/graph_investment.pdf, id=276, 1312.905pt x 954.56625pt>
+File: ./figures/graph_investment.pdf Graphic file (type pdf)
+<use ./figures/graph_investment.pdf>
+Package pdftex.def Info: ./figures/graph_investment.pdf  used on input line 19.
+(pdftex.def)             Requested size: 403.31511pt x 293.23244pt.
+ [14]
+
+Package natbib Warning: Citation `vegaConfusion' on page 15 undefined on input line 25.
+
+
+Package natbib Warning: Citation `mackay1850memoirs' on page 15 undefined on input line 25.
+
+
+Package natbib Warning: Citation `lewis2011big' on page 15 undefined on input line 25.
+
+
+Package natbib Warning: Citation `hirshleifer2020presidential' on page 15 undefined on input line 27.
+
+
+Package natbib Warning: Citation `kuchler2021social' on page 15 undefined on input line 27.
+
+[15 <.//./figures/graph_investment.pdf>]
+
+Package natbib Warning: Citation `shiller1989survey' on page 16 undefined on input line 31.
+
+
+Package natbib Warning: Citation `shiller1989survey' on page 16 undefined on input line 31.
+
+
+LaTeX Warning: Reference `fig:sir_simulate' on page 16 undefined on input line 35.
+
+\openout8 = `./Slides/FigureSIRSimulation.tex'.
+
+
+LaTeX Warning: Characters dropped after `\end{verbatimwrite}' on input line 48.
+
+(./Slides/FigureSIRSimulation.tex
+<./figures/sir_simulate.pdf, id=310, 939.3795pt x 1589.71921pt>
+File: ./figures/sir_simulate.pdf Graphic file (type pdf)
+<use ./figures/sir_simulate.pdf>
+Package pdftex.def Info: ./figures/sir_simulate.pdf  used on input line 5.
+(pdftex.def)             Requested size: 380.9053pt x 540.18204pt.
+
+
+Package natbib Warning: Citation `shiller1989survey' on page 16 undefined on input line 7.
+
+
+LaTeX Warning: Float too large for page by 43.7372pt on input line 9.
+
+) [16] [17 <.//./figures/sir_simulate.pdf>]
+
+Package natbib Warning: Citation `shiller1984stock' on page 18 undefined on input line 58.
+
+
+Package natbib Warning: Citation `shiller1989survey' on page 18 undefined on input line 60.
+
+
+Package natbib Warning: Citation `shiller1989survey' on page 18 undefined on input line 62.
+
+
+Package natbib Warning: Citation `shive2010epidemic' on page 18 undefined on input line 66.
+
+
+LaTeX Warning: Reference `eq:sirdyn' on page 18 undefined on input line 68.
+
+
+LaTeX Warning: Reference `eq:sirdyn' on page 18 undefined on input line 68.
+
+
+Package natbib Warning: Citation `huang2021rate' on page 18 undefined on input line 70.
+
+[18]
+
+Package natbib Warning: Citation `shiller1989survey' on page 19 undefined on input line 74.
+
+
+Package natbib Warning: Citation `burnside_understanding_2016' on page 19 undefined on input line 76.
+
+
+Package natbib Warning: Citation `lebaronAgentCompFinance' on page 19 undefined on input line 78.
+
+) (.//subparts/macro_expectation.tex [19]
+
+LaTeX Warning: Reference `fig:graph_macro' on page 20 undefined on input line 3.
+
+
+Package natbib Warning: Citation `dmw2022inflationexpectation' on page 20 undefined on input line 3.
+
+
+Package natbib Warning: Citation `bv2022bayesianlearning' on page 20 undefined on input line 3.
+
+<./figures/graph_macro.pdf, id=345, 1434.86063pt x 947.03813pt>
+File: ./figures/graph_macro.pdf Graphic file (type pdf)
+<use ./figures/graph_macro.pdf>
+Package pdftex.def Info: ./figures/graph_macro.pdf  used on input line 12.
+(pdftex.def)             Requested size: 403.31511pt x 266.19485pt.
+
+Package natbib Warning: Citation `carroll2003macroeconomic' on page 20 undefined on input line 26.
+
+[20 <.//./figures/graph_macro.pdf>]
+
+LaTeX Warning: Reference `table:SIDyn' on page 21 undefined on input line 36.
+
+
+Package natbib Warning: Citation `easaw2015households' on page 21 undefined on input line 36.
+
+
+Package natbib Warning: Citation `carroll2003macroeconomic' on page 21 undefined on input line 40.
+
+
+Package natbib Warning: Citation `lamla2014role' on page 21 undefined on input line 40.
+
+
+Package natbib Warning: Citation `carrollEpidemiologySFI' on page 21 undefined on input line 52.
+
+
+LaTeX Warning: Reference `motivation-and-context' on page 21 undefined on input line 54.
+
+
+Package natbib Warning: Citation `carroll2003macroeconomic' on page 21 undefined on input line 56.
+
+
+Package natbib Warning: Citation `lamla2014role' on page 21 undefined on input line 56.
+
+
+Package natbib Warning: Citation `larsen2021news' on page 21 undefined on input line 56.
+
+[21]
+
+Package natbib Warning: Citation `carroll2003macroeconomic' on page 22 undefined on input line 66.
+
+
+Package natbib Warning: Citation `mr2002Sticky' on page 22 undefined on input line 66.
+
+
+LaTeX Warning: Reference `eq:StickyExp' on page 22 undefined on input line 66.
+
+
+Package natbib Warning: Citation `bv2022bayesianlearning' on page 22 undefined on input line 66.
+
+
+Package natbib Warning: Citation `carroll2003macroeconomic' on page 22 undefined on input line 68.
+
+
+Package natbib Warning: Citation `mr2002Sticky' on page 22 undefined on input line 68.
+
+
+Package natbib Warning: Citation `mankiw2007sticky' on page 22 undefined on input line 72.
+
+
+Package natbib Warning: Citation `hachem_inflation_2017' on page 22 undefined on input line 76.
+
+
+Package natbib Warning: Citation `carroll2020sticky' on page 22 undefined on input line 80.
+
+
+Package natbib Warning: Citation `auclert2020micro' on page 22 undefined on input line 80.
+
+
+Package natbib Warning: Citation `carroll2003macroeconomic' on page 22 undefined on input line 80.
+
+[22]
+
+Package natbib Warning: Citation `arifovic2018learning' on page 23 undefined on input line 86.
+
+
+Package natbib Warning: Citation `hommes2006heterogeneous' on page 23 undefined on input line 88.
+
+
+Package natbib Warning: Citation `haldane_drawing_2019' on page 23 undefined on input line 88.
+
+
+Package natbib Warning: Citation `ddAgentBasedMacro' on page 23 undefined on input line 88.
+
+) (.//subparts/empirical_evidence.tex
+\openout8 = `./Slides/MicroEvidence.tex'.
+
+ (./Slides/MicroEvidence.tex
+
+Package natbib Warning: Citation `manski1993identification' on page 23 undefined on input line 6.
+
+) [23]
+
+Package natbib Warning: Citation `hong2005thy' on page 24 undefined on input line 26.
+
+
+Package natbib Warning: Citation `hvide2015social' on page 24 undefined on input line 26.
+
+
+Package natbib Warning: Citation `cohen2008small' on page 24 undefined on input line 26.
+
+
+Package natbib Warning: Citation `hong2004social' on page 24 undefined on input line 26.
+
+
+Package natbib Warning: Citation `brown2008neighbors' on page 24 undefined on input line 26.
+
+
+Package natbib Warning: Citation `ivkovic2007information' on page 24 undefined on input line 26.
+
+
+Package natbib Warning: Citation `bayer2021speculative' on page 24 undefined on input line 29.
+
+
+LaTeX Warning: Reference `subsec:Contagion' on page 24 undefined on input line 32.
+
+
+Package natbib Warning: Citation `iyer2012understanding' on page 24 undefined on input line 32.
+
+
+Package natbib Warning: Citation `kelly2000market' on page 24 undefined on input line 32.
+
+
+Package natbib Warning: Citation `kuchler2021social' on page 24 undefined on input line 34.
+
+
+Package natbib Warning: Citation `bailey2018economic' on page 24 undefined on input line 41.
+
+
+Package natbib Warning: Citation `bailey2019house' on page 24 undefined on input line 41.
+
+
+Package natbib Warning: Citation `kps2022housingexpectation' on page 24 undefined on input line 41.
+
+
+Package natbib Warning: Citation `makridis2020learning' on page 24 undefined on input line 41.
+
+[24]
+
+Package natbib Warning: Citation `TETLOCK2015701' on page 25 undefined on input line 54.
+
+
+Package natbib Warning: Citation `dougal2012journalists' on page 25 undefined on input line 55.
+
+
+Package natbib Warning: Citation `ahern2015rumor' on page 25 undefined on input line 55.
+
+
+Package natbib Warning: Citation `soo_quantifying_2015' on page 25 undefined on input line 56.
+
+
+Package natbib Warning: Citation `soroka2015s' on page 25 undefined on input line 58.
+
+
+Package natbib Warning: Citation `damstra2021economy' on page 25 undefined on input line 58.
+
+
+Package natbib Warning: Citation `bybee2020structure' on page 25 undefined on input line 58.
+
+
+Package natbib Warning: Citation `chahrour2021sectoral' on page 25 undefined on input line 58.
+
+
+Package natbib Warning: Citation `ludvigson2004consumer' on page 25 undefined on input line 60.
+
+
+Package natbib Warning: Citation `cfwSentiment' on page 25 undefined on input line 60.
+
+
+Package natbib Warning: Citation `doms2004consumer' on page 25 undefined on input line 60.
+
+
+Package natbib Warning: Citation `lamla2012role' on page 25 undefined on input line 60.
+
+
+Package natbib Warning: Citation `pfajfar2013news' on page 25 undefined on input line 60.
+
+
+Package natbib Warning: Citation `choi2012predicting' on page 25 undefined on input line 62.
+
+
+Package natbib Warning: Citation `baker2016measuring' on page 25 undefined on input line 64.
+
+
+Package natbib Warning: Citation `allcott2017social' on page 25 undefined on input line 66.
+
+[25]
+
+Package natbib Warning: Citation `shiller1995conversation' on page 26 undefined on input line 74.
+
+
+Package natbib Warning: Citation `shiller2017narrative' on page 26 undefined on input line 76.
+
+
+Package natbib Warning: Citation `shiller_narrative_2019' on page 26 undefined on input line 76.
+
+
+Package natbib Warning: Citation `shiller2020popular' on page 26 undefined on input line 79.
+
+
+Package natbib Warning: Citation `ash2021text' on page 26 undefined on input line 79.
+
+
+Package natbib Warning: Citation `larsen2019business' on page 26 undefined on input line 81.
+
+
+Package natbib Warning: Citation `gentzkow2019text' on page 26 undefined on input line 83.
+
+) (.//subparts/contagion_bank_run.tex [26]
+
+Package natbib Warning: Citation `diamond_bank_1983' on page 27 undefined on input line 8.
+
+
+Package natbib Warning: Citation `iyer2012understanding' on page 27 undefined on input line 12.
+
+
+LaTeX Warning: Reference `eq:beta' on page 27 undefined on input line 15.
+
+[27]
+
+Package natbib Warning: Citation `glasserman2016contagion' on page 28 undefined on input line 25.
+
+
+Package natbib Warning: Citation `cabrales2015financial' on page 28 undefined on input line 25.
+
+
+Package natbib Warning: Citation `arrow_classificatory_1969' on page 28 undefined on input line 27.
+
+) (.//subparts/non-econ.tex
+
+LaTeX Warning: Reference `fig:graph_other' on page 28 undefined on input line 3.
+
+\openout8 = `./Slides/NonEcon.tex'.
+
+(./Slides/NonEcon.tex)
+<./figures/graph_other.pdf, id=459, 1273.75874pt x 925.20656pt>
+File: ./figures/graph_other.pdf Graphic file (type pdf)
+<use ./figures/graph_other.pdf>
+Package pdftex.def Info: ./figures/graph_other.pdf  used on input line 20.
+(pdftex.def)             Requested size: 448.13095pt x 325.49301pt.
+
+
+Package natbib Warning: Citation `daley1964epidemics' on page 28 undefined on input line 25.
+
+
+Package natbib Warning: Citation `jin2013epidemiological' on page 28 undefined on input line 25.
+
+
+LaTeX Warning: Reference `fig:news_curve' on page 28 undefined on input line 25.
+
+\openout8 = `./Slides/FigureNewsCurve.tex'.
+
+
+LaTeX Warning: Characters dropped after `\end{verbatimwrite}' on input line 42.
+
+(./Slides/FigureNewsCurve.tex
+
+Package natbib Warning: Citation `jin2013epidemiological' undefined on input line 2.
+
+
+
+pdfTeX warning: pdflatex (file .//./figures/Doomsday.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures/Doomsday.pdf, id=462, 533.995pt x 248.93pt>
+File: ./figures/Doomsday.pdf Graphic file (type pdf)
+<use ./figures/Doomsday.pdf>
+Package pdftex.def Info: ./figures/Doomsday.pdf  used on input line 4.
+(pdftex.def)             Requested size: 448.13095pt x 208.90985pt.
+
+Package natbib Warning: Citation `jin2013epidemiological' on page 28 undefined on input line 5.
+
+)
+
+Package natbib Warning: Citation `vosoughi_spread_2018' on page 28 undefined on input line 48.
+
+
+Package natbib Warning: Citation `berger2012makes' on page 28 undefined on input line 48.
+
+
+Package natbib Warning: Citation `zannettou2018origins' on page 28 undefined on input line 48.
+
+[28]
+
+Package natbib Warning: Citation `kohlhasasymmetric' on page 29 undefined on input line 50.
+
+
+Package natbib Warning: Citation `allcott2017social' on page 29 undefined on input line 54.
+
+[29 <.//./figures/graph_other.pdf>]
+
+Package natbib Warning: Citation `acemoglu2010spread' on page 30 undefined on input line 56.
+
+
+Package natbib Warning: Citation `bettencourt2006power' on page 30 undefined on input line 58.
+
+
+LaTeX Warning: Reference `fig:science_ideas_curve' on page 30 undefined on input line 58.
+
+\openout8 = `./Slides/FigureScienceIdeasCurve.tex'.
+
+
+LaTeX Warning: Characters dropped after `\end{verbatimwrite}' on input line 70.
+
+(./Slides/FigureScienceIdeasCurve.tex
+
+Package natbib Warning: Citation `bettencourt2006power' undefined on input line 2.
+
+
+
+pdfTeX warning: pdflatex (file .//./figures/Feynman.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures/Feynman.pdf, id=501, 704.6325pt x 477.785pt>
+File: ./figures/Feynman.pdf Graphic file (type pdf)
+<use ./figures/Feynman.pdf>
+Package pdftex.def Info: ./figures/Feynman.pdf  used on input line 4.
+(pdftex.def)             Requested size: 448.13095pt x 303.85669pt.
+
+Package natbib Warning: Citation `bettencourt2006power' on page 30 undefined on input line 5.
+
+)
+
+Package natbib Warning: Citation `bauckhage2011insights' on page 30 undefined on input line 76.
+
+
+LaTeX Warning: Reference `fig:memes_curve' on page 30 undefined on input line 76.
+
+
+Package natbib Warning: Citation `wang2011epidemiological' on page 30 undefined on input line 76.
+
+
+Package natbib Warning: Citation `kucharski2016modelling' on page 30 undefined on input line 76.
+
+[30 <.//./figures/Doomsday.pdf>]
+\openout8 = `./Slides/FigureMemesCurve.tex'.
+
+
+
+LaTeX Warning: Characters dropped after `\end{verbatimwrite}' on input line 101.
+
+(./Slides/FigureMemesCurve.tex
+
+Package natbib Warning: Citation `bauckhage2011insights' on page 31 undefined on input line 2.
+
+
+
+pdfTeX warning: pdflatex (file .//./figures/Memes1.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures/Memes1.pdf, id=519, 289.08pt x 106.3975pt>
+File: ./figures/Memes1.pdf Graphic file (type pdf)
+<use ./figures/Memes1.pdf>
+Package pdftex.def Info: ./figures/Memes1.pdf  used on input line 4.
+(pdftex.def)             Requested size: 448.13095pt x 164.94525pt.
+
+
+pdfTeX warning: pdflatex (file .//./figures/Memes2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures/Memes2.pdf, id=520, 288.07625pt x 106.3975pt>
+File: ./figures/Memes2.pdf Graphic file (type pdf)
+<use ./figures/Memes2.pdf>
+Package pdftex.def Info: ./figures/Memes2.pdf  used on input line 6.
+(pdftex.def)             Requested size: 448.13095pt x 165.51834pt.
+
+
+pdfTeX warning: pdflatex (file .//./figures/Memes3.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures/Memes3.pdf, id=521, 291.0875pt x 107.40125pt>
+File: ./figures/Memes3.pdf Graphic file (type pdf)
+<use ./figures/Memes3.pdf>
+Package pdftex.def Info: ./figures/Memes3.pdf  used on input line 8.
+(pdftex.def)             Requested size: 448.13095pt x 165.35744pt.
+
+Package natbib Warning: Citation `bauckhage2011insights' on page 31 undefined on input line 10.
+
+)) (.//subparts/future_directions.tex
+
+Package natbib Warning: Citation `arrondel2020informative' on page 31 undefined on input line 5.
+
+[31 <.//./figures/Feynman.pdf>]
+
+Package natbib Warning: Citation `galesic2018asking' on page 32 undefined on input line 10.
+
+
+Package natbib Warning: Citation `radas2021predicted' on page 32 undefined on input line 10.
+
+) [32] (.//subparts/conclusion.tex [33]
+
+Package natbib Warning: Citation `lucas2014knowledge' on page 34 undefined on input line 12.
+
+) [34]
+No file Book.bbl.
+) [35 <.//./figures/Memes1.pdf> <.//./figures/Memes2.pdf> <.//./figures/Memes3.pdf>]
+
+Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 64.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 64.
 (.//Book.aux (.//epi_chapter.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 64.
-\snap@out=\write5
-\openout5 = `Book.dep'.
+\snap@out=\write9
+\openout9 = `Book.dep'.
 
 
 Dependency list written on Book.dep.
@@ -929,20 +1842,30 @@ Package rerunfilecheck Warning: File `Book.out' has changed.
 Package rerunfilecheck Info: Checksums for `Book.out':
 (rerunfilecheck)             Before: <no file>
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 25012 strings out of 480608
- 448865 string characters out of 5903631
- 821883 words of memory out of 5000000
- 40483 multiletter control sequences out of 15000+600000
- 536870 words of font info for 32 fonts, out of 8000000 for 9000
+ 25765 strings out of 480608
+ 463457 string characters out of 5903631
+ 819645 words of memory out of 5000000
+ 40927 multiletter control sequences out of 15000+600000
+ 560652 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,1n,119p,10100b,287s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,16n,119p,10100b,531s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
-No pages of output.
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb
+></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1
+200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti0800.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on .//Book.pdf (39 pages, 2882236 bytes).
 PDF statistics:
- 3 PDF objects out of 1000 (max. 8388607)
- 1 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 807 PDF objects out of 1000 (max. 8388607)
+ 677 compressed objects within 7 object streams
+ 148 named destinations out of 1000 (max. 500000)
+ 306 words of extra memory for PDF output out of 10000 (max. 10000000)
 
