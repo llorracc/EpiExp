@@ -42,7 +42,7 @@
 
 \newcommand{\thankstext}{We would like to thank the participants in the Handbook of Economic Expectations Conference for insightful comments, and the editors for comments that substantially improved the paper.  Thanks also to Sebastian Benthall, Francesco Bianchi, Will Du, and Adrian Monninger for comments on earlier drafts, and special thanks to Mridul Seth for help in using the \texttt{\href{https://ndlib.readthedocs.io}{NDLib}} and \texttt{\href{https://networkx.org/}{NetworkX}} python libraries to produce our \href{https://econ-ark.org/materials/EpiExp-SIR?launch}{SIR Model Notebook}}
 \ifthenelse{\boolean{inBook}}{
-  \begin{frontmatter}%%% Chapter Opener
+  \begin{frontmatter}%
 
     \chapter[Chapter Title]{Epidemiological \\ Expectations\footnote{\thankstext}}\label{chap1}
 
@@ -52,7 +52,7 @@
     \author[1]{Tao Wang}
     \address[1]{\orgname{Johns Hopkins University}, \orgdiv{Department of Economics}, \\ Corresponding: \email{twang80@jhu.edu}}
 
-    %% for running heads
+    
     % \authormark{First Author, Second Author and Third Author}
     \titlemark{Part Title}
     \chaptermark{Epidemiological Expectations}
@@ -550,9 +550,6 @@ One of our ambitions for this survey is for it to infect scholars with the idea 
 \input{subparts/conclusion.tex}
 
 
-%%%%%%%%%%%%%%%%%%% 
-%% tables and figures
-%%%%%%%%%%%%%%%%%% 
 
 % \newpage
 % \input{table_figure.tex}
@@ -560,12 +557,7 @@ One of our ambitions for this survey is for it to infect scholars with the idea 
 % \clearpage\vfill\eject
 
 
-%%%% To be used for Chapter-wise bibliography with the help of "chapterbib" package.
-%%%% Also use the natbib package option "sectionbib" with your template.
-%%%% The "chapterbib" package and its documentations are available in:
-%%%% http://www.ctan.org/tex-archive/macros/latex/contrib/cite.
 % \addcontentsline{toc}{section}{Reference}
-%% 
 \ifthenelse{\boolean{inBook}}{\bibliographystyle{apalike}}{}
 % \bibliographystyle{plainnat}
 % \bibliographystyle{Vancouver-Numbered-Style(3)}
