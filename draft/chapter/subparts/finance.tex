@@ -4,22 +4,22 @@
 
 % Quotes from \cite{kuchler2021social}:  Researchers have long understood that social interactions shape many aspects of economic activity. Yet, in most models of economics and finance, agents make financial decisions in a social vacuum in which prices are the only mechanism through which the actions of other agents affects beliefs and behaviors. This is likely to change substantially over the coming years. Indeed, the availability of new data has facilitated a recent surge of empirical research documenting large effects of so- cial interactions and processes on the economic and financial decisions of households and firms. Many of the documented effects are too large for theory to ignore, and early progress has been made in incorporating social interactions into equilibrium models of economic decision-making.
 
-%Quotes from \cite{kuchler2021social}: First, social networks can serve as a source of actual or perceived information, and people might thus be influenced by their peers through a social learning channel, which can include the spread of both actual information as well as sentiments and beliefs (e.g., Bikhchandani, Hirshleifer & Welch 1992; Jackson 2010; Bailey et al. 2018a). The importance of social interactions in transmitting in- formation and beliefs in the household finance space is hardly surprising. Indeed, most people do not have much experience making important financial decisions such as buying a home, taking out a mortgage, or purchasing stocks. In addition, many possible sources of information, such as mortgage brokers and investment advisers, often have real or perceived conflicts of interest. As a result, it seems natural that individuals would turn to friends, colleagues, and family members— especially those with experiences relevant to the decision at hand—as trusted sources of advice.
+% Quotes from \cite{kuchler2021social}: First, social networks can serve as a source of actual or perceived information, and people might thus be influenced by their peers through a social learning channel, which can include the spread of both actual information as well as sentiments and beliefs (e.g., Bikhchandani, Hirshleifer & Welch 1992; Jackson 2010; Bailey et al. 2018a). The importance of social interactions in transmitting in- formation and beliefs in the household finance space is hardly surprising. Indeed, most people do not have much experience making important financial decisions such as buying a home, taking out a mortgage, or purchasing stocks. In addition, many possible sources of information, such as mortgage brokers and investment advisers, often have real or perceived conflicts of interest. As a result, it seems natural that individuals would turn to friends, colleagues, and family members— especially those with experiences relevant to the decision at hand—as trusted sources of advice.
 
-%Quotes from \cite{hirshleifer2020presidential}: Social economics and finance recognizes that people observe each other and talk to each other, where talking includes written text and social media. A key but underexploited intellectual building block of social economics and finance is social transmission bias, the systematic directional modification of ideas or signals as they pass from person to person.
+% Quotes from \cite{hirshleifer2020presidential}: Social economics and finance recognizes that people observe each other and talk to each other, where talking includes written text and social media. A key but underexploited intellectual building block of social economics and finance is social transmission bias, the systematic directional modification of ideas or signals as they pass from person to person.
 
 % Quotes frm \cite{hirshleifer2020presidential} Several authors propose that compartmental models from epidemiology can capture the spread of folk models and financial behavior. In such models, an infection with a financial belief, such as enthusiasm for a technical strategy or for Bitcoin, spreads through a population over time via random contacts. Some versions of compartmental models, such as the SIR Model, have an epidemic rise-and-fall time path. So the SIR Model has been applied to help explain trading and price bubbles.
 
-%\begin{center}[Insert Figure \ref{fig:graph_investment}  here]\end{center}
+% \begin{center}[Insert Figure \ref{fig:graph_investment}  here]\end{center}
 
 
 \begin{figure}[!ht] \centering  % [h!]
-	\caption{ ~Literature map of EE models of stock/housing market investment}
-	\label{fig:graph_investment}
-	\centerline{\includegraphics[width=0.9\textwidth]{./figures/graph_investment}}
-	\begin{flushleft}
-		{\footnotesize Note: This graph includes selected papers related to epidemiological models of expectations in asset markets, and studies of the role of news media in financial markets. See \href{https://app.litmaps.co/shared/E25276CA-8725-437B-8241-11961EFB3FB4}{here} for an interactive version.}
-	\end{flushleft}
+  \caption{ ~Literature map of EE models of stock/housing market investment}
+  \label{fig:graph_investment}
+  \centerline{\includegraphics[width=0.9\textwidth]{./figures/graph_investment}}
+  \begin{flushleft}
+    {\footnotesize Note: This graph includes selected papers related to epidemiological models of expectations in asset markets, and studies of the role of news media in financial markets. See \href{https://app.litmaps.co/shared/E25276CA-8725-437B-8241-11961EFB3FB4}{here} for an interactive version.}
+  \end{flushleft}
 \end{figure}
 
 Academic models of financial markets have traditionally assumed that investors choose stocks based on well-informed rational beliefs about future returns.  But popular treatments have emphasized social communication, and ideas with a distinctly epidemiological flavor, since the first published description of  the first publicly traded securities (\cite{vegaConfusion}'s discussion of the trading of shares of the East India company on the Amsterdam stock exchange).  \cite{mackay1850memoirs}'s vivid prose has made his (thoroughly epidemiological) descriptions of the Dutch Tulip mania and other financial episodes of ``The Madness of Crowds'' a classic of English literature.  This theme has continued to the present: Michael \cite{lewis2011big}'s bestselling book about the Great Financial Crisis goes so far as to suggest that one of the reasons a particular analyst was able to perceive the housing bubble early was his psychological indifference to other people's opinions.
@@ -34,17 +34,17 @@ The survey-based estimates of their epidemiological model for both individual (`
 
 Our Figure \ref{fig:sir_simulate} shows the compositional changes of investors under the paper's median estimates (of infection and removal rates) for individual and for institutional investors, and for randomly selected versus for rising stocks, respectively.\footnote{We convert all the continuous-time rates into discrete-time and from annual to weekly frequency. For instance, the recovery rate estimated from the decaying pattern of the time spent on studying a given stock for INSRPI is $g=1.39$ (a half-life of $ln(2)/g=0.50$ years). In discrete-time and at weekly frequency, this is equivalent to a probability of recovery $\gamma = 1-\exp^{-g/52} =0.02$. For the removal rate, under the assumption made by the paper that the fraction of susceptible is close to $1$ despite being time-varying, the estimated median removal rate of INSRPI is $b = 2.02$. It is converted to a weekly probability of $\beta = 1-\exp^{-b/52}=0.038$.}$^{,}$\footnote{We set the initial fraction of the infected to be $1$ percent.}
 
-%\centerline{[Insert Figure \ref{fig:sir_simulate} here]}
+% \centerline{[Insert Figure \ref{fig:sir_simulate} here]}
 
 \begin{verbatimwrite}{./Slides/FigureSIRSimulation}%%%Slides
-	\begin{figure} \centering  % [h!]  [!ht]
-		\caption{ ~Simulated dynamics from an SIR model of stock investors}
-		\label{fig:sir_simulate}
-		\centerline{\includegraphics[width=\textwidth,height=\textheight]{./figures/sir_simulate.png}}
-		\begin{flushleft}
-			{\footnotesize Note: This graph plots the simulated paths of populations in different compartments in a SIR model of stock investors, as described in \cite{shiller1989survey}. We use the median estimates of the infection rate $\beta$ and recovery rate $\gamma$ for four samples: institutional investors for a randomly selected stock (INSRAND), institutional investors for a rapidly rising stock (INSRPI), individual investors for a random stock (INDRAND), and individual investors for a rapidly rising stock (INDRPI). The horizontal thin solid line corresponds to the limiting size of compartment of $R$ in the long run. The simulation is done with the Python library \href{https://ndlib.readthedocs.io/en/latest/}{``NDlib''}, for details, see the companion \href{https://github.com/llorracc/EpiExp/blob/master/SIR_Ndlib.ipynb}{Jupyter Notebook}. }
-		\end{flushleft}
-	\end{figure}
+  \begin{figure} \centering  % [h!]  [!ht]
+    \caption{ ~Simulated dynamics from an SIR model of stock investors}
+    \label{fig:sir_simulate}
+    \centerline{\includegraphics[width=0.85\textwidth,height=0.85\textheight]{./figures/sir_simulate}}
+    \begin{flushleft}
+      {\footnotesize Note: This graph plots the simulated paths of populations in different compartments in a SIR model of stock investors, as described in \cite{shiller1989survey}. We use the median estimates of the infection rate $\beta$ and recovery rate $\gamma$ for four samples: institutional investors for a randomly selected stock (INSRAND), institutional investors for a rapidly rising stock (INSRPI), individual investors for a random stock (INDRAND), and individual investors for a rapidly rising stock (INDRPI). The horizontal thin solid line corresponds to the limiting size of compartment of $R$ in the long run. The simulation is done with the Python library \href{https://ndlib.readthedocs.io/en/latest/}{``NDlib''}, for details, see the companion \href{https://github.com/llorracc/EpiExp/blob/master/SIR_Ndlib.ipynb}{Jupyter Notebook}. }
+    \end{flushleft}
+  \end{figure}
 \end{verbatimwrite}%%%Slides
 \input{./Slides/FigureSIRSimulation}%%%Slides
 
@@ -53,7 +53,7 @@ The epidemiological analysis above is for parameters that characterize a sample 
 The economic analysis can now also be interpreted in temporal terms.  The authors point out that a fully rational model with no private information would imply that trading volume should be heavily concentrated around identifiable dates of news events, but the epidemiological model is consistent with long and variable lags.  It takes around half a year for the interest of institutional investors in the randomly selected stocks to reach its peak and a little more than a year for a rapidly rising stock. As for individual investors, the population interested in \texttt{RAND} reaches its peak after 40 weeks, while interest in \texttt{RPI} takes 2.5 years to peak.
 
 
-%sAlthough such paths correspond to a particular set of configurations, they presumably shed light on the general evolution patterns of stock investors' interests.  For instance, so long as the infection rate is higher than the removal rate, the fraction of infected investors will follow a hump shape  -- because the number of susceptible persons is declining.
+% sAlthough such paths correspond to a particular set of configurations, they presumably shed light on the general evolution patterns of stock investors' interests.  For instance, so long as the infection rate is higher than the removal rate, the fraction of infected investors will follow a hump shape  -- because the number of susceptible persons is declining.
 
 The paper also argues that in a special case where the infection rate is close to the removal rate, and the size of the pool of interested investors is driven by serially uncorrelated shocks, stock prices could follow a random walk, because under those assumptions the change in the level of `interest' is nearly unforecastable.\footnote{\cite{shiller1984stock} presents an  elaboration on this logic by allowing the presence of both rational investors (``smart money'') and social-dynamics driven investors. The presence of unforecastable social dynamics weakens the statistical power of the random-walk test of rationality of stock market.} This is another example of an economic consequence flowing from the pattern of spread of an infection.  Furthermore, the pool of investors is potentially measurable, so it is an implication that can be tested.
 

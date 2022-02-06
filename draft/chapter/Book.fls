@@ -398,9 +398,6 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecti0800.tfm
 OUTPUT .//./Slides/FigureParker.tex
 INPUT ./Slides/FigureParker.tex
 INPUT ./Slides/FigureParker.tex
-INPUT .//./figures/parker.png
-INPUT .//./figures/parker.png
-INPUT .//./figures/parker.png
 OUTPUT .//./Tables/SIDynCS.tex
 INPUT ./Tables/SIDynCS.tex
 INPUT ./Tables/SIDynCS.tex
@@ -412,9 +409,6 @@ INPUT .//subparts/shiller_pound.tex
 OUTPUT .//./Slides/FigureSIRFlowDiagram.tex
 INPUT ./Slides/FigureSIRFlowDiagram.tex
 INPUT ./Slides/FigureSIRFlowDiagram.tex
-INPUT .//./figures/flow_diagram.png
-INPUT .//./figures/flow_diagram.png
-INPUT .//./figures/flow_diagram.png
 OUTPUT .//./Equations/beta.tex
 INPUT ./Equations/beta.tex
 INPUT ./Equations/beta.tex
@@ -439,9 +433,9 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ectt1200.tfm
 OUTPUT .//./Slides/FigureSIRSimulation.tex
 INPUT ./Slides/FigureSIRSimulation.tex
 INPUT ./Slides/FigureSIRSimulation.tex
-INPUT .//./figures/sir_simulate.png
-INPUT .//./figures/sir_simulate.png
-INPUT .//./figures/sir_simulate.png
+INPUT .//./figures/sir_simulate.pdf
+INPUT .//./figures/sir_simulate.pdf
+INPUT .//./figures/sir_simulate.pdf
 INPUT .//subparts/macro_expectation.tex
 INPUT .//subparts/macro_expectation.tex
 INPUT .//./figures/graph_macro.pdf

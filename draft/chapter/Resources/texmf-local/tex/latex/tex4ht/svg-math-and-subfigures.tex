@@ -5,7 +5,7 @@
 
 \Configure{VERSION}{} 
 
-\DeclareGraphicsRule{.png}{bmp}{.xbb}{}
+\DeclareGraphicsRule{}{bmp}{.xbb}{}
 %\DeclareGraphicsRule{.svg}{svg}{.xbb}{} % Uncomment if you want to use the commented-out method of configuring svg files to get the size from a boundingbox created by ebb -x *.png 
 
 \ConfigureEnv{figure}
@@ -44,7 +44,7 @@
 \Configure{graphics*} 
         {png} 
         {%the special command below so it will copy the png over 
-           \special{t4ht+@File: \csname Gin@base\endcsname.png} 
+           \special{t4ht+@File: \csname Gin@base\endcsname} 
            \Picture[pict]{\csname Gin@base\endcsname .png 
               \space width="\expandafter\the\csname Gin@req@width\endcsname" 
 }% 

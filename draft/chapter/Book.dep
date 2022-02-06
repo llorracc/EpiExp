@@ -150,12 +150,10 @@
   *{file}   {./Slides/FullFledgedEE.tex}{0000/00/00 v0.0}
   *{file}   {./Slides/QuoteBrowningHansenHeckman1999.tex}{0000/00/00 v0.0}
   *{file}   {./Slides/FigureParker.tex}{0000/00/00 v0.0}
-  *{file}   {./figures/parker.png}{0000/00/00 v0.0}
   *{file}   {./Tables/SIDynCS.tex}{0000/00/00 v0.0}
   *{file}   {./Tables/SIDynTrans.tex}{0000/00/00 v0.0}
   *{file}   {subparts/shiller_pound.tex}{0000/00/00 v0.0}
   *{file}   {./Slides/FigureSIRFlowDiagram.tex}{0000/00/00 v0.0}
-  *{file}   {./figures/flow_diagram.png}{0000/00/00 v0.0}
   *{file}   {./Equations/beta.tex}{0000/00/00 v0.0}
   *{file}   {./figures/graph_mixer.pdf}{0000/00/00 v0.0}
   *{file}   {subparts/tech_diffusion.tex}{0000/00/00 v0.0}
@@ -163,7 +161,7 @@
   *{file}   {subparts/finance.tex}{0000/00/00 v0.0}
   *{file}   {./figures/graph_investment.pdf}{0000/00/00 v0.0}
   *{file}   {./Slides/FigureSIRSimulation.tex}{0000/00/00 v0.0}
-  *{file}   {./figures/sir_simulate.png}{0000/00/00 v0.0}
+  *{file}   {./figures/sir_simulate.pdf}{0000/00/00 v0.0}
   *{file}   {subparts/macro_expectation.tex}{0000/00/00 v0.0}
   *{file}   {./figures/graph_macro.pdf}{0000/00/00 v0.0}
   *{file}   {subparts/empirical_evidence.tex}{0000/00/00 v0.0}
