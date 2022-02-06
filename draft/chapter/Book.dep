@@ -135,8 +135,6 @@
   *{package}{soul}        {2003/11/17 v2.4}
   *{package}{nameref}     {2019/09/16 v2.46}
   *{package}{gettitlestring}{2019/12/15 v1.6}
-  *{file}   {Book.out}    {0000/00/00 v0.0}
-  *{file}   {Book.out}    {0000/00/00 v0.0}
   *{package}{bookmark}    {2019/12/03 v1.28}
   *{file}   {bkm-pdftex.def}{2019/12/03 v1.28}
   *{file}   {epi_chapter.tex}{0000/00/00 v0.0}
@@ -175,14 +173,8 @@
   *{file}   {./Slides/NonEcon.tex}{0000/00/00 v0.0}
   *{file}   {./figures/graph_other.pdf}{0000/00/00 v0.0}
   *{file}   {./Slides/FigureNewsCurve.tex}{0000/00/00 v0.0}
-  *{file}   {./figures/Doomsday.png}{0000/00/00 v0.0}
   *{file}   {./Slides/FigureScienceIdeasCurve.tex}{0000/00/00 v0.0}
-  *{file}   {./figures/Feynman.png}{0000/00/00 v0.0}
   *{file}   {./Slides/FigureMemesCurve.tex}{0000/00/00 v0.0}
-  *{file}   {./figures/Memes1.png}{0000/00/00 v0.0}
-  *{file}   {./figures/Memes2.png}{0000/00/00 v0.0}
-  *{file}   {./figures/Memes3.png}{0000/00/00 v0.0}
   *{file}   {subparts/future_directions.tex}{0000/00/00 v0.0}
   *{file}   {subparts/conclusion.tex}{0000/00/00 v0.0}
-  *{file}   {Book.bbl}    {0000/00/00 v0.0}
 }
