@@ -1,12 +1,12 @@
 % -*- mode: LaTeX; TeX-PDF-mode: t; -*-
 \input{./econtexRoot} % Set paths for root and various resources
 \providecommand{\texname}{EpiExp}% Keyname for the paper
-\documentclass[titlepage, headings=optiontotocandhead]{econtex}
+\documentclass[book,numbers]{elsbook-P04}
 
 \usepackage{ifthen}
 \newboolean{inBook}
 \setboolean{inBook}{true}
-\setboolean{inBook}{false}
+%\setboolean{inBook}{false}
 
 \ifthenelse{\boolean{inBook}}{
 \usepackage{amsmath,amssymb,amsfonts,amsthm,makeidx,graphicx,colortbl}
@@ -25,7 +25,7 @@
 \usepackage{float}
 \usepackage[caption = false]{subfig}
 
-\raggedbottom 
+\raggedbottom %% Remove to bottom align on pages.
 
 \makeindex
 \setcitestyle{authoryear}
