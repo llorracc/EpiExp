@@ -139,6 +139,9 @@
     \ifthenelse{\boolean{Web}}{
       \par\noindent\rule{\textwidth}{0.4pt}
     }{\pagebreak}
+    \ifthenelse{\boolean{Web}}{
+      \par\noindent\rule{\textwidth}{0.4pt}
+    }{}
   }
 
   \setcounter{page}{0}\pagenumbering{arabic}
@@ -557,12 +560,13 @@ One of our ambitions for this survey is for it to infect scholars with the idea 
 % \clearpage\vfill\eject
 
 
-% \addcontentsline{toc}{section}{Reference}
-\ifthenelse{\boolean{inBook}}{\bibliographystyle{apalike}}{}
-% \bibliographystyle{plainnat}
+\addcontentsline{toc}{section}{Reference}
+\ifthenelse{\boolean{inBook}}{
+  \bibliographystyle{apalike}
+  \section*{References}
+  \bibliography{reference}
+}{\bibliography{EpiExp}}
 % \bibliographystyle{Vancouver-Numbered-Style(3)}
 
 \pagebreak
-%\section*{References}
 
-\bibliography{reference}
