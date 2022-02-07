@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: EpiExp.aux
+The style file: econtex.bst
+A level-1 auxiliary file: epi_chapter.aux
+Database file #1: EpiExp.bib
+Warning--I didn't find a database entry for "bdk2021household"
+Warning--I didn't find a database entry for "dmw2022inflationexpectation"
+Warning--I didn't find a database entry for "bv2022bayesianlearning"
+Warning--I didn't find a database entry for "kps2022housingexpectation"
+Done.
+You've used 130 entries,
+            2309 wiz_defined-function locations,
+            1254 strings with 23311 characters,
+and the built_in function-call counts, 65637 in all, are:
+= -- 6444
+> -- 3848
+< -- 11
++ -- 1278
+- -- 1140
+* -- 6071
+:= -- 12599
+add.period$ -- 145
+call.type$ -- 130
+change.case$ -- 808
+chr.to.int$ -- 130
+cite$ -- 130
+duplicate$ -- 2226
+empty$ -- 3989
+format.name$ -- 1304
+if$ -- 12647
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 130
+newline$ -- 396
+num.names$ -- 781
+pop$ -- 654
+preamble$ -- 1
+purify$ -- 801
+quote$ -- 0
+skip$ -- 2042
+stack$ -- 0
+substring$ -- 3809
+swap$ -- 414
+text.length$ -- 11
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 1394
+warning$ -- 0
+while$ -- 751
+width$ -- 0
+write$ -- 1551
+(There were 4 warnings)

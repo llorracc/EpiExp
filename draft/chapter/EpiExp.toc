@@ -1,0 +1,32 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.5}%
+\contentsline {section}{\numberline {2}Background and Motivation}{3}{section.13}%
+\contentsline {subsection}{\numberline {2.1}Expectational Heterogeneity}{3}{subsection.14}%
+\contentsline {subsection}{\numberline {2.2}Epistemology and Epidemiology}{4}{subsection.16}%
+\contentsline {subsection}{\numberline {2.3}Epidemiology on Networks}{4}{subsection.17}%
+\contentsline {subsection}{\numberline {2.4}Expectational Tribes}{5}{subsection.20}%
+\contentsline {section}{\numberline {3}What insights can the epidemiological framework offer?}{6}{section.24}%
+\contentsline {subsection}{\numberline {3.1}What Is an Epidemiological Framework?}{6}{subsection.25}%
+\contentsline {subsubsection}{\numberline {3.1.1}Adapting the Disease Metaphor to Expectations}{9}{subsubsection.30}%
+\contentsline {subsection}{\numberline {3.2}One Example}{9}{subsection.32}%
+\contentsline {section}{\numberline {4}Literature}{12}{section.43}%
+\contentsline {subsection}{\numberline {4.1}Diffusion of Technology}{13}{subsection.45}%
+\contentsline {subsection}{\numberline {4.2}Financial Markets}{15}{subsection.49}%
+\contentsline {subsection}{\numberline {4.3}Macroeconomic Expectations}{20}{subsection.55}%
+\contentsline {subsubsection}{\numberline {4.3.1}Sticky Expectations}{20}{subsubsection.58}%
+\contentsline {subsubsection}{\numberline {4.3.2}Effectiveness of Monetary Policy}{22}{subsubsection.70}%
+\contentsline {subsubsection}{\numberline {4.3.3}Sticky Consumption}{23}{subsubsection.71}%
+\contentsline {subsubsection}{\numberline {4.3.4}Social Learning of Macroeconomic Equilibria}{23}{subsubsection.72}%
+\contentsline {subsection}{\numberline {4.4}Nonstructural Empirical Evidence}{24}{subsection.73}%
+\contentsline {subsubsection}{\numberline {4.4.1}Background}{24}{subsubsection.74}%
+\contentsline {subsubsection}{\numberline {4.4.2}Papers Using Proxies for Social Connections}{24}{subsubsection.80}%
+\contentsline {subsubsection}{\numberline {4.4.3}Directly Measured Social Networks}{25}{subsubsection.81}%
+\contentsline {subsubsection}{\numberline {4.4.4}News Media}{25}{subsubsection.83}%
+\contentsline {subsubsection}{\numberline {4.4.5}Epidemiology and `Narrative Economics'}{27}{subsubsection.86}%
+\contentsline {subsection}{\numberline {4.5}Contagion}{28}{subsection.87}%
+\contentsline {subsubsection}{\numberline {4.5.1}Multiple Equilibrium}{28}{subsubsection.88}%
+\contentsline {subsection}{\numberline {4.6}Non-economic Applications}{29}{subsection.89}%
+\contentsline {subsection}{\numberline {4.7}Future Directions}{33}{subsection.100}%
+\contentsline {subsection}{\numberline {4.8}Literature Summation}{34}{subsection.102}%
+\contentsline {section}{\numberline {5}Conclusion}{34}{section.103}%
+\contentsline {section}{Reference}{35}{section.103}%
+\babel@toc {english}{}
