@@ -1,6 +1,0 @@
-﻿Publication Years	records	% of 4
-2018	1	25.000
-2015	1	25.000
-2012	1	25.000
-2011	1	25.000
-(0 records (0.000%) do not contain data in the field being analyzed.)
