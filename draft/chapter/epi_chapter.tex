@@ -40,7 +40,7 @@
   \newcommand{\bvbayesianlearningShort}{\cite{bv2022bayesianlearning}}
 }
 
-\newcommand{\thankstext}{We would like to thank the participants in the Handbook of Economic Expectations Conference for insightful comments, and the editors for comments that substantially improved the paper.  Thanks also to Sebastian Benthall, Francesco Bianchi, Will Du, Jennifer Manning, and Adrian Monninger for comments on earlier drafts, and special thanks to Mridul Seth for help in using the \texttt{\href{https://ndlib.readthedocs.io}{NDLib}} and \texttt{\href{https://networkx.org/}{NetworkX}} python libraries to produce our \href{https://econ-ark.org/materials/EpiExp-SIR?launch}{SIR Model Notebook}}
+\newcommand{\thankstext}{We would like to thank the participants in the Handbook of Economic Expectations Conference for insightful comments, and the editors for comments that substantially improved the paper.  Thanks also to Sebastian Benthall, Francesco Bianchi, Jennifer Manning, and Adrian Monninger for comments on earlier drafts, and special thanks to Mridul Seth for help in using the \texttt{\href{https://ndlib.readthedocs.io}{NDLib}} and \texttt{\href{https://networkx.org/}{NetworkX}} python libraries to produce our \href{https://econ-ark.org/materials/EpiExp-SIR?launch}{SIR Model Notebook}.}
 \ifthenelse{\boolean{inBook}}{
   \begin{frontmatter}%
 
@@ -255,14 +255,13 @@ But EE modeling approaches may be particularly appealing now as a result of the 
 
 \subsection{Epistemology and Epidemiology}
 
-One aspect of the EE approach that seems to trouble economists more than scholars from other fields is the requirement to specify a source for the idea(s) whose spread is being modeled.
+In the burgeoning literature on social transmission of ideas in animal populations~(\cite{whiten2021burgeoning}), ideas are sometimes introduced experimentally but often are observed to arise organically.  Endogenous and experimentally introduced ideas have both been observed to spread widely in many social species of animals.
 
-The Rational Expectations approach gets around this problem by making some rather bold assumptions (there is only one `true' model of the world; everyone believes the same true model; everyone observes an identical set of facts and draws the same conclusions from them; everyone \emph{knows} that everyone believes ... ; and so on).  %The reward for this steep price is that often RE models have a unique and testable equilibrium.
+Economists seem to be more concerned than scholars from other fields to specify a rigorous source for the idea(s) whose spread is being modeled.  The Rational Expectations approach resolves this problem by making some rather bold assumptions (there is only one `true' model of the world; everyone believes the same true model; everyone observes an identical set of facts and uses deductive reasoining to draw the same conclusions from them; everyone \emph{knows} that everyone believes ... ; and so on).
 
-% Such models are often challenging to understand and analyze, and is not unreasonable to worry that adding additional complexity derived from an epidemiological mechanism of belief transmission would yield a system almost impossible to make sense of.
 An appealing way to move forward is for epidemiological models to be built to be `tunable' in the degree to which they differ from better-understood models.  This should not be hard:  If the only `source' of ideas is an agent who believes in the rational expectations solution, and the infection rate is 100 percent, the solution will be the rational expectations solution.  It will then be possible to pin down, step by step, the reasons for any deviation between the EE and the corresponding RE model.
 
-In fact, most of the examples of EE models we highlight below are of this kind: There is some parameter or set of parameters which can be set to zero (or some other specific value), causing the model to collapse to an off-the-shelf rational expectations model.%  See section~\ref{subsec:macroExp} for discussion of some specific examples.
+In fact, most of the examples of EE models we highlight below are of this kind: There is some parameter or set of parameters which can be set to zero (or some other specific value), causing the model to collapse to a RE model.%  See section~\ref{subsec:macroExp} for discussion of some specific examples.
 
 \begin{comment}
   The literature's many informal references to epidemiological ideas indicate  that economists are familiar with these ideas and find them tempting.  The hesitancy to adopt explicitly epidemiological methods in the analysis of standard economic questions therefore seems unlikely to reflect a consensus that there are no plausible epidemiological models; it seems more  likely to reflect a concern that there are too many.  Without considerable further discipline beyond the proposition that `ideas spread like diseases' it is not unreasonable to worry about whether an `epidemiological expectations' approach is sufficiently well defined to be worth exploring.
@@ -564,6 +563,6 @@ One of our ambitions for this survey is for it to infect scholars with the idea 
 % \bibliographystyle{Vancouver-Numbered-Style(3)}
 
 \pagebreak
-%\section*{References}
+\section*{References}
 
 \bibliography{reference}
