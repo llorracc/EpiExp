@@ -267,3 +267,5 @@ economics.bib
 texmf-local
 .git-private-commit
 .git-public-commit
+docs/Resources/.git-public-commit
+draft/chapter/Resources/.git-public-commit
