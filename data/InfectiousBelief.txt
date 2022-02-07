@@ -1,0 +1,6 @@
+Publication Years	records	% of 5
+2018	2	40.000
+2017	1	20.000
+2003	1	20.000
+2002	1	20.000
+(0 records (0.000%) do not contain data in the field being analyzed.)
