@@ -1,0 +1,10 @@
+Publication Years	records	% of 9
+2016	1	11.111
+2015	2	22.222
+2014	1	11.111
+2013	1	11.111
+2011	1	11.111
+2009	1	11.111
+2006	1	11.111
+1995	1	11.111
+(0 records (0.000%) do not contain data in the field being analyzed.)
