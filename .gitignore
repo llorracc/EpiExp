@@ -265,3 +265,5 @@ economics.bib
 *.fsx -text
 *.hs -text
 texmf-local
+.git-private-commit
+.git-public-commit
