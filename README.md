@@ -4,7 +4,7 @@
 
 
 
-- [Most recent draft](draft/chapter/EpiExp.pdf)
+- [Most recent draft](docs/EpiExp.pdf)
 - [Jupyter Notebook](SIR_Ndlib.ipynb) implementing the SIR (Shiller and Pound 1989)
 
 ### some related resources to the paper 
