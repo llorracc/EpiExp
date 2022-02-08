@@ -31,7 +31,6 @@
 }
 
 
-% \setboolean{inBook}{false}
 \ifthenelse{\boolean{inBook}}{
   \newcommand{\bvbayesianlearningFull}{Chapter  25, Bayesian Learning}
   \newcommand{\bvbayesianlearningShort}{Chapter 25}
@@ -40,19 +39,16 @@
   \newcommand{\bvbayesianlearningShort}{\cite{bv2022bayesianlearning}}
 }
 
-\newcommand{\thankstext}{We would like to thank the participants in the Handbook of Economic Expectations Conference for insightful comments, and the editors for comments that substantially improved the paper.  Thanks also to Sebastian Benthall, Francesco Bianchi, Jennifer Manning, and Adrian Monninger for comments on earlier drafts, and special thanks to Mridul Seth for help in using the \texttt{\href{https://ndlib.readthedocs.io}{NDLib}} and \texttt{\href{https://networkx.org/}{NetworkX}} python libraries to produce our \href{https://econ-ark.org/materials/EpiExp-SIR?launch}{SIR Model Notebook}.}
+\newcommand{\thankstext}{We would like to thank the participants in the Handbook of Economic Expectations Conference for insightful comments, and the editors for comments that substantially improved the paper.  Thanks also to Sebastian Benthall, Francesco Bianchi, Jennifer Manning, and Adrian Monninger for comments on earlier drafts, and special thanks to Mridul Seth for help in using the \texttt{\href{https://ndlib.readthedocs.io}{NDLib}} and \texttt{\href{https://networkx.org/}{NetworkX}} python libraries to produce our \href{https://econ-ark.org/materials/epi-exp?launch?launch}{SIR Model Notebook}.}
 \ifthenelse{\boolean{inBook}}{
   \begin{frontmatter}%
 
     \chapter[Chapter Title]{Epidemiological \\ Expectations\footnote{\thankstext}}\label{chap1}
 
-    % \subtitle{Chapter Subtitle}
-
     \author[1]{Christopher Carroll}
     \author[1]{Tao Wang}
     \address[1]{\orgname{Johns Hopkins University}, \orgdiv{Department of Economics}, \\ Corresponding: \email{twang80@jhu.edu}}
 
-    
     % \authormark{First Author, Second Author and Third Author}
     \titlemark{Part Title}
     \chaptermark{Epidemiological Expectations}
@@ -97,9 +93,9 @@
           \begin{tabbing}
             \texttt{~~~\REMARK:~} \= \= \texttt{\url{https://econ-ark.org/materials/epiexp}} \\ 
             \texttt{Dashboard:~} \> \> \texttt{\href{https://econ-ark.org/materials/epiexp?launch}{Click `Launch Dashboard' Button}} \\
-            \texttt{~~~~~html:~} \> \> \texttt{\href{https://\owner.github.io/EpiExp}{https://\owner.github.io/BufferStockTheory/}} \\ % Owner is defined in Resources/owner.tex
-            \texttt{~~~~~~PDF:~} \> \> \texttt{\href{https://github.com/\owner/EpiExp/blob/master/EpiExp.pdf}{EpiExp.pdf}} \\ 
-            \texttt{~~~Slides:~} \> \> \texttt{\href{https://github.com/\owner/EpiExp/blob/master/EpiExp-Slides.pdf}{EpiExp-Slides.pdf}} \\
+            \texttt{~~~~~html:~} \> \> \texttt{\href{https://\owner.github.io/EpiExp}{https://\owner.github.io/EpiExp/}} \\ % Owner is defined in Resources/owner.tex
+            \texttt{~~~~~~PDF:~} \> \> \texttt{\href{https://github.com/\owner/EpiExp/blob/master/docs/EpiExp.pdf}{EpiExp.pdf}} \\ 
+            \texttt{~~~Slides:~} \> \> \texttt{\href{https://github.com/\owner/EpiExp/blob/master/docs/EpiExp-Slides.pdf}{EpiExp-Slides.pdf}} \\
             \texttt{~~~GitHub:~} \> \> \texttt{\href{https://github.com/\owner/EpiExp}{https://github.com/\owner/EpiExp}} \\
           \end{tabbing}
         \end{center}
