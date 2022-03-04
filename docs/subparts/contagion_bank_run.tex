@@ -1,0 +1,53 @@
+
+\subsection{Contagion}\label{subsec:Contagion}
+
+In the epidemiology literature and in ordinary usage the word ``contagion'' means essentially `epidemic of a transmissible disease.'  Large literatures in economics and finance describe themselves as investigating economic or financial `contagion.'  But for reasons we articulate here, most of this work is quite different from what we define as an EE modeling approach.
+
+%\subsubsection{Multiple Equilibrium}\label{subsubsec:multipleEqulibrium}
+
+\href{https://www.jstor.org/stable/1837095}{\cite{diamond_bank_1983}}'s canonical model of `bank runs' has two RE (self-fulfilling) equilibria.  In one, all depositors attempt to withdraw their savings from the bank, causing it to fail; in the other nobody wants to withdraw their savings and the bank remains sound.  But the paper's model fails our first criterion for an EE model: There is no dynamic process by which ideas `spread' so it has no testable implications for measured expectational dynamics at either the micro or the macro level.
+
+Much of the theoretical work about `contagion' is of this kind -- that is, about multiple equilibria without any testable description of transmission or dynamics (much less measurement of expectations).
+
+Nothing intrinsic to such questions prohibits construction of genuinely epidemiological models -- indeed, work by \cite{iyer2012understanding} makes an excellent start by collecting data on detailed dynamics of bank withdrawals among members of a social network during a bank run episode.  The authors write:
+``we want to understand ... contagion in bank runs. In order to model this, we draw on a long, time honored literature on contagion of infectious diseases in the epidemiology literature.''   (Note the explicit invocation of the meaning of `contagion' from the epidemiology literature, presumably to head off possible confusion with whatever might be meant by `financial contagion.')
+
+They proceed to note that ``the parallel [to infection] in bank runs is the probability of running as a result of contact with a person who has already run.''  The paper reports an estimated transmission probability (corresponding to  $\tranProb$ in Equation~\ref{eq:beta}) of 3.6 percent via social network connections (approximated by account referrals) and of 6 percent through neighborhood connections. Despite the straightforward structural implications of these estimates, the authors stop without using them to parameterize and simulate an SI model of the bank run they study. (These would be interesting steps to take for someone interested in advancing the EE agenda.)
+
+
+%Defining exactly what \textit{is} meant by financial contagion has been a challenge for this literature (\cite{pericoli2003primer}),  but none of the usual definitions correspond at all closely to the epidemiological perspective that the way to model a contagion is to understand the channels by which an idea is transmitted from actor to actor and to use those mechanisms to analyze the circumstances under which it will spread.  Instead, financial contagion was given an influential early definition as ``the spread of market disturbances — mostly on the downside — from one country to the other,'' by~\cite{Dornbusch00contagionHow} after the Asian Financial Crisis of 1997; this definition prompted a great many studies examining questions like the time series correlations of asset price movements in the affected countries.
+%\begin{comment}
+%http://www1.fee.uva.nl/fm/papers/Claessens/Contagion_WBRO.pdf
+%\end{comment}.
+
+One branch of the `financial contagion' literature that developed after the panic following the collapse of Lehmann Brothers in 2008 explores the idea that markets can be vulnerable to the failure of entities that are `too interconnected to fail.' This led to a literature that examined datasets on the interconnections between financial institutions, using many of the same tools (network theory, random graphs, etc) that have elsewhere been used to model the transmission of ideas across social networks.  But what has been modeled as being transmitted along the network connections is usually financial flows (rather than ideas or expectations), because financial flows are what the datasets measure.  The modeled mechanisms of contagion therefore involve assumed mechanical consequences of disruptions to such flows.  Despite the overarching ``contagion'' metaphor, the low-level elements of the transmission process generally do not have interpretations corresponding to epidemiological primitives like `infectiousness,' and the literature does not mainly aim to model the transmission of expectations at either the micro or the aggregated level.  (See~\cite{glasserman2016contagion} for a summary of this literature and~\cite{cabrales2015financial} for a deep dive).
+
+Some (most?) of this work could be reinterpreted to fit into our definition of EE modeling, in the same way that the work on technology diffusion clearly fits our definitions and has a straightforward epidemiological interpretation (articulated by~\cite{arrow_classificatory_1969}).  But the literature is so vast and complex, and the reinterpretation would have to be so thorough, that this is a task we hope will be undertaken by others who want to bring the insights from that literature to a new audience.
+
+\begin{comment}
+\begin{itemize}
+
+	\item
+	bank runs/spread of panic and fear
+
+	\begin{itemize}
+		\item
+		canonical models are basically timeless: run happens instantly
+		\href{https://www.jstor.org/stable/1837095}{\cite{diamond_bank_1983}}
+		\item also,  the run arises as one of the multi-equilibra
+		\item
+		in reality, both the process and the outcome are likely driven by how information/fear spreads across the social network
+		\begin{itemize}
+			\item  the unfolding of a bank run using high-frequency data on deposits withdrawing and social network: \href{https://www.aeaweb.org/articles?id=10.1257/aer.102.4.1414}{\cite{iyer2012understanding}}
+			\item runs are more likely to diffuse with similar bank/community characteristics,(suggesting infection rate is not constant in epi models);  \href{https://journals.sagepub.com/doi/abs/10.1177/0003122416629611}{\cite{greve2016ripples}};
+			\item  depositors who learned from acquaintances about the bad news regarding banks first closed bank accounts; \href{https://www.aeaweb.org/articles?id=10.1257/aer.90.5.1110}{\cite{kelly2000market}}
+			%\item other experimental evidences:\href{https://www.sciencedirect.com/science/article/pii/S0167268114000341}{\cite{kiss2014social}}, \href{https://ideas.repec.org/a/eee/beexfi/v20y2018icp115-130.html}{\cite{shakina2018coordination}}, \href{https://fr.wikipedia.org/wiki/Panique_bancaire}{\cite{dijk2017bank}}
+		\end{itemize}
+		\item
+		financial crisis in the Great Recession has been described as
+		``giant extended bank run on financial sector''
+	\end{itemize}
+
+
+\end{itemize}
+\end{comment}
