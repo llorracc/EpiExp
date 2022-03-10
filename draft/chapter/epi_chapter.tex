@@ -1,4 +1,3 @@
-
 \provideboolean{Slides}
 \setboolean{Slides}{false}
 
@@ -201,15 +200,15 @@ It is a commonplace, in academia and popular culture, that ideas spread like dis
 whose ideas thoroughly infected the work of his friend \cite{smithwealth}.\footnote{See \cite{rasmussen2017infidel}.} Indeed, %with one notable exception (see below),
 in fields other than economics, debates are rarely about whether social interactions are fundamental; the question is which particular models for capturing social interactions are most suitable for understanding the prevalence of which kinds of ideas.
 
-``Expectations'' are just a category of ideas.  So upon being told that expectations play a critical role in structural economic modeling, a scholar who was not an economist might suppose that epidemiological approaches would be a standard part of the economist's toolkit for modeling expectations --- unless there were good reason to suppose that economic ideas are immune to social influence.
+``Expectations'' are just a category of ideas.  So upon being told that expectations play a critical role in structural economic modeling, a scholar who was not an economist might suppose that epidemiological approaches would be a standard part of the economist's toolkit for modeling expectations --- unless there were good reason to suppose that economic ideas are immune to social influence.  But evidence for social transmission of economic ideas is plentiful -- see Section~\ref{subsec:microEvidence}.
 
-But evidence for social transmission of economic ideas is plentiful -- see Section~\ref{subsec:microEvidence}.  Still, it would not be accurate to say that an `epidemiological expectations' (`EE') approach is a standard way of constructing formal models of economic phenomena -- a conventional off-the-shelf alternative, say, to a `rational expectations' (`RE') approach, the `Rational Inattention' (`RI') approach advocated by~\cite{sims2003implications}, the `diagnostic expectations' model of~\cite{bordalo2018diagnostic}, or a number of bounded rationality approaches (e.g.,~\cite{gabaix2020behavioral} or \cite{ilut2020economic}).
+Although many papers we mention below have employed epidemiological ideas in one way or another, it would not be accurate to say that an `epidemiological expectations' approach is a standard way of constructing formal models of economic phenomena -- a conventional, off-the-shelf alternative, say, to a `rational expectations' (`RE') approach, the `Rational Inattention' (`RI') approach advocated by~\cite{sims2003implications}, the `diagnostic expectations' model of~\cite{bordalo2018diagnostic}, or a number of bounded rationality approaches (e.g.,~\cite{gabaix2020behavioral} or \cite{ilut2020economic}).
 
 This is perhaps because nowhere has any focused attempt been made to define what would constitute an EE treatment of an economic question.\ifthenelse{\boolean{inBook}}{}{\footnote{A methodology in cultural economics called `the epidemiological approach' seeks to identify cultural variations in behavior the same way epidemiologists sometimes identify disease risks: By a person's place of origin, or other observable exogenous traits that might be markers of cultural attitudes.  Since this approach does not aim to study the transmission of expectations by social interactions, we see little danger of its being confused with what we define as EE modeling.}}  For the purposes of this survey, we will think of a full-fledged EE treatment as requiring the following elements:
 \begin{verbatimwrite}{./Slides/FullFledgedEE}
   \begin{quote}\normalfont
     \begin{enumerate}
-    \item \textbf{a mechanism:} \ifthenelse{\boolean{Slides}}{math by which idea(s) transmitted}{An explicit and rigorous mathematical description of a social interaction process by which ideas are transmitted among agents  ...}
+    \item \textbf{a mechanism:} \ifthenelse{\boolean{Slides}}{math by which idea(s) transmitted}{An explicit and rigorous mathematical description of a process by which ideas are transmitted between agents  ...}
     \item \textbf{implying expectational dynamics:} \ifthenelse{\boolean{Slides}}{
         ... that yields observable $\mathbb{E}$ dynamics ...
       }
@@ -223,7 +222,7 @@ This is perhaps because nowhere has any focused attempt been made to define what
 
 \ifthenelse{\boolean{inBook}}{}{These criteria whittle down a vast number of invocations, or partial treatments, of the proposition that ideas spread through social interaction, to the surprisingly small number of papers on which we primarily focus here.  (The last criterion allows us to neglect enormous literatures on public opinion, politics, musical tastes, internet memes, and other topics).}
 
-We have identified three fields in economics -- technological diffusion (section ~\ref{subsec:techDiffusion}), financial markets (section~\ref{subsec:assetprice}), and macroeconomics (section~\ref{subsec:macroExp}), with sets of papers that satisfy all these criteria -- even if in some cases the work has not mainly been thought of as `epidemiological' until now.\ifthenelse{\boolean{inBook}}{}{\footnote{Ironically, these literatures have developed largely in isolation from each other, judging at least by the almost complete independence of the citation networks (see our figure~\ref{fig:graph_mixer}). The only paper that is cited by all three literatures is the foundational paper by \cite{kermack_contribution_1927}.}}  In addition, we survey the proliferating evidence that social interactions drive expectations and corresponding behaviors (section~\ref{subsec:microEvidence}); draw connections between the EE approach and a separate literature on financial contagion (section~\ref{subsec:Contagion}); and present a selection of research on the spreading of news and rumors, scientific ideas, and online content (section~\ref{subsec:nonecon}).\ifthenelse{\boolean{inBook}}{}{\footnote{Since the outbreak of the COVID-19 pandemic, a large literature has sprung up in which economists have directly modeled COVID itself as a disease, or modeled the economic consequences of the disease; this work of course does not meet our criteria, but some of it -- e.g. \cite{gourieroux2020time} -- contains interesting techniques for modeling the spread of the disease which could potentially be repurposed for modeling the spread of ideas.}}
+We have identified three fields in economics -- technological diffusion (section ~\ref{subsec:techDiffusion}), financial markets (section~\ref{subsec:assetprice}), and macroeconomics (section~\ref{subsec:macroExp}) -- with sets of papers that satisfy all these criteria, even if in some cases the work has not mainly been thought of as `epidemiological' until now.\ifthenelse{\boolean{inBook}}{}{\footnote{Ironically, these literatures have developed largely in isolation from each other, judging at least by the almost complete independence of the citation networks (see our figure~\ref{fig:graph_mixer}). The only paper that is cited by all three literatures is the foundational paper by \cite{kermack_contribution_1927}.}}  In addition, we survey the proliferating evidence that social interactions drive expectations and corresponding behaviors (section~\ref{subsec:microEvidence}); draw connections between the EE approach and a separate literature on financial contagion (section~\ref{subsec:Contagion}); and present a selection of research on the spreading of news and rumors, scientific ideas, and online content (section~\ref{subsec:nonecon}).\ifthenelse{\boolean{inBook}}{}{\footnote{Since the outbreak of the COVID-19 pandemic, a large literature has sprung up in which economists have directly modeled COVID itself as a disease, or modeled the economic consequences of the disease; this work of course does not meet our criteria, but some of it -- e.g. \cite{gourieroux2020time} -- contains interesting techniques for modeling the spread of the disease which could potentially be repurposed for modeling the spread of ideas.}}
 
 \section{Background and Motivation}\label{motivation-and-context}
 
@@ -276,35 +275,6 @@ An appealing way to connect these approaches is for epidemiological models in ec
 
 In fact, most of the examples of EE models we articulate below are of this kind: There is some parameter or set of parameters which can be set to zero (or some other specific value), causing the model to collapse to a RE model.%  See section~\ref{subsec:macroExp} for discussion of some specific examples.
 
-\begin{comment}
-  The literature's many informal references to epidemiological ideas indicate  that economists are familiar with these ideas and find them tempting.  The hesitancy to adopt explicitly epidemiological methods in the analysis of standard economic questions therefore seems unlikely to reflect a consensus that there are no plausible epidemiological models; it seems more  likely to reflect a concern that there are too many.  Without considerable further discipline beyond the proposition that `ideas spread like diseases' it is not unreasonable to worry about whether an `epidemiological expectations' approach is sufficiently well defined to be worth exploring.
-  % \subsubsection{Why Identical Rational Expectations Remain the Default}\label{subsubsec:expectations-are-heterogeneous}\hypertarget{WhyIdentical RationalExpectationsRemainTheDefault}{}
-  ``Rational Expectations'' (`RE') -- which in this context really means `identical expectations' --  remains a default at least partly because it usually can generate unique and testable predictions for the dynamics of aggregate variables.
-
-  But several counterpoints are worth emphasizing.
-
-  The first is that expectations are \textit{measurable}, and increasingly measured in the kinds of micro datasets used to calibrate and simulate HA-macro models.  All survey data (including income and wealth) need to be treated carefully to guard against measurement problems, and the extensive literature on the measurement of expectations suggests that those data should be treated with particular care -- but also demonstrates that robust information is contained in the answers to such questions.
-
-  Thus, EE models have a source of discipline unavailable in the RE framework. This fact could help counter concerns about whether such models provide too many degrees of freedom to be usefully testable.
-
-
-  % -- even if solving RA models in the presence of nonexpectational heterogeneity (wealth; income) is a major challenge.  %But the HA-Macro literature has helped macroeconomists get comfortable with results that emerge from the simulation of large populations of agents all of whom are in different circumstances.
-
-
-  RE also corresponds rather directly to philosophers' traditional formulation of how humans can come to know things: A solitary reasoner has some fundamental assumptions about the world and makes logical/mathematical deductions to construct beliefs about things not directly observable (like, the future).\footnote{See Bertrand~\citep{russell1946history} for a history that traces these ideas all the way back to Plato and Aristotle.}%\footnote{\cite{broad1952ethics} is a descendant of Hume's: \href{https://en.wikipedia.org/wiki/Problem_of_induction}{``Induction is the glory of science and the scandal of philosophy''.}}
-
-  Yet even in philosophy there is a growing recognition that most knowledge that people (think they) possess cannot possibly be so hard-core.  As \cite{coady1992testimony}, an early advocate of ``social epistemology,'' puts it, many of us have never directly observed the delivery of a baby, yet we have firm convictions about how it happens.  And most of us have not mastered the skills necessary to prove by personal observation of sunrises and sunsets (and intricate mathematical deduction) that the Earth is (roughly) spherical.  We believe that the Earth is spherical, and a great many other things, because to a large degree we trust the testimony of other people who tell us that they have collected the facts and done the math.
-
-  % In some cases, the RE equilibrium is the eventual limit of a process of social interaction (a model of scientific belief transmission may imply that there are fewer members of the Flat Earth Society with each passing year).  But even in those epidemiological models where convergence occurs, a difference with the RE model is that the process of reaching consensus takes time rather than being instantaneous.
-
-  % Keynes quotes:
-
-  % "If we speak frankly, we have to admit that our basis of knowledge for estimating the yield ten years hence of a railway, a copper mine, a textile factory, the goodwill of a patent medicine, an Atlantic liner, a building in the City of London amounts to little and sometimes to nothing"
-
-  % "Even apart from the instability due to speculation, there is the instability due to the characteristic of human nature that a large proportion of our positive activities depend on spontaneous optimism rather than on a mathematical expectation, whether moral or hedonistic or economic. Most, probably, of our decisions to do something positive, the full consequences of which will be drawn out over many days to come, can only be taken as a result of ``animal spirits'' of a spontaneous urge to action rather than inaction, and not as the outcome of a weighted average of quantitative benefits multiplied by probabilities"
-
-  % The sensible question, then, is how best to model the ways in which external sources of information produce individuals' beliefs. %This is the potential point of entry for epidemiological models:  As a mathematical or computational matter, there is little difference in the set of ways in which information might be transmitted from person to person (or common source to person) and the ways in which infection might be transmitted.
-\end{comment}
 }
 
 \subsection{Epidemiological Models}\label{subsec:epiNet}
@@ -582,7 +552,7 @@ One of our ambitions is for this survey to infect scholars with the idea that it
   \bibliographystyle{apalike}
   \pagebreak
   \bibliography{reference,handbook}
-}{\bibliography{EpiExp,handbook}}
+}{\bibliography{reference,handbook}}
 % \bibliographystyle{Vancouver-Numbered-Style(3)}
 
 \pagebreak

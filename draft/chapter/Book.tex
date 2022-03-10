@@ -1,35 +1,29 @@
-% -*- mode: LaTeX; TeX-PDF-mode: t; -*-
+% epi_cha -*- mode: LaTeX; TeX-PDF-mode: t; -*-
 \input{./econtexRoot} % Set paths for root and various resources
+%\documentclass[book,numbers]{elsbook-P04}
+\documentclass{\econtex}
+\usepackage{ifthen}\newboolean{inBook}\setboolean{inBook}{true}
+\setboolean{inBook}{false}
+
 \providecommand{\texname}{EpiExp}% Keyname for the paper
-\documentclass[book,numbers]{elsbook-P04}
 
-%\newcommand{\Recovered}{\ensuremath{R}}
-\newcommand{\Recovered}{R}
-\newcommand{\recovered}{r}
+\providecommand{\Recovered}{}
+\providecommand{\recovered}{}
 
-%\newcommand{\Infected}{\ensuremath{I}}
+\renewcommand{\Recovered}{R}
+\renewcommand{\recovered}{r}
+
+% \newcommand{\Infected}{\ensuremath{I}}
 \newcommand{\Infected}{I}
 
-%\newcommand{\Susceptible}{\ensuremath{S}}
+% \newcommand{\Susceptible}{\ensuremath{S}}
 \newcommand{\Susceptible}{S}
 
 
-\usepackage{ifthen}
-\newboolean{inBook}
-\setboolean{inBook}{true}
-%\setboolean{inBook}{false}
-
-\ifthenelse{\boolean{inBook}}{
 \usepackage{amsmath,amssymb,amsfonts,amsthm,makeidx,graphicx,colortbl}
 \usepackage{txfonts}
 \usepackage{helvet}
 \usepackage{natbib}
-\usepackage{hyperref}
-\hypersetup{
-	colorlinks,
-	citecolor=violet,
-	linkcolor=red,
-	urlcolor=blue}
 
 \usepackage{comment}
 \usepackage{moreverb}
@@ -40,23 +34,36 @@
 
 \makeindex
 \setcitestyle{authoryear}
+
+\ifthenelse{\boolean{inBook}}{
+  \usepackage{hyperref}
+  \hypersetup{
+    colorlinks,
+    citecolor=violet,
+    linkcolor=red,
+    urlcolor=blue}
+
 }{
-\usepackage{footmisc,datetime2,refcount,xr-hyper,hhline,rotating,subfig,makecell,subfloat}
-\usepackage{econtexSetup} % Gets, configures often-used packages
-\bibliographystyle{econtex} % Custom author (year) bib style
+%  \newif\ifdvi\dvitrue
+%  \@ifundefined{pdfoutput}{}{\ifnum\pdfoutput>0 \dvifalse\fi}
+
+  \usepackage[econtex]{optional}
+  \usepackage{footmisc,datetime2,refcount,hhline,rotating,subfig,makecell,subfloat}
+  \usepackage{\econtexSetup} % Gets, configures often-used packages
+  \bibliographystyle{\econtexBibStyle} % Custom author (year) bib style
 }
 
-%\includeonly{BM-Chapters}
+% \includeonly{BM-Chapters}
 
 \begin{document}
 
 \ifthenelse{\boolean{inBook}}{
-\Frontmatter
+  \Frontmatter
 
-\Mainmatter
+  \Mainmatter
 }{ % else not in book
-  \def\jmkLabel#1{\@bsphack\protected@write\@auxout{}{\string\Newlabel{#1}{\@currentlabel}}\@esphack}
-  \def\Newlabel#1#2{\expandafter\xdef\csname X@#1\endcsname{#2}}
+  % \def\jmkLabel#1{\@bsphack\protected@write\@auxout{}{\string\Newlabel{#1}{\@currentlabel}}\@esphack}
+  % \def\Newlabel#1#2{\expandafter\xdef\csname X@#1\endcsname{#2}}
 }
 
 \include{epi_chapter}
