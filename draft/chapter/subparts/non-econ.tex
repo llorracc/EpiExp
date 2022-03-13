@@ -1,6 +1,6 @@
 \subsection{Non-economic Applications}\label{subsec:nonecon}\hypertarget{nonecon}{}
 
-This section highlights elements of epidemiological modeling in other fields that might be of most value to economists.   \ifthenelse{\boolean{inBook}}{}{(See the literature map in Figure \ref{fig:graph_other}).}  We focus on the following three areas:
+This section highlights elements of epidemiological modeling in other fields that might be of most value to economists.   \ifthenelse{\boolean{inBook}}{}{(See the literature map in Figure \ref{fig:graph_other}).}  We focus on three areas:
 \begin{verbatimwrite}{./Slides/NonEcon}
   \begin{enumerate}
   \item the spread of news, fake news, and rumors
@@ -21,11 +21,10 @@ This section highlights elements of epidemiological modeling in other fields tha
   \end{figure}
 }
 
-\cite{daley1964epidemics}'s work proposing that rumors spread like diseases spurred a literature exploring variants of the classical epidemiological model.  A highly cited example (\cite{jin2013epidemiological}) \ifthenelse{\boolean{inBook}}{}{augments the usual three compartments of Susceptible, Infected, and Exposed with another compartment of skeptics, and}
-estimates a model using the diffusion patterns of news about eight real events among Twitter users, including the Boston Marathon Bombings, the resignation of Pope Benedict, and rumors such as the Mayan Doomsday.  In each case, the model matches the dynamics reasonably well. (See Figure \ref{fig:news_curve}).
+\cite{daley1964epidemics}'s proposal that rumors spread like diseases spurred a literature exploring variants of the classical epidemiological model.  A highly cited example (\cite{jin2013epidemiological}) \ifthenelse{\boolean{inBook}}{}{augments the usual three compartments of Susceptible, Infected, and Exposed with another compartment of skeptics, and}
+estimates a model using the diffusion patterns of news about eight real events among Twitter users, including the Boston marathon bombings  and the resignation of Pope Benedict, and rumors such as the Mayan doomsday.  In each case, the model matches the dynamics reasonably well. \ifthenelse{\boolean{inBook}}{}{(See Figure \ref{fig:news_curve}).}
 
-% \begin{center}[Insert Figure \ref{fig:news_curve}  here]\end{center}
-
+% \begin{center}[Insert Figure \ref{fig
 % \begin{center}[Insert Figure \ref{fig:news_curve}  here]\end{center}
 \begin{verbatimwrite}{./Slides/FigureNewsCurve}
   \begin{figure}[!ht] \centering  % [h!]
@@ -37,36 +36,36 @@ estimates a model using the diffusion patterns of news about eight real events a
   \end{figure}
 \end{verbatimwrite}%%%Slides
 
+\ifthenelse{\boolean{inBook}}{}{
 \input{./Slides/FigureNewsCurve}
-
-\href{https://science.sciencemag.org/content/359/6380/1146}{\cite{vosoughi_spread_2018}} found that falsehood spreads on the internet faster than the truth, possibly because the interesting falsehoods have a greater capacity to produce emotional arousal.  Similarly, \href{https://journals.sagepub.com/doi/10.1509/jmr.10.0353}{\cite{berger2012makes}} found that ``content that evokes high-arousal positive (awe) or negative (anger or anxiety) emotions is more viral. Content that evokes low-arousal, or deactivating, emotions (e.g., sadness) is less viral.'' \href{https://arxiv.org/abs/1805.12512}{\cite{zannettou2018origins}} found that content of memes affect their virality: racist and political memes are particularly viral.
+}
+\href{https://science.sciencemag.org/content/359/6380/1146}{\cite{vosoughi_spread_2018}} found that falsehood spreads on the internet faster than the truth, possibly because the interesting falsehoods have a greater capacity to produce emotional arousal.  Similarly, \href{https://journals.sagepub.com/doi/10.1509/jmr.10.0353}{\cite{berger2012makes}} claim that ``content that evokes high-arousal positive (awe) or negative (anger or anxiety) emotions is more viral. Content that evokes low-arousal, or deactivating, emotions (e.g., sadness) is less viral.'' \href{https://arxiv.org/abs/1805.12512}{\cite{zannettou2018origins}} found that content of memes affect their virality: racist and political memes are particularly viral.
 
 \cite{kohlhasasymmetric} attempt to explain evidence that people seem to underreact to events that are not very surprising, but overreact to surprising events.  The authors attempt to model this using a combination of ideas from Sims's rational inattention framework and the Bordalo-Shleifer diagnostic expectations model, but to the extent that surprising events elicit emotional arousal, this paper may also be connected to the noneconomic literature.  %Whether or not this speculative link is correct, a broader point is that a unifying way to talk about these ideas is to characterize them all as being about ways of quantifying the degree of ``infectiousness'' of various kinds of content.
 
 % About 126,000 rumors were spread by ∼3 million people. False news reached more people than the truth; the top 1% of false news cascades diffused to between 1000 and 100,000 people, whereas the truth rarely diffused to more than 1000 people. ...We found that false news was more novel than true news, which suggests that people were more likely to share novel information. Whereas false stories inspired fear, disgust, and surprise in replies, true stories inspired anticipation, sadness, joy, and trust. Contrary to conventional wisdom, robots accelerated the spread of true and false news at the same rate, implying that false news spreads more than the truth because humans, not robots, are more likely to spread it.
 
-
-\href{https://github.com/iworld1991/EpiExp/blob/master/Literature/allcott2017social.pdf}{\cite{allcott2017social}} used a post-2016 election survey of 1200 U.S. adults to analyze the importance of social media for fake news consumption, exposure to fake news, and partisan composition.  The paper models profit-maximizing entities who supply fake news in order to appeal to consumers subject to confirmation bias. This seems a natural extension of standard epidemiological models to incorporate the production side of the content -- ``infectiousness'' of certain ideas in subpopulations is an incentive for the production of content that will become ``viral'' because of a high reproductive number in the targeted subpopulation.
+\href{https://github.com/iworld1991/EpiExp/blob/master/Literature/allcott2017social.pdf}{\cite{allcott2017social}} used a post-2016-election U.S.\ survey to analyze the importance of social media for fake news consumption, exposure to fake news, and partisan composition.  The paper models profit-maximizing firms who supply fake news in order to appeal to consumers subject to confirmation bias. This seems a natural extension of standard epidemiological models to incorporate the production side of the content -- ``infectiousness'' of certain ideas in subpopulations is an incentive for the production of content that will become ``viral'' because of a high reproductive number in the targeted subpopulation.
 
 Another potential determinant of the degree to which ideas spread is explored in \href{https://www.kdd.org/exploration_files/8._CR.10.Misinformation_in_social_media_-_Final.pdf}{\cite{acemoglu2010spread}}, who show show that the presence of ``forceful'' agents (who are immune to others' opinions) may lead to the persistence of misinformation. The key insight is that heterogeneity in infectiousness can reflect characteristics of the sender (`forcefulness') as well as the receiver.
 
-Epidemiological models have also been used to study the spread of scientific ideas.   \href{https://github.com/iworld1991/EpiExp/blob/master/Literature/bettencourt2006power.pdf}{\cite{bettencourt2006power}} finds that epidemiological models perform well in explaining the the spread of Feynman diagrams through theoretical physics communities (see Figure \ref{fig:science_ideas_curve}). \ifthenelse{\boolean{inBook}}{}{That paper uses an SEIR model where E represents the exposed state, and a SEIZ model where Z represents skeptics (mutually exclusive with being infected) who held competing ideas. Introducing skeptics generates an additional steady state of the model where competing ideas coexist. This differs from two-compartment and three-compartment models, in which typically the system converges to a single state.}
+Epidemiological models have also been effectively used to study the spread of scientific ideas.    For example,  \href{https://github.com/iworld1991/EpiExp/blob/master/Literature/bettencourt2006power.pdf}{\cite{bettencourt2006power}} find that epidemiological models perform well in explaining the the spread of Feynman diagrams through theoretical physics communities\ifthenelse{\boolean{inBook}}{.}{. (see Figure \ref{fig:science_ideas_curve})}
+ \ifthenelse{\boolean{inBook}}{}{That paper uses an SEIR model where E represents the exposed state, and a SEIZ model where Z represents skeptics (mutually exclusive with being infected) who held competing ideas. Introducing skeptics generates an additional steady state of the model where competing ideas coexist. This differs from two-compartment and three-compartment models, in which typically the system converges to a single state.}
 
-% \begin{center}[Insert Figure \ref{fig:science_ideas_curve} here]\end{center}
 
+\ifthenelse{\boolean{inBook}}{}{
 \begin{verbatimwrite}{./Slides/FigureScienceIdeasCurve}
-  \begin{figure}[!ht] \centering  % [h!]
+  \begin{figure}[!ht] \centering
     \caption{ ~Diffusion of scientific ideas: \href{http://web.mit.edu/dikaiser/www/BAKC.PhysA.pdf}{Bettencourt et al (2006)}}\nocite{bettencourt2006power}
     \label{fig:science_ideas_curve}
     \centerline{\includegraphics[width=\textwidth]{./figures/Feynman}}
-    \begin{flushleft}{\footnotesize Note: This graph is reproduced from \cite{bettencourt2006power}, showing their fitted SEIZ model to the diffusion dynamics of Feynman diagrams in three theoretical physics communities, measured by the cumulative number of authors using the Feynman diagrams.}
+    \begin{flushleft}{\footnotesize Note: \cite{bettencourt2006power}, showing their fitted SEIZ model to the diffusion dynamics of Feynman diagrams in theoretical physics communities}
     \end{flushleft}
   \end{figure}
-\end{verbatimwrite}%%%Slides
+\end{verbatimwrite}
+}
 
-\input{./Slides/FigureScienceIdeasCurve}
-
-Internet memes are a favorite topic of non-economist modelers. \href{https://github.com/iworld1991/EpiExp/blob/master/Literature/bauckhage2011insights.pdf}{\cite{bauckhage2011insights}} shows that epidemiological models do a good job capturing the growth and decay of some famous memes.\ifthenelse{\boolean{inBook}}{}{ (See Figure \ref{fig:memes_curve}.)} \cite{wang2011epidemiological} finds that a modified SIR model allowing for the reinfection of the ``recovered'' fits  the propagation dynamics of various viral memes well.  %\href{https://github.com/iworld1991/EpiExp/blob/master/Literature/kucharski2016modelling.pdf}{\cite{kucharski2016modelling}} fits an epidemiological model to outbreaks of notable internet contagions such as the ``ice bucket challenge'' and ``no-makeup selfies.''% suggesting an initial reproduction ratio in the range of 1.9 to 2.5.
+Internet memes are a favorite topic of non-economist modelers. \href{https://github.com/iworld1991/EpiExp/blob/master/Literature/bauckhage2011insights.pdf}{\cite{bauckhage2011insights}} shows that epidemiological models do a good job capturing the growth and decay of some famous memes.\ifthenelse{\boolean{inBook}}{}{ (See Figure \ref{fig:memes_curve}.)} \cite{wang2011epidemiological} finds that a modified SIR model allowing for the reinfection of the ``recovered'' fits  the propagation dynamics of various viral memes well.   A large literature has followed their work. %\href{https://github.com/iworld1991/EpiExp/blob/master/Literature/kucharski2016modelling.pdf}{\cite{kucharski2016modelling}} fits an epidemiological model to outbreaks of notable internet contagions such as the ``ice bucket challenge'' and ``no-makeup selfies.''% suggesting an initial reproduction ratio in the range of 1.9 to 2.5.
 
 %	\href{http://cs.stanford.edu/~ashton/pubs/twiral.pdf}{\cite{goel2016structural}} explores the structural factors (independent from the intrinsic properties of the content, nature of contact process, etc.) that seem to determine whether a news story spreads more effectively from a ``broadcast'' (common-source) or from a `viral' (person-to-person) mechanism.
 
@@ -80,7 +79,6 @@ Internet memes are a favorite topic of non-economist modelers. \href{https://git
 
 \begin{verbatimwrite}{./Slides/FigureMemesCurve}
 \begin{figure}[!ht]
-  hi
   \caption{ ~Virality of internet memes: \href{https://github.com/iworld1991/EpiExp/blob/master/Literature/bauckhage2011insights.pdf}{\cite{bauckhage2011insights}}}
   \label{fig:memes_curve}
     \subfloat[``salad fingers'']{\includegraphics[width=\textwidth]{./figures/Memes1}}

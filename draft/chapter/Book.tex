@@ -1,9 +1,9 @@
 % epi_cha -*- mode: LaTeX; TeX-PDF-mode: t; -*-
 \input{./econtexRoot} % Set paths for root and various resources
-%\documentclass[book,numbers]{elsbook-P04}
-\documentclass{\econtex}
+\documentclass[book,numbers]{elsbook-P04}
+%\documentclass{\econtex}
 \usepackage{ifthen}\newboolean{inBook}\setboolean{inBook}{true}
-\setboolean{inBook}{false}
+%\setboolean{inBook}{false}
 
 \providecommand{\texname}{EpiExp}% Keyname for the paper
 
@@ -19,6 +19,7 @@
 % \newcommand{\Susceptible}{\ensuremath{S}}
 \newcommand{\Susceptible}{S}
 
+\newcommand{\contactNum}{\chi}\newcommand{\tranProb}{\tau}\newcommand{\exposures}{\mathcal{E}}
 
 \usepackage{amsmath,amssymb,amsfonts,amsthm,makeidx,graphicx,colortbl}
 \usepackage{txfonts}
@@ -44,8 +45,8 @@
     urlcolor=blue}
 
 }{
-%  \newif\ifdvi\dvitrue
-%  \@ifundefined{pdfoutput}{}{\ifnum\pdfoutput>0 \dvifalse\fi}
+  \newif\ifdvi\dvitrue
+  \@ifundefined{pdfoutput}{}{\ifnum\pdfoutput>0 \dvifalse\fi}
 
   \usepackage[econtex]{optional}
   \usepackage{footmisc,datetime2,refcount,hhline,rotating,subfig,makecell,subfloat}
@@ -59,11 +60,10 @@
 
 \ifthenelse{\boolean{inBook}}{
   \Frontmatter
-
   \Mainmatter
 }{ % else not in book
-  % \def\jmkLabel#1{\@bsphack\protected@write\@auxout{}{\string\Newlabel{#1}{\@currentlabel}}\@esphack}
-  % \def\Newlabel#1#2{\expandafter\xdef\csname X@#1\endcsname{#2}}
+   \def\jmkLabel#1{\@bsphack\protected@write\@auxout{}{\string\Newlabel{#1}{\@currentlabel}}\@esphack}
+  \def\Newlabel#1#2{\expandafter\xdef\csname X@#1\endcsname{#2}}
 }
 
 \include{epi_chapter}
