@@ -1,0 +1,2339 @@
+Journal Pre-proof
+
+The rate of communication
+Shiyang Huang , Byoung-Hyoun Hwang , Dong Lou
+PII:
+DOI:
+Reference:
+
+S0304-405X(21)00127-6
+https://doi.org/10.1016/j.jfineco.2021.03.013
+FINEC 3338
+
+To appear in:
+
+Journal of Financial Economics
+
+Received date:
+Revised date:
+Accepted date:
+
+28 October 2019
+16 June 2020
+16 July 2020
+
+Please cite this article as: Shiyang Huang , Byoung-Hyoun Hwang , Dong Lou , The rate of communication, Journal of Financial Economics (2021), doi: https://doi.org/10.1016/j.jfineco.2021.03.013
+
+This is a PDF file of an article that has undergone enhancements after acceptance, such as the addition
+of a cover page and metadata, and formatting for readability, but it is not yet the definitive version of
+record. This version will undergo additional copyediting, typesetting and review before it is published
+in its final form, but we are providing this version to give early visibility of the article. Please note that,
+during the production process, errors may be discovered which could affect the content, and all legal
+disclaimers that apply to the journal pertain.
+© 2021 Published by Elsevier B.V.
+
+The rate of communication
+Shiyang Huanga, huangsy@hku.hk, Byoung-Hyoun Hwangb,*, bh.hwang@ntu.edu.sg, Dong Louc,d, d.lou@lse.ac.uk
+a
+
+Faculty of Business and Economics (HKU Business School), The University of Hong Kong, Hong Kong
+b
+
+Nanyang Business School, NTU, Singapore
+
+c
+
+London School of Economics, London, United Kingdom
+
+d
+
+Centre for Economic Policy Research (CEPR), London, United Kingdom
+
+*
+
+Corresponding author.
+
+ABSTRACT
+We study the transmission of financial news and opinions through social
+interactions among retail investors in the United States. We identify a series of
+plausibly exogenous shocks, which cause ―treated investors‖ to trade
+abnormally. We then trace the ―contagion‖ of abnormal trading activity from
+the treated investors to their neighbors and their neighbors’ neighbors.
+Coupled with methodology drawn from epidemiology, our setting allows us to
+estimate the rate of communication and how it varies with the characteristics
+of the underlying investor population.
+Keywords
+Social Interaction, Investor communication, Information diffusion
+JEL classification
+G11, G12, G14, G20
+1. Introduction
+People do not operate in a social vacuum; instead, they constantly interact with one another. Social
+interactions ensure that we are privy to the latest news, ideas, and opinions. But they also expose us to the
+spread of noise or even misinformation. While the theme of contagion and diffusion has been examined
+by many disciplines (e.g., Berger, 2014, 2016; Jackson, 2014, 2019), there is likely no field that has
+1
+
+looked at this subject more extensively than the field of epidemiology (e.g., Keeling and Grenfell, 2000;
+Heesterbeek, 2002; Heffernan, Smith, and Wahl, 2005; Delamater et al., 2019). The goal of this study is
+to draw from the epidemiology literature and to estimate the ―effective transmission rate‖ of financial
+news and opinion and how it varies with investor characteristics.
+The ideal experiment with which to address our research question would be to randomly seed
+pieces of information among investors and then track their diffusion through the investors’ respective
+networks. Our empirical design draws inspiration from this ideal. In particular, we consider a series of
+cross-industry stock-financed mergers and acquisitions (M&As). At the completion of each cross-industry
+stock-financed M&A, investors in the target firm, residing in some industry x, receive shares of the
+acquirer firm, residing in some industry y. We conjecture that the endowment of shares from the acquirer
+industry leads at least some of the affected investors to form opinions about the acquirer industry and to
+start trading firms in the acquirer industry (aside from the acquirer firm itself). If such ―target investors‖
+communicate their newly gained industry perspectives to other investors in their neighborhood, we may
+observe abnormal trading activity in the acquirer industry not only by target investors but also by their
+neighbors and their neighbors’ neighbors. Tracing the contagion of abnormal trading activity in the
+acquirer industry thus enables us to estimate the degree to which financial information spreads through
+social interactions and the extent to which the ―effective transmission rate‖ varies with the characteristics
+of the sender of the financial information and the receivers of it.
+To implement our empirical tests, we combine detailed trading records of about 70,000
+households in the United States from a discount brokerage for 1991 to 1996 with data on all crossindustry stock-financed M&As that occurred over the same time period.
+To gauge the validity of our empirical design, we first conduct a simple difference-in-differences
+analysis to see how much more intensely target investors trade in the acquirer industry in the post-M&A
+period (excluding trading activity in the acquirer firm itself). We repeat the above difference-indifferences analysis for ―target neighbors‖; target neighbors are non-target retail investors who reside
+within three miles of a target investor.
+2
+
+Our results reveal that in the year following the completion of a cross-industry stock-financed
+M&A, target investors more than double the number of trades they execute in the corresponding acquirer
+industry as compared to other investors. This abnormal trading activity in the acquirer industry dies out
+within two years.
+Consistent with the presence of contagion, we find that target neighbors also trade substantially
+more actively in the acquirer industry compared to investors who do not live within three miles of a target
+investor. Target investors and target neighbors tend to trade in the same direction; that is, if a target
+investor is buying in the acquirer industry, so are the investor’s neighbors. Consistent with ―word of
+mouth‖ playing a role in generating our results, our effect becomes statistically and economically weaker
+the further away an investor resides from a target investor.
+In a placebo test to help rule out alternative interpretations, we consider cross-industry M&As
+that are 100% cash-financed. In cash-financed M&As, target investors receive cash as opposed to shares
+in the acquirer firm and, as such, are less incentivized to study the corresponding acquirer industry. We
+find that our effect disappears when we consider cash-financed M&As. Moreover, inconsistent with a
+simple local attention story, we observe little abnormal trading activity when a stock-financed M&A is
+first announced. Instead, abnormal trading activity accrues only after target investors receive shares of the
+acquirer firm.
+Our main analysis builds on the above findings and utilizes methodology drawn from the
+epidemiology literature to estimate an analog of the reproduction number; the reproduction number is the
+average number of new infections generated by a single infective. We hereafter refer to this analog as the
+rate of communication, or, simply, the communication rate. We also estimate how much the
+communication rate varies with the characteristics of the underlying investor population, including age,
+income, gender, past investment performances, measures of lifestyle, and state of residence.
+
+3
+
+Our estimate of the overall communication rate is 0.32 with a 95% confidence interval of 0.17 to
+0.46. In other words, one ―infected‖ investor, on average, ―infects‖ 0.32 neighbors.1 As we discuss in
+Section 2.1, an outbreak will fade if the reproduction number falls below one; a disease will continue to
+spread and grow if the number is above one. Our communication rate of 0.32 thus suggests that while the
+transmission of financial information through social interactions is significant, it eventually dissipates
+without intervention, at least in our setting. To put this number in perspective, Cao et al. (2020) estimate
+that the effective reproduction number of COVID-19 in China during the onset of its outbreak (December
+2019–January 2020) was 4.08 with a 95% confidence interval of 3.37 to 4.77.
+A key difference between the transmission of a pathogen and the transmission of an idea is that
+the latter occurs voluntarily. That is, for an idea to transmit, a mere interaction between two individuals is
+not sufficient. The sender of the information must be motivated to share the idea. In addition, the receiver
+must be willing to listen and consider the idea interesting and credible enough to absorb and act on the
+idea. This line of thinking forms the basis for our analysis of how much the communication rate varies
+with characteristics of the underlying investor population.
+Our first set of determinants is motived by studies of homophily. These studies note that people
+prefer to interact with people of similar backgrounds. They are also more likely to trust information
+received from these individuals (Lazarsfeld and Merton, 1954; McPherson, Smith-Lovin, and Cook,
+2001). Transmissions are thus substantially stronger between people with similar backgrounds (Jackson,
+2019).
+Consistent with this perspective, we find that the transmission of an investment idea is strongest
+when there are few differences in age, income, or gender between the sender of financial information and
+the receiver. While our estimate of the overall communication rate is 0.32, we find that the
+communication rate between investors of the same age, the same income category, and the same gender
+rises to 0.47 with a 95% confidence interval of 0.29 to 0.65. When comparing the relative importance of
+1
+
+We obtain this estimate when measuring trading activity in the acquirer industry through the number of trades placed in the
+acquirer industry. All estimates reported in the Introduction are based on the number of trades. As we discuss below, the
+estimates are similar when considering the dollar value of trades.
+
+4
+
+differences in age, income, and gender in slowing down transmission, we find that a ten-year age gap, a
+one-category difference in income, and being of an alternate gender lowers the communication rate by 9%,
+3%, and 12%, respectively. That is, in the investment context, differences in age and gender represent
+higher barriers to information transmission than differences in income.2
+A key strength of our setting is that we can pinpoint both the sender of financial information and
+the receivers. We use this feature to uncover notable asymmetries. In particular, our results suggest that
+while transmissions are strongest among investors of similar age, gender, and income, relatively speaking,
+transmission from older, high-income, female investors to younger, low-income, male investors is
+stronger than transmission in the reverse direction. One possible explanation for these asymmetries is that
+investors perceive information conveyed by older, wealthier, female investors as more credible and, thus,
+are more likely to act on any views transmitted by such investors.
+Our second set of determinants relate to investors’ past investment performances. The psychology
+literature finds that people are more likely to share a story and others are more likely to listen if the story
+helps receivers re-access positive emotional experiences. That is, people are more likely to converse about
+a story if it invokes pleasant memories (Lovett, Peres, and Shachar, 2013; Berger, 2014, 2016). Consistent
+with this view, Kaustia and Knüpfer (2012), Heimer and Simon (2015), and Escobar and Pedraza (2019)
+find evidence that investors more frequently share stories of investment success than stories of investment
+failure. Han, Hirshleifer, and Walden (2020) model the implications of agents’ preferences for sharing
+successes over failures.
+In our setting, we conjecture that the communication rate is a function not only of the sender’s
+past investment performance but also of that of the receiver. If receivers have suffered recent investment
+failures, they are unlikely to entertain a conversation about investment-related topics and, consequently,
+act on any ideas so transmitted.
+
+2
+
+Our data vendor uses nine income categories based on the following cutoffs: $15,000, $20,000, $30,000, $40,000, $50,000,
+$75,000, $100,000, and $125,000. A one-category difference in annual income therefore represents a sizeable income difference.
+
+5
+
+In line with this view, we find that the communication rate is the highest, 0.44, when both the
+sender’s and the receiver’s recent portfolio performances are above the sample median. If the sender’s
+recent portfolio performance is above the median, yet the receiver’s performance is below the median, the
+communication rate drops by 16% to 0.37. The communication rate is the lowest, 0.29, when both the
+sender’s and the receiver’s portfolio performances are below the sample median. Comparing these figures
+with those based on differences in investors’ socioeconomic backgrounds, we can infer that recent
+investment performances are a stronger determinant of the rate of communication than differences in
+socioeconomic backgrounds.
+Our third and final set of determinants captures similarities (or differences) in lifestyle and state
+of residence. In short, we find that the communication rate is highest when the sender and the receiver
+lead a similar lifestyle as approximated through common ownership of unique vehicles (truck,
+recreational vehicle (RV), motorcycle). Moreover, the communication rate is highest in states for which
+survey evidence indicates that people spend more time visiting friends (Putnam, 2000).
+The rest of the paper is organized as follows. Section 2 describes and situates our paper in the
+corresponding literatures. Section 3 describes our data. Section 4 introduces our empirical setting and
+presents evidence that people turn to each other for financial advice and investment ideas. Section 5
+estimates the rate of communication and how it varies with the characteristics of the underlying investor
+population. Section 6 examines whether, in our setting, investors transmit value-relevant information or
+merely spread noise. Section 7 concludes.
+
+2. Literature review and contribution
+Our paper builds on two streams of research: medical studies of how frequently various
+pathogens are transmitted and finance studies providing evidence of word-of-mouth effects in financial
+markets.
+
+2.1. Pathogen transmission
+6
+
+The reproduction number is one of the most fundamental and most frequently examined metrics
+in epidemiology (e.g., Keeling and Grenfell, 2000; Heesterbeek, 2002; Heffernan, Smith, and Wahl,
+2005; Delamater et al., 2019). The reproduction number is the mean number of infections generated by a
+single pathogen. The basic reproduction number is the reproduction number when there is no immunity in
+the population; it describes the maximum epidemic potential of a pathogen. The effective reproduction
+number is the reproduction number when there is some immunity in the population through either prior
+exposure or vaccination.
+The reproduction number is used to describe the intensity of an outbreak and to gauge its
+potential size (Heffernan, Smith, and Wahl, 2005). It is also used to estimate the proportion of the
+population that needs to be vaccinated to contain an epidemic (Anderson and May, 1982, 1985). When no
+vaccine exists, the reproduction number is a crucial component in public health planning (Doucleff, 2014;
+Flaxman et al., 2020).
+The reproduction number is naturally a function of the pathogen (e.g., how infectious it is). It is
+also a function of the host population and the environment (e.g., population density, age distribution, and
+overall level of hygiene). As a result, even for a given disease there is never a single reproduction
+number. By its very nature, the reproduction number varies with both time and locale. Such variation is
+exacerbated by the fact that any true reproduction number has to be estimated (Delamater et al., 2019).
+Not surprisingly, even for a given disease, the estimated reproduction numbers reported in the
+literature vary widely. For instance, in a survey of the literature, Anderson (1982) finds that the reported
+basic reproduction numbers for measles range from 5.4 to 18. Guerra et al. (2017) note an even wider
+range of feasible reproduction numbers, going from 3.7 to 203.3.
+Despite, or perhaps as a result of, the above challenges, and given the importance of reproduction
+numbers, many studies attempt to estimate the reproduction numbers of various pathogens and quantify
+how much they vary with the characteristics of the host and the environment (e.g., Keeling and Grenfell,
+2000; Heesterbeek, 2002; Heffernan, Smith, and Wahl, 2005; Guerra et al., 2017).
+
+7
+
+2.2. Word-of-mouth effects in financial markets
+The concept of contagion has begun to also spark the curiosity of finance researchers,
+accompanied by calls ―to move from behavioral finance to social finance‖ (Hirshleifer, 2020 AFA
+Presidential Address) and to exert greater research effort toward better understanding ―the epidemiology
+of narratives‖ (Shiller, 2017 AEA Presidential Address).
+Shiller and Pound (1989) are perhaps the first to consider the transmission of financial
+information through social interactions. They conduct surveys of both retail investors and institutional
+investors. They conclude that, in general, investors do not derive investment ideas by themselves. Rather,
+they are drawn to stocks through conversations with their peers.
+Evidence in subsequent work supports the notion that the transmission of investment ideas
+through social interactions is both frequent and important. Hong, Kubik, and Stein (2005) find that a fund
+manager purchases more of a stock when other managers from different fund families in the same city
+increase their purchases of the same stock. Ivković and Weisbenner (2007) find that the above positive
+correlation in trading behavior between neighbors extends to retail investors. Hvide and Östberg (2015)
+utilize micro data, which allow them to identify coworkers at the plant level. They find that an increase in
+the fraction of coworkers who make a stock purchase in a given month increases the probability that a
+worker makes a stock purchase.
+Our study builds on the above literature. The key distinction is that we identify a series of
+plausibly exogenous shocks that cause ―treated investors‖ to trade abnormally. We then dynamically trace
+the percolation of abnormal trading activity through treated investors’ social networks. Our approach
+allows us to provide an estimate of the rate of communication between investors. It also allows us to
+quantify how much this rate varies with investors’ socioeconomic backgrounds, recent investment
+performances, and lifestyles. Metaphorically speaking, while prior studies provide evidence that ―people
+can get sick from each other,‖ to the best of our knowledge, we are the first to provide an actual estimate
+of the ―contagion rate,‖ as well as estimates of how much this rate varies with the characteristics of the
+host population. Our estimates can help inform theory. They can also help guide the design of public
+8
+
+policy and information campaigns. Of course, estimating the rate of communication is not without its
+challenges and is subject to various caveats. We discuss these challenges and caveats in Sections 3 and 5.
+
+3. Data
+3.1. Data sources and descriptive statistics
+We obtain detailed investor trading records for a subsample of US households for the 1991–1996
+period from a discount brokerage firm. These are the same records used by Odean (1998) and Barber and
+Odean (2001), among others.3 The brokerage database contains ZIP Code information, which enables us
+to compute the distance between two investors using the longitude and latitude associated with each ZIP
+Code, adjusted for curvature.4 We augment our data with information from the US Census Bureau’s ZIP
+Code database, which, among other things, includes the population and average household income for
+each ZIP Code.
+We match our investor trading records with data on all M&As that take place from 1991 to 1996.
+In constructing our M&A sample, we follow the procedure laid out in Mitchell and Pulvino (2001). We
+require that the acquirer and target firms reside in separate industries. Industries are defined based on the
+Fama-French 49-industry classification. Using alternative industry classifications, such as the FamaFrench 38- or 30-industry classifications or the Global Industry Classification Standard industry groups
+does not change the main results of the paper (results available upon request). We exclude M&As for
+which we cannot identify the acquirer or the target industry. We separate M&A deals into those that are
+stock-financed and those that are cash-financed: we define the former as deals that are at least partially
+equity-financed; the latter are 100% cash-financed.
+Our final sample contains 459 M&As executed from 1991 to 1996, of which 316 are stockfinanced and 143 are cash-financed. In Panel A of Table 1, we report summary statistics for these M&A
+3
+
+In our data, one household can have multiple accounts. We conduct our analyses at the household level; that is, we aggregate all
+accounts held by the same household into one observation. Henceforth, we use the terms ―households‖ and ―investors‖
+interchangeably.
+4
+The formula is: distance = arccos(cos(a1)cos(a2)cos(b1)cos(b2) + cos(a1)sin(a2)cos(b1)sin(b2) + sin(a1)sin(b1)) * 3963, where a1
+and b1 (a2 and b2) are the latitudes (longitudes) of the two Zip Codes and 3,963 miles is the radius of the Earth.
+
+9
+
+deals. For stock-financed M&As, the median acquirer-market capitalization is $952 million and the
+median target-market capitalization is $72 million. For cash-financed M&As, the median acquirer-market
+capitalization is $1,561 million and the median target-market capitalization is $93 million.
+We end up with a sample of around 70,000 investor accounts. Fig. 1 displays a heat map of the
+number of investors in each state. As can be seen in Fig. 1, the investors in our sample are
+disproportionately clustered on the East Coast and the West Coast. In Panel B of Table 1, we provide
+summary characteristics for the investors in our sample. The median and mean portfolio sizes are $13,141
+and $41,030, respectively. The average investor holds 3.88 stocks and places 0.47 trades a month, with an
+average monthly trade value of $5,679. The average investor age in our sample is 42 and the average
+annual household income is $69,500. Panel C provides summary statistics for households (residents) in
+each ZIP Code.
+
+3.2. Caveats
+Perhaps the most appealing feature of our data is that our trading records are highly detailed and
+the median retail investor in our sample holds (only) three stocks. As a result, substituting any one stock
+position with another stock from a different industry is likely to have a significant effect on investor
+attention.
+Our data are also subject to several caveats. First, the set of retail investors in our sample is not
+randomly drawn as, by construction, they are all clients of the same discount brokerage firm. To the
+extent that having a common broker is an indication of belonging to the same ―cluster,‖ given that
+transmissions are stronger within a cluster than across clusters (Jackson, 2019), our estimate of the overall
+level of contagiousness of financial information is likely to be upwardly biased. We are less concerned
+about this particular bias as it merely reinforces our conclusion that, at least for our type of financial news
+and opinion, transmission dies out on its own without intervention.
+We are more concerned about a second shortcoming. The landscape of the US equity market has
+changed dramatically over the past three decades. This change in landscape does not necessarily
+10
+
+invalidate our exercise. After all, by their very nature, transmission rates vary with the characteristics of
+the host and the environment and, thus, with time. However, it does raise questions about whether we can
+extrapolate our results to today’s marketplace.
+We are mindful of this concern and, in fact, strongly suspect that today’s level of contagiousness
+is different from its level in the 1990s. In particular, we suspect that, with the advent of modern
+communication technologies, information has become more contagious.5 We believe that examining the
+extent to which the level of contagiousness has changed represents an interesting subject for future
+research. Relatedly, it would be interesting to explore how much contagiousness varies across distinct
+types of financial information.6
+As much as we are mindful of the possibility that our estimate of the overall level of
+contagiousness does not describe today’s marketplace, we suspect that our estimates of how much the
+level of contagiousness varies with investor characteristics (still) do. The reason is that there are inherent,
+persistent behavioral components in social structures and norms that likely do not vary much through time
+(e.g., the tendency to interact with people of similar age). We thus suspect that whatever variation in
+information transmission we find in our setting still applies today. Such persistence would be consistent
+with findings in the epidemiology literature that while the reproduction number varies dramatically across
+diseases (Doucleff, 2014), there is consistency across diseases in the extent to which reproduction
+numbers vary with characteristics of the host and the environment, such as population density and the
+general level of hygiene (Keeling and Grenfell, 2000; Heesterbeek, 2002; Heffernan, Smith, and Wahl,
+2005).
+
+4. Our empirical setting
+A major challenge facing empirical, non-experimental research on diffusion and contagion is the
+presence of common shocks that affect everyone. To illustrate by example, prior studies generally infer
+5
+
+At the same time, we caution that there is also research suggesting that, even in recent years, a mere 7% of word of mouth
+happens online (Berger, 2016).
+6
+Chen and Hwang (2020) provide some evidence in this regard.
+
+11
+
+the transmission of financial information through positive correlations in trading patterns between
+investors residing in the same locale. Yet, if two investors in the same locale exhibit correlated trading
+patterns, how can we be certain that they actually communicate with one another rather than simply have
+similar backgrounds/tastes/preferences and/or access to the same local news?
+Some studies address this common-shock problem through natural experiments, which generate
+random assignments of individuals to classes or cohorts (e.g., Duflo and Saez, 2003; Lerner and
+Malmendier, 2013; Shue, 2013). Others follow a regression discontinuity approach (e.g., Anderson and
+Magruder, 2012). Still others conduct field studies. For instance, Banerjee et al. (2019) seed information
+on a raffle in three subsets of rural villages in India: in the first subset, the information is seeded with
+randomly selected individuals; in the second subset, the information is seeded with village elders; in the
+third subset, the information is seeded with individuals nominated by villagers as the ―best gossipers.‖
+The authors then analyze which setting generates the highest information diffusion rate by counting the
+number of phone calls made by villagers to enter the raffle.
+Our empirical design draws inspiration from that of Banerjee et al. (2019). Rather than seeding a
+raffle, our setting seeds attention to an industry among US retail investors; we think that our seeding
+through M&As is plausibly exogenous to the backgrounds/tastes/preferences of retail investors. Rather
+than count the number of phone calls made, we check for abnormal trading activity in the acquirer
+industry by target neighbors.
+There are of course other differences but, overall, we consider the general idea behind our
+research design to be similar to that of Banerjee et al. (2019) and we believe we can draw appropriate
+causal inferences. In the next two subsections, we discuss two simple difference-in-differences analyses
+to gauge the soundness of our general idea.
+
+4.1. Does the endowment of acquirer shares lead to increased trading in the acquirer industry by target
+investors?
+
+12
+
+First, we gauge the validity of our assumption that the endowment of acquirer shares draws target
+investors’ attention to the corresponding acquirer industry and increases trading activity in the acquirer
+industry. We estimate the following regression equation:
+(1)
+where Trading Acti,m is the number (or dollar value) of trades by investor in the acquirer industry after
+cross-industry stock-financed M&A m as a fraction of investor
+
+total number (or dollar value) of trades
+
+across all industries. Since the exact completion date is missing for many M&As, we examine total
+trading behavior in months 7 to 18 after the M&A is announced as, on average, it takes around six
+calendar months for a stock-financed M&A to complete (Giglio and Shu, 2014).
+Since target investors are bound to sell their holdings in the acquirer firm, we exclude the
+acquirer firm when calculating trading activity in the acquirer industry. To exclude dormant accounts, we
+require that investors place at least one trade (in any stock) in the year prior to and the year following the
+M&A.
+We further require that households have no trading/holdings in the acquirer industry in the year
+prior to the M&A announcement. We do so for two reasons. First, target investors that have prior
+holdings in the acquirer industry could ―mechanically‖ sell their holdings upon receiving acquirer shares
+to reduce their overall exposure to the acquirer industry. Second, we conjecture that target investors with
+no prior trading/holdings in the acquirer industry are more likely to be ―shocked/treated‖ by the
+endowment of shares in the acquirer industry.
+The main independent variable in our regression equation is Target Investori,m, which equals one
+if investor holds shares in the target firm in the month prior to the M&A announcement and zero
+otherwise. Since we require that all investors have no trading/holdings in the acquirer industry prior to the
+M&A, our analysis is essentially a difference-in-differences analysis and the coefficient estimate of
+Target Investori,m indicates how much more intensely target investors trade in the acquirer industry in the
+
+13
+
+post-M&A period relative to the pre-M&A period, compared to the remaining investor population over
+the same period.7
+Our control variables fall into one of two groups: investor characteristics or ZIP Code
+characteristics. The former include household income, number of children, number of family members,
+age, gender, and marital status. The latter include ZIP Code population, fraction of male residents,
+average home value, average number of household members, and average household income. In our full
+specification, we also include M&A fixed effects to absorb any M&A-specific effects. The standard
+errors are clustered at the ZIP Code- and the year-month-of-an-M&A-announcement levels.
+The regression results are reported in Panel A of Table 2. The dependent variable in the
+regressions for columns 1 – 3 is based on the number of trades, while that in the regressions for columns 4
+– 6 is based on the dollar value of trades. Column 1, in which we report results when controlling for
+investor and ZIP Code characteristics, shows that target investors increase their trading activity in the
+acquirer industry by an incremental 2.53 percentage points compared to other investors (t-statistic = 5.38).
+To put this number in perspective, the unconditional trading activity in any industry is 2.04 percentage
+points. The endowment of acquirer stocks thus induces target investors to more than double their normal
+trading activities in the average industry. As can be seen in columns 2 and 3, including M&A fixed effects
+in the regressions has virtually no impact on our results. The coefficients in columns 4 – 6, which are
+based on the dollar value of trades, are almost identical to those reported in columns 1 – 3.
+Overall, the results in Table 2 support our assumption that the endowment of acquirer shares
+induces at least some target investors to pay greater attention to the acquirer industry and trade more
+actively in it.
+
+4.2. Does increased trading activity in the acquirer industry spill over to target neighbors?
+7
+
+In other words, instead of Eq. (1), we could include observations in the one-year period prior to an M&A announcement and the
+one-year period following M&A completion and estimate a regression of trading activity in the acquirer industry on a target
+investor indicator variable and a post-M&A indicator variable, as well as an interaction term between the two indicator variables,
+along with other controls and fixed effects. The estimate of the interaction term will be identical to our estimate of Target
+Investori,m in Eq. (1).
+
+14
+
+Our second difference-in-differences analysis tests whether there is contagion in abnormal trading
+activity in the acquirer industry from target investors to their neighbors. We use a narrow definition of
+―neighbors‖—investors who live within a three-mile radius—as we presume that the likelihood of two
+individuals coming into direct contact with each other rapidly diminishes with distance. We impose the
+same data requirements as for target investors. That is, we exclude the acquirer firm when calculating
+trading activity in the acquirer industry; we exclude dormant accounts; and we require that investors have
+no trading/holdings in the acquirer industry in the prior year. In doing so, we can directly compare the
+regression coefficients across the two settings. We estimate a regression equation similar to Eq. (1):
+(2)
+where Target Neighbori,m is an indicator variable that takes a value of one if investor i is not a target
+investor and lives within three miles of a target investor. In additional tests, we replace our indicator
+variable with the number of target investors who live within three miles of investor i. The results are
+virtually unchanged (Online Appendix Table A1.1). The coefficient estimate of Target Neighbori,m
+indicates how much more intensely investors residing within three miles of a target investor increase their
+trading in the acquirer industry in the post-M&A period relative to the pre-M&A period, compared to all
+other investors in our sample over the same time frame. To ensure that target investors do not enter our
+counterfactuals, we exclude target investors from our sample when estimating Eq. (2).
+The results of Eq. (2) are reported in Panel B of Table 2. When controlling for investor and ZIP
+Code characteristics, we find that the number of trades increases by 46 bps more for investors who live
+within three miles of a target investor (t-statistic = 6.57) than for investors who do not live within three
+miles of a target investor. After adding M&A fixed effects, the coefficient estimate of Target Neighbori,m
+turns to 22 bps (t-statistic = 3.14). The results based on the dollar value of trades are very similar. For
+example, the coefficient estimate of Target Neighbori,m in the full specification is now 21 bps (t-statistic =
+3.05).
+The results reported in Online Appendix Table A1.2 show that target investors and their
+neighbors tend to trade in the same direction; that is, if a target investor is buying in the acquirer industry,
+15
+
+so are her neighbors. Moreover, Online Appendix Table A1.3 shows that, on the extensive margin, about
+one in ten target neighbors increase their trading activity after the M&A event. Combined with our results
+in Panels A and B of Table 2 that the estimate of Target Investor is ten times larger in magnitude than the
+estimate of Target Neighbor, our results on the extensive margin suggest that once ―infected,‖ target
+neighbors exhibit similar levels of abnormal trading activity in the acquirer industry as target investors.8
+If social interactions play a major role in generating our results, our effect should vary
+substantially with our definition of neighbors. Panel A of Online Appendix Table A1.5 presents results
+when we vary the distance over which we define neighbors. When we broaden our definition of neighbors
+to investors who live between three and seven miles of a target investor, the coefficient estimate of Target
+Neighbor in the full regression specification drops to 18 bps. When we increase the distance to between
+seven and fifteen miles (15 and 30 miles), the coefficient estimate of Target Neighbor drops to 15 bps (2
+bps). This rapid decrease in the coefficient estimates is consistent with social interactions playing a major
+role in generating our results.
+In additional analyses, we also experiment with the time period over which we measure investors’
+trading activity. Specifically, instead of focusing on the one-year period after the estimated M&A
+completion, that is, from months 7 through 18 after the M&A is announced, we expand our window to
+years two and three. In short, M&As no longer have a discernible impact on target neighbors’ trading
+activity in years two and three after M&A completion (Panel B in Online Appendix Table A1.5).
+We believe that M&As are unlikely to be a function of similarities in backgrounds between target
+investors and their neighbors. In addition, M&As are unlikely to reflect commonalities in preference or
+taste, in particular given that our analysis focuses on retail investors. Our study is therefore less subject to
+the aforementioned common shocks problem.
+A critical reader might argue that our setting is still subject to a local media coverage concern:
+local media coverage of a given M&A may happen to be disproportionally high in areas in which target
+
+8
+
+The results reported in Online Appendix Table A1.4 show that target neighbors significantly increase their trading activity not
+only in the acquirer industry (excluding the acquirer firm) but also in the acquirer firm itself.
+
+16
+
+investors and their neighbors reside. This disproportionately high local media coverage could lead to
+abnormally high trading activity in the acquirer industry without investors’ directly communicating with
+one another.
+Inconsistent with a simple local attention story, we observe little abnormal trading activity when
+M&As are first announced. Instead, abnormal trading activity accrues only after target investors receive
+shares of the acquirer firm (Panel C in Online Appendix Table A1.5).
+We also conduct a placebo test around cross-industry cash-financed M&As. If, for some reason,
+the media coverage of M&As is greater in areas with a greater concentration of target investors, we
+should observe similar patterns around cash-financed M&As. In contrast, if our results are driven by the
+endowment of acquirer shares generating word-of-mouth effects, we should observe no noticeable
+patterns around cash-financed M&As. The results are reported in Table 3. Again, inconsistent with a
+simple local attention story, the coefficient estimates of Target Investor are only one-fifth of those found
+for stock-financed M&As and statistically not reliably different from zero. The coefficient estimates of
+Target Neighbor are all close to zero.9 In robustness checks, we further exclude households in states
+where the target or acquirer firm has any business operations identified using both headquarters and
+factory locations and we continue to make similar observations.
+Overall, we find strong evidence that the endowment of acquirer shares draws target investors’
+attention to the corresponding acquirer industry and that elevated attention, in turn, increases trading
+activity. We also find strong evidence that abnormal trading activity in the acquirer industry spills over
+from target investors to their neighbors.10
+
+5. The rate of communication
+
+9
+
+Online Appendix Table A1.6 reports the results of a second placebo test, the results of which again suggest that local media
+coverage alone cannot generate the results we observe. Online Appendix Table A1.7 reports results, suggesting that our findings
+also cannot be explained by investors’ plans to build exposure to the acquirer industry both directly and indirectly by purchasing
+shares of the target firm in anticipation of the M&A.
+10
+In Online Appendix Tables A2.1–A2.5, we describe how the size of the spillover varies with (1) social characteristics of the
+investors including measures of ―sociability,‖ length of residency, and population density, (2) levels of market uncertainty and
+sentiment, (3) the presence of non-financial extraneous events (―distractions‖), and (4) M&A deal characteristics.
+
+17
+
+To estimate the rate of communication for our particular type of financial information and to
+study how much the rate varies with the characteristics of the underlying investor population, we propose
+a ―dynamic‖ estimation procedure drawn from studies that examine the contagion rate of diseases
+(Kermack and McKendrick, 1927, 1932).
+Fig. 2 contrasts our previous ―simple‖ difference-in-differences analysis in Section 4 with our
+new ―dynamic‖ estimation procedure. Each dot represents an investor in the neighborhood. Dark dots
+represent investors with abnormal trading in the acquirer industry; gray dots represent investors with no
+such abnormal trading activity. Investor 1 is a target investor.
+Our difference-in-differences analysis in Section 4 captures the degree to which target neighbors
+become ―infected‖ over a given period of time. The difference-in-differences analysis cannot capture
+whether any such ―infection‖ is coming straight from the target investor or another ―infected‖ neighbor.
+For instance, in Panel A, it is unclear whether Investor 5 becomes ―infected‖ through Investor 1 or
+whether abnormal trading in the acquirer industry first spills over from Investor 1 to Investors 2 and 4,
+who, in turn, infect Investor 5.
+If the goal is to establish that financial information is contagious, such differentiation is not
+material. However, such differentiation becomes crucial when trying to estimate the rate of
+communication and the degree to which the rate varies with the characteristics of the sender and receiver
+of the information because, for that, we need to know—at any given point—who the sender is and who
+the receiver is. In subsection 5.1 we describe our attempt to track how trading activity in the acquirer
+industry percolates from investor to investor, as illustrated in Panel B of Fig. 2.
+
+5.1. Methodology
+Following the completion of each cross-industry stock-financed M&A, we estimate a
+transmission matrix that quantifies how views and opinions percolate through the investor population
+from one period to the next. We then examine how the pairwise communication rate from investor j (the
+
+18
+
+sender) to investor i (the receiver) varies with characteristics of both investors. Specifically, we estimate
+the following transmission matrix with K investors:
+
+(3)
+(
+
+)
+
+) (
+
+(
+
+)
+
+where Xi,t is the abnormal trading activity of investor i in the acquirer industry in period t and Xi,t+1 is her
+trading activity in the acquirer industry in period t+1. The diagonal terms, βi,i, capture the persistence in
+investor i’s trading behavior. For simplicity, we assume that the persistence is a constant for all investors.
+The off-diagonal terms, βi,j, capture how much trading in the acquirer industry spills over from investor j
+to investor i. In vector form and over p periods, we have:
+
+...
+
+(4)
+.
+
+The advantage of the dynamic setting is that it enables us to explicitly and dynamically account for ―thirdparty ties.‖ That is, our setting allows for the possibility that the view of investor j is transmitted to
+investor i through a third party (or a chain of third parties) without being in direct contact with investor i,
+which, in turn, enables us to quantify how the social distance between any two investors affects the
+communication rate between these two investors. Compounding the transmission matrix in (4) over p
+periods, we have:
+(5)
+where is the M&A completion date and
+
+is the number of periods after the completion of the M&A.
+
+If the set of
+
+s satisfied the exogeneity condition, we could simply estimate a vector auto-
+
+regression based on
+
+by stacking our observations both across M&As and across
+
+periods within each M&A event. Of course, the exogeneity condition does not hold in our setting. We
+19
+
+therefore instrument the right-hand side in each of these equations by the initial portfolio shocks induced
+by the cross-industry stock-financed M&As. In other words, we jointly estimate the following set of
+equations:
+̂
+̂
+(6)
+̂
+
+where ̂ is the instrumented trading activity in the acquirer industry immediately after M&A completion.
+Estimating this set of equations is computationally challenging as the set contains powers of an
+unknown 70,000 × 70,000 matrix (we have roughly 70,000 investors in our sample). To get around this
+technical complexity, we employ a three-stage approach.
+In our first stage, we instrument the set of
+
+s using portfolio shocks experienced by target
+
+investors at the M&A completion date. Specifically, we estimate regression equations of investor ’s
+trading activity in the acquirer industry in each period t+p on Target Investori, which equals one if
+investor is a target investor and zero otherwise. Trading activity in the acquirer industry is the total
+number (or total dollar value) of trades in the acquirer industry (excluding the acquirer firm), divided by
+the total number (or total dollar value) of trades across all industries.
+In the second stage, we estimate how trading activity in the acquirer industry in period t+p (
+
+)
+
+relates to the fitted trading activity in the acquirer industry in the previous period t+p-1 ( ̂ ),
+calculated from the first-stage regression:
+̂
+
+̂
+
+̂
+
+̂
+
+̂
+
+̂
+20
+
+(7)
+
+If we were to stop here, our estimates of the
+
+matrix would be unbiased (to the extent that our
+
+instruments are exogenous). However, we lose efficiency as we do not impose the following condition in
+the estimation: ̂
+
+̂
+
+̂
+
+In our third stage, we improve the efficiency of our estimates of the
+method. Specifically, in each iteration, we use the
+
+matrix using a recursive
+
+matrix estimated from the previous round to re-
+
+estimate a new set of ̂ s. That is, we start with the instrumented ̂ and then calculate ̂
+̂
+
+̂,
+
+̂ , etc. We then re-estimate Eq. (7) using ̂ , ̂ , ..., ̂ to derive a new . We
+
+initialize the process with the
+
+matrix estimated from the second stage and stop the process when we
+
+find a fixed point for .
+To reduce computational complexity, we impose two restrictions. First, for each M&A event, we
+track only the trading activity of investors who live within a 30-mile radius of a target investor. This
+restriction is motived by our earlier result that there is negligible contagion between investors residing
+more than 15 miles away from any target investor. Second, we set βi,j in the transmission matrix to zero if
+the distance between investors i and j is greater than three miles. That is, we assume that direct
+communication takes place only if the two investors live sufficiently close to one another.
+Finally, in our estimation, we define each period as one quarter, as the average retail investor in
+our sample trades once a quarter. We study the four quarters after each M&A completion, so p ranges
+from 1 to 4. We restrict ourselves to four quarters as we find in our earlier difference-in-differences
+analysis that M&As no longer have a discernible impact on target neighbors’ trading activity in years two
+and three after M&A completion. Again, trading in the acquirer industry is based either on the number of
+trades or the dollar value of trades.
+
+5.2. The overall rate of communication
+In our baseline estimation, we assume that βi,j is a constant for all investor-pairs. For ease of
+interpretation, in our estimation we aggregate all neighbors of investor i into a representative ―average‖
+21
+
+neighbor j. For example, if only one of the K neighbors of investor i is ―infected,‖ the representative
+neighbor would have a value of 1/K. We then estimate the overall communication rate from this
+representative neighbor j to investor i.
+Given our earlier finding that once ―infected,‖ investors exhibit similar levels of abnormal trading
+activity in the acquirer industry as ―patient zero,‖ we can interpret our communication rate as the
+probability that investor i becomes ―infected‖ in the next period if all neighbors are ―infected.‖ If only one
+of the K neighbors is ―infected,‖ the probability that investor i becomes ―infected‖ in the next period is
+simply our communication rate multiplied by 1/K.
+Alternatively, we can think of the communication rate as reflecting the average number of new
+―infections‖ generated by a single ―infective‖ investor in the neighborhood, akin to the reproduction
+number in the epidemiology literature. Consider again the case in which only one of the K investors in the
+neighborhood is ―infected.‖ The expected number of new infections—out of the K investors—naturally is
+the product of the number of investors, K, and the probability that any one of the ―susceptible‖ investors
+becomes ―infected,‖ which, as described in the preceding paragraph, is simply our communication rate
+multiplied by 1/K. In other words, the expected number of new ―infections‖ generated by a single
+―infective‖ investor is simply our communication rate.
+We report the results in Panel A of Table 4. As shown in column 1, if trading is measured through
+the number of trades, our estimate of the overall rate of communication is 0.32 with a 95% confidence
+interval of 0.17 to 0.46. If trading is measured through the dollar value of trades (column 6), our estimate
+becomes 0.34 with a 95% confidence interval of 0.17 to 0.50. Our results suggest that one ―infected‖
+investor, on average, ―infects‖ 0.32 or 0.34 neighbors. That is, financial information is contagious. At the
+same time, since all our estimates are substantially below one, we can infer that any contagion dies out on
+its own without intervention. Our results perhaps agree with casual observations that financial information
+is rarely so contagious that it triggers an outright ―epidemic.‖
+
+5.3. Variation tied to differences in age, income, and gender
+22
+
+In our next analysis, we consider how much the communication rate varies with distances in
+investor characteristics. To facilitate the computation of the transmission matrix, we impose a linear
+structure on the off-diagonal terms, βi,j. That is, we conjecture that the change in communication rate
+between any two investors i and j is a linear function of the distances in investor characteristics.
+Specifically, we assume that βi,j is a function of the absolute differences in age, income, and gender:
+
+(
+
+)
+
+(8)
+
+where εi,j captures unobserved determinants of βi,j and b0 reflects the communication rate with all social
+distances set to zero. Scaling our estimates of b1, b2, and b3 by our estimate of b0 yields the percentage
+change in the communication rate as a function of social distances. As before, we take the average of all
+nearby investors to i and calculate the rate of communication from this representative neighbor to investor
+i. The coefficient estimate for b0 can thus be interpreted as the analog of the reproduction number when
+all social distances are set to zero; the estimates b1, b2, and b3 measure variations in the zero-socialdistance communication rate. For consistency, we employ the same estimation procedure for all
+subsequent tests discussed in this section.
+We report the results in Panel B of Table 4. Several observations are worth noting. First, as
+shown in columns 5 and 10, our estimates of b0 are 0.470 (t-statistic = 5.22) and 0.487 (t-statistic = 6.01)
+depending on whether we consider the number of trades or the dollar value of trades. That is, when all
+social distances are set to zero, the communication rate rises from its previous 0.32 and 0.34 to 0.47 and
+0.49, respectively.
+Second, when considering the number of trades, the estimates of b1, b2, and b3 are -0.004, -0.012,
+and -0.056, respectively. All estimates are statistically significant at the 1% level. Our estimates suggest
+that a ten-year difference in age, a one-category difference in income, and being of another gender lowers
+the communication rate by 0.04, 0.012, and 0.056, or, by 9%, 3%, and 12%, respectively.11 In other words,
+
+11
+
+The calculations are as follows: 9% (= (10*0.004)/0.470), 3% (= 0.012/0.470), and 12% (=0.056/0.470).
+
+23
+
+age and gender represent higher barriers to communication than differences in economic backgrounds.
+The results are similar when considering the dollar value of trades.12
+Since our empirical design allows us to pinpoint the sender and the receiver, we can assess
+whether the communication rate varies asymmetrically with differences in social characteristics. That is,
+we can examine whether the communication rate differs between (1) the sender’s being ten years younger
+than the receiver and (2) the sender’s being ten years older than the receiver. Empirically, instead of
+estimating one slope for the absolute distance in a social characteristic, we now estimate two slopes: one
+for ―positive differences‖ and another for ―negative differences.‖ Positive differences denote cases in
+which the receiver is older than the sender, the receiver has higher income than the sender, and the
+receiver is male and the sender is female. Negative differences denote cases in which the receiver is
+younger than the sender, the receiver has lower income than the sender, and the receiver is female and the
+sender is male.
+The results, presented in column 1 of Table 5, show that, when considering the number of trades,
+the estimates of |Agei – Agej|+ and |Agei – Agej|– are -0.006 and -0.003, respectively. These estimates are
+statistically different from each other at the 1% level. To interpret these estimates, consider a sender who
+is 40 years old. The communication rate is maximized if the receiver is also 40 years old. Our estimates
+suggest that if the receiver is older than the sender, the communication rate declines by 0.006 per oneyear age gap. If the receiver is younger than the sender, the communication rate declines by 0.003. That is,
+the communication rate declines more slowly when the receiver is younger than the sender. We can thus
+infer that, relatively speaking, younger investors are more likely to act on older investors’ views than the
+other way around. The results are similar when considering the dollar value of trades.
+Applying the same logic to income and gender, we find that, relatively speaking, lower-income
+investors are slightly more likely to act on higher-income investors’ views than vice versa and that male
+investors are more likely to act on female investors’ views than female investors are to male investors’
+views. One possible explanation of these asymmetries is that investors perceive information conveyed by
+12
+
+Online Appendix Tables A3.1 and A3.2 present the results of various robustness checks.
+
+24
+
+older, wealthier, female investors as more credible and, thus, are more likely to act on any views
+transmitted by such investors.
+
+5.4. Variation tied to investors’ recent trading performances
+We next examine how communication rates vary with senders’ and receivers’ recent trading
+performances. Kaustia and Knüpfer (2012), Heimer and Simon (2015), and Escobar and Pedraza (2019)
+find evidence that investors are more likely to share their investment experiences when their portfolios
+have performed well. Our dynamic setting allows us to quantify the performance effects of both senders
+and receivers.
+For each M&A event, we sort investors into halves based on their recent investment
+performances in the year prior to the M&A announcement. Investment performances are either portfolio
+returns in excess of the risk-free rate or market-adjusted portfolio returns. We then estimate the following
+linear function:
+(
+
+)
+
+(9)
+
+where IHH is an indicator variable that equals one if both the sender and receiver belong to the ―highperforming‖ group and zero otherwise; ILH is an indicator variable that equals one if the receiver belongs
+to the ―low-performing‖ group and the sender belongs to the ―high-performing‖ group and zero otherwise;
+and IHL is an indicator variable that equals one if the receiver belongs to the ―high-performing‖ group and
+the sender belongs to the ―low-performing‖ group and zero otherwise. The counterfactual represents cases
+in which both the sender and the receiver reside in the low-performing group.
+Below, we discuss the results when considering the number of trades and measuring performance
+as the portfolio return in excess of the risk-free rate. We arrive at the same conclusions when considering
+the dollar value of trades and market-adjusted portfolio returns.
+
+25
+
+The results presented in Table 6 show that the communication rate is the lowest, 0.289, when
+both the sender and the receiver reside in the low-performing group. The communication rate is the
+highest, 0.439 (= 0.289 + 0.150), when both investors reside in the high-performing group.
+When there is a performance wedge between the sender and the receiver, we see an asymmetric
+effect. The coefficient estimate of ILH suggests that when the receiver is in the low-performing group and
+the sender is in the high-performing group, the pairwise communication rate is 0.371 (= 0.289 + 0.082).
+In comparison, the coefficient estimate of IHL suggests that when the receiver is in the high-performing
+group and the sender is in the low-performing group, the communication rate is 0.324 (= 0.289 + 0.035).
+The difference between 0.371 and 0.324 is significant, both economically and statistically, and suggests
+that investors with poor investment records are more likely to act on high-performing investors’ views
+than the other way around. This asymmetry echoes our earlier suggestion that investors are more likely to
+act on views transmitted by investors seen as more competent and knowledgeable.
+The results reported in Table 6 show clearly that the communication rate is a function of not only
+the sender’s recent performance but also the receiver’s. The economic significance of the receiver’s effect
+is substantial. Specifically, the difference in the communication rate between (1) pairs in which both
+investors are in the high-performing group and (2) pairs in which the sender is in the high-performing
+group and the receiver is in the low-performing group is 0.07 (0.439 – 0.371 = 0.068). Compared to the
+estimates reported in Table 4, a 0.07 drop in the communication rate is equivalent to a drop in the
+communication rate generated by an 18-year age gap or a seven-category difference in income; it is larger
+than a drop generated by a difference in gender.
+Overall, we make the novel observation that the communication rate strengthens not only with the
+recent investment performance of the sender but also with that of the receiver. The economic significance
+of this effect is substantial. One possible explanation is that receivers avoid discussing investment ideas
+when their portfolios have performed poorly, as any such discussion would re-access the negative
+emotions tied to their recent investment failures. We also uncover another asymmetry: investors with poor
+investment records are more likely to act on high-performing investors’ views than the other way around.
+26
+
+5.5. Variation tied to differences in lifestyle and geography
+Our final set of characteristics relate to similarities (or differences) in lifestyle and state of
+residence. We capture similarity in lifestyle through (1) same-type-of-unique-vehicle ownership and (2)
+same marital or parental status. In particular, we consider whether both the sender and the receiver own a
+truck (or not), an RV (or not), or a motorcycle (or not). We also consider whether the sender and the
+receiver have the same marital status (married or single) or the same parental status (with children or
+without children). Our data coverage for vehicle ownership and for marital and parental status is sparse.
+Our results in this subsection should thus be interpreted with caution.
+As shown in Online Appendix Tables A3.3 and A3.4, we find that the communication rate is
+highest when the sender and the receiver own the same type of unique vehicle. If the sender owns a truck
+and the receiver does not, or, if the receiver owns a truck and the sender does not, the communication rate
+drops by around 0.11. The corresponding declines for RVs and motorcycles are around 0.09 and 0.07,
+respectively.
+We detect no variation tied to differences in marital or parental status. One interpretation of this
+non-result is that when initiating and reciprocating on investment-related conversations, investors do not
+discriminate based on marital or parental status. The alternative perspective is that, given the sparsity in
+data coverage, our tests lack power.13
+To examine the communication rate by state of residence, we estimate state fixed effects in the
+communication rate after controlling for observable social characteristics. In Figs. 3 and 4, we plot the
+average communication rate by state. Online Appendix Table A3.5 reports the data used to create Figs. 3
+and 4. We observe strong regional differences. The Spearman’s rank correlation coefficient between our
+communication rate based on the number of trades (dollar value of trades) and a state-level measure of
+
+13
+
+The data coverage for marital and parental status is lower than that for vehicle ownership.
+
+27
+
+sociability drawn from Putnam (2000)14 is as high as 0.39 (0.43), suggesting that financial information is
+more contagious in regions in which individuals are more sociable.15
+
+6. Dissemination of value-relevant information or merely spreading noise?
+Do investors in our setting transmit unique and value-relevant news or simply spread noise? If
+any newly acquired views about the acquirer industry transmitted through social interactions represent
+unique and value-relevant information, the stocks bought by target investors and their neighbors in the
+acquirer industry (―long leg‖) should subsequently outperform the stocks sold by target investors and
+their neighbors in the acquirer industry (―short leg‖). On the other hand, if the views about the acquirer
+industry represent mere noise, we should observe no performance differential between the long leg and
+the short leg.
+We experiment with three portfolio construction schemes: (1) For each stock in the acquirer
+industry traded by target investors and their neighbors from months 7 through 18 after the M&A is
+announced, we compute the total number of shares bought by target investors and their neighbors minus
+the total number of shares sold. The long leg contains stocks of which target investors and their neighbors
+are net buyers; the short leg contains stocks of which they are net sellers. The long and short legs are
+weighted by the net total number of shares that are bought (sold) across target investors and their
+neighbors and are held for one month. (2) We repeat the above exercise but now consider the dollar value
+of shares rather than the number of shares. (3) For each stock in the acquirer industry traded by target
+investors and their neighbors from months 7 through 18 after the M&A is announced, we compute the
+average change in a stock’s weight in the portfolios of target investors and their neighbors. The long leg
+contains stocks that experience a weight increase; the short leg contains stocks that experience a decrease.
+
+14
+
+Putnam (2000) surveys individuals regarding the frequency with which they visit their friends. The state-level measure of
+sociability is a variable ranging from 1 through 6 indicating how strongly people agree with the statement that they spend a lot of
+time visiting friends (6 being definitely agree and 1 being definitely disagree).
+15
+Ivković and Weisbenner (2007) and Brown, Ivković, Smith, and Weisbenner (2008) make a similar suggestion.
+
+28
+
+The long and short legs are weighted by the corresponding stock’s portfolio weight change, and they are
+held again for one month.
+The results are reported in Table 7. Regardless of the portfolio construction scheme, we find that
+the long leg underperforms the short leg, albeit not statistically significantly so. These results do not
+support the notion that newly acquired views about firms in the acquirer industry reflect value-relevant
+information. Our results are similar to the observations made by Hvide and Östberg (2015), who also find
+evidence that financial information transmitted through social interactions does not improve investors’
+trading performances.
+
+7. Conclusion
+In this paper, we identify cross-industry stock-financed M&As as a series of plausibly exogenous
+shocks, which cause target investors to trade abnormally in the acquirer industry. We then trace the
+contagion of abnormal trading activity from the target investors to their neighbors and their neighbors’
+neighbors. We use our setting to provide causal evidence that financial information is contagious. We also
+produce novel estimates of how contagious financial information is and how much such contagiousness
+varies with investor characteristics.
+For our sample of US retail investors from 1991 to 1996, we find that one ―infected‖ investor, on
+average, ―infects‖ 0.32 neighbors with opinions formed about the acquirer industry. The transmission is
+stronger when the sender of financial information and the receiver have had recent investment successes.
+To a smaller, yet, still meaningful degree, the transmission is also stronger when there are few differences
+in age, income, gender, or lifestyle between the sender and the receiver. When comparing the relative
+importance of differences in age, income, and gender in slowing down transmission, we find that
+differences in age and gender represent much higher barriers to information transmission than differences
+in income. Moreover, transmission from older, high-income, female investors to younger, low-income,
+male investors is stronger than transmission in the reverse direction.
+
+29
+
+Most traditional models in economics and finance assume that people operate in a social vacuum.
+As the evidence on the relevance of social interactions accumulates, recent theoretical work has begun to
+incorporate social interactions into equilibrium models of economic decision making, a trend that is likely
+going to continue if not accelerate (Kuchler and Stroebel, 2020). We believe that the estimates reported in
+this study can help inform theorists as they integrate social interactions into their models. On a more
+practical level, we believe that our estimates can help guide the design of public policy and information
+campaigns.
+
+30
+
+References
+Anderson, R., 1982. Directly transmitted viral and bacterial infections of man. In: Anderson, R. (Ed.), The
+Population Dynamics of Infectious Diseases: Theory and Applications. Springer, Boston, pp.1-37.
+Anderson, R., May, R., 1982. Directly transmitted infectious diseases: control by vaccination. Science
+215, 1053-1060.
+Anderson, R., May, R., 1985. Vaccination and herd immunity to infectious diseases. Nature 318, 323329.
+Anderson, M., Magruder, J., 2012. Learning from the crowd: regression discontinuity estimates of the
+effects of an online review database. Economic Journal 122, 957-989.
+Banerjee, A., Chandrasekhar, A., Duflo, E., Jackson, M., 2019. Using gossips to spread information:
+theory and evidence from two randomized controlled trials. Review of Economic Studies 86, 2453-2490.
+Barber, B., Odean, T., 2001. Boys will be boys: gender, overconfidence, and common stock investment.
+Quarterly Journal of Economics 116, 261-292.
+Berger, J., 2014. Word of mouth and interpersonal communication: a review and directions for future
+research. Journal of Consumer Psychology 24, 586-607.
+Berger, J., 2016. Contagious: Why Things Catch On. Simon and Schuster, New York.
+Brown, J., Ivković, Z., Smith, P., Weisbenner, S., 2008. Neighbors matter: causal community effects and
+stock market participation. Journal of Finance 63, 1509-1531.
+Cao, Z., Zhang, Q., Lu, X., Pfeiffer, D., Jia, Z., Song, H., Zeng, D., 2020. Estimating the effective
+reproduction number of the 2019-nCoV in China. MedRxiv, doi: 10.1101/2020.01.27.20018952v1.
+Chen, H., Hwang, B., 2020. Listening in on investors’ thoughts and conversations. Unpublished working
+paper. University of Hong Kong and NTU.
+Delamater, P., Street, E., Leslie, T., Yang, Y., Jacobsen, K., 2019. Complexity of the basic reproduction
+number (R0). Emerging Infectious Diseases 25, 1.
+Doucleff, M., 2014. No, Seriously, How Contagious Is Ebola. Public Health, National Public Radio, URL
+https://www.npr.org/sections/health-shots/2014/10/02/352983774/no-seriously-how-contagious-is-ebola
+(accessed 07.30.2020).
+Duflo, E., Saez, E., 2003. The role of information and social interactions in retirement plan decisions:
+evidence from a randomized experiment. Quarterly Journal of Economics 118, 815-842.
+Escobar, L., Pedraza, A., 2019. Active trading and (poor) performance: the social transmission channel.
+World Bank Policy Research Working Paper No.8767.
+Flaxman, S., Mishra, S., Gandy, A., et al., 2020. Report 13 - Estimating the number of infections and the
+impact of non-pharmaceutical interventions on COVID-19 in 11 European countries. Imperial College
+London, doi: 10.25561/77731.
+Giglio, S., Shue, K., 2014. No news is news: Do markets underreact to nothing? Review of Financial
+Studies 27, 3389-3440.
+31
+
+Guerra, F., Bolotin, S., Lim, G., Heffernan, J., Deeks, S., Li, Y., Crowcroft, N., 2017. The basic
+reproduction number (R0) of measles: a systematic review. Lancet Infectious Diseases 17, e420-e428.
+Han, B., Hirshleifer, D., Walden, J., forthcoming. Social transmission bias and investor behavior. Journal
+of Financial and Quantitative Analysis.
+Heesterbeek, J., 2002. A brief history of R0 and a recipe for its calculation. Acta Biotheoretica 50, 189204.
+Heffernan, J., Smith, R., Wahl, L., 2005. Perspectives on the basic reproductive ratio. Journal of the
+Royal Society Interface 2, 281-293.
+Heimer, R., Simon, D., 2015. Facebook finance: How social interaction propagates active investing.
+Federal Reserve Bank of Cleveland Working Paper No. 15-22.
+Hirshleifer, D., 2020. Presidential address: social transmission bias in economics and finance. Journal of
+Finance 75, 1779-1831.
+Hong, H., Kubik, J., Stein, J., 2005. Thy neighbor's portfolio: word‐of‐mouth effects in the holdings and
+trades of money managers. Journal of Finance 60, 2801-2824.
+Hvide, H., Östberg, P., 2015. Social interaction at work. Journal of Financial Economics 117, 628-652.
+Ivković, Z., Weisbenner, S., 2007. Information diffusion effects in individual investors' common stock
+purchases: covet thy neighbors' investment choices. Review of Financial Studies 20, 1327-1357.
+Jackson, M., 2014. Networks in the understanding of economic behaviors. Journal of Economic
+Perspectives 28, 3-22.
+Jackson, M., 2019. The Human Network: How Your Social Position Determines Your Power, Beliefs,
+and Behaviors. Pantheon Books, New York.
+Kaustia, M., Knüpfer, S., 2012. Peer performance and stock market entry. Journal of Financial Economics
+104, 321-338.
+Keeling, M., Grenfell, B., 2000. Individual-based perspectives on R0. Journal of Theoretical Biology 203,
+51-61.
+Kermack, W., McKendrick, A., 1927. A contribution to the mathematical theory of epidemics.
+Proceedings of the Royal Society of London. Series A, containing papers of a mathematical and physical
+character 115, 700-721.
+Kermack, W., McKendrick, A., 1932. Contributions to the mathematical theory of epidemics. II.—The
+problem of endemicity. Proceedings of the Royal Society of London. Series A, containing papers of a
+mathematical and physical character 138, 55-83.
+Kuchler, T., Stroebel, J., forthcoming. Social finance. Annual Review of Financial Economics.
+Lazarsfeld, P., Merton, R., 1954. Friendship as a social process: a substantive and methodological
+analysis. Freedom and Control in Modern Society 18, 18-66.
+Lerner, J., Malmendier, U., 2013. With a little help from my (random) friends: success and failure in postbusiness school entrepreneurship. Review of Financial Studies 26, 2411-2452.
+
+32
+
+Lovett, M., Peres, R., Shachar, R. , 2013. On brands and word of mouth. Journal of Marketing Research
+50, 427-444.
+Manski, C., 1993. Identification of endogenous social effects: The reflection problem. Review of
+Economic Studies 60, 531-542.
+McPherson, M., Smith-Lovin, L., Cook, J., 2001. Birds of a feather: homophily in social networks.
+Annual Review of Sociology 27, 415-444.
+Mitchell, M., Pulvino, T., 2001. Characteristics of risk and return in risk arbitrage. Journal of Finance 56,
+2135-2175.
+Odean, T., 1998. Are investors reluctant to realize their losses? Journal of Finance 53, 1775-1798.
+Putnam, R., 2000. Bowling Alone: The Collapse and Revival of American Community. Simon and
+Schuster, New York.
+Shiller, R., 2017. Narrative economics. American Economic Review 107, 967-1004.
+Shiller, R., Pound, J., 1989. Survey evidence on diffusion of interest and information among investors.
+Journal of Economic Behavior and Organization 12, 47-66.
+Shue, K., 2013. Executive networks and firm policies: Evidence from the random assignment of MBA
+peers. Review of Financial Studies 26, 1401-1442.
+
+33
+
+Table 1
+Summary statistics.
+This table reports summary statistics for our various samples. Panel A presents statistics for the M&A sample.
+Stock-financed M&As are deals that are at least partially equity-financed; cash-financed M&As comprise 100%
+cash-financed deals. Firm size is the number of shares outstanding multiplied by the share price as of the month
+prior to an M&A. All observations are at the M&A level. Panel B shows investor and portfolio characteristics for
+our retail investor sample. We require that investors place at least one trade in either the one-year period prior to the
+M&A or the one-year period following the M&A. We further require that these households have no trading/holdings
+in the acquirer industry prior to the M&A announcement. Portfolio size is the dollar value of the stock holdings.
+Investor income is the annual income of the primary account holder. Investor gender is an indicator variable that
+equals one for male and zero for female. All observations are at the account/year-month level. Panel C shows
+demographic information for each ZIP Code included in our sample. All observations are at the ZIP Code/yearmonth level.
+N
+
+25%
+
+Median
+
+75%
+
+Mean
+
+Std. Dev.
+
+Acquirer Firm Size ($million)
+
+316
+
+216
+
+952
+
+2,969
+
+2,754
+
+5,503
+
+Target Firm Size ($million)
+
+316
+
+31
+
+72
+
+250
+
+654
+
+2,396
+
+Acquirer Firm Size ($million)
+
+143
+
+391
+
+1,561
+
+4,491
+
+5,541
+
+12,970
+
+Target Firm Size ($million)
+
+143
+
+30
+
+93
+
+216
+
+266
+
+585
+
+Portfolio Size ($)
+
+70,608
+
+5,513
+
+13,141
+
+31,818
+
+41,030
+
+216,539
+
+Number of Stocks Held
+
+70,608
+
+1.00
+
+2.00
+
+5.00
+
+3.88
+
+5.03
+
+Number of Trades Each Month
+
+70,608
+
+0.00
+
+0.00
+
+0.00
+
+0.47
+
+1.76
+
+Value of Trades Each Month ($)
+
+70,608
+
+0
+
+0
+
+0
+
+5,679
+
+76,056
+
+Investor Age
+
+70,608
+
+36.00
+
+46.00
+
+56.00
+
+42.02
+
+21.44
+
+Investor Income ($)
+
+70,608
+
+45,000
+
+62,500
+
+87,500
+
+69,500
+
+30,064
+
+Investor Gender
+
+70,608
+
+1.00
+
+1.00
+
+1.00
+
+0.90
+
+0.30
+
+Population
+
+42,057
+
+785
+
+2,777
+
+11,960
+
+8,965
+
+13,134
+
+No. Household Members
+
+42,057
+
+2.40
+
+2.56
+
+2.73
+
+2.59
+
+0.35
+
+House Value ($)
+
+42,057
+
+58,200
+
+82,900
+
+122,300
+
+105,359
+
+89,589
+
+Household Income ($)
+
+42,057
+
+29,779
+
+36,250
+
+45,750
+
+39,631
+
+16,243
+
+Panel A: M&A characteristics
+Stock-Financed M&As
+
+Cash-Financed M&As
+
+Panel B: Investor/Portfolio characteristics
+
+Panel C: ZIP Code characteristics
+Basic Characteristics
+
+34
+
+Table 2
+Trading in the acquirer industry after stock-financed M&As.
+This table reports coefficient estimates from regressions of investor trading in the acquirer industry on a target
+investor indicator variable (Panel A) or a target neighbor indicator variable (Panel B). The observations are at the
+M&A/brokerage account/year-month level. We consider cross-industry stock-financed M&As only. The dependent
+variable in the regressions for columns 1-3 is the number of trades in the acquirer industry (excluding the acquirer
+firm) as a fraction of the total number of trades across all industries in months 7 through 18 after the M&A is
+announced. The dependent variable in the regressions for columns 4-6 is the dollar value of trades in the acquirer
+industry (excluding the acquirer firm) as a fraction of the total dollar value of trades across all industries in months 7
+through 18 after the M&A is announced. We examine total trading behavior in months 7 through 18 after the M&A
+is announced since the exact completion date is missing for many M&As, and as, on average, it takes six months for
+an M&A to be completed (Giglio and Shue, 2014). Target Investor is an indicator variable, which equals one if an
+investor possesses shares of the target stock at the end of the month prior to the M&A announcement. Target
+Neighbor is an indicator variable that takes the value of one if an investor lives within three miles of a target investor
+and is not a target investor herself. Investor-level controls include the account holder’s income, number of children,
+number of family members, age, gender, and marital status. ZIP Code level controls include the ZIP Code
+population, fraction of male residents, average home value, average number of household members, and average
+household income. Standard errors, shown in parentheses, are clustered at the ZIP Code and the year-month-of-anM&A-announcement level. *, **, and *** denote significance at the 10%, 5%, and 1% levels, respectively.
+# Trades
+(1)
+
+$ Trades
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+Panel A: Target investors’ trading in the acquirer industry
+0.0253***
+(0.0047)
+
+0.0233***
+(0.0048)
+
+0.0232***
+(0.0048)
+
+0.0227***
+(0.0045)
+
+0.0208***
+(0.0047)
+
+0.0208***
+(0.0047)
+
+Investor Controls
+
+YES
+
+NO
+
+YES
+
+YES
+
+NO
+
+YES
+
+Zip Code Controls
+
+YES
+
+NO
+
+YES
+
+YES
+
+NO
+
+YES
+
+M&A Fixed Effects
+
+NO
+
+YES
+
+YES
+
+NO
+
+YES
+
+YES
+
+Adj. R
+
+0.01%
+
+1.65%
+
+1.65%
+
+0.01%
+
+1.58%
+
+1.59%
+
+# Obs.
+
+7,580,930
+
+7,580,930
+
+7,580,930
+
+7,580,930
+
+7,580,930
+
+7,580,930
+
+Target Investor
+
+2
+
+Panel B: Target neighbors’ trading in the acquirer industry
+Target Neighbor
+
+0.0046***
+(0.0007)
+
+0.0020***
+(0.0007)
+
+0.0022***
+(0.0007)
+
+0.0043***
+(0.0008)
+
+0.0018***
+(0.0007)
+
+0.0021***
+(0.0007)
+
+Investor Controls
+
+YES
+
+NO
+
+YES
+
+YES
+
+NO
+
+YES
+
+Zip Code Controls
+
+YES
+
+NO
+
+YES
+
+YES
+
+NO
+
+YES
+
+M&A Fixed Effects
+
+NO
+
+YES
+
+YES
+
+NO
+
+YES
+
+YES
+
+Adj. R
+
+0.01%
+
+1.65%
+
+1.65%
+
+0.01%
+
+1.58%
+
+1.59%
+
+# Obs.
+
+7,578,642
+
+7,578,642
+
+7,578,642
+
+7,578,642
+
+7,578,642
+
+7,578,642
+
+2
+
+35
+
+Table 3
+Trading in the acquirer industry after cash-financed M&As: Placebo.
+This table reports coefficient estimates from regressions of investor trading in the acquirer industry on a target
+investor indicator variable (Panel A) or a target neighbor indicator variable (Panel B). The regressions are identical
+to those in Table 2 except for that we now estimate regressions on a sample of cross-industry cash-financed M&As.
+Standard errors, shown in parentheses, are clustered at the ZIP Code and the year-month-of-an-M&A-announcement
+level. *, **, and *** denote significance at the 10%, 5%, and 1% levels, respectively.
+# Trades
+(1)
+
+$ Trades
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+Panel A: Target investors’ trading in the acquirer industry
+0.0047
+(0.0037)
+
+0.0043
+(0.0035)
+
+0.0043
+(0.0035)
+
+0.0061
+(0.0042)
+
+0.0059
+(0.0040)
+
+0.0059
+(0.0040)
+
+Investor Controls
+
+YES
+
+NO
+
+YES
+
+YES
+
+NO
+
+YES
+
+Zip Code Controls
+
+YES
+
+NO
+
+YES
+
+YES
+
+NO
+
+YES
+
+M&A Fixed Effects
+
+NO
+
+YES
+
+YES
+
+NO
+
+YES
+
+YES
+
+Adj. R
+
+0.01%
+
+2.36%
+
+2.37%
+
+0.01%
+
+2.25%
+
+2.25%
+
+# Obs.
+
+3,489,774
+
+3,489,774
+
+3,489,774
+
+3,489,774
+
+3,489,774
+
+3,489,774
+
+Target Investor
+
+2
+
+Panel B: Target neighbors’ trading in the acquirer industry
+Target Neighbor
+
+0.0017
+(0.0012)
+
+-0.0001
+(0.0010)
+
+0.0003
+(0.0010)
+
+0.0016
+(0.0012)
+
+-0.0002
+(0.0010)
+
+0.0003
+(0.0010)
+
+Investor Controls
+
+YES
+
+NO
+
+YES
+
+YES
+
+NO
+
+YES
+
+Zip Code Controls
+
+YES
+
+NO
+
+YES
+
+YES
+
+NO
+
+YES
+
+M&A Fixed Effects
+
+NO
+
+YES
+
+YES
+
+NO
+
+YES
+
+YES
+
+Adj. R
+
+0.01%
+
+2.36%
+
+2.37%
+
+0.01%
+
+2.25%
+
+2.25%
+
+# Obs.
+
+3,489,054
+
+3,489,054
+
+3,489,054
+
+3,489,054
+
+3,489,054
+
+3,489,054
+
+2
+
+36
+
+Table 4
+Overall communication rate and variation in communication rate tied to differences in investor characteristics.
+This table reports the results of a three-stage estimation of a transmission matrix. The estimation procedure is detailed in Section 5. In essence, we assess how
+trading activity in the acquirer industry percolates across investors from quarter to quarter (Panel A) and how any such ―contagion rate‖ varies with differences in
+income, age and gender between the sender of acquirer-industry information and the receiver of acquirer-industry information (Panel B). The dependent variable
+is investor i’s actual trading in quarter t+1. ̂ i,t is investor i’s own instrumented trading in quarter t; ̂ j,t is the average instrumented trading across
+neighboring investors j in quarter t. Bootstrapped standard errors are shown in parentheses. *, **, and *** denote significance at the 10%, 5%, and 1% levels,
+respectively.
+# Trades
+(1)
+
+(2)
+
+(3)
+
+$ Trades
+（4）
+
+（5）
+
+(6)
+
+(7)
+
+(8)
+
+（9）
+
+（10）
+
+Panel A: Overall communication rate
+̂
+
+i,t
+
+0.598***
+(0.076)
+
+0.575***
+(0.080)
+
+̂
+
+j,t
+
+0.315***
+(0.076)
+
+0.335***
+(0.082)
+
+2,076,790
+
+2,076,790
+
+# Obs.
+
+Panel B: Communication rate and differences in investor characteristics
+̂
+
+i,t
+
+0.535***
+(0.075)
+
+0.560***
+(0.061)
+
+0.620***
+(0.080)
+
+0.556***
+(0.083)
+
+0.513***
+(0.070)
+
+0.542***
+(0.088)
+
+0.599***
+(0.066)
+
+0.539***
+(0.072)
+
+̂
+
+j,t
+
+0.449***
+(0.082)
+
+0.385***
+(0.060)
+
+0.307***
+(0.080)
+
+0.470***
+(0.090)
+
+0.472***
+(0.074)
+
+0.399***
+(0.092)
+
+0.326***
+(0.067)
+
+0.487***
+(0.081)
+
+̂
+
+j,t
+
+× |Agei-Agej|
+
+-0.004***
+(0.001)
+
+-0.005***
+(0.001)
+
+̂
+
+j,t
+
+× |Incomei-Incomej|
+
+̂
+
+j,t
+
+× |Genderi-Genderj|
+
+# Obs.
+
+-0.005***
+(0.001)
+-0.017***
+(0.005)
+
+2,076,790
+
+2,076,790
+
+-0.012***
+(0.005)
+-0.064***
+(0.017)
+
+-0.056***
+(0.018)
+
+2,076,790
+
+2,076,790
+
+37
+
+-0.005***
+(0.001)
+-0.017***
+(0.005)
+
+2,076,790
+
+2,076,790
+
+-0.011***
+(0.004)
+-0.068***
+(0.016)
+
+-0.060***
+(0.018)
+
+2,076,790
+
+2,076,790
+
+Table 5
+Variation in communication rate tied to differences in investor characteristics: asymmetries.
+This table reports the results of a three-stage estimation of a transmission matrix. The estimation procedure is
+detailed in Section 5. The estimation procedure is identical to that for Table 4 except for that we now allow for
+differences in age, income, and gender to have a differential impact on the communication rate depending on
+whether the receiver of financial information is older, or younger than the sender of financial information; whether
+the receiver has higher income, or lower income than the sender; and whether the receiver is male and the sender is
+female, or the receiver is female and the sender is male. ―Positive differences‖ below denote cases in which the
+receiver is older than the sender, the receiver has higher income than the sender, and the receiver is male and the
+sender is female. ―Negative differences‖ below denote cases in which the receiver is younger than the sender, the
+receiver has lower income than the sender, and the receiver is female and the sender is male. Bootstrapped standard
+errors are shown in parentheses. *, **, and *** denote significance at the 10%, 5%, and 1% levels, respectively.
+# Trades
+(1)
+
+$ Trades
+(2)
+
+̂
+
+i,t
+
+0.480***
+(0.058)
+
+0.463***
+(0.082)
+
+̂
+
+j,t
+
+0.516***
+(0.062)
+
+0.534***
+(0.086)
+
+̂
+
+j,t
+
+× |Agei-Agej|+
+
+-0.006***
+(0.001)
+
+-0.007***
+(0.001)
+
+̂
+
+j,t
+
+× |Agei-Agej|--
+
+-0.003***
+(0.001)
+
+-0.003***
+(0.001)
+
+̂
+
+j,t
+
+× |Incomei-Incomej|+
+
+-0.018***
+(0.007)
+
+-0.017***
+(0.006)
+
+̂
+
+j,t
+
+× |Incomei-Incomej|--
+
+-0.016***
+(0.005)
+
+-0.015***
+(0.005)
+
+̂
+
+j,t
+
+× |Genderi-Genderj|+
+
+-0.018
+(0.046)
+
+-0.024
+(0.043)
+
+̂
+
+j,t
+
+× |Genderi-Genderj|--
+
+-0.091***
+(0.016)
+
+-0.097***
+(0.017)
+
+2,076,790
+
+2,076,790
+
+# Obs.
+
+38
+
+Table 6
+Variation in communication rate tied to investors’ past trading performances.
+This table reports the results of a three-stage estimation of a transmission matrix. The estimation procedure is
+detailed in Section 5. In essence, we assess how trading activity in the acquirer industry percolates across investors
+from quarter to quarter and how any such ―contagion rate‖ varies with recent trading performances of the sender of
+financial information and the receiver of financial information. The dependent variable is investor i’s actual trading
+in quarter t+1. ̂ i,t is investor i’s own instrumented trading in quarter t; ̂ j,t is the average instrumented
+trading across neighboring investors j in quarter t. In columns 1 and 3, investors’ recent trading performances are the
+raw portfolio returns in excess of the risk-free rate in the year prior to the M&A announcement. In columns 2 and 4,
+investors’ recent trading performances are the market-adjusted portfolio returns in the year prior to the M&A
+announcement. For each M&A event, we divide all investors into halves based on their recent trading performance.
+IHH is an indicator variable, which equals one if both sender and receiver belong to the high-performing group, and
+zero otherwise. ILH is an indicator variable, which equals one if the sender belongs to the high-performing group and
+the receiver belongs to the low-performing group, and zero otherwise. IHL is an indicator variable, which equals one
+if the receiver belongs to the high-performing group and the sender belongs to the low-performing group, and zero
+otherwise. The counterfactual represents cases in which both the sender and the receiver reside in the lowperforming group. Bootstrapped standard errors are shown in parentheses. *, **, and *** denote significance at the
+10%, 5%, and 1% levels, respectively.
+# Trades
+
+$ Trades
+
+Excess
+Return
+
+Market-Adjusted
+Return
+
+Excess
+Return
+
+Market-Adjusted
+Return
+
+（1）
+
+（2）
+
+（3）
+
+（4）
+
+̂
+
+i,t
+
+0.579***
+(0.070)
+
+0.582***
+(0.073)
+
+0.558***
+(0.077)
+
+0.560***
+(0.063)
+
+̂
+
+j,t
+
+0.289***
+(0.074)
+
+0.282***
+(0.070)
+
+0.306***
+(0.085)
+
+0.299***
+(0.064)
+
+̂
+
+j,t
+
+× IHH
+
+0.150***
+(0.028)
+
+0.162***
+(0.030)
+
+0.152***
+(0.028)
+
+0.162***
+(0.030)
+
+̂
+
+j,t
+
+× ILH
+
+0.082**
+(0.035)
+
+0.096**
+(0.042)
+
+0.086**
+(0.035)
+
+0.098***
+(0.034)
+
+̂
+
+j,t
+
+× IHL
+
+0.035
+(0.027)
+
+0.035
+(0.034)
+
+0.040
+(0.027)
+
+0.042
+(0.027)
+
+2,019,064
+
+2,019,064
+
+2,019,064
+
+2,019,064
+
+# Obs.
+
+39
+
+Table 7
+Does word-of-mouth help investors make better investment decisions?
+This table reports monthly returns of hedge portfolios that (1) go long acquirer-industry stocks bought by target
+investors and their neighbors (―long leg‖) and (2) go short acquirer-industry stocks sold by target investors and their
+neighbors (―short leg‖). We experiment with three portfolio construction schemes: For each stock in the acquirer
+industry traded by target investors and their neighbors from months 7 through 18 after the M&A is announced, we
+compute the total number of shares bought by target investors and their neighbors minus the total number of shares
+sold. The long leg contains stocks of which target investors and their neighbors are net buyers; the short leg contains
+stocks of which they are net sellers. The long and short legs are weighted by the net total number of shares bought
+(sold) across target investors and their neighbors, and they are held for one month. We report these results in Panel
+A. We then repeat the above but we now consider the dollar value of shares as opposed to the number of shares. We
+report these results in Panel B. Next, for each stock in the acquirer industry traded by target investors and their
+neighbors from months 7 through 18 after the M&A is announced, we compute the equal-weighted average change
+in a stock’s weight in target investors’ and target neighbors’ portfolios. The long leg contains stocks that experience
+an increase; the short leg contains stocks that experience a decrease. The long and short legs are weighted by the
+relevant stock’s portfolio weight change, and they are held again for one month. We report these results in Panel C.
+T-statistics, shown in parentheses, are computed based on standard errors with Newey-West corrections of twelve
+lags. *, **, and *** denote significance at the 10%, 5%, and 1% levels, respectively.
+Excess Return
+(1)
+
+CAPM Alpha
+(2)
+
+Three-Factor Alpha
+(3)
+
+Four-Factor Alpha
+(4)
+
+-0.15%
+(-0.42)
+
+-0.13%
+(-0.29)
+
+-0.16%
+(-0.28)
+
+-0.02%
+(-0.04)
+
+-0.69%
+(-0.69)
+
+-0.33%
+(-0.29)
+
+Panel A: Returns to portfolios weighted by number of shares traded
+Buy-Sell
+
+-0.35%
+(-1.01)
+
+-0.24%
+(-0.53)
+
+Panel B: Returns to portfolios weighted by trading value
+Buy-Sell
+
+-0.36%
+(-0.73)
+
+-0.13%
+(-0.23)
+
+Panel C: Returns to portfolios weighted by portfolio weight changes
+Buy-Sell
+
+-1.14%
+(-0.90)
+
+-1.29%
+(-1.01)
+
+40
+
+Fig. 1. Number of investors in each state.
+This figure shows the number of investors in each state in our sample. The darker the color of the block, the larger
+the number of investors in the state.
+
+41
+
+A. “Simple” difference-in-differences analysis
+
+B. “Dynamic” estimation procedure
+
+1
+
+t=0
+
+1
+5
+
+2
+
+5
+
+2
+
+4
+
+4
+
+3
+
+3
+
+1
+
+t=1
+
+5
+
+2
+4
+3
+
+1
+
+t=2
+
+1
+5
+
+2
+
+5
+
+2
+
+4
+
+4
+
+3
+
+3
+
+Fig. 2. ―Simple‖ difference-in-differences analysis versus ―dynamic‖ estimation procedure
+This figure illustrates the difference between our ―simple‖ difference-in-differences analysis in Section 4 and our
+―dynamic‖ estimation procedure in Section 5. Dark dots represent investors with abnormal trading in the acquirer
+industry; gray dots represent investors with no such abnormal trading activity.
+
+42
+
+Fig. 3. Communication rate in each state (# trades).
+This figure shows the variation of communication rates across states. The darker the color of the block, the higher
+the average communication rate in the state. Trading is defined based on the number of trades.
+
+43
+
+Fig. 4. Communication rate in each state ($ trades)
+This figure shows the variation of communication rates across states. The darker the color of the block, the higher
+the average communication rate in the state. Trading is defined based on the dollar value of trades.
+
+44
+
+

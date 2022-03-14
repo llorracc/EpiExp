@@ -1,0 +1,4894 @@
+Journal of Financial Economics 117 (2015) 628–652
+
+Contents lists available at ScienceDirect
+
+Journal of Financial Economics
+journal homepage: www.elsevier.com/locate/jfec
+
+Social interaction at work$
+Hans K. Hvide a,b,c,1, Per Östberg d,e,n
+a
+
+University of Bergen, Department of Economics, Fosswinckels Gate 14, 5007 Bergen, Norway
+CEPR, United Kingdom
+c
+University of Aberdeen, United Kingdom
+d
+University of Zurich, Plattenstrasse 14, 8032 Zurich, Switzerland
+e
+Swiss Finance Institute, Switzerland
+b
+
+a r t i c l e in f o
+
+abstract
+
+Article history:
+Received 17 January 2014
+Received in revised form
+18 September 2014
+Accepted 21 October 2014
+Available online 12 June 2015
+
+Stock market investment decisions of individuals are positively correlated with those of
+coworkers. Sorting of unobservably similar individuals to the same workplaces is unlikely
+to explain this pattern, as evidenced by the investment behavior of individuals who move
+between plants. Purchases made under stronger coworker purchase activity are not
+associated with higher returns. Moreover, social interaction appears to drive the purchase
+of within-industry stocks. Overall, we find a strong influence of coworkers on investment
+choices, but not an influence that improves the quality of investment decisions.
+& 2015 Elsevier B.V. All rights reserved.
+
+JEL classification:
+D14
+G02
+G11
+Keywords:
+Individual investors
+Peer effects
+Social interaction
+Investment decisions
+Stock selection
+
+1. Introduction
+Although the literature has long acknowledged the
+existence of social interaction effects among individual
+investors (e.g., Shiller, 1984; Shiller and Pound, 1989), most
+work explaining individual investment decisions focuses
+
+on other factors such as risk and time preferences, wealth,
+or overconfidence (Campbell, 2006). One exception is
+Hong, Kubik, and Stein (2004), who hypothesize that social
+interaction leads to greater stock market participation and
+find that those who interact with neighbors or attend
+church are more likely to invest in stocks. Using extremely
+
+☆
+Financial support from the Norwegian Research Council under Grant number 178944 and the National Centre of Competence in Research “Financial
+Valuation and Risk Management” (NCCR FINRISK) is acknowledged. We thank Verdipapirsentralen (Norwegian Central Securities Depository) for providing
+the transaction data, Øystein Hungerholt for data assistance, and Bernt Arne Ødegaard for providing factor data for Norway. We are also grateful to James
+Banks, Trond Døskeland, Rachel Griffith, Romano Gruber, Michel Habib, René Hegglin, Kasper Meisner Nielsen, Kjell Nyborg, Thomas Richter, Kristian
+Rydqvist, Andrei Simonov (discussant), Gaute Torsvik, and seminar participants at University of Bergen, Gothenburg University, University of Helsinki,
+University of Lugano, University of Manchester, Michigan State University, Norwegian School of Economics, State University of New York at Binghamton,
+the Hong Kong University of Science and Technology Symposium on Household Finance, the 2013 Swiss Finance Institute SFI-FINRISK research day in
+Gerzensee, Switzerland, the 2014 Four Nations Cup in Lausanne, Switzerland, the 2013 European Finance Association meetings in Cambridge, England, and
+especially an anonymous referee, for valuable comments.
+n
+Corresponding author at: University of Zurich, Plattenstrasse 14, 8032 Zurich, Switzerland.
+E-mail addresses: hans.hvide@econ.uib.no (H.K. Hvide), per.oestberg@bf.uzh.ch (P. Östberg).
+1
+Tel.: þ 47 55 58 95 22; fax: þ 47 55 58 92 10.
+
+http://dx.doi.org/10.1016/j.jfineco.2015.06.004
+0304-405X/& 2015 Elsevier B.V. All rights reserved.
+
+H.K. Hvide, P. Östberg / Journal of Financial Economics 117 (2015) 628–652
+
+detailed data from Norway, we show that social interactions with colleagues at work appear to strongly affect
+individual investors' trading intensity and their stock
+selection. We also analyze whether coworker influence
+appears to improve the quality of investment decisions.
+The social psychology literature emphasizes the
+strength of face-to-face communication between individuals who frequently interact in producing and altering
+beliefs.2 Conversations at the workplace occasionally center on the stock market and, we conjecture, can influence
+investment behavior. For example, investors pick among a
+dizzying number of individual stocks when picking stocks,
+and they can obtain information from discussions with
+their colleagues or make inferences based on hearing
+about their choices. Conversations with colleagues about
+stocks can also raise awareness of, or trust in, equity
+markets and make trading more likely (Guiso and
+Jappelli, 2005; Guiso, Sapienza, and Zingales, 2008).3
+To examine whether individual investors are affected
+by their coworkers, we combine two data sources from
+Norway. The matched employer–employee data, which
+cover the whole population of workers over a ten year
+period from 1995 to 2005, identify coworkers at the plant
+level. We combine these data with a complete record of
+common stock transactions made by individual investors
+at the Oslo Stock Exchange (OSE) over the same period. We
+focus on individuals who make at least one purchase of
+common stocks over the sample period.4 We omit
+individual-years in which the individual is employed by a
+listed company or a subsidiary of a listed company to avoid
+capturing mechanic effects of company stock plans.
+The results suggest strong social interaction effects. For
+example, a 1 standard deviation increase in the fraction of
+coworkers who make a stock purchase in a given month is
+associated with a 41% increase in the probability of making
+a purchase. Moreover, conditional on making a purchase, a
+1 standard deviation increase in coworkers' purchase of a
+particular stock is associated with a striking 194% increase
+in the fraction of that month's purchases invested in that
+stock by the individual.
+Stock purchases could be correlated inside plants for
+other reasons than social interaction (e.g., Manski, 1993).
+The literature highlights correlated unobservables, endogenous group membership, and reflection as obstacles for
+estimation of causal effects.5 We control for fixed effects to
+
+2
+In a classic study by Asch (1955), individuals alone and in groups
+compare the lengths of line segments. The lengths are sufficiently
+different that when responding alone very few wrong answers are given.
+Yet when placed in a group in which all other members are instructed to
+give the same wrong answers, individuals frequently give wrong
+answers.
+3
+For suggestive evidence, Shiller (1984) cites surveys from the 1950s
+and 1960s in which the answers to the questions “Do you own any
+stocks?” and “Do you have any friends or colleagues who own any
+stocks?” are practically identical. In a case study with a randomized trial
+design, Duflo and Saez (2003) show workplace social influence in the
+decision to enroll in a tax-deferred account retirement plan.
+4
+In a draft version of the paper, we also studied stock market
+participation and obtained similar results.
+5
+These concepts can be illustrated with an example. Suppose that
+purchases are correlated across individuals in the same plant. The
+correlation could be due to receiving the same news (correlated
+
+629
+
+address correlated unobservables. For example, plant fixed
+effects control for unobservables such as company culture,
+composition of the workforce, and industry affiliation.6
+Other fixed effects control for geographical differences in
+investment behavior (a preference for local stocks, for
+example) and for individuals following simple decision
+rules such as picking stocks based on their recent performance record. On top of this, we control for sociodemographic variables at the individual-year level.
+Workers with similar unobserved characteristics, such
+as risk preferences, access to information, or investment
+style, could self-select to plants in a pattern not captured
+by the controls. To address such endogenous group membership, we analyze the investment behavior of individuals
+who move between plants. The idea is that future coworkers are unlikely to influence via social interaction but
+can still exhibit correlated behavior due to similarity along
+unobservables. Thus, if unobserved similarities drive the
+results, we would expect the correlation with future coworkers to be of comparable magnitude to the correlation
+with current coworkers.
+In Fig. 1, time is on the horizontal axis and the
+correlation in purchasing behavior is on the vertical axis.
+Month 0 is the starting month in the new job and end
+month in the old job. The blue dashed line illustrates how
+the correlation in purchasing behavior with individuals
+who become coworkers after the move evolves over time.
+Up to three months before the move, the correlation in
+purchasing activity with these future peers is close to zero.
+Thus, endogenous group membership seems to be of
+minor concern. The red solid line illustrates how the
+correlation with individuals who are coworkers prior to
+the move evolves over time. Prior to Month 0, the
+correlation is significantly higher than the correlation with
+future coworkers and then fades out after the move.
+Our results could be driven by events at the plantmonth level, such as visits from equity brokers. If so, we
+would expect a similar correlation in trading behavior
+between pairs of individuals at small and large plants. If
+social interaction drives our results, in contrast, we would
+expect stronger correlation between individuals at small
+plants than at large plants, simply because two individuals
+are more likely to engage at a small plant. For each month,
+we rank all plants into ten size deciles, based on number of
+employees. We then sample two individuals from each
+plant-month and estimate the within-plant correlation in
+purchasing activity across size deciles. In support of the
+
+(footnote continued)
+unobservables), because they have similar investment style (endogenous
+group membership) or because of social interaction. Under social interaction, the group affects the individual and the individual affects the
+group, in which case it is not straightforward to back out the structural
+parameters of social influence from the estimated correlations. This is the
+reflection problem of Manski (1993), referred to as the simultaneity
+problem in Moffitt (2001).
+6
+These are contextual and ecological effects in the terminology of
+Manski (1993), which should be contrasted with the endogenous social
+effects. Lee (2007) and Lee, Liu, and Lin (2010) analyze how fixed effects
+alleviate the problem of correlated unobservables in the identification of
+endogenous social effects. Blume, Brock, Durlauf, and Ioannides (2010)
+survey the literature.
+
+630
+
+H.K. Hvide, P. Östberg / Journal of Financial Economics 117 (2015) 628–652
+
+Fig. 1. This figure plots the peer interaction coefficient, which is the
+increase in the likelihood that an individual makes a purchase if all of his
+coworkers make a purchase in that month. We consider the effect of old
+coworkers and new coworkers from 12 months before the individual
+leaves the old plant to 12 months after the individual joins the new plant.
+0 is the start date of the new job and end date of the old job. See Section
+3.2 for estimation details.
+
+social interaction mechanism, we find that the estimated
+correlation is considerably larger for small plants than for
+large plants.
+Does social interaction improve the quality of investment decisions? The logic behind information cascade
+models (Bikhchandani, Hirshleifer, and Welch, 1992;
+Banerjee, 1992; Ellison and Fudenberg, 1993) suggests that
+imitating coworkers can make investment decisions more
+enlightened through diffusion of return-relevant information or, perhaps, through learning sound investment
+principles such as diversification and hedging. Alternatively, information transmitted at the workplace could be
+false rumors, or it could involve imitation of unsound
+practices such as technical analysis (March, 1991).7 The
+welfare implications are substantially different.
+We address whether social interaction improves investment quality in two ways. First, using the calendar time
+portfolio approach (e.g., Odean, 1999; Seasholes and Zhu,
+2010), we analyze whether risk-adjusted investment
+returns are higher when coworkers purchase a particular
+stock more intensely. We find that purchases made under
+strong purchase pressure do not outperform purchases
+made under weak purchase pressure. Hence, the social
+interaction effects we find do not seem rooted in diffusion
+of value-relevant asymmetric information. Second, an
+investment mistake that has been abundantly recorded is
+the tendency to hedge poorly against fluctuations in future
+labor income by holding own-company or own-industry
+stocks. As a stark example, employees of Pfizer, Inc., invest
+7
+An anecdote relayed by Benartzi and Thaler (2007, p. 94) in the
+context of 401(k) pension plan choices by employees in a supermarket
+chain in Texas provides a nice illustration of this point: “The plan
+provider noticed that participants' behavior in each supermarket was
+remarkably homogeneous, but the behavior across supermarkets was
+fairly heterogeneous. It turns out that most of the supermarket employees considered the store butcher to be the investment maven and would
+turn to him for advice. Depending on the investment philosophy of the
+butcher at each individual location, employees ended up being heavily
+invested in stocks or heavily invested in bonds.”
+
+almost 90% of the value of their defined contribution plan
+in Pfizer common stock (see Cohen, 2008). We analyze
+whether the impact of coworkers is larger for the purchase
+of within-industry stocks than for other stocks, and we
+find strong affirmative evidence. Moreover, withinindustry stock purchases made under stronger peer pressure are not associated with significantly higher investment returns. Taken together, these results suggest that
+social interaction, instead of improving investor welfare,
+could propagate investment mistakes.
+Overall, the findings suggest that individuals are
+strongly influenced by their coworkers, but this influence
+does not improve, and sometimes reduces, the quality of
+their investment choices. At the normative level, we offer
+advice to individual investors themselves: Listening to
+coworkers is unlikely to improve the quality of
+investments.
+The paper connects to several ongoing debates. First,
+much of the existing work on social interaction among
+individual investors (Hong, Kubik, and Stein, 2004; Ivković
+and Weisbenner, 2007; Brown, Ivković, Smith, and
+Weisbenner, 2008; Kaustia and Knüpfer, 2012) is based
+on analysis of large groups, such as regions or neighborhoods, in which identification of social effects is difficult
+(e.g., Moffitt, 2001).8 We construct peer groups at a much
+more local level, the workplace, and find evidence of
+strong social interaction effects even after accounting for
+correlated unobservables, endogenous group membership,
+and reflection. Our evidence contrasts with Feng and
+Seasholes (2004), who in a small-group environment
+(trading rooms in China) do not find evidence of social
+interaction effects. It also contrasts with Beshears, Choi,
+Laibson, Madrian, and Milkman (2011), who find negative
+coworker peer effects (boomerang effects) in the adoption
+of a simplified 401(k) plan.
+Second, we provide empirical evidence on whether
+information obtained through social interaction is useful
+or not. The theoretical literature on information cascades
+(Bikhchandani, Hirshleifer, and Welch, 1992; Banerjee,
+1992; Ellison and Fudenberg, 1993) posits that information
+cascades in social groups are (at least on average) rooted in
+value-relevant information. We fail to find affirmative
+evidence for this hypothesis. The insights transmitted
+through social interaction between coworkers seem to be
+noise at best. Our results stand in contrast to the economics literature, which emphasizes positive spillover effects
+[e.g., Mas and Moretti (2009) on productivity spillover
+effects for workers].
+Third, we contribute to the debate on what explains
+investment mistakes. A large empirical literature has
+shown that individual investors tend to make systematic
+investment mistakes [see, e.g., Odean (1999) or Benartzi
+and Thaler (2007) and Campbell (2006) for overviews].
+While the extant literature attempts to explain these
+
+8
+The same point can be made about much of the literature on social
+interaction in economics (e.g., Bertrand, Luttmer, and Mullainathan,
+2000; Moretti, 2011). Whilst our focus is on social interaction in a
+naturally occurring group, a related literature considers social interaction
+effects under randomized group formation (e.g., Bursztyn, Ederer,
+Ferman, and Yuchtman, 2013; Dahl, Løken, and Mogstad, 2012).
+
+H.K. Hvide, P. Östberg / Journal of Financial Economics 117 (2015) 628–652
+
+mistakes with individual characteristics such as gender,
+wealth, income, genetics, or intelligence quotient (IQ) (e.g.,
+Campbell, 2006; Cohen, 2008; Cronqvist and Siegel, 2013),
+we demonstrate the role of social interaction. Our findings
+have an interesting parallel in the medical literature.
+Christakis and Fowler (2007) provide evidence consistent
+with obesity in the US spreading through social
+interaction.
+The remainder of this paper is organized as follows.
+Section 2 presents the data. Section 3 has results on the
+timing of purchases, and Section 4 has on stock selection.
+Section 5 analyzes whether purchases that are highly
+correlated with those of coworkers are associated with
+abnormal returns. Section 6 concludes.
+
+2. Data
+The data set is proprietary and has been collected from
+three sources. First, a record of all common stock trades
+made between January 1994 and December 2005 by
+Norwegian residents on the Oslo Stock Exchange (OSE)
+come from Verdipapirsentralen (the Norwegian Central
+Securities Depository). For each transaction made by an
+individual, the data contain the (anonymized) identification (ID) of the individual, the transaction date, the ticker
+of the security, and the number of shares bought or sold.
+To preserve anonymity, the trade records of the 20 most
+active investors are not contained in the data. Second,
+company information such as ticker, prices, market capitalization, and company ID numbers come from the OSE.
+When needed, additional information is collected from
+Borsprosjektet (the OSE project) at the Norwegian School
+of Economics. Third, the government statistical agency,
+Statistics Norway, provided register data on the sociodemographic characteristics of investors. The data come
+from government registries assembled for tax-collection
+purposes and are highly reliable.9
+For each individual-year, the data include the ID of the
+plant at which the individual is employed (the plant ID
+stays fixed through ownership changes), the IDs of the
+individual's spouse and children, and the zip code in which
+the individual lives. If two individuals work at the same
+plant, it means that they share the same business address.
+We also identify other family members: parents, grandparents, grandchildren, siblings, uncles, aunts, cousins,
+nieces and nephews. The socioeconomic variables are
+income and wealth, age, gender, education, and employer
+variables such as industry (five-digit NACE code) and an
+unique employer ID number.10 For individuals that change
+firms during the sample period, the Statistics Norway data
+contain the end date of employment at the old firm and
+the start date of employment at the new firm. Huttunen,
+9
+The data are described in more detail in Døskeland and Hvide
+(2011), which also discusses the Norwegian institutional environment,
+including questions about representativity and the Norwegian pension
+system.
+10
+NACE stands for Nomenclature Generale des Activites Economiques dans I'Union Europeenne and is a European industry standard
+classification system equivalent to the standard industrial classification
+(SIC) system in the US.
+
+631
+
+Møen, and Salvanes (2011) contains a further description
+of the job start and job end variables.
+2.1. Sample selection
+The starting point for the sample selection is individuals who are employed full time for at least one year
+between 1994 and 2005 and who purchase common
+stocks on the Oslo Stock Exchange at least once during
+the same period (about 12% of the population). We omit
+individual-years in which the individual is employed part
+time or is employed by a listed company or a subsidiary of
+a listed company. This exclusion is done to ensure that
+employee stock ownership plans, which would imply a
+near-mechanic correlation in purchasing behavior at the
+plant level, are not driving the results [in Norway, purchases up to Norwegian Kroner (NOK) 1500 in owncompany stock are subject to a tax break]. We also exclude
+individual-years of employment in financial services
+(NACE codes 65, 66, and 67) as a simple way to eliminate
+professional investors from the sample (the results are
+slightly stronger if we keep these industries). We are left
+with a sample of about 170,000 individuals. The coworker
+peer group of the individuals is defined somewhat more
+broadly. We include part-time employees (and, for family
+and zip code peer groups, individuals employed in the
+financial sector). The family peer group contains the
+spouse, children, parents, grandparents, grandchildren,
+siblings, uncles, aunts, cousins, nieces, and nephews of
+the individual. The geographic peer group contains all
+those who live in the same zip code as the individual. We
+refer to an individual in the sample or in one of the peer
+groups who makes at least one purchase of stock during
+the period 1994 to 2005 as an investor.
+For the purchase decision analysis of Section 3, we keep
+individuals who have (a) at least one coworker who is an
+investor (i.e., purchases stocks at least once between 1994
+and 2005), (b) at least one person in the same zip code
+who is an investor, and (c) at least one family member who
+is an investor. The purchasing activity of coworkers is our
+main explanatory variable, and we impose (b) and (c) to
+control for the purchasing activity of zip code and family
+members (these controls would not be defined otherwise).
+We also require that the socio-demographic variables are
+non-missing (this requirement affects only a small fraction
+of observations). This leaves 97,264 unique individuals
+over the entire period. In Panel A of Table A2 we provide
+socio-demographic descriptive statistics of the sample
+individuals (a random year for each individual has been
+selected). In the year 2000, the sample individuals are
+spread over about 26 hundred zip codes and roughly 18
+thousand plants.
+The stock selection analysis of Section 4 conditions on a
+purchase having been made (by definition) and, therefore,
+implies different sample selection criteria. For an
+individual-month to be included in the sample, we require
+that the individual, at least one coworker, and one person
+in the zip code make a purchase in that month. Panel C of
+Table A2 provides descriptive statistics of the 118,432
+unique individuals present in the stock selection analysis.
+The socio-demographic characteristics of this sample are
+
+632
+
+H.K. Hvide, P. Östberg / Journal of Financial Economics 117 (2015) 628–652
+
+similar to the purchase decision sample (covered in
+Section 3). The sample is somewhat larger than in
+Section 3 because we exclude the family peer group.
+Restricting the analysis to individuals who have family
+members purchasing stocks in the same month would
+leave only 28 hundred unique individuals. In unreported
+regressions, we verify that the results are very similar for
+this subsample, even after controlling for the stock selection of family members.
+In Section 3.2 and Section 4.2, we consider individuals
+who move between plants. For a move to be included in
+the analysis, we require that the termination date of the
+old job and the start date of the new job are both nonmissing from the data. This implies that individuals who
+start a job fresh from school or move from abroad are
+excluded. We lose about half of the moves in the database
+due to this restriction. We require that, at the time of the
+move, the individual did not change plants in the preceding year or in the following year (to focus on jobs that are
+not of a temporary nature).11 We focus on stock market
+activity during the 12 months prior to leaving the old plant
+and 12 months after moving to the new plant, which
+means that we consider moves that occur between January
+1995 and December 2004. These criteria leave 14,284
+unique individuals in the purchase decision analysis of
+Section 3.2. Panel B of Table A2 contains descriptive
+statistics on these individuals for a random year. For all
+the socio-demographic variables (age, income, wealth, and
+all the peer group variables, including plant and zip code
+size), the movers are on average very similar to the overall
+sample.
+3. The purchase decision
+In this section, we relate the decision of an individual to
+purchase common stocks in a given month with purchasing activity of coworkers. The motivation is simple: More
+trading by coworkers is expected to create more buzz
+about the stock market and make the individual more
+likely to also trade.
+3.1. Basic results
+Our main dependent variable is buyi;t a dummy variable
+that takes the value one if individual i makes a purchase in
+month t and that is zero otherwise.
+We estimate the following relation at the individualmonth level:
+buyi;t ¼ β1 Buyplant
+þbΓ þ εi;t :
+i;t
+
+ð1Þ
+
+is the fraction of coworkers who purchase a stock
+Buyplant
+i;t
+that month (not including i himself) at the plant where
+individual i works. Table 1 presents descriptive statistics of
+11
+In addition, we require that the investor moves at most four times
+between 1993 and 2005, that the start date at the new plant is later than
+the stop date at the previous plant, and that the unemployment spell (if
+any) lasts less than six months. These three criteria exclude only a very
+small fraction of moves. For some individuals, plant information is
+missing at the end of year t  2. For these individuals, we require them
+to have worked at the old plant for at least 18 months.
+
+our main dependent and independent variables. In Eq. (1),
+the estimated β1 captures the extent to which the individual's purchasing activity is correlated with that of his
+coworkers. Γ is a column vector of control variables, and b
+is a row vector of coefficients. The socio-demographic
+controls are age, wealth, labor income, sex, the number
+of years of education, and various powers thereof (see the
+caption to Table 2 for specifics). For income and wealth, we
+use the values reported in last year's tax return. We also
+zip
+include Buyfam
+i;t and Buyi;t , which control for correlation in
+timing of purchases inside the family, and within the zip
+code, respectively and are defined in the same manner as
+Buyplant
+. Importantly, all of these variables exclude the
+i;t
+individual because otherwise a mechanical relation would
+exist between the individual and the peer group. We
+include a set of month dummies (132 in total) that control
+for time-varying aggregate patterns in trading behavior. To
+control for contextual effects, we include plant fixed
+effects. For the same reason, we include zip code fixed
+effects. We report t-statistics based on robust standard
+errors clustered (two-way) around time and plant. Similar
+regression models that link individual behavior to mean
+group behavior have been used by, e.g., Bertrand, Luttmer,
+and Mullainathan (2000), Duflo and Saez (2002), and
+Ivković and Weisbenner (2007).
+To estimate Eq. (1), we use the linear probability model as
+our benchmark and verify robustness using the conditional
+fixed effects logit estimator. In settings such as Eq. (1), where
+many fixed effects need to be estimated, it is not obvious
+whether linear or nonlinear regression models are more
+appropriate. The disadvantage with the linear probability
+model is that predicted probabilities could lie below zero or
+above one. However, the nonlinear alternatives also have
+disadvantages. First, introducing fixed effects can imply inconsistent estimates due to the incidental parameters problem
+(see Neyman and Scott, 1948; Lancaster, 2000). The degree of
+inconsistency depends on the number of observations per
+fixed effect (Hsiao, 1986; Heckman, 1979), which means that
+including many controls for unobserved heterogeneity makes
+the incidental parameter problem more severe (omitting fixed
+effects is particularly problematic in probit and logit estimations because the estimates will be inconsistent even if the
+fixed effect is uncorrelated with other explanatory variables;
+see Yatchew and Griliches, 1985). Taken together, this implies
+that including an extensive amount of fixed effects leads to
+inconsistent estimates in the nonlinear setting. The same
+holds if we relevant fixed effects are excluded. Arguably, the
+best nonlinear model in our setting is the conditional fixed
+effects logit model of Chamberlain (1980), which bypasses the
+incidental parameters problem by not estimating the fixed
+effects. However, a disadvantage of the conditional fixed
+effects logit model is that, because the fixed effects are not
+estimated, this implies that the marginal effects are of limited
+use (see Greene, 2012, p. 763, footnote 32).
+Panel A of Table 2 presents the empirical results. Column 3
+is the main specification. The estimated β1 is positive and
+highly significant. In terms of economic magnitude, in Column
+(3), a 1 standard deviation increase in coworker trading
+activity (Buyplant
+i;t ) results in an increase in trading activity of
+40.90% relative to the unconditional mean [0.183 (point
+estimate from Model 3) times 0.116 (standard deviation of
+
+H.K. Hvide, P. Östberg / Journal of Financial Economics 117 (2015) 628–652
+
+633
+
+Buyplant )] divided by 0.0519 (the mean of buy).12 In Column 4,
+we account for time-variant changes at the plant or zip code–
+level by including yearly plant and zip code fixed effects. The
+point estimate of β1 is similar to that reported in Column 3. In
+addition, we consider specifications without fixed effects. In
+this case, the point estimates and economic magnitudes are
+larger than for Column 3.
+The zip code-level correlation in trading behavior is
+significantly reduced when workplace peer effects are introduced. The introduction of coworkers reduces the impact of
+neighbors by roughly 20% (comparing Column 2 with 3). The
+difference is statistically significant at the 1% level. In contrast,
+the impact of workplace peers is much less affected by the
+introduction of neighbors (3% reduction, when going from
+Column 1 to 3). This is what would be expected if the positive
+correlation at the zip code level is partially driven by coworkers who live close to each other. In addition, in unreported
+analysis, we find that the introduction of socio-demographic
+controls reduces the impact of neighborhood peers, while the
+impact of coworkers is less affected.
+The results could be driven by events in the industry or
+in the region, such as writings in industry journals or in
+local newspapers. In Specification 5, we account for timevariant industry-specific events by including monthly
+industry-level fixed effects. This affects the estimated
+coworker peer effect only to a minor extent. We account
+for time-variant local events by including a fixed effect for
+each municipality-year combination in our data set (there
+are 459 municipalities in Norway). The results, reported in
+Column 6, are similar to those reported in Column 3.13
+In the stock market participation model of Hong, Kubik,
+and Stein (2004), some investors are susceptible to social
+influence and some are not. In an unreported analysis, we
+consider whether socio-demographic characteristics are
+related to the strength of coworker peer effects. We find
+that coworkers exert a greater influence on males. We find
+no relation to age or the level of education.
+The extant literature shows that individual investors
+have a preference for local stocks (e.g., Coval and
+Moskowitz, 1999; Huberman, 2001) and stocks from their
+industry of employment (Døskeland and Hvide, 2011). In
+unreported analysis, we create new dummy variables that
+indicate whether the purchase made was local (the firm's
+headquarters is not more than one hundred kilometers
+away from the zip code where the individual lives) or
+within the industry of employment (the stock two-digit
+NACE code matches that of the plant). Using these dummy
+
+variables, we verify that coworker peer effects are present
+across local, nonlocal, same-industry, and differentindustry stocks. In Section 4, which covers stock selection,
+we also verify that those results are not restricted to local
+and same-industry stocks (see Table 9).14
+We also examine whether the peer effects that we find
+are restricted to particular industries. Table A3 estimates a
+separate coworker peer effect for each of 36 industries that
+represent a significant proportion of the sample (no single
+industry accounts for more than 12% of the investor
+observations). These results strongly indicate that correlation in trading behavior among coworkers is universal
+across industries.
+A drawback of the linear probability model (LPM) is
+that it can imply predicted probabilities outside the unit
+interval. In Panel C, we reestimate Eq. (1) using the
+conditional fixed effects logit estimator.15 We report odds
+ratios of our main variables and z-statistics based on
+standard errors clustered around plant.16 The lower number of observations in this panel is due to the conditional
+fixed effect estimator requiring variation in the dependent
+variable within each group (plant  postcode). So plants
+with very few individuals (or relatively few individuals
+and a short time series) are dropped from the estimation.
+Consistent with the results in Panel A, we find that the
+effect of Buyplant
+is statistically significant at the 1% level. In
+i;t
+Specification 3, the coworker peer effect has an odds ratio
+of 10.24. So, if Buyplant
+goes from zero to one, the odds
+i;t
+increase roughly tenfold.
+Social interaction can also affect sell decisions. Sells are
+restricted to stocks already owned by the individual (very
+few individual investors go short), and we therefore expect
+coworkers to have a positive effect on individual sells but a
+weaker effect than on purchases [for a related argument,
+see Barber and Odean (2008)]. To investigate the role of
+social interaction in sells, we define selli;t , a dummy
+variable that takes the value one if the individual makes
+a sale in month t and that otherwise is zero. Our main
+plant
+explanatory variable is Selli;t , which is the fraction of the
+individual's coworkers making a sale in month t. In Panel B
+of Table 2, we reestimate Eq. (1) using sale analogues. We
+consider the same specifications as in Panel A. Our results
+do suggest a positive peer effect on sells, but significantly
+smaller than on purchases. In Column 3, a 1 standard
+
+12
+The estimated impact of family and neighbors is lower. A 1 standard
+deviation increase is associated with an increase in trading activity of
+23% ½ð0:1361
+0:88Þ=0:0519
+and
+19% ½ð0:0369  0:272Þ=0:0519,
+respectively.
+13
+We also consider the influence of non-coworkers on the individual
+as a placebo test. We construct an analogue to Buyplant for all noncoworkers (Buynon-plant), capturing the purchasing intensity of noncoworkers. Because each of our plants represent a small fraction of the
+economy, there is very limited variation across plants in Buynon-plant and,
+therefore, collinearity with our time fixed effects. When we exclude time
+fixed effects, we find that Buynon-plant is positively related to the
+individual's purchase decision. This is not surprising because Buynonplant
+captures economy-wide sentiment. However, as expected, the
+economic impact of non-coworkers is limited when compared with
+actual coworkers (less than one-fifteenth).
+
+14
+In unreported regressions, we find that coworker same-industry
+purchases have a greater effect on individual same-industry purchases
+than on coworker non-same-industry purchases. This is not surprising if
+the coworker and the individual purchase the same stock. Because we
+examine whether the individual purchases the same stocks as his coworkers (see Section 4), we omit these results for brevity.
+15
+Chamberlain (1980) shows that this estimator avoids the incidental parameter problem (Neyman and Scott, 1948) that arises in a probit or
+logit model when fixed effects are estimated. This is particularly useful in
+this context because there are 164,713 postcode-plant categories implying relatively few observations per fixed effect.
+16
+When using the conditional fixed effects logit, it is natural to
+report odds ratios. The reason is that all of the independent variables
+affect marginal effects in the logit setting and the fixed effects (postcodeplant in our context) are not estimated. Greene (2012, p. 763) notes:
+
+634
+
+H.K. Hvide, P. Östberg / Journal of Financial Economics 117 (2015) 628–652
+
+Table 1
+Trading of individuals and peers.
+This table contains descriptive statistics on trading of individuals and their peers. Panel A considers stock purchases. buyi;t is a dummy variable that takes
+, Buyfamily
+, and Buyzip
+the value one if individual i makes a purchase in month t, otherwise it is zero. Buyplant
+i;t
+i;t
+i;t are the fraction of plant, family, and zip code
+peers that make a stock purchase in month t. Panel B, we consider stock sales. selli;t is a dummy variable that takes the value one if individual i makes a
+plant
+
+stock sale in month t, otherwise it is zero. Selli;t
+
+family
+
+, Selli;t
+
+zip
+
+and Selli;t are the fraction of plant, family, and zip code peers that make a stock sale in month t.
+
+The sample period is January 1995 to December 2005.
+Variable
+Panel A: Purchases
+Individual trading
+buy
+
+Mean
+
+Median
+
+0.0519
+
+0
+
+Standard deviation
+
+0.2219
+
+Minimum
+
+Maximum
+
+N
+
+0
+
+1
+
+6,025,608
+
+Peer trading
+Buyplant
+
+0.0469
+
+0
+
+0.1160
+
+0
+
+1
+
+6,025,608
+
+Buyzip
+
+0.0453
+
+0.0388
+
+0.0369
+
+0
+
+1
+
+6,025,608
+
+Buyfamily
+
+0.0267
+
+0
+
+0.1361
+
+0
+
+1
+
+6,025,608
+
+Panel B: Sales
+Individual trading
+sell
+
+0.0444
+
+0
+
+0.2059
+
+0
+
+1
+
+6,025,608
+
+plant
+
+0.0396
+
+0
+
+0.1025
+
+0
+
+1
+
+6,025,608
+
+zip
+
+0.0226
+
+0
+
+0.1249
+
+0
+
+1
+
+6,025,608
+
+family
+
+0.0382
+
+0.0339
+
+0.0292
+
+0
+
+1
+
+6,025,608
+
+Peer trading
+Sell
+
+Sell
+Sell
+
+plant
+
+deviation increase in Selli;t
+is associated with a 14.33%
+increase (relative to the unconditional mean) in the likelihood that the individual makes a sale in that month. A ttest of the difference between the point estimate of
+plant
+Buyplant
+and Selli;t
+is statistically significant at the 1%
+i;t
+level, confirming that peer effects are larger for purchases
+than sales.17 The vector Γ contains the same controls as in
+Panel A.
+In Panel D, we revisit the sales analysis using conditional fixed effects logit estimation. Qualitatively, the
+results are similar to those found in Panel B. For all three
+peer groups, an increase in the fraction of peers that
+undertake a sale results in higher selling activity of the
+individual. In Specification 3, the odds ratio associated
+plant
+with Selli;t is 2.484 which is substantially lower than for
+purchases (10.240, Specification 3 of Panel C). Overall, the
+conditional fixed effects analysis complements our LPM
+results, and it is reassuring that the results are qualitatively
+similar.
+
+3.2. Changes in place of work
+Workers with similar unobserved characteristics, such
+as risk preferences or investment style, could self-select to
+the same plants in a pattern not captured by the control
+variables. The data allow us to track individuals who move
+(footnote continued)
+“Because the fixed effects are not estimated, it is not possible to compute
+probabilities or marginal effects with these estimated coefficients, and it
+is a bit ambiguous what one can do with the results of the computations.”
+We cluster only in the plant dimension because the conditional fixed
+effects estimator cannot accommodate standard errors clustered in
+multiple dimensions (see Cameron and Miller, 2010).
+17
+Corresponding differences for the family and zip code peer groups
+are statistically significant at the 1% and 10% level, respectively.
+
+between plants, down to a monthly level.18 Workers who
+move between plants allow for a placebo test. We analyze
+how individual purchases relate to the purchase activity of
+future coworkers. The idea is that future coworkers are
+unlikely to influence via social interaction but can still
+exhibit correlated behavior due to similarity along unobservables. Thus, if unobserved similarities drive the results,
+we would expect the correlation with future coworkers to
+be of comparable magnitude to the correlation with
+current coworkers.
+Considering workers who move between plants also
+provides an intuitive way to deal with the reflection
+problem, i.e., that the estimated coefficients in Table 2
+reflect both the influence of the group on the individual
+and the influence of the individual on the group. One can
+argue that recently arrived individuals are much less likely
+to influence the incumbent group at the new plant than
+vice versa (at least for some time) and that identification of
+peer effects is in that case quite sharp. One can think of
+exceptions to this rule, such as an academic department
+hiring a new star scientist or a firm hiring a new manager.
+The much more common experience, according to the
+social psychology and sociology literature, is that listening
+and adaptation is the prevalent mode in a new job at least
+for a few months (e.g., van Maanen, 1976; Moreland, 1985;
+Ashfort and Saks, 1996). For example, Ashfort and Saks
+(1996, p. 149) state: “Individuals are particularly susceptible to influence during role transitions, such as organizational entry, because of the great uncertainty regarding
+role requirements.”
+To analyze the impact of new and former coworkers,
+we interact the fraction of new and former coworkers who
+
+18
+Bodnaruk (2009) uses investor moves to show that individuals
+shift their portfolios toward stocks that become local.
+
+H.K. Hvide, P. Östberg / Journal of Financial Economics 117 (2015) 628–652
+
+635
+
+Table 2
+Peer and investor trading.
+The following equation is estimated:
+buyi;t ¼ β1 Buyplant
+þ β2 Buyfamily
+þ β2 Buyzip
+i;t
+i;t
+i;t þ bΓþ εi;t :
+In Panel A (B), the dependent variable is the dummy variable buy (sell) that takes the value one if the investor makes a purchase (sale) in that month and
+zero otherwise. In Panel A, the main explanatory variables are the fraction of plant, family and zip code peers that make a stock purchase in month t
+plant
+
+(Buyplant
+, Buyfamily
+and Buyzip
+i;t
+i;t
+i;t respectively). In Panel B, we consider the analogous explanatory variables for sales (Selli;t
+2
+
+2
+
+2
+
+3
+
+family
+
+, Selli;t
+
+zip
+
+and Selli;t ). Γ includes the
+
+3
+
+following socio-demographic variables: Age, Age , LogIncome, LogIncome , LogIncome , LogWealth, LogWealth , LogWealth , LogIncome  LogWealth, Male,
+and Education. In some specifications we include time (month), plant, zip, and zip–plant interaction fixed effects. In Specification 4, we include plant  year,
+zip  year, and zip  plant  year fixed effects. In Specification 5, we include month  industry [Nomenclature Generale des Activites Economiques dans
+I'Union Europeenne (NACE) 2] fixed effects and in Specification 6, we include year  municipality fixed effects. t-statistics (in parentheses) are based on
+robust two-way (plant and time) clustered standard errors. The specifications in Panel C (D) are identical to those in Panel A (B) except that we use the
+conditional logit as estimation method. We condition on the zip  plant categories and include month dummies in the regressions. We report odds ratios
+and z-statistics (in parentheses). The z-statistics are based on robust standard errors clustered at the plant level. nnn indicates statistical significance at the
+1% level. The sample period is January 1995 to December 2005.
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+0.189nnn
+
+0.183nnn
+
+0.172nnn
+
+0.162nnn
+
+0.189nnn
+
+(8.66)
+0.339nnn
+
+(9.11)
+0.272nnn
+
+(7.38)
+0.266nnn
+
+(14.37)
+0.209nnn
+
+(11.42)
+0.212nnn
+
+0.090nnn
+
+(4.59)
+0.099nnn
+
+(4.76)
+0.088nnn
+
+(3.83)
+0.085nnn
+
+(12.68)
+0.098nnn
+
+(3.98)
+0.098nnn
+
+(14.12)
+Yes
+Yes
+Yes
+Yes
+Yes
+No
+No
+No
+No
+No
+6,025,608
+0.253
+
+(15.11)
+Yes
+Yes
+Yes
+Yes
+Yes
+No
+No
+No
+No
+No
+6,025,608
+0.248
+
+(13.87)
+Yes
+Yes
+Yes
+Yes
+Yes
+No
+No
+No
+No
+No
+6,025,608
+0.254
+
+(12.46)
+Yes
+Yes
+No
+No
+No
+Yes
+Yes
+Yes
+No
+No
+6,025,608
+0.361
+
+(18.44)
+Yes
+No
+No
+No
+No
+No
+No
+No
+Yes
+No
+6,025,608
+0.052
+
+(18.81)
+Yes
+Yes
+No
+No
+No
+No
+No
+No
+No
+Yes
+6,025,608
+0.055
+
+0.062nnn
+
+0.035nnn
+
+0.091nnn
+
+0.102nnn
+
+0.173nnn
+
+(9.30)
+0.160nnn
+
+(4.47)
+0.129nnn
+
+(17.21)
+0.196nnn
+
+(16.85)
+0.243nnn
+
+(6.26)
+0.063nnn
+
+(6.14)
+0.060nnn
+
+(4.26)
+0.053nnn
+
+(11.48)
+0.078nnn
+
+(11.38)
+0.078nnn
+
+(16.76)
+0.247
+
+(14.34)
+0.354
+
+(23.26)
+0.035
+
+(23.44)
+0.041
+
+Panel A: Investor purchases
+Buyplant
+Buyzip
+Buyfamily
+Socio-demographic controls
+Monthly Fixed effects
+Plant Fixed effects
+Zip Fixed effects
+Plant  zip Fixed effects
+Plant  year Fixed effects
+Zip  year Fixed effects
+Plant  zip  year Fixed effects
+Time  industry Fixed effects
+Year  municipality Fixed effects
+N
+R2
+Panel B: Investor sales
+Sell
+
+plant
+
+Sell
+
+zip
+
+Sell
+
+family
+
+0.063nnn
+(9.38)
+
+0.061nnn
+
+(16.38)
+(17.30)
+0.246
+0.246
+R2
+Socio-demographic controls, N and fixed effects are identical to Panel A
+Panel C: Conditional logit estimations, purchases
+11.775nnn
+Buyplant
+
+10.240nnn
+
+(15.98)
+Buyzip
+
+206.618nnn
+
+(16.54)
+45.242nnn
+
+Buyfamily
+
+3.441nnn
+
+(9.35)
+3.943nnn
+
+(10.42)
+3.293nnn
+
+Socio-demographic controls
+Monthly dummies
+N
+
+(39.86)
+Yes
+Yes
+3,697,776
+0.080
+
+(52.86)
+Yes
+Yes
+3,697,776
+0.067
+
+(39.39)
+Yes
+Yes
+3,697,776
+0.083
+
+Pseudo R2
+
+Panel D: Conditional logit estimations, sales
+Sell
+
+plant
+
+2.597nnn
+
+2.484nnn
+
+(13.28)
+Sell
+
+zip
+
+Sell
+
+family
+
+N
+
+37.019nnn
+
+(13.06)
+26.819nnn
+
+2.576nnn
+
+(11.01)
+2.728nnn
+
+(10.89)
+2.522nnn
+
+(32.61)
+3,163,212
+0.053
+
+(36.10)
+3,163,212
+0.052
+
+(32.09)
+3,163,212
+0.054
+
+Pseudo R2
+Socio-demographic controls and fixed effects are identical to Panel C
+
+636
+
+H.K. Hvide, P. Östberg / Journal of Financial Economics 117 (2015) 628–652
+
+make a purchase in a given month with dummy variables
+that indicate whether that month is prior to leaving
+(joining) the former (new) plant or not. For more than
+80% of moves, the individual moves straight from the old
+plant to the new plant, without gap months. In this case,
+these two dummy variables are the complements to each
+before
+other. The variable Buyold
+is the fraction of former
+i;t
+coworkers who make a purchase prior to the individual
+leaving the old plant (this variable takes the value zero
+after
+after leaving the old plant), and the variable Buyold
+is
+i;t
+the fraction of former coworkers who make a purchase
+after the individual has left the old plant (this variable
+takes the value zero before leaving the old plant). The
+variables describing the purchase activity of new plant
+before
+after
+coworkers, Buynew
+and Buynew
+, are defined in the
+i;t
+i;t
+same manner. In addition, we restrict the sample to 12
+months before the individual leaves the old plant and 12
+months after joining the new plant. We exclude the month
+in which the individual leaves the old plant and the month
+when he joins the new plant because they cannot be
+clearly assigned to either before or after the move. Later
+on, we take the analysis one step further and estimate
+separate effects for each month. We estimate
+buyi;t ¼ β1 Buyold
+i;t
+
+before
+
+þ β4 Buynew
+i;t
+
+þ β2 Buyold
+i;t
+
+after
+
+after
+
+þbΓ þ εi;t :
+
+þ β3 Buynew
+i;t
+
+before
+
+ð2Þ
+
+Estimating Eq. (2) allows us to track how the correlation in
+behavior with different coworkers evolves over time. It is
+conceivable that trading frequency changes in connection
+with a move (for example, due to severance packages or
+time constraints). The vector Γ, therefore, includes, in
+addition to the same socio-demographic control variables
+and fixed effects as in Column 3 of Table 2, dummies for
+the number of months before leaving from the old plant
+and dummies for the number of months prior to joining
+the new plant.
+We start out by focusing attention to the months prior
+to leaving the old plant. Column 1 of Table 3 considers the
+effect of coworkers at the old plant before leaving. The
+estimated coefficient is similar to the estimated coefficient
+on coworkers for the overall sample, in Column 3 of
+Table 2.
+In Column 2 of Table 3, we perform the placebo test by
+relating individual purchases to that of future coworkers.
+The coefficient on future coworkers is positive, but small
+and barely significant. Thus, endogenous group membership does not appear to be a major concern. In Column 3,
+we include both current and future coworkers. The placebo coefficient from Column 2 is reduced by more than a
+before
+fourth, while the coefficient on Buyold
+is not signifii;t
+cantly affected. In Columns 4–6, we perform the same
+exercise on months after joining the new plant. The
+coefficient on new coworkers in Column 5 is again very
+similar to the overall sample, Column 3 of Table 2. The
+coefficient on new coworkers is not substantially affected
+by including a control for previous coworkers, as seen
+from Column 6. Also, the correlation with previous coworkers cannot be used as a placebo test, because the
+individual is likely to stay in touch with former coworkers.
+
+Column 7 shows that the correlation with former coworkers significantly drops after the individual leaves the
+old plant (the before–after difference is significantly different from zero at the 1% level). In Column 8, we address
+the reflection problem by considering the correlation with
+new coworkers the year after the individual has joined the
+plant. As argued above, β4 in Column 8 is likely to be
+mainly driven by influence from the incumbent group of
+workers on the individual. The estimated β4 is similar to
+that reported in Column 5.
+In Column 9, we include all sample months and
+consider the full specification described in Eq. (2). All the
+coefficients are similar to those reported in Columns 1–8.
+Finally, in Column 10, we restrict the sample to those
+individuals who do not change the municipality where
+they live or the municipality where they work in conjunction with the change in plant. The results are similar.
+To consider how the relation with the two peer groups
+evolves over time in more detail, we move to the monthly
+level. Let t denote event time in months. For example,
+t ¼ 12 denotes 12 months prior to leaving the old plant
+and t¼12 denotes 12 months after joining the new plant.
+Furthermore, we define 25 dummy variables f1t gt ¼  12;12 .
+Each dummy equals one for month t and zero otherwise (e.
+g., 13 ¼ 1 if t¼3 and zero otherwise). We interact f1t g with
+old
+new
+Buyplant
+and Buyplant
+and estimate the following
+i;t
+i;t
+regression:
+buyi;t ¼
+
+12
+X
+
+ðβold;t Buyplant
+i;t
+
+old
+
+t ¼  12
+
+þ βnew;t Buyplant
+i;t
+
+new
+
+Þ1t
+
+þ bΓ þ εi;t :
+
+ð3Þ
+
+The vector Γ contains the same controls as used when we
+estimated Eq. (2) and are described in the caption to
+Table 2.19 The coefficients βold;t and β new;t capture the
+correlation with former and new coworkers in month t,
+after controlling for fixed effects. A large fraction of
+individuals leave their jobs in December and join their
+new job in January. To illustrate that the results are robust
+to these individuals, we exclude them when estimating Eq.
+(3), but they are kept in Table 3 (the previous table). The
+results of this regression are exhibited in Fig. 1. Month 0 in
+Fig. 1 is the month when the individual leaves the
+old plant.
+19
+The regression specification in Eq. (3) is a slight simplification of
+the actual regression specification. First, to capture the less than 20% of
+the sample that moves with a gap month between the old plant and the
+new plant, we estimate
+
+buyi;t ¼
+
+13
+X
+
+βt Buyplant
+t
+
+t ¼  13
+
+ 1new;t þ bΓ þ εi;t ;
+
+old
+
+ 1old;t þ
+
+13
+X
+
+βt Buyplant
+t
+
+new
+
+t ¼  13
+
+ð4Þ
+
+where f1old;t g and f1new;t g are dummies that are complements only for
+moves with no gap. For the less than 20% of moves in which the number
+of gap months g exceeds zero, we keep the gap months but drop the g
+months on each extremity of the time window. For example, if an
+individual has g ¼1, then we drop the 12th month before leaving the
+old plant and the 12th month after joining the new plant. Second, to
+calculate the moving average of coefficients in Fig. 1, we include
+interaction effects for month 13 prior to leaving the old plant and month
+13 after joining the new plant.
+
+H.K. Hvide, P. Östberg / Journal of Financial Economics 117 (2015) 628–652
+
+637
+
+Table 3
+New and former coworkers.
+We examine the relative impact of new and former coworkers before and after the investor leaves (joins) the old (new) plant. To do so, we create two
+dummy variables that take the value of one for months before (after) the investor leaves the old plant and zero otherwise. Similarly, we create two dummy
+variables that take the value of one for months before (after) the investor joins the new plant and zero otherwise. We interact these four dummy variables
+with Buyplant
+(of the old and new plant) to generate the independent variables Buyold
+i;t
+i;t
+
+before
+
+, Buyold
+i;t
+
+after
+
+, Buynew
+i;t
+
+before
+
+, and Buynew
+i;t
+
+after
+
+. We estimate the
+
+following equation:
+buyi;t ¼ αt þ β1 Buyold
+i;t
+
+before
+
+þ β2 Buyold
+i;t
+
+after
+
+þ β3 Buynew
+i;t
+
+before
+
+þ β4 Buynew
+i;t
+
+after
+
+þ β5 Buyfamily
+þ β6 Buyzip
+i;t
+i;t þ bΓ þ εi;t ;
+
+where Γ includes the socio-demographic variables listed in the caption to Table 2. In addition to month, plant, and zip code fixed effects we include
+zip  plant fixed effects. We also include dummies for the number of months before leaving the old plant (time prior leaving) and dummies for the number
+of months prior to joining the new plant (time prior joining). There is one dummy variable for each month starting from 12 months before the investor
+leaves (joins) the old (new) plant to 12 months after (Month 0 is omitted). In Column 10, we consider only those individuals who do not change the
+municipality where they live or work in conjunction with the plant move. t-statistics (in parentheses) are based on robust two-way (plant and time)
+clustered standard errors. n, nn, and nnn indicate statistical significance at the 10%, 5%, and 1% level, respectively. The sample period is January 1995 to
+December 2005.
+1
+Buyold
+Buyold
+
+before
+
+2
+
+3
+
+before
+
+Buynew
+
+after
+
+Buyzip
+Buyfamily
+Socio-demographic controls
+Monthly Fixed effects
+Plant Fixed effects
+Zip Fixed effects
+Plant  Zip Fixed effects
+Time prior leaving Fixed effects
+Time prior joining Fixed effects
+N
+Adj. R2
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+0.193nnn
+
+0.192nnn
+
+0.189nnn
+
+0.193nnn
+
+0.196nnn
+
+(5.56)
+
+(5.60)
+
+(5.89)
+0.125nnn
+
+(5.53)
+0.161nnn
+
+0.045nnn
+
+(4.33)
+0.032nn
+
+(4.26)
+0.043nn
+
+(2.45)
+0.186nnn
+
+(1.99)
+0.180nnn
+
+(2.52)
+0.168nnn
+
+after
+
+Buynew
+
+4
+
+0.0365n
+
+0.0257
+
+(1.87)
+
+(1.52)
+
+0.149nnn
+
+0.128nnn
+
+(5.77)
+0.150nnn
+
+(3.98)
+
+(4.29)
+
+(4.11)
+
+0.189nnn
+
+0.180nnn
+
+0.075
+
+0.098nn
+
+0.073
+
+0.109nn
+
+(5.20)
+0.098nn
+
+(5.50)
+0.085n
+
+0.091nn
+
+(5.23)
+0.094nnn
+
+(5.59)
+0.077n
+
+(4.44)
+0.096nn
+
+(1.46)
+0.073nnn
+
+(1.84)
+0.074nnn
+
+(1.44)
+0.073nnn
+
+(2.21)
+0.067nnn
+
+(2.14)
+0.066nnn
+
+(1.89)
+0.065nnn
+
+(2.18)
+0.069nnn
+
+(2.78)
+0.069nnn
+
+(1.95)
+0.068nnn
+
+(1.98)
+0.065nnn
+
+(6.05)
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+No
+
+(6.14)
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+No
+
+(6.03)
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+No
+
+(5.40)
+Yes
+Yes
+Yes
+Yes
+Yes
+No
+Yes
+
+(5.33)
+Yes
+Yes
+Yes
+Yes
+Yes
+No
+Yes
+
+(5.27)
+Yes
+Yes
+Yes
+Yes
+Yes
+No
+Yes
+
+(7.35)
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+
+(7.30)
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+
+(7.21)
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+
+(6.42)
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+
+76,788
+0.346
+
+76,788
+0.342
+
+76,788
+0.346
+
+90,595
+0.305
+
+90,595
+0.309
+
+90,595
+0.310
+
+167,383
+0.316
+
+167,383
+0.316
+
+167,383
+0.319
+
+118,044
+0.336
+
+In Fig. 1, the blue dashed line depicts how newly
+employed individuals are influenced by their peers. The
+sharp ascent of the blue line around Month 0 reveals that
+the correlation with new coworkers is initially low but
+becomes substantial after a very short period in the new
+job. This is consistent with the individual gradually
+becoming socialized and adopting the investment behavior of his peers. The red solid line in Fig. 1 illustrates how
+the correlation with past coworkers evolves over time. The
+correlation with former coworkers decreases significantly
+when the individual leaves the old plant.
+These findings give strong support to the notion that
+social interaction in the workplace influences individuals'
+decision to purchase stocks. We find it striking how the
+correlation with different sets of coworkers evolves in a
+pattern that reflects proximity to those coworkers.
+3.3. Can shocks at the plant-month level drive the results?
+The results could be driven by events at the plantmonth level, such as visits from equity brokers or from
+investment advisers. We deal with this issue in two ways.
+First, if plant-month shocks are behind the results, we
+would expect a similar correlation in trading behavior
+
+between pairs of individuals at small and large plants. If
+social interaction drives our results, we would expect
+stronger correlation between individuals at a small plant
+than at a large plant, simply because two individuals are
+more likely to engage at a small plant. To test this
+hypothesis, for each month we rank all plants into ten
+size deciles, based on number of employees. We then
+sample two individuals from each plant-month and estimate the within-plant correlation in purchasing activity
+across size deciles. For each of the plant size deciles, we
+estimate the following regression:
+buyi;t ¼ β1 buyj;t þ bΓ þ εi;t ;
+
+ð5Þ
+
+where buyj;t is a dummy variable that takes the value one if
+coworker j makes a purchase in month t and otherwise it is
+zero.20 As before, we include Buyfam
+and Buyzip
+i;t
+i;t , as well as
+socio-demographic controls and month and plant fixed effects.
+Panel A of Table 4 presents our point estimates of β1 for
+all size deciles. We also tabulate the mean number of
+employees for each size decile. In smaller plants, the effect
+20
+Bayer, Ross, and Topa (2008) use a similar regression strategy to
+study the role of informal networks in job hiring.
+
+638
+
+H.K. Hvide, P. Östberg / Journal of Financial Economics 117 (2015) 628–652
+
+of coworkers is much larger than in larger plants. It is
+striking that as the number of workers increases from 4.74
+(Decile 1) to 21.91 (Decile 4), the peer effect is reduced
+threefold.
+We benchmark the peer effect by estimating a placebo
+effect. First, we match each selected individual with a
+randomly chosen individual from a different plant within
+his size decile (the placebo coworker). We then reestimate
+Eq. (5) using the buying intensity of the placebo coworker.
+Panel B of Table 4 tabulates the associated point estimates
+of the effect of the placebo coworkers. As expected, the
+estimated effect is economically marginal, and it is statistically significant only for one size decile.
+Fig. 2 plots the effect [β1 from estimating Eq. (5)] of
+coworkers (red solid line) and placebo coworkers (blue
+dashed line) for different plant sizes. There is a sharp
+decrease in the effect of coworkers (y-axis) going from
+Decile 1 to Decile 5. In addition, in Deciles 1 through 4, the
+effect of coworkers is significantly greater than the effect
+of placebo peers.
+Following Duflo and Saez (2002), a third way to deal
+with the possibility of shocks at the plant-month level is to
+exploit that peer groups are likely to form among individuals with similar socio-demographic characteristics. For
+example, females could talk more with females than with
+males, and individuals in the same age group could be
+more likely to talk with each other. In Table A4, we regress
+individual purchases on purchases made for each subgroup separately. The estimated peer group coefficients
+are more often than not larger within subgroups than
+between subgroups.
+
+4. Stock selection
+In this section, we consider the relation between an
+individual's stock selection and the stock selection decisions made by his coworkers. The motivation is simple:
+Coworkers are likely to discuss their stock selection
+decisions and thereby attract attention to the stocks
+selected. The regression methodology is similar to the
+one applied by Ivković and Weisbenner (2007) in the
+study of industry selection.
+We create a variable f i;t;s , which equals the fraction of
+total purchases by investor i in month t that is made in
+stock s. We restrict our attention to only those months in
+which the individual makes at least one purchase. An
+advantage of considering the stock selection decision is
+that it is less influenced by liquidity shocks than the
+purchase decision. The dependent variable, f i;t;s , is defined
+P
+for all stocks present in that month, and
+s f i;t;s ¼ 1 by
+construction. As a main explanatory variable, we construct
+an analogous variable, F plant
+i;t;s , which is the fraction of
+purchases made by individual i's coworkers (excluding
+the individual's purchases) that is invested in stock s. This
+variable is defined only if at least one coworker makes a
+purchase in month t (if we did not condition on a
+purchase, the variable would confound stock selection
+with the decision to be active). Table 5 provides descriptive
+statistics. The mean fraction of total purchases invested in
+a stock is 0.49%, which makes intuitive sense because
+
+there are roughly two hundred stocks on the OSE over the
+sample period.
+
+4.1. Basic results
+To relate individual stock selection to that of his coworkers, we estimate the following regression:
+f i;t;s ¼ β1 F plant
+i;t;s þ bΓ þ εi;t;s :
+
+ð6Þ
+
+The coefficient β1 captures the extent to which stock
+selection of an individual is correlated with that of coworkers. To accommodate that a particular plant has a
+preference for a particular stock, we include fixed effects
+for each stock-plant combination in Γ. These control, for
+example, for the possibility that a plant has a business
+relation with a particular listed company. To account for
+local bias and other geographical effects, we include zip
+code–stock fixed effects. We also include monthly stock
+dummies (one for each stock) to control for time-varying
+aggregate patterns in the demand for individual stocks
+[such as individual investors pursuing glitter stocks as in
+Barber and Odean (2008) or stocks with strong prior
+performance, as in Benartzi (2001)]. As additional controls,
+we include zip code–level stock selection, F zip
+i;t;s , which is
+plant
+zip
+defined in the same manner as F plant
+.
+Both
+F
+i;t;s
+i;t;s and F i;t;s
+sum to one across stocks in a given month.
+The results are presented in Table 6. In the regressions,
+there are 87; 812; 052 observations, which correspond to
+roughly 440,000 purchase months or 3.7 purchase months
+per investor in the sample [the individual trading patterns
+reported here are similar to those found in Døskeland and
+Hvide (2011)]. Column 3 is the main specification. The
+estimated β1 coefficient is positive and highly significant.
+In terms of economic magnitude, in Column 3, a 1
+standard deviation increase in the fraction of coworkers'
+purchases allocated to a particular stock results in a 194%
+increase in the fraction of that month's purchases allocated
+to that stock by the individual.21 In Columns 4 to 8, we
+consider alternative fixed effects. As evidenced by Column
+4, the introduction of plant-year-stock and postcode-yearstock fixed effects does not qualitatively alter the results.
+Neither does introducing municipality-stock fixed effects
+(Column 6).22
+21
+The economic impact is calculated as 0.196 [point estimate from
+Specification (3)]  0.0486 (standard deviation of Fplant) / 0.0049 (the
+mean of f). From Column 2 and 3: the correlation with geographical
+neighbors drops when coworker stock selection is included. The converse
+is not the case. The correlation with coworkers is hardly affected by
+introducing neighbors, as seen by contrasting Columns 1 and 3. This is
+consistent with correlation at the zip code partly proxying for social
+interaction in the workplace.
+22
+We do not control for family group stock selection, as this would
+leave us with a very small sample size. We verify that the estimated
+coefficient on F plant
+i;t;s is very similar for this subsample also after controlling for F fam
+i;t;s . We also examine the effect of noncoworkers on stock
+selection. We calculate F nonplant
+as the fraction of non-coworker puri;t;s
+chases invested in stock s in month t. Unfortunately, little variation
+emerges across individuals in F nonplant
+in a particular month, which
+i;t;s
+implies that collinearity exists between F nonplant
+and the month  stock
+i;t;s
+fixed effects. When we exclude month  stock fixed effects, both F nonplant
+i;t;s
+plant
+and F i;t;s are statistically and economically significant.
+
+H.K. Hvide, P. Östberg / Journal of Financial Economics 117 (2015) 628–652
+
+639
+
+Table 4
+Interaction in peer groups of different size.
+We examine whether the impact of coworkers depends on plant size. For each month, we sample two individuals from each plant, denoted by worker i
+and worker j, and rank plants into ten size deciles, according to the number of workers in total at the plant. We estimate the following equation for each
+size decile:
+buyi;t ¼ αt þ β1 buyj;t þ β2 Buyfamily
+þ β3 Buyzip
+i;t
+i;t þ bΓ þ εi;t ;
+where buyi;t takes the value one if worker i makes a purchase in month t and zero otherwise, and buyj;t is the corresponding dummy variable for worker j.
+The vector Γ includes the socio-demographic variables listed in the caption to Table 2 as well as time and plant fixed effects. In Panel A, we present point
+estimates of β1 with corresponding t-statistics (standard errors are clustered around plant and time), the number of individual month observations used in
+the regression, and the mean number of employees in the size decile. Panel B contains a placebo analysis where we estimate the above equation after
+randomly pairing two individuals from different plants in the same size decile. The number of observations and the mean number of employees are
+identical to those in Panel A by construction. n, and nnn indicate statistical significance at the 10%, and 1% level, respectively. The sample period is January
+1995 to December 2005.
+Size decile
+1
+(small)
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+(large)
+
+0.0411nnn
+
+0.0161n
+
+ 0.0031
+
+0.0061
+
+0.0010
+
+ 0.0030
+
+0.0054
+
+0.0180nnn
+
+(4.47)
+97,417
+15.11
+
+(2.43)
+97,379
+21.91
+
+(  0.52)
+97,403
+30.74
+
+(0.95)
+97,404
+41.93
+
+(0.18)
+97,404
+57.72
+
+(  0.51)
+97,392
+82.73
+
+(0.98)
+97,404
+131.18
+
+(2.99)
+97,344
+464.52
+
+ 0.0063n
+
+0.0009
+
+ 0.0037
+
+0.0010
+
+0.0022
+
+ 0.0014
+
+ 0.0018
+
+ 0.0001
+
+(  1.32)
+(0.07)
+(  2.05)
+(0.26)
+(  1.24)
+N and mean number of employees are identical to those in Panel A by construction
+
+(0.32)
+
+(0.62)
+
+(  0.42)
+
+(  0.48)
+
+(  0.03)
+
+Panel A: Peer effects in plants of different size
+0.0750nnn
+0.0492nnn
+buyj;t
+(9.26)
+(6.82)
+N
+97,452
+97,381
+Mean number of employees
+4.74
+9.63
+Panel B: Placebo peers
+buyj;t
+
+ 0.0044
+
+0.0002
+
+Fig. 2. Slope coefficients from estimating Eq. (5). We divide all of our
+plants into size deciles in terms of the number of employees in each
+month. From each plant, we sample two individuals (investor i and
+coworker j). We relate the purchase decision of i (buyi;t ) to that of j (buyj;t )
+by estimating the regression described in Eq. (5) for each size decile. The
+red solid line plots the estimated slope coefficients from the regressions.
+The blue dashed line, the placebo effect, plots the corresponding slope
+coefficients after matching investor i with a randomly chosen worker
+from a different plant in the same size decile.
+
+4.2. Changes in place of work
+To analyze the impact of new and former coworkers on
+stock selection, we interact the fraction of former and new
+coworkers who make a purchase in a particular stock in a
+given month with dummy variables that indicate whether
+that month is prior to leaving (joining) the old (new) plant
+before
+or not. For example, the variable F old
+is the fraction
+i;t;s
+
+invested in stock s by former coworkers prior to the
+investor leaving the old plant. After the departure date,
+the variable takes the value zero. Similarly, the variable
+after
+F old
+is the fraction invested by coworkers at the old
+i;t;s
+plant in stock s after the individual has left the plant.
+Before that, the variable takes the value of zero. The
+variables describing the stock selection of new plant cowbefore
+after
+orkers, F new
+and F new
+, are defined in the same
+i;t;s
+i;t;s
+manner. As in the purchase decision analysis, we restrict
+the sample to 12 months before the individual leaves the
+old plant and 12 months after joining the new plant. The
+above mentioned selection criteria leaves 6,458 individuals. The socio-demographic characteristics of these
+individuals with respect to age, income, wealth, etc., are
+very similar to that covered in the other parts of the paper.
+We estimate
+before
+after
+f i;t;s ¼ β 1 F old
+þ β2 F old
+þ β3 F new
+i;t;s
+i;t;s
+i;t;s
+
+þ bΓ þ εi;t;s :
+
+before
+
+þ β 4 F new
+i;t;s
+
+after
+
+ð7Þ
+
+To control for geographical differences in preferences for
+certain stocks, we include zip code–stock fixed effects in Γ.
+As additional controls, we include zip code-level stock
+selection, F zip
+i;t;s . The sample size is not sufficient to include
+plant-stock fixed effects, which means that the level of the
+coefficients estimated here are contaminated by plantspecific preferences for particular stocks, and the analysis
+mainly has interest in illustrating differences between the
+estimated coefficients in Eq. (7).
+The results are presented in Table 7. We start out by
+confining attention to the months prior to leaving the old
+plant. In Column 1, we consider the effect of coworkers at
+the old plant before leaving that plant. In Column 2, we
+relate individual purchases to that of future coworkers.
+
+640
+
+H.K. Hvide, P. Östberg / Journal of Financial Economics 117 (2015) 628–652
+
+Table 5
+Descriptive statistics on investor and peer stock selection.
+We present descriptive statistics on the stock selection decision of individuals and peers. f i;t;s is the fraction invested by investor i in stock s in month t.
+zip
+F plant
+i;t;s and F i;t;s are the average fraction invested in stock s in month t by plant and zip code peers, respectively. The sample period is January 1995 to
+
+December 2005.
+Mean
+
+Median
+
+Standard deviation
+
+Minimum
+
+Maximum
+
+N
+
+Individual stock selection
+f
+0.0049
+
+0
+
+0.0620
+
+0
+
+1
+
+87,812,052
+
+Peer stock selection
+0.0049
+F plant
+
+0
+
+0.0486
+
+0
+
+1
+
+87,812,052
+
+0.0049
+
+0
+
+0.0331
+
+0
+
+1
+
+87,812,052
+
+F zip
+
+The coefficient is noticeably smaller than the coefficient
+measuring the effect of current coworkers found in Column 1. The magnitude and statistical significance of the
+coefficient is likely to be related to the omission of plantstock fixed effects. In Column 3, we include as regressors
+the stock selection of both current and future coworkers.
+Neither of the coefficients from Column 1 or Column 2 is
+much affected. In Columns 4–6, we repeat the exercise of
+the previous three columns, but we now focus on the 12
+months after the individual has joined the new plant.
+Notably, the coefficient on the stock selection of new
+coworkers is not affected by including a control for
+previous coworkers, as seen from Column 6.
+Columns 7–9 combine the period before the move with
+the period after joining the new plant. Column 7 shows
+that the correlation with new coworkers significantly
+increases after the individual joins the new plant (the
+before–after difference is significantly different from zero
+at the 1% level). As in Section 3.2, the difference between
+these two coefficients is likely to be largely driven by
+influence from the incumbent group of workers on the
+individual. In Column 9, we consider the full specification
+described in Eq. (7). All the coefficients are similar to those
+reported in Columns 1–8. Finally, in Column 10, we restrict
+the sample to those individuals who do not change the
+municipality where they live or the municipality where
+they work in conjunction with the change in plant.
+To consider how the relation with the peer group
+evolves over time in more detail, we move to the monthly
+level. Let t denote event time in months. We estimate the
+following regression:
+f i;t;s ¼
+
+12
+X
+
+ðβold;t F plant
+i;t;s
+
+t ¼  12
+
+old
+
+þ βnew;t F plant
+i;t;s
+
+new
+
+Þ1t þ bΓ þ εi;t;s :
+ð8Þ
+
+The vector Γ contains the same controls as Eq. (7). The
+coefficients βold;t and βnew;t capture the correlation with
+former and new coworkers in month t, after controlling for
+fixed effects. The results of this regression are exhibited in
+Fig. 3.
+In Fig. 3, we plot the interacted peer coefficient against
+the number of months before the move. Fig. 3 looks similar
+to Fig. 1.23 Prior to the move, the effect of former
+23
+
+We do not include plant-stock fixed effects, so that the level of the
+estimates is affected by plant-specific preferences for particular stocks.
+
+coworkers is greater than the effect of new coworkers.
+However, following the move, the effect of new coworkers
+surpasses that of former coworkers. Thus, the investment
+decisions of individuals is most affected by those peers
+they interact with the most.
+If plant-month shocks are behind the results, we would
+expect a similar correlation in trading behavior between
+pairs of individuals at small and large plants. If social
+interaction drives our results, we would expect stronger
+correlation between individuals at a small plant than at a
+large plant, because two individuals are more likely to
+engage at a small plant. To test this hypothesis, from each
+plant-month we keep the stock selection decision of one
+individual and one of his coworkers. We divide all of our
+plants into ten size deciles and for each decile we estimate
+the following regression (the stock selection analogue to
+Section 3.3):
+f i;t;s ¼ β1 f j;t;s þbΓ þ εi;t;s ;
+
+ð9Þ
+
+where f j;t;s is the allocation of coworker j to stock s in
+month t. We control for stock selection at the postcode
+level by including F zip
+i;t;s in Γ. We also include plant-stock
+and month-stock fixed effects. As before, our standard
+errors are clustered both at the time and plant level. Panel
+A of Table 8 presents our point estimates of β1 for all size
+deciles. The point estimate for Decile 1 is more than five
+times as large as the point estimate for Decile 10. The
+mean number of employees in Decile 1 is 7.22 versus
+1; 464:67 for Decile 10.
+We benchmark the peer effect by reestimating Eq. (9)
+when the individual is paired with a random noncoworker in the same size decile. Panel B of Table 8
+tabulates the associated point estimates of the effect of
+placebo peers on the stock selection decision of our
+individuals. As expected, they are markedly lower than
+those reported in Panel A.
+Fig. 4 plots the effect [β1 from Eq. (9)] of coworkers (red
+solid line) and placebo peers (blue dashed line) for
+different plant sizes. There is a rapid decrease in the peer
+effect when going from Decile 1 to 4 (the mean plant in
+Decile 4 has 61.87 employees). From Decile 4 to 10, there
+seems to be a more gradual decrease. However, the effect
+(footnote continued)
+Thus, we are mainly interested in the difference between points on the
+red line and points on the blue line.
+
+H.K. Hvide, P. Östberg / Journal of Financial Economics 117 (2015) 628–652
+
+641
+
+Table 6
+Peer effects and stock selection.
+This table relates the fraction of purchases invested in a particular stock by the investor to the fraction invested in that stock by the investor's peers. The
+following equation is estimated:
+zip
+f i;t;s ¼ β1 F plant
+i;t;s þ β 2 F i;t;s þ bΓþ εi;t;s ;
+zip
+where the dependent variable f i;t;s is the fraction of purchases invested in stock s in month t by the investor. F plant
+i;t;s and F i;t;s are the fraction of purchases
+
+invested in stock s in month t by plant and zip code peers respectively. We include month  stock fixed effects in all specifications. In Column 8, we also
+include plant  stock, zip  stock, and zip  plant  stock fixed effects. t-statistics (in parentheses) are based on robust two-way (plant and time) clustered
+standard errors. nnn indicates statistical significance at the 1% level. The sample period is January 1995 to December 2005.
+1
+F plant
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+0.201nnn
+
+0.196nnn
+
+0.266nnn
+
+0.309nnn
+
+0.323nnn
+
+0.288nnn
+
+0.243nnn
+
+(11.15)
+0.111nnn
+
+(11.37)
+0.0835nnn
+
+(10.44)
+0.211nnn
+
+(16.90)
+0.116nnn
+
+(14.72)
+0.0984nnn
+
+(17.42)
+0.107nnn
+
+(15.25)
+0.0682nnn
+
+(6.53)
+Yes
+Yes
+Yes
+No
+No
+No
+No
+No
+87,812,052
+0.446
+
+(6.65)
+Yes
+Yes
+Yes
+No
+No
+No
+No
+No
+87,812,052
+0.458
+
+(5.19)
+Yes
+No
+No
+Yes
+Yes
+No
+No
+No
+87,812,052
+0.497
+
+(11.74)
+Yes
+No
+No
+No
+No
+Yes
+No
+No
+87,812,052
+0.214
+
+(11.28)
+Yes
+No
+No
+No
+No
+No
+Yes
+No
+87,812,052
+0.211
+
+(12.17)
+Yes
+No
+No
+No
+No
+No
+No
+Yes
+87,812,052
+0.222
+
+(6.48)
+Yes
+No
+Yes
+No
+No
+Yes
+No
+No
+87,812,052
+0.346
+
+F zip
+Time  stock Fixed effects
+Plant  stock Fixed effects
+Zip  stock Fixed effects
+Plant  year  stock Fixed effects
+Zip  year  stock Fixed effects
+NACE2  stock Fixed effects
+Municipality  stock Fixed effects
+NACE2  year  stock Fixed effects
+N
+R2
+
+Yes
+Yes
+Yes
+No
+No
+No
+No
+No
+87,812,052
+0.457
+
+Table 7
+Stock selection, new and former coworkers.
+We examine the relative impact of new and former coworkers before and after the investor leaves (joins) the old (new) plant (as in Table 3). To do so, we
+create two dummy variables that take the value of one for months before (after) the investor leaves the old plant and zero otherwise. Similarly, we create
+two dummy variables that take the value of one for months before (after) the investor joins the new plant and zero otherwise. We interact these four
+old before
+after
+dummy variables with the variable F plant
+, F old
+, F new
+i;t;s (of the old and new plant) to generate the independent variables F i;t;s
+i;t;s
+i;t;s
+
+before
+
+, and F new
+i;t;s
+
+after
+
+. We
+
+estimate
+before
+after
+þ β2 F old
+þ β3 F new
+f i:t:s ¼ α þ β1 F old
+i;t;s
+i;t;s
+i;t;s
+
+before
+
+þ β4 F new
+i;t;s
+
+after
+
+þ β5 F zip
+i;t;s þ εi;t;s ;
+
+where f i:t:s is the fraction of month t purchases invested in stock s by investor i. F zip
+i;t;s is the average fraction invested in stock s in month t by zip code peers.
+We include month  stock and NACE2  stock fixed effects. In Column 10, we consider only those individuals who do not change the municipality of
+employment or residence surrounding the shift in plant. t-statistics (in parentheses) are based on robust two-way (plant and time) clustered standard
+errors. nnn indicates statistical significance at the 1% level. The sample period is January 1995 to December 2005.
+1
+F old
+F old
+
+before
+
+3
+
+4
+
+before
+
+F new
+
+after
+
+F zip
+Time  stock Fixed effects
+NACE2  stock Fixed effects
+N
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+0.176nnn
+
+0.170nnn
+
+0.189nnn
+
+0.189nnn
+
+0.186nnn
+
+(7.02)
+
+(7.24)
+
+(8.11)
+0.208nnn
+
+(8.37)
+0.163nnn
+
+(7.33)
+0.162nnn
+
+(7.07)
+0.137nnn
+
+(7.18)
+0.115nnn
+
+(6.36)
+0.124nnn
+
+0.193nnn
+
+(5.98)
+0.208nnn
+
+(6.15)
+0.193nnn
+
+(4.77)
+0.207nnn
+
+after
+
+F new
+
+R2
+
+2
+
+0.108nnn
+
+0.0917nnn
+
+(4.19)
+
+(4.32)
+
+0.209nnn
+
+0.167nnn
+
+(7.57)
+
+(6.88)
+
+0.200nnn
+0.0564nnn
+
+0.0605nnn
+
+0.0544nnn
+
+(10.96)
+0.0619nnn
+
+0.0646nnn
+
+(8.05)
+0.0619nnn
+
+(8.58)
+0.0587nnn
+
+0.0629nnn
+
+(9.25)
+0.0534nnn
+
+(7.71)
+0.0487nnn
+
+(3.53)
+Yes
+Yes
+448,622
+0.272
+
+(3.80)
+Yes
+Yes
+448,622
+0.266
+
+(3.44)
+Yes
+Yes
+448,622
+0.274
+
+(4.64)
+Yes
+Yes
+529,507
+0.315
+
+(5.06)
+Yes
+Yes
+529,507
+0.309
+
+(4.91)
+Yes
+Yes
+529,507
+0.321
+
+(5.75)
+Yes
+Yes
+900,111
+0.254
+
+(5.68)
+Yes
+Yes
+900,111
+0.253
+
+(5.34)
+Yes
+Yes
+900,111
+0.262
+
+(4.02)
+Yes
+Yes
+640,872
+0.294
+
+of coworkers is greater than that of placebo peers for all
+size deciles.
+4.3. Same-industry and local stock purchases
+In the previous subsections, we find a close relation
+between the investment decisions of the individual and
+
+his coworkers. However, it is still an open question
+whether this is beneficial. In this subsection, we take a
+first step (see also Section 5) in considering the effect of
+social interaction on the quality of investment decisions by
+determining whether social interaction contributes to the
+purchase of stocks that most likely are poor hedges of
+income risk (same-industry stocks; Døskeland and Hvide,
+
+642
+
+H.K. Hvide, P. Östberg / Journal of Financial Economics 117 (2015) 628–652
+sameindustry
+
+Fig. 3. Slope coefficients from regression equation (8). The dependent
+variable f i;t;s , is the fraction invested by investor i in stock s in month t.
+Our main independent variables are the fraction invested in stock s in
+month t of old (new) coworkers interacted with 27 dummy variables, one
+for each of the 13 months prior to leaving the old plant to 13 months after
+joining the new plant. We average three consecutive coefficients, and we
+plot the estimated coefficients from 12 months prior to leaving the old
+plant to 12 months after joining the new plant. 0 is the start date of new
+job and end date of old job. We exclude investors who leave their job in
+December and join the new plant in January.
+
+2011) and exposure to local economic conditions (local
+stocks; e.g., Coval and Moskowitz, 1999).24 Thus, purchases
+of same-industry and local stocks are likely to be less than
+ideal from a diversification perspective.25
+Meanwhile, local and same-industry stocks likely are
+salient objects of workplace conversations and, thus, social
+interaction effects could be stronger for local and sameindustry stocks than for nonlocal and different-industry
+stocks. To this end, in what follows we examine coworker
+peer effects for these different types of stocks.
+For each individual employed in the private sector, the
+data set contains an employer two-digit NACE code at
+year-end. For each stock on the OSE, we have the primary
+NACE codes at year-end from 1996 to 2005 (for 1995 we
+impute the NACE codes from 1996). Following Døskeland
+and Hvide (2011), we define a same-industry stock as a
+stock in which the worker two-digit NACE code matches
+the NACE code of the stock. We classify a stock as being
+local to the individual if the distance from the place of
+residence of the individual to the stock headquarters is less
+than one hundred kilometers (km). We create four new
+sameindustry
+diff :industry
+local
+dependent variables—f i;t;s
+, f i;t;s
+, f i;t;s , and
+nonlocal
+f i;t;s
+— to capture the individual's selection of sameindustry, different-industry, local, and nonlocal stocks. For
+
+24
+The extant literature shows that the returns of within-industry
+stocks are correlated with labor income (see Baxter and Jermann, 1997;
+Eiling, 2013). In the same vein, Massa and Simonov (2006) show that
+investors invest in stocks that have a high correlation with their
+nonfinancial income, suggesting that investors do not use the stock
+market for hedging.
+25
+Purchases of same-industry stocks could be a hedge against
+negative shocks to own-firm performance. As the stock prices of firms
+in the same industry tend to be strongly correlated, this does not seem
+likely. Purchases of local stocks could be a hedge against shocks at the
+local price level.
+
+example, f i;t;s
+is the fraction of total same-industry
+purchases made in month t invested in stock s. The other
+variables are defined analogously. Table A5 presents
+descriptive statistics of the dependent variables.
+In Table 9, we reestimate Eq. (6) using the new
+dependent variables. In Column 1 to Column 4 we consider
+local, nonlocal, same-industry, and different-industry
+stocks, respectively. We include month-stock, plant-stock,
+and zip code–stock fixed effects in all specifications. The
+point estimate of F plant
+i;t;s is always positive and statistically
+significant, indicating that our previous results are not
+driven by individual investor preferences for local or
+same-industry stocks. As expected, we find evidence that
+same-industry and local stocks are salient objects of
+conversation in the workplace. Although peer effects affect
+the selection of all four types of stock, the economic
+impact of social interaction on stock selection is larger
+for same-industry and local stocks than for their counterparts. A 1 standard deviation increase in the allocation of
+coworkers to a particular stock increases the individuals
+allocation to that stock by 211% for same-industry stocks
+and 134% for different-industry stocks. The corresponding
+numbers for local and nonlocal stocks are 183% and 157%,
+respectively. Thus, the results confirm that the economic
+impact is largest for those stocks that we expect to be
+discussed most frequently at the workplace. In addition,
+these results suggest that one possible cause of local bias
+and within-industry bias is that social interaction centers
+around these kind of stocks. Finally, from a diversification
+perspective, both local and same-industry stocks are
+arguably less than ideal and, therefore, this highlights that
+social interaction could lead to a suboptimal portfolio
+allocation.
+
+5. Should people listen to their coworkers?
+The literature on information cascades (Bikhchandani,
+Hirshleifer, and Welch, 1992; Banerjee, 1992; Ellison and
+Fudenberg, 1993) posits that imitating coworkers can
+make investment decisions better informed and improve
+investment returns. In this section, we evaluate how peer
+pressure affects the performance of stock purchases using
+calendar time methodology (see Odean, 1999; Seasholes
+and Zhu, 2010). We measure peer pressure as the fraction
+of coworker purchases allocated to stock s in excess of the
+economy-wide allocation to stock s. Hence, we rank all
+purchases made according to
+nonplant
+F plant
+;
+i;t;s F i;t;s
+
+ð10Þ
+
+is the fraction of non-coworkers purchases
+where F nonplant
+i;t;s
+allocated to stock s in month t.26 Effectively, F nonplant
+i;t;s
+controls for economy-wide trends. So we consider
+instances in which coworkers are more enthusiastic about
+a stock than the economy as a whole.
+26
+We have also ranked purchases in terms of Buyplant
+ Buynonplant
+,
+i;t
+i;t
+which captures more general stock market enthusiasm because it does
+not condition on the investor purchasing the same stock as his coworkers. The results suggest that there is no information in the enthusiasm
+of coworkers.
+
+H.K. Hvide, P. Östberg / Journal of Financial Economics 117 (2015) 628–652
+
+643
+
+Table 8
+Interaction in peer groups of different size.
+We examine the impact of coworkers in peer groups of different size. For each month, we sample two individuals from each plant, denoted by worker i
+and worker j, and rank plants into ten size deciles, according to the number of workers in total at the plant. We estimate the following equation for each
+size decile:
+f i;t;s ¼ β1 f j;t;s þ β2 F zip
+i;t;s þ bΓþ εi;t;s
+where f j;t;s is the fraction of coworker j's purchases allocated to stock s in month t. We control for the stock selection of neighbors by including F zip
+i;t;s . The
+vector Γ includes plant  stock and month  stock fixed effects. In Panel A, we present point estimates of β1 with corresponding t-statistics (standard errors
+are clustered at the plant and time level), the number of individual month observations used in the regression and the mean number of employees in the
+size decile. In Panel B, we present the placebo analysis where we randomly pair two individuals from different plants in the same size decile. We reestimate
+the above equation while replacing f j;t;s with the corresponding stock allocation of the placebo coworker. In Panel B, we present the estimates of β1 with tstatistics. The number of observations and the mean number of employees are identical to those in Panel A by construction. n, nn, and nnn indicate statistical
+significance at the 10%, 5%, and 1% level, respectively. The sample period is January 1995 to December 2005.
+Size decile
+1
+(small)
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+(large)
+
+Panel A: Peer effects in plants of different size
+0.218nnn
+0.141nnn
+f j;t;s
+(15.54)
+(12.43)
+
+0.087nnn
+
+0.067nnn
+
+0.063nnn
+
+0.050nnn
+
+0.047nnn
+
+0.036nnn
+
+0.037nnn
+
+0.041nnn
+
+(9.65)
+
+(7.77)
+
+(6.55)
+
+(5.82)
+
+(5.60)
+
+(4.08)
+
+(4.86)
+
+(4.96)
+
+N
+Mean number of employees
+
+2,155,096
+130.49
+
+2,155,085
+184.68
+
+2,155,074
+270.23
+
+2,155,109
+433.77
+
+2,155,132
+1,464.67
+
+2,155,146
+7.22
+
+2,155,076
+20.73
+
+2,155,097
+39.02
+
+2,155,066
+61.87
+
+2,155,082
+91.56
+
+0.012nn
+
+0.018nn
+
+0.018nn
+
+0.013n
+
+0.015n
+
+0.013
+
+0.010
+
+0.009
+
+0.007
+
+ 0.004
+
+(1.97)
+(2.40)
+(2.33)
+(1.86)
+(1.94)
+N and mean number of employees are identical to those in Panel A by construction
+
+(1.59)
+
+(1.27)
+
+(1.10)
+
+(0.90)
+
+(  0.57)
+
+Panel B: Placebo peers
+f j;t;s
+
+Purchases made under above (below) median peer
+pressure are sorted into the high (low) peer pressure
+portfolio. Each purchase is given a unique entry into either
+the high or the low peer pressure portfolio. For purchases
+made in month t, we consider the difference in return
+between the high peer pressure and the low peer pressure
+purchases ðHP LPÞt in subsequent months.27 To evaluate
+investor performance, we run the following regression:
+ðHP  LPÞt ¼ α þ β1 MKT t þ β2 SMBt þ β3 HMLt þ β4 MOM t þ εt ;
+ð11Þ
+where the risk factors MKT (market), HML (high minus
+low), SMB (small minus big), and MOM (momentum), are
+all calculated for Norway by Ødegaard (2013).
+In Panel A of Table 10, we examine the returns to peer
+purchases over different holding periods. We report
+monthly percentage alphas and standard errors of the
+long, the short, and the long-short portfolio. For all
+considered holding periods—one, three, six, nine, and 12
+months—the abnormal return to the high-minus-low peer
+pressure portfolio is not statistically or economically significant. It is important to note that the calendar time
+methodology implies that we have only one observation
+for each month over the period 1994 to 2005, suggesting
+that the power of our test is limited by the length of our
+time series and that the standard errors of the alphas of
+27
+Because we consider the performance of purchases in month t þ 1
+and onward we abstract from performance from the purchase day until
+the end of month t. Barber and Odean (2000) account for the performance within the purchase month and conclude that this does not
+qualitatively affect investor performance.
+
+Fig. 4. Slope coefficients from estimating Eq. (9). In each month, we
+divide all of our plants into size deciles by the number of employees.
+From each plant, we sample two individuals (investor i and coworker j).
+We relate the stock selection decision of i (f i;t;s ) to that of j (f j;t;s ) by
+estimating the regression described in Eq. (9) for each size decile. The red
+solid line plots the estimated slope coefficients from the regressions. The
+blue dashed line, placebo effect, plots the corresponding slope coefficients after matching investor i with a randomly chosen worker from a
+different plant in the same size decile.
+
+the long and the short portfolio are large (around one).
+This implies that, when examining the long and the short
+portfolio separately, we have low power. Fortunately, the
+standard errors of the alphas of the long-short portfolio
+are much smaller. This suggests that the four-factor model
+for Norway does not explain returns very well.
+
+644
+
+H.K. Hvide, P. Östberg / Journal of Financial Economics 117 (2015) 628–652
+
+Table 9
+Stock selection of local and same-industry stocks.
+This table investigates the relation between the stock selection of peers and the stock selection of investors in local and same-industry stocks. The
+following equation is estimated:
+zip
+f i;t;s ¼ β1 F plant
+i;t;s þ β 2 F i;t;s þ bΓþ εi;t;s
+zip
+The dependent variable f i;t;s is the fraction of total purchases invested in stock s in month t by investor i. F plant
+i;t;s and F i;t;s are the average fraction invested in
+
+stock s in month t by plant and zip code peers, respectively. Column 1 considers only local stocks (stocks headquartered closer than one hundred kilometers
+from the investor). Thus, the dependent variable f i;t;s measures the fraction of local purchases invested by the individual in stock s. Column 2 considers
+nonlocal stocks only. Column 3 considers same-industry stocks (defined as in Døskeland and Hvide, 2011) only, and Column 4 considers different-industry
+stocks. We include month  stock, plant  stock, zip  stock, and zip  plant  stock fixed effects. t-statistics (in parentheses) are based on robust two-way
+(plant and time) clustered standard errors. nnn indicates statistical significance at the 1% level. The sample period is January 1995 to December 2005.
+
+F plant
+F zip
+Time  stock Fixed effects
+Plant  stock Fixed effects
+Zip  stock Fixed effects
+Plant  zip  stock Fixed effects
+N
+Adj. R2
+
+Local
+(1)
+
+Nonlocal
+(2)
+
+Same-industry
+(3)
+
+Different-industry
+(4)
+
+0.218nnn
+
+0.151nnn
+
+0.381nnn
+
+0.136nnn
+
+(9.50)
+0.0666nnn
+
+(9.75)
+0.0810nnn
+
+(12.07)
+0.106nnn
+
+(9.85)
+0.0703nnn
+
+(6.19)
+Yes
+Yes
+Yes
+Yes
+24,714,288
+0.513
+
+(4.96)
+Yes
+Yes
+Yes
+Yes
+53,266,715
+0.444
+
+(5.92)
+Yes
+Yes
+Yes
+Yes
+2,442,980
+0.741
+
+(5.13)
+Yes
+Yes
+Yes
+Yes
+75,710,195
+0.434
+
+To verify that this result is not driven by the median
+cutoff in terms of peer pressure, in unreported results we
+also divide all purchases into quintiles on the basis of their
+peer pressure and examine the relative performance of
+extreme quintiles. Again, for all holding periods, we do not
+find that peer pressure is associated with abnormal performance. Each column in Panel B of Table 10 examines the
+return to the peer pressure portfolio for a particular month
+after purchase. We consider the performance of the
+ðHP LPÞt portfolio in months t þ2, t þ 3, t þ 4, t þ 5, and
+t þ 6. For all of these months, we find that abnormal
+returns are insignificant.
+The preference for local and same-industry stocks
+could be driven by individual investors profiting from
+local information (Ivković and Weisbenner, 2005; Massa
+and Simonov, 2006). Alternatively, investors could suffer
+from a familiarity bias (Huberman, 2001), in which case
+local and same-industry purchases should not be associated with any abnormal performance. In fact, the two
+possibilities are not mutually exclusive. Some investors
+could act on information while other investors buy what
+they are familiar with. To evaluate the overall impact of
+these two hypotheses, we separately consider all purchases of same-industry (same two digit NACE code) and
+local (headquartered within one hundred km) stocks and
+then sort these purchases in terms of peer pressure. As
+before, purchases with above (below) median peer pressure are classified as having high (low) peer pressure.
+Panels C, D, E and F of Table 10 display the results from
+estimating Eq. (11) using as the dependent variable the
+difference in return between high and low peer pressure
+purchases of same-industry, different-industry, local, and
+nonlocal stocks, respectively. In general, all of the panels
+confirm the previous findings that peer pressure is not
+
+associated with abnormal returns. Interestingly, high pressure same-industry purchases outperform low pressure
+same-industry purchases by 0.42% per month (Panel C).
+Although economically significant, the difference is measured with significant error and is not statistically significant. Over a three-month period, the positive returns turn
+negative, and when considering a horizon of nine to 12
+months, the high peer pressure portfolio under-performs
+the low pressure portfolio, but again the performance
+difference is not statistically significant. For differentindustry purchases, the difference between high and low
+pressure purchases are universally economically and statistically insignificant. Taken together, the evidence does
+not suggest that listening to coworkers adds value to
+purchases.
+In contrast, for local purchases, high peer pressure
+purchases actually under-perform low peer pressure purchases. Over all horizons, the difference is negative. When
+considering a three-month horizon, the monthly underperformance is  0.083% and statistically significant at the
+10% level.
+Taken together, these results suggest that it is unlikely
+that information about stock fundamentals is transmitted
+among coworkers. Overall, the results of this section
+combined with the findings of the previous sections off
+the paper lead us to conclude that individual investors
+follow the advice of their coworkers even though the
+advice does not contain value-pertinent information.
+6. Conclusion
+This paper addresses whether coworkers influence
+investment choices, and whether such influence is useful
+to the investor himself. We employ comprehensive data
+
+H.K. Hvide, P. Östberg / Journal of Financial Economics 117 (2015) 628–652
+
+645
+
+Table 10
+Peer pressure and returns (January 1994 – December 2005).
+nonplant
+We present regression results relating peer pressure to returns. In each month we rank all purchases in terms of their peer pressure, F plant
+,
+i;t;s  F i;t;s
+
+) allocation to stock s. Purchases with above (below) median peer
+formally, the allocation of coworkers to stock s in excess of the economy average (F nonplant
+i;t;s
+pressure are placed in the high (low) pressure portfolio. Purchases are kept in the portfolio from the last day of the purchase month until the end of the
+holding period (up to one year later). As the dependent variable we use the time series of monthly differences between the mean return of the high
+pressure portfolio and the mean return of the low pressure portfolio (HP–LP). We estimate the following regression:
+HP  LP t ¼ α þ β1 MKT t þ β2 SMBt þ β3 HMLt þ β4 MOM t þ εt
+where MKT t , SMBt , HMLt , MOMt , are the Fama and French and the Carhart (1997) factors calculated for Norway by Ødegaard (2013). In Panel A, we present
+results for holding periods one, three, six, nine and 12 months. Panel B presents the results for the individual months t þ2 to tþ 6. We report monthly
+percentage alphas. In Panel C, we consider whether peer pressure affects the performance of same-industry purchases. To do this, in each month we rank
+all same-industry purchases in terms of peer pressure and as before above (below) median purchases are placed in the high (low) pressure portfolio. Thus,
+we reestimate the above equation with our dependent variable HP  LP t based on only same-industry purchases. Panel C reports point estimates of α over
+several holding periods. Panel D, E, and F are identical to Panel C except that we consider only different-industry, local, and nonlocal purchases,
+respectively. We report Newey and West (1987) standard errors with three lags. n, nn, and nnn indicate statistical significance at the 10%, 5%, and 1% levels,
+respectively.
+Panel A: Holding periods and returns
+Holding period
+One month
+
+Three months
+
+Alpha Standard error
+High pressure
+Low pressure
+High–low
+
+0.319
+0.333
+ 0.014
+
+Alpha Standard error
+
+(1.130)
+(1.133)
+(0.023)
+
+0.142
+0.148
+ 0.006
+
+(1.107)
+(1.111)
+(0.016)
+
+Six months
+
+Nine months
+
+12 months
+
+Alpha Standard error
+
+Alpha Standard error
+
+Alpha Standard error
+
+0.125
+0.122
+0.003
+
+0.088
+0.076
+0.011
+
+0.014
+0.010
+0.005
+
+(1.080)
+(1.083)
+(0.011)
+
+(1.066)
+(1.068)
+(0.010)
+
+(1.051)
+(1.054)
+(0.011)
+
+Panel B: Monthly returns to peer trading
+Month
+t þ2
+
+tþ 3
+
+Alpha Standard error
+High pressure
+Low pressure
+High–low
+
+0.026
+0.018
+0.008
+
+Alpha Standard error
+
+(1.150)
+(1.150)
+(0.030)
+
+0.025
+0.068
+ 0.043
+
+t þ5
+
+tþ 4
+
+(1.110)
+(1.119)
+(0.0316)
+
+Alpha Standard error
+ 0.151
+ 0.186
+0.034
+
+(1.104)
+(1.104)
+(0.0239)
+
+tþ 6
+
+Alpha Standard error
+0.486
+0.476
+0.010
+
+(1.113)
+(1.118)
+(0.018)
+
+Alpha Standard error
+0.006
+0.035
+ 0.029
+
+(1.154)
+(1.154)
+(0.024)
+
+Panel C: Peer pressure and same-industry investments
+Holding period
+One month
+
+Three months
+
+Alpha Standard error
+High pressure
+Low pressure
+High–low
+
+0.790
+0.374
+0.416
+
+Alpha Standard error
+ 0.042
+ 0.105
+0.063
+
+(1.293)
+(1.249)
+(0.259)
+
+(1.199)
+(1.179)
+(0.233)
+
+Six months
+Alpha Standard error
+ 0.088
+ 0.056
+ 0.032
+
+(1.144)
+(1.169)
+(0.161)
+
+Nine months
+Alpha Standard error
+0.026
+0.150
+ 0.124
+
+(1.124)
+(1.165)
+(0.174)
+
+12 months
+Alpha Standard error
+ 0.114
+0.074
+ 0.188
+
+(1.087)
+(1.128)
+(0.164)
+
+Panel D: Peer pressure and different-industry investments
+Holding period
+One month
+
+Three months
+
+Alpha Standard error
+High pressure
+Low pressure
+High–low
+
+0.328
+0.338
+ 0.010
+
+(1.129)
+(1.131)
+(0.023)
+
+Six months
+
+Nine months
+
+12 months
+
+Alpha Standard error
+
+Alpha Standard error
+
+Alpha Standard error
+
+Alpha Standard error
+
+0.164
+0.164
+0.001
+
+0.137
+0.134
+0.003
+
+0.084
+0.075
+0.009
+
+0.007
+0.001
+0.006
+
+(1.111)
+(1.113)
+(0.017)
+
+(1.079)
+(1.083)
+(0.011)
+
+(1.063)
+(1.067)
+(0.010)
+
+(1.049)
+(1.054)
+(0.012)
+
+Panel E: Peer pressure and local investments
+Holding period
+One month
+Alpha Standard error
+High pressure
+Low pressure
+High–low
+
+0.089
+0.170
+ 0.081
+
+(1.151)
+(1.154)
+(0.064)
+
+Three months
+Alpha Standard error
+ 0.069
+0.014
+ 0.083nnn
+
+(1.133)
+(1.135)
+(0.031)
+
+Six months
+Alpha Standard error
+0.027
+0.049
+ 0.022
+
+(1.118)
+(1.116)
+(0.025)
+
+Nine months
+Alpha Standard error
+0.058
+0.075
+ 0.017
+
+(1.105)
+(1.106)
+(0.028)
+
+12 months
+Alpha Standard error
+ 0.001
+0.017
+ 0.018
+
+(1.087)
+(1.088)
+(0.028)
+
+646
+
+H.K. Hvide, P. Östberg / Journal of Financial Economics 117 (2015) 628–652
+
+Table 10 (continued )
+Panel F: Peer pressure and nonlocal investments
+Holding period
+One month
+Alpha Standard error
+High pressure
+Low pressure
+High–low
+
+0.430
+0.453
+ 0.023
+
+(1.145)
+(1.142)
+(0.038)
+
+Three months
+Alpha Standard error
+0.250
+0.258
+ 0.008
+
+(1.115)
+(1.118)
+(0.029)
+
+from Norway that cover a large number of individual
+investors over a ten-year period. We find that the stock
+market behavior of individual investors is highly correlated with the stock market behavior of their coworkers.
+Sorting of unobservably similar individuals to the same
+workplaces is unlikely to drive the results, as evidenced by
+the trading behavior of individuals who move between
+plants. As one would expect if the correlations are driven
+by social interaction (and not shocks at the plant level), the
+results are considerably stronger for small than for large
+plants.
+The results point to social interaction as an important
+element in the investment behavior of individuals. Existing evidence in favor of social interaction comes from
+relatively large peer groups, such as regions or neighborhoods. However, these findings are subject to several
+interpretations (e.g., Moffitt, 2001). One contribution of
+the analysis is to focus on peer effects at a much more local
+level, the workplace, and to show that the measured social
+interaction effects are large even after accounting for
+correlated unobservables, endogenous group membership,
+and reflection.
+We also analyze whether social interaction leads to
+better economic outcomes for the individuals who are
+
+Six months
+Alpha Standard error
+0.179
+0.164
+0.015
+
+(1.079)
+(1.081)
+(0.019)
+
+Nine months
+Alpha Standard error
+0.107
+0.083
+0.025n
+
+(1.062)
+(1.064)
+(0.015)
+
+12 months
+Alpha Standard error
+0.019
+0.008
+0.011
+
+(1.047)
+(1.051)
+(0.016)
+
+affected. Social interaction appears to increase purchase of
+same-industry and local stocks, both less than ideal from a
+diversification perspective. Second, we examine the performance of purchases made under greater peer pressure,
+and do not find evidence suggesting abnormal returns. The
+bottom line of the paper is that individuals are strongly
+influenced by their coworkers, but this influence does not
+improve investment quality.
+A recent literature addresses the co-movement of
+aggregate individual investor trading and asset returns
+(e.g., Kumar and Lee, 2006; Barber and Odean, 2008). One
+idea explored by this literature is that individual investors
+can affect asset prices if their trading is sufficiently
+correlated due to social movements (Shiller, 1984). A social
+movement needs to start somewhere, and the workplace
+is a plausible candidate. An interesting avenue for future
+work is to test for social interaction between plants, using
+movers or geographical proximity as possible drivers of
+between-plant diffusion.
+
+Appendix A
+See Tables A1–A5.
+
+H.K. Hvide, P. Östberg / Journal of Financial Economics 117 (2015) 628–652
+
+647
+
+Table A1
+Variable definitions.
+Variable
+
+Definition
+
+Trade variables (monthly)
+Takes the value one if investor i makes a stock purchase in month t and zero otherwise
+buyi;t
+Takes the value one if investor i makes a stock sale in month t and zero otherwise
+selli;t
+Fraction of coworkers who make a purchase in month t
+Buyplant
+i;t
+
+Buyfamily
+i;t
+
+Fraction of family members who make a purchase in month t
+
+Buyzip
+i;t
+
+Fraction of neighbors living in the same zip code who make a purchase in month t
+
+Selli;t
+
+Fraction of coworkers who make a sale in month t
+
+family
+Selli;t
+zip
+Selli;t
+before
+Buyold
+i;t
+
+Fraction of family members who make a sale in month t
+
+plant
+
+Buyold
+i;t
+
+after
+
+Buynew
+i;t
+
+before
+
+Buynew
+i;t
+
+after
+
+Buynonplant
+i;t
+
+Fraction of neighbors who make a sale in month t
+In months before the individual leaves the old plant, this is the fraction of coworkers at the old plant making a stock purchase in
+month t. After the move, this variable takes the value zero
+In months after the individual leaves the old plant, this is the fraction of coworkers at the old plant making a stock purchase in
+month t. Before the move this variable takes the value zero
+In months before the individual joins the new plant, this is the fraction of coworkers at the new plant making a stock purchase in
+month t. After joining the new plant this variable takes the value zero
+In months after the individual joins the new plant, this is the fraction of coworkers at the new plant making a stock purchase in
+month t. Before joining the new plant this variable takes the value zero
+Fraction of non-coworkers who make a purchase in month t
+
+Stock selection variables (monthly)
+Fraction of total investor purchases by investor i invested in stock s in month t
+f i;t;s
+Fraction of total coworker purchases invested in stock s in month t
+F plant
+i;t;s
+
+F family
+i;t;s
+
+Fraction of total family purchases invested in stock s in month t
+
+F zip
+i;t;s
+
+Fraction of total neighbor purchases invested in stock s in month t
+
+before
+F old
+i;t;s
+
+In months before the individual leaves the old plant, this is the fraction of total purchases of coworkers at the old plant invested in
+stock s in month t. After the move this variable takes the value zero
+In months after the individual leaves the old plant, this is the fraction of total purchases of coworkers at the old plant invested in
+stock s in month t. Before the move this variable takes the value zero
+In months before the individual joins the new plant, this is the fraction of total purchases of coworkers at the new plant invested
+in stock s in month t. After the move this variable takes the value zero
+In months after the individual joins the new plant, this is the fraction of total purchases of coworkers at the new plant invested in
+stock s in month t. Before the move this variable takes the value zero
+Fraction of total non-coworker purchases invested in stock s in month t
+
+after
+F old
+i;t;s
+
+F new
+i;t;s
+
+before
+
+F new
+i;t;s
+
+after
+
+F nonplant
+i;t;s
+
+Individual-stock variables (yearly)
+Local stock
+Dummy variable that takes the value one if the headquarters of the stock is located within one hundred kilometers of the place of
+residence of the investor and zero otherwise
+Same-industry
+Dummy variable that takes the value one if the investor's two-digit Nomenclature Generale des Activites Economiques dans
+stock
+I'Union Europeenne (NACE) code of employment matches the two-digit NACE code of the stock and zero otherwise
+Socio-demographic control variables (yearly)
+Income
+Income reported by the individual in the previous year's tax return. Reported in Norwegian kroner
+Wealth
+Total wealth reported in the individual's tax return for the previous year. Reported in Norwegian kroner
+Age
+Investor age at the end of the year
+Male
+Dummy variable that takes the value one if the individual is male and zero otherwise
+Education
+Number of completed years of schooling
+
+648
+
+H.K. Hvide, P. Östberg / Journal of Financial Economics 117 (2015) 628–652
+
+Table A2
+Descriptive statistics of peer groups and socio-demographic variables.
+This table presents descriptive statistics on the sample individuals: size of the individual's plant, zip code, and family (excluding the individual) and the
+number of investors (i.e., individuals who trade at least once over the period 1995 to 2005 and are therefore included in the individual's peer group) in the
+individuals' respective groups. In addition, we provide descriptive statistics on the socio-demographic variables wealth, income, age, male, and education.
+The US dollar Norwegian kroner (NOK) exchange rate was 8.77 in December 2000. Number of trades is the number of months in the sample that the
+individual makes at least one trade. Panel A samples a random year of each individual who is present at one time in our trade analysis. Analogously, Panel B
+samples a random year of each individual present in our mover analysis (see Section 3.2). In Panel C, we consider a random year of all individuals present in
+our stock selection analysis (Section 4). The sample period is January 1995 to December 2005.
+Variable
+
+Mean
+
+Median
+
+Standard deviation
+
+Minimum
+
+Maximum
+
+N
+
+Panel A: Descriptive statistics of purchase sample
+Plant size
+391.74
+Zip size
+3,715.22
+Family size
+6.60
+Plant investors
+122.78
+Zip investors
+224.00
+Family investors
+1.92
+Wealth (NOK)
+802,271.58
+Income (NOK)
+381,028.56
+Age
+37.30
+Male
+0.76
+Education
+13.08
+Number of trades
+4.83
+
+78
+2,390
+5
+13
+145
+1
+322,028
+336,231
+36
+1
+13
+1
+
+884.76
+4,360.69
+5.46
+333.74
+277.43
+1.33
+10,451,753.75
+227,873.71
+8.95
+0.43
+3.39
+9.11
+
+1
+5
+1
+1
+1
+1
+0
+0
+21
+0
+0
+1
+
+7,845
+44,195
+122
+2,428
+3,213
+18
+2,127,096,064
+9,773,526
+69
+1
+21
+129
+
+97,264
+97,264
+97,264
+97,264
+97,264
+97,264
+97,264
+97,264
+97,264
+97,264
+97,264
+97,264
+
+Panel B: Descriptive statistics of mover sample
+Plant size
+325.05
+Zip size
+3,912.70
+Family size
+6.23
+Plant investors
+74.42
+Zip investors
+239.77
+Family investors
+1.88
+Wealth (NOK)
+653,248.91
+Income (NOK)
+397,649.71
+Age
+36.73
+Male
+0.80
+Education
+13.36
+Number of trades
+5.83
+
+59
+2,393
+5
+11
+150
+1
+323,650
+342,800
+36
+1
+13
+2
+
+826.28
+4,758.11
+5.17
+221.07
+308.49
+1.28
+4,501,711.67
+246,819.21
+7.87
+0.40
+3.48
+10.21
+
+1
+13
+1
+1
+1
+1
+0
+900
+21
+0
+0
+1
+
+7,845
+44,195
+79
+2,428
+3,213
+17
+414,171,968
+9,773,526
+65
+1
+21
+129
+
+14,284
+14,284
+14,284
+14,284
+14,284
+14,284
+14,284
+14,284
+14,284
+14,284
+14,284
+14,284
+
+Panel C: Descriptive statistics of stock selection sample
+Plant size
+501.86
+156
+Zip size
+3,613.26
+2,424
+Plant investors
+158.17
+37
+Zip investors
+389.59
+253
+Wealth (NOK)
+1,035,361.47
+468,494
+Income (NOK)
+450,049.26
+391,600
+Age
+42.52
+42
+Male
+0.80
+1
+Education
+12.87
+12
+Number of trades
+6.36
+2
+
+956.53
+3944.25
+315.16
+463.23
+8,698,890.60
+279,455.05
+11.22
+0.40
+3.64
+10.68
+
+1
+13
+1
+1
+0
+0
+20
+0
+0
+1
+
+7,845
+44,195
+2,731
+5,400
+2,127,096,064
+13,387,700
+70
+1
+21
+129
+
+118,432
+118,432
+118,432
+118,432
+118,432
+118,432
+118,432
+118,432
+118,432
+118,432
+
+H.K. Hvide, P. Östberg / Journal of Financial Economics 117 (2015) 628–652
+
+649
+
+Table A3
+Industry decomposition of investors, firms, and coworker peer effects.
+This table presents descriptive statistics on the industries that our investors work in (Column 1) and the industries that are represented on the Oslo Stock
+Exchange (OSE) (Column 2). In addition, we decompose the coworker peer effect depending on the industry of employment of the investor. Financial firms
+[Nomenclature Generale des Activites Economiques dans I'Union Europeenne (NACE) codes 65, 66, and 67] have been excluded from the sample. For this
+table, we consider only industries that represent at least 0.4% of investor observations (i.e., the industry has at least roughly 420 investors). This restriction
+implies a loss of less than 3% of the complete sample. To decompose the coworker peer effect across industries, we estimate the following regression:
+buyi;t ¼ αt þ
+
+36
+X
+j¼1
+
+βj Buyplant
+ I j þ β37 Buyfamily
+þ β38 Buyzip
+i;t
+i;t
+i;t þ bΓ þ εi;t ;
+
+where I j is a dummy variable that takes a value of one if the investor works in industry j and zero otherwise. Column 3 reports the point estimates of the
+peer effect for our 36 industries. The vector Γ of control variables includes the socio-demographic control variables listed in the caption to Table 2. In
+addition to time (month), plant, and zip fixed effects, we include zip–plant interaction fixed effects. t-statistics (in Column 4) are based on robust two-way
+(plant and time) clustered standard errors. nn, and nnn indicate statistical significance at the 5%, and 1% level, respectively. The sample period is January 1995
+to December 2005.
+Industry (NACE code)
+
+Investors
+(1)
+
+OSE Firms
+(2)
+
+Fishing, fish farming (5)
+Oil and gas extraction, oil and gas services (11)
+Food products and beverages (15)
+Wood and wood products (20)
+Publishing, printing, reproduction (22)
+Chemicals and chemical products (24)
+Other non-metallic mineral products (26)
+Basic metals (27)
+Fabricated metal products (28)
+Machinery and equipment (29)
+Electrical machinery and apparatus (31)
+Radio, TV, communication equipment (32)
+Instruments, watches, and clocks (33)
+Motor vehicles, trailers, semi-trailers (34)
+Other transport equipment (35)
+Furniture, manufacturing (36)
+Electricity, gas and water supply (40)
+Construction (45)
+Motor vehicle services (50)
+Wholesale trade, commission trade (51)
+Retail trade, repair personal goods (52)
+Hotels and restaurants (55)
+Land transport, pipeline transport (60)
+Water transport (61)
+Air transport (62)
+Services for transport and travel agencies (63)
+Post and telecommunications (64)
+Real estate activities (70)
+Computers and related activities (72)
+Research and development (73)
+Other business activities (74)
+Public administration, defense, and Social Security (75)
+Education (80)
+Health and social services (85)
+Interest groups (91)
+Cultural and sporting activities (92)
+
+484
+5,199
+2,277
+592
+1,837
+1,889
+516
+1,885
+859
+1,822
+737
+838
+753
+618
+2,990
+865
+1,395
+5,807
+1,671
+8,041
+3,362
+1,359
+1,460
+1,952
+760
+1,558
+2,976
+1,477
+4,703
+1,275
+11,628
+8,357
+5,730
+6,258
+723
+1,141
+
+2
+19
+4
+2
+5
+2
+2
+2
+1
+7
+4
+7
+4
+2
+2
+4
+3
+2
+0
+8
+6
+2
+2
+42
+2
+0
+5
+8
+20
+3
+8
+0
+0
+0
+0
+2
+
+Total
+
+95,794
+
+182
+
+Coefficient
+(3)
+0.107nn
+0.503nnn
+0.275nnn
+0.106nnn
+0.215nnn
+0.910nn
+0.111nnn
+0.801nnn
+0.098nnn
+0.161nn
+0.280nnn
+0.538nnn
+0.200nnn
+0.821nnn
+0.240nn
+0.451nnn
+0.148nnn
+0.057nnn
+0.063nnn
+0.152nnn
+0.079nnn
+0.045
+0.070nn
+0.422nnn
+0.100nn
+0.086nnn
+0.631nnn
+0.208nnn
+0.272nnn
+0.445nnn
+0.116nnn
+0.051nnn
+0.324nn
+0.008
+0.049nnn
+0.077nnn
+
+t-statistic
+(4)
+(4.00)
+(5.24)
+(4.37)
+(2.73)
+(3.91)
+(19.12)
+(2.14)
+(8.34)
+(3.39)
+(4.41)
+(2.44)
+(5.24)
+(2.58)
+(5.91)
+(2.85)
+(2.50)
+(3.56)
+(4.58)
+(3.79)
+(3.40)
+(6.96)
+(1.45)
+(2.12)
+(4.66)
+(2.03)
+(4.07)
+(4.94)
+(4.96)
+(5.14)
+(3.40)
+(6.92)
+(2.80)
+(1.96)
+(0.53)
+(3.31)
+(3.68)
+
+650
+
+H.K. Hvide, P. Östberg / Journal of Financial Economics 117 (2015) 628–652
+
+Table A4
+Subsample analysis.
+This table examines whether peer effects are stronger among coworkers who are more likely to interact.
+We classify coworkers along the dimensions of sex, tenure, age, education, and wealth. We sort coworkers
+in each year and plant into two groups depending on sex (Panel A), median tenure (Panel B), median age
+(Panel C), median education (Panel D), and median wealth (Panel E). For each group of coworkers, we
+calculate the fraction of individuals who make a purchase in that month ðBuyGroup
+i;t
+
+1 plant
+
+and BuyGroup
+i;t
+
+2 plant
+
+Þ.
+
+For both groups (for example, males are Group 1 and females are Group 2), we estimate the following
+regression:
+Group j
+
+buyi;t
+
+¼ αt þ β1 BuyGroup
+i;t
+
+1 plant
+
+þ β2 BuyGroup
+i;t
+
+2 plant
+
+þ β3 Buyfamily
+þ β4 Buyzip
+i;t
+i;t þ bΓ þ εi;t:
+
+The column Group 1 reports point estimates of β1 and β2 when the individual belongs to Group 1 [see Duflo
+and Saez (2002) for an application of this methodology to pension plan enrollment]. We also report the pvalue of the F-test of a difference between β1 and β2 . The Column Group 2 presents the corresponding
+results when the individual belongs to Group 2. The vector Γ of control variables are the socio-demographic
+control variables listed in the caption to Table 2. In addition to time (month), plant, and zip fixed effects; we
+include zip–plant interaction fixed effects. t-statistics (in parentheses) are based on robust two-way (plant
+and time) clustered standard errors. nnn indicates statistical significance at the 1% level. The sample period
+is January 1995 to December 2005.
+Group 1
+
+Group 2
+
+0.260nnn
+
+0.244nnn
+
+(11.05)
+0.276nnn
+
+(13.32)
+0.400nnn
+
+(11.33)
+0.29
+2,499,192
+
+(15.31)
+0.00
+923,820
+
+0.287nnn
+
+0.198nnn
+
+(9.66)
+0.171nnn
+
+(8.25)
+0.226nnn
+
+(10.06)
+0.00
+1,803,516
+
+(8.10)
+0.00
+1,559,964
+
+0.230nnn
+
+0.217nnn
+
+(10.09)
+0.196nnn
+
+(10.22)
+0.237nnn
+
+(10.73)
+0.00
+2,117,232
+
+(9.23)
+0.03
+1,893,984
+
+Panel A: Male (Group 1) and female (Group 2)
+Buymale
+i;t
+
+plant
+
+Buyfemale
+i;t
+
+plant
+
+p-value of test coefficient difference
+N
+Panel B: Low tenure (Group 1) and high tenure (Group 2)
+Buylow
+i;t
+Buyhigh
+i;t
+
+tenure plant
+
+tenure plant
+
+p-value of test coefficient difference
+N
+Panel C: Low age (Group 1) and high age (Group 2)
+Buylow
+i;t
+Buyhigh
+i;t
+
+age
+
+age
+
+p-value of test coefficient difference
+N
+
+Panel D: Low education (Group 1) and high education (Group 2)
+0.290nnn
+Buylow education
+
+0.217nnn
+
+(10.71)
+0.184nnn
+
+(9.88)
+0.228nnn
+
+(11.00)
+0.00
+1,892,928
+
+(9.30)
+0.22
+1,852,272
+
+0.248nnn
+
+0.200nnn
+
+(10.23)
+0.188nnn
+
+(9.29)
+0.264nnn
+
+(10.54)
+0.00
+1,668,420
+
+(9.67)
+0.00
+2,180,760
+
+i;t
+
+Buyhigh
+i;t
+
+education
+
+p-value of test coefficient difference
+N
+Panel E: Low wealth (Group 1) and high wealth (Group 2)
+Buylow
+i;t
+Buyhigh
+i;t
+
+wealth
+
+wealth
+
+p-value of test coefficient difference
+N
+
+H.K. Hvide, P. Östberg / Journal of Financial Economics 117 (2015) 628–652
+
+651
+
+Table A5
+Investor stock selection of local and same-industry stocks.
+We examine individual stock selection of same-industry, different-industry, local, and nonlocal stocks (examined in Table 9). A local stock is
+headquartered less than one hundred kilometers from the residence of the individual. Same-industry stocks have the same two digit Nomenclature
+Generale des Activites Economiques dans I'Union Europeenne (NACE) code as the employer of the individual. The sample period is January 1995 to
+December 2005.
+Variable
+
+Mean
+
+Individual stock selection
+local
+0.0070
+f
+
+Median
+
+Standard deviation
+
+Minimum
+
+Maximum
+
+N
+
+0
+
+0.075
+
+0
+
+1
+
+24,714,288
+
+f
+
+nonlocal
+
+0.0044
+
+0
+
+0.059
+
+0
+
+1
+
+53,266,715
+
+f
+
+sameindustry
+
+0.0203
+
+0
+
+0.134
+
+0
+
+1
+
+2,442,980
+
+diff :industry
+
+0.0047
+
+0
+
+0.061
+
+0
+
+1
+
+75,710,195
+
+f
+
+References
+Asch, S.E., 1955. Opinions and social pressure. Scientific American 193,
+31–35.
+Ashfort, B.K., Saks, A.M., 1996. Socialization tactics: longitudinal effects on
+newcomer adjustment. Academy of Management Journal 39, 149–178.
+Banerjee, A.V., 1992. A simple model of herd behavior. Quarterly Journal
+of Economics 107, 797–817.
+Barber, B., Odean, T., 2000. Trading is hazardous to your wealth: the
+common stock investment performance of individual investors.
+Journal of Finance 55, 773–806.
+Barber, B., Odean, T., 2008. All that glitters: the effect of attention and
+news on the buying behavior of individual and institutional investors.
+Review of Financial Studies 21, 785–818.
+Baxter, M., Jermann, U.J., 1997. The international diversification puzzle is
+worse than you think. American Economic Review 87, 170–180.
+Bayer, P., Ross, S.L., Topa, G., 2008. Place of work and place of residence:
+informal hiring networks and labor market outcomes. Journal of
+Political Economy 116, 1150–1196.
+Benartzi, S., 2001. Excessive extrapolation and the allocation of 401(k)
+accounts to company stock. Journal of Finance 56, 1747–1764.
+Benartzi, S., Thaler, R., 2007. Heuristics and biases in retirement savings
+behavior. Journal of Economic Perspectives 21, 81–104.
+Bertrand, M., Luttmer, E.F.P., Mullainathan, S., 2000. Network effects and
+welfare cultures. Quarterly Journal of Economics 115, 1019–1055.
+Beshears, J., Choi, J.J., Laibson, D., Madrian, B.C., Milkman, K.L., 2011. The effect of
+providing peer information on retirement savings decisions. Unpublished
+Working paper 17345. National Bureau of Economic Research, Cambridge, MA.
+Bikhchandani, S., Hirshleifer, D., Welch, I., 1992. A theory of fads, fashion,
+custom, and cultural change as informational cascades. Journal of
+Political Economy 100, 992–1026.
+Blume, L.E., Brock, W., Durlauf, S., Ioannides, Y., 2011. Identification of
+social interactions. In: Benhabib, J., Bisin, A., Jackson, M.O. (Eds.),
+Handbook of Social Economics, vol. 1. , North Holland, Amsterdam,
+Holland, pp. 853–964.
+Bodnaruk, A., 2009. Proximity always matters: local bias when the set of
+local companies changes. Review of Finance 13, 629–656.
+Brown, J.R., Ivković, Z., Smith, P.A., Weisbenner, S.J., 2008. Neighbors
+matter: causal community effects and stock market participation.
+Journal of Finance 63, 1509–1531.
+Bursztyn, L., Ederer, F., Ferman, B., Yuchtman, N., 2013. Understanding
+peer effects in financial decisions: evidence from a field experiment.
+Unpublished working paper. University of California, Los Angeles.
+Cameron, A.C., Miller, D.L., 2010. Robust inference with clustered data. In:
+Ullah, A., Giles, D.E.A. (Eds.), Handbook of Empirical Economics and
+Finance, Chapman & Hall, CRC, Boca Raton, FL, pp. 1–28.
+Campbell, J.Y., 2006. Household finance. Journal of Finance 61, 1553–1604.
+Carhart, M., 1997. On persistence of mutual fund performance. Journal of
+Finance 52, 57–82.
+Chamberlain, G., 1980. Analysis of covariance with qualitative data.
+Review of Economic Studies 47, 225–238.
+Christakis, N.A., Fowler, J.H., 2007. The spread of obesity in a large social
+network over 32 years. New England Journal of Medicine 357,
+370–379.
+Cohen, L., 2008. Loyalty-based portfolio choice. Review of Financial
+Studies 22, 1213–1245.
+Coval, J.D., Moskowitz, T.J., 1999. Home bias at home: local equity
+preference in domestic portfolios. Journal of Finance 54, 2045–2073.
+Cronqvist, H., Siegel, S., 2013. The genetics of investment biases. Journal of
+Financial Economics 113, 215–237.
+
+Dahl, G., Løken, K., Mogstad, M., 2012. Peer effects in program participation. American Economics Review 104, 2049–2074.
+Døskeland, T.M., Hvide, H.K., 2011. Do individual investors have asymmetric information based on work experience? Journal of Finance 66,
+1011–1041.
+Duflo, E., Saez, E., 2002. Participation and investment decisions in a
+retirement plan: the influence of colleagues' choices. Journal of Public
+Economics 85, 121–148.
+Duflo, E., Saez, E., 2003. The role of information and social interactions in
+retirement plan decisions: evidence from a randomized experiment.
+Quarterly Journal of Economics 118, 815–842.
+Eiling, E., 2013. Industry-specific human capital, idiosyncratic risk, and
+the cross section of expected stock returns. Journal of Finance 68,
+43–84.
+Ellison, G., Fudenberg, D., 1993. Rules of thumb for social learning. Journal
+of Political Economy 101, 612–643.
+Feng, F., Seasholes, M.S., 2004. Correlated trading and location. Journal of
+Finance 59, 2117–2144.
+Greene, W.H., 2012. Econometric Analysis, seventh edition Pearson
+Education, Harlow, Essex, UK.
+Guiso, L., Jappelli, T., 2005. Awareness and stock market participation.
+Review of Finance 9, 537–567.
+Guiso, L., Sapienza, P., Zingales, L., 2008. Trusting the stock market.
+Journal of Finance 63, 2557–2600.
+Heckman, J.J., 1979. The incidental parameters problem and the problem
+of initial conditions in estimating a discrete time-discrete data
+stochastic process. In: McFadden, D., Manski, C. (Eds.), Structural
+Analysis of Discrete Data, MIT Press, Cambridge, MA, pp. 179–195.
+Hong, H., Kubik, J.D., Stein, J.C., 2004. Social interaction and stock market
+participation. Journal of Finance 59, 137–163.
+Hsiao, C., 1986. Analysis of Panel Data. Cambridge University Press,
+Cambridge, UK.
+Huberman, G., 2001. Familiarity breeds investment. Review of Financial
+Studies 14, 659–680.
+Huttunen, K., Møen, J., Salvanes, K.G., 2011. How destructive is creative
+destruction? Effects of job loss on job mobility, withdrawal, and
+income. Journal of the European Economic Association 9, 840–870.
+Ivković, Z., Weisbenner, S.J., 2005. Local does as local is: information
+content of the geography of individual investors' common stock
+investments. Journal of Finance 60, 267–306.
+Ivković, Z., Weisbenner, S.J., 2007. Information diffusion effects in
+individual investors' common stock purchases: covet thy neighbors'
+investment choices. Review of Financial Studies 20, 1327–1357.
+Kaustia, M., Knüpfer, S., 2012. Peer performance and stock market entry.
+Journal of Financial Economics 104, 321–338.
+Kumar, A., Lee, C.M.C., 2006. Retail investor sentiment and return and comovements. Journal of Finance 61, 2451–2486.
+Lancaster, T., 2000. The incidental parameter problem since 1948. Journal
+of Econometrics 95, 391–413.
+Lee, L.F., 2007. Identification and estimation of econometric models with
+group interactions, contextual factors, and fixed effects. Journal of
+Econometrics 140, 333–374.
+Lee, L.F., Liu, X., Lin, X., 2010. Specification and estimation of social
+interactions with network structures. Econometrics Journal 13,
+145–176.
+Manski, C.F., 1993. Identification of endogenous social effects: the reflection problem. Review of Economic Studies 60, 531–542.
+March, J.G., 1991. Exploration and exploitation in organizational learning.
+Organization Science 2, 71–87.
+Mas, A., Moretti, E., 2009. Peers at work. American Economic Review 99,
+112–145.
+
+652
+
+H.K. Hvide, P. Östberg / Journal of Financial Economics 117 (2015) 628–652
+
+Massa, M., Simonov, A., 2006. Hedging, familiarity, and portfolio choice.
+Review of Financial Studies 19, 633–685.
+Moffitt, R.A., 2001. Policy interventions, low-level equilibria, and social
+interactions. In: Durlauf, S.N., Young, H.P. (Eds.), Social Dynamics, MIT
+Press, Cambridge, MA, pp. 45–82.
+Moreland, R.L., 1985. Social categorization and the assimilation of “new”
+group members. Journal of Personality and Social Psychology 48,
+1173–1190.
+Moretti, E., 2011. Social learning and peer effects in consumption:
+evidence from movie sales. Review of Economic Studies 78,
+356–393.
+Newey, W.K., West, K.D., 1987. A simple, positive semi-definite, heteroskedasticity, and autocorrelation consistent covariance matrix. Econometrica 55, 703–708.
+Neyman, J., Scott, E.L., 1948. Consistent estimates based on partially
+consistent observations. Econometrica 16, 1–32.
+Odean, T., 1999. Do investors trade too much? American Economic
+Review 89, 1279–1298.
+
+Ødegaard, B.A., 2013. Empirics of the Oslo Stock Exchange: asset pricing
+results. Unpublished working paper. University of Stavanger, Stavanger, Norway.
+Seasholes, M.S., Zhu, N., 2010. Individual investors and local bias. Journal
+of Finance 65, 1987–2010.
+Shiller, R.J., 1984. Stock prices and social dynamics. Brookings Papers on
+Economic Activity 2, 457–510.
+Shiller, R.J., Pound, J., 1989. Survey evidence on diffusion of interest and
+information among investors. Journal of Economic Behavior and
+Organization 12, 47–66.
+van Maanen, J., 1976. Breaking: in socialization to work. In: Dubin, R.
+(Ed.), Handbook of Work, Organization, and Society, Rand-McNally,
+Chicago, IL, pp. 67–130.
+Yatchew, A., Griliches, Z., 1985. Specification error in probit models.
+Review of Economics and Statistics 67, 134–139.
+
+

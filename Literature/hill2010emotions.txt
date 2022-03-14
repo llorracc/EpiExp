@@ -1,0 +1,2085 @@
+Downloaded from rspb.royalsocietypublishing.org on November 10, 2010
+
+Proc. R. Soc. B (2010) 277, 3827–3835
+doi:10.1098/rspb.2010.1217
+Published online 7 July 2010
+
+Emotions as infectious diseases in a large
+social network: the SISa model
+Alison L. Hill1,2,6,*,†, David G. Rand1,3,†, Martin A. Nowak1,4
+and Nicholas A. Christakis5,7
+1
+
+Program for Evolutionary Dynamics, 2Biophysics Program, 3Berkman Center for Internet and Society,
+Departments of Mathematics and Organismic and Evolutionary Biology, and 5Department of Sociology,
+Harvard University, Cambridge, MA 02138, USA
+6
+Harvard-MIT Division of Health Sciences and Technology, Massachusetts Institute of Technology, Cambridge,
+MA 02139, USA
+7
+Departments of Medicine and Health Care Policy, Harvard Medical School, Boston, MA 02115, USA
+4
+
+Human populations are arranged in social networks that determine interactions and influence the spread
+of diseases, behaviours and ideas. We evaluate the spread of long-term emotional states across a social
+network. We introduce a novel form of the classical susceptible – infected –susceptible disease model
+which includes the possibility for ‘spontaneous’ (or ‘automatic’) infection, in addition to disease transmission (the SISa model). Using this framework and data from the Framingham Heart Study, we
+provide formal evidence that positive and negative emotional states behave like infectious diseases spreading across social networks over long periods of time. The probability of becoming content is increased by
+0.02 per year for each content contact, and the probability of becoming discontent is increased by 0.04
+per year per discontent contact. Our mathematical formalism allows us to derive various quantities from
+the data, such as the average lifetime of a contentment ‘infection’ (10 years) or discontentment ‘infection’
+(5 years). Our results give insight into the transmissive nature of positive and negative emotional states.
+Determining to what extent particular emotions or behaviours are infectious is a promising direction for
+further research with important implications for social science, epidemiology and health policy. Our
+model provides a theoretical framework for studying the interpersonal spread of any state that may also
+arise spontaneously, such as emotions, behaviours, health states, ideas or diseases with reservoirs.
+Keywords: social networks; happiness; emotional contagion; SIS model; depression; social contagion
+
+1. INTRODUCTION
+Social network effects are of great importance for understanding human behaviour. People interact with different
+numbers of individuals and with some individuals more
+than others, and this affects behaviour in fundamental
+ways. Investigations from diverse fields, including sociology, economics, physics, mathematics and public
+health, have studied social networks, both to understand
+their structure and their affect on social dynamics.
+Economic behaviour, such as purchasing decisions
+(Lazarsfeld & Katz 1955), employment prospects
+(Marmaros & Sacerdote 2002; Calvo-Armengol &
+Jackson 2004), bankruptcy (Uzzi 1996), investment
+(Cohen et al. 2008) and productivity (Oswald et al.
+2009) have been shown to be influenced by network contacts (reviewed in Jackson 2009). Other behaviours such
+as college GPA (Sacerdote 2001) and crime (Glaeser
+et al. 1996; Haynie 2001) have been related to peer
+effects. Recently, social networks have been studied as
+determinants of health (reviewed by Smith & Christakis
+2008), ranging from determining the patterns of infectious disease spread (Keeling & Eames 2005) to the
+
+* Author for correspondence (alhill@fas.harvard.edu).
+†
+These authors contributed equally to this work.
+Electronic supplementary material is available at http://dx.doi.org/10.
+1098/rspb.2010.1217 or via http://rspb.royalsocietypublishing.org.
+Received 8 June 2010
+Accepted 16 June 2010
+
+propagation of behaviours such as smoking cessation
+(Christakis & Fowler 2008), obesity (Christakis &
+Fowler 2007) and suicidal ideation (Bearman & Moody
+2004). Networks also play an important role in evolutionary biology, where population structure determining
+interactions can facilitate the evolution of cooperative
+behaviour (Ohtsuki et al. 2006; Tarnita et al. 2009a,b;
+Nowak & May 1992; Fu et al. 2007).
+Human emotions are strongly influenced by social
+contacts. ‘Emotional contagion’ (Hatfield et al. 1994) is
+known to occur over short timesscales between people
+in frequent close contact, such as families (Larson &
+Almeida 1999), roommates (Howes et al. 1985) and
+team-mates (Barsade 2002), and even occurs in experimental situations (Fowler & Christakis 2010). Positive
+and negative moods also spread during workplace interactions such as cooperation (Barsade 2002), negotiation
+(Van Kleef et al. 2004) and successful leadership (Bono &
+Ilies 2006). The spread of positive mood is a common
+technique in interpersonal relations, and the ‘service
+with a smile’ technique is a well-known example (Pugh
+2001). Depressive moods and symptoms have been
+found to be contagious both by media and by personal
+contact with strangers or acquaintances ( Joiner & Katz
+1999). Over longer timescales, clinically relevant
+depressive states can also spread between social contacts
+(Ueno 2005). Unlike most of these previous studies, in
+the present work we demonstrate the interpersonal
+
+3827
+
+This journal is q 2010 The Royal Society
+
+Downloaded from rspb.royalsocietypublishing.org on November 10, 2010
+
+3828
+
+A. L. Hill et al. Infectious emotions in a social network
+
+spread of long-lasting emotional states over protracted
+timescales.
+Recently, Fowler & Christakis (2008) have studied the
+properties of happiness in relation to a network of social
+contacts, extracted from the Framingham Heart Study
+(Dawber 1980). They observe correlations in happiness
+between individuals who are connected in a social network. If your friends are happy, then you are more likely
+to be happy in the future. This correlation, they suggest,
+is caused in part by an inductive effect of happiness
+spreading from person to person. Thus, happiness could
+be thought of as a form of social infection. Here, we
+evaluate this conceptual approach to emotional transmission in a mathematically rigorous way, by formally
+modelling the spread of positive and negative emotions
+using theoretical tools from epidemiology.
+Mathematical models for the spread of microbial infections help us to understand and predict the spread of
+disease (Anderson & May 1991). Such models have also
+been used to explore the spread of non-microbial infections, such as rumours (Daley & Kendall 1964) or
+computer viruses (Pastor-Satorras & Vespignani 2001).
+Studying the dynamics of epidemiological models on
+social networks is currently an active area of research.
+Many models have been developed to study how the
+structure of networks affects disease spread (Keeling &
+Eames 2005). These models have been used to understand contagious diseases where the network describes
+contacts in geographical proximity (for example severe
+acute respiratory syndrome (SARS), Meyers et al. 2005;
+foot-and-mouth disease, Ferguson et al. 2001) or for
+studying sexually transmitted diseases where the network
+consists of sexual partnerships (Eames & Keeling 2002).
+Here, we introduce a novel approach for studying the
+spread of emotions in a social network. We can think of
+emotions at three levels: ‘moods’, ‘states’ or ‘traits’.
+These levels have increasing duration and permanence,
+and differ in terms of the extent to which they are
+deeply characteristic of the individual, and therefore the
+extent to which they are mutable or immutable. We will
+use the word ‘long-term emotional states’ to describe
+the phenomena of interest to us here, lying in between
+fleeting moods and permanent traits (like personality
+traits). We use the terms content and discontent for these
+phenomena that have been characterized, in prior work,
+as akin to happiness and depression, with validated
+scales. We modify a classical infectious disease model to
+represent the spread of emotions, to account for the fact
+that emotions can be contracted both spontaneously
+and through transmission. We then use this model to
+ask whether emotional states in the Framingham Heart
+Study dataset (Dawber 1980) do indeed act like infectious diseases. For an emotional state such as content to
+fit the classical definition of an infectious disease, (i) the
+probability of becoming content must depend on the
+number of content contacts (and not on the number of
+non-content contacts), and (ii) the probability of switching from content back to neutral (‘recovering’ from
+content) should be independent of any properties of
+social contacts. The particular structure of the Framingham Heart Study dataset, with a social network, reliable
+emotional evaluation and longitudinal follow-up, allows
+application of our model to the spread of content and discontent over long timescales. We find that both content
+Proc. R. Soc. B (2010)
+
+b
+
+(a)
+I
+
+S
+
+S
+
+I
+
+(b)
+
+I
+
+I
+
+transmission
+of infection
+a
+I
+
+spontaneous
+infection
+g
+
+S
+
+recovery
+
+a + bnI
+I
+
+S
+g
+
+Figure 1. The SISa model of infection. (a) There are three
+processes by which an individual’s state can change. (i) An
+infected individual transmits infection to a susceptible contact with rate b. (ii) A susceptible individual spontaneously
+(‘automatically’) becomes infected at rate a, regardless of
+the state of her contacts. (iii) An infected individual returns
+to being susceptible at rate g, independent of the state of
+her contacts. (b) The rates of movement for an individual
+between the susceptible and infected states. nI is the
+number of infected contacts.
+
+and discontent behave like infectious diseases. The data
+allow us to then estimate values for model parameters,
+and to calculate derived quantities which give insight
+into the dynamics of emotional contagion.
+2. MATERIAL AND METHODS
+(a) Basic infectious disease model
+In the simplest infectious disease models (Anderson &
+May 1991), individuals are classified as occupying one
+of two states: ‘susceptible’, meaning they do not have
+the disease, and ‘infected’, meaning they do have the disease. The disease can be transmitted to a susceptible
+person when they come into contact with an infected
+person. The rate of this disease transmission from
+infected to susceptible is defined as b, the transmission
+rate. Once an individual is infected, he/she recovers
+from the disease at a constant rate g, regardless of his/
+her contact with susceptible or infected others. In one
+class of disease models (susceptible – infected –recovered
+(SIR)), recovered individuals become immune to further
+infection and enter a ‘recovered’ state. However, an
+emotion can occur many times over an individual’s life,
+and therefore we use assume infected individuals return
+to the susceptible state after recovering. This form of
+susceptible– infected –susceptible (SIS) model is used to
+model infectious diseases that do not confer immunity,
+such as many sexually transmitted diseases.
+In the standard SIS model, infection can only be transmitted by having a contact between an infected and a
+susceptible individual. Emotional ‘infections’, however,
+can also arise owing to spontaneous factors other than
+transmission. Therefore, we extend the SIS model by
+adding a term whereby uninfected individuals spontaneously (or ‘automatically’) become infected at a
+constant rate a, independent of infected contacts. A
+diagrammatic representation of our modified SIS
+model, which we will call SISa, is shown in figure 1.
+
+Downloaded from rspb.royalsocietypublishing.org on November 10, 2010
+
+Infectious emotions in a social network
+The corresponding differential equations for a well-mixed
+population are described in equation (2.1). When the
+population is not well-mixed but instead constrained on
+a social network, the transmission rate for each individual
+depends on the number of infected contacts (nI) instead
+of the total number of infected individuals (I ).
+9
+dS
+>
+¼ bSI þ gI  aS; >
+>
+>
+dt
+>
+=
+dI
+ð2:1Þ
+¼ bSI  gI þ aS >
+>
+dt
+>
+>
+>
+;
+and I þ S ¼ N;
+where S is the number of susceptible individuals, I the
+number of infected individuals b the transmission rate,
+g the recovery rate, and a the rate of spontaneous infection. This model assumes a constant population size,
+neglecting birth and death.
+(b) Parameter estimation
+The classical definition of an infectious disease in the SIS/
+SIR context is that (i) the probability of an individual
+transitioning from susceptible to infected is an increasing
+function of the number of infected contacts, while (ii) the
+probability of a transition from infected to susceptible
+(i.e. recovery) is independent of the number or state of
+contacts. Exposure to infected individuals makes you
+more likely to become sick, but once you are infected
+you recover at a constant rate regardless of contacts. In
+addition to infectious contagion, the SISa model has an
+additional spontaneous mode of acquiring disease. To
+both test that a behaviour displays infectious-disease-like
+dynamics, and to estimate values for the model parameters a, b and g, we can use dynamic information
+about transitions between states based on multiple time
+points in longitudinal data. For data points separated by
+time intervals (Dt) smaller than the average time between
+transitions, the transition probabilities can be linearized.
+The probability of a transition from susceptible to
+infected after a time Dt can be given by P(S ! I, Dt) 
+(a þ bnI)Dt, and the probability of transition from
+infected to susceptible after time Dt, by P(I ! S, Dt)
+gDt. It is necessary for the time between measurements
+to not be comparable to or greater than the average
+lifetime of a state to keep the probability of double
+transitions within a time interval low.
+(c) Dataset
+In this study, we evaluate the assumption that emotions
+behave like infectious agents. We use data from the Framingham Heart Study (Dawber 1980) and the
+framework discussed above to test whether content and
+discontent fit the dynamics of infectious diseases. The
+Framingham study was initiated in 1948 in Framingham,
+Massachusetts and has continued enrolling subjects till
+the present. Subjects were examined at regular intervals
+of approximately three years. They were administered a
+psycho-social exam called the CES-D, which allowed us
+to classify each individual as content, discontent or neutral.
+We used the well-defined cut-off of a score of 16 on the
+full CES-D scale to classify subjects as discontent. This
+measure has previously been called ‘depression’, though
+it is not specific to clinical depression and represents
+Proc. R. Soc. B (2010)
+
+A. L. Hill et al.
+
+3829
+
+general distress or depressive symptoms (Rush 2007).
+Content was defined as a score of 12 on the positively
+worded questions of the CES-D, and is the same subscale
+used by others and called ‘positive affect’, ‘well-being’
+or ‘happiness’ (Moskowitz 2003; Ostir et al. 2000;
+Pressman & Cohen 2005; Fowler & Christakis 2008).
+The terms ‘content’, ‘discontent’ and ‘emotional state’
+as used in this paper represent long-term states reflecting
+general life satisfaction, as opposed to short-lived moods
+evinced in response to stimuli. Additionally, social
+networks were constructed for each subject based on
+recorded information on friends, family, co-workers
+and residential neighbours. For details, see the electronic
+supplementary material.
+We hypothesize that a neutral emotional state may act
+like a susceptible state, and that content and discontent
+act like ‘infected’ states (figure 1). We validate this classification using the data analysis presented below. Note that
+we exclude the possibility of coinfection by both content
+and discontent simultaneously, as this doubly infected
+state very rarely appears in the data (see the electronic
+supplementary material, figure S1). However, superinfection may be possible: individuals could potentially move
+directly between being content and discontent without
+passing through neutral. The data are used to validate
+the model assumptions and estimate values for the parameters b, a and g. These parameters are then used to
+calculate derived quantities of interest, such as the average
+lifetime of an emotional infection, the probability an
+infected person passes the infection to a given contact
+sometime during the course of her infection, and the average frequency with which infections arise spontaneously.
+Additionally, agent-based simulations are used to
+compare model dynamics and clustering with the
+observational data.
+
+(d) Measuring transmission of emotions
+To study the transmission of emotions, we examine
+changes in emotional state between the two sequential
+exams of the Framingham Heart Study in which the
+CES-D was administered (exams 6 and 7). The average
+fraction of the network that was classified as content or
+discontent was very similar between the two exams,
+suggesting the transmission process is at steady state
+(exam 6: 65% content, 9% discontent; exam 7: 62%
+content, 9% discontent). Additionally, these exams
+were closely and consistently spaced (Dt ¼ 3+1 year).
+We include only subjects who answered all questions on
+the CES-D in both exams.
+Subjects were initially classified as first as either ‘content’ or ‘not content’, and then separately as
+‘discontent’ or ‘not discontent’. Individuals who are
+neither ‘content’ nor ‘discontent’ are classified as ‘neutral’. As expected, very few people who are classified
+as ‘content’ are also classified as ‘discontent’ (less than
+1/1000). Thus we have three possible emotional states. A
+diagram of the distribution of subjects between emotional
+states in included in the electronic supplementary material,
+figure S1.
+A given state x is considered infectious if having more
+contacts in state x makes you more likely to switch to
+state x. That is, a positive relationship between the
+number of contacts in state x and the probability to
+
+Downloaded from rspb.royalsocietypublishing.org on November 10, 2010
+
+3830
+
+A. L. Hill et al. Infectious emotions in a social network
+
+transition from state y to state x indicates that state x is
+infectious with respect to state y. Therefore, to test
+whether a given state x is infectious with respect to
+another state y, we perform an ordinary least squares
+(OLS) linear regression as follows. Each subject in state
+y in exam 6 is coded as either having transitioned
+to state x (transition ¼ 1) or not (transition ¼ 0) in
+exam 7. We then regress this binary transition variable
+for each subject against that subject’s number of contacts
+in state x during exam 6. A significant positive correlation
+indicates that having more friends in state x at the earlier
+exam makes you more likely to switch to state x in the
+later exam. If state x is infectious (a significant positive
+correlation exists), then the value of b can be calculated
+from the slope of the regression line, and the value of a
+can be calculated from the intercept. If state x is not infectious (no significant correlation exists), then the value of g
+can be calculated from the intercept. Dt was taken as the
+average time between examinations, which was 2.5 years.
+Using logistic regression as opposed to OLS regression
+gives very similar results, as the datapoint line is within
+the linear range of the logistic model.
+It is important for our analysis that subjects do not
+change emotional states rapidly (days or weeks), but
+instead on the timescale of years or longer. While the
+CES-D asks subjects to evaluate feelings in the last
+week, it is known to be a reliable measure of long-term
+emotions, as opposed to short-lived moods evinced in
+response to stimuli. Several studies have shown that
+CES-D scale scores to be stable for up to 12 months,
+with high intra-individual test– retest correlations
+(Radloff 1977; Roberts 1980). Furthermore, we find a
+strong positive correlation between each subject’s
+emotional state in the two measurement periods (r ¼
+0.47). This suggests that emotional states are not
+fluctuating on the timescale of weeks or months, but
+rather on the timescale at which we are measuring: if
+they were changing faster than 3 –5 years, then a subject’s
+state in exam 6 would not be strongly predictive of her
+state in exam 7. Note that this correlation is also confirmed by a more detailed analysis (Fowler & Christakis
+2008). Thus, there is strong evidence that the emotions
+we are measuring change only on the timescale we are
+measuring, as opposed to fluctuating much more rapidly.
+Our epidemiological approach to social contagion has
+important differences from other models which look at correlations in present and past states of connected individuals
+(Christakis & Fowler 2007, 2008; Fowler & Christakis
+2008). Here, we look at how contacts influence the transitions between states, which better captures the nature
+of contagion. Since we use pre-existing social ties, we do
+not see effects from selection bias in choosing friends
+with similar emotional states. Additionally, confounding
+events that lead to concurrent changes in connected individuals will not show up as contagion effects in this model.
+
+3. RESULTS
+In the Framingham Heart Study network, individuals
+may be connected to neighbours, co-workers, firstdegree relatives and self-nominated friends. An individual’s degree is the number of contacts that individual
+has to other people in the network. Restricting to only
+individuals who had been administered the CES-D at
+Proc. R. Soc. B (2010)
+
+both exams 6 and 7, and their connections that exist at
+exam 6, gives a population of size n ¼ 1880, with an average degree of 3.1. The network is approximately Poisson
+distributed, with a long tail, although with some subjects
+having no connections. It has been previously found that
+family and friends living more than 2 miles away are not
+significantly associated with emotional influence (Fowler
+& Christakis 2008), suggesting that face-to-face contact
+is important for transmission. Thus, we restrict our analysis to connections involving only friends and relatives
+living closer than 2 miles away, next-door or same address
+neighbours and co-workers. With these further constraints, the degree of the network was reduced to
+1.25 + 1.35.
+The results of the infectiousness analysis for the spread
+of content and discontent between exams 6 and 7 are
+shown in figure 2. Consistent with the SISa model formulation, we find a significant positive correlation between
+the probability of transitioning from neutral to content
+and the number of content contacts (figure 2a, coeff. ¼
+0.052, p=0.024), and no significant relationship between
+the transition from content to neutral and the number of
+neutral contacts (figure 2b, coeff. ¼2 0.011, p=0.59).
+Additionally, we find no significant relationship between
+the probability of transitioning from neutral to content
+and the number of neutral contacts (coeff. ¼ 0.48,
+p ¼ 0.10), or the probability of transitioning from
+content to neutral and the number of content contacts
+(coeff. ¼ 0.22, p ¼ 0.98). This suggests that content
+can indeed be modelled as an infectious process in the
+SISa framework, with neutral susceptibles more likely to
+become content infecteds with each content contact
+they have. The parameters for the SISa model can be calculated from the transition probabilities using equations
+mentioned previously, by dividing slope and intercept
+values by Dt, the average time between exams. The
+transmission rate, b, is found to be 0.02 yr21. The spontaneous infection parameter a is found to be 0.18 yr21.
+The recovery parameter g is found to be 0.088 yr21.
+These results are dependent on restricting analysis to
+contacts who had exams separated by less than threeand-a-half years (75%). For longer times it becomes
+increasingly probable that more than one transition has
+been made between exams.
+We now repeat this analysis for discontent. We find that
+discontent can be also described in the SISa framework as
+a contagious emotion with neutral as the susceptible state.
+The probability of transitioning from neutral to discontent
+is positively correlated with the number of discontent contacts (figure 2c, coeff. ¼ 0.097, p ¼ 0.027), and the
+probability of transitioning from discontent back to neutral
+is independent of the number of neutral contacts
+(figure 2d, coeff. ¼ 0.032, p ¼ 0.56). Additionally, we
+find no significant relationship between the probability of
+transitioning from neutral to discontent and the number
+of neutral contacts (coeff. ¼ 0.11, p ¼ 0.75), or the probability of transitioning from discontent to neutral and the
+number of discontent contacts (coeff ¼ 0.002, p ¼ 0.99).
+The model parameters are b ¼ 0.04 yr21, a ¼ 0.040 yr21,
+g ¼ 0.13 yr21. Interestingly, the rate of transmission
+through a contact is similar for both content and discontent, while the rate of spontaneous infection is much
+larger for content and the rate of recovery is larger for
+discontent.
+
+Downloaded from rspb.royalsocietypublishing.org on November 10, 2010
+
+A. L. Hill et al.
+
+Infectious emotions in a social network
+
+15
+
+0.8
+0.6
+
+236 176
+
+(b) 1.0
+
+5
+
+content → neutral
+
+neutral → content
+
+(a) 1.0
+
+3831
+
+9
+
+44
+
+0.4
+0.2
+
+0.8
+0.6
+38
+
+0.4
+915
+
+259
+
+11
+
+0.2
+
+3
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+1
+
+0
+
+(d ) 1.0
+
+0.8
+
+discontent → neutral
+
+neutral → discontent
+
+1.0
+
+0.6
+0.4
+
+5
+32
+
+0.2 448
+0
+
+1
+2
+discontent contacts
+
+3
+
+4
+
+5
+
+neutral contacts
+
+content contacts
+(c)
+
+2
+
+3
+
+1
+
+5
+0.8
+0.6
+0.4
+
+128
+
+31
+
+0.2
+1
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+neutral contacts
+
+Figure 2. Both content and discontent behave like disease agents, infecting those in a susceptible neutral emotional state. (a)
+Becoming content: the probability of transitioning from neutral to content increases in the number of content contacts (slope ¼
+0.052, p ¼ 0.024, intercept ¼ 0.42). (b) Recovering from content: the probability of recovering from content to the neutral state
+does not depend on the number of neutral contacts (slope ¼ 20.011, p ¼ 0.59, intercept ¼ 0.22). (c) Becoming discontent: the
+probability of transitioning from neutral to discontent increases in the number of discontent contacts (slope ¼ 0.097, p ¼ 0.027,
+intercept ¼ 0.095). (d) Recovering from discontent: the probability of recovering from discontent to the neutral state does not
+depend on the number of neutral contacts (slope ¼ 0.032, p ¼ 0.56, intercept ¼ 0.32). Error bars represent the standard error of
+the mean, and labels are the number of individuals averaged for each data point. We also find no significant dependence of
+these transitions on age, sex or education ((a): age, coeff ¼ 0.0014, p ¼ 0.52; education, coeff ¼ 0.0024, p ¼ 0.81; sex,
+coeff ¼ 20.0074, p ¼ 0.87. (b): age, coeff ¼ 0.0016, p ¼ 0.21; education, coeff ¼ 20.0095, p ¼ 0.08; sex, coeff ¼ 0.0109,
+p ¼ 0.64. (c): age, coeff ¼ 0.0001, p ¼ 0.93; education, coeff ¼ 0.0008, p ¼ 0.90; sex, coeff ¼ 0.0485, p ¼ 0.08. (d): age,
+coeff ¼ 20.0006, p ¼ 0.88; education, coeff ¼ 20.0165, p ¼ 0.35; sex, coeff ¼ 20.024, p ¼ 0.77).
+
+We also include for the possibility of direct transitions
+between content and discontent (‘superinfection’), which
+are sometimes observed. We calculate the rate of direct
+transitions from content to discontent to be scd ¼
+(0.009 + 0.003) per year and the rate from discontent
+to content to be sdc ¼ (0.07 + 0.02) per year. See the
+electronic supplementary material for details. The estimated rates of all transitions are visualized in figure 3.
+From the SISa model parameter estimates, various
+quantities of interest can be calculated. The average lifetime of an emotional state is the average length of time
+an individual spends in this state before recovering. For
+both content and discontent, ‘recovering’ usually means
+going to the neutral state (gc or gd), but also includes
+the possibility of transitioning directly to the other
+‘infected state’ (scd or sdc). The total recovery rate (gT)
+is the sum of both these rates. The average lifetime of a
+contentment infection is 10.1 years, and for discontentment it is 5.0 years. Thus, the average contentment
+infection appears to last twice as long as the average discontentment episode. The ‘influence’ of an emotion is
+the cumulative probability that the infection will be
+passed from an infected to a susceptible connection
+before the infected individual recovers. This is calculated
+as 1 2 e2b/gT ’ b/gT. For both content and discontent,
+this value is 0.18. The ‘cycle length’ is the average
+length of time between spontaneous infections, and is
+Proc. R. Soc. B (2010)
+
+neutral
+
+ac = 0.18
+bc = 0.02
+
+ad = 0.04
+bd = 0.04
+gc = 0.088 gd = 0.13
+
+scd = 0.009
+content
+
+discontent
+sdc = 0.07
+
+Figure 3. Parameter estimates for content and discontent using
+the SISa model framework. From these results, derived from
+figure 2, we show that content and discontent are infectious
+emotions that can be ‘caught’ by neutral (susceptible) individuals from content or discontent (infected) contacts. There is
+also some ‘superinfection’ present: direct transitions between
+content and discontent. ac (ad) ¼ rate of spontaneously becoming content (discontent), gc (gd) ¼ rate of recovery from
+content (discontent), bc (bd) ¼ transmission rate of content
+(discontent), scd (sdc) ¼ rate of spontaneous superinfection
+from content to discontent (discontent to content).
+
+Downloaded from rspb.royalsocietypublishing.org on November 10, 2010
+
+3832
+
+A. L. Hill et al. Infectious emotions in a social network
+
+5.6 years for content and 25 years for discontent. This
+suggests that an individual may spontaneously become
+content many times throughout life.
+In the regular SIS or SIR models, the average number
+of secondary infections caused before recovery is called
+the basic reproductive ratio, R0. An epidemic only occurs
+for R0 . 1. In the SISa model, there is no thresholding
+behaviour as seen in traditional models, because of
+the spontaneous infection term. Even if there are no
+individuals initially infected and no contagion (b ¼ 0),
+spontaneous infection will nonetheless lead to a nonzero steady-state level of infected. In the absence of
+spontaneous infection, the effective R0 can be estimated
+as bn/g, where n is the average degree. For content, R0
+is 0.28 and for discontent it is 0.39. Since for both R0 is
+less than one, self-sustained epidemics of either emotion
+could not be sustained if people did not become
+spontaneously infected.
+We also perform further analysis to examine differences in local network structure for individuals in
+different emotional states. Content individuals have on
+average 1.26 connections to other people in the data,
+neutral individuals 1.37 connections and discontent
+individuals 0.97 connections. The smaller number of
+connections among discontent individuals suggests isolation, which could be contributing to or secondary to
+depressive symptoms. We can also ask whether people
+in a given state tend to cluster. Clustering is a measure
+of the spatial correlation (in the network sense) between
+individuals in the same emotional state. Clustering is
+defined as the ratio of the observed number of connections between two types of individuals to the number of
+connections expected if the positioning of individuals in
+the network was random. Clustering of like individuals
+can be caused by an infective process spreading within a
+network (Keeling 1999), but may also be caused by confounding environmental factors influencing behaviour, or
+selection of contacts based on similar behaviour. In a
+purely infectious process on a network, the average correlation between two infected individuals will be greater
+than one, and the average correlation between an infected
+and a susceptible individual will be less than one. To compare observed clustering to that expected from a pure
+infection, we perform agent-based simulations of SISa
+epidemics on networks with the FHS network topology
+and calculate the predicted clustering (table 1). For content, there is good agreement between observed and
+predicted clustering, suggesting that the inductive
+spread of content can explain the observed clustering of
+content individuals. For discontent, however, there is
+less clustering in the data than predicted by the infectious
+disease simulations. Thus discontent people are more isolated in the network than predicted by the infectious
+model, which is consistent with the reduced average
+degree observed above. This could be explained by a
+tendency for depression to cause people to interact less
+with others, or for social isolation to lead to depression
+(Beck & Alford 2009).
+
+4. DISCUSSION
+Here, we have shown that long-term emotional states can
+spread between socially connected individuals. The transmission rate for content is found to be b ¼ 0.02 yr21,
+Proc. R. Soc. B (2010)
+
+Table 1. Network structure dependence on emotional states,
+and comparison with epidemic simulations. Discontent
+individuals have a significantly lower number of contacts
+(degree) than others. Cxy is the clustering between
+individuals of type x and y. c, content; d, discontent, n,
+neutral. The clustering of like individuals that arises from an
+infectious process can explain the clustering of content
+individuals, but discontent individuals are less clustered
+than expected for the transmission rate.
+
+average degree
+observed clustering
+simulated clustering
+
+content
+
+discontent
+
+neutral
+
+1.26
+Ccc ¼ 1.04
+Ccn ¼ 0.91
+Ccc ¼ 1.09
+Ccn ¼ 0.95
+
+0.97
+Cdd ¼ 1.07
+Cdn ¼ 0.77
+Cdd ¼ 1.92
+Cdn ¼ 1.0
+
+1.37
+—
+—
+—
+—
+
+and the spontaneous infection parameter is found to be
+a ¼ 0.18 yr21, thus each content contact increases the
+probability per year of becoming content by 11%.
+For discontent, the rate of spontaneous infection is a ¼
+0.040 yr21 and the rate of transmission is b ¼ 0.04 yr21, so
+each discontent contact makes an individual 100% more
+likely to become discontent each year. The average lifetime
+of a contentment ‘infection’ is measured to be 10 years,
+and a discontentment ‘infection’, 5 years. We have introduced a novel framework for formalizing social contagion
+derived from the study of infectious diseases, which
+can be used to study the spread of emotions or other
+social phenomena. This infectious disease approach
+has several advantages over methods which examine
+correlations in behaviours of connected individuals.
+Our method controls for selection bias in choosing
+contacts with similar behaviour, as well as confounding
+environmental factors synchronously affecting contacts.
+Moreover, we find no dependence of the probability of
+changing emotional state on age, sex or education,
+which have been found in previous studies of content
+and discontent to affect the propensity for emotions and
+confound the correlations between contacts (Fowler &
+Christakis 2008; Angst 1992). This lack of dependence
+when we focus on transitions suggests that our approach
+is more robust to variation across individuals than
+previous methods.
+Much of the appeal of our approach is the significance
+of our results despite the great simplicity of the model
+used, and the assumptions made about the dataset.
+Determining the various transition rates for the model
+requires the implicit assumption that all individuals are
+identical in their susceptibility to various emotional
+states. These rates therefore represent ensemble averages
+over the population. In reality, individuals are likely to
+differ in their predispositions to various emotional states.
+The ability to observe transmission of emotional states
+over long time frames requires some particular properties
+of the Framingham Heart Study. These include large
+sample sizes, longitudinal follow-up, extensive information on social contacts and various relationships,
+closely and consistently spaced exams, and reliable
+measures of emotions and behavioural states. This study
+was not designed to study social networks or mental
+health, and so there are some drawbacks that could be
+improved upon in more specifically designed projects.
+
+Downloaded from rspb.royalsocietypublishing.org on November 10, 2010
+
+Infectious emotions in a social network
+For example, we only examine changes between two time
+points, which give us stationary values for the rates of transmission, although it is plausible that these rates themselves
+change over time. Future work exploring the dynamic
+spread of emotions with higher resolution data collection
+is called for. This may also allow for more complex and
+perhaps realistic models, such as modeling emotions as
+continuous variables rather than discrete states, with transmission depending on the severity of infection.
+One possible limitation of this study is the social network dataset used. We have also assumed that the social
+network collected through the Framingham Heart Study
+is the same as the contact network for the spread of
+emotions, which is almost certainly not true given the
+sparseness of the Framingham network. Because the Framingham Heart Study was not designed as a study of
+social networks, no attempt was made to capture all of
+a person’s important contacts. Many close friends of a
+person could be missing (usually only one was recorded)
+and family and co-workers who are not part of ones actual
+social network may have been counted. Even if undersampling of real-world contacts did occur, it does not
+change our results qualitatively: our data clearly show
+that rates of becoming ‘content’ or ‘discontent’ increase
+with the number of ‘infected’ contacts (i.e. are contagious) while the rates of ‘recovery’ to a ‘neutral’ state do
+not depend on contacts. However, it could change the
+measured rate constants. If we missed a constant
+number of contacts for each person, the intercept of the
+transition graphs would be shifted to the right, then the
+actual a would be smaller than the a we measured. If
+we missed a constant fraction of contacts for each
+person, then the x-axis would be compressed and the
+slope would be increased, so then the actual value of b
+would be smaller than the b we measured. However,
+while it is probable that the Framingham network underestimates the total number of contacts, the relationship to
+the number of ‘influential’ contacts is unclear. In this
+sense, the observed value of the transmission rates, b,
+are network dependent. Additionally, network connections may be weighted differently according to their
+ability to transmit emotions. It would be ideal to design
+longitudinal study with the intent of measuring social networks and health and carefully define contacts, such as by
+amount of time spent together per day, influence, etc.
+A CES-D score of greater than 16 (which we defined
+as ‘discontent’) can occur with major depression (94%
+specific) as well as alcohol or drug dependence, anxiety,
+dysthymia or bipolar disorder. Thus, it is a measure of
+depressive symptoms or general distress and not necessarily clinical depression (Rush 2007; Radloff 1977).
+The 10 year prevalence of all affective disorders is close
+to 30 per cent (Angst 1992) which suggests that a large
+portion of the population is susceptible to depressive
+symptoms. This fact is consistent with our ensemble
+treatment, and with the observed cycle length for discontent of 25 years. Treating discontent as a spontaneously
+acquired or transmitted infection has one major drawback: it assumes that the probability of becoming
+discontent is independent of an individual’s history of
+depressive episodes. In reality, depression is known to
+be a recurrent condition, with relative risk increasing
+with history of illness (Angst et al. 2003). It has been
+found that 72 per cent of people with major or minor
+Proc. R. Soc. B (2010)
+
+A. L. Hill et al.
+
+3833
+
+depression experience recurrent episodes (Kessler et al.
+1997). No comparable data exist for the CES-D measurement of content, which is less routinely used. Relevant
+data for comparison will probably become available as
+the study of ‘positive psychology’, and especially its
+relation to health (Pressman & Cohen 2005), becomes
+more widespread. There have been no studies to our
+knowledge which examine the lifetime or cycle of discontent or content in the general population, as defined by
+the CES-D.
+Our study provides evidence for a transmissive component to the dynamics of the emotions of content and
+discontent. However, this dataset does not give insight
+into the mechanism of infection. It is possible that displayed emotions are directly contagious (via mimicry,
+pheromones, etc.), or that emotions spread indirectly,
+for example by sharing some type of good fortune.
+While short-term emotional states have been suggested
+as a mechanism for systemically coordinating body
+functions to react in the most favourable way to an
+environmental stimulus, and as a means of ‘quick-anddirty’ communication of this stimulus to others (Lewis &
+Haviland-Jones 2004), it is not obvious how this
+argument extends to the contagion of long-term emotional states. The observed fact that ‘catching’ content and
+discontent depends on social contacts, while ‘recovering’
+to a neutral state does not, suggests that infection involves
+a process similar to teaching a life skill that can then
+persist without a constant stimulus. The mechanisms
+behind the transmission of long-term emotional states
+merit further study.
+We have formally demonstrated that emotions can be
+thought of as infectious diseases spreading across social
+networks. We have introduced a novel form of mathematical infectious disease model for describing the spread of
+emotions which has advantages over previous methods.
+We have validated this model by studying content and discontent propagating across a large social network. Our
+results give insight into the transmissive nature of positive
+and negative emotions, and our model provides a theoretical framework for studying the spread of other
+emotions, as well as a wide range of other social phenomena. Determining to what extent particular emotions or
+behaviours are infectious is a promising direction for
+further research with important implications for social
+science, epidemiology and health policy.
+This work was supported by the National Institute on Aging
+grant P01 AG031093, the John Templeton Foundation, the
+Bill and Melinda Gates Foundation, the National Science
+Foundation/National Institutes of Health joint program in
+mathematical biology (National Institutes of Health Grant
+R01GM078986), and graduate fellowships from the
+National Science Foundation and the Canadian Natural
+Sciences and Engineering Research Council. NHLBI’s
+Framingham Heart Study is supported by contract number
+N01-HC-25195. We thank Laurie Meneades for assistance
+with the database and Erez Leiberman, Michael Manapat,
+J.B. Michel, Dan Gilbert, Matt Killingsworth and Niels
+Rosenquist for helpful discussions throughout this study.
+
+REFERENCES
+Anderson, R. M. & May, R. M. 1991 Infectious diseases
+of humans: dynamics and control. Oxford, UK: Oxford
+University Press.
+
+Downloaded from rspb.royalsocietypublishing.org on November 10, 2010
+
+3834
+
+A. L. Hill et al. Infectious emotions in a social network
+
+Angst, J. 1992 Epidemiology of depression. Psychopharmacology 106, 71–74. (doi:10.1007/BF02246240)
+Angst, J., Gamma, A., Sellaro, R., Lavori, P. W. & Zhang, H.
+2003 Recurrence of bipolar disorders and major
+depression. Eur. Arch. Psychiatr. Clin. Neurosci. 253,
+236 –240. (doi:10.1007/s00406-003-0437-2)
+Barsade, S. G. 2002 The ripple effect: emotional contagion
+and its influence on group behavior. Admin. Sci. Q. 47,
+644 –675. (doi:10.2307/3094912)
+Bearman, P. S. & Moody, J. 2004 Suicide and friendships
+among American adolescents. Am. Public Health Assoc.
+94, 89–95.
+Beck, A. T. & Alford, B. A. 2009 Depression: causes and treatment. Pennsylvania, PA: University of Pennsylvania Press.
+Bono, J. E. & Ilies, R. 2006 Charisma, positive emotions and
+mood contagion. Leadership Q. 17, 317– 334. (doi:10.
+1016/j.leaqua.2006.04.008)
+Calvo-Armengol, A. & Jackson, M. O. 2004 The effects
+of social networks on employment and inequality.
+Am. Econ. Rev. 94, 426 –454. (doi:10.1257/
+0002828041464542)
+Christakis, N. A. & Fowler, J. H. 2007 The spread of obesity
+in a large social network over 32 years. N. Engl. J. Med.
+357, 370 –379. (doi:10.1056/NEJMsa066082)
+Christakis, N. A. & Fowler, J. H. 2008 The collective
+dynamics of smoking in a large social network. N. Engl.
+J. Med. 358, 2249. (doi:10.1056/NEJMsa0706154)
+Cohen, L., Frazzini, A. & Malloy, C. 2008 The small
+world of investing: board connections and mutual fund
+returns. J. Polit. Econ. 116, 951 –979. (doi:10.1086/
+592415)
+Daley, D. J. & Kendall, D. G. 1964 Epidemics and rumours.
+Nature 204, 1118. (doi:10.1038/2041118a0)
+Dawber, T. R. 1980 The Framingham study: the epidemiology
+of atherosclerotic disease. Cambridge, MA: Harvard
+University Press.
+Eames, K. T. D. & Keeling, M. J. 2002 Modeling dynamic
+and network heterogeneities in the spread of sexually
+transmitted diseases. Proc. Natl Acad. Sci. USA 99,
+13 330 –13 335. (doi:10.1073/pnas.202244299)
+Ferguson, N. M., Donnelly, C. A. & Anderson, R. M. 2001
+The foot-and-mouth epidemic in Great Britain: pattern
+of spread and impact of interventions. Science 292,
+1155– 1160. (doi:10.1126/science.1061020)
+Fowler, J. H. & Christakis, N. A. 2008 Dynamic spread of
+happiness in a large social network: longitudinal analysis
+over 20 years in the framingham heart study. Br. Med. J.
+337, a2338. (doi:10.1136/bmj.a2338)
+Fowler, J. H. & Christakis, N. A. 2010 Cooperative
+behaviour cascades in human social networks. Proc. Natl
+Acad. Sci. USA 107, 5334–5338. (doi:10.1073/pnas.
+0913149107)
+Fu, F., Chen, X. J., Liu, L. H. & Wang, L. 2007 Social
+dilemmas in an online social network: the structure and
+evolution of cooperation. Phys. Lett. A 371, 58– 64.
+(doi:10.1016/j.physleta.2007.05.116)
+Glaeser, E. L., Sacerdote, B. & Scheinkman, J. A. 1996
+Crime and social interactions. Q. J. Econ. 111, 507–548.
+(doi:10.2307/2946686)
+Hatfield, E., Cacioppo, J. T. & Rapson, R. L. 1994 Emotional
+contagion. Cambridge, UK: Cambridge University Press.
+Haynie, D. L. 2001 Delinquent peers revisited: does network
+structure matter? Am. J. Sociol. 106, 1013–1057. (doi:10.
+1086/320298)
+Howes, M. J., Hokanson, J. E. & Loewenstein, D. A. 1985
+Induction of depressive affect after prolonged
+exposure to a mildly depressed individual. J. Personal.
+Soc. Psychol. 49, 1110–1113. (doi:10.1037/0022-3514.
+49.4.1110)
+
+Proc. R. Soc. B (2010)
+
+Jackson, M. O. 2009 Networks and economic behavior.
+Annu. Rev. Econ. 1, 489–513. (doi:10.1146/annurev.
+economics.050708.143238)
+Joiner, T. E. & Katz, J. 1999 Contagion of depressive symptoms and mood: meta-analytic review and explanations
+from cognitive, behavioral, and interpersonal viewpoints.
+Clin. Psychol.: Sci. Practice 6, 149– 164. (doi:10.1093/
+clipsy/6.2.149)
+Keeling, M. J. 1999 The effects of local spatial structure on
+epidemiological invasions. Proc. R. Soc. Lond. B 266,
+859 –867. (doi:10.1098/rspb.1999.0716)
+Keeling, M. J. & Eames, K. T. D. 2005 Networks and
+epidemic models. J. R. Soc. Interface 2, 295 –307.
+(doi:10.1098/rsif.2005.0051)
+Kessler, R. C., Zhao, S., Blazer, D. G. & Swartz, M. 1997
+Prevalence, correlates, and course of minor depression
+and major depression in the national comorbidity
+survey. J. Affective Disorders 45, 19–30. (doi:10.1016/
+S0165-0327(97)00056-6)
+Larson, R. W. & Almeida, D. M. 1999 Emotional transmission in the daily lives of families: a new paradigm for
+studying family process. J. Marriage Fam. 61, 5– 20.
+(doi:10.2307/353879)
+Lazarsfeld, P. F. & Katz, E. 1955 Personal influence: the part
+played by people in the flow of mass communications.
+New York, NY: Free Press.
+Lewis, M. & Haviland-Jones, J. M. 2004 Handbook of
+emotions, 2nd edn. New York, NY: The Guilford Press.
+Marmaros, D. & Sacerdote, B. 2002 Peer and social
+networks in job search. Eur. Econ. Rev. 46, 870 –879.
+(doi:10.1016/S0014-2921(01)00221-5)
+Meyers, L. A., Pourbohloul, B., Newman, M. E. J.,
+Skowronski, D. M. & Brunham, R. C. 2005
+Network theory and SARS: predicting outbreak
+diversity. J. Theor. Biol. 232, 71–81. (doi:10.1016/j.jtbi.
+2004.07.026)
+Moskowitz, J. T. 2003 Positive affect predicts lower risk of
+AIDS mortality. Psychosom. Med. 65, 620 –626. (doi:10.
+1097/01.PSY.0000073873.74829.23)
+Nowak, M. A. & May, R. M. 1992 Evolutionary games and
+spatial chaos. Nature 359, 826–829. (doi:10.1038/
+359826a0)
+Ohtsuki, H., Hauert, C., Lieberman, E. & Nowak, M. A.
+2006 A simple rule for the evolution of cooperation on
+graphs and social networks. Nature 441, 502 –505.
+(doi:10.1038/nature04605)
+Ostir, G. V., Markides, K. S., Black, S. A. & Goodwin, J. S.
+2000 Emotional well-being predicts subsequent functional independence and survival. J. Am. Geriatr. Soc.
+48, 473–478.
+Oswald, A. J. & Wu, S. 2010 Objective confirmation of
+subjective measures of human well-being: evidence from
+the USA. Science 327, 576– 579. (doi:10.1126/science.
+1180606)
+Oswald, A. J., Proto, E. & Sgroi, D. 2009 Happiness and
+productivity. IZA Discussion Paper no. 4645. Institute
+for the Study of Laor (IZA), Bonn.
+Pastor-Satorras, R. & Vespignani, A. 2001 Epidemic
+spreading in scale-free networks. Phys. Rev. Lett. 86,
+3200– 3203. (doi:10.1103/PhysRevLett.86.3200)
+Pressman, S. D. & Cohen, S. 2005 Does positive affect
+influence health? Psychol. Bull. 131, 925. (doi:10.1037/
+0033-2909.131.6.925)
+Pugh, S. D. 2001 Service with a smile: emotional contagion
+in the service encounter. Acad. Manage. J. 1018–1027.
+(doi:10.2307/3069445)
+Radloff, L. S. 1977 The CES-D scale: a self-report depression
+scale for research in the general population. Appl. Psychol.
+Meas. 1, 385. (doi:10.1177/014662167700100306)
+
+Downloaded from rspb.royalsocietypublishing.org on November 10, 2010
+
+Infectious emotions in a social network
+Roberts, R. E. 1980 Reliability of the CES-D scale in
+different ethnic contexts. Psychiatr. Res. 2, 125–134.
+(doi:10.1016/0165-1781(80)90069-4)
+Rush, A. J. 2007 Handbook of psychiatric measures.
+Washington, DC: American Psychiatric Publication.
+Sacerdote, B. 2001 Peer effects with random assignment:
+results for dartmouth roommates. Q. J. Econ. 116,
+681–704. (doi:10.1162/00335530151144131)
+Smith, K. P. & Christakis, N. A. 2008. Social networks and
+health. Annu. Rev. Sociol. 34, 405 –429. (doi:10.1146/
+annurev.soc.34.040507.134601)
+Tarnita, C. E., Antal, T., Ohtsuki, H. & Nowak, M. A. 2009a
+Evolutionary dynamics in set structured population. Proc.
+Natl Acad. Sci. USA 106, 8601–8604. (doi:10.1073/pnas.
+0903019106)
+
+Proc. R. Soc. B (2010)
+
+A. L. Hill et al.
+
+3835
+
+Tarnita, C. E., Ohtsuki, H., Antal, T., Fu, F. & Nowak,
+M. A. 2009b Strategy selection in structured
+populations. J. Theor. Biol. 259, 570 –581. (doi:10.1016/
+j.jtbi.2009.03.035)
+Ueno, K. 2005 The effects of friendship networks on
+adolescent depressive symptoms. Soc. Sci. Res. 34,
+484–510. (doi:10.1016/j.ssresearch.2004.03.002)
+Uzzi, B. 1996 The sources and consequences of embeddedness for the economic performance of organizations: the
+network effect. Am. Sociol. Rev. 61, 674 –698. (doi:10.
+2307/2096399)
+Van Kleef, G. A., De Dreu, C. K. W. & Manstead, A. S. R.
+2004 The interpersonal effects of anger and happiness in
+negotiations. J. Pers. Soc. Psychol. 86, 57– 76. (doi:10.
+1037/0022-3514.86.1.57)
+
+1
+
+Emotions as infectious diseases in a large social network: the SISa
+model
+
+2
+
+3
+
+Alison L. Hill, David G. Rand, Martin A. Nowak , Nicholas A. Christakis
+
+4
+
+June 6, 2010
+
+5
+
+Supplementary Material
+
+6
+
+Framingham Heart Study Dataset
+
+7
+
+In this study, we evaluate the assumption that emotions behave like infectious agents. We use data from
+
+8
+
+the Framingham Heart Study (Dawber, 1980) and the framework discussed above to test whether positive
+
+9
+
+and negative emotions fit the dynamics of an infectious disease. The Framingham study was initiated in
+
+10
+
+1948 in Framingham, Massachusetts and has continued enrolling subjects through the present. We exam-
+
+11
+
+ined individuals in the Offspring Cohort, enrolled starting in 1971. Subjects come to a central facility at
+
+12
+
+regular intervals (approximately every 3 years) for medical examination and collection of other survey data.
+
+13
+
+In additional to information on mental and physical health, subjects were asked to name at least one close
+
+14
+
+friend at each exam, and were also connected to all first-order relatives, coworkers, and residential neighbours.
+
+15
+
+16
+
+For each subject, the following social connection data is available: (i) each other person to whom they
+
+17
+
+were connected, (ii) the dates of initiation and termination of that relationship, (iii) the type of relationship
+
+18
+
+(neighbour, coworker, first-degree relative, or friend), and (v) the geographic distance between the two sub-
+
+19
+
+jects. The social network for each exam was constructed by creating a network matrix G, where Gijk = 1 if
+
+20
+
+subject i nominated subject j as a connection before or during the time that subject i was administered exam
+
+21
+
+k. All relationship types are mutual except for friendships, which are self-nominated, such that Gijk 6= Gjik
+
+22
+
+is possible for friendships.
+
+23
+
+1
+
+24
+
+Individuals in the Framingham Heart Study were administered a widely validated psycho-social exam
+
+25
+
+called the CES-D (The Center for Epidemiologic Studies Depression Scale, (Radloff, 1977)) at exams 6 and
+
+26
+
+7 (administered on average in 1997 and 2000). The full version of this survey style exam is commonly
+
+27
+
+used to classify depressive symptoms (Rush, 2007; Radloff, 1977; Schroevers et al., 2000) and a subscale
+
+28
+
+which comprises a distinct factor (Thorson and Powell, 1993; Joseph and Lewis, 1995; Pressman and Cohen,
+
+29
+
+2005; Radloff and Teri, 1986; Sheehan et al., 1995) has also been validated as a measure of positive affect
+
+30
+
+(Moskowitz, 2003; Ostir et al., 2000; Pressman and Cohen, 2005). Similar measures of positive affect using
+
+31
+
+subjective surveys have been shown to be highly correlated with objective measures of well-being (Oswald
+
+32
+
+and Wu, 2010). We have chosen to call this positive state measured by the CES-D content, though it has
+
+33
+
+been called ‘happiness’ by others. It is also related to optimism and self-esteem. The negative emotion
+
+34
+
+measured by the full CES-D scale is generally called ‘depression’, though as described in (Rush, 2007), this
+
+35
+
+measure is generally agreed to represent a long-term emotional state of depressive symptomology that is
+
+36
+
+distinct from (and less severe than) the mental illness state of clinical depression. To prevent confusion, we
+
+37
+
+have called this measure discontent throughout the paper.
+
+38
+
+39
+
+A content score and a discontent score were calculated for each subject from the raw responses to 20
+
+40
+
+multiple choice questions from the CES-D. The questions asked subjects to judge the frequency with which
+
+41
+
+they experienced a particular feeling or behaviour, with available answers being 0=(rarely or none of the
+
+42
+
+time, <1 day per week), 1=(some or a little of the time, 1-2 days per week), 2=(occasionally or a moderate
+
+43
+
+amount of the time, 3-4 days per week) and 3=(most of the time, 5-7 days per week). Subjects are classified
+
+44
+
+as content if they scored the maximum value of 3 on each of four particular questions related to positive
+
+45
+
+feelings. Summing the answers to the 16 CES-D questions related to negative feelings and adding inverted
+
+46
+
+answers to the 4 positive questions, subjects are classified as discontent if they have a total score greater
+
+47
+
+than 16 (out of a possible 60). Individuals who are neither content nor discontent are classified as neutral.
+
+48
+
+The distribution of emotional states among our subjects is shown in Figure S1A. We find that less than 1
+
+49
+
+out of every 1000 subjects are both content and discontent, validating our classification of emotions into
+
+50
+
+the three states content, discontent and neutral. Figure S2B shows the number of people who made each
+
+51
+
+transition between the two examinations.
+
+52
+
+2
+
+214
+0.8
+
+Neutral
+
+0.6
+0.4
+0.2
+
+221
+
+50
+269
+
+0
+
+55
+
+Content
+
+42
+
+915
+
+Not Discontent
+
+Not Content
+
+Content
+
+71
+
+Discontent
+
+Discontent
+
+40
+
+(a)
+
+(b)
+
+Figure S1. A) The distribution of subjects between four emotional states measured by the CES-D. Subjects were
+classified as first as either ‘content’ or ‘not content’, and then separately as ‘discontent’ or ‘not discontent’. Individuals
+who are neither ‘content’ nor ‘discontent’ are classified as ‘neutral’. As expected, very few people who are classified as
+‘content’ are also classified as ‘discontent’, while those that are ‘not content’ may be ‘discontent’ or ‘not discontent’.
+Fraction content=0.63, discontent=0.09, neutral=0.28. B) Each circle represents an emotional state, and the arrows
+and numbers display the number of transitions that occurred between each state.
+
+53
+
+Super-infection: Direct transitions between content and discontent infected states
+
+54
+
+Figure S1B shows that direct transitions between the content and discontent states are sometimes observed.
+
+55
+
+There are two possibles explanations for these transitions. Firstly, because exams are only every 3 years,
+
+56
+
+it is possible that some of these individuals actually moved through the neutral state, and thus made two
+
+57
+
+transitions between observations (ie content to neutral to discontent). The second explanation is that these
+
+58
+
+individuals actually moved directly between these states via ‘super-infection’. We can predict how often
+
+59
+
+we would expect double transitions to occur within the 3 year window, based on the estimates for each
+
+60
+
+individual transition. These predictions are lower than the observed number of direct transitions. Thus the
+
+61
+
+difference between the observed and expected can be interpreted as the rate of actual direct transitions. This
+
+62
+
+is explained in detail below. The estimated rates of all transitions are visualized in Figure 3 in the main text.
+
+63
+
+64
+
+For a Markov process, if an event occurs at a rate a, then the probability that this event has occurred
+
+65
+
+after a time ∆t is 1 − e−a∆t. If two events occur at rates a1 and a2 , and must occur in that sequential order,
+
+66
+
+then in a time period ∆t the probability that both occur is :
+
+67
+
+Z
+
+∆t
+
+a1 (1 − e−a2 (∆t−t) ) dt = a1 ∆t −
+
+0
+
+3
+
+a1
+(1 − e−a2 ∆t )
+a2
+
+(1)
+
+A
+
+B
+Regression
+Slope=0.035
+(p=0.071)
+Intercept=0.031
+
+0.8
+
+Regression
+Slope=−0.003
+(p=0.945)
+Intercept=0.242
+
+1
+
+Discontent → Content
+
+Content → Discontent
+
+1
+
+0.6
+
+0.4
+
+0.2
+
+0.8
+0.6
+0.4
+45
+105
+
+14
+
+0.2
+
+85
+1139
+
+0
+0
+
+2
+
+1
+2
+Discontent Contacts
+
+0
+0
+
+3
+
+1
+
+1
+
+2
+3
+Content Contacts
+
+1
+
+4
+
+5
+
+Figure S2. Observed rates of direct transitions between content and discontent and vice versa. We see no
+significant dependance on the number of infected contacts for these direct transitions.
+
+68
+
+69
+
+From this expression we can calculate the expected rate of double transitions between content and discontent (going through the neutral state) in a single time period between exams.
+
+70
+
+71
+
+72
+
+For content → discontent, the two transitions that must occur are : content to neutral (a1 = gc ) and
+neutral to discontent (a2 = ad + βd nd ). There values are:
+
+73
+
+74
+
+• gc = 0.088 ± 0.006 /year
+
+75
+
+• ad = 0.040 ± 0.006 /year
+
+76
+
+• βd = 0.04 ± 0.02 /year
+
+77
+
+For discontent → content, the two transitions that must occur are : discontent to neutral (a1 = gd ) and
+
+78
+
+neutral to content (a2 = ac + βc nc ). There values are:
+
+79
+
+80
+
+• gd = 0.13 ± 0.02 /year
+
+81
+
+• ac = 0.18 ± 0.01 /year
+
+82
+
+• βc = 0.02 ± 0.01 /year
+
+4
+
+83
+
+Using Equation 1, the expected rate of double transitions are (with standard deviations included):
+
+84
+
+85
+
+• content to discontent: cexpected = (0.004 ± 0.001) + (0.004 ± 0.001) ∗ nd /year
+
+86
+
+• discontent to content: cexpected = (0.025 ± 0.004) + (0.003 ± 0.002) ∗ nc /year
+
+87
+
+Observed double transition, from Figure S2:
+
+88
+
+89
+
+• content to discontent: cobserved = (0.013 ± 0.002) + (0.014 ± 0.019) ∗ nd /year
+
+90
+
+• discontent to content: cobserved = (0.097 ± 0.016) + (−0.0013 ± 0.043) ∗ nc /year
+
+91
+
+Note that the contact dependent terms for the double transition are observed to be non-significant, and
+
+92
+
+also expected to be overlapping with zero due to the margins of error on the calculated rates. We hence
+
+93
+
+ignore them for the reported rates of double transitions. The rate of direct bypass transitions is the extra
+
+94
+
+number of transitions that cannot be accounted for by double transitions. This is found by subtracting the
+
+95
+
+expected rates (cexpected ) from the observed rates (cobserved )
+
+96
+
+97
+
+Rate of direct bypass transition:
+
+98
+
+99
+
+• content to discontent: scd = (0.009 ± 0.003) /year
+
+100
+
+• discontent to content: sdc = (0.07 ± 0.02) /year
+
+101
+
+It is interesting to note that in Figure S1B, the number of individuals transitioning directly from content
+
+102
+
+to discontent is very similar to number transitioning from discontent to content. The same is true of the
+
+103
+
+transitions between content and neutral, and between discontent and neutral. Thus the system is in detailed
+
+104
+
+balance, suggesting a unique subset of the population may be responsible for the direct transitions between
+
+105
+
+content and discontent. For example, it could be those suffering from bipolar disease, who represent about
+
+106
+
+1% of the population and switch between manic and discontent episodes on the order of months.
+
+107
+
+5
+
+108
+
+References
+
+109
+
+Dawber, T. R. (1980). The Framingham study: the epidemiology of atherosclerotic disease. Harvard Univer-
+
+110
+
+111
+
+112
+
+sity Press, Cambridge.
+Joseph, S. and Lewis, C. A. (1995). Factor analysis of the center for epidemiological Studies-Depression
+scale. Psychological reports, 76:40–40.
+
+113
+
+Moskowitz, J. T. (2003). Positive affect predicts lower risk of AIDS mortality. Psychosom Med, 65(4):620–626.
+
+114
+
+Ostir, G. V., Markides, K. S., Black, S. A., and Goodwin, J. S. (2000). Emotional well-being predicts
+
+115
+
+subsequent functional independence and survival. Journal of the American Geriatrics Society, 48(5):473–
+
+116
+
+478. PMID: 10811538.
+
+117
+
+118
+
+119
+
+120
+
+121
+
+122
+
+123
+
+124
+
+Oswald, A. J. and Wu, S. (2010). Objective confirmation of subjective measures of human Well-Being:
+evidence from the U.S.A. Science, 327(5965):576–579.
+Pressman, S. D. and Cohen, S. (2005). Does positive affect influence health?
+
+Psychological Bulletin,
+
+131(6):925.
+Radloff, L. S. (1977). The CES-D scale: A self-report depression scale for research in the general population.
+Applied psychological measurement, 1(3):385.
+Radloff, L. S. and Teri, L. (1986). Use of the center for epidemiological Studies-Depression scale with older
+adults. Clinical Gerontologist, 5(1):119–136.
+
+125
+
+Rush, A. J. (2007). Handbook of psychiatric measures. Amer Psychiatric Pub Inc.
+
+126
+
+Schroevers, M., Sanderman, R., van Sonderen, E., and Ranchor, A. (2000). The evaluation of the center
+
+127
+
+for epidemiologic studies depression (CES-D) scale: Depressed and positive affect in cancer patients and
+
+128
+
+healthy reference subjects. Quality of Life Research, 9(9):1015–1029.
+
+129
+
+130
+
+131
+
+132
+
+Sheehan, T. J., Fifield, J., Reisine, S., and Tennen, H. (1995). The measurement structure of the center for
+epidemiologic studies depression scale. Journal of Personality Assessment, 64(3):507–521.
+Thorson, J. A. and Powell, F. C. (1993). The CES-D: four or five factors? Bulletin of the Psychonomic
+Society, 31(6):577–578.
+
+6
+
+CES-D Questions.
+Questions #4, 8, 12 and 16 were used to construct the ‘content’ scale.
+1. I was bothered by things that don't usually bother me.
+x
+
+Rarely or none of the time (<1 day)
+
+x
+
+Some or a little of the time (1-2 days)
+
+x
+
+Occasionally or a moderate amount of the time (3-4 days)
+
+x
+Most or all of the time (5-7 days)
+2. I did not feel like eating; my appetite was poor.
+x
+
+Rarely or none of the time (<1 day)
+
+x
+
+Some or a little of the time (1-2 days)
+
+x
+
+Occasionally or a moderate amount of the time (3-4 days)
+
+x
+Most or all of the time (5-7 days)
+3. I felt that I could not shake off the blues even with the help of my family or friends.
+x
+
+Rarely or none of the time (<1 day)
+
+x
+
+Some or a little of the time (1-2 days)
+
+x
+
+Occasionally or a moderate amount of the time (3-4 days)
+
+x
+Most or all of the time (5-7 days)
+4. I felt that I was just as good as other people.
+x
+
+Rarely or none of the time (<1 day)
+
+x
+
+Some or a little of the time (1-2 days)
+
+x
+
+Occasionally or a moderate amount of the time (3-4 days)
+
+x
+Most or all of the time (5-7 days)
+5. I had trouble keeping my mind on what I was doing.
+x
+
+Rarely or none of the time (<1 day)
+
+x
+
+Some or a little of the time (1-2 days)
+
+x
+
+Occasionally or a moderate amount of the time (3-4 days)
+
+x
+Most or all of the time (5-7 days)
+6. I felt depressed.
+x
+
+Rarely or none of the time (<1 day)
+
+x
+
+Some or a little of the time (1-2 days)
+
+x
+
+Occasionally or a moderate amount of the time (3-4 days)
+
+x
+Most or all of the time (5-7 days)
+7. I felt everything I did was an effort.
+x
+
+Rarely or none of the time (<1 day)
+
+x
+
+Some or a little of the time (1-2 days)
+
+x
+
+Occasionally or a moderate amount of the time (3-4 days)
+
+x
+
+Most or all of the time (5-7 days)
+
+8. I felt hopeful about the future.
+x
+
+Rarely or none of the time (<1 day)
+
+x
+
+Some or a little of the time (1-2 days)
+
+x
+
+Occasionally or a moderate amount of the time (3-4 days)
+
+x
+Most or all of the time (5-7 days)
+9. I thought my life had been a failure.
+x
+
+Rarely or none of the time (<1 day)
+
+x
+
+Some or a little of the time (1-2 days)
+
+x
+
+Occasionally or a moderate amount of the time (3-4 days)
+
+x
+Most or all of the time (5-7 days)
+10. I felt fearful.
+x
+
+Rarely or none of the time (<1 day)
+
+x
+
+Some or a little of the time (1-2 days)
+
+x
+
+Occasionally or a moderate amount of the time (3-4 days)
+
+x
+Most or all of the time (5-7 days)
+11. My sleep was restless.
+x
+
+Rarely or none of the time (<1 day)
+
+x
+
+Some or a little of the time (1-2 days)
+
+x
+
+Occasionally or a moderate amount of the time (3-4 days)
+
+x
+Most or all of the time (5-7 days)
+12. I was happy.
+x
+
+Rarely or none of the time (<1 day)
+
+x
+
+Some or a little of the time (1-2 days)
+
+x
+
+Occasionally or a moderate amount of the time (3-4 days)
+
+x
+Most or all of the time (5-7 days)
+13. I talked less than usual.
+x
+
+Rarely or none of the time (<1 day)
+
+x
+
+Some or a little of the time (1-2 days)
+
+x
+
+Occasionally or a moderate amount of the time (3-4 days)
+
+x
+Most or all of the time (5-7 days)
+14. I felt lonely.
+x
+
+Rarely or none of the time (<1 day)
+
+x
+
+Some or a little of the time (1-2 days)
+
+x
+
+Occasionally or a moderate amount of the time (3-4 days)
+
+x
+
+Most or all of the time (5-7 days)
+
+15. People were unfriendly.
+x
+
+Rarely or none of the time (<1 day)
+
+x
+
+Some or a little of the time (1-2 days)
+
+x
+
+Occasionally or a moderate amount of the time (3-4 days)
+
+x
+Most or all of the time (5-7 days)
+16. I enjoyed life.
+x
+
+Rarely or none of the time (<1 day)
+
+x
+
+Some or a little of the time (1-2 days)
+
+x
+
+Occasionally or a moderate amount of the time (3-4 days)
+
+x
+Most or all of the time (5-7 days)
+17. I had crying spells.
+x
+
+Rarely or none of the time (<1 day)
+
+x
+
+Some or a little of the time (1-2 days)
+
+x
+
+Occasionally or a moderate amount of the time (3-4 days)
+
+x
+Most or all of the time (5-7 days)
+18. I felt sad.
+x
+
+Rarely or none of the time (<1 day)
+
+x
+
+Some or a little of the time (1-2 days)
+
+x
+
+Occasionally or a moderate amount of the time (3-4 days)
+
+x
+Most or all of the time (5-7 days)
+19. I felt that people disliked me.
+x
+
+Rarely or none of the time (<1 day)
+
+x
+
+Some or a little of the time (1-2 days)
+
+x
+
+Occasionally or a moderate amount of the time (3-4 days)
+
+x
+Most or all of the time (5-7 days)
+20. I could not get "going".
+x
+
+Rarely or none of the time (<1 day)
+
+x
+
+Some or a little of the time (1-2 days)
+
+x
+
+Occasionally or a moderate amount of the time (3-4 days)
+
+x
+
+Most or all of the time (5-7 days)
+
+
+Scoring for All Except Questions 4, 8, 12, and 16:
+x 0 points Rarely or none of the time (< 1 day)
+x 1 point Some or a little of the time (1-2 days)
+x 2 points Occasionally or a moderate amount of the time (3-4 days)
+x 3 points Most or all of the time (5-7 days)
+For questions 4, 8, 12, and 16, the scoring is exactly the same except that it is reversed: "Most or all of the
+time" is scored 0 points, "Rarely or none of the time" is scored 3 points, etc.
+
+
+
+

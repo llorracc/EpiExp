@@ -1,0 +1,2757 @@
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+Partisan Bias, Economic Expectations, and Household Spending
+Atif Mian
+
+Amir Sufi
+
+Nasim Khoshkhou
+
+Princeton & NBER
+
+Chicago Booth & NBER
+
+Synchrony Financial
+
+Abstract
+
+The well-documented rise in political polarization among the U.S. electorate over
+the past 20 years has been accompanied by a substantial increase in the effect of partisan
+bias on survey-based measures of economic expectations. Individuals have a more optimistic view on future economic conditions when they are more closely affiliated with
+the party that controls the White House, and this tendency has increased significantly
+over time. Individuals report a large shift in economic expectations based on partisan
+affiliation after the 2008 and 2016 elections, but administrative data on spending shows
+no effect of these shifts on actual household spending (JEL: D12, E21, E71).
+∗ This
+
+research was supported by funding from the Initiative on Global Markets at Chicago Booth, the
+
+Fama-Miller Center at Chicago Booth, and Princeton University. We thank Tu Cao, Pranav Garg, Seongjin
+Park, Jung Sakong, and Xiao Zhang for excellent research assistance. For helpful comments, we thank
+Fernando Alvarez, Bob Barsky, Anthony Fowler, Matthew Gentzkow, Christian Gillitzer, Guido Lorenzoni,
+Claudia Sahm, Jesse Shapiro, Danny Yagan and seminar participants at many places. We also thank Shachar
+Kaviv (the editor) and four anonymous referees for comments and suggestions that improved the study. Any
+opinions, findings, conclusions, or recommendations expressed in this material are those of the authors and
+do not necessarily reflect the view of any other institution. Corresponding authors: Mian: (609) 258 6718,
+atif@princeton.edu; Sufi: (773) 702 6148, amir.sufi@chicagobooth.edu.
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+April 2021
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+Economists have long believed that economic expectations are crucial to understanding economic activity. But how do individuals actually form economic expectations? One line of research
+in economics examines responses to survey questions. For example, the University of Michigan
+Survey of Consumers asks individuals the following question: “Looking ahead, which would you
+say is more likely – that in the country as a whole we’ll have continuous good times during the next
+5 years or so, or that we will have periods of widespread unemployment or depression or what?”
+
+dividual’s expectations of future income growth. The evolution of such expectations could reflect
+information the household receives on fundamental changes in the economy. Alternatively, household beliefs about future income growth may reflect sentiment, or changes in expectations that are
+orthogonal to future economic conditions. A large body of research in economics has focused on
+these issues (e.g., Barsky and Sims (2012), Azariadis (1981), Benhabib and Farmer (1994), Lorenzoni (2009), and Angeletos and La’O (2013)). Beyond the academic literature, the answers to such
+survey questions receive widespread coverage from the financial press, which likely reflects the
+view that the answers contain valuable information for predicting income and spending growth.1
+However, research in political science suggests caution when evaluating responses to surveys on
+economic conditions because of potential partisan bias. For example, it has been shown that individuals have a more positive assessment of current economic conditions when the White House is
+occupied by the party they support (e.g, Bartels (2002)). The idea of a “partisan perceptual screen”
+has been present in the literature since the seminal work by Campbell et al. (1960); Gerber and
+Huber (2009) summarize the idea succinctly by writing: “In short, this evidence portrays partisan
+voters as individuals who tend to see what they want to see.” A separate but related line of research
+in political science documents a large increase in social and affective polarization across political
+parties (e.g., Iyengar et al. (2012); Mason (2013); Mason (2015); Gentzkow (2016); Boxell et al.
+(2017)). Political parties are increasingly homogeneous in the ideology of their members, and parti1 For example,
+
+the release of the August 2017 consumer sentiment index from the University of Michigan
+
+was covered by CNBC, the Financial Times, and the Wall Street Journal.
+
+1
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+Economists typically treat an individual’s answers to these questions as a reflection of the in-
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+sans show increasing hostility toward members of the opposite political party. This line of research
+suggests that partisan bias in evaluations of the economy may be growing over time.
+In this study, we investigate three related questions. Does partisan bias influence an individual’s
+assessment of future economic conditions as reported in surveys? If so, has partisan bias in expectations formation risen over time? And finally, do movements in economic expectations driven by
+partisan bias influence household spending?
+
+tations, and this bias is increasing substantially over time. Using two independent data sources (the
+University of Michigan Survey of Consumers and Gallup), we show that individuals who affiliate
+with the party that controls the White House have systematically more optimistic economic expectations than those who affiliate with the party not in control. This has been true at least since the
+Reagan administration in the 1980s. Further, the bias is becoming larger over time. For example,
+Republicans have economic expectations since January 2017 that are on average 1 to 1.5 standard
+deviations more optimistic than Democrats. The difference was less than one-half a standard deviation prior to the first Obama administration. The explanatory power of party affiliation on economic
+expectations, as measured by the R2 from a linear regression, has risen four-fold from 0.07 to 0.28
+from the George W. Bush to Trump administrations.
+How does the rise in partisan bias in economic expectations affect household spending? To
+answer this question, we focus on changes in economic expectations right around Presidential elections, which give us the “cleanest” estimates of the pure effect of political outcomes on economic
+expectations. Following the 2008 and 2016 Presidential elections, we find that individuals supporting the party of the winning presidential candidate witness a substantial relative rise in optimism
+about the economy immediately after the election. The relative change in economic expectations
+is particularly large after the 2016 election. Individuals identifying themselves as Republicans see
+a 1.5 standard deviation increase in economic optimism from November 2016 to January 2017,
+whereas Democrats see a 0.75 standard deviation decline in economic optimism.
+One hypothesis is that economic expectations of partisans are driven by the party controlling
+2
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+We find that partisan bias exerts a significant influence on survey measures of economic expec-
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+the White House because the actual economic condition improves for partisans if their party is in
+control. We examine county-level and state-level measures of tax rates, personal income growth,
+and transfers around elections, and we find little evidence that economic circumstances change to
+the benefit of areas supporting the new President after elections.
+We also test this hypothesis using a simple assumption: individuals living in the same zip code
+should be similarly affected by whatever economic factors are associated with the occupant of the
+
+identifiers, we show that our estimates of partisan bias are unchanged with the inclusion of zip code
+by month fixed effects. For example, Democrats and Republicans experience sharply diverging
+views on the economy after the election of Donald Trump in 2016 even if they live in the same zip
+code.
+As a further test, we examine answers to a question in the Gallup survey on whether the firm for
+which an individual works is hiring or letting go of employees. We find substantial partisan bias
+in the answers to these questions right around elections, and this bias is also unchanged with the
+inclusion of zip code by month fixed effects. In other words, after the election of Donald Trump,
+a Republican is much more likely to report that her firm is hiring workers while a Democrat living
+in the same zip code is much more likely to report that her firm is firing workers. Taken together,
+these results lead us to the conclusion that the sharp relative changes in economic optimism around
+Presidential elections are pure partisan bias as opposed to a response to changes in economic circumstances of partisans.
+To measures the effects on spending, we utilize two types of data: survey questions where individuals report information on their spending, and administrative data that records actual spending
+at the county and zip code level. We find mixed evidence on spending in the survey questions. In
+the Michigan data, we find weak evidence of a change in spending patterns based on questions on
+whether it is a good time to buy major household items or a car. In the Gallup data, Republicans
+report higher spending after the election of Donald Trump in 2016, but they do not report lower
+spending after the election of Barack Obama in 2008.
+3
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+White House. Using the data set from Gallup, which contains large samples and detailed geographic
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+In the administrative data, we find no evidence of a change in spending driven by changes in
+economic expectations due to partisan bias. The evidence for the 2016 election is most striking.
+Through October 2017, there is no relative increase in auto purchases or credit card spending in
+U.S. counties or zip codes where individuals voted in the highest proportion for the Republican
+candidate, even though the increase in optimism on the economy in these areas is large. The overall
+evidence on spending leads us to the conclusion that partisan bias in economic expectations has
+
+Why do movements in survey-based economic optimism fail to move spending? We consider a
+number of factors, and we conclude that the most likely explanation is that survey-based economic
+optimism driven by partisan bias reflects “cheerleading” instead of actual expectations of income
+growth. This is consistent with evidence from Bullock et al. (2015) and Prior et al. (2015) who
+find that partisan bias in views on current economic conditions can be reduced considerably by
+providing survey respondents monetary incentives for providing more accurate answers.
+There is a large body of research in political science evaluating the effect of partisan bias on
+views on the economy (e.g., Wlezien et al. (1997); Duch et al. (2000); Palmer and Duch (2001); Bartels (2002); Evans and Andersen (2006); Ladner and Wlezien (2007); Stanig (2013)). Our research
+is most closely related to three studies in particular. Gerber and Huber (2010) examine changes in
+evaluations of the economy among partisans before and after the 2006 mid-term election, and they
+find large differences across partisans in how economic assessments are revised immediately after
+the election. Gerber and Huber (2009) evaluate a longer time series of county-level spending responses to Presidential elections based on the partisan leaning of the county, and they find evidence
+that counties leaning to the winning Presidential candidate experience a boost in spending after the
+election. However, McGrath (2016) extends the sample in Gerber and Huber (2009) and examines the previous evidence in more detail, and concludes that there is no evidence of a differential
+partisan effect of Presidential election outcomes on spending.
+To the best of our knowledge, this study is the first to show both the dramatic rise in the effect
+of partisan bias on survey-based measures of economic expectations over time, and that this rise
+4
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+little to no effect on household spending.
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+does not appear to affect household spending. In addition, to the best of our knowledge, this is the
+first study to evaluate the election of Donald Trump in this context. Much of the political science
+literature has focused on assessments of current economic conditions, whereas our study focuses
+on expectations of future conditions. Further, we use a variety of data sources on economic expectations and household spending that we believe are new to the literature. We utilize administrative
+data on auto sales and credit card spending at the zip code-monthly level, which we believe is the
+
+larger and more comprehensive than data sets used in the past to measure economic expectations;
+this data set allows us to utilize zip code by month fixed effects in order to estimate partisan bias
+more precisely than has been done in the past. Two closely related studies were written either contemporaneously or subsequent to the original version of this study (Gillitzer and Prasad (2018) and
+Benhabib and Spiegel (2019)). We will discuss these two studies in more detail in Section 6 below.
+The rest of this study proceeds as follows. In the next section, we present the data, our methodology for estimating voting propensity in Presidential elections, and summary statistics. Sections
+2 and 3 show the shift in economic expectations among partisans from 2000 to 2016. Section 4
+examines whether spending changes differentially for partisans after elections. Section 6 compares
+our results to other research, and Section 7 concludes.
+
+1
+1.1
+
+Data, Measurement, and Summary Statistics
+Data
+
+The two primary data sets used in our analysis are the Thomson Reuters University of Michigan
+Survey of Consumers and the Gallup Daily survey by Gallup, Inc. The Michigan survey is a nationally representative survey of about 500 individuals every month. On average two-thirds of the
+individuals surveyed in a month are interviewed a second time after six months. The remaining
+third are only surveyed once. We do not utilize the panel structure of the data, and so the sample
+is a repeated cross-section in each month. The individual level data from Michigan is available
+5
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+most disaggregated administrative spending data in the literature. The Gallup dataset is significantly
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+from 1978 to 2017. The Gallup Daily data cover about 1,000 individuals every day, and are available from 2008 to 2017. The Gallup Daily surveys ask questions related to political, economic,
+and well-being topics. We use the Gallup data at the monthly frequency, leading to approximately
+30,000 individuals every month.
+We require two main variables for the purpose of this study: a measure of an individual’s expectations of the economy going forward and a measure of an individual’s political partisan affiliation.
+
+describe these questions in more detail below. Measuring partisan affiliation is more challenging.
+The Gallup data set, covering 2008 to 2017, contains a question asking the individual’s partisan affiliation in almost all surveys. The Michigan survey, however, has only asked partisan affiliation in
+certain months, namely: June 1980, January 1984, July 1984, January 1985, April 1985, May 1985,
+September through November 2006, March 2008 through June 2009, March 2010 through November 2010, April 2012, May 2012, September through November 2012; June 2014, June 2015, June
+through October 2016, and February and March of 2017.
+We also use a number of data sets at the county and zip code level. The first is the share of
+individuals in the county voting for the Republican candidate in each presidential election, which
+we purchased from David Leip’s Atlas of U.S. Presidential Elections website. We also use income
+and transfers data from the Bureau of Economic Analysis. To measure spending at the zip code
+and county level, we utilize two data sets. First, we use new auto purchases from R.L. Polk. These
+data are derived from new car registrations and are based on the county where the buyer lives. The
+data are described in detail in Mian and Sufi (2012), and are available from 1998 to 2017. Second,
+we use a previously unused data set on credit card spending from Argus Information and Advisory
+Services, a Verisk Analytics company. Argus specializes in credit card and deposit benchmarking.
+The benchmarking data is collected from individual issuers at the account and transaction level, and
+then aggregated at the zip code level to construct an monthly measure of spending through credit
+cards. The Argus spending data was constructed in two rounds. The first data pull was in 2014 and
+covered the years 2006 through 2013. The second data pull was in December 2017 and covered the
+6
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+Both the Michigan and Gallup data contain detailed questions on economic expectations, and we
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+period from January 2014 through September 2017. Both the Argus and Polk data are available at
+the monthly frequency, which allows us to examine at a relatively high frequency whether spending
+tracks changes in economic expectations around Presidential elections.
+
+1.2
+
+Measuring partisan affiliation and vote propensity
+
+The Gallup survey, which covers 2008 to 2017, asks the following two questions to infer party
+
+dependent?” If the individual answers “Republican” or “Democrat”, no further question on party
+affiliation is asked. If the individual responds “Independent”, another party, or refuses, a follow-on
+question is asked: “As of today, do you lean more to the Democratic Party or the Republican Party?”
+The individual can answer “Democrat” or “Republican” to this question. Our final measure of partisan affiliation is Republican if the individual answers either of these questions “Republican”, and
+Democrat if the individual answers either of these questions “Democrat”. The remaining individuals are classified as Independents. As we show in Figure A1 of the Online Appendix, the fraction
+of Republicans (45%), Democrats (45%), and Independents (10%) according to this measure has
+been relatively constant from 2008 to 2017.
+For the Michigan survey, in the months in which political affiliation is asked, we infer political
+affiliation from two questions. The first is: “Generally speaking, do you usually think of yourself
+as a Republican, a Democrat, an Independent, or what?” The second question is “Do you think of
+yourself as closer to the Republican Party or to the Democratic Party?”, which is asked of people
+who say “Independent” in response to the first question. We classify individuals as Republican
+if they answer either of these questions “Republican”, and Democrat if they answer either of these
+questions “Democrat”. Remaining individuals are classified as Independent. In most of our analysis
+below, we exclude independents.
+
+7
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+affiliation: “In politics, as of today, do you consider yourself a Republican, a Democrat, or an In-
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+1.3
+
+Measuring economic expectations and spending in survey data
+
+The Michigan Survey is widely cited in the financial press as a measure of consumer economic
+expectations. The main reported results from the Michigan Survey are the index of consumer sentiment (ICS), the index of consumer expectations (ICE), and index of current economic conditions
+(CEC). The first is a slightly adjusted average of the latter two. Our main measure of consumer
+expectations is the ICE. The ICE is a slightly adjusted average of answers to the following three
+
+First, “Now looking ahead–do you think that a year from now you (and your family living there)
+will be better off financially, or worse off, or just about the same as now?” The answers are coded in
+the data as 1 for better off, 3 for the same, and 5 for worse off. We refer to this as the “my financial
+situation, 1 year” question, which is coded in the Michigan survey as PEXP.
+The second question is: “Now turning to business conditions in the country as a whole–do you
+think that during the next twelve months we’ll have good times financially, or bad times, or what?”
+The answers are coded as 1 for good times, 2 for good times with qualifications, 3 for no opinion, 4
+for bad with qualifications, and 5 for bad times. We refer to this question as the “Country business
+conditions, 12 months” question, which is coded in the Michigan Survey as BUS12.
+The third question is the one mentioned in the introduction: ‘Looking ahead, which would you
+say is more likely – that in the country as a whole we’ll have continuous good times during the next
+5 years or so, or that we will have periods of widespread unemployment or depression or what?”
+The answers are coded exactly the same as the 12 months question. We refer to this question as the
+“Country business conditions, 5 years” question, which is coded in the Michigan Survey as BUS5.
+The ICE is the following average of these three questions:
+
+ICE =
+
+P EXP + BU S12 + BU S5
++ 2.0
+4.1134
+
+For ease of interpretation, we re-scale all four of these variables to be mean zero and standard
+deviation one for the entire 2000 to 2017 sample. We also invert the ordering so that higher numbers
+8
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+questions:
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+are associated with more optimistic assessments.
+There are five other questions from the Michigan Survey we utilize in the analysis below. The
+Current Economic Conditions index is a slightly adjusted average of the answer to two different
+questions meant to capture how people feel about the current economy. The first is: “We are interested in how people are getting along financially these days. Would you say that you (and your
+family living there) are better off or worse off financially than you were a year ago?” The second is:
+
+and things like that. Generally speaking, do you think now is a good time or a bad time for people
+to buy major household items?” The latter question is a component of the CEC, and it also serves
+as an independent measure of household spending views which we refer to as the “major household
+items” question.
+The other household spending question relates to car purchases. It is: “Speaking now of the
+automobile market – do you think the next 12 months or so will be a good time or a bad time to buy
+a vehicle, such as a car, pickup, van, or sport utility vehicle?” We refer to this as the “car” question.
+There is also a question regarding views on government economic policy. This specific question is: “As to the economic policy of the government – I mean steps taken to fight inflation or
+unemployment – would you say the government is doing a good job, only fair, or a poor job?” We
+refer to this as the “government economic policy” question. Finally, there is a question focused on
+the income growth of the individual in particular: “During the next 12 months, do you expect your
+income to be higher or lower than during the past year?” As with the expectations variables, all five
+of these measures are re-scaled to be mean zero and standard deviation one for the entire sample.
+We also invert the ordering so that higher numbers are associated with more positive assessments.
+The main measure of economic expectations in the Gallup data is the following question: “Right
+now, do you think that economic conditions in this country, as a whole, are getting better or getting
+worse?” The potential answers are “getting better,” the same,” or “getting worse.” We utilize two
+other questions in the Gallup survey related to economic conditions. One is a measure of current
+conditions: “How would you rate economic conditions in this country today – as excellent, good,
+9
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+“About the big things people buy for their homes–such as furniture, a refrigerator, stove, television,
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+only fair, or poor?” The other is a measure of employer job growth: “Now thinking more generally
+about the company or business you work for, including all of its employees. Based on what you
+know or have seen, would you say that in general your company or employer is: hiring new people
+and expanding the size of its workforce? Not changing the size of its workforce? Or letting people
+go and reducing the size of its workforce?” Once again, the measures are re-scaled to be mean zero
+and standard deviation one for the entire sample, and we invert the ordering so that higher numbers
+
+The Gallup survey also contains measures of household spending, and we use two in particular.
+The first is a measure of non-durable household spending: “we’d like to ask you about your spending
+yesterday, not counting the purchase of a home, motor vehicle, or your normal household bills. How
+much money did you spend or charge yesterday on all other types of purchases you may have made,
+such as at a store, restaurant, gas station, online, or elsewhere?” The other question we utilize is:
+“At this time, are you cutting back on how much money you spend each week, or not?” For the latter
+measure, we invert the ordering so that higher numbers are associated with not cutting back, and
+we standardize the variable to be mean zero and standard deviation one. Table A1 in the appendix
+contains the summary statistics of the sample.
+
+2
+
+Partisan Bias and Economic Expectations: Long Run
+
+We begin with an analysis of partisan bias in economic expectations over the long run. To show
+the increasing effect of partisan bias on economic expectations, we compare the average outlook
+of individuals based on their partisan affiliation over time in Figure 1. For this figure, we exclude
+November, December, and January of Presidential election years to focus on the long-run partisan
+bias as opposed to the short-run effects right around elections.
+The left panel utilizes the Gallup data. During the George W. Bush administration, Democrats
+on average reported significantly lower economic expectations than Republicans, with the absolute
+value of the difference being 0.4. During the two Obama administrations, the ordering flips, with
+
+10
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+are associated with more positive assessments.
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+Republicans reporting more pessimistic economic expectations. The absolute value of the difference increases substantially during the two terms. During the Trump administration, the ordering
+once again flips, and the absolute value of the difference is greater than one standard deviation.
+The right panel shows similar results in the Michigan data, although we are able to go back to the
+Carter and Reagan administrations given data availability. The difference in economic expectations
+between Democrats and Republicans during the last year of the Carter administration is almost
+
+larger from the George W. Bush administration through the second Obama administration, but it
+then jumps substantially during the Trump administration. In the Michigan data since February
+2017, Republicans report economic expectations that are almost 1.5 standard deviations higher
+than Democrats.
+Table 1 reports estimates of a regression version of this figure. More specifically, the estimated
+γ t from the following equation are reported in Table 1:
+
+Xit =
+
+X
+
+αt +
+
+X
+
+γ t ∗ αt ∗ Repit + it
+
+(1)
+
+where αt are indicator variables for each Presidential administration and Repit is the party
+affiliation of survey respondent i during Presidential administration t. The estimates of γ t provide us
+the difference in economic expectations between Republicans and Democrats during administration
+t.
+In both the Gallup data (column 1) and the Michigan data (column 4), the gap between Republicans and Democrats in economic expectations has been growing substantially over time. For the
+Gallup data where we have large samples, we can reject the hypothesis that the size of the absolute
+difference is constant since the George W. Bush administration. In the Michigan data, we do not
+have the same statistical power. Nonetheless, we can reject the hypothesis that the absolute value
+of the difference in economic expectations between Republicans and Democrats was the same in
+the Trump administration and the previous administrations.2
+2 In
+
+the appendix, we estimate a univariate linear regression relating economic expectations to partisan
+
+11
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+zero. The difference is quite large during the Reagan administration. The difference becomes
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+Does the growth in partisan bias reflect the fact that Presidents increasingly cater to their base
+in terms of actual economic policy? One test of this hypothesis is to examine individuals living
+in the same county or zip code. The underlying assumption is that the economic circumstances
+of individuals living in the same county or zip code should be similarly affected by actions taken
+by the President. In columns 2 and 3 of Table 1, we show that inclusion of county by month or
+zip by month fixed effects has almost no effect on the partisan gap in economic expectations. For
+
+has almost no effect on any of the estimates of partisan differences. Following the logic in Altonji
+et al. (2005) and Oster (2019), this suggests that the partisan bias we estimate is not due to omitted
+variable bias in exposure to differential economic policies due to who controls the White House.
+The inclusion of county by month fixed effects in the Michigan data also has a minimal effect on
+the estimated coefficients, despite boosting the R2 considerably.3
+Formally, the Oster (2019) technique is implemented in comparing the estimated coefficient on
+the Republican affiliation X Trump indicator variable in columns 1 and 3 of Table 1. The test is
+implemented under the assumptions that the maximum R2 is 150% of the observed R2 in column
+3, and that the null hypothesis is a true coefficient of zero. The test statistic for δ is 3.18, which
+implies that unobservables would have to be more than three times as important as observables in
+order for the true coefficient to be zero.
+
+3
+
+Partisan Bias and Economic Expectations: Around Elections
+
+Partisan bias in economic expectations has been rising over time, but what is the effect of this bias
+on actual household spending? The long run analysis in Section 2 is not well-suited to answer this
+question. Over the long run, household spending in more Republican versus Democrat areas may
+affiliation. Figure A2 reports the R2 from each regression. The explanatory power of partisan affiliation has
+increased by four times from the George W. Bush administration to the Trump administration.
+3 The most detailed geographic measure in the Michigan data is county, and this information is only
+available from 2000 onward.
+
+12
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+example, as shown in column 3, the inclusion of zip code by month fixed effects doubles the R2 , but
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+change for reasons completely unrelated to partisan bias. To identify the spending effect of shifts
+in economic expectations due to partisan bias, we focus on changes in economic expectations right
+around Presidential elections.
+
+3.1
+
+Shifts around elections
+
+Figure 2 presents the average economic expectations for Republicans and Democrats around the
+
+Gallup and Michigan data. Prior to the election, there is almost no pre-trend in economic expectations among Republicans or Democrats. From November 2016 to January 2017, Republicans see
+a 1.5 standard deviation increase in their expectations, and Democrats see a 0.75 standard deviation decline in their expectations. We see a similar pattern for the 2008 election, with Democrats
+experiencing a relative increase in economic optimism following the election of Barack Obama.
+However, the relative shift in optimism is smaller and happens less quickly.4 This may in part be
+due to higher ex ante likelihood of an election win by Barack Obama in 2008 relative to the ex ante
+likelihood of an election win by Donald Trump 2016. The Trump victory in 2016 was less expected
+and therefore represents more of a surprise to individuals.
+How does the large relative shift in economic expectations based on partisanship around the
+2008 and 2016 presidential elections compare to other elections? To answer this question, we
+estimate regressions for each year, where the year is centered on November. We call these “pseudoyears” as they run from June of one calendar year to May of the next calendar year (November being
+the sixth month of a “pseudo-year”). For example, the 2008 pseudo-year runs from June of 2008
+to May of 2009. For each pseudo-year y, we estimate the following regression (where we exclude
+4 In
+
+Figure A3 of the appendix, we plot the same figure for the 1984 and 2012 elections. There is almost
+
+no relative change in economic expectations around the 1984 or 2012 elections.
+
+13
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+2016 and 2008 Presidential elections. The results for the 2016 election are similar for both the
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+the subscript y for ease of exposition):
+m=M ay
+
+m=M ay
+
+Xim =
+
+X
+
+m
+
+X
+
+0
+
+α ∗ dm + γ ∗ Repi +
+
+m=June
+
+γ m ∗ (dm ∗ Repi ) + νim
+
+(2)
+
+m=June,m6=Oct
+
+where dm is an indicator variable for month m, m = 0 is the “omitted” month which is October, αm
+represents month fixed effects, and γ m are the coefficients of interest that measure the relative shift
+
+have a set of coefficients γ m for each pseudo-year in the sample.
+The left panel of Figure 3 shows estimates of these γ m coefficients for each pseudo-year for the
+Gallup sample, which runs from 2008 to 2017. The right panel of Figure 3 shows the estimates
+using the Michigan data from 2008 and 2016, which are the only two years for which there is
+sufficient data on partisan affiliation of respondents. For both panels, the election pseudo-year
+coefficients are shown with a bold line with a different pattern and different markers. To help
+illustrate statistical significance, we also plot the coefficients of γ m for the non-election years, which
+we keep in gray thin lines with no markers. The coefficients γ m should be interpreted as the relative
+shift in consumer expectations among Republicans around October of each year. The gray lines can
+be thought of as “placebo” tests; they reflect the relative change in economic expectations among
+Republicans but in non-election years.
+As both panels of Figure 3 show, the size of the relative shift in economic expectations among
+Republicans in 2016 is unprecedented. In terms of magnitude, being affiliated with the Republican
+party leads to a two standard deviation relative increase in economic expectations from October to
+December 2016. There is no evidence of a pre-trend, and the relative optimism endures to May
+2017. The results for 2008 and 2016 are similar for the Gallup and the Michigan data.
+To test statistical significance in a regression framework, we estimate the following specifica-
+
+14
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+in economic expectations around the election for those who identify with the Republican party. We
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+tion:
+
+Xiym = αm + αm ∗ Repiym + αy + αy ∗ Repiym +
+
+X
+
+[β y ∗ P osty ]
+
+y=08,12,16
+
++
+
+X
+
+[γ y ∗ P osty ∗ Repiym ] + iym (3)
+
+y=08,12,16
+
+are pseudo-year indicators (i.e., June to May), and P osty is an indicator variable for November to
+May of pseudo year y. The coefficients of interest are the γ y for each election year. The coefficients
+γ y measure the differential change in outcome X during pseudo-year y for Republicans in the six
+months after each election. We interact the Republican measure with both year indicator variables
+and month of year indicator variables to control for any relative patterns in seasonality or annual
+trends.
+The coefficient estimates of β y and γ y are reported in Table 2. Economic magnitudes are easy to
+interpret as the left hand side variables all have a mean of zero and a standard deviation of one. As
+columns 1 through 3 show, there is a substantial relative shift in economic expectations for Republicans following the 2008, 2012, and 2016 election using the Gallup data. In terms of magnitudes,
+the shift is largest for the 2016 election, followed by 2008, and then 2012. The inclusion of zip code
+by month fixed effects has almost no effect on the coefficient estimates, despite a doubling of the
+R2 . The Oster (2019) test statistic when comparing the coefficient estimate on Republican affiliation X Post 2016 election in columns 1 and 3 is 3.46, which implies that selection on unobservables
+relative to observables would have to be substantial for the true coefficient to be equal to zero.
+Columns 4 and 5 report estimates from the Michigan data set. The sample sizes are much
+smaller, but the results are qualitatively similar. The effect for the 2016 election is larger in the
+Michigan data set than in the Gallup data set. Further, the 2008 and 2012 effects are closer in size.
+As before, inclusion of county by month fixed effects significantly boosts the R2 of the regression,
+but the coefficient estimates on partisanship are almost identical.5
+5 In
+
+Table A2 of the Online Appendix, we explore changes in the answers to other questions from the
+
+15
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+where Xiym is the measure of economic expectations, αm are month of year indicator variables, αy
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+3.2
+
+Actual economic conditions?
+
+One hypothesis is that a partisan truly is better off economically when the White House is controlled
+by the party she favors. In this case, it would not be accurate to call the relative change in economic
+optimism around an election a partisan “bias.” The results above using zip code by month fixed
+effects are difficult to reconcile with this alternative hypothesis. The coefficient estimates of partisan
+bias are almost identical with and without the inclusion of zip code by month fixed effects. Under
+
+zip code similarly, it is difficult to argue that the opposite reactions of Republicans and Democrats
+living in the same zip code are due to actual economic conditions changing based on party affiliation.
+This is supported by the Oster (2019) test statistics reported in Tables 2 and 3.
+We also evaluate this alternative hypothesis in Table A4 of the Appendix. More specifically,
+Table A4 reports estimates of equation 3 where the left hand side variable is the employer hiring
+measure. The results show strong partisan bias in the answer to this question, especially after the
+2016 election. Furthermore, the results are almost identical when including county by month or
+even zip code by month fixed effects. This implies that after the election of Donald Trump in 2016,
+a Democrat reports his employer is less likely to hire workers while a Republican living in the
+same zip code reports his employer is boosting hiring. Under the assumption that people living in
+the same zip code tend to work for similar industries or employers, the Democrat and Republican
+answers cannot both be correct. In the Online Appendix (Figures A4 and A5), we examine county
+and state level data on transfers, tax rates, and personal income growth around the 2000 and 2008
+elections. We find little evidence that counties or states supporting the winning candidate see a
+disproportionate improvement in any of these measures.
+Gallup and Michigan survey around elections, including evaluation of current economic conditions and government economic policy. We also split out the three components of the index of consumer expectations from
+the Michigan survey. In Table A3 of the Online Appendix, we exploit the panel dimension in the Michigan
+Survey by isolating the sample to individuals that are in the data set more than once, and including individual
+fixed effects.
+
+16
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+the relatively weak assumption that changes in the economy will affect individuals living in the same
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+4
+
+Does Partisan Bias Affect Household Spending?
+
+4.1
+
+Survey data evidence
+
+We begin our investigation of the effect of partisan bias on household spending by exploring answers
+to questions on spending in the Gallup and Michigan surveys. Figure 4 examines the answers to
+these questions by presenting coefficient estimates from equation 2, where we use the spending
+
+The top two panels of Figure 4 report results for the Michigan questions on whether it is a
+good time to buy major household items or a car. The Michigan survey shows some evidence
+that Republicans witnessed a relative change in answers to spending questions after Presidential
+elections. The bottom two panels examine Gallup measures of household spending. Here we see a
+stronger effect, especially for the 2016 election. For both the spending yesterday question and the
+question of whether individuals are cutting back spending, Republicans see a relative increase in
+reported spending.
+In Table 3, we examine the corresponding regressions for Figure 4. Columns 1 and 2 evaluate
+the Gallup question on total spending yesterday. Consistent with Figure 4, Republicans see a relative increase in their reported spending after the election of Donald Trump in 2016 of about 6%.
+However, there is no effect after the 2008 election. Recall that there was a sizable relative decline in
+economic expectations for Republicans after the 2008 election; there is no corresponding relative
+decline in spending. For the cutting back spending question, we see large effects after both the 2012
+and 2016 election.6 For both spending measures, the inclusion of zip code by month fixed effects
+does not affect the post 2016 election results.
+The last two columns of Table 3 examine the Michigan survey questions. The statistical precision is lower in these specifications given the smaller sample sizes. There is some evidence that
+Republicans report in surveys higher spending after the 2016 election and lower spending after the
+6 The
+
+cutting back spending question was first asked in 2009, so we do not have the estimate for the 2008
+
+election.
+
+17
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+questions in the Gallup and Michigan survey as the left hand side variable.
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+2008 and 2012 election.
+
+4.2
+
+Administrative data evidence
+
+A drawback to these survey questions is that they do not capture actual household spending. One
+obvious concern is that the same partisan bias that affects measures of economic expectations could
+also influence spending reported in a survey.
+
+spending at the county level and zip code level. Moving from the individual level to the broader
+geography level requires us to construct geographic measures of partisan affiliation. At the county
+level, we measure partisanship of the county using the total votes for the Republican candidate in
+the county divided by the total votes for either the Republican or Democrat, which we refer to as the
+two-party vote share for the Republican. We measure this for the nearest election for each county.
+We focus on new auto purchases and credit card spending around the 2016 and 2008 elections
+in Figure 5. To create this figure, we first index the spending measure to be 100 in October of
+the Presidential election year in question for each county. We then estimate for each month the
+following county-level cross-sectional regression:
+spendingindexedcm = αm + γ m ∗ RepV oteSharec + νcm
+Observations in this regression are weighted by total population of the county.7 Using the estimates
+from this specification, we predict auto sales or credit card spending in each month around the
+7 Regressions based on geographical areas are always weighted by a geographical area’s population given
+
+that there are more observations observed in geographic areas with more individuals, and as a result the
+average error term across geographical areas is highly heteroskedastic. In particular, the assumption is that
+the variance of the error term is larger in geographic areas with fewer people. Following Solon et al. (2015) we
+examine the the squared predicted residuals from unweighted specifications and find that indeed geographical
+areas with a smaller population have larger squared residuals.
+
+18
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+To measure the response of actual spending, we turn to data on auto purchases and credit card
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+election for RepV oteSharec = 0 and RepV oteSharec = 1. In this manner, we estimate the
+evolution of spending in a county where all voters vote for Democrat (“Democratic counties”) and
+where all voters vote for the Republican (“Republican counties”).
+As Figure 5 shows, there is little evidence of a larger rise in auto purchases or credit card spending in counties that voted for Donald Trump in 2016. While there appears to be a larger Christmas
+shopping bump in November 2016 for Republican counties, the size of the November bump is al-
+
+November, a result we confirm below. This null result is in stark contrast to the strong rise in optimism on the economy among those most likely to vote for Donald Trump, which is shown above in
+Figure 3 in Section 3. The strong relative rise in optimism among those living in more Republican
+counties does not appear to translate into higher auto purchases or credit card spending. We also
+do not see a noticeable relative change in auto purchases or credit card spending after the 2008
+election, despite the large relative decline in economic optimism among Republicans.
+In Figure 6, we estimate the county-level version of equation 2 from Section 3 above. More
+specifically, for each pseudo-year y, we estimate the following regression:
+m=M ay
+
+Ln(Scm ) =
+
+X
+
+m=M ay
+m
+
+0
+
+α ∗ dm + γ ∗ RepV oteSharec +
+
+m=June
+
+X
+
+γ m ∗ (dm ∗ RepV oteSharec ) + νcm
+
+m=June,m6=Oct
+
+(4)
+where dm is an indicator variable for month m, m = 0 is the “omitted” month which is October, αm
+represents month fixed effects, and γ m are the coefficients of interest that measure the relative shift
+in log spending (Ln(S)) around the election for counties with a higher vote share for the Republican
+candidate (RepV oteShare). Observations in these regressions are weighted by total population in
+the county. We estimate equation 4 for both auto purchases and credit card spending. We only
+have data for credit card spending from 2006 onward, and so the analysis for credit card spending
+is focused only on the 2008, 2012, and 2016 elections.
+There is little evidence in Figure 6 of a sharp change in spending patterns for Republican-
+
+19
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+most identical in November 2015, which suggests that Republican areas consistently spend more in
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+leaning counties around any of the elections. If anything, there may be some evidence that auto
+spending actually rose more for Republican-leaning counties after the 2008 election. For credit card
+spending, Republican-leaning counties tend to see a stronger spike in spending every November and
+December, but there is no evidence that 2008 or 2016 were special relative to the non-election years.
+In Table 4 we formally test the statistical significance of the patterns shown in Figures 5 and 6.
+More specifically, we estimate the following specification:
+
+X
+
+[β y ∗ P osty ]
+
+y=00,04,08,12,16
+
++
+
+X
+
+[γ y ∗ P osty ∗ RepV oteSharecym ] + cym (5)
+
+y=00,04,08,12,16
+
+where Scym is either new auto purchases or credit card spending, αm are month of year indicator
+variables, αy are pseudo-year indicators (i.e., June to May), and P osty is an indicator variable for
+November to May of pseudo year y. As before, the coefficients of interest are the γ y for each election
+year. The coefficients γ y measure the differential change in log spending after the election for counties that more heavily favored the Republican candidate in the election in question. Observations
+in these regressions are weighted by total population in the county.
+Before examining the spending measures, we begin in column 1 by estimating equation 5 using
+our measure of economic expectations from the Gallup data set averaged at the county-month level.
+We want to ensure that aggregating to the county-month level from the individual-month level does
+not reduce power significantly when it comes to relative movements in economic expectations.
+As column 1 shows, the relative shift in economic optimism using county-month-level data with
+Republican vote share as the measure of partisanship leads to similar coefficient estimates as seen
+in the individual-month-level data (compare with column 1 of Table 2).
+Yet despite this large relative shift in economic expectations based on partisan affiliation in
+Republican leaning counties, we see no relative change in auto purchases or credit card spending
+in columns 2 and 3. The evidence does not support the view that changes in expectations driven by
+who wins the White House affects actual spending.
+20
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+Ln(Scym ) = αm +αm ∗RepV oteSharecym +αy +αy ∗RepV oteSharecym +
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+In Table 5, we estimate equation 5 at the zip code-month level. We do not have zip code-level
+vote shares; as a result, we use the Gallup data to measure partisanship at the zip-code level. These
+data are available only after 2007. For every year, we measure a zip code’s partisan leaning using
+the fraction of individuals affiliated with the Republican party in the Gallup data divided by the
+total number of respondents in the Gallup data affiliating with either the Republican or Democratic
+Party. Zip codes in these regressions are weighted by the total number of respondents in the Gallup
+
+The results at the zip code level are broadly similar. First, there are similar relative shifts in
+economic optimism around elections based on the partisan leaning of the zip code. Second, there
+is no noticeable effect on auto purchases or credit card spending. For example, a zip code in which
+only Republicans live witnesses a 1.3 standard deviation increase in economic optimism after the
+election of Donald Trump in 2016, but if anything new auto purchases and credit card spending are
+reduced in the six months after the election.
+The zip code level results also provide the most power for an assessment of how precise the null
+effect on spending is. A one standard deviation increase in the Republican share of a zip code (0.39)
+leads to a sizable 0.5 standard deviation shift in optimism after the 2016 Presidential election.
+How large an effect on spending can we rule out? To take an extreme calculation, we use the
+largest coefficient for the Republican * post 2016 election indicator variable that is within the 95%
+confidence interval from the estimation. The largest coefficient within the confidence interval is
+0.021 and 0.004 for auto sales and credit card spending, respectively. The estimates imply that we
+can be confident with 95% probability that the effect of a one standard deviation increase in the
+Republican share of a zip code (0.39) on the change from 2016 to 2017 in log auto purchases and
+log credit card spending is smaller than 0.71% and 0.44%, respectively. To put this into perspective,
+the standard deviation of the change in log auto sales and log credit card spending from 2016 to
+2017 across zip codes is 21.1% and 4.8%, respectively. Zip codes that have a higher Republican
+share experience a large increase in economic expectations after the 2016 election, but even the
+largest estimate on spending within the 95% confidence interval is estimated to be close to zero.
+21
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+data.
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+5
+
+Discussion of Results
+
+5.1
+
+Why the null result on spending?
+
+The macroeconomics literature focusing on economic expectations questions in the Michigan Survey generally uses the answers to these questions as a measure of the expected income growth of
+the individual answering the question. For example, in Barsky and Sims (2012), innovations to an-
+
+perceived growth rate of the economy. As a result, this literature argues that changes in the answers
+to these questions should be expected to predict consumption growth, even if the changes in the
+answers to these questions are driven by ”sentiment” or noise that is unrelated to the actual income
+growth of the individual.
+The cross-sectional approach presented here shows that partisan affiliation of an individual has
+a large effect on the answers to these questions in the aftermath of Presidential elections. This large
+effect appears to be largely orthogonal to actual future income realizations, as shown in Section 3.2.
+While individuals affiliated with the winner of the Presidential election display more optimism in
+their answers to survey questions, they do not appear to change their household spending, at least
+according to administrative measures.
+Why might this be? One potential explanation is that individuals focus on the expected income
+growth at the national level instead of at the individual level when answering the survey questions. It
+could be that partisans are more optimistic about the overall economy when their preferred candidate
+wins, but they are not more optimistic about their own economic situation.
+This explanation can be partially assessed using more individualized questions in the Gallup and
+Michigan Surveys. For example, the Michigan survey includes questions concerning an individual’s
+own financial situation and an individual’s own income growth. The Gallup survey asks a question
+about an individual’s own employer’s hiring decisions. In the cross-section of respondents taken in
+any given time period, the answers to the national questions and the answers to the individualized
+questions are very highly correlated, a fact shown in Table A5 in the Online Appendix. This suggests
+22
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+swers of the “Country business conditions, 5 years” question reflect innovations to an individual’s
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+that an individual’s view on the national economic situation is highly correlated with their view on
+their personal economic situation.
+Furthermore, as shown in Table A2 and Table A4 in the appendix, there is also evidence of
+substantial partisan bias when using the more individualized questions. In the Gallup survey, the
+results using questions about the expected hiring behavior of an individual’s own employer shows
+substantial partisan bias. The results for the Michigan survey are somewhat weaker using the more
+
+particular. These results suggest that partisan bias applies strongly even to an individual’s expectations of their own economic situation, and yet there is scant evidence that this affects administrative
+measures of spending.
+Another potential reason for the null result on administrative spending is a wedge between desired and actual spending by individuals. This could occur, for example, if borrowing constraints
+are important. While this is a possibility, recall that there is a decline in economic expectations for
+those supporting the losing candidate in Presidential elections, and we do not see a relative decline
+in spending for this group. It is difficult for borrowing constraints to explain why those becoming more pessimistic do not decrease spending–borrowing constraints do not prevent an individual
+from reducing purchases. In fact, Democrats after the 2016 election are more likely to tell Gallup
+that they will cut back spending (see column 3 of Table 3), and yet we do not see actual evidence
+of a cut back in spending in the administrative data.
+Furthermore, Table A6 in the Online Appendix repeats the analysis of Table 5 on the sample of
+zip codes that have an average adjusted gross income in the top quartile of all zip codes as of 2010.
+These high income zip codes are less likely to face severe borrowing constraints, and yet the core
+results are almost identical.
+
+5.2
+
+An alternative setting: The 2006 to 2007 decline in house prices
+
+The fact that shifts in economic expectations driven by partisan bias do not seem to affect administrative measures of spending raises the question: Do shifts in economic expectations as measured
+23
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+individualized questions, but they are still large and statistically significant for the 2016 election in
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+in surveys ever correlate with actual household spending? Perhaps these shifts in expectations are
+always random noise with little relevance for actual economic outcomes?
+We already have evidence from Barsky and Sims (2012) that “unexplained movements in the
+responses to forward-looking questions from the Michigan Survey of Consumers have powerful
+predictive implications for the future paths of macroeconomic variables.” In aggregate analysis,
+movements in economic expectations as measured in the Michigan survey are related to future
+
+rarely if ever correlated with cross-sectional changes in household spending?
+To examine this question, we focus on an alternative economic shock: the initial decline in
+aggregate house prices from 2006 to 2007 in the United States. This shock offers a promising
+source of cross-sectional variation across U.S. counties in exposure to a fundamental shock, and
+it therefore serves as a useful counter-example where we should expect to find an effect on both
+economic expectations and household spending. More specifically, there is a great deal of variation
+across U.S. counties in the degree to which house prices fell during the 2006 to 2009 period (e.g.,
+Mian et al. (2013)). Also, total employment declined more in counties seeing a sharper decline
+in house prices (e.g., Mian and Sufi (2014)), and there are long-lasting effects on income for the
+individuals living in these counties (Yagan (2019)). Finally, there is a strong positive correlation
+across counties between house price growth from 2006 to 2007 and house price growth from 2007
+to 2008. In hindsight, we know individuals living in counties where house prices began to fall in
+2007 experienced a sharp decline in subsequent income and employment growth.
+So how did their expectations react? We cannot measure the decline in house prices for a given
+individual in the Michigan survey, and so we conduct all of the analysis in this section at the county
+level. We measure economic expectations in the pre-period from 2004 to 2006. This was a period
+of economic expansion when house prices rose nationally. Beginning in 2007, house prices began
+to fall in the United States. Further, they began to fall quite dramatically in some counties. We
+measure economic expectations in the post period using survey responses of a county in 2007.
+We purposefully do not include 2008 because it was a year of dramatic national economic events
+24
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+income and consumption growth. But perhaps the cross-sectional variation in survey responses is
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+and it was the year that Barack Obama became President. Both of these factors would likely affect
+economic expectations for reasons unrelated to house price growth. As a result, 2007 is a clean year
+for measuring cross-sectional variation across counties in exposure to house price declines during
+the Great Recession. Given the smaller samples in the Michigan survey, we only keep counties that
+have at least five individuals surveyed both in the pre- and post-period.
+As the left panel of Figure 7 shows, counties seeing a relative decline in house prices also
+
+counties in house price growth from 2006 to 2007, with some counties seeing declines of 20 to
+30 percent. Individuals living in those counties report a more pessimistic economic outlook. As
+already mentioned, these individuals did in fact experience a relatively worse recession after 2007.
+In this case, survey respondents changed their economic expectations in a predictable way given
+the fundamental shock they received.
+Furthermore, as the right panel shows, auto purchase growth from 2006 to 2007 in a county is
+strongly correlated with house price growth from 2006 to 2007 in a county. So in the case of the
+house price growth shock, we see that variation across counties in a fundamental shock to economic
+prospects is correlated with the change in economic expectations in the county. And this variation
+is also correlated with actual spending.
+In Table 6, we show coefficients from univariate county-level regressions to confirm the robustness of the patterns shown in Figure 7. In the regressions, we keep all counties where we have at
+least one survey respondent in the pre- and post-periods. We weight each county in all regressions
+with the number of survey respondents to the Michigan survey in the county. As column 1 shows,
+the change in economic expectations and house price growth in a county from 2006 to 2007 are
+positively correlated. Columns 2 through 5 show that all of our measures of household spending
+are also correlated with the underlying house price growth shock. When there is a true shock to
+economic fundamentals, economic expectations and actual household spending react as would be
+predicted in most economic models.
+
+25
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+report a relative decline in the index of consumer expectations. There is substantial variation across
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+5.3
+
+Partisan cheerleading
+
+So what is different about changes in economic expectations driven by partisan bias? We believe the
+evidence shown in this study is most consistent with the idea that answers to questions on economic
+expectations that reflect partisan bias are driven mostly by partisan cheerleading as opposed to a
+serious assessment of future income growth. This is consistent with the lessons from political
+science and social psychology as illustrated by Iyengar et al. (2012), Mason (2013), and Mason
+
+like a banker choosing an investment ... the connection between partisan and party is an emotional
+and social one, as well as a logical one.” Individuals feel elation after their “team” wins the White
+House. They report in surveys that the economy will improve. However, given the lack of a spending
+response, the answers to survey questions appear to reflect cheerleading rather than a true shift in
+actual economic expectations.
+Two recent studies are relevant for understanding the failure of shifts in economic expectations
+to affect administrative measures of spending. Both Bullock et al. (2015) and Prior et al. (2015) find
+evidence that partisan bias in views on current economic conditions can be reduced considerably
+by providing survey respondents monetary incentives for providing more accurate answers. Prior
+et al. (2015) conclude based on this finding that “many partisans interpret factual questions about
+economic conditions as opinion questions, unless motivated to see them otherwise. Typical survey
+conditions thus reveal a mix of what partisans know about the economy, and what they would like to
+be true.” It may be the case that monetary incentives would yield more accurate answers to questions
+on economic expectations that would perhaps more strongly correlate with current spending. We
+view this as a fruitful avenue for future research.
+
+6
+
+Comparison with Recent Research
+
+In a study made public subsequent to the original version of this study, Benhabib and Spiegel (2019)
+use an alternative political measure to capture changes in economic expectations related to political
+26
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+(2015). For example, Mason (2015) writes, “... a partisan behaves more like a sports fan than
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+events. In particular, their study utilizes state-level data from 2006 to 2016, and it constructs a variable for each state-quarter which is the fraction of U.S. Congressional delegates from the state that
+is from the same party as the sitting President, which the authors call congpres. The primary measure of economic expectations in their study is the country business conditions in 5 years question
+from the Michigan survey (BUS5). In Appendix Section A2, we discuss the Benhabib and Spiegel
+(2019) in more detail, and we show that the congpres instrument is not a statistically robust predic-
+
+results of this study with those in Benhabib and Spiegel (2019).
+A contemporaneous study by Gillitzer and Prasad (2018) examines how shifts in economic expectations due to Federal elections in Australia affect household spending. They also find large
+shifts in economic expectations around Federal elections based on the party supported by the individual in the survey (see in particular their Figure 3). They find an effect of shifts in economic
+expectations around elections on survey measures of spending on automobiles or major household
+items (see in particular their Figures 7 and 8). Their results on actual spending, however, are more
+mixed. The short-run evidence they find using actual auto purchase data is similar to the findings
+presented in this study. In particular, for both Australian elections, there is no relative difference in
+the evolution of auto sales from the two quarters before the election to two quarters after the election
+based on the vote share of the postal code.8 As in our analysis, Gillitzer and Prasad (2018) find a
+large and immediate effect of elections on economic expectations, but no effect on actual auto purchases in the six months following the election. For both the 2007 and 2013 election, Gillitzer and
+Prasad (2018) find longer run effects on auto purchases that begin three quarters after the election.
+We discuss the Gillitzer and Prasad (2018) in more detail in Appendix Section A2.9
+8 See
+
+in particular their Figure 9. Gillitzer and Prasad (2018) do not present regression estimates and
+
+statistical significance for the estimates in their Figure 9, but based on the figure there does not appear to be
+a short-run effect from two quarters before the election to two quarters after the election.
+9 Gillitzer and Prasad (2018) cites an older version of this study in which partisan affiliation was imputed
+for the Michigan survey. In this study, partisan affiliation is measured using answers to survey questions, just
+as in the data set used in Gillitzer and Prasad (2018). There is no difference between the two studies in this
+
+27
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+tor of the change in economic expectations around elections. This makes it difficult to compare the
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+Finally, the results are closely related to the findings in McGrath (2016). McGrath (2016) focuses on county-level taxable sales data from 19 states, and relates this proxy for household spending
+to county-level partisanship as measured by presidential vote shares for the Democratic party. She
+evaluates the 1996 to 2012 Presidential elections, and she finds no statistically significant effect of
+Presidential elections on differential spending based on the county’s partisanship.
+While McGrath (2016) focuses on household spending, this study shows both partisan bias in
+
+this an important underlying mechanism that would lead to a change in spending in the macroeconomics literature. Furthermore, the administrative measures of spending used in this study cover the
+entire United States and are available at a more refined geographical area (zip code versus county).
+In addition, this study evaluates the 2016 election, which is notable given the massive effect on
+partisan bias in economic expectations following the election of Donald Trump. Overall, the results provide further support to the view that partisan bias does not have an effect on adminstrative
+measures of spending, even when partisan bias surges after the 2016 election.
+
+7
+
+Conclusion
+
+The well-documented rise in political polarization among the U.S. electorate has been accompanied by a substantial increase in the effect of partisan bias on survey-based measures of economic
+expectations. However, the shift in survey-based measures of economic expectations induced by
+partisan bias does not appear to affect household spending. For example, despite the enormous
+regard. Gillitzer and Prasad (2018) also argue that the null result found in this study is due to the fact that
+the auto vehicle registration data is for households, businesses, and governments, whereas the auto vehicle
+registrations data used in Gillitzer and Prasad (2018) is for households only. It is important to emphasize
+that both studies find no effect on auto purchases from the two quarters prior to the election through the two
+quarters after the election. Furthermore, this study also finds a null result using an administrative measure of
+household spending based on credit card data. The data set in Gillitzer and Prasad (2018) does not contain
+an administrative measure for a broader set of consumer spending.
+
+28
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+economic expectations and the response of spending. The partisan bias result is crucial given that
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+relative increase in economic optimism among Trump supporters after November 2016, there is
+little evidence in administrative data sets of a relative increase in spending by Republicans since
+the election.
+Overall, the results are most consistent with the idea that partisan bias in the answers to survey
+questions reflect partisan “cheerleading” as opposed to a serious assessment of future individual
+income growth, at least when it comes to actual spending decisions. Interestingly, a recent study by
+
+their financial wealth portfolios toward equity, although the average effect is only half a percent
+relative to Democratic zip codes. However, conditional on an investor deciding to rebalance, the
+effects are substantially larger. Their study suggests that partisan bias in economic expectations
+may show up in financial portfolio allocations, even if it has little to no effect on actual spending.
+Nonetheless, the results presented here suggest that researchers and practitioners should exercise caution in using survey-based measures of economic expectations as true measures of an
+individual’s actual economic expectations. Partisan bias is increasingly polluting these measures.
+Our results also suggest that perhaps measures of economic expectations in the aggregate are becoming less powerful in predicting consumption or income growth given the rise of partisan bias.
+This is a fruitful avenue for future research in our view.
+
+References
+Altonji, Joseph G, Todd E Elder, and Christopher R Taber, “Selection on observed and unobserved variables: Assessing the effectiveness of Catholic schools,” Journal of political economy,
+2005, 113 (1), 151–184.
+Angeletos, George-Marios and Jennifer La’O, “Sentiments,” Econometrica, 2013, 81 (2), 739–
+779.
+Azariadis, Costas, “Self-fulfilling prophecies,” Journal of Economic Theory, 1981, 25 (3), 380–
+396.
+29
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+Meeuwis et al. (2020) finds evidence that individuals from more Republican zip codes tend to shift
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+Barsky, Robert B and Eric R Sims, “Information, animal spirits, and the meaning of innovations
+in consumer confidence,” The American Economic Review, 2012, 102 (4), 1343–1377.
+Bartels, Larry M, “Beyond the running tally: Partisan bias in political perceptions,” Political
+Behavior, 2002, 24 (2), 117–150.
+Benhabib, Jess and Mark M Spiegel, “Sentiments and economic activity: Evidence from US
+
+and Roger EA Farmer, “Indeterminacy and increasing returns,” Journal of Economic Theory,
+1994, 63 (1), 19–41.
+Boxell, Levi, Matthew Gentzkow, and Jesse M Shapiro, “Is the internet causing political polarization? Evidence from demographics,” Technical Report, National Bureau of Economic Research 2017.
+Bullock, John G, Alan S Gerber, Seth J Hill, Gregory A Huber et al., “Partisan Bias in Factual
+Beliefs about Politics,” Quarterly Journal of Political Science, 2015, 10 (4), 519–578.
+Campbell, Angus, Philip E Converse, Warren E Miller, and Donald E Stokes, The American
+voter, New York: John Wiley & Sons, 1960.
+Duch, Raymond M, Harvey D Palmer, and Christopher J Anderson, “Heterogeneity in Perceptions of National Economic Conditions,” American Journal of Political Science, 2000, (4),
+635–652.
+Evans, Geoffrey and Robert Andersen, “The Political Conditioning of Economic Perceptions,”
+The Journal of Politics, 2006, 68 (1), 194–207.
+Gentzkow, Matthew, “Polarization in 2016,” Toulouse Network of Information Technology white
+paper, 2016.
+
+30
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+states,” The Economic Journal, 2019, 129 (618), 715–733.
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+Gerber, Alan S and Gregory A Huber, “Partisanship and economic behavior: Do partisan differences in economic forecasts predict real economic behavior?,” American Political Science
+Review, 2009, 103 (03), 407–426.
+and
+
+, “Partisanship, Political Control, and Economic Assessments.,” American Journal of
+
+Political Science, 2010, 54 (1), 153–173.
+
+sectional evidence from elections,” American Economic Journal: Macroeconomics, 2018, 10
+(4), 234–69.
+Iyengar, Shanto, Gaurav Sood, and Yphtach Lelkes, “Affect, not ideology a social identity perspective on polarization,” Public opinion quarterly, 2012, 76 (3), 405–431.
+Ladner, Matthew and Christopher Wlezien, “Partisan preferences, electoral prospects, and economic expectations,” Comparative Political Studies, 2007, 40 (5), 571–596.
+Lorenzoni, Guido, “A theory of demand shocks,” The American Economic Review, 2009, 99 (5),
+2050–2084.
+Mason, Lilliana, “The rise of uncivil agreement: Issue versus behavioral polarization in the American electorate,” American Behavioral Scientist, 2013, 57 (1), 140–159.
+, “I disrespectfully agree: The differential effects of partisan sorting on social and issue polarization,” American Journal of Political Science, 2015, 59 (1), 128–145.
+McGrath, Mary C., “Economic Behavior and the Partisan Perceptual Screen.,” Quarterly Journal
+of Political Science, 2016, 11 (4), 363–383.
+Meeuwis, Maarten, Jonathan A Parker, Antoinette Schoar, and Duncan I Simester, “Belief
+disagreement and portfolio choice,” Technical Report, National Bureau of Economic Research
+2020.
+
+31
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+Gillitzer, Christian and Nalini Prasad, “The effect of consumer sentiment on consumption: cross-
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+Mian, Atif and Amir Sufi, “The effects of fiscal stimulus: Evidence from the 2009 cash for
+clunkers program,” The Quarterly Journal of Economics, 2012, 127 (3), 1107–1142.
+and
+
+, “What explains the 2007–2009 drop in employment?,” Econometrica, 2014, 82 (6),
+
+2197–2223.
+, Kamalesh Rao, and Amir Sufi, “Household balance sheets, consumption, and the economic
+
+Oster, Emily, “Unobservable selection and coefficient stability: Theory and evidence,” Journal of
+Business & Economic Statistics, 2019, 37 (2), 187–204.
+Palmer, Harvey D and Raymond M Duch, “Do Surveys Provide Representative or Whimsical
+Assessments of the Economy?,” Political Analysis, 2001, 9 (1), 58–77.
+Prior, Markus, Gaurav Sood, Kabir Khanna et al., “You cannot be serious: The impact of
+accuracy incentives on partisan bias in reports of economic perceptions,” Quarterly Journal of
+Political Science, 2015, 10 (4), 489–518.
+Solon, Gary, Steven J Haider, and Jeffrey M Wooldridge, “What are we weighting for?,” Journal
+of Human resources, 2015, 50 (2), 301–316.
+Stanig, Piero, “Political polarization in retrospective economic evaluations during recessions and
+recoveries,” Electoral Studies, 2013, 32 (4), 729–745.
+Wlezien, Christopher, Mark Franklin, and Daniel Twiggs, “Economic Perceptions and Vote
+Choice: Disentangling the Endogeneity,” Political Behavior, 1997, 19 (1), 7–17.
+Yagan, Danny, “Employment hysteresis from the great recession,” Journal of Political Economy,
+2019, 127 (5), 2505–2558.
+
+32
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+slump,” The Quarterly Journal of Economics, 2013, 128 (4), 1687–1726.
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+Figure 1:
+Average Economic Expectations by Partisan Affiliation, by Presidential Term
+This figure presents the average economic expectations in the Gallup data set (left panel) and Michigan data set (right panel) by partisan
+
+absolute value of the difference between the two. For Presidential election years, November, December, and January are excluded.
+
+Diff
+
+Dem
+
+Dem
+
+Diff
+
+Diff
+
+Dem
+
+Rep
+Rep
+
+Dem
+
+−1
+
+Dem
+Rep
+
+−.5
+
+Dem
+
+Rep
+
+Rep
+
+−1
+
+Dem
+
+−.5
+
+Rep
+
+Rep
+
+0
+
+Diff
+
+Dem
+
+.5
+
+Average
+
+Diff
+
+Rep
+
+1
+
+Dem
+
+Dem
+
+0
+
+Average
+
+Diff
+
+.5
+
+Diff
+
+1
+
+Diff
+
+Rep
+
+Diff
+
+Rep
+
+Diff
+
+1.5
+
+Michigan: Index of consumer expectations
+
+1.5
+
+Gallup: Economy getting better
+
+BushW2
+
+Obama1
+
+Obama2
+
+Trump
+
+Carter
+
+Reagan
+
+BushW2
+
+Obama1
+
+Obama2
+
+Trump
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+affiliation and by Presidential term. Party affiliation is measured directly from the individual’s response to the survey. We also report the
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+Figure 2:
+Economic Expectations around the 2008 and 2016 Elections, by Partisan Affiliation
+This figure presents the average economic expectations in the Gallup data set (left panels) and Michigan data set (right panels) by
+
+Michigan: Index of expectations, 2016
+Average
+−1 −.5 0 .5 1 1.5
+
+Average
+−1 −.5 0 .5 1 1.5
+
+Gallup: Economy getting better, 2016
+
+2016m1
+
+2016m7
+
+2017m1
+
+Democrat
+
+2017m7
+
+2018m1
+
+Republican
+
+2016m7
+
+2017m1
+
+Democrat
+
+2017m7
+
+2018m1
+
+Republican
+
+Michigan: Index of expectations, 2008
+Average
+−1 −.5 0 .5 1 1.5
+
+Average
+−1 −.5 0 .5 1 1.5
+
+Gallup: Economy getting better, 2008
+
+2008m1
+
+2016m1
+
+2008m7
+
+2009m1
+
+Democrat
+
+2009m7
+
+2010m1
+
+Republican
+
+2008m4 2008m7 2008m10 2009m1 2009m4
+Democrat
+
+Republican
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+partisan affiliation around the 2008 (bottom panels) and 2016 (top panels) elections.
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+Figure 3:
+Partisan Shift in Economic Expectations around Presidential Elections
+
+The coefficients plotted can be interpreted as the relative change in economic expectations for those affiliated with the Republican party
+around each Presidential election. The thin gray lines plot γ m for non-election years.
+
+Jul
+
+Sep
+
+Nov
+2008
+2016
+
+Jan
+2012
+
+Mar
+
+May
+
+−3
+
+−3
+
+Coefficient on Republican
+−2
+−1
+0
+1
+2
+
+Coefficient on Republican
+−2
+−1
+0
+1
+2
+
+3
+
+Michigan: Index of consumer expectations
+
+3
+
+Gallup: Economy getting better
+
+Jul
+
+Sep
+
+Nov
+2008
+
+Jan
+2016
+
+Mar
+
+May
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+This figure presents coefficient estimates of γ m for each pseudo year y (June to May) from the following specification:
+Pm=M ay
+P
+ay m
+m
+0
+Xim = m=M
+m=June,m6=Oct γ ∗ (dm ∗ Repim ) + νim
+m=June α ∗ dm + γ ∗ Repim +
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+Figure 4:
+Survey Measures of Spending around Elections
+This figure presents coefficient estimates of γ m for each pseudo year y (June to May) for the exact same specification described in
+
+a car in Michigan survey (top panels) and questions on past and future spending behaviors in Gallup survey (bottom panels). The thin
+gray lines plot γ m for non-election years.
+
+Coefficient on Republican
+−3 −2 −1 0 1 2 3
+
+Michigan, household items
+
+Coefficient on Republican
+−3 −2 −1 0 1 2 3
+
+Michigan, car
+
+Jul
+
+Sep
+
+Nov
+
+Jan
+
+2008
+
+Mar
+
+May
+
+Jul
+
+Sep
+
+2016
+
+Nov
+
+Jan
+
+2008
+
+May
+
+2016
+
+Coefficient on Republican
+−3 −2 −1 0 1 2 3
+
+Gallup, cutting back spending?
+
+Coefficient on Republican
+−.4 −.2 0
+.2
+.4
+
+Gallup, ln(spend yesterday)
+
+Mar
+
+Jul
+
+Sep
+
+Nov
+2008
+2016
+
+Jan
+
+Mar
+2012
+
+May
+
+Jul
+
+Sep
+
+Nov
+
+Jan
+2012
+2016
+
+Mar
+
+May
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+Figure 3, but replacing the left hand side variable with answers to questions on whether it a good time to buy major household items or
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+Figure 5:
+Auto Purchases and Credit Card Spending around 2008 and 2016 Elections
+This figure presents spending in counties around Presidential elections. To construct the plots below, we first index auto sales and credit
+
+the election:
+spendingindexedcm = αm + γ m ∗ RepV oteSharec + νcm
+Where RepV oteSharec is the two-party share voting for the Republican candidate in the county. The plotted lines below represent
+predicted values for RepV oteSharec = 0 (Democratic county) and RepV oteSharec = 1 (Republican county) given this estimation.
+
+Indexed to October
+70 80 90 100 110 120 130
+
+2016 election, CC spending
+
+Indexed to October
+40 60 80 100120140160180
+
+2016 election, auto sales
+
+2015m10
+
+2016m4
+
+2016m10
+
+Democratic county
+
+2017m4
+
+2017m10
+
+2015m10
+
+Republican county
+
+2016m4
+
+2016m10
+
+Democratic county
+
+2017m10
+
+Republican county
+
+Indexed to October
+70 80 90 100 110 120 130
+
+2008 election, CC spending
+
+Indexed to October
+40 60 80 100120140160180
+
+2008 election, auto sales
+
+2017m4
+
+2008m1
+
+2008m7
+
+2009m1
+
+Democratic county
+
+2009m7
+
+2010m1
+
+Republican county
+
+2008m1
+
+2008m7
+
+2009m1
+
+Democratic county
+
+2009m7
+
+2010m1
+
+Republican county
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+card spending in a county to be 100 in October prior to the election, and then estimate the following regression for each month around
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+Figure 6:
+Republican Vote Propensity, Auto Purchases, and Credit Card Spending
+
+The coefficients plotted can be interpreted as the relative change in spending for those counties most strongly supporting the Republican
+candidate around each Presidential election. The thin gray lines plot γ m for non-election years, where RepV oteSharec is based on
+nearest election year.
+
+Credit card spending
+
+.1
+0
+−.1
+
+Coefficient on Rep vote propensity
+
+−1
+
+−.2
+
+−.5
+
+0
+
+.5
+
+Coefficient on Rep vote propensity
+
+1
+
+.2
+
+Auto sales
+
+Jul
+2000
+
+Sep
+
+Nov
+2004
+
+Jan
+2008
+
+Mar
+2012
+
+May
+2016
+
+Jul
+
+Sep
+2008
+
+Nov
+
+Jan
+2012
+
+Mar
+2016
+
+May
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+This figure presents coefficient estimates of γ m for each pseudo year y (June to May) from the following specification:
+Pm=M ay
+P
+ay m
+m
+0
+Ln(Scm ) = m=M
+m=June,m6=Oct γ ∗ (dm ∗ RepV oteSharec ) + νcm
+m=June α ∗ dm + γ ∗ RepV oteSharec +
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+Figure 7:
+Comparing 2016 Election to 2007 Decline in House Prices
+This figure presents scatter-plots of county-level data relating the change in economic expectations and auto sales to the decline in house
+
+counties are weighted by the total number of individuals surveyed.
+
+Auto sales and House prices
+
+−.3
+
+Auto sales growth 2006 to 2007
+−.2
+−.1
+0
+.1
+.2
+
+.3
+
+Change in ICE, 2007 minus 2004 through 2006
+−2
+−1
+0
+1
+2
+
+Consumer expectations and House prices
+
+−.3
+
+−.2
+−.1
+0
+House price growth, 2006 to 2007
+
+.1
+
+−.3
+
+−.2
+−.1
+0
+House price growth, 2006 to 2007
+
+.1
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+prices from 2006 to 2007. Only counties with at least 5 surveyed respondents in the pre- and post-shock period are included, and
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+Table 1: Partisan Bias in Economic Expectations, by Presidential Term
+This table presents estimates of economic expectations by partisan affiliation by Presidential administration (t). Equation 1 from the text is the exact
+specification. For Presidential election years, November, December, and January are excluded.
+
+(1)
+
+(2)
+
+Michigan: Index of consumer expectations
+(3)
+
+(4)
+
+(5)
+
+0.482∗∗∗
+(0.061)
+-0.527∗∗∗
+(0.049)
+-0.582∗∗∗
+(0.061)
+1.198∗∗∗
+(0.097)
+
+Republican affiliation
+× Carter
+
+0.364∗∗∗
+(0.004)
+-0.708∗∗∗
+(0.005)
+-0.886∗∗∗
+(0.005)
+1.092∗∗∗
+(0.006)
+
+0.373∗∗∗
+(0.005)
+-0.700∗∗∗
+(0.005)
+-0.871∗∗∗
+(0.005)
+1.113∗∗∗
+(0.007)
+
+0.380∗∗∗
+(0.006)
+-0.709∗∗∗
+(0.006)
+-0.872∗∗∗
+(0.006)
+1.115∗∗∗
+(0.008)
+
+0.094
+(0.070)
+0.457∗∗∗
+(0.047)
+0.452∗∗∗
+(0.031)
+-0.487∗∗∗
+(0.025)
+-0.561∗∗∗
+(0.033)
+1.291∗∗∗
+(0.051)
+
+1057280
+0.196
+
+1057280
+0.230
+
+1057280
+0.381
+
+16002
+0.134
+
+14006
+0.532
+
+0.000
+0.000
+0.000
+None
+
+0.000
+0.000
+0.000
+County×month
+
+0.000
+0.000
+0.000
+ZIP×month
+
+0.373
+0.074
+0.000
+None
+
+0.553
+0.479
+0.000
+County×month
+
+× Reagan
+× Bush W 2
+× Obama 1
+× Obama 2
+× Trump
+Observations
+R2
+P-values of F-tests
+Obama 1 + Bush W 2 = 0
+Obama 2 − Obama 1 = 0
+Trump + Obama 1 = 0
+FE
+
+Oster (2019) test statistic for coefficient on Republican × Trump comparing columns 1 and 3 (null β ∗ = 0, Rmax = 1.5R): δ = 3.18.
+* p < 0.1, ** p < 0.05, *** p < 0.01. Heteroskedasticity-robust standard errors clustered at the county level are in parantheses.
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+Gallup: Economy getting better
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+Table 2: Partisan Bias in Economic Expectations around Presidential Elections
+This table presents estimates of how economic expectations change differentially around Presidential Elections for individuals based on their party
+affiliation. Equation 3 from the text is the exact specification.
+Michigan: Index of consumer expectations
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+Post 2008 election
+
+0.140∗∗∗
+(0.007)
+
+0.141∗∗∗
+(0.007)
+
+0.133∗∗∗
+(0.009)
+
+-0.012
+(0.058)
+
+-0.054
+(0.109)
+
+Post 2012 election
+
+0.039∗∗∗
+(0.008)
+
+0.042∗∗∗
+(0.008)
+
+0.030∗∗
+(0.010)
+
+0.103
+(0.092)
+
+-0.015
+(0.164)
+
+Post 2016 election
+
+-0.397∗∗∗
+(0.009)
+
+-0.401∗∗∗
+(0.010)
+
+-0.415∗∗∗
+(0.011)
+
+-0.816∗∗∗
+(0.076)
+
+-0.778∗∗∗
+(0.140)
+
+× Post 2008 election
+
+-0.353∗∗∗
+(0.009)
+
+-0.355∗∗∗
+(0.010)
+
+-0.358∗∗∗
+(0.012)
+
+-0.246∗∗
+(0.085)
+
+-0.303
+(0.168)
+
+× Post 2012 election
+
+-0.062∗∗∗
+(0.010)
+
+-0.063∗∗∗
+(0.011)
+
+-0.054∗∗∗
+(0.013)
+
+-0.158
+(0.135)
+
+-0.131
+(0.233)
+
+× Post 2016 election
+
+1.241∗∗∗
+(0.012)
+
+1.242∗∗∗
+(0.012)
+
+1.247∗∗∗
+(0.015)
+
+2.025∗∗∗
+(0.107)
+
+1.948∗∗∗
+(0.205)
+
+Observations
+R2
+FE
+
+1020159
+0.176
+None
+
+1020159
+0.210
+County×month
+
+1020159
+0.370
+ZIP×month
+
+15789
+0.156
+None
+
+15789
+0.549
+County×month
+
+Republican affiliation
+
+Oster (2019) test statistic for coefficient on Republican × Post 2016 election comparing columns 1 and 3 (null β ∗ = 0, Rmax = 1.5R): δ = 3.18.
+* p < 0.1, ** p < 0.05, *** p < 0.01. Heteroskedasticity-robust standard errors clustered at the county level are in parantheses.
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+Gallup: Economy getting better
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+Table 3: Partisan Bias and Survey Measures of Spending around Elections
+This table presents estimates of how spending as measured in survey questions changes differentially around Presidential Elections for individuals
+based on their party affiliation. Equation 3 from the text is the exact specification.
+Michigan Survey
+Good time to
+buy a car
+
+Good time to
+buy major
+HH items
+
+0.136∗
+(0.065)
+
+-0.089
+(0.064)
+
+0.041
+(0.031)
+
+0.048
+(0.094)
+
+0.009
+(0.085)
+
+-0.166∗∗∗
+(0.031)
+
+-0.230∗∗
+(0.082)
+
+-0.243∗∗
+(0.075)
+
+-0.040
+(0.096)
+
+-0.155
+(0.092)
+
+-0.139∗∗∗
+(0.040)
+
+-0.141
+(0.143)
+
+-0.027
+(0.140)
+
+0.390∗∗∗
+(0.043)
+
+0.319∗∗
+(0.120)
+
+0.190
+(0.113)
+
+Observations
+968295
+968295
+299393
+299393
+15298
+2
+R
+0.018
+0.263
+0.028
+0.504
+0.035
+* p < 0.1, ** p < 0.05, *** p < 0.01. Heteroskedasticity-robust standard errors clustered at the county level in parentheses.
+
+15251
+0.076
+
+Log spending
+yesterday
+
+Log spending
+yesterday, with
+ZIP×month FE
+
+Post 2008 election
+
+-0.122∗∗∗
+(0.011)
+
+-0.110∗∗∗
+(0.015)
+
+Post 2012 election
+
+0.092∗∗∗
+(0.011)
+
+0.091∗∗∗
+(0.014)
+
+0.018
+(0.017)
+
+Post 2016 election
+
+-0.016
+(0.010)
+
+-0.016
+(0.013)
+
+-0.150∗∗∗
+(0.017)
+
+× Post 2008 election
+
+0.007
+(0.017)
+
+0.002
+(0.022)
+
+× Post 2012 election
+
+-0.033∗
+(0.016)
+
+-0.017
+(0.020)
+
+-0.137∗∗∗
+(0.021)
+
+× Post 2016 election
+
+0.058∗∗∗
+(0.015)
+
+0.062∗∗∗
+(0.018)
+
+0.357∗∗∗
+(0.022)
+
+Not cutting
+back spending
+
+Not cutting
+back spending, with
+ZIP×month FE
+
+Republican affiliation
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+Gallup Survey
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+Table 4: Partisan Bias and Administrative Measures of Spending: County Level
+This table presents estimates of the differential response of household spending for Presidential elections based on the county-level vote share for the
+Republican candidate in the nearest Presidential election. Equation 5 in the text is the exact specification. Counties in the regressions are weighted
+
+Economy getting
+better
+
+Log auto
+sales
+
+Log credit card
+spending
+
+(1)
+
+(2)
+
+(3)
+
+Post 2000 election
+
+-0.103
+(0.322)
+
+Post 2004 election
+
+-0.040
+(0.312)
+
+Post 2008 election
+
+0.131∗∗∗
+(0.039)
+
+-0.239
+(0.259)
+
+-0.067
+(0.250)
+
+Post 2012 election
+
+0.116∗∗∗
+(0.030)
+
+0.082
+(0.247)
+
+0.013
+(0.244)
+
+Post 2016 election
+
+-0.410∗∗∗
+(0.031)
+
+0.013
+(0.212)
+
+0.035
+(0.199)
+
+Republican vote share
+× Post 2000 election
+
+0.101
+(0.556)
+
+× Post 2004 election
+
+0.024
+(0.517)
+
+× Post 2008 election
+
+-0.319∗∗∗
+(0.072)
+
+0.022
+(0.460)
+
+0.018
+(0.447)
+
+× Post 2012 election
+
+-0.165∗∗
+(0.057)
+
+-0.015
+(0.422)
+
+0.011
+(0.419)
+
+× Post 2016 election
+
+1.284∗∗∗
+(0.056)
+
+0.006
+(0.345)
+
+-0.001
+(0.324)
+
+Observations
+213593
+645626
+R2
+0.254
+0.279
+* p < 0.1, ** p < 0.05, *** p < 0.01. Heteroskedasticity-robust standard errors in parentheses.
+
+401096
+0.354
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+by their total population as of 2008.
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+Table 5: Partisan Bias and Administrative Measures of Spending: Zip Level
+This table presents estimates of the differential response of household spending for Presidential elections based on the zip-level average Republican
+party affiliation. Equation 5 in the text is the exact specification. Zip codes in the regressions are weighted by the number of respondents in the
+
+Economy getting
+better
+
+Log auto
+sales
+
+Log credit card
+spending
+
+(1)
+
+(2)
+
+(3)
+
+Post 2008 election
+
+0.121∗∗∗
+(0.011)
+
+-0.271∗∗∗
+(0.007)
+
+-0.068∗∗∗
+(0.011)
+
+Post 2012 election
+
+0.010
+(0.010)
+
+0.048∗∗∗
+(0.007)
+
+0.037∗∗
+(0.012)
+
+Post 2016 election
+
+-0.451∗∗∗
+(0.013)
+
+-0.030∗∗∗
+(0.008)
+
+0.051∗∗∗
+(0.011)
+
+× Post 2008 election
+
+-0.350∗∗∗
+(0.018)
+
+0.005
+(0.014)
+
+0.012
+(0.017)
+
+× Post 2012 election
+
+-0.036∗
+(0.016)
+
+-0.014
+(0.013)
+
+-0.007
+(0.018)
+
+× Post 2016 election
+
+1.294∗∗∗
+(0.020)
+
+-0.008
+(0.014)
+
+-0.027
+(0.018)
+
+Republican affiliation
+
+Observations
+761920
+1247741
+1160055
+R2
+0.177
+0.063
+0.050
+* p < 0.1, ** p < 0.05, *** p < 0.01. Heteroskedasticity-robust standard errors clustered at the county level in parentheses.
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+Gallup data set.
+
+Review of Economics and Statistics Just Accepted MS.
+01056
+rest
+21 by the President and Fellows of Harvard College and the
+Massachusetts Institute of Technology
+
+Table 6: An Alternative Shock: House Price Growth from 2006 to 2007
+This table presents county-level regressions relating house price growth from 2006 to 2007 to the change in economic expectations and spending. In
+column 2, we focus on responses in the Michigan survey to the question of whether now is a good time to buy a major household item, and in column
+
+survey in the county, which is highly correlated with the total population of the county.
+∆ ICE
+04-06 to 07
+
+∆ Major HH items
+04-06 to 07
+
+∆ Car
+04-06 to 07
+
+Auto sales
+growth, 06 to 07
+
+Credit card spending
+growth, 06 to 07
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+House price growth, 06 to 07
+
+1.228∗∗∗
+(0.290)
+
+1.169∗∗∗
+(0.258)
+
+0.461
+(0.290)
+
+0.592∗∗∗
+(0.045)
+
+0.190∗∗∗
+(0.039)
+
+Constant
+
+0.035
+(0.025)
+
+0.025
+(0.026)
+
+0.029
+(0.024)
+
+0.005
+(0.004)
+
+0.049∗∗∗
+(0.004)
+
+714
+0.360
+
+714
+0.060
+
+Observations
+714
+703
+708
+2
+R
+0.025
+0.025
+0.004
+* p < 0.1, ** p < 0.05, *** p < 0.01. Heteroskedasticity-robust standard errors in parentheses.
+
+Downloaded from http://direct.mit.edu/rest/article-pdf/doi/10.1162/rest_a_01056/1915737/rest_a_01056.pdf by guest on 09 August 2021
+
+3 we focus on the question of whether now is a good time to buy a car. All specifications are weighted by the number of respondents to the Michigan
+
+
