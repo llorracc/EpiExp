@@ -84,6 +84,8 @@
 
     \end{abstract}
 
+    \ifdvi % skip the links because they do not work inside the html
+    \else
     \vspace{0.5in}
     \newcommand{\owner}{llorracc}
     \newcommand{\REMARK}{\href{https://github.com/econ-ark/REMARK}{REMARK}}
@@ -102,6 +104,7 @@
           \end{tabbing}
         \end{center}
       }
+      \fi
     \end{small}
 
     \begin{authorsinfo}
@@ -259,24 +262,24 @@ Partly, the failure to incorporate expectational heterogeneity reflects the fact
 
 
 
-%But EE modeling approaches may be particularly appealing now as a result of the emergence of new \emph{kinds} of data.  In particular, for the first time ever, it is now becoming possible to directly observe economic expectations spreading over social networks -- as in the papers we describe below by~\cite{bailey2018economic, bailey2019house}.
+% But EE modeling approaches may be particularly appealing now as a result of the emergence of new \emph{kinds} of data.  In particular, for the first time ever, it is now becoming possible to directly observe economic expectations spreading over social networks -- as in the papers we describe below by~\cite{bailey2018economic, bailey2019house}.
 
 
 
 \ifthenelse{\boolean{inBook}}{
 }{
 
-The proliferation of new data on expectations, and new evidence that they explain differences in behavior, seem likely to tempt economists to produce models to fit the facts.  Our guess is that epidemiological models may be one of the primary methods of accomplishing this goal.
+  The proliferation of new data on expectations, and new evidence that they explain differences in behavior, seem likely to tempt economists to produce models to fit the facts.  Our guess is that epidemiological models may be one of the primary methods of accomplishing this goal.
 
-\subsection{Epistemology and Epidemiology}
+  \subsection{Epistemology and Epidemiology}
 
-Below we briefly summarize the extensive literature outside of economics measuring the spread of ideas.  One element is missing from almost all of this work: a rigorous description of a mechanism that accounts for an endogenous \textit{origin} of the ideas.
+  Below we briefly summarize the extensive literature outside of economics measuring the spread of ideas.  One element is missing from almost all of this work: a rigorous description of a mechanism that accounts for an endogenous \textit{origin} of the ideas.
 
-Economists and philosophers seem to be unusual in wanting a rigorous epistemology: An account of the origin of the ideas and why they are `justified.'  The Rational Expectations approach resolves this problem by making some rather bold assumptions (there is only one `true' model of the world; everyone fully understands and completely believes the same true model; everyone observes an identical set of facts and uses deductive reasoning to draw the same conclusions from them; everyone \emph{knows} that everyone deduces ... ; and so on).
+  Economists and philosophers seem to be unusual in wanting a rigorous epistemology: An account of the origin of the ideas and why they are `justified.'  The Rational Expectations approach resolves this problem by making some rather bold assumptions (there is only one `true' model of the world; everyone fully understands and completely believes the same true model; everyone observes an identical set of facts and uses deductive reasoning to draw the same conclusions from them; everyone \emph{knows} that everyone deduces ... ; and so on).
 
-An appealing way to connect these approaches is for epidemiological models in economics to be built to be `tunable' in the degree to which they differ from more familiar models (like `rational expectations').  This should not be hard:  If the only `source' of ideas is an agent who believes in the rational expectations solution, and the infection rate is 100 percent, the solution will be the rational expectations solution.  It will then be possible to pin down, step by step, the reasons for any deviation between the EE and the corresponding RE model.
+  An appealing way to connect these approaches is for epidemiological models in economics to be built to be `tunable' in the degree to which they differ from more familiar models (like `rational expectations').  This should not be hard:  If the only `source' of ideas is an agent who believes in the rational expectations solution, and the infection rate is 100 percent, the solution will be the rational expectations solution.  It will then be possible to pin down, step by step, the reasons for any deviation between the EE and the corresponding RE model.
 
-In fact, most of the examples of EE models we articulate below are of this kind: There is some parameter or set of parameters which can be set to zero (or some other specific value), causing the model to collapse to a RE model.%  See section~\ref{subsec:macroExp} for discussion of some specific examples.
+  In fact, most of the examples of EE models we articulate below are of this kind: There is some parameter or set of parameters which can be set to zero (or some other specific value), causing the model to collapse to a RE model.%  See section~\ref{subsec:macroExp} for discussion of some specific examples.
 
 }
 
@@ -286,7 +289,7 @@ In fact, most of the examples of EE models we articulate below are of this kind:
 We will use the word `classical' to refer to epidemiological models that descend from \cite{kermack_contribution_1927}, who formulated the problem as one of tracking the size of `compartments' of the population in different disease states (`Susceptible' to infection, `Infected,' or `Recovered'; \Susceptible, \Infected, and \Recovered~for short) under a `random mixing' assumption in which all members of the population were equally likely to encounter each other in a time interval.  These assumptions allowed formulation of the problem as a set of nonlinear differential equations.
 
 A newer literature
-%also examines the social transmission of beliefs and satisfies any reasonable interpretation of  an `epidemiological' approach:  A large body of work using
+% also examines the social transmission of beliefs and satisfies any reasonable interpretation of  an `epidemiological' approach:  A large body of work using
 uses the tools of `network theory' to study models in which the `nodes' in a graph are people and the `edges' are social links between nodes.  \cite{erdos1960evolution} originated this literature with a model in which connections among agents were a `random graph' (the network analog of the `random mixing' assumption), so the only parameter was `degree': the number of connections each agent had.  Subsequent work relaxed the random graph assumption, allowing meaningful definition of an agent's `neighbors,' and showed that a `clustering coefficient' is a useful measurement of the extent to which a person's neighbors know each other.\footnote{A standard reference for economists is the textbook by~\cite{jackson_social_2010}.} % These tools allow the researcher to consider any quantifiable type of connection -- not restricted to geography or workplace or any other narrow category.
 
 % \footnote{The mathematical formulation of network theory, or graph theory (the boundary between these is porous) is usually attributed to Leonhard Euler, in his solution to a problem of geography -- the ``Bridges of Konigsberg.''}
@@ -313,7 +316,7 @@ This provides a satisfying explanation for a phenomenon first documented by \cit
 
 % In this light, the fact that there are a few remaining members of the Flat Earth Society could be interpreted as evidence in favor of the philosopher-economist's point of view; those might be the unlucky people who made a math mistake which implied a pancake-shaped Earth, which could maybe be described as ``flat.''  Their imperviousness to the testimony of others could be interpreted as exemplifying people's ability to reach their own conclusions without regard to the common opinion of the crowd.
 
-%But the fact that almost everyone is ``connected'' in this sense is insufficient to justify a conclusion that everyone has identical beliefs about everything.  That would require very strong auxiliary assumptions about the nature of communications across links.
+% But the fact that almost everyone is ``connected'' in this sense is insufficient to justify a conclusion that everyone has identical beliefs about everything.  That would require very strong auxiliary assumptions about the nature of communications across links.
 
 \cite{moore2000epidemics} demonstrate that the patterns of the spread of diseases on `small worlds' networks can be quite similar to those of the classical SIR model - under certain assumptions about the nature of the interactions that occur over the links.  But a subsequent literature has shown that, even in a network whose link structure satisfies the `small worlds' requirements, the ultimate outcome depends sensitively not only on the structure of the network but also on the exact nature of the interactions.  Even in a fully connected world, it is easy to construct models in which disagreement persists indefinitely (\cite{acemouglu2013opinion}) and subpopulations converge to different beliefs~(\cite{sikder2020minimalistic}).%  (The `clustering coefficient' is often -- though not always -- important).
 
@@ -321,7 +324,7 @@ This provides a satisfying explanation for a phenomenon first documented by \cit
 
 \subsection{Expectational Tribes}\label{subsec:ExpTribes}
 
-%The fact that epidemiological models can easily imply that subgroups can settle into permanently different points of view is inconvenient from a modeling perspective.
+% The fact that epidemiological models can easily imply that subgroups can settle into permanently different points of view is inconvenient from a modeling perspective.
 If there were no evidence that differences of opinion could matter for important economic decisions, the case for epidemiological modeling would be weaker.  We therefore conclude this section on `background and motivation' by presenting some evidence of a recent clear failure of `identical beliefs' with consequences for measured choices in an area core to both micro and macro modeling: financial risk-taking.
 
 \href{https://github.com/iworld1991/EpiExp/blob/master/Literature/meeuwis2018belief.pdf}{\cite{meeuwis2018belief}}, using data on millions of retirement investors, show that after Donald Trump's surprise victory in the U.S.\ 2016 Presidential election, investors likely to be affiliated with Republican Party (inferred from  campaign donations at the zip code level) increased the equity share in their portfolio, while (likely) Democrats rebalanced into safe assets. (See~Figure~\ref{fig:parker}.)  These choices occurred at exactly the same time that consumer sentiment surveys showed that self-identified Republicans had suddenly become more optimistic, and Democrats more pessimistic, about the economy's prospects over the next few years.\footnote{The New York Fed \href{https://libertystreeteconomics.newyorkfed.org/2017/12/political-polarization-in-consumer-expectation'}{blog post} \textit{``Political Polarization in Consumer Expectations''} also finds partisan differences in consumer expectations.}\ifthenelse{\boolean{inBook}}{}{$^{,}$\footnote{Of course as is the case in many settings, the cause of changes in beliefs, here the election outcome, is also a potential cause of changes in objective economic circumstances.  The paper makes use of its rich data to provide strong evidence that differences in circumstances such as local economic conditions or hedging needs are not driving the results. In particular, investment behavior differs by political affiliation even among people living in the same county and working at the same firm, and after controlling for many other individual-level characteristics.}}
@@ -360,7 +363,7 @@ We will say that ideas, beliefs, `narratives,' or other mental states that affec
 
 \ifthenelse{\boolean{inBook}}{T}{This is a slightly narrower scope than encompassed in textbook definitions of epidemiology, which include diseases that develop without any identifiable external influence.  The  epidemiological models we are interested in are those for ``transmissible'' diseases.
 
-But t}ransmission need not be person-to-person; it can reflect exposure to a ``common source.''  (Cosmic radiation to which everyone is exposed can cause diseases like cancer).  % People living in caves would be less susceptible; those on mountaintops, more.
+  But t}ransmission need not be person-to-person; it can reflect exposure to a ``common source.''  (Cosmic radiation to which everyone is exposed can cause diseases like cancer).  % People living in caves would be less susceptible; those on mountaintops, more.
 In the context of beliefs, a natural interpretation of such a ``common source'' is news media (a point to which we return below).
 
 \begin{comment}
@@ -434,7 +437,7 @@ Options proliferate from there.\footnote{For a general introduction to these mod
 % Some variants do not have additional states but allow additional transitions among the states already treated (presumably, except for state `D'). For instance, the SIS model allows the infected (I) to transit back to susceptible (S) if immunity to the disease declines after some time.
 
 \ifthenelse{\boolean{inBook}}{}{
-    One standard assumption for all of these models is that agents are \textit{ex-ante} homogeneous, but the classical framework can be extended to permit various kinds of heterogeneity -- at the considerable cost of adding whole new systems of nonlinear differential equations.  An advantage of the network approach is that since it is solved by simulation, modifications of the model are much easier to make because they do not add new systems of simultaneous differential equations to be solved.
+  One standard assumption for all of these models is that agents are \textit{ex-ante} homogeneous, but the classical framework can be extended to permit various kinds of heterogeneity -- at the considerable cost of adding whole new systems of nonlinear differential equations.  An advantage of the network approach is that since it is solved by simulation, modifications of the model are much easier to make because they do not add new systems of simultaneous differential equations to be solved.
 }
 
 % Another extension of these models incorporates the possibility that some agents may take protective actions to change the transition probabilities, instead of taking them all as exogenous.
@@ -532,7 +535,7 @@ For example, the work on ``social learning'' in macroeconomics studies the propa
 Nor does this work take much notice of Shiller's longstanding view that economic dynamics reflect the competition of `narratives' that `go viral.'  ``Social learning'' models'  forecasting rules are arguably exactly how one might want to make a computational representation of what Shiller calls a narrative, and the economic dynamics that result from the increasing prevalence of the rules that succeed in `tournaments' are a good candidate for a computational representation of the consequences of what might be meant by the claim that `narratives' can `go viral.'
 
 \ifthenelse{\boolean{inBook}}{}{
-    Reciprocally, it does not seem that scholars interested in the ``narrative approach'' have embraced ``social learning in macroeconomics'' literature -- maybe because papers in that literature usually do not describe the decisions the agents make as being a consequence of the ``narratives'' they have adopted to understand the world.
+  Reciprocally, it does not seem that scholars interested in the ``narrative approach'' have embraced ``social learning in macroeconomics'' literature -- maybe because papers in that literature usually do not describe the decisions the agents make as being a consequence of the ``narratives'' they have adopted to understand the world.
 }
 
 One of our ambitions is for this survey to infect scholars with the idea that it is useful to describe their models in a common language drawn as much as possible from the familiar domains of epidemiological modeling and network theory:  Infectiousness, susceptibility, transmissibility, exposure, immunity, mixing, homophily, reproduction rates, degree distributions, clustering, and so on (in addition to whatever domain-specific terminology may be natural to their particular topic).
