@@ -1,0 +1,77 @@
+\input{\ResourcesDir/owner} % Owned by llorracc (draft) or econ-ark (published) ?
+\newboolean{AddRefsExists}
+\newboolean{economicsExists}
+\newboolean{BothExist}
+\newboolean{NeitherExists}
+\setboolean{BothExist}{true}
+\setboolean{NeitherExists}{true}
+
+\usepackage{datetime2}
+\usepackage{refcount}
+\usepackage{xr-hyper}
+\usepackage{hhline}
+% Sets up default definitions that must be renewcommanded to override in master 
+\newcommand{\onlyinsubfile}[1]{#1}\newcommand{\notinsubfile}[1]{}
+
+% https://tex.stackexchange.com/questions/463699/proper-reference-numbers-with-subfiles
+\newcommand\labelprefix{} 
+\newcommand\localorexternallabel[1]{%
+  \expandafter\ifx\csname r@#1\endcsname\relax
+  \labelprefix
+  \fi #1%
+}
+
+% Appendices and body are subfiles
+\usepackage{subfiles}
+
+% Implement a standard setup and shortcuts, e.g. for the \CRRA
+\usepackage{\econtexSetup}
+\usepackage{\econtexShortcuts}
+\usepackage{makecell} 
+%\usepackage{lineno}
+
+\usepackage{rotating}\usepackage{subfigure}
+% Embed metadata 
+\hypersetup{pdfauthor={Christopher D. Carroll <ccarroll@jhu.edu>},
+  pdftitle={Theoretical Foundations of Buffer Stock Saving},
+  pdfkeywords={Precautionary saving, buffer-stock saving, consumption, marginal propensity to consume, permanent income hypothesis, income fluctuation problem},
+  pdfcreator = {ccarroll@jhu.edu}
+}
+
+\IfFileExists{\EqDir/Problem.md}{
+  \GenericWarning{}{Reconfigure to use pdflatex -output-directory=LaTeX
+    or build with latexmk
+    \MessageBreak
+    see https://mg.readthedocs.io/latexmk.html\MessageBreak}
+  }{
+    % If Problem.md does not exist, that's because it's correctly looking
+    % in LaTeX/Equations, where that file is not present 
+}
+
+\bibliographystyle{\econtexBibStyle}
+
+\newtheorem{defn}{Definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+
+% Paper-specific macros
+\newcommand{\BoydT}{\mathsf{T}} % Contraction mapping operator
+\newcommand{\Shrinker}{\alpha}  % Contraction mapping shrinker
+
+\newcommand{\GICAbs}{\mbox{GIC}}
+\newcommand{\GICRaw}{\mbox{GIC}}
+\newcommand{\GPFRaw}{\mbox{GPF}}
+\newcommand{\GICNrm}{\mbox{GIC-Nrm}}
+\newcommand{\PFGPNew}{{\mbox{GPF}}}
+\newcommand{\mBal}{\check{\mRat}}
+\newcommand{\Abve}{\bar}
+\newcommand{\Belw}{\ushort}
+\newcommand{\Trg}{\hat}
+\newcommand{\mTrg}{\Trg{m}}
+\newcommand{\StE}{\check}
+\newcommand{\mStE}{\check{m}}
+\providecommand{\aRatBF}{\ensuremath{\pmb{\mathrm{a}}}}
+\providecommand{\mRatBF}{\ensuremath{\pmb{\mathrm{m}}}}
+\providecommand{\bRatBF}{\ensuremath{\pmb{\mathrm{b}}}}
+\providecommand{\IncUnemp}{\mu}
+\providecommand{\usual}{}
