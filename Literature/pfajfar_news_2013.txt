@@ -1,0 +1,2157 @@
+News on Inflation and the Epidemiology of Inflation Expectations
+Author(s): DAMJAN PFAJFAR and EMILIANO SANTORO
+Source: Journal of Money, Credit and Banking , September 2013, Vol. 45, No. 6
+(September 2013), pp. 1045-1067
+Published by: Wiley
+Stable URL: https://www.jstor.org/stable/23463591
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+https://about.jstor.org/terms
+
+Wiley and Ohio State University Press are collaborating with JSTOR to digitize, preserve and
+extend access to Journal of Money, Credit and Banking
+
+This content downloaded from
+73.173.145.14 on Mon, 22 Mar 2021 14:24:08 UTC
+All use subject to https://about.jstor.org/terms
+
+DAMJAN PFAJFAR
+EMILIANO SANTORO
+
+News on Inflation and the Epidemiology of Inflat
+
+Expectations
+This paper examines the nexus between news coverage on inflation and
+households' inflation expectations. In doing so, we test the epidemiological
+foundations of the sticky information model (Carroll 2003, 2006). We use
+both aggregate and household-level data from the Survey Research Center
+at the University of Michigan. We highlight a fundamental disconnection
+among news on inflation, consumers' frequency of expectation updating,
+and the accuracy of their expectations. Our evidence provides at best weak
+support to the epidemiological framework, as most of the consumers who
+update their expectations do not revise them toward professional forecasters'
+mean forecast.
+
+JEL codes: C53, D84, E31
+Keywords: inflation, survey expectations, news on inflation, information stickiness.
+
+The rational expectations revolution that has swept through
+the economics profession in the 1970s has shaped macroeconomic modeling ever
+since. Nevertheless, rational expectations have often been criticized based on their
+inadequacy to account for a realistic process of economic forecasting. In response
+to this criticism, recent years have borne witness to alternative theories of expecta
+tion formation, whose common trait consists of relaxing the set of strong assump
+tions imposed by the rational expectations paradigm. One of such novel approaches
+
+We would like to thank the Editor, Pok-sang Lam, two anonymous referees, and Tiago Cavalcanti,
+Jagjit Chadha, Roberta Distante, Chryssi Giannitsarou, Sean Holly, Cars Hommes, Seppo Honkapohja,
+Ivan Petrella, and other participants in seminars and presentations at the University of Cambridge, Catholic
+University of Milan, University of Copenhagen, the Federal Reserve Board, Koc University, New Orleans
+University, Norges Bank, the IUE Conference (2007), the MMF Conference (2007), the Midwest Macroe
+conomics Meetings (2012), and the Workshop on Models of Expectation Formation and the Role of the
+News Media for Information Transmission at the University of Hamburg (2012) for their constructive
+comments. All remaining errors are our own.
+
+Damjan Pfajfar is an Assistant Professor at CentER, EBC, University of Tilburg (E-mail:
+
+D.Pfajfar@uvt.nl). Emiliano Santoro is an UniCredit Foscolo Fellow at Catholic University of Milan
+and Associate Professor at Department of Economics, University of Copenhagen (E-mail: emiliano.
+santoro@unicatt.it).
+
+Received November 25, 2011; and accepted in revised form August 23, 2012.
+Journal of Money, Credit and Banking, Vol. 45, No. 6 (September 2013)
+© 2013 The Ohio State University
+
+This content downloaded from
+73.173.145.14 on Mon, 22 Mar 2021 14:24:08 UTC
+All use subject to https://about.jstor.org/terms
+
+1046 : MONEY, CREDIT AND BANKING
+
+assumes that information is sticky and disseminates slowly throughout the population
+
+so that economic agents revise their expectations periodically. Carroll (2003, 200
+henceforth, Carroll) has put forward an epidemiological mechanism of expectat
+
+formation, according to which consumers update their expectations from the med
+
+which are assumed to transmit professional forecasters' projections. The resulti
+framework is consistent with the intuition behind the sticky information model
+
+Mankiw and Reis (2001, 2002).
+
+Carroll examines inflation and unemployment forecasts collected by the Univ
+sity of Michigan's Survey Research Center. He shows that households revise the
+expectations toward the mean forecast from the Survey of Professional Forecaste
+
+which he claims to be rational. The estimated absorption rate is rather low, with only
+
+fourth (third) of the agents updating their inflation (unemployment) forecasts in eve
+
+quarter.1 He also provides empirical support to a main implication of the model; th
+
+is, greater news coverage induces "more rational" household forecasts. In fact, h
+shows that higher dissemination of news narrows the gap between the mean forec
+from the Michigan Survey and that of professional forecasters.
+
+This paper tests the epidemiological theory of expectation formation. From a
+methodological viewpoint, one of its main novelties consists of exploiting both
+gregate and household-level data from the Michigan Survey. The analysis with agg
+gate data primarily focuses on Carroll's corollary that more news stories imply th
+people are better informed and produce better forecasts. To this end, we complem
+Carroll's index of newspapers coverage with Michigan Survey data on consumers
+perception of favorable and unfavorable price developments in the period before t
+interview. Unlike the index of newspapers coverage employed by Carroll, which is
+
+necessarily informative about the actual degree of receptiveness to publicly availa
+
+information on prices, the Michigan Survey provides us with a direct measure of t
+flow of news on prices that consumers have heard. Surprisingly, both available an
+
+perceived news stories do not help at restricting the forecast gap between consume
+mean forecast and that of the professional forecasters, but rather widen it. Once
+
+account for the content of the information that disseminates throughout the popu
+tion, it turns out that unfavorable news (i.e., higher prices) exerts a positive imp
+on the forecast gap, while favorable news (i.e., lower prices) has either no statis
+
+cally significant impact or weakly contributes to reducing consumers' expectati
+
+bias. Overall, these results stand in sharp contrast with the theoretical apparatus p
+forward by Carroll.
+
+The analysis with household-level data represents the core of the study. We sho
+
+that an average of about 75% of the respondents revise their inflation forecasts w
+
+respect to their first interview. This figure is considerably greater than the absorpti
+
+rate estimated by Carroll. We also show that accessing some recent information o
+
+1. Doepke et al. (2008) estímate Carroll's sticky information model of inflation expectations wi
+data from Italy, Germany, United Kingdom, and France. They propose two alternative parameterizati
+of the sticky information model that differ in the stationarity assumptions about the underlying seri
+On average, European households revise their forecasts once every 18 months when stationarity appli
+Otherwise, the VECM analysis shows that expectation updating takes place on a yearly basis.
+
+This content downloaded from
+73.173.145.14 on Mon, 22 Mar 2021 14:24:08 UTC
+All use subject to https://about.jstor.org/terms
+
+DAMIAN PFAJFAR AND EMILIANO SANTORO I 1047
+
+prices does not necessarily reflect into more accurate forecasts,2 though it raise
+
+chances that consumers revise their expectations. The microdata from the Mich
+
+Survey give us the opportunity of addressing these inconsistencies and examining
+epidemiological foundations of the sticky information model in greater detail, as
+
+contain explicit information about the size and direction of consumers' expectat
+
+updating. To this end, we distinguish between respondents that adjust their fore
+
+toward and away from the professional forecasters' mean expectation. Surprisin
+
+survey participants split evenly in the two categories, though the average adjustme
+
+those who revise toward professional forecasters' mean forecast is generally grea
+
+This result might explain the discrepancy between Carroll's model—which forma
+
+the process of expectation updating underlying households' mean forecast—and
+evidence from household-level data.
+
+Our analysis suggests that just a small fraction of consumer forecasts can be ex
+plained according to the epidemiological model. Moreover, it appears that households
+do not make the best use of the information they perceive, as they persistently deviate
+
+from professional forecasters' mean expectation, displaying no tendency to adjust
+their forecasts appropriately. One possible interpretation is that news transmitted by
+
+the media distorts consumers' expectations, as it may contain judgmental assess
+ments of professional forecasters' views. As a consequence, media reports could be
+biased and the epidemiological mechanism results as a channel that transmits dis
+torted expectations. This factor could also explain why the degree of perception of
+unfavorable news on prices is significantly higher than that of favorable news, and
+why the accuracy of consumers' expectations decreases in the volume of negative
+news being perceived. We believe these results should lead academics and policy
+makers altogether to reconsider the role of information dissemination in stimulating
+consumers' expectation updating. Most importantly, they should serve as a useful
+guideline to envisage communication strategies and channels capable of ensuring
+that private expectations are well anchored.
+The remainder of the paper is laid out as follows. Section 1 describes the data;
+Section 2 explores the nexus between expectation updating, consumers' predictive
+accuracy, and news on prices; Section 3 examines household-level data from the
+survey of consumer attitudes and behavior; and Section 4 concludes.
+
+1. DATA AND PRELIMINARY EVIDENCE
+
+We employ both aggregate and household-level data, though greater emphasis
+
+will be posed on the microeconometric evidence. Household-level data conta
+
+2. These results are in line with the tendencies reported by Curtin (2005) in the analysis of bot
+time-series and panel data from the Michigan Survey, though no information about news on price
+exploited in this study. Curtin shows that consumers do not efficiently use all available information
+display staggered updating of their information set. Moreover, increases in the rate of inflation have
+larger impact than declines on inflation expectations.
+
+This content downloaded from
+73.173.145.14 on Mon, 22 Mar 2021 14:24:08 UTC
+All use subject to https://about.jstor.org/terms
+
+1048 : MONEY, CREDIT AND BANKING
+
+information on a wide range of factors that influence consumers' expectations. As
+such, they allow us to explore the process of expectation updating in greater detail. In
+this section, we describe the key features of the data set and report some preliminary
+
+evidence on households' and professional forecasters' inflation expectations, as well
+as on the newspapers index proposed by Carroll and a direct measure of consumers'
+receptiveness toward news on prices.
+
+1.1 Inflation Expectations
+In the estimation of his model Carroll proxies household expectations with the
+mean inflation forecast from the Survey of Consumer Attitudes and Behavior, which
+
+is conducted by the Survey Research Center (SRC) at the University of Michigan.
+The Michigan Survey (henceforth, MS) has been available on a monthly basis since
+January 1978.3 The short rotating panel design represents its main peculiarity: 40%
+of prior respondents are reinterviewed in every round, the remaining 60% being
+initial interviews from a random subsample of the telephone-owning mainland U.S.
+population. Two relevant questions about expected changes in the price level are
+addressed to the participants: first, they are asked whether they expect prices to go
+up, go down or stay the same in the next 12 months, and second, they are asked to
+provide a quantitative statement about the expected change.4
+As to professional forecasts, Carroll employs the mean inflation expectation from
+the Survey of Professional Forecasters (henceforth, SPF). The SPF, currently con
+ducted by the Federal Reserve Bank of Philadelphia, has collected and summarized
+forecasts from leading private forecasting firms since 1968. The survey questionnaire
+is distributed once a quarter and asks participants for quarter-by-quarter forecasts,
+spanning the current and next five quarters.5
+
+The present study explores both aggregate and household-level data from the
+
+MS. The analysis at the aggregate level (Section 2) relies on quarterly data over
+the 1978Q1-2011Q2 time window, while Section 3 reports evidence based on
+MS monthly microdata data over the 1978M1-2011M2 period.6 In the analy
+sis at the aggregate level we take the MS and SPF mean forecasts as indicators
+of central tendency in inflation forecasting, so as to be coherent with Carroll's
+3. Over the time window we examine the survey covers a monthly average of 575 households, with a
+peak of 1,479 respondents in 1978M11 and a minimum of 492 in 1992M11. A monthly average of about
+500 respondents has been interviewed since 1987M1.
+4. If a respondent expects prices to stay the same, the interviewer must make sure she does not actually
+expect that prices will change at the same rate they have changed in the past 12 months.
+
+5. The SPF was previously carried out as a joint product of the National Bureau of Economic Research
+(NBER) and the American Statistical Association (ASA) on a wide variety of economic variables, including
+GDP growth, various measures of inflation, and the rate of unemployment. For a comprehensive analysis
+of the SPF forecasts, the interested reader should refer to Croushore (1998).
+
+6. SPF forecasts of consumer price index (CPI) inflation are only available from 1981Q3. Therefore,
+from 1978Q1 to 1981Q3 we proxy the SPF mean forecast of CPI inflation with the mean forecast of the
+GDP deflator. The two series are highly correlated. However, for robustness purposes and to exclude the
+disinflation in the first part of the sample and the ongoing period of financial and macroeconomic turmoil,
+we replicate the entire analysis on the 1984-2004 subsample. The results, reported in an extended working
+paper version of the present manuscript, are virtually unchanged (see Pfajfar and Santoro 2012).
+
+This content downloaded from
+73.173.145.14 on Mon, 22 Mar 2021 14:24:08 UTC
+All use subject to https://about.jstor.org/terms
+
+DAMJAN PFAJFAR AND EMILIANO SANTORO : 1049
+
+"M
+
+VA 'v
+
+1980
+
+1990
+
+2000
+
+2010
+
+Year
+
+CPI Inflation SPF Mean Forecast
+MS Mean Forecast
+
+Fig. 1. CPI Inflation, MS and SPF Mean Forecasts.
+
+framework.7'8 Figure 1 reports household and professional mean forecasts against
+CPI inflation.9 Both surveys underpredict rising inflation in the first part of the sam
+ple, though their predictive accuracy improves remarkably during the subsequent
+disinflation. This is probably due to the credibility the Federal Reserve had acquired
+
+in the early 1980s, when the Federal Reserve System was headed by Paul Vol
+cker. From 1984 onward, expectations appear reasonably anchored, although they
+often fail to match periods of low inflation and, most notably, the 2009Q1-2009Q3
+deflation.
+
+7. One could argue that the median is less sensitive to outliers. In fact, cross-sectional variation in
+consumers' forecasts is substantial, with some implausible responses. Moreover, Thomas (1999) shows
+the median of the MS to be a better forecast than its mean. Nevertheless, Carroll's framework delivers
+predictions only for the mean and not for the median. For robustness purposes, in Pfajfar and Santoro
+(2012) we replicate the analysis at the aggregate level using the median forecasts from the MS and the
+SPF. We observe negligible (quantitative) differences with respect to the results reported in the present
+
+manuscript.
+
+8. Given the presence of some implausible responses it is advisable to exclude outliers. Curtin (1996)
+shows that alternative truncation rules lead to nearly unchanged results. In the analysis of household-level
+data we opt for a truncation at —5% and +30%: this yields 228,837 interviews over the 1978M1-2011M2
+period.
+
+9. Inflation expectations carried out at time t are graphed at the realized date (i.e., t + 4), so as to
+
+enhance comparability with the forecast target.
+
+This content downloaded from
+73.173.145.14 on Mon, 22 Mar 2021 14:24:08 UTC
+All use subject to https://about.jstor.org/terms
+
+1050 : MONEY, CREDIT AND BANKING
+
+1.2 News on Inflation
+A direct implication of Carroll's view is that more news stories should imply
+
+that people are better informed and produce better forecasts. He proposes a formal
+statistical test of whether greater news coverage is associated with "more rational"
+
+household forecasts. The econometric model employed to test this hypothesis is at th
+
+core of our analysis and requires reliable indicators of the flow of news on inflatio
+
+the public is confronted with. Carroll computes a yearly index of the intensity o
+
+news coverage in the New York Times and the Washington Post. We compute a simila
+
+index for each newspaper and each quarter since 1980Q1 (i.e., the year and quarter
+that both newspapers have been included in the LexisNexis database), searching fo
+stories that contain words beginning with the root "inflation" (so that also words
+like "inflationary" or "inflation-fighting" can be detected). For each newspaper, the
+number of stories is then converted to an index by dividing the number of articles i
+a given quarter by the total number of articles in the same quarter.10
+
+Our analysis will partly rely on a measure of consumers' perception of new in
+formation about prices. This has to be intended as a complement to the newspapers
+
+index proposed by Carroll. In fact, the accuracy of a proxy based on the intensity of
+news coverage on national newspapers can be questioned on different grounds. Fo
+instance, Blinder and Krueger (2004) suggest that consumers primarily rely on infor
+mation about inflation from the TV, followed by local and national newspapers.11 It i
+also plausible to expect that the volume of news about inflation does not necessarily
+match the flow of information that is assimilated by the public. In this respect,
+nontrivial discrepancy could result from the interplay of two mutually reinforcing
+effects: (i) news from the media do not necessarily reach the public uniformly and
+(ii) the connection between news and inflation expectations is likely to be affected by
+consumers' receptiveness to this news and the capacity to process new information.
+Indeed, Sims (2003) emphasizes the presence of information-processing constraint
+that could be compatible with such inefficiencies. In light of these considerations, it
+is advisable to complement the analysis with a variable that accounts for consumers
+actual perception of the information reported in the media. Household-level data from
+
+the MS allow us to compute a measure of the fraction of respondents that have heard
+of recent changes in prices. Information about the content of this news is also avai
+
+able, with the survey participants indicating whether they have heard about positive or
+
+negative changes. Specifically, the following question is addressed to each household
+
+"During the last few months, have you heard of any favorable or unfavorable change
+
+10. A potential problem connected with this type of search is that the resulting index may include
+articles that do not primarily cover U.S. inflation. Thus, we test the robustness of this methodology by
+restricting the search to articles that just cover U.S. inflation. Moreover, we exclude articles with less than
+120 words, so as to rule out short comments and summaries, searching for words beginning with the root
+"inflation" that are located either in the headline or among the "index terms." The resulting index yields
+empirical evidence in line with the results we report in the present article.
+11. We should also consider that over the last decade the Internet has become a main source of news
+
+on various economic statistics.
+
+This content downloaded from
+73.173.145.14 on Mon, 22 Mar 2021 14:24:08 UTC
+All use subject to https://about.jstor.org/terms
+
+DAMJAN PFAJFAR AND EMILIANO SANTORO : 1051
+
+1
+
+1980
+
+1
+
+1
+
+1990
+
+1—
+
+2000
+
+2010
+
+Year
+
+CPI Inflation Perceived News
+News Stories
+
+Fig. 2. Perceived News and News Stories.
+
+in business conditions?"12 In case of an affirmative response, a second question is
+asked: "What did you hear?" To address this query, the respondent is presented with
+a number of options regarding the type of business conditions she might have heard
+about, such as government, unemployment, prices, consumer demand, stock market,
+credit, and trade deficit. She is allowed to name at most two of these options. Should
+prices be one of the selected options, she can reply either (i) "Favorable News: Lower
+Prices" or (ii) "Unfavorable News: Higher Prices."13,14
+Figure 2 reports the fraction of MS respondents that have heard news about prices,
+
+together with the newspapers index and CPI inflation. The two news-related series
+display poor correlation. Moreover, the newspapers index displays weaker comove
+ment with the rate of inflation, as compared to our measure of "perceived news."
+
+12. Consumer sentiment indices as those that can be derived from household-level data on the per
+ception of business conditions have been successfully employed in various studies (see, among others,
+Souleles 2004).
+13. Should the interviewer perceive that the respondent has an uncorrect understanding of the question
+on perceived changes in prices, a further question is asked that aims at making sure that the responses
+"Favorable News: Lower Prices" and "Unfavorable News: Higher Prices" are correctly interpreted.
+
+14. The MS respondents primarily report about news on unemployment, followed by news on the
+
+government (elections) and then prices. It is important to stress that 41% of the respondents report having
+heard no news at all and that in 28% of the cases only one option is reported. This is to say that, on average,
+
+only 31% of the respondents are confronted with a potentially binding limit of two options. Therefore,
+though some underreporting may affect our measure of perceived changes in prices, this is not likely to be
+primarily induced by the specific design of the questionnaire.
+
+This content downloaded from
+73.173.145.14 on Mon, 22 Mar 2021 14:24:08 UTC
+All use subject to https://about.jstor.org/terms
+
+1052 : MONEY, CREDIT AND BANKING
+
+WV VV TvT.W W"'Y/Vrc/~VV ~\J VT\ .
+1980
+
+1990
+
+2000
+
+2010
+
+Year
+
+CPI Inflation Favorable Perceived News
+Unfavorable Perceived News
+
+Fig. 3. Favorable and Unfavorable Perceived News on Prices.
+
+The latter is more volatile, especially when abrupt changes in the rate of inflation
+occur, though in the last part of the sample it displays sizable fluctuations that neither
+
+actual inflation nor the newspapers index present. This probably reflects higher un
+certainty characterizing consumers' information during the recent period of marked
+macroeconomic and financial turmoil.
+
+When looking at the perceived tone of the news consumers have heard
+(Figure 3), it can be noted that the fraction of consumers that report favorable news
+almost constantly lie below the fraction of those that report unfavorable news. The
+
+latter proportion of respondents is more volatile and tends to peak when inflation
+accelerates. As expected on a priori grounds, the percentage of agents reporting
+favorable news is negatively (yet weakly) correlated with the rate of inflation. The
+sign of this correlation is reversed when considering the fraction of respondents that
+have heard negative news, indicating that households pay attention to news cover
+age mostly during adverse periods, which are characterized by relatively higher and
+more volatile inflation.15 This type of asymmetry is in line with the prospect the
+ory pioneered by Kahneman and Tversky (1979), as agents tend to manifest higher
+
+15. In the last part of the sample, higher volatility in the measure of (perceived) unfavorable news is
+not coupled with higher volatility in the rate of inflation. Such a delinking in the behavior of the two series
+probably reflects the emergence of additional determinants of consumers' receptiveness toward news about
+
+inflation, as well as the substantial increase in the volume of economic reporting on different aspects of
+the ongoing financial and macroeconomic turmoil.
+
+This content downloaded from
+73.173.145.14 on Mon, 22 Mar 2021 14:24:08 UTC
+All use subject to https://about.jstor.org/terms
+
+DAMJAN PFAJFAR AND EMILIANO SANTORO : 1053
+
+receptiveness toward bad news on prices, as compared to good news. According
+Hamilton (2004) and Soroka (2006), a common finding in literature on news cover
+
+is that there is more reporting of bad news than good news. To explain this evide
+
+Lamia and Lein (2008) suggest that newspapers may have an incentive to favor
+news over good news, so as to catch more attention from the readers and incr
+their sales.
+
+2. NEWS AND EXPECTATION UPDATING: EVIDENCE FROM AGGREGATE
+DATA
+
+According to the epidemiological foundations of the sticky information model,
+consumers update their forecasts from news reports, which are influenced by the ex
+pectations of the professional forecasters.16 The key assumption is that news spreads
+slowly across agents, reaching only a fraction of the population in each period. Carroll
+
+examines his model's ability to explain the MS data by estimating an equation of the
+form
+
+Jlf+4]t = Oil 7T,+4|, + «2^+311-1 + V„ (1)
+where nf+A\t denotes the time t mean MS forecast of inflation at time t + 4, while
+7TtF+41, is the SPF mean expectation over the same forecast horizon. We estimate (1)
+by ordinary least squares (OLS) and report the estimation results in Table 1. Overall
+our evidence is qualitatively in line with Carroll, as the rate of absorption we estimate
+
+implies that about a fourth of the MS participants update their forecasts in every
+quarter. An important difference with the benchmark study is that the proposition
+u\ T o?2 — 1 can be rejected at standard levels of statistical confidence. Thus, we
+
+reject the key model's prediction that households' mean expectation should result
+as a simple weighted average of the current "rational" (or newspaper) forecast and
+last period's mean inflation expectation.17 We also expand the set of regressors in
+equation (1) with the most recently published annual inflation rate as of time t. As in
+Carroll, the past inflation rate exerts a negative impact, though its coefficient is not
+statistically significant. Finally, the constant term is usually not significant or barely
+
+significant, implying that expectation updating through local or global interaction
+should not be an issue of concern.18
+
+16. Mankiw and Reis (2001, 2002) envisage a similar framework. They assume that agents update
+their forecasts only occasionally, due to the presence of an explicit cost to obtain and process information.
+
+17. Nunes (2009) reports similar evidence.
+
+18. Carroll (2006) explores the idea that individuals update their forecasts through informal com
+munication networks, demonstrating that a significant constant term in the epidemiological model could
+reflect social transmission of inflation expectations via conversations with neighbors (in addition to the
+news media channel). Carroll's exercise assumes that households who do not encounter the news source
+still face some probability of having an informal conversation about inflation (with a randomly selected
+other person in the population). For robustness purposes, we estimate alternative models of expectation
+updating whose common assumption is that "informed" consumers (i.e., individuals who report hearing
+
+This content downloaded from
+73.173.145.14 on Mon, 22 Mar 2021 14:24:08 UTC
+All use subject to https://about.jstor.org/terms
+
+1054 : MONEY, CREDIT AND BANKING
+
+TABLE i
+
+Estimation of 7r£4|, = a0 + aijr,%, + a2Ti^v.{ + 013^-1 + v,
+Equations
+l
+
+<*0
+
+0.280***
+
+a,
+
+0.245
+
+0.373*
+
+(0.218)
+
+0 279***
+
+T
+
+R2
+
+0.285***
+
+(0^067)
+
+(0.069)
+
+(0.065)
+
+(0.059)
+
+(0.069)
+
+(0.061)
+
+(0.091)
+
+<*i + a2 = 1
+
+p-value
+
+0.278***
+
+0.726***
+
+a0 = 0
+
+0.784***
+
+-0.015
+
+(0.042)
+a, +a2 + a3 = 1
+
+0.006
+
+0.169
+
+130
+
+130
+
+0.012
+130
+
+0.911
+
+0.985
+
+0.985
+
+5
+
+4
+
+(0.177)
+
+<*3
+
+Test
+
+3
+
+(0.069)
+
+0.769***
+
+a2
+
+2
+
+1.018***
+
+0.642***
+
+(0.040)
+
+-0.036
+
+0.059
+
+(0.049)
+
+(0.050)
+a2 + at3 = 1
+
+130
+0.912
+
+0.328
+130
+0.982
+
+Notes: and are the (four-quarters-ahead) mean expectations from the Michigan Survey and the Survey of Professional
+Forecasters in period t, respectively; tx¡-\ is the most recently published annual inflation rate as of time t. Robust standard errors computed
+
+with the Huber-White sandwich estimator are reported in parentheses. *** and * indicate significance at the 1% and 10% levels, respectively.
+
+The results so far are somewhat supportive of the epidemiological process of
+expectation formation. However, an indirect test of the model's ability to fit the
+data can be envisaged by comparing the estimates of oq in equation (1) with the
+degree of receptiveness to news displayed by the MS participants. In this respect,
+survey data reflect a higher degree of information stickiness, as compared to the
+indirect measure of updating frequency obtained by Carroll. On average, only 5.8%
+
+of the interviewees report having heard news about prices in each quarter. Such a
+discrepancy emphasizes the need to distinguish between "available" and "perceived"
+news for a reliable assessment of the relationship between news coverage of inflation,
+staggered updating of expectations, and consumers' predictive accuracy. To this
+
+end, we examine the corollary that greater news coverage should be associated
+with "more rational" household forecasts. As a formal procedure to test for this,
+
+Carroll fits an OLS regression of the squared distance between the MS and SPF
+forecasts, GAPSQ, — (^,+41,Tf+4|r- rr/',4|,)2,
+on the intensity of news coverage of inflation,
+" 711+4|f)
+
+NEWS?:
+
+GAPSQ, = yo + YiNEWSf + ¡i,. (2)
+
+A negative y 1 implies that an increase in the volume of news i
+
+of consumers' expectations to the SPF mean forecast. We prop
+to account for the joint effect of perceived and available news,
+
+news on prices) may transmit their views to "uninformed" ones. However, we r
+the empirical relevance of this type of informal communication networks. Addit
+is available upon request from the authors.
+
+This content downloaded from
+73.173.145.14 on Mon, 22 Mar 2021 14:24:08 UTC
+All use subject to https://about.jstor.org/terms
+
+DAMJAN PFAJFAR AND EMILIANO S ANTORO : 1055
+
+TABLE 2
+
+Estimation of GAP, = y0 + y,NEWS'f + y2NEWSf + y3(NEWS¡' x NEWS") + /x,
+Equations
+
+GAPSQ,
+
+0.027
+
+Yo
+
+2.510**
+
+(0.864)
+
+(1.119)
+
+(0.115)
+
+(0.076)
+
+0.236**
+
+Yi
+
+GAPSQ*
+
+0.046
+
+Y2
+
+GAPSQ,
+
+-0.294
+
+(0.437)
+0.435***
+
+(0.110)
+
+GAPSQ*
+
+-1.034
+
+(1.267)
+0.727**
+
+(0.282)
+
+GAPSQ,
+
+-2.153**
+
+(1.062)
+
+0.192*
+
+GAPSQ*
+
+-1.079
+
+(1.308)
+
+-0.018
+
+(0.098)
+
+(0.124)
+
+(0.119)
+
+(0.334)
+
+0.481***
+
+0.773**
+
+Yi
+
+T
+
+123
+
+R2
+
+0.057
+
+122
+0.001
+
+131
+0.364
+
+130
+
+0.320
+
+123
+0.455
+
+122
+0.323
+
+GAPSQ,
+
+GAPSQ";
+
+2.091
+
+-3.632**
+
+(1.537)
+
+(1.772)
+
+(0.209)
+
+(0.149)
+
+(0.307)
+
+(0.453)
+
+-0.330
+-0.112
+
+0.073*
+
+(0.042)
+123
+
+0.561
+
+0.294*
+
+1.126**
+
+-0.043
+
+(0.027)
+122
+
+0.335
+
+Notes: GAPt={GAPSQt,GAPSQ*}, where GAPSQt is the squared difference between the MS and SPF mean inflation forecasts and
+GAPSQ* is the squared difference between the MS mean inflation forecast and CPI inflation (at the forecast horizon); NEWSf is
+the fraction of MS participants that have heard of favorable or unfavorable changes in prices in the period before the interview;
+NEWS'? is an index of the intensity of news coverage of inflation in the New York Times and the Washington Post. Robust standard er
+rors computed with the Huber-White sandwich estimator are reported in parentheses. ***, **, and * indicate significance at the 1 %, 5%,
+and 10% levels, respectively.
+
+potential interaction:
+
+GAP, =y0 + y¡NEWS? + yiNEWSf + y3 (NEWS? x NEWS?) + ¡x,,
+GAP, = {GAPSQ,, GAPSQ*},
+where NEWS? is the fraction of MS respondents that have heard news about prices.
+As exposed above, we interpret this measure as an explicit indicator of the actual
+flow of information assimilated by the public, as compared to the newspapers index
+employed by Carroll.19 To test the robustness of our results we also consider an
+alternative measure of expectation bias, which depends on the distance between
+the time t MS mean forecast of inflation at time t + 4 and CPI inflation at time
+t + 4: GAPSQ* — (jrf+4— tx,+a)2. In fact, GAPSQ does not account for the fact that
+professional forecasters may not form expectations rationally, as a number of studies
+
+indicate (e.g., Roberts 1998, Lanne, Louma and Luoto 2009, Nunes 2009).
+Surprisingly, estimating (3) and various alternative specifications points to a pos
+itive and statistically significant relationship between the expectation gap and either
+measure of the flow of news on inflation (see Table 2).20 Therefore, a rise in the
+
+19. Note that NEWSf proxies the amount of news heard before the inflation forecast is carried out.
+This allows us to avoid the impact of reverse causation.
+
+20. Importantly, we reach the same conclusions by regressing the expectation gap over a constant
+and the newspapers index. These results are not overturned if we consider the time window examined by
+Carroll (additional results are available upon request from the authors). By contrast, it should be noted that
+Carroll's estimates are not robust in this sense, as he shows that excluding the first year of the SPF mean
+forecast from the sample may affect the statistical significance of the estimated impact of news on the
+expectation gap. It should also be noted that Carroll uses a yearly index in regressions involving quarterly
+data. Our estimates do not suffer from this type of inconsistency, as we compute a quarterly newspapers
+
+index.
+
+This content downloaded from
+73.173.145.14 on Mon, 22 Mar 2021 14:24:08 UTC
+All use subject to https://about.jstor.org/terms
+
+1056 : MONEY, CREDIT AND BANKING
+
+fraction of "informed" consumers increases the distance between the MS and SPF
+
+mean forecasts, a result that stands in sharp contrast to Carroll. When accounting for
+
+the joint effect of NEWSf and NEWS?, only the former exerts a positive impact on
+the expectation gap, while the coefficient attached to NEWS? is either not statistically
+different from zero or barely significant. Finally, we search for the presence of inter
+
+action effects between newspapers' coverage and households' receptiveness toward
+news about inflation, allowing for the term NEWSf x NEWS'? in the set of regres
+sors. The additional regressor explains most of the variability in GAPSQ,, though its
+coefficient is only significant at the 10% level. As to NEWS? and NEWS?, they both
+exert a negative impact, though their coefficients are not statistically different from
+
+zero.21 This comes as no surprise, given that both measures of news present posi
+tive correlations with GAPSQ,. Nevertheless it should be noted that perceived news
+presents greater correlation with both measures of prediction bias and dominates their
+correlations with the interaction term.22
+
+We now focus on a second dimension of the relationship between news on inflation
+
+and expectation updating, which consists of accounting for the perceived content of
+the news consumers have heard of. Doms and Morin (2004) show that media coverage
+is important in that it affects households' perception of the economy in at least three
+
+ways. First, media affect sentiment by informing consumers about economic data and
+
+professional opinions. Second, the greater the volume of news about the economy,
+the greater the likelihood that consumers update their expectations. These channels
+are explicitly at work in Carroll's framework. However, Doms and Morin point to a
+third channel that the epidemiological model disregards, suggesting that consumers
+receive a signal about the economy through the tone of economic reporting.23 The next
+
+exercise aims at disentangling the differential impact that favorable and unfavorable
+
+news on prices may exert on the distance between MS and SPF mean forecasts. The
+following equation is estimated:
+
+GAP, = Yo + y[j'NEWS?u + Y\NEWS?'f + n,. (4)
+Table 3 shows that while favorable news exerts a negative—yet not statistically
+significant—impact on the expectation gap, unfavorable news tends to enlarge it.
+Thus, we cannot appreciate a negative impact of news on the expectation gap even
+when consumers' overall perception is more pessimistic and their forecasts should
+reflect higher accuracy and/or attentiveness to economic reporting. Also Lamia and
+Lein (2008) report similar evidence based on German data on inflation expectations,
+
+21. When assuming GAPSQ' as the dependent variable, the interaction term has no statistically signif
+icant impact, while NEWS* exerts a stronger positive impact than NEWSf, whose effect is only significant
+at the 10% level.
+
+22. Table Al in the Appendix reports pairwise correlations among the variables employed in the
+regression analysis of Section 2. The correlation between GAPSQ, and NEWSf (NEWS") is about 60%
+(24%). Otherwise, Corx(NEWS^, GAPSQ') is about 57 %, while Corr(N£WS;v, GAPSQ') is not statistically
+
+different from zero.
+
+23. According to Sims (2003), rational inattention provides an explanation why the tone and volume
+of economic reporting affect sentiment beyond the economic information contained in the reporting.
+
+This content downloaded from
+73.173.145.14 on Mon, 22 Mar 2021 14:24:08 UTC
+All use subject to https://about.jstor.org/terms
+
+DAMJAN PFAJFAR AND EMILIANO SANTORO I 1057
+
+TABLE 3
+
+Estimation of GAP, = y0 + yfNEWS™ + yfNEWSf'
+Equations
+
+GAPSQ'
+
+GAPSQ,
+
+2.503***
+
+Ya
+
+(0.446)
+
+-0.230
+
+Yt
+
+(0.153)
+
+3.680***
+
+(0.851)
+
+-0.392
+
+GAPSQ,
+
+0.107
+
+(0.332)
+0.454***
+
+131
+0.005
+
+R2
+
+-0.352
+
+(0.975)
+
+(0.385)
+
+Y,u
+
+T
+
+GAPSQ'!
+
+130
+
+0.005
+
+(0.112)
+131
+0.391
+
+0.758***
+
+(0.285)
+130
+
+0.343
+
+GAPSQ,
+
+0.191
+
+(0.311)
+
+-0.069
+
+(0.101)
+0.453***
+
+GAPSQ;
+
+-0.222
+
+(1.052)
+
+-0.106
+
+(0.297)
+
+0.756***
+
+(0.112)
+
+(0.286)
+
+0.392
+
+0.344
+
+131
+
+130
+
+Notes: This table reports the OLS estimates from equation (4). Robust standard errors computed with the Huber-White sandwich estimator
+are reported in parentheses. *** indicates significance at the 1% level.
+
+while Drager (2011) obtains analogous results in the analysis of both expected and
+perceived inflation in Sweden. These facts certainly deserve to be examined in further
+
+detail. The next section investigates these issues with the support of household-level
+data.
+
+3. NEWS AND EXPECTATION UPDATING: EVIDENCE FROM
+HOUSEHOLD-LEVEL DATA
+
+The MS household-level data provide us with a further opportunity to test
+
+microfoundation of the sticky information model. To this end, we examine
+
+between individual-specific information on prices and expectation updating.
+
+by extracting the proportion of survey participants that have updated their
+
+forecasts in the second interview: Figure 4 reports the resulting time-vary
+quency of expectation updating, together with CPI inflation. The two serie
+
+positively, though the former displays higher volatility. It is interesting to not
+
+average, expectation updating takes place at a faster pace when inflation is h
+
+more volatile, as in the first part of the sample. Notably, the time-varying f
+
+reaches its maximum only in two episodes, namely, March 1980 (i.e., the
+peak in the rate of inflation) and November 1989.24
+
+On average, 74.9% of the respondents do update their inflation forecast
+second interview. Among these, 53.2% (46.8%) adjust their expectations do
+
+(upward).25 Thus, the fraction of consumers that revise their forecasts is signi
+
+24. In early 1980, Volcker's new FED policy began to bite. The U.S. interest rates started to
+substantially, with the prime rate hitting 20% in April 1980. As to the second episode, this mi
+increasing fears of contraction in economic activity, as it actually happened in the early 1990s
+
+25. Unless otherwise indicated, the proportions of MS participants we report in this section (
+on alternative attributes) are statistically different at the 1% level of significance.
+
+This content downloaded from
+73.173.145.14 on Mon, 22 Mar 2021 14:24:08 UTC
+All use subject to https://about.jstor.org/terms
+
+1058 : MONEY, CREDIT AND BANKING
+
+1980
+
+1990
+
+2000
+
+2010
+
+Year
+
+CPI Infl. (left axis) Exp. Updating Freq. (right axis)
+Fig. 4. Time-Varying Frequency of Expectation Updating.
+
+greater than the proportion of those who have perceived news about inflation, as well
+
+as than the absorption rate estimated by Carroll. Deeper insights come from inspect
+ing the direction of expectation updating. We compare the fraction of respondents that
+
+revise their expectations toward the SPF mean forecast with those who move further
+
+away. Interestingly, households split evenly into these categories, with 51.3% of the
+participants revising expectations in the "right" direction. In addition, only for 16.2%
+
+of the consumers who revise their forecasts we cannot reject the null hypothesis
+according to which their expectations match exactly the SPF mean expectation. The
+picture remains virtually unchanged even if we just consider "informed" households:
+in this case, the percentage of those who update expectations toward the SPF bench
+mark is 49.4%.26 We also compute the average forecast error for those who update
+their expectations and those who do not, as well as for the households that report
+some recent news on prices and those who do not (see Table 4). Surprisingly, the
+average forecast error is about 12% higher when consumers update their forecasts,
+regardless of whether they are aware of some recent changes in prices. Table 4 also
+
+26. We also consider expectation updating "toward" the CPI rate of inflation. In this case 50.5% of the
+MS interviewees that update their forecasts do revise them in the "right" direction. This figure reduces
+to 49% when we consider agents that have heard of recent changes in prices, though this percentage is
+statistically lower than 50% only at the 10% level of statistical significance.
+
+This content downloaded from
+73.173.145.14 on Mon, 22 Mar 2021 14:24:08 UTC
+All use subject to https://about.jstor.org/terms
+
+DAMJAN PFAJFAR AND EMILIANO SANTORO : 1059
+
+TABLE 4
+
+Predictive Accuracy, Expectation Updating, and News Perception
+AFE conditional on news
+
+Updated forecast
+Forecast stays the same
+
+AFE
+
+YES
+
+NO
+
+3.09
+2.76
+
+3.33
+2.99
+
+2.77
+
+3.10
+
+Notes: This table reports the average forecast error (AFE) implied by household-level data: this is computed both for agents who have updated
+their forecast with respect to the first interview (first row, labeled "Updated forecast") and those who have not revised their forecasts (second
+row, labeled "Forecast stays the same"). Moreover, we compute the average forecast error for those who have heard of recent changes in
+
+prices (column labeled "AFE conditional on news—YES"), and those who have not (column labeled "AFE conditional on news—NO").
+
+implies that the average forecast error is significantly higher when consumers report
+
+of recent changes in prices, as compared to when they do not.
+
+The key message we retrieve from the preliminary investigation of household
+level statistics is that having some information at hand does not necessarily reflect
+into more accurate forecasts. Armed with this preliminary evidence, a main task of
+
+our analysis is to examine in closer detail the interconnection between the degree
+of receptiveness to news about inflation and the probability that households revise
+
+their expectations. We specify a binary response model of the process underlying
+expectation updating at the household level. The following variable is defined:
+
+Í1 ifz*>0
+z, = ,
+
+[O if z* < 0
+
+i
+
+=
+
+l,2,...,
+
+N,
+
+(5)
+
+where z* is the latent variable that accounts for consumers' expectation updating. Its
+
+discrete counterpart, z, , takes value 1 if the ith respondent has updated her expec
+tations from the first interview, and 0 otherwise. Since individuals are interviewed
+only twice, the only reference term to determine whether expectation updating has
+taken place is represented by the response in the second interview. Thus, we avoid
+reporting time-subscripts. The following latent process is assumed:
+
+z* = a + NEWS? P + NEWS" p + jtS + :xF û + \¡y + u¡, (6)
+where a is a constant, NEWSf is an individual-specific indicator of news percep
+tion (which equals 1 if the interviewee has heard of recent changes in prices and
+0 otherwise), NEWSN indexes the intensity of news coverage, it denotes the last
+observed CPI inflation rate,27 nF is the mean forecast from the SPF, x, is a vector
+of sociodemographic characteristics (such as gender, age, income, education, race,
+marital status, location in the United States, and some interaction terms) and u, is
+normally distributed. A word of caution is in order before we proceed with the anal
+
+ysis. As described in Section 1, sample selection is designed so that not all initial
+
+27. We have also considered the possibility that consumers look at alternative inflation measures,
+such as the average rate of inflation over the 6-month reinterview period. However, we obtain neither
+qualitatively nor quantitatively different results.
+
+This content downloaded from
+73.173.145.14 on Mon, 22 Mar 2021 14:24:08 UTC
+All use subject to https://about.jstor.org/terms
+
+1060 I MONEY, CREDIT AND BANKING
+
+TABLE 5
+
+Determinants of Expectation Updating at the Household Level
+Models
+
+Model 1
+
+NEWSf
+NEWS"
+
+Model 2
+
+Model 3
+
+0.031***
+
+0.042***
+
+(0.008)
+
+(0.008)
+
+Model 4
+
+0.035***
+
+(0.008)
+
+71
+
+0.007***
+
+(0.001)
+
+0.001
+
+(0.001)
+0.001
+
+(0.001)
+
+(0.001)
+
+(0.002)
+
+(0.003)
+
+0.554
+
+0.818
+
+0.010***
+
+7ZF
+
+0.035***
+
+(0.008)
+-0.003***
+
+0.004***
+
+(0.000)
+
+Model 5
+
+Yes
+
+0.016***
+
+Controls
+SSC
+N
+
+Yes
+
+Yes
+
+Yes
+
+0.000***
+
+0.001***
+
+0.005***
+
+Yes
+
+72,853
+
+71,644
+
+72,853
+
+72,853
+
+71,644
+
+Wald test (x2)
+
+2Q4***
+
+260***
+
+346***
+
+368***
+
+353***
+
+Notes: This table reports the marginal partial effects from the estimation of Pr(z, = 1 |h/) = <b(h, £), where <!>(•) is the cumulative distribution
+function of the standard normal distribution, h, is the vector of covariates, and £ is a vector of coefficients; z, takes value 1 if the i th respondent
+
+has updated his or her expectations from the first interview, and 0 otherwise. Vector h, includes: NEWSf, which is an individual-specific
+indicator of news perception (this equals 1 if the interviewee has heard of changes in prices in the past few months before the interview, and 0
+otherwise); NEWSN, which is an index of the intensity of news coverage of inflation in the New York Times and the Washington Post; n, which
+
+denotes the last observed consumer price index inflation rate; n F, which is the mean forecast from the Survey of Professional Forecasters at
+the time the individual is interviewed; a vector x, of control variables, where we include information on the sociodemographic characteristics
+of the Michigan Survey respondents (such as gender, age, income, education, race, marital status, and location in the United States), as well
+as a number of interaction terms among them. To account for the presence of question attrition, we perform a sample selection correction
+test: SSC stands for the p-value of the Wald test of independence from the sample selection equation (which includes as regressors some
+sociodemographic characteristics as well as the tone of die news consumers have heard). A constant has been included in all regressions.
+Standard errors are calculated with the delta method (Oehlert 1992) and are reported in parentheses. *** indicates significance at the 1% level.
+
+survey respondents are reinterviewed. Moreover, though the SRC tries to ensure that
+
+first interviews are a random subsample of the population, not all respondents who
+are selected for a second interview agree to participate. We label the resulting drop
+off as "interview attrition." It is also possible to identify a fraction of respondents that
+
+participate in the second interview but do not provide a year-ahead inflation expecta
+tion. This type of drop off is usually referred to as "question attrition." Although this
+
+amounts to 6.8% of the total number of survey respondents over the time window
+we examine, it may represent a potential source of bias. To account for this factor,
+
+we implement the Heckman correction (Heckman 1979), a procedure that offers a
+means of correcting for nonrandomly selected samples.28
+
+The binary response framework provides some support to the sticky information
+paradigm. As shown in Table 5, hearing news on prices on average increases the prob
+ability that households revise their inflation forecasts, no matter which news-related
+
+variable is considered.29 However, when both NEWSf and NEWSn are accounted
+
+28. For brevity of exposition, we only report estimates corrected for question attrition. Pfajfar and
+Santoro (2012) allow for the presence of interview attrition as well, reporting results that are in line with
+those presented in this article.
+29. Table 5 reports marginal effects for a representative agent with the following characteristics: white
+(non-Hispanic), married, male, 40 years old, with a high school diploma, with an income in the middle
+quintile of the distribution and living in the North-Center of the country.
+
+This content downloaded from
+73.173.145.14 on Mon, 22 Mar 2021 14:24:08 UTC
+All use subject to https://about.jstor.org/terms
+
+DAMJAN PFAJFAR AND EMILIANO SANTORO I 1061
+
+for in the set of regressors, only the former is found to exert a statistically signifi
+
+cant positive effect. Finally, both current inflation and the SPF mean forecast have a
+
+positive impact, though the latter seems to induce a stronger marginal effect on the
+probability of revising expectations.
+
+The analysis of household-level data also confirms that an increase in the volume
+
+of (available or perceived) news expands the gap between household forecasts and
+the SPF mean expectation, as indicated by the impact of NEWS'-, in the following
+regression:
+
+GAPU =a+ NEWS?i ft + h ur) + uu, (7)
+GAPU = [GAPSQi,, GAPSQ*,},
+
+where GAPSQit is the squared difference between the MS household-specif
+
+and the SPF mean inflation forecast, GAPSQ*, is the squared difference
+the MS household-specific forecast and CPI inflation (at the forecast hor
+
+is a vector of all other covariates reported in equation (6), and rj is
+
+coefficients. Moreover, uiit = v, + e,j(, where v¡ ~ N(0, cr2) is an individu
+
+random effect, e¿i, ~ N(0, a2) is the idiosyncratic component of the erro
+
+Cov(i£,_() = 0. The results from the estimation of (7) are reported in T
+
+7. Both NEWS? and NEWSN contribute at widening GAP, ,. We also obse
+(perceived) unfavorable news has a positive effect on the expectation bi
+
+perceiving favorable news exerts a marginally significant negative impact
+
+The econometric and statistical analyses with the MS microdata provide u
+
+elements whose coexistence is problematic for the internal consistency o
+
+argument. On one hand, hearing news about prices increases the probab
+
+consumers update their expectations. On the other hand, even if consum
+heard of some recent changes in prices, expectations are not necessarily
+the right direction. The last point in particular raises the problem of inve
+closer detail how expectations are actually revised. To address this issue
+the following probit regression:
+
+Pr(y,\2 - l|w,-) = 4>(w¡V0, (8)
+
+where <t> is the cumulative distribution functio
+
+tion, and y,t2 is a binary variable that indicates w
+
+is greater (y, 2 = 1) or lower (y,,2 = 0) than pr
+in the second interview. Moreover, w, is the v
+
+is one), t/t is the vector of parameters. The
+
+understand whether households' potential over
+
+respect to the SPF mean forecast in the first r
+
+30. Curtin (2005) employs household-level data and repor
+tations to positive and negative changes in actual inflation
+possibility of an asymmetric response to changes in the p
+
+to this view, increases in inflation will more promptly dimin
+in inflation will only slowly rebuild lost credibility.
+
+This content downloaded from
+73.173.145.14 on Mon, 22 Mar 2021 14:24:08 UTC
+All use subject to https://about.jstor.org/terms
+
+1062 : MONEY, CREDIT AND BANKING
+
+TABLE 6
+
+"GAP" Linear Regressions (Random Effects)
+Equations
+
+Constant
+
+GAPSQij
+
+GAPSQi,,
+
+29.854***
+
+10.170***
+
+(1.414)
+
+NEWSI
+
+(1.501)
+
+GAPSQij
+
+9.763***
+
+(1.462)
+5.136***
+
+7.046***
+
+(0.642)
+
+(0.645)
+1.322***
+
+NEWSf
+
+(0.033)
+
+f
+
+GAPSQU
+
+8.613***
+
+(1.499)
+
+GAPSQij
+13.139***
+
+(1.470)
+
+6.227***
+
+(0.682)
+0.173**
+
+3.220***
+
+(0.068)
+
+(0.068)
+
+3.041***
+
+(0.160)
+
+tt,-i
+
+0.796***
+
+(0.161)
+
+1.752***
+
+(0.108)
+4.371***
+
+NEWSIf
+
+(0.668)
+-2.846*
+
+NEWS-/
+Controls
+
+N xT
+
+Wald test (x2)
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+175,307
+
+170,860
+5,073***
+
+175,307
+6,446***
+
+170,860
+5,707***
+
+3,809***
+
+(1.537)
+
+Yes .
+
+175,307
+6 749***
+
+Notes: We estimate (7) by feasible GLS. GAPSQ¡t is the squared difference between the Michigan Survey household-specific forecast and
+the Survey of Professional Forecasters mean inflation forecast; NEWS?t is an individual-specific indicator of news perception (which equals
+1 if the interviewee has heard of changes in prices in the past few months, and 0 otherwise); NEWS^f and NEWS?}U are individual-specific
+
+responses about the content of the news the survey participant has heard about; NEWSf is an index of the intensity of news coverage of
+inflation in the New York Times and the Washington Post-, n,-\ denotes the last observed consumer price index inflation rate as of time
+t; ^,F+i2\i 's the (12-month-ahead) mean forecast from the Survey of Professional Forecasters; the vector of control variables includes
+information on the sociodemographic characteristics of the t'th respondent (such as gender, age, income, education, race, marital status, and
+location in the United States), as well as some interaction terms among these characteristics. Clustered standard errors (computed at the
+individual level through the sandwich estimator) are reported in parentheses. ***, **, and * indicate significance at the 1%, 5%, and 10%
+levels, respectively.
+
+of overpredicting (or underpredicting) in the second interview. To this end, we in
+clude y,-,i in w,. We are also interested in understanding whether news absorption
+exerts any asymmetric impact depending on whether consumers have overpredicted
+or underpredicted in the first interview. Thus, along with NEWSf, w, also includes
+the interaction term NEWSf x y¡t i.
+Table 8 shows that overprediction is inertial, as y, \ exerts a positive marginal
+
+effect on the probability that >',,2 = 1. Also, NEWSf has a positive effect, while
+the interaction term NEWSf x y,j has no statistically meaningful impact on the
+probability of overpredicting, unless it enters as the only regressor in w,, together
+with y,j and the vector of control variables.31 The general tone of the news that
+consumers have perceived seems to have an asymmetric effect, as unfavorable news
+increases the chances of overpredicting, while favorable news has a negative marginal
+effect. Finally, the actual rate of inflation exerts a positive impact on the chances that
+
+y¡ 2 = 1 in most of the regressions, which signals a certain overreaction to marginal
+
+31. Otherwise, NEWSN does not exert a statistically significant impact when NEWSf is also included
+
+in W;.
+
+This content downloaded from
+73.173.145.14 on Mon, 22 Mar 2021 14:24:08 UTC
+All use subject to https://about.jstor.org/terms
+
+DAMJAN PFAJFAR AND EMILIANO SANTORO : 1063
+
+TABLE 7
+
+"GAP" Linear Regressions (Random Effects)
+Equations
+
+GAPSQ*,
+
+GAPSQl,
+
+GAPSQ*,
+
+GAPSQL,
+
+GAPSQ*,
+
+32.017*** 10.342*** 8.045*** 8.945*** 12.889***
+
+(1.580) (1.659) (1.624) (1.657) (1.637)
+10.923*** 8.660*** 9.942***
+
+(0.734)
+
+(0.740)
+1.429***
+
+(0.035)
+
+(0.786)
+0.341***
+
+(0.072)
+
+3.865*** 2.878*** 0.411**
+
+(0.074) (0.171) (0.185)
+
+2.491***
+
+(0.121)
+7.570***
+
+(0.763)
+-3.258**
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+(1.617)
+
+Yes
+
+172,838 168,391 172,838 168,391 172,838
+3,480*** 4,496*** 6,390*** 5,030*** 7,045***
+
+Notes: We estimate (7) by feasible GLS. GAPSQ*t is the squared difference between the Michigan S
+
+consumer price index (CPI) inflation (at the forecast horizon); NEWSft is an individual-specific ind
+
+1 if the interviewee has heard of changes in prices in the past few months and 0 otherwise); NEWSf
+
+responses about the content of the news the survey participant has heard about; NEWS? is an inde
+
+inflation in the New York Times and the Washington Post, tt,_i denotes the last observed C
+
+(12-month-ahead) mean forecast from the Survey of Professional Forecasters; the vector of contro
+sociodemographic characteristics of the z'th respondent (such as gender, age, income, education, race,
+States), as well as some interaction terms among these characteristics. Clustered standard errors (com
+sandwich estimator) are reported in parentheses. *** and ** indicate significance at the 1% and 5% l
+
+variations in the inflation outlook. Such a pessimistic attit
+
+role in preventing households from making an efficient use
+
+perceive and adjust their expectations toward the SPF mean
+With this picture at hand, one important question needs to b
+explain the coexistence of an updating mechanism à la Car
+supported by the analysis with aggregate data—with the f
+data are not consistent with the epidemiological hypothesi
+
+mutually contradicting phenomena, one could argue that alt
+
+respondents update their expectations in the "right" directio
+
+their adjustments is such that the "aggregate revision" mov
+
+forecast.32 To test this hypothesis we compute, for all respo
+
+forecasts in the second interview, the average distance bet
+and the SPF mean expectation, both in the first and second
+
+32. Another possible explanation relies on the role of the predictions o
+
+for the first time. In fact, it may be the case that even if incumbents' expe
+
+as predicted by Carroll, new respondents' predictions influence the dyn
+
+However, we test this hypothesis and obtain no supportive evidence.
+
+This content downloaded from
+73.173.145.14 on Mon, 22 Mar 2021 14:24:08 UTC
+All use subject to https://about.jstor.org/terms
+
+1064 : MONEY, CREDIT AND BANKING
+
+TABLE 8
+
+Determinants of the Forecast Bias at the Household Level
+Models
+
+Model 1
+
+y>, i
+
+TC
+
+n"
+
+NEWS'
+
+0.273***
+
+Model 2
+
+0.256***
+
+Model 3
+
+0.256***
+
+Model 4
+
+0.254***
+
+Model 5
+
+0.261***
+
+(0.004)
+
+(0.003)
+
+(0.005)
+
+(0.004)
+
+(0.005)
+
+(0.001)
+
+(0.001)
+
+(0.002)
+
+(0.002)
+
+(0.002)
+
+-0.007***
+
+0.018***
+
+0.042***
+
+-0.086***
+
+(0.003)
+0.134***
+
+0.041***
+
+-0.084***
+
+(0.002)
+
+0.106***
+
+(0.009)
+
+■F
+
+0.270***
+
+(0.004)
+
+-0.086***
+
+(0.003)
+0 ii3***
+
+(o'oi3)
+
+(0.009)
+-0.022***
+
+■"
+
+0.042***
+
+Model 6
+
+(0.001)
+
+0.108***
+(0.009)
+
+-0.079**
+(0.040)
+xyn -0.012 0.102***
+(0.017) (0.012)
+Yes Yes Yes Yes Yes Yes
+0.000*** 0.000*** 0.001*** 0.000*** 0.001*** 0.000***
+
+68,216 67,106 68,216 68,216 68,216 68,216
+5,805*** 7,374*** 6,300*** 5,886*** 6,321*** 5,044***
+
+Notes: This table reports the marginal partial effects from the estimation of Pr(y/,2 = 1 |w,- ) = <l>(w, t/r), where O(-) is the cu
+distribution function of the standard normal distribution, w,- is the vector of covariates, and t/t is a vector of coefficients; y¡2 is
+variable that indicates whether the ith respondent's prediction is greater (y/,2= 1) or lower (y,\2= 0 ) iban professional forecaste
+prediction in the second interview. Vector w, includes: the binary variable y¿j, which indicates whether the ith respondent's pre
+
+has been greater (y,\¡ = 1) or lower (y, j= 0) than professional forecasters' mean prediction in the first interview; NEWS?, which
+individual-specific indicator of news perception (which equals 1 if the interviewee has heard of changes in prices in the past few
+
+before the interview, and 0 otherwise); NEWSn is an index of the intensity of news coverage of inflation in the New York Times
+
+Washington Post; NEWS¡ j and NEWS'-'t are individual-specific responses about the content of the news the survey participant ha
+
+about; n denotes the last observed consumer price index inflation rate; ttf denotes the ( 12-month-ahead) mean forecast from the S
+Professional Forecasters; a vector x, of control variables include information on the sociodemographic characteristics (such as gen
+income, education, race, marital status, and location in the United States), as well as a number of interaction terms among them. W
+information on the sociodemographic characteristics of the MS respondents (such as gender, age, income, education, race, marital s
+location in the United States), as well as a number of interaction terms among them. To account for the presence of question att
+perform a sample selection correction test; SSC stands for the p-value of the Wald test of independence from the sample selection
+(which includes as regressors some sociodemographic characteristics as well as the tone of die news consumers have heard). A con
+has been included in all regressions. Standard errors are calculated with the delta method (Oehlert 1992) and are reported in paren
+*** and ** indicate significance at the 1% and 5% levels, respectively.
+
+show that the average prediction gap narrows down by about 43.2% from the
+
+to the second survey response, implying that the aggregate revision is on av
+dominated by the adjustment of those who update correctly, as compared to
+who shift their projections further away from the SPF mean forecast.33 The
+
+implication of this result is that the empirical relevance of the model behind eq
+
+(1) may actually result as a statistical artifact. In this case, the key driver of
+
+expectation updating mechanism underlying consumers' mean response could
+
+33. This mechanism turns out to be reinforced if the two statistics include those who do not u
+their predictions between the first and second interviews. This is because the SPF mean forecast te
+decrease over time, driving down the average prediction gap between the first and second intervie
+
+This content downloaded from
+73.173.145.14 on Mon, 22 Mar 2021 14:24:08 UTC
+All use subject to https://about.jstor.org/terms
+
+DAMJAN PFAJFAR AND EMILIANO SANTORO : 1065
+
+represented by the relative size of the adjustments in household-level forecasts ra
+
+than by the epidemiology of inflation expectations.
+
+4. CONCLUDING REMARKS
+
+This paper has extensively tested the epidemiological foundations of the st
+information model. We provide at best weak support for the view according to
+
+consumers update their forecasts from the media, which are assumed to tran
+
+professional forecasters' projections. An average of about 75% of the survey re
+
+dents update their inflation forecasts with respect to their first interview. How
+
+just a small fraction of those who update their forecasts (16.2%) potentially r
+them in accordance with the epidemiological model. Moreover, in each quarter
+
+5.8% of the households display some receptiveness to news on prices. This sug
+a fundamental disconnection between news on inflation and consumers' expecta
+updating.
+A key result is that hearing news on prices does not necessarily help at producing
+better forecasts, though it increases the probability that consumers revise their expec
+
+tations. Consumers' expectation updating is also characterized by a marked degree
+of pessimism, which shows at different stages of the analysis. Importantly, the rate
+of CPI inflation and households' receptiveness to unfavorable news on prices exert a
+
+positive effect on the expectation gap between households' and professional forecast
+
+ers' mean expectations. These factors also increase the likelihood that households
+persistently produce higher forecasts than professional forecasters' mean expecta
+tion. Along with households' pessimistic attitude, two alternative interpretations may
+be put forward to explain why consumers display stronger perception of unfavorable
+
+rather than favorable news on prices, and why this news exerts a negative impact
+on the accuracy of their forecasts. On one hand, news coverage may be biased by
+the views of players in the media, so that the views of professional forecasters are
+not reported objectively. On the other hand, as discussed by a number of contrib
+utors, professional forecasters often produce biased projections and, even if their
+views are objectively transmitted by the media, they may induce further distortions in
+
+consumers' forecasts. These considerations altogether point to the epidemiological
+mechanism of expectation formation as a transmission channel of potentially biased
+forecasts. In addition, the existence of a substantial fraction of consumers who do
+not adjust their forecasts toward professional forecasters' mean expectation is likely
+to induce an omitted-variable bias in Carroll's estimates of the absorption rate.
+Our study has some relevant implications for evaluating the cost of disinflations
+and the role of communication and credibility in monetary policymaking. As to the
+first aspect, a number of authors stress the importance of quantifying the cost of
+disinflations in contexts where expectations are updated in a staggered fashion (see,
+
+e.g., Mankiw and Reis 2001, 2002, Carroll 2003, 2006). Time-varying measures of
+the frequency of expectation updating as the one we retrieve from household-level
+
+This content downloaded from
+73.173.145.14 on Mon, 22 Mar 2021 14:24:08 UTC
+All use subject to https://about.jstor.org/terms
+
+1066 : MONEY, CREDIT AND BANKING
+
+data can be used to explore these issues. In fact, in agreement with the rational
+inattention argument that consumers should be more intensely focused on news
+
+on inflation and inflation-fighting policies during periods of high inflation, we show
+
+that consumers' frequency of expectation updating has actually reached its maximum
+right before Volcker's disinflationary policy kicked in during the 1980s. As to the role
+
+of communication in policymaking, Carroll suggests that credibility among experts
+
+may not be sufficient to achieve a desired inflationary outcome and suggests that th
+
+views of the experts need to be communicated effectively to the population to becom
+effective. These may certainly be important aspects, provided that the experts produce
+
+efficient forecasts and these are objectively transmitted by the media. Nevertheless,
+
+we should also account for the possibility that consumers do not necessarily follow
+
+experts' views or they may not make an efficient use of the information they retrieve
+from the media.
+
+APPENDIX
+
+TABLE al
+
+Pairwise Correlations
+GAPSQ*
+
+GAPSQ,
+
+GAPSQ,
+
+GAPSQ;
+
+NEWS"
+
+NEWSf
+N,pNf
+
+NEWSff
+NEWSf'u
+n,
+
+newsf
+
+NEWSf
+
+NfNf
+
+newsF'F
+
+newsfm
+
+"t
+
+1
+
+0.537"*
+0.238"
+
+1
+
+0.026
+
+0.604***
+0.718***
+-0.074
+0.626***
+0.535***
+
+0.566***
+0.414***
+-0.071
+0.586"*
+0.177*
+
+1
+
+0.071
+0.567***
+
+1
+
+0.799***
+
+1
+
+0.216*
+
+0.149
+
+0.223*
+
+0.017
+0.752***
+
+0.973***
+0.501***
+
+0.758***
+0.787***
+
+1
+-0.083 1
+-0.029 0.512*** 1
+
+Notes: This table reports pairwise correlations among the variables employed in the regression analy
+
+NEWSf xN EWS^. ♦**,** , and * indicate significance at the 0.1%, 1%, and 5% levels.
+
+LITERATURE CITED
+
+Blinder, Alan S., and Alan B. Krueger. (2004) "What Does the Public Know about
+Policy, and How Does It Know It?" Brookings Papers on Economic Activity, 35, 3
+
+Carroll, Christopher D. (2003) "Macroeconomic Expectations of Households and Pro
+Forecasters." Quarterly Journal of Economics, 118, 269-98.
+
+Carroll, Christopher D. (2006) "The Epidemiology of Macroeconomic Expectations
+Economy as an Evolving Complex System III, edited by Lawrance Blume, and St
+Durlauf, pp. 5-30. Oxford: Oxford University Press.
+
+Croushore, Dean. (1998) "Evaluating Inflation Forecasts." Working Papers 98-14
+Reserve Bank of Philadelphia.
+
+Curtin, Richard. (1996) "Procedure to Estimate Price Expectations." Mimeo, Unive
+Michigan.
+
+This content downloaded from
+73.173.145.14 on Mon, 22 Mar 2021 14:24:08 UTC
+All use subject to https://about.jstor.org/terms
+
+DAMJAN PFAJFAR AND EMILIANO SANTORO : 1067
+
+Curtin, Richard. (2005) "Inflation Expectations: Theoretical Models and Empirical Test
+Mimeo, University of Michigan.
+
+Doepke, Joerg, Jonas Dovern, Ulrich Fritsche, and Jiri Slacalek. (2008) "The Dynamic
+European Inflation Expectations." Topics in Macroeconomics, 8.
+
+Doms, Mark, and Norman Morin. (2004) "Consumer Sentiment, the Economy, and the N
+Media." Working Papers in Applied Economic Theory 2004-09, Federal Reserve Bank
+San Francisco.
+
+Dràger, Lena. (2011) "Inflation Perceptions and Expectations in Sweden—Are Media Reports
+the 'Missing Link?'" Macroeconomics and Finance Series 201101, Hamburg University.
+Hamilton, James. (2004) All the News That's Fit to Sell: How the Market Transforms Infor
+mation into News. Princeton, NJ: Princeton University Press.
+
+Heckman, James J. (1979) "Sample Selection Bias as a Specification Error." Econometrica,
+47, 153-61.
+Kahneman, Daniel, and Amos Tversky. (1979) "Prospect Theory: An Analysis of Decision
+under Risk." Econometrica, 47, 263-91.
+Lamia, Michael J., and Sarah M. Lein. (2008) "The Role of Media for Consumers' Inflation
+Expectation Formation." Working Papers 08-201, KOF Swiss Economic Institute, ETH
+Zurich.
+
+Lanne, Markku, Arto Luoma, and Jani Luoto. (2009) "A Naïve Sticky Information Model
+of Households' Inflation Expectations." Journal of Economic Dynamics and Control, 33,
+1332-44.
+
+Mankiw, N. Gregory, and Ricardo Reis. (2001) "Sticky Information: A Model of Monetary
+Nonneutrality and Structural Slumps." NBER Working Paper No. 8614.
+Mankiw, N. Gregory, and Ricardo Reis. (2002) "Sticky Information versus Sticky Prices: A
+Proposal to Replace the New Keynesian Phillips Curve." Quarterly Journal of Economics,
+
+117,1295-328.
+
+Nunes, Ricardo. (2009) "On the Epidemiological Microfoundations of Sticky Information."
+Oxford Bulletin of Economics and Statistics, 71, 643-57.
+
+Oehlert, Gary W. (1992) "A Note on the Delta Method." The American Statistician, 46,27-29.
+Pfajfar, Damjan, and Emiliano Santoro. (2012) "News on Inflation and the Epidemiology of In
+flation Expectations." Discussion Paper 2012-048, Tilburg University, Center for Economic
+Research.
+
+Roberts, John M. (1998) "Inflation Expectations and the Transmission of Monetary Policy."
+Finance and Economics Discussion Series 1998-43, Board of Governors of the Federal
+Reserve System (U.S.).
+
+Sims, Christopher A. (2003) "Implications of Rational Inattention." Journal of Monetary
+Economics, 50, 665-90.
+Soroka, Stuart N. (2006) "Good News and Bad News: Asymmetric Responses to Economic
+Information." Journal of Politics, 68, 372-85.
+
+Souleles, Nicholas S. (2004) "Expectations, Heterogeneous Forecast Errors, and Consumption:
+Micro Evidence from the Michigan Consumer Sentiment Surveys." Journal of Money, Credit
+and Banking, 36, 39-72.
+
+Thomas, Lloyd B. (1999) "Survey Measures of Expected U.S. Inflation." Journal of Economic
+Perspectives, 13, 125-44.
+
+This content downloaded from
+73.173.145.14 on Mon, 22 Mar 2021 14:24:08 UTC
+All use subject to https://about.jstor.org/terms
+
+

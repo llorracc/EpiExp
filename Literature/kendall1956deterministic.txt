@@ -1,0 +1,1532 @@
+DETERMINISTIC AND STOCHASTIC
+EPIDEMICS IN CLOSED POPULATIONS
+DAVID G. KENDALL
+MAGDALEN COLLEGE, OXFORD UNIVERSITY
+
+1. Introduction
+The problem of the growth of a stochastic epidemic in a closed population is a
+very challenging one; from one point of view it is almost trivial, for we have only
+to deal with a temporally homogeneous Markov process having a finite number of
+states, and yet there is great difficulty in finding out anything useful about the
+sample "epidemic curve" (the plot of the number of infectious individuals in circulation in the population as a function of the time'). We are much better informed
+about the ultimate behaviour of the system; the ordinate of the epidemic curve must
+eventually fall to zero and then the system will be "frozen" with say X( CO) "susceptibles" and Z(co) "removed" persons, where X(O) + Z( c) is equal to the
+(fixed) population size, and the form of the distribution of the random variable
+Z( co) has been investigated by McKendrick [9] and by Bailey [ 1], [2].; the latter
+has even given an explicit formula for this distribution (due to F. G. Foster). So we
+know the ultimate fate of such a system, but little about how that state is attained.
+The difficulties blocking the way to an analytical solution are made clear by Professor Bartlett in his contribution to the present Symposium. In this paper I wish
+to sketch some approximate procedures which give a partial answer, which may be
+of value in more complicated situations of the same sort and which it would be
+interesting to replace by a mathematical argument. It is to be hoped that no one
+will apply them without reflexion, for there is nothing to be said in their favour
+beyond a certain intuitive plausibility and the questionable confirmation afforded
+by an armchair Monte Carlo experiment.
+2. Deterministic epidemics
+
+We must begin by making a thorough study of the corresponding deterministic
+system; this is the closed epidemic in the form in which it was studied by Kermack
+and McKendrick [8]. These writers partitioned the population of n individuals
+into three classes:
+x susceptibles,
+y infected persons in circulation in the population, and
+z "removed" persons (recovered, dead or isolated),
+so that
+x + y + z = n = constant.
+(1)
+1 This definition of "epidemic curve" and the definition of the "notifications curve" in section 2
+may differ from the reader's own usage.
+149
+
+THIRD BERKELEY SYMPOSIUM: KENDALL
+
+150
+
+It is supposed that there is migration from the x-class to the y-class (infection) at a
+rate proportional to xy, and removal from the y-class to the z-class (recovery, etc.)
+at a rate proportional to y; there is no exit from the z-class and no entry into the
+x-class. Thus we have the Kermack-McKendrick (K and K) equations,
+dx-= _-Xy,
+dt
+dY=
+-3xy
+dt
+
+(2)
+
+y,
+
+-
+
+dz
+dt
+X
+where ,B and Sy are constants, and immediately it follows that
+=
+
+(3)
+
+x =
+
+where p
+
+-
+
+xoe-(z0)/P
+
+y/,8. If initially x = xo, y = yo and z0= 0 then
+
+dz=
+
+(4)
+
+y(n
+
+-
+
+z
+
+-
+
+xoe-Z/p).
+
+K and K dealt with this equation by replacing the exponential by the first three
+terms of its Taylor series; the resulting equation can be integrated explicitly to
+give, as an approximation to the epidemic curve,
+y = C sech2 (at- O)
+(5)
+where C, a and 4 are constants. It has often been noted that in practice we observe
+not y(t) but (d/dt)z(t) (the "notifications" curve2); however the ordinates of the two
+curves will be in a constant proportion in virtue of the third of equations (2)
+(although they will not be so related in the stochastic case). It is curious that the
+K and K approximation (5) should have been accepted without comment for nearly
+thirty years; the exact solution is easily obtained and the difference between the two
+can be of practical significance.
+An indirect way of examining the appropriateness of an approximation is to determine the modified model to which it is the exact solution. To this end let us
+temporarily assume that the infection-rate # varies systematically with z (this is
+almost equivalent to a dependence of the infection-rate on the "age" of the epidemic). In place of (3) and (4) we shall now have
+
+log (x/xo) = -
+
+(6)
+and
+
+dz
+
+(7)
+
+(y
+
+->
+
+-
+
+z -
+
+Jf
+
+,B(w)dw
+
+xo exp [- J # (w)dw])
+
+The differential equation (7) will coincide with the K and K approximation to (4)
+when
+
+(8)
+2See footnote 1.
+
+#(z)
+
+2[1[I
+
+-z/p] + [1 -Z
+-1
+See foo+
+
+EPIDEMICS: CLOSED POPULATIONS
+
+151
+
+and so #(z) = 3 when z = 0 and $(z) < A when 0 < z_ p. From this we infer that
+the K and K approximation consistently underestimates the infection-rate and so
+it will underestimate the total size z( o) of the epidemic, as may also be seen more
+directly from (4). It will correspond to a hopelessly unrealistic model if at any
+time z > p (for then a negative infection-rate will be in operation), and the infection-rate will be kept within 10 per cent of its initial value only if z( -) :. 0.373 p.
+Now the K and K approximation leads to the formula
+(9)
+limz(-) = 2p(Xo - p)/xo
+(x0 > p)
+vO-0
+
+0
+
+(xo _ p),
+and so, accepting this as a rough relation between x0 and z( co), we cannot expect a
+consistent approximation if xo > 2p, and we must be prepared for appreciable errors
+in the infection-rate if xo > 1.23p. In previous work, values of xo/p up to 4 have
+been considered; this makes evident the need for an accurate treatment of equations
+(2), and we shall now give one.
+=
+
+3. The exact solution to the Kermack-McKendrick equations
+It is usual to discuss the epidemic generated by the addition of a given (small)
+number of infectious persons to a population consisting entirely of susceptibles.
+However it is a feature of the deterministic model that some of the formulas give
+meaningful results even in the limit when the initial number of infectious persons
+(yo) is allowed to tend to zero; thus it is possible to predict the size of epidemic (that
+is, the total number of "cases") resulting from the introduction of a mere trace of
+infection into a wholly susceptible population of size x0 when the constant p is
+given. This is, in fact, what the K and K formula (9) does, for their approximating
+model. We have seen that (9) must not be used if xo >> p and in practice it is most
+frequently of interest when x0 - p; in this case a further approximation is possible
+and we can write
+limz(oa) = 2(xo - p)
+
+(9a)
+
+YO-0
+
+(x0 > P)
+
+0
+(xo _ p).
+Equation (9a) asserts (i) that there will be no epidemic if x0 is less than p (the socalled threshold) and (ii) that in all other cases the number of susceptibles will fall
+as far below the threshold as it was initially above it. These two statements constitute the celebrated threshold theorem of K and K. One of our tasks will be to examine
+the exact behaviour of the deterministic model in these respects, and we shall then
+have to enquire what sort of threshold phenomena may be expected in the stochastic
+situation.
+Let ¢2 be the (unique) positive root of the equation
+=
+
+z = n-xoe'tIp
+(10)
+then we shall have, on integrating (4),
+
+(11)
+
+Yt
+
+=
+
+f
+
+n
+
+-
+
+-W AxoeDIp
+
+w
+
+(0 _
+
+Z
+
+<
+
+t2),
+
+152
+
+THIRD BERKELEY SYMPOSIUM: KENDALL
+
+and this when taken in conjunction with (4) gives a pair of parametric equations
+for the notifications curve relating dz/dt to t. The whole curve for 0 _ t < o is so
+represented because the integral in (11) diverges when z - t2; r2 iS accordingly the
+correct value of z(co). If now we put yo = 0 (so that n = xo) in (4) and (11), the
+integral also diverges at its lower limit and we are in trouble because the epidemic
+takes an infinitely long time to get started. We can avoid this difficulty by a change
+of time-origin. K and K in 1927 noted that
+d (Z) = 'Y2y
+
+(12)
+
+-
+
+so that the peak of the notifications (and so also of the epidemic) curve occurs when the
+number of susceptibles is equal to the threshold (p). Let us call this epoch the centre of
+the epidemic and adopt it as the origin of time. We shall now have xo = p; the value
+of yo will be an important parameter distinguishing between epidemics of varying
+severity (it is, with the natural time-unit 1/-y, the peak height of the notifications
+curve) and without any loss of generality it will still be convenient to take zo = 0.
+The numerical value of z(t) will then be the number of removed cases in (0, t) if t is
+positive and in (t, 0) if t is negative. The notifications curve will now be given parametrically by the pair of equations
+
+r-t
+Jo yo + p(l -dwe-P) -w
+
+=
+
+(13)
+
+1
+
+dz
+
+=p)
+
+where- < t < do
+and -t < < t2, and -P and r2 are the (unique) negative
+and positive roots of the equation
+(14)
+e-'1 - 1 + t/p = yo/p
+z
+
+The complete change in our point of view should be noted; to begin with we
+followed the customary procedure of studying the development of an epidemic subsequent to its artificial creation by the introduction of yo infectious persons into a
+population of xo susceptibles. We are now considering an epidemic as an entity
+existing from t = - to t = + -, and we have for convenience located our timeorigin at the epoch of greatest activity. When we come to examine the analogous
+stochastic system we shall return to the earlier point of view, and examine epidemics
+started up artificially at t = 0.
+It will be seen from (13) that
+(15)
+
+lim z(t) = -P , lim z(t) = t2,
+
+and so ¢, and 62 are the numbers of cases removed from circulation before and after
+the central epoch, respectively. The asymmetry of the notifications curve will be
+betrayed by an inequality between ri and 52 (we shall find that 5, < 52), and this is
+the first point at which we notice a qualitative departure from the K and K solution (5).
+
+153
+
+EPIDEMICS: CLOSED POPULATIONS
+
+The approximate shape of the notifications curve near its peak (at t = 0) can be
+found by applying a K and K type of approximation to (13); this gives
+
+idzd
+
+(16)
+
+yosech2 {etJit }
+
+an approximation valid so long as I z I /p is small.
+TABLE I
+
+DETERMINIsTIC EPIDEMICS OF THE K AND K TYPE
+Proportion of
+Proportion Infectious
+and in Circulation at Removals Occurring
+before "Central" Epoch
+"Central" Epoch
+ym.a/N
+r1/(r1+r2)
+per cent
+per cent
+
+Proportion of
+Population Attacked
+I
+per cent
+
+Population
+as Multiple of
+"Threshold"
+N/p
+
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+
+1.00
+1.05
+1.12
+1.19
+1.28
+1.39
+1.53
+1.72
+2.01
+2.56
+
+0.0
+0.1
+0.6
+1.3
+2.5
+4.3
+6.8
+10.3
+15.5
+24.2
+
+50
+49
+49
+48
+48
+47
+46
+45
+43
+41
+
+95
+98
+
+3.2
+4.0
+
+31.9
+
+38
+35
+
+40.3
+
+When t = - , the number N of susceptibles must have been p + yo + P1, and
+this now plays the role of the total population size. Thus
+
+I_ p + Yo+ +-2 ~1
+
+(17)
+
+is the fraction of the total population which succumbs to the disease (either before
+or after the central epoch) and we shall call I the intensity of the epidemic.
+In table I will be found a few figures which illustrate the exact behaviour of a
+K and K epidemic. It will be found useful in performing such calculations to take
+the intensity I as a basic parameter. If I and p are given we consider first the
+transition:
+Epoch
+
+x-men
+y-men
+z-men
+
+t-X
+
+t= +c
+
+N
+
+N-NI
+
+0
+
+0
+
+0
+
+NI
+
+Equation (3) then gives at once
+(18)
+
+N - NI = Ne-NI/P
+
+THIRD BERKELEY SYMPOSIUM: KENDALL
+
+154
+
+so that
+1
+I_ l1og11
+1I
+
+N
+
+(19)
+
+We next consider the transition:
+Epoch
+
+t
+
+and this time (3) gives
+(20)
+Now I =
+
+k2l)
+
+t =O
+
+o
+
+N
+0
+0
+
+x-men
+y-men
+z-men
+
+p
+
+=
+
+p
+Yo
+
+Ne-rl/p.
+
+(tl + N2)/N, and so as a measure of the asymmetry we have
+
+¢1+
+~~~~~~1
+
+~~21)
+
+P log N= NI
+p
+
+2
+
+Finally the number of infectious persons in circulation at the central epoch will be
+
+(22)
+
+yo=
+
+N-p-¢i,
+
+and the peak height of the notifications curve will be
+(23)
+
+(dd2t)
+
+=
+
+y(N
+
+p
+-
+
+These figures are very instructive and throw a good deal of light on the KermackMcKendrick threshold theorem. The first thing to notice is that N _ p, so that the
+initial number of susceptibles in an epidemic generated at an infinitely remote epoch
+by the introduction of a trace of infection must always exceed the threshold. The
+number of susceptibles will fall to the threshold value when the peak occurs on the
+notifications curve, and it will then continue falling to a final value N(1 - I). To
+take an example, let p = 100 and suppose that the population starts with N = 105
+susceptibles and a trace of infection; in the resulting epidemic (which will take an
+infinitely long time to develop) 10 per cent of the population will succumb to the
+disease and so the final number of susceptibles will be 94.5. In this example, therefore, the crude K and K formula,
+(24)
+
+p
+
+-
+
+X(c) -x(- )-p,
+
+works very well. But if the intensity of the epidemic is large then the K and K rule
+fails. Thus, if p = 100 and if now the population starts at t = - with N = 201
+susceptibles and a trace of infection, we see from table I that the epidemic will have
+an intensity I = 80 per cent; the final number of susceptibles will thus be 40. The
+crude K and K rule would have predicted zero as the final number of susceptibles
+and the more accurate approximation (9) would have predicted a figure of 100. For
+epidemics of considerable severity, therefore, neither of (9) and (9a) can safely be
+
+EPIDEMICS: CLOSED POPULATIONS
+
+155
+
+used and the exact value should either be read off from table I or calculated by the
+method just explained.
+The last column of table I provides information about the asymmetry of the notifications curve; this shows that when the initial number of susceptibles is as large
+as 4p then nearly two-thirds of the removals occur after the peak of the notifications
+curve. It would be of interest to know whether empirical notifications curves are
+skewed in this direction.
+Table I is concerned only with epidemics extending from t =- to t = + -, but
+exactly the same principles can be used to find the subsequent behaviour of an
+epidemic which is artificially started at t = 0 by the addition of a infectious persons
+to a population of m susceptibles; a worked example will be found in the next section
+of this paper. In these circumstances an epidemic will always be generated, whether
+or not m exceeds the threshold; however, the peak of the notifications curve will not be
+observed unless the induced epidemic is in a precentral phase. This means that, for all
+values of a, the notifications curve will be peaked if m > p and J-shaped if m _ p.
+4. Stochastic epidemics
+Let us turn now to the stochastic model, first considered by McKendrick [ 9 ] and
+amplified by Bartlett [3], [4] which is the natural stochastic equivalent to the deterministic scheme of sections 2 and 3. The numbers of susceptible persons, of infectious persons and of removed cases will now be integer-valued random variables
+to be denoted by X(t), Y(t) and Z(t), respectively. The epidemic will be thought of
+as having been artificially started at the epoch t = 0 with the initial conditions
+
+X(O) = m, Y(O) = a, Z(O) = 0,
+and a distinction will be drawn between the primary cases introduced into the population from the outside and the secondary cases, m - X( o-) in number, which occur
+among the m original susceptibles. The stochastic process is to be a Markovian one
+with a finite number of states and its character will be sufficiently indicated by
+listing the transitions possible in the time interval (t, t + dt):
+(i) an infection (X -o X - 1 and Y - Y + 1) with probability ,BXY dt + o(dt);
+(ii) a removal (Y- Y - 1 and Z -* Z + 1) with probability-yY dt + o(dt);
+(iii) a variety of multiple transitions, with total probability o(dt); and
+(iv) no change, with probability 1 - (OX + -y) Y dt + o(dt).
+The ratio p -=y/#3 is again important and will still be called the threshold. (Bailey
+[2] calls it the relative removal rate.)
+Bailey [1], [ 21 has investigated the distribution of the total number
+
+(25)
+
+w--m-X(O)
+
+=
+
+Z(-)-a
+
+of secondary cases and his calculations confirm and extend preliminary conclusions
+already reached by McKendrick [9]. Bailey's results were presented graphically
+in a form which proved difficult to describe in simple terms; the following reclassification of his results tells a clearer story. (Here and elsewhere, when referring to
+Mr. Bailey's work, I am indebted to him for permission to include some unpublished
+material.)
+
+156
+
+THIRD BERKELEY SYMPOSIUM: KENDALL
+
+The J-shaped distributions have a peak at w = 0 and the ordinate then falls off
+steadily as w increases. The bimodal distributions have one peak at w = 0 and the
+ordinates then assume very small values until a second peak appears at or just before w = m. For m/p = 4 the two peaks are of comparable height and the distribution is U-shaped. Bailey's calculations thus suggest the occurrence of a definite
+change in form at m = p; it would be of interest to investigate this stochastic
+threshold phenomenon analytically, using the formula developed by Bailey and
+Foster, but this has not yet been done.3 We can summarise Bailey's findings in
+another way and say that (i) there will be a minor epidemic if m < p, and (ii) there
+will be either a minor or a maj or epidemic if m > p, epidemics of intermediate
+magnitude being very unlikely.
+TABLE II
+CHARACTER OF THE DISTRIBUTION OF THE TOrAL
+NUMBER, W, OF SECONDARY CASES
+(Number, a, of primary cases = 1)
+M/P
+0.67
+
+0.80
+
+1
+
+1.33
+
+2
+
+4
+
+10
+20
+40
+
+All J-shaped
+
+All bimodal
+
+(Based on calculations by N. T. J. Bailey.)
+
+A moment's reflexion shows that this mode of behaviour might well have been
+expected. At t = 0 the population of infectious individuals (Y-men) is subject to a
+"tangential" birth-and-death process with a constant death-rate equal to -Y and a
+stochastic birth-rate equal to 13X(t). Thus, if m is reasonably large, we shall for a
+short time have in effect a birth-and-death process in which the ratio death-rate/
+birth-rate has the value
+
+(26)
+
+j/X = y/ 0m)
+
+=
+
+p/m.
+
+The chance of ultimate extinction in such a birth-and-death process is (p/M)a if
+m > p, and is unity if m _ p. Thus, if m _ p, we may expect a small number of
+secondary cases and then quiescence. If m > p, however, the tangential birth-anddeath process will either die out quickly or grow indefinitely. Thus we may then
+expect with complementary probabilities that the number of Y-men will either fall
+speedily to zero, producing a small number of secondary cases, or build up to large
+values, so that a major epidemic results. If this view is correct, then the area under
+the first peak of the w-distribution should be approximately equal to (p/M)a when
+m > p. Very roughly, this is so; particulars will be found in table III. The agreement is quite reasonable for m _ 2p and sufficiently so to make our idea seem
+worth pursuing.
+Now when m > p and when by chance the system displays its second mode of behaviour (large numbers of infectious persons being built up) then we can reasonably
+3 An important contribution to this problem has now been made by P. Whittle [10]; see, also,
+the paper by F. G. Foster [6].
+
+157
+
+EPIDEMICS: CLOSED POPULATIONS
+
+approximate by assuming quasi-deterministic behaviour, and adapt the formulas
+of sections 2 and 3. If, however, the first mode of behaviour (almost immediate
+removal of the infectious persons) occurs then we can approximate by assuming
+that the number of Y-men will follow the tangential birth-and-death process conTABLE III
+THE CHANCE OF NoT MORFE THAN ONE SECONDARY CASE, COMPARED
+WITH (p/M)" (SHOWN IN PARENTHESES)
+(a = 1)
+rn/p
+m
+
+10
+20
+40
+
+1.33
+
+2
+
+4
+
+0.55 (0.75)
+0.54 (0.75)
+0.54 (0.75)
+
+0.42 (0.50)
+0.41 (0.50)
+0.41 (0.50)
+
+0.24 (0.25)
+0.23 (0.25)
+0.23 (0.25)
+
+(N. T. J. Bailey's calculations).
+
+ditioned by the requirement of ultimate extinction. In fact we propose the following
+stochastic system as an approximation to the one actually being studied:
+Specification of the approximating stochastic system:
+(i) If m _ p, then Yl(t) is the number of individuals in a population controlled by a simple birth-and-death process with birth-rate = m,@ and
+death-rate = y, satisfying the initial condition Y (0) = a.
+(ii) If m > p, then the system has two modes of behaviour, A and B, with
+
+(27)
+
+pr (A) = (p/m)a and pr (B) = 1 - (p/m) a.
+
+In mode A, Y (t) behaves as if it were the number of individuals in a
+simple birth-and-death process with birth-rate = m,B and deathrate = y, satisfying the initial condition Y(0) = a and further
+conditioned by the requirement that Y( - ) = 0.
+In mode B, Y(t) behaves as if it were the function y(t) describing
+the evolution of the corresponding deterministic epidemic.
+Before discussing the behaviour of the approximating system it will be necessary
+to know how a birth-and-death process for which the birth-rate X(_ mI3) exceeds
+the death-rate ,u(-e) is affected when one is required (as in mode A above) to reject
+all sample-functions which do not eventually attain and thereafter remain constantly at the value zero. The solution to this problem has recently been found by
+W. A. O'N. Waugh [ 10]: a birth-and-death process with a birth-rate X which is greater
+than the death-rate jA coincides, when subject to the requirement of ultimate extinction,
+with an unconditioned birth-and-death process for which , is now the birth-rate and X
+the death-rate. Thus in the definition of mode A we can drop the condition of ultimate
+extinction and write instead
+birth-rate = y, death-rate = mfl.
+
+With the aid of this rather surprising result the discussion of the approximating
+
+THIRD BERKELEY SYMPOSIUM: KENDALL
+
+158
+
+model becomes quite simple. For example, we can calculate the distribution of wZ( o- a and compare E(iwi) with Bailey's values for E(w). If m < p, then E(w2)
+is the expected number of births in the appropriate birth-and-death process, so that
+
+(28)
+
+E(w)
+
+ma
+
+=
+
+(m_ p).
+
+We must therefore expect the approximating model to be quite unrealistic when
+m = p and E(ivw) = c. If m > p, then
+(29)
+
+E(w)=
+
+(
+
+a)
+
++
+
+1--
+
+]
+
+(D-a),
+
+where t is the (unique) positive root of the equation
+
+(30)
+
+m
+
++
+
+a-
+
+me-
+
+obtained by a straightforward application of (3). In table IV we compare E(w7) with
+the values of E(w) calculated by Bailey. No entries of E(wv) are made when m = p
+because then the approximation manifestly fails.
+TABLE IV
+COMPARISON OF E(w) WITH E(wi) (SHOWN IN PARENTHESES)
+
+(a= 1)
+m/p
+
+10
+20
+40
+
+0.67
+
+0.80
+
+1
+
+1.33
+
+2
+
+4
+
+1.08 (2)
+1.30 (2)
+1.50 (2)
+
+1.38 (4)
+1.77 (4)
+2.18 (4)
+
+1.89
+2.62
+3.58
+
+2.74 (3.8)
+4.32 (5.1)
+6.94 (7.4)
+
+4.33 (4.8)
+7.97 (8.8)
+15.31 (16.8)
+
+7.13 (7.5)
+14.40 (14.9)
+29.12 (29.6)
+
+(N. T. J. Bailey's calculations.)
+
+Once again the agreement in order of magnitude is quite as good as one could have
+
+hoped for apart from the breakdown when m p (that is, at the threshold itself).
+5. The growth of a stochastic epidemic in time
+The success of the approximating model in reproducing the main qualitative
+features of the original stochastic system when m $ p now suggests that we may be
+able to use it to gain some rough information about the growth of a stochastic
+epidemic in time. We should expect when m > p that the sample epidemic curves
+will fall broadly into two classes: those (corresponding to mode A) which peter out
+fairly quickly, and those (corresponding to mode B) which approximate to the
+deterministic epidemic curve associated with the K and K equations (2). In order
+to test this conjecture we must appeal to Monte Carlo information. By a method
+described in detail elsewhere (Kendall, [7]) I have constructed a "random sample"
+of twenty artificial realisations of the McKendrick-Bartlett process (X(t), Y(t),
+-
+
+Z(t)) with the following values for the parameters.
+3= 1, -Y= 10, p= 10,
+
+0
+
+eqI
+
+e
+
+eDq
+
+q
+
+ccO
+
+e
+
+0
+
+0
+
+CDas
+U)
+
+N co
+
+41
+
+ecq
+s
+0
+
+0
+
+°
+
+q
+
+D
+
+-4
+
+Q
+
+-4
+
+0
+
+e
+
+e
+
+_i
+
+>
+
+-4
+0
+
+.4
+
+4
+
+SU
+CD+
+|~~
+Sq
+~
+
+be
+
+O
+
+-
+
+eq
+
+-4
+
+'-
+
+0 aot soo
+
+'4
+
+CO
+
+C
+
+0 _C
+
+0
+
+_O
+
+OO
+
+eq
+
+eq_
+
+0
+
+r-4
+~
+*5.e
+11
+q
+
+Ni
+
+o
+
+C
+
+e
+
+e
+
+-
+
+CDU
+
+0 _0
+
+00~~ ¢-4
+
+S
+
+i~E
+°
+
+-_
+
+~~
+
+~
+
+~
+
+-4
+
+q
+
+-4
+
+0
+
+.4
+
+-40
+
+4
+
+CO
+
+~
+
+a
+
+C
+
+-4
+
+QS
+I
+
+_I
+
+M
+
+D
+
+-
+
+-O
+4
+
+-
+
+>4
+
+1
+
+Q-
+
+0
+
+t'
+
+oeq
+
+o4
+
+-
+
+4
+
+CO Cq
+
+N
+
+0
+
+CO
+
+4
+
+0
+
+CO
+
+0
+
+eq
+
+0
+
+-
+
+0
+
+-
+
+-4-
+
+40
+
+Q
+
+-
+
+I22
+4-40
+
+J I :,4 eq
+
+'
+
+t
+
+1-
+
+ICO
+oX
+
+-4
+
+-4
+
+4
+
+q
+
+~
+
+~
+
+° ~~~~
+z~~~~~~~1_-4 ,4
+
+M
+
+C
+
+CO
+
+o
+
+NS,;i
+
+M
+
+4
+
+e
+
+0
+
+~~,
+
+_
+
+.d4
+
+,~~~~~~~C
+
+Ni
+
+Ni
+
+_
+
+_
+
+CD
+
+<4
+
+4
+
+CD
+
+¢4
+
+CO
+
+40
+
+Q
+
+_
+
+-
+
+0
+
+0
+0
+
+.4
+
+404
+
+=
+
+0o04
+o
+
+4a Wb40
+0
+
+o
+
+40
+
+Q
+
+THIRD BERKELEY SYMPOSIUM: KENDALL
+
+1 6o
+
+and with the following initial values,
+X(0) _ m =20, Y(0) 5 a = 1, Z(0) = 0.
+It will be observed that m/p = 2, so that we may reasonably expect modes A and B
+to be well separated. The life-histories of the twenty epidemics are summarised in
+table V for the benefit of those who may wish to try out estimation techniques. For
+reasons of economy the data have been presented as concisely as possible. It will be
+noticed that Z(t) can be calculated for each multiple of At = 0.05 by cumulating the
+entries of AZ, and that X(t) is then determined by the conservation law X + Y + Z
+= 21. The entries in the columns headed AZ, when plotted against the time, constitute the empirical notifications "curve," while the graph of Y against t is the epidemic curve. There is of course no reason why Y and AZ should remain in a constant proportion for a stochastic epidemic.
+We can check the representativeness of this random sample of 20 stochastic
+epidemics by examining the empirical distribution of the number of secondary cases
+and then comparing it with the theoretical distribution determined by Bailey. The
+result of the comparison is shown in table VI.
+TABLE VI
+COMPARISON OF EMPIRICAL AND THEORETICAL DISTRIBUTIONs OF W
+Values of w
+
+0-2
+
+3-17
+
+18-20
+
+Observed (Kendall) ........................
+Expected (Bailey) ..........................
+
+9
+9.0
+
+5
+7.2
+
+6
+3.8
+
+The method of grouping has been chosen so as to isolate the two peaks at the extremities of the range. The value of x2 (with 2 degrees of freedom) is 1.95, which is
+satisfactory so far as it goes.
+3
+
+2
+
+t
+FIGURE 1
+The epidemic curve (the number of infectious individuals in circulation, plotted against the
+time). The arithmetic mean of a sample of 20 artificial realizations of Y(t) (linked spots) is compared with E I Y(t) I (continuous curve).
+
+i6i
+
+EPIDEMICS: CLOSED POPULATIONS
+
+We next invite the reader to examine table VII, which compares (x, y, z) for the
+associated K and K deterministic epidemic (exact solution as given in section 3)
+with the arithmetic means of (X, Y, Z) for the twenty artificial epidemics, for
+various epochs t. It will be seen that the two epidemic curves have notably different
+peak heights and this is not surprising; Feller [5] has remarked that in such nonlinear systems the stochastic mean will not normally coincide with the deterministic
+equivalent.
+TABLE VII
+A DETERMINISTIC EPIDEMIC AND THE (EMPIRICAL) EXPECTATION BEHAVIOUR
+OF ITS STOCHASTIC COUNTERPART
+(For details, see text. The values of x,7 and z have been obtained from the
+exact formulas of section 3; the values of X, Y and Z are the arithmetic
+means of X, Y, and Z for 20 artificial stochastic epidemics.)
+Epoch
+
+z
+
+X
+
+v
+
+Y
+
+z
+
+Z
+
+0.00
+05
+10
+15
+20
+25
+30
+35
+40
+45
+
+20.0
+18.8
+16.9
+14.8
+12.4
+10.2
+8.4
+7.0
+5.9
+5.2
+
+20.0
+18.9
+17.9
+16.2
+15.2
+14.4
+13.4
+12.7
+12.5
+12.1
+
+1.0
+1.6
+2.4
+3.2
+3.8
+4.1
+3.9
+3.4
+2.9
+2.3
+
+1.0
+1.6
+2.0
+2.4
+2.7
+2.4
+2.4
+1.9
+1.3
+1.2
+
+0.0
+0.6
+1.7
+3.0
+4.8
+6.7
+8.7
+10.6
+12.2
+13.5
+
+0.0
+0.6
+1.2
+2.5
+3.2
+4.3
+5.3
+6.4
+7.3
+7.8
+
+50
+55
+60
+65
+70
+75
+80
+85
+
+4.7
+4.3
+4.1
+3.9
+3.7
+3.7
+3.6
+3.6
+
+11.8
+11.8
+11.7
+11.6
+11.6
+11.6
+11.6
+11.6
+
+1.8
+1.4
+1.0
+0.8
+0.6
+0.4
+0.3
+0.2
+
+1.0
+0.7
+0.6
+0.5
+0.4
+0.3
+0.2
+0.2
+
+14.5
+15.3
+15.9
+16.3
+16.7
+16.9
+17.1
+17.2
+
+8.3
+8.6
+8.8
+8.9
+9.1
+9.2
+9.2
+9.3
+
+X0
+
+3.5
+
+11.6
+
+0.0
+
+0.0
+
+17.5
+
+9.4
+
+It will now be appropriate to compare the empirical mean stochastic epidemic
+curve of table VII (the graph of Y(t) against t) with the calculated mean of iY(t)
+(the corresponding random variable in the approximating system). The comparison
+is shown in figure 1; the curve gives the calculated mean value of Y(t) and the linked
+spots locate empirical values of Y(t).
+The agreement so far as the post-peak behaviour is concerned is most satisfactory, and if it is confirmed by a more extensive series of Monte Carlo experiments
+then we can claim to have constructed a rough approximation to the expectation
+behaviour of a stochastic epidemic.
+It must be realised, however, that the mean stochastic epidemic curve when taken
+by itself gives no indication of the large fluctuations which may be shown by individual epidemics. In order to illustrate this we show in figure 2 (a, #, -y) the 20
+individual epidemic curves, plotted as if observed at regularly spaced epochs, and
+
+an
+0
+
+0
+
+.0
+
+4a)0
+
+2
+
+/
+
+7
+/
+'-4
+
+.0
+*
+
+4)
+
+0
+
+0
+
+I-.
+
+00
+-
+
+rz4.
+
+0
+4)
+0
+
+C
+4)
+4)
+
+/
+
+/
+0
+
+/
+
+S
+
+B
+0
+S
+
+0
+
+0
+
+4)
+
+H
+
+cr~
+
+~
+
+~
+
+~~~~~~~~~~~~~~~~~~~#c
+0
+
+m4
+
+r~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-
+
+aL)
+
+0
+0~~~~~~~~
+
+EPIDEMICS: CLOSED POPULATIONS
+
+165
+
+on each figure we have drawn for comparison the conditional mean epidemic curves
+for the behaviour of the approximating system in each of the modes A and B. (The
+peaked curve gives the conditional mean for mode B while the J-shaped curve
+relates to mode A). The violent fluctuations are very striking. Epidemics e, f, j, k,
+1, o; a, p; d; g; and r (on figure 2(a)) may be said to display mode A behaviour
+while epidemics c, n, m, s, b, q, h, i and t display mode B behaviour. The numbers
+in the two classes are 11 and 9, respectively. It will be noted that with the given
+values of the constants, pr (A) = pr (B) = i, so that equal frequencies for the two
+modes would be expected.
+In conclusion I should like to thank Mr. N. T. J. Bailey, Professor M. S. Bartlett,
+Mr. J. Hajnal, Mr. G. E. H. Reuter and Dr. W. A. O'N. Waugh for helpful discussions in connexion with the present work. Professor Bartlett has developed independently and rather differently the idea of using an approximating stochastic
+system; details of his work will be found in his book [4] and in his contribution to
+this Symposium.
+
+REFERENCES
+[1] N. T. J. BAILEY, "The total size of a general stochastic epidemic," Biometrika, Vol. 40 (1953),
+pp. 177-185.
+, "Some problems in the statistical analysis of epidemic data," Jour. Roy. Stat. Soc.,
+[2]
+Ser. B, Vol. 17 (1955), pp. 35-68.
+[3] M. S. BARTLETr, "Some evolutionary stochastic processes," Jour. Roy. Stat. Soc., Ser. B,
+Vol. 11 (1949), pp. 211-229.
+, An Introduction to Stochastic Processes, Cambridge, The University Press, 1955.
+[4]
+[5] W. FELLER, "Die Grundlagen der Volterraschen Theorie des Kampfes urs Dasein in
+Wahrscheinlichkeitstheoretischer Behandlung," Acta Biotheoretica, Vol. 5 (1939), pp. 11-40.
+[6] F. G. FOSTER, "A note on Bailey's and Whittle's treatment of a general stochastic epidemic,"
+Biometrika, Vol. 42 (1955), pp. 123-125.
+[7] D. G. KENDALL, "An artificial realization of a simple birth-and-death process," Jour. Roy.
+Stat. Soc., Ser. B, Vol. 12 (1950), pp. 116-119.
+[8] W. 0. KERMACK and A. G. McKENDRICK, "A contribution to the mathematical theory of
+epidemics," Proc. Roy. Soc. Lond., Ser. A, Vol. 115 (1927), pp. 700-721.
+[9] A. G. McKENDRICK, "Applications of mathematics to medical problems," Proc. Edinburgh Math. Soc., Vol. 44 (1926), pp. 1-34.
+[10] W. A. O'N. WAUGH, "Conditioned Markov processes," (in preparation).
+[11] P. WHIrrLE, "The outcome of a stochastic epidemic-a note on Bailey's paper," Biometrika,
+Vol. 42 (1955), pp. 116-122.
+
+
