@@ -294,7 +294,7 @@ uses the tools of `network theory' to study models in which the `nodes' in a gra
 
 % \footnote{The mathematical formulation of network theory, or graph theory (the boundary between these is porous) is usually attributed to Leonhard Euler, in his solution to a problem of geography -- the ``Bridges of Konigsberg.''}
 
-While the classical and the network-theory approaches seem quite different, it turns out that a `random graph' network can be configured to produce an arbitrarily close approximation to the classical problem, by assuming that at any date $t$ each node is in one of the three $\{S, I, R\}$ states, and that the `edges' are the links by which an infection can pass from an infected to a susceptible person (see our example in Section~\ref{subsec:shillerpound} below; see \cite{newman2002spread} and \cite{jackson_social_2010} for canonical analyses of epidemics on networks).
+While the classical and the network-theory approaches seem quite different, it turns out that a `random graph' network can be configured to produce an arbitrarily close approximation to the classical problem, by assuming that at any date $t$ each node is in one of the three states $\{\Susceptible, \Infected, \Recovered\}$, and that `edges' are the links by which an infection can pass from an infected to a susceptible person (our SIR model in Section~\ref{subsec:shillerpound} is constructed in exactly this way; see \cite{newman2002spread} and \cite{jackson_social_2010} for canonical analyses of epidemics on networks).
 
 
 Networks can also be used to study a great many other essentially epidemiological questions that could not even be formulated in the classical setup. % (Network theory has also been used to study a wide range of questions in game theory and other fields quite distant from epidemiology.)
@@ -377,9 +377,7 @@ In the context of beliefs, a natural interpretation of such a ``common source'' 
     \end{enumerate}
   \end{quote}
 \end{comment}
-In the simplest epidemiological model, a continuous population is partitioned among infected people (`\Infected') and susceptible people (`\Susceptible') not yet infected.  A  `common source' assumption means that the probability that any particular susceptible person will become infected is time-independent.  %(If the model is specified in continuous time, it is a Poisson process; in discrete time, Bernoulli).
-
-For a population that begins at discrete date zero with a susceptible population of size 1, the dynamics of the common-source SI model are given by Table~\ref{table:SIDyn}, with the obvious implication that as $n$ approaches infinity the entire population eventually becomes infected.
+In the simplest epidemiological model, a continuous population is partitioned among infected people {\Infected} and those who are susceptible {\Susceptible} but not yet infected, and the infectiousness of the `common source' is time-independent at probability $p$.  For a population at discrete date zero with a susceptible population of size 1, the dynamics of such a common-source SI model are given by Table~\ref{table:SIDyn}, with the obvious implication that as $n$ approaches infinity the entire population eventually becomes infected.
 
 \begin{verbatimwrite}{./Tables/SIDynCS}
   \begin{table}[ht]
@@ -403,7 +401,7 @@ For a population that begins at discrete date zero with a susceptible population
   \end{table}
 \end{verbatimwrite}
 \input{./Tables/SIDynCS}
-This framework can be extended in many directions.  The usual next step is for the disease to be transmitted as a result of `random mixing,' and each susceptible person who encounters an infected person becomes infected with a fixed probability. In discrete time, given a non-zero initial infected fraction $I_0$, the fraction  infected and susceptible evolve per Table \ref{table:SIDynTrans}.
+This framework can be extended in many directions.  The usual next step is for the disease to be transmitted as a result of `random mixing,' and each susceptible person who encounters an infected person becomes infected with a fixed probability. Given a non-zero initial infected fraction $I_0$, the fraction  infected and susceptible evolve per Table \ref{table:SIDynTrans}.
 \begin{verbatimwrite}{./Tables/SIDynTrans}
   \begin{table}[ht]
     \caption{ ~Transmissible SI Model}\label{table:SIDynTrans}
@@ -528,9 +526,9 @@ Figure~\ref{fig:graph_mixer} provides a citation map of papers in the literature
 
 \ifthenelse{\boolean{inBook}}{}{We have barely scratched the surface of the scholarly literature with interesting evidence about the ways in which social interactions shape population beliefs.  Even within economics, where the topic has received less attention than might be expected, there is so much material that we are confident that we have missed some content that should have been included, for which we hereby preemptively apologize to readers (and authors).}% and would encourage the authors of such work bring it to our attention.
 
-Common themes have emerged independently from scholarly communities who (ironically) seem largely unaware of each others' existence.  Different terminology has developed for ideas that are close cousins; this likely has hindered the ability of participants in distant fields to recognize deep commonalities in their work.
+Ideas that we would term `epidemiological' have emerged independently in scholarly fields who (ironically) seem largely unaware of each others' existence.  Different terminology and methodological tools developed for ideas that are close cousins; this likely has hindered the ability of participants in distant fields to recognize deep commonalities in their work.
 
-For example, the work on ``social learning'' in macroeconomics studies the propagation of competing forecasting rules in simulated population.  If it were couched as being about the spread of beliefs in the efficacy of the rules, this work would have satisfied our criteria that it addressed a substantive economic question using a mechanism by which beliefs were transmitted by social interaction.  But authors in this literature often do not describe their models in explicitly epidemiological terms, nor do they typically propose testing their models by querying simulated agents about their expectations, and comparing simulated expectations data to actual expectations data.
+For example, the work on ``social learning'' in macroeconomics studies the propagation of competing forecasting rules via agent interactions in simulated populations.  If it were couched as being about the spread of beliefs in the efficacy of the rules, this work would have satisfied our criteria that it addressed a substantive economic question using a mechanism by which beliefs were transmitted by social interaction.  But authors in this literature often do not describe their models in explicitly epidemiological terms, nor do they typically propose testing their models by querying simulated agents about their expectations, and comparing simulated expectations data to actual expectations data.
 
 Nor does this work take much notice of Shiller's longstanding view that economic dynamics reflect the competition of `narratives' that `go viral.'  ``Social learning'' models'  forecasting rules are arguably exactly how one might want to make a computational representation of what Shiller calls a narrative, and the economic dynamics that result from the increasing prevalence of the rules that succeed in `tournaments' are a good candidate for a computational representation of the consequences of what might be meant by the claim that `narratives' can `go viral.'
 

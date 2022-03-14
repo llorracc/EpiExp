@@ -4,7 +4,7 @@
 %\subsubsection{Background}
 
 Above we cite efforts to construct and calibrate structural models of epidemiological models.  %But our definition of an epidemiological process as one in which social interactions affect people's beliefs and consequent economic behaviors means .
-Here, we touch upon literatures that collect evidence in ways not targeted to constructing structural models, but that may nevertheless be useful in guiding the construction of structural EE models.  Such work could help answer questions like
+Here, we touch upon literatures that collect evidence in ways not targeted to constructing structural models, but that may nevertheless be useful in guiding the construction of structural EE models.  \ifthenelse{\boolean{inBook}}{}{Such work could help answer questions like
 \begin{quote}
     \normalfont
     \begin{verbatimwrite}{./Slides/MicroEvidence}
@@ -19,7 +19,7 @@ Here, we touch upon literatures that collect evidence in ways not targeted to co
 \input{./Slides/MicroEvidence}
 \end{quote}
 
-Among the reasons epidemiological modeling has been slow to spread,  surely one is that all of these questions is difficult to answer using traditional data sources.  But new data, particularly the social network data, offer rich opportunities for profoundly improving our ability to answer such questions.
+Among the reasons epidemiological modeling has been slow to spread,  surely one is that all of these questions is difficult to answer using traditional data sources.  But new data, particularly the social network data, offer rich opportunities for profoundly improving our ability to answer such questions.}
 
 \subsubsection{Directly Measured Social Networks}\label{subsubsec:socialnetworks}
 
@@ -80,7 +80,7 @@ Robert Shiller has repeatedly speculated that the driving force in aggregate flu
 After presenting a popular case for the idea in~\cite{akerlof2010animal}, he has recently returned to the theme; our opening quote from him makes it clear that he thinks narratives spread by ``going viral.''  See Shiller [\citeyear{shiller2017narrative,shiller_narrative_2019}] for extended treatments.
 
 There are formidable obstacles to turning Shiller's plausible idea into a quantitative modeling tool.  One is the difficulty of identifying the alternative narratives competing at any time, and reliably measuring their prevalence.
-\href{https://github.com/iworld1991/EpiExp/blob/master/Literature/shiller2020popular.pdf}{\cite{shiller2020popular}} made an initial effort at this.  By combing historical news archives and internet search records, he identified six economic narratives that have circulated since 2009, including ``Great Depression,'' ``secular stagnation,'' ``sustainability,'' ``housing bubble,'' ``strong economy,'' and ``save more.''  (See also  \cite{ash2021text} and the references therein.)
+\href{https://github.com/iworld1991/EpiExp/blob/master/Literature/shiller2020popular.pdf}{\cite{shiller2020popular}} made an initial effort at this.  By combing historical news archives and internet search records, he identified six economic narratives that have circulated since 2009, which he labeled as ``Great Depression,'' ``secular stagnation,'' ``sustainability,'' ``housing bubble,'' ``strong economy,'' and ``save more.''  (See also  \cite{ash2021text} and the references therein.)
 
 \cite{larsen2019business} take up the challenge of quantifying media narratives, deriving virality indexes, and conducting Granger causality tests to determine the extent to which viral narratives can predict or explain economic outcomes\ifthenelse{\boolean{inBook}}{.}{, in the U.S., Japan, and Europe.}  The authors find episodes in which their methodology identifies `narratives' that have `gone viral.'  %This is early work, but the authors identify apparent connections between the intensity and valence of discussion of some topics and subsequent economic outcomes.
 
@@ -90,6 +90,6 @@ There are formidable obstacles to turning Shiller's plausible idea into a quanti
 % The work we have just summarized has some common implications for epidemiological modeling despite the (usual) absence of explicit epidemiological interpretations.  First, ideas differ in their infectiousness depending on many factors including their source and their context.  This suggests that modelers will need to find ways to systematically characterize how such features endogenously affect transmission dynamics.  Second, the structure of social networks -- who you interact with, how frequently, with what intensity -- can affect the process of transmission and potentially the equilibrium outcome.  If Democrats and Republicans do not assort randomly with each other in their social connections or do not accord equal weight to opinions of persons of the opposite party, it is not hard to see how persistent belief differences arise between the two groups, as shown in our Figure~\ref{fig:parker} above showing divergent portfolio choices after the 2016 election.
 
 
-\subsubsection{Animal Culture}
+\subsubsection{Animal `Culture'}
 
-A large literature~(\cite{whiten2021burgeoning}), with roots going back to Aristotle (\cite{laland2009animal}) and Darwin (\cite{heyes1996social}), documents many examples of the social transmission of ideas in animal populations.  Recent work in cognitive science~(\cite{kendal2018social}) argues that biological mechanisms of ``social learning'' are common across species and between humans and animals.  Results from this literature could be useful because animal populations are easier to experiment on; so, for example, uncovering the role of potential neurological mechanisms of transmission (e.g., ``mirror neurons'') may be more feasible in animals than in humans (\cite{carcea2019biological}).  Results have the potential to discipline economists' choices of plausible mechanisms of social transmission of ideas among humans.
+A large literature~(\cite{whiten2021burgeoning}), with roots going back to Aristotle (\cite{laland2009animal}) and Darwin (\cite{heyes1996social}), documents many examples of the social transmission of ideas in animal populations.  Recent work in cognitive science~(\cite{kendal2018social}) argues that biological mechanisms of ``social learning'' are common across species and between humans and animals.  Results from this literature could therefore be useful because animal populations are easier to experiment on; so, for example, uncovering the role of potential neurological mechanisms of transmission (e.g., ``mirror neurons'') may be more feasible in animals than in humans (\cite{carcea2019biological}).  Results have the potential to discipline economists' choices of plausible mechanisms of social transmission of ideas among humans.
