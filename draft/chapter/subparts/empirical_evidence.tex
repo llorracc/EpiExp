@@ -1,25 +1,29 @@
 \subsection{Nonstructural Empirical Evidence}\label{subsec:microEvidence}
 
 
-%\subsubsection{Background}
+% \subsubsection{Background}
 
 Above we cite efforts to construct and calibrate structural models of epidemiological models.  %But our definition of an epidemiological process as one in which social interactions affect people's beliefs and consequent economic behaviors means .
-Here, we touch upon literatures that collect evidence in ways not targeted to constructing structural models, but that may nevertheless be useful in guiding the construction of structural EE models.  \ifthenelse{\boolean{inBook}}{}{Such work could help answer questions like
-\begin{quote}
-    \normalfont
-    \begin{verbatimwrite}{./Slides/MicroEvidence}
-\begin{enumerate}
-	\item When do socially transmitted beliefs influence important economic decisions?
-    \item What are characteristics of sources and recipients of expectational infection?
-    \item Through which channels are expectations mostly transmitted?
-    \item What kinds of information/expectations are more infectious?
-    \item How can \cite{manski1993identification}'s reflection problem be addressed?
-    \end{enumerate}
-\end{verbatimwrite}
-\input{./Slides/MicroEvidence}
-\end{quote}
+Here, we touch upon literatures that collect evidence in ways not targeted to constructing structural models, but that may nevertheless be useful in guiding the construction of structural EE models.
 
-Among the reasons epidemiological modeling has been slow to spread,  surely one is that all of these questions is difficult to answer using traditional data sources.  But new data, particularly the social network data, offer rich opportunities for profoundly improving our ability to answer such questions.}
+\begin{verbatimwrite}{./Slides/MicroEvidence}
+  \begin{enumerate}
+  \item When do socially transmitted beliefs influence important economic decisions?
+  \item What are characteristics of sources and recipients of expectational infection?
+  \item Through which channels are expectations mostly transmitted?
+  \item What kinds of information/expectations are more infectious?
+  \item How can \cite{manski1993identification}'s reflection problem be addressed?
+  \end{enumerate}
+\end{verbatimwrite}
+
+\ifthenelse{\boolean{inBook}}{}{Such work could help answer questions like
+  \begin{quote}
+    \normalfont
+    \input{./Slides/MicroEvidence}
+  \end{quote}
+
+  Among the reasons epidemiological modeling has been slow to spread,  surely one is that all of these questions is difficult to answer using traditional data sources.  But new data, particularly the social network data, offer rich opportunities for improving our ability to answer such questions.
+}
 
 \subsubsection{Directly Measured Social Networks}\label{subsubsec:socialnetworks}
 
@@ -30,7 +34,7 @@ Several papers have used data from Facebook.  \href{https://www.journals.uchicag
 \cite{bailey_social_2018} constructed an aggregated social-connectedness-index (SCI)  using the universe of Facebook users, which calculates the Facebook connections between any two zip codes in the U.S., as well as the connections of each zip with foreign countries.  There is already a burgeoning literature using these data (much of it outside of economics).  Among selected early results in economics, \cite{makridis2019effect} shows that a rise in a locality's sentiment caused by events in socially connected areas has a substantial effect on nondurables spending.  \cite{makridis2020learning} find that during the COVID-19 crisis, the severity of the decline in consumption in a county was partly explained by the severity of the epidemic in the places to which that county had especially dense social ties -- even when those places were geographically distant.
 \cite{ratnadiwakara2021flooded} shows that individuals who are socially connected to someone affected by Hurricane Harvey are more likely to purchase flood insurance policies after the event. %This effect is stronger in areas at higher risk of flooding. Being socially connected to someone affected by Hurricane Harvey also influences individuals' perceptions of global warming.
 
-%Word-of-mouth communications might be even particularly important in spreading the information in fraudulent contagion and speculative investment activities. For instance, \href{https://github.com/iworld1991/EpiExp/blob/master/Literature/rantala2019investment.pdf}{\cite{rantala2019investment}} provides direct evidence on diffusion of investment ideas among a large Ponzi scheme. \href{https://files.fisher.osu.edu/department-finance/public/information_networks_evidence_from_illegal_insider_trading_tips.pdf}{\cite{ahern2017information}}shed light on the information flow of illegal insider trading among strong social ties.
+% Word-of-mouth communications might be even particularly important in spreading the information in fraudulent contagion and speculative investment activities. For instance, \href{https://github.com/iworld1991/EpiExp/blob/master/Literature/rantala2019investment.pdf}{\cite{rantala2019investment}} provides direct evidence on diffusion of investment ideas among a large Ponzi scheme. \href{https://files.fisher.osu.edu/department-finance/public/information_networks_evidence_from_illegal_insider_trading_tips.pdf}{\cite{ahern2017information}}shed light on the information flow of illegal insider trading among strong social ties.
 
 \subsubsection{Papers Using Proxies for Social Connections}
 
@@ -39,7 +43,7 @@ In the context of housing market investment, one paper that explicitly emphasize
 \href{https://www.aeaweb.org/articles?id=10.1257/aer.20171611&from=f}{\cite{bayer2021speculative}}, which shows that novice investors were more likely to enter the market (in speculative ways) after seeing that their immediate neighbors had invested.
 
 
-%A small literature provides direct evidence for social dynamics during bank run episodes, as we described in section~\ref{subsec:Contagion}.  \href{https://www.aeaweb.org/articles?id=10.1257/aer.102.4.1414}{\cite{iyer2012understanding}} study the dynamics of an actual bank run using high-frequency data on deposit withdrawals among persons connected in a social network.   \href{https://www.aeaweb.org/articles?id=10.1257/aer.90.5.1110}{\cite{kelly2000market}} showed that depositors who learned bad news about a bank from acquaintances were the first to close their accounts.
+% A small literature provides direct evidence for social dynamics during bank run episodes, as we described in section~\ref{subsec:Contagion}.  \href{https://www.aeaweb.org/articles?id=10.1257/aer.102.4.1414}{\cite{iyer2012understanding}} study the dynamics of an actual bank run using high-frequency data on deposit withdrawals among persons connected in a social network.   \href{https://www.aeaweb.org/articles?id=10.1257/aer.90.5.1110}{\cite{kelly2000market}} showed that depositors who learned bad news about a bank from acquaintances were the first to close their accounts.
 
 Finally, there is a large literature finding `peer effects' on people's financial choices; a natural interpretation is that in many cases such effects likely reflect epidemiological transmission of beliefs.  But much of this literature has been content to document the existence of such correlations while remaining mute on the mechanism.  (See \cite{kuchler2021social} for a comprehensive survey).
 
@@ -63,11 +67,11 @@ An indirect approach is to attempt to measure the effect of news coverage on con
 % TW to CDC: \cite{angeletos2013sentiments} could be cited here? it is realted to sentiment. But the paper is theoretical not just about news.
 
 \ifthenelse{\boolean{inBook}}{}{
-New ways of pursuing these kinds of ideas may be feasible using data like Google Trends search queries, which~\cite{choi2012predicting} have shown can predict sentiment data well and can serve as a real-time measure of the degree of internet users' interest in economic topics.}
+  New ways of pursuing these kinds of ideas may be feasible using data like Google Trends search queries, which~\cite{choi2012predicting} have shown can predict sentiment data well and can serve as a real-time measure of the degree of internet users' interest in economic topics.}
 
 Perhaps the most notable recent work relating media to macroeconomics has been that of \cite{baker2016measuring}, who use news sources to construct an index of ``economic policy uncertainty'' and find that it has predictive power for macroeconomic outcomes beyond what can be extracted from the usual indicators.  \ifthenelse{\boolean{inBook}}{T}{The extent to which an epidemiological mechanism is necessary to make sense of this finding is unclear; the authors' interpretation seems to be mainly that they are measuring a fundamental fact about the world (the policymaking process inherently and unavoidably generates uncertainty).
 
-But t}he uncertainty the authors measure might be affected by the structure of interactions in the media ecosystem; the extensive literature on ``fake news'' (see~\cite{allcott2017social} discussed elsewhere) and the incentives faced by suppliers of commentary would surely admit the possibility that uncertainty might be introduced or amplified by epidemiological mechanisms \ifthenelse{\boolean{inBook}}{.}{, in which case analysis of those mechanisms might yield some insight into whether changes in the epidemiological landscape (say, the rise of Fox News) have consequences for economic outcomes by changing the degree or dynamics of economic policy uncertainty.}  One way to test for the epidemiological alternative might be consider alternative scenarios for the policies that might be manifested as competing `narratives' about how policymakers will behave; the uncertainty would then be about which narrative would turn out to be correct.
+  But t}he uncertainty the authors measure might be affected by the structure of interactions in the media ecosystem; the extensive literature on ``fake news'' (see~\cite{allcott2017social} discussed elsewhere) and the incentives faced by suppliers of commentary would surely admit the possibility that uncertainty might be introduced or amplified by epidemiological mechanisms \ifthenelse{\boolean{inBook}}{.}{, in which case analysis of those mechanisms might yield some insight into whether changes in the epidemiological landscape (say, the rise of Fox News) have consequences for economic outcomes by changing the degree or dynamics of economic policy uncertainty.}  One way to test for the epidemiological alternative might be consider alternative scenarios for the policies that might be manifested as competing `narratives' about how policymakers will behave; the uncertainty would then be about which narrative would turn out to be correct.
 
 That leads us to our next topic.
 
@@ -84,7 +88,7 @@ There are formidable obstacles to turning Shiller's plausible idea into a quanti
 
 \cite{larsen2019business} take up the challenge of quantifying media narratives, deriving virality indexes, and conducting Granger causality tests to determine the extent to which viral narratives can predict or explain economic outcomes\ifthenelse{\boolean{inBook}}{.}{, in the U.S., Japan, and Europe.}  The authors find episodes in which their methodology identifies `narratives' that have `gone viral.'  %This is early work, but the authors identify apparent connections between the intensity and valence of discussion of some topics and subsequent economic outcomes.
 
-%More to the definitional point, the process of identifying narratives does not in itself constitute the construction of an epidemiological model.  The narrative is more like the virus itself; a ``full-fledged'' model of epidemiological narrative economics would need to incorporate specifics of transmission channels -- as in the earlier work by \cite{shiller1989survey}.
+% More to the definitional point, the process of identifying narratives does not in itself constitute the construction of an epidemiological model.  The narrative is more like the virus itself; a ``full-fledged'' model of epidemiological narrative economics would need to incorporate specifics of transmission channels -- as in the earlier work by \cite{shiller1989survey}.
 
 % \subsubsection{Takeaways}
 % The work we have just summarized has some common implications for epidemiological modeling despite the (usual) absence of explicit epidemiological interpretations.  First, ideas differ in their infectiousness depending on many factors including their source and their context.  This suggests that modelers will need to find ways to systematically characterize how such features endogenously affect transmission dynamics.  Second, the structure of social networks -- who you interact with, how frequently, with what intensity -- can affect the process of transmission and potentially the equilibrium outcome.  If Democrats and Republicans do not assort randomly with each other in their social connections or do not accord equal weight to opinions of persons of the opposite party, it is not hard to see how persistent belief differences arise between the two groups, as shown in our Figure~\ref{fig:parker} above showing divergent portfolio choices after the 2016 election.
