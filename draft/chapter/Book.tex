@@ -5,6 +5,11 @@
 \usepackage{ifthen}\newboolean{inBook}\setboolean{inBook}{true}
 %\setboolean{inBook}{false}
 
+\makeatletter
+\newif\ifdvi\dvitrue
+\@ifundefined{pdfoutput}{}{\ifnum\pdfoutput>0 \dvifalse\fi}
+\makeatother
+
 \providecommand{\texname}{EpiExp}% Keyname for the paper
 
 \providecommand{\Recovered}{}
