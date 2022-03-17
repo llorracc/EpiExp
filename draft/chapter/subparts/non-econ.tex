@@ -49,11 +49,9 @@ estimates a model using the diffusion patterns of news about eight real events a
 
 Another potential determinant of the degree to which ideas spread is explored in \href{https://www.kdd.org/exploration_files/8._CR.10.Misinformation_in_social_media_-_Final.pdf}{\cite{acemoglu2010spread}}, who show show that the presence of ``forceful'' agents (who are immune to others' opinions) may lead to the persistence of misinformation. The key insight is that heterogeneity in infectiousness can reflect characteristics of the sender (`forcefulness') as well as the receiver.
 
-Epidemiological models have also been effectively used to study the spread of scientific ideas.    For example,  \href{https://github.com/iworld1991/EpiExp/blob/master/Literature/bettencourt2006power.pdf}{\cite{bettencourt2006power}} find that epidemiological models perform well in explaining the the spread of Feynman diagrams through theoretical physics communities\ifthenelse{\boolean{inBook}}{.}{. (see Figure \ref{fig:science_ideas_curve})}
+Epidemiological models have also been effectively used to study the spread of scientific ideas.    For example,  \href{https://github.com/iworld1991/EpiExp/blob/master/Literature/bettencourt2006power.pdf}{\cite{bettencourt2006power}} find that epidemiological models perform well in explaining the the spread of Feynman diagrams through theoretical physics communities\ifthenelse{\boolean{inBook}}{.}{.}% (see Figure \ref{fig:science_ideas_curve})
  \ifthenelse{\boolean{inBook}}{}{That paper uses an SEIR model where E represents the exposed state, and a SEIZ model where Z represents skeptics (mutually exclusive with being infected) who held competing ideas. Introducing skeptics generates an additional steady state of the model where competing ideas coexist. This differs from two-compartment and three-compartment models, in which typically the system converges to a single state.}
 
-
-\ifthenelse{\boolean{inBook}}{}{
 \begin{verbatimwrite}{./Slides/FigureScienceIdeasCurve}
   \begin{figure}[!ht] \centering
     \caption{ ~Diffusion of scientific ideas: \href{http://web.mit.edu/dikaiser/www/BAKC.PhysA.pdf}{Bettencourt et al (2006)}}\nocite{bettencourt2006power}
@@ -63,6 +61,7 @@ Epidemiological models have also been effectively used to study the spread of sc
     \end{flushleft}
   \end{figure}
 \end{verbatimwrite}
+\ifthenelse{\boolean{inBook}}{}{
 }
 
 Internet memes are a favorite topic of non-economist modelers. \href{https://github.com/iworld1991/EpiExp/blob/master/Literature/bauckhage2011insights.pdf}{\cite{bauckhage2011insights}} shows that epidemiological models do a good job capturing the growth and decay of some famous memes.\ifthenelse{\boolean{inBook}}{}{ (See Figure \ref{fig:memes_curve}.)} \cite{wang2011epidemiological} finds that a modified SIR model allowing for the reinfection of the ``recovered'' fits  the propagation dynamics of various viral memes well.   A large literature has followed their work. %\href{https://github.com/iworld1991/EpiExp/blob/master/Literature/kucharski2016modelling.pdf}{\cite{kucharski2016modelling}} fits an epidemiological model to outbreaks of notable internet contagions such as the ``ice bucket challenge'' and ``no-makeup selfies.''% suggesting an initial reproduction ratio in the range of 1.9 to 2.5.

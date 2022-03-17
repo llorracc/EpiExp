@@ -231,9 +231,9 @@ This is perhaps because nowhere has any focused attempt been made to define what
 We have identified three fields in economics -- technological diffusion (section ~\ref{subsec:techDiffusion}), asset pricing (section~\ref{subsec:assetprice}), and macroeconomics (section~\ref{subsec:macroExp}) -- with sets of papers that satisfy all these criteria, even if in some cases the work has not mainly been thought of as `epidemiological' until now.\ifthenelse{\boolean{inBook}}{}{\footnote{Ironically, these literatures have developed largely in isolation from each other, judging at least by the almost complete independence of the citation networks (see our figure~\ref{fig:graph_mixer}). The only paper that is cited by all three literatures is the foundational paper by \cite{kermack_contribution_1927}.}}  In addition, we survey the proliferating evidence that social interactions drive expectations and corresponding behaviors (section~\ref{subsec:microEvidence}); draw connections between the EE approach and a separate literature on financial contagion (section~\ref{subsec:Contagion}); and present selected examples from the research outside of economics that might be particularly interesting for economists (section~\ref{subsec:nonecon}).\ifthenelse{\boolean{inBook}}{}{\footnote{Since the outbreak of the COVID-19 pandemic, a large literature has sprung up in which economists have directly modeled COVID itself as a disease, or modeled the economic consequences of the disease; this work of course does not meet our criteria, but some of it -- e.g. \cite{gourieroux2020time} -- contains interesting techniques for modeling the spread of the disease which could potentially be repurposed for modeling the spread of ideas.}}
 
 \section{Background and Motivation}\label{motivation-and-context}
+\hypertarget{EpiExpHet}{}
 
-\subsection{Expectational Heterogeneity}\label{EpiExpHet}\hypertarget{EpiExpHet}{}
-
+\subsection{Expectational Heterogeneity}\label{EpiExpHet}
 In their introduction to the
 \begin{verbatimwrite}{./Slides/QuoteBrowningHansenHeckman1999}%%%Slides
   \textit{Handbook of Microeconomics}, \href{http://larspeterhansen.org/wp-content/uploads/2016/11/Microdata-and-GE-Models.pdf}{Browning, Heckman, and Hansen [\citeyear{browning_chapter_1999}]} wrote that the most universal lesson of micro economics is that ``people are different in ways that importantly affect their economic behavior.''
@@ -271,6 +271,7 @@ Partly, the failure to incorporate expectational heterogeneity reflects the fact
 
   The proliferation of new data on expectations, and new evidence that they explain differences in behavior, seem likely to tempt economists to produce models to fit the facts.  Our guess is that epidemiological models may be one of the primary methods of accomplishing this goal.
 
+  \hypertarget{epistemversusepidem}{}
   \subsection{Epistemology and Epidemiology}\label{epistemversusepidem}
 
   Below we briefly summarize the extensive literature outside of economics measuring the spread of ideas.  One element is missing from almost all of this work: a rigorous description of a mechanism that accounts for an endogenous \textit{origin} of the ideas.
@@ -282,20 +283,17 @@ Partly, the failure to incorporate expectational heterogeneity reflects the fact
   In fact, most of the examples of EE models we articulate below are of this kind: There is some parameter or set of parameters which can be set to zero (or some other specific value), causing the model to collapse to a RE model.%  See section~\ref{subsec:macroExp} for discussion of some specific examples.
 
 }
-
+\hypertarget{epiNet}{}
 \subsection{Epidemiological Models}\label{subsec:epiNet}
 % \subsubsection{Consequences of Social Transmission}\label{subsubsec:Consequences-of-Social-Transmission}\hypertarget{ConsequencesOfSocialTransmission}{}
 
 We will use the word `classical' to refer to epidemiological models that descend from \cite{kermack_contribution_1927}, who formulated the problem as one of tracking the size of `compartments' of the population in different disease states (`Susceptible' to infection, `Infected,' or `Recovered'; \Susceptible, \Infected, and \Recovered~for short) under a `random mixing' assumption in which all members of the population were equally likely to encounter each other in a time interval.  These assumptions allowed formulation of the problem as a set of nonlinear differential equations.
 
-A newer literature
-% also examines the social transmission of beliefs and satisfies any reasonable interpretation of  an `epidemiological' approach:  A large body of work using
-uses the tools of `network theory' to study models in which the `nodes' in a graph are people and the `edges' are social links between nodes.  \cite{erdos1960evolution} originated this literature with a model in which connections among agents were a `random graph' (the network analog of the `random mixing' assumption), so the only parameter was `degree': the number of connections each agent had.  Subsequent work relaxed the random graph assumption, allowing meaningful definition of an agent's `neighbors,' and showed that a `clustering coefficient' is a useful measurement of the extent to which a person's neighbors know each other.\footnote{A standard reference for economists is the textbook by~\cite{jackson_social_2010}.} % These tools allow the researcher to consider any quantifiable type of connection -- not restricted to geography or workplace or any other narrow category.
+A newer literature uses the tools of `network theory' to study models in which the `nodes' in a graph are people and the `edges' are social links between nodes.  \cite{erdos1960evolution} originated this literature with a model in which connections among agents were a `random graph' (the network analog of the `random mixing' assumption), so the only parameter was `degree': the number of connections each agent had.  Subsequent work relaxed the random graph assumption, allowing meaningful definition of an agent's `neighbors,' and showed that a `clustering coefficient' is a useful measurement of the extent to which a person's neighbors know each other.\footnote{A standard reference for economists is the textbook by~\cite{jackson_social_2010}.}
 
 % \footnote{The mathematical formulation of network theory, or graph theory (the boundary between these is porous) is usually attributed to Leonhard Euler, in his solution to a problem of geography -- the ``Bridges of Konigsberg.''}
 
 While the classical and the network-theory approaches seem quite different, it turns out that a `random graph' network can be configured to produce an arbitrarily close approximation to the classical problem, by assuming that at any date $t$ each node is in one of the three states $\{\Susceptible, \Infected, \Recovered\}$, and that `edges' are the links by which an infection can pass from an infected to a susceptible person (our SIR model in Section~\ref{subsec:shillerpound} is constructed in exactly this way; see \cite{newman2002spread} and \cite{jackson_social_2010} for canonical analyses of epidemics on networks).
-
 
 Networks can also be used to study a great many other essentially epidemiological questions that could not even be formulated in the classical setup. % (Network theory has also been used to study a wide range of questions in game theory and other fields quite distant from epidemiology.)
 
@@ -322,7 +320,7 @@ This provides a satisfying explanation for a phenomenon first documented by \cit
 
 % that would follow only under a host of additional assumptions which have widely varying plausibility for different kinds of knowledge or information transmission.  As a result, our survey will highlight models that deviate in interesting ways from the framework specified above.
 
-\subsection{Expectational Tribes}\label{subsec:ExpTribes}
+\subsection{Expectational Tribes}\label{subsec:ExpTribes}\hypertarget{ExpTribes}{}
 
 % The fact that epidemiological models can easily imply that subgroups can settle into permanently different points of view is inconvenient from a modeling perspective.
 If there were no evidence that differences of opinion could matter for important economic decisions, the case for epidemiological modeling would be weaker.  We therefore conclude this section on `background and motivation' by presenting some evidence of a recent clear failure of `identical beliefs' with consequences for measured choices in an area core to both micro and macro modeling: financial risk-taking.
@@ -425,7 +423,7 @@ This framework can be extended in many directions.  The usual next step is for t
 \end{verbatimwrite}
 \input{./Tables/SIDynTrans}
 
-The best-known epidemiological framework adds a `\Recovered' state that can designate either recovery or `removal' (via, say, death), yielding the class of `SIR' models  of \cite{kermack_contribution_1927}.\ifthenelse{\boolean{inBook}}{}{\footnote{Unfortunately, the model's equations do not have finite closed-form analytical solutions; \cite{miller2012note} and \cite{harko2014exact} produce alternative formulations of what they call analytical solutions -- see   \href{https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology\#Transition_rates}{this Wikipedia page} -- but both involve an integral that can only be calculated numerically.}}
+The best-known epidemiological framework adds an `\Recovered' state that can designate either recovery or `removal' (via, say, death), yielding the `classical' SIR models.\ifthenelse{\boolean{inBook}}{}{\footnote{Unfortunately, the model's equations do not have finite closed-form analytical solutions; \cite{miller2012note} and \cite{harko2014exact} produce alternative formulations of what they call analytical solutions -- see   \href{https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology\#Transition_rates}{this Wikipedia page} -- but both involve an integral that can only be calculated numerically.}}
 The SIR framework has rich and interesting implications, such as the potential for `herd immunity' which comes about when a high enough proportion of the population has either Recovered or otherwise been Removed (say, by vaccination) from the Susceptible compartment.
 
 % so implications must be obtained numerically.  %using numerical computational procedures -- though with current computational technologies such computations for the original \cite{kermack_contribution_1927} model have negligible cost.
@@ -493,7 +491,7 @@ To take a more complex example, in classical epidemiological models it would be 
 
 \input{subparts/shiller_pound.tex}
 
-
+\hypertarget{literature}{}
 \section{Literature}\label{sec:literature}
 
 % \subsection{Three Fields With Full-Fledged EE Models}
@@ -521,8 +519,9 @@ Figure~\ref{fig:graph_mixer} provides a citation map of papers in the literature
 \input{subparts/non-econ.tex} % by Tao
 \input{subparts/future_directions.tex}
 
+hypertarget{subsec:literature}{}
 
-\subsection{Literature Summation}
+\subsection{Literature Summation}\label{subsec:literature}
 
 \ifthenelse{\boolean{inBook}}{}{We have barely scratched the surface of the scholarly literature with interesting evidence about the ways in which social interactions shape population beliefs.  Even within economics, where the topic has received less attention than might be expected, there is so much material that we are confident that we have missed some content that should have been included, for which we hereby preemptively apologize to readers (and authors).}% and would encourage the authors of such work bring it to our attention.
 
