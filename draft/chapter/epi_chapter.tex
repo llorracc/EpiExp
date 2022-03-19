@@ -65,7 +65,7 @@
       Tao Wang\authNum}
 
     \title{Epidemiological Expectations}
-    \renewcommand{\forcedate}{March 18, 2022}
+    \renewcommand{\forcedate}{March 19, 2022}
     \keywords{Economic Expectations,  Epidemiological Expectations,  Social interactions,  Social dynamics,  Information diffusion,  Economic Narratives}
     \jelclass{D84, D91, E71, G41}
     \maketitle
@@ -109,7 +109,7 @@
       \par\noindent\rule{\textwidth}{0.4pt}
     }{}
     \titlepagefinish
-    \ifthenelse{\boolean{Web}}{}{ % Web version puts this in frame
+    \ifWeb{ % Web version puts this in frame
       \renewcommand{\contentsname}{}
       \tableofcontents
     }
@@ -150,8 +150,8 @@
       \indent -- \href{https://econpapers.repec.org/RePEc:eee:jeborg:v:5:y:1984:i:1:p:35-55}{\cite{simon_behavioral_1984}}
       % }
     \end{quote}
-  \end{verbatimwrite} 
-  \input{./Slides/QuoteSimon1984} 
+  \end{verbatimwrite}
+  \input{./Slides/QuoteSimon1984}
 
   \begin{verbatimwrite}{./Slides/QuoteShiller2017}
     \begin{quote}\ifthenelse{\boolean{Slides}}{\footnotesize}{}
@@ -162,8 +162,8 @@
       \indent -- \href{https://www.amazon.com/dp/B07VZWLRM8/ref=cm_sw_em_r_mt_dp_BT5KE0VTHQX6DJ35FD9C}{\cite{shiller2017narrative}}
       % }
     \end{quote}
-  \end{verbatimwrite} 
-  \input{./Slides/QuoteShiller2017} 
+  \end{verbatimwrite}
+  \input{./Slides/QuoteShiller2017}
 
   \begin{verbatimwrite}{./Slides/QuoteInception2010}
     \begin{quote}\ifthenelse{\boolean{Slides}}{\footnotesize}{}
@@ -174,8 +174,8 @@
       The movie \textit{Inception} [\citeyear{Inception2010}]
       % } % Tao: Fix citation
     \end{quote}
-  \end{verbatimwrite} 
-  \input{./Slides/QuoteInception2010} 
+  \end{verbatimwrite}
+  \input{./Slides/QuoteInception2010}
 
   \ifInBook{
   \end{frontmatter}%
