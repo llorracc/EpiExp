@@ -73,10 +73,10 @@
     \begin{abstract}
       \input{./abstract}
     \end{abstract}
-    \ifdvi % skip the links because they do not work inside the html
-    \else
-    {\vspace{0.5in}
-      \newcommand{\owner}{llorracc}
+    \ifthenelse{\boolean{Web}}{
+    \vspace{0.5in}
+      \providecommand{\owner}{llorracc}
+      \renewcommand{\owner}{llorracc}
       \newcommand{\REMARK}{\href{https://github.com/econ-ark/REMARK}{REMARK}}
       \begin{small}
         \parbox{0.9\textwidth}{
@@ -91,10 +91,9 @@
               \texttt{~~~GitHub:~} \> \> \texttt{\href{https://github.com/\owner/EpiExp}{https://github.com/\owner/EpiExp}} \\
             \end{tabbing}
           \end{center}
-        }
+          }
       \end{small}
     }
-    \fi
 
     \begin{authorsinfo}
       \name{Contact: \href{mailto:ccarroll@jhu.edu}{\texttt{ccarroll@jhu.edu}}, Department of Economics, 590 Wyman Hall, Johns Hopkins University, Baltimore, MD 21218, \url{https://www.econ2.jhu.edu/people/ccarroll}, and National Bureau of Economic Research; \href{mailto:twang80@jhu.edu}{\texttt{twang80@jhu.edu}}, Department of Economics, 590 Wyman Hall, Johns Hopkins University, Baltimore, MD 21218}
