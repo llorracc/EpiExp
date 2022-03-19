@@ -109,10 +109,10 @@
       \par\noindent\rule{\textwidth}{0.4pt}
     }{}
     \titlepagefinish
-    \ifWeb{ % Web version puts this in frame
+    \ifthenelse{\boolean{Web}}{ % Web version puts this in frame
       \renewcommand{\contentsname}{}
       \tableofcontents
-    }
+    }{}
     \small
     \renewcommand{\listtablename}{\normalsize Tables}
     \renewcommand{\listfigurename}{\normalsize Figures}
