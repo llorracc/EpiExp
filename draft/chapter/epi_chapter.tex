@@ -39,6 +39,10 @@
 }
 
 \newcommand{\thankstext}{Thanks to the participants in the \textit{Handbook of Economic Expectations} Conference for insightful comments, and the editors for comments that substantially improved the paper.  Thanks also to Sebastian Benthall, Francesco Bianchi, Jennifer Manning, and Adrian Monninger for feedback on earlier drafts, and special thanks to Mridul Seth for help in using the \texttt{\href{https://ndlib.readthedocs.io}{NDLib}} and \texttt{\href{https://networkx.org/}{NetworkX}} python libraries to produce our \href{https://econ-ark.org/materials/epiexp?launch}{SIR Model Notebook}.}
+\begin{verbatimwrite}{./abstract.tex}
+  `Epidemiological' models of belief formation put social interactions at their core; such models are the principal kind of tool used by scholars who are not economists to study the dynamics of beliefs in populations.  We survey the literature in which economists attempting to model the consequences of beliefs about the future -- `expectations' -- have employed a full-fledged epidemiological approach to explore an economic question.  We draw connections to related work on `contagion,' narrative economics, news/rumor spreading, and the spread of internet memes. A main theme of the paper is that a number of independent developments have recently converged to make epidemiological expectations (`EE') modeling more feasible and appealing than in the past.
+\end{verbatimwrite}
+
 \ifthenelse{\boolean{inBook}}{
   \begin{frontmatter}%
 
@@ -65,7 +69,7 @@
     \end{keywords}
     \hypertarget{abstract}{}
     \begin{abstract}[Abstract]
-      `Epidemiological' models of belief formation put social interactions at their core; such models are the main kind of tool used by scholars who are not economists to study the dynamics of beliefs in populations.  We survey the literature in which economists attempting to model the consequences of beliefs about the future -- `expectations' -- have employed a full-fledged epidemiological approach to explore an economic question.  We draw connections to related work on `contagion,' narrative economics, news/rumor spreading, and the spread of internet memes. We conclude by arguing that a number of independent developments have recently converged to make epidemiological expectations (`EE') modeling more feasible and appealing than in the past.
+      \input{./abstract.tex}
     \end{abstract}
     \pagebreak
   }{%else not in book
@@ -80,10 +84,8 @@
     \maketitle
     \hypertarget{abstract}{}
     \begin{abstract}
-      `Epidemiological' models of belief formation put social interactions at their core; such models are the main (almost, the only) kind of tool used by scholars who are not economists to study the dynamics of beliefs in populations.  We survey the literature in which economists attempting to model the consequences of beliefs about the future -- `expectations' -- have employed a full-fledged epidemiological approach to explore an economic question.  We draw connections to related work on `contagion,' narrative economics, news/rumor spreading, and the spread of internet memes. A main theme of the paper is that a number of independent developments have recently converged to make epidemiological expectations (`EE') modeling more feasible and appealing than in the past.
-
+      \input{./abstract}
     \end{abstract}
-
     \ifdvi % skip the links because they do not work inside the html
     \else
     \vspace{0.5in}
@@ -125,8 +127,6 @@
       \tableofcontents
     }
     \small
-    \pagebreak
-    % \begin{minipage}{0.9\textwidth}
     \renewcommand{\listtablename}{\normalsize Tables}
     \renewcommand{\listfigurename}{\normalsize Figures}
     \listoffigures
@@ -202,13 +202,11 @@
 \section{Introduction}
 \label{chap1:sec1}
 
-It is a commonplace, in academia and popular culture, that ideas spread like diseases: they can be ``infectious'' or ``go viral.''  The proposition is hardly new; as \cite{shiller2017narrative} points out, it can be found at least as far back as \cite{humeenquiry},
-whose ideas thoroughly infected the work of his friend \cite{smithwealth}.\footnote{See \cite{rasmussen2017infidel}.} Indeed, %with one notable exception (see below),
-in fields other than economics, debates are rarely about whether social interactions are fundamental; the question is usually which particular models of social communication are most suitable for understanding the prevalence of which kinds of ideas.
+It is a commonplace, in academia and popular culture, that ideas spread like diseases: they can be ``infectious'' or ``go viral.''  The proposition is hardly new; as \cite{shiller2017narrative} points out, it can be found at least as far back as \cite{humeenquiry}, whose ideas thoroughly infected the work of his friend \cite{smithwealth}.\footnote{See \cite{rasmussen2017infidel}.} Indeed, in fields other than economics, debates are rarely about whether social interactions are fundamental; they are about which particular models of social communication are most suitable for understanding the spread of which kinds of ideas.
 
-``Expectations'' are just a category of ideas.  So upon being told that expectations play a critical role in structural economic modeling, a scholar who was not an economist might suppose that epidemiological approaches would be a standard part of the economist's toolkit for modeling expectations --- unless there were good reason to suppose that economic ideas are immune to social influence.  But evidence for social transmission of economic ideas is plentiful -- see Section~\ref{subsec:microEvidence}.
+``Expectations'' are just a category of ideas.  So upon being told that expectations play a critical role in structural economic modeling, a scholar who was not an economist might suppose that epidemiological approaches would be a standard part of the economist's toolkit for modeling expectations --- unless there were good reason to believe that economic ideas are immune to social influence.  But evidence for social transmission of economic ideas is plentiful -- see Section~\ref{subsec:microEvidence}.
 
-Yet it would not be accurate to say that an `epidemiological expectations' (`EE') approach is a standard way of constructing formal models of economic phenomena -- a conventional off-the-shelf alternative, say, to a `rational expectations' (`RE') approach, the `Rational Inattention' (`RI') approach advocated by~\cite{sims2003implications}, the `diagnostic expectations' model of~\cite{bordalo2018diagnostic}, or a number of bounded rationality approaches (e.g.,~\cite{gabaix2020behavioral} or \cite{ilut2020economic}).
+Still, it would not be accurate to say that an `epidemiological expectations' (`EE') approach is a standard way of constructing formal models of economic phenomena -- a conventional off-the-shelf alternative, say, to a `rational expectations' (`RE') approach, the `Rational Inattention' (`RI') approach advocated by~\cite{sims2003implications}, the `diagnostic expectations' model of~\cite{bordalo2018diagnostic}, or a number of bounded rationality approaches (e.g.,~\cite{gabaix2020behavioral} or \cite{ilut2020economic}).
 
 This is perhaps because nowhere has any focused attempt been made to define what would constitute an EE treatment of an economic question.\ifthenelse{\boolean{inBook}}{}{\footnote{A methodology in cultural economics called `the epidemiological approach' seeks to identify cultural variations in behavior the same way epidemiologists sometimes identify disease risks: By a person's place of origin, or other observable exogenous traits that might be markers of cultural attitudes.  Since this approach does not aim to study the transmission of expectations by social interactions, we see little danger of its being confused with what we define as EE modeling.}}  For the purposes of this survey, we will think of a full-fledged EE treatment as incorporating the following elements:
 \begin{verbatimwrite}{./Slides/FullFledgedEE}
@@ -323,7 +321,7 @@ This provides a satisfying explanation for a phenomenon first documented by \cit
 \subsection{Expectational Tribes}\label{subsec:ExpTribes}\hypertarget{ExpTribes}{}
 
 % The fact that epidemiological models can easily imply that subgroups can settle into permanently different points of view is inconvenient from a modeling perspective.
-If there were no evidence that differences of opinion could matter for important economic decisions, the case for epidemiological modeling would be weaker.  We therefore conclude this section on `background and motivation' by presenting some evidence of a recent clear failure of `identical beliefs' with consequences for measured choices in an area core to both micro and macro modeling: financial risk-taking.
+If there were no evidence that differences of opinion could matter for important economic decisions, the case for epidemiological modeling would be weaker.  We therefore conclude this our `background and motivation' with some evidence of a recent clear failure of `identical beliefs' with consequences for measured choices in an area core to both micro and macro modeling: financial risk-taking.
 
 \href{https://github.com/iworld1991/EpiExp/blob/master/Literature/meeuwis2018belief.pdf}{\cite{meeuwis2018belief}}, using data on millions of retirement investors, show that after Donald Trump's surprise victory in the U.S.\ 2016 Presidential election, investors likely to be affiliated with Republican Party (inferred from  campaign donations at the zip code level) increased the equity share in their portfolio, while (likely) Democrats rebalanced into safe assets. (See~Figure~\ref{fig:parker}.)  These choices occurred at exactly the same time that consumer sentiment surveys showed that self-identified Republicans had suddenly become more optimistic, and Democrats more pessimistic, about the economy's prospects over the next few years.\footnote{The New York Fed \href{https://libertystreeteconomics.newyorkfed.org/2017/12/political-polarization-in-consumer-expectation'}{blog post} \textit{``Political Polarization in Consumer Expectations''} also finds partisan differences in consumer expectations.}\ifthenelse{\boolean{inBook}}{}{$^{,}$\footnote{Of course as is the case in many settings, the cause of changes in beliefs, here the election outcome, is also a potential cause of changes in objective economic circumstances.  The paper makes use of its rich data to provide strong evidence that differences in circumstances such as local economic conditions or hedging needs are not driving the results. In particular, investment behavior differs by political affiliation even among people living in the same county and working at the same firm, and after controlling for many other individual-level characteristics.}}
 
@@ -399,7 +397,7 @@ In the simplest epidemiological model, a continuous population is partitioned am
   \end{table}
 \end{verbatimwrite}
 \input{./Tables/SIDynCS}
-This framework can be extended in many directions.  The usual next step is for the disease to be transmitted as a result of `random mixing,' and each susceptible person who encounters an infected person becomes infected with a fixed probability. Given a non-zero initial infected fraction $I_0$, the fraction  infected and susceptible evolve per Table \ref{table:SIDynTrans}.
+This framework can be extended in many directions.  The usual next step is for the disease to be transmitted as a result of `random mixing' where each susceptible person who encounters an infected person becomes infected with a fixed probability. Given a non-zero initial infected fraction $I_0$, the fraction  infected and susceptible evolve per Table \ref{table:SIDynTrans}.
 \begin{verbatimwrite}{./Tables/SIDynTrans}
   \begin{table}[ht]
     \caption{ ~Transmissible SI Model}\label{table:SIDynTrans}
