@@ -1,7 +1,7 @@
 % epi_cha -*- mode: LaTeX; TeX-PDF-mode: t; -*-
 \input{./econtexRoot} % Set paths for root and various resources
 \documentclass[book,numbers]{elsbook-P04}
-\usepackage{ifthen}\newboolean{inBook}\setboolean{inBook}{true}
+\usepackage{ifthen}\provideboolean{inBook}\setboolean{inBook}{true}\provideboolean{Web}\setboolean{Web}{false}
 % \setboolean{inBook}{false}
 \providecommand{\texname}{EpiExp}% Keyname for the paper
 \usepackage{\LaTeXInputs/\texname}% Custom styles for paper
