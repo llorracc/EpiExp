@@ -18,7 +18,7 @@ Here, we touch upon literatures that collect evidence in ways not targeted to co
   \end{enumerate}
 \end{verbatimwrite}
 
-\ifthenelse{\boolean{inBook}}{}{Such work could help answer questions like
+\ifInBook{}{Such work could help answer questions like
   \begin{quote}
     \normalfont
     \input{./Slides/MicroEvidence}
@@ -71,12 +71,12 @@ An indirect approach is to attempt to measure the effect of news coverage on con
 
 % TW to CDC: \cite{angeletos2013sentiments} could be cited here? it is realted to sentiment. But the paper is theoretical not just about news.
 
-\ifthenelse{\boolean{inBook}}{}{
+\ifInBook{}{
   New ways of pursuing these kinds of ideas may be feasible using data like Google Trends search queries, which~\cite{choi2012predicting} have shown can predict sentiment data well and can serve as a real-time measure of the degree of internet users' interest in economic topics.}
 
-Perhaps the most notable recent work relating media to macroeconomics has been that of \cite{baker2016measuring}, who use news sources to construct an index of ``economic policy uncertainty'' and find that it has predictive power for macroeconomic outcomes beyond what can be extracted from the usual indicators.  \ifthenelse{\boolean{inBook}}{T}{The extent to which an epidemiological mechanism is necessary to make sense of this finding is unclear; the authors' interpretation seems to be mainly that they are measuring a fundamental fact about the world (the policymaking process inherently and unavoidably generates uncertainty).
+Perhaps the most notable recent work relating media to macroeconomics has been that of \cite{baker2016measuring}, who use news sources to construct an index of ``economic policy uncertainty'' and find that it has predictive power for macroeconomic outcomes beyond what can be extracted from the usual indicators.  \ifInBook{T}{The extent to which an epidemiological mechanism is necessary to make sense of this finding is unclear; the authors' interpretation seems to be mainly that they are measuring a fundamental fact about the world (the policymaking process inherently and unavoidably generates uncertainty).
 
-  But t}he uncertainty the authors measure might be affected by the structure of interactions in the media ecosystem; the extensive literature on ``fake news'' (see~\cite{allcott2017social} discussed elsewhere) and the incentives faced by suppliers of commentary would surely admit the possibility that uncertainty might be introduced or amplified by epidemiological mechanisms \ifthenelse{\boolean{inBook}}{.}{, in which case analysis of those mechanisms might yield some insight into whether changes in the epidemiological landscape (say, the rise of Fox News) have consequences for economic outcomes by changing the degree or dynamics of economic policy uncertainty.}  One way to test for the epidemiological alternative might be consider alternative scenarios for the policies that might be manifested as competing `narratives' about how policymakers will behave; the uncertainty would then be about which narrative would turn out to be correct.\footnote{See \cite{eliaz2020model} for a model of such mechanisms.}
+  But t}he uncertainty the authors measure might be affected by the structure of interactions in the media ecosystem; the extensive literature on ``fake news'' (see~\cite{allcott2017social} discussed elsewhere) and the incentives faced by suppliers of commentary would surely admit the possibility that uncertainty might be introduced or amplified by epidemiological mechanisms \ifInBook{.}{, in which case analysis of those mechanisms might yield some insight into whether changes in the epidemiological landscape (say, the rise of Fox News) have consequences for economic outcomes by changing the degree or dynamics of economic policy uncertainty.}  One way to test for the epidemiological alternative might be consider alternative scenarios for the policies that might be manifested as competing `narratives' about how policymakers will behave; the uncertainty would then be about which narrative would turn out to be correct.\footnote{See \cite{eliaz2020model} for a model of such mechanisms.}
 
 That leads us to our next topic.
 
@@ -92,7 +92,7 @@ After presenting a popular case for the idea in~\cite{akerlof2010animal}, he has
 There are formidable obstacles to turning Shiller's plausible idea into a quantitative modeling tool.  One is the difficulty of identifying the alternative narratives competing at any time, and reliably measuring their prevalence.
 \href{https://github.com/iworld1991/EpiExp/blob/master/Literature/shiller2020popular.pdf}{\cite{shiller2020popular}} made an initial effort at this.  By combing historical news archives and internet search records, he identified six economic narratives that have circulated since 2009, which he labeled as ``Great Depression,'' ``secular stagnation,'' ``sustainability,'' ``housing bubble,'' ``strong economy,'' and ``save more.''  (See also  \cite{ash2021text} and the references therein.)
 
-\cite{larsen2019business} take up the challenge of quantifying media narratives, deriving virality indexes, and conducting Granger causality tests to determine the extent to which viral narratives can predict or explain economic outcomes\ifthenelse{\boolean{inBook}}{.}{, in the U.S., Japan, and Europe.}  The authors find episodes in which their methodology identifies `narratives' that have `gone viral,' with measured economic consequences.  %This is early work, but the authors identify apparent connections between the intensity and valence of discussion of some topics and subsequent economic outcomes.
+\cite{larsen2019business} take up the challenge of quantifying media narratives, deriving virality indexes, and conducting Granger causality tests to determine the extent to which viral narratives can predict or explain economic outcomes\ifInBook{.}{, in the U.S., Japan, and Europe.}  The authors find episodes in which their methodology identifies `narratives' that have `gone viral,' with measured economic consequences.  %This is early work, but the authors identify apparent connections between the intensity and valence of discussion of some topics and subsequent economic outcomes.
 
 % More to the definitional point, the process of identifying narratives does not in itself constitute the construction of an epidemiological model.  The narrative is more like the virus itself; a ``full-fledged'' model of epidemiological narrative economics would need to incorporate specifics of transmission channels -- as in the earlier work by \cite{shiller1989survey}.
 

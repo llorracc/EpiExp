@@ -3,7 +3,7 @@
 
 
 
-\ifthenelse{\boolean{inBook}}{}{
+\ifInBook{}{
 %\begin{center}	[Insert Figure \ref{fig:graph_diffusion}  here]\end{center}
 
 \begin{figure}[!ht] \centering  % [h!]
@@ -34,7 +34,7 @@ The aforementioned  \href{https://pubmed.ncbi.nlm.nih.gov/23888042/}{\cite{baner
 \cite{lucas2014knowledge} construct an economy containing agents with a distribution of levels of productivity, and consider the dynamics of aggregate productivity under several alternative assumptions about how agents with lower productivity `learn' from agents with higher productivity.  %(`Learning' just means that, in an encounter between two agents, the agent with lower productivity adopts the other agent's technology).  %Encounters between agents are of the standard epidemiological `random mixing' kind.
 % The baseline version of the model is one in which every agent is eligible to adopt any technology they encounter, which corresponds roughly to an epidemiological assumption that the `disease' is equally transmissible to all agents.  They also consider an alternative in which it is easier to move to a technology that is `near' your own than to leap across a large technological gap.  This latter assumption can perhaps be thought of as being similar to the `threshold' mechanisms discussed above, in which an idea is more likely to be transmitted if an agent is exposed to it many times -- assuming that agents are more likely to encounter other agents whose productivity levels are similar to their own.
 Agents solve an optimization problem to determine the intensity of their search effort, which affects the likelihood of encountering an agent with a learnable ``better technology.''  %; this framework is constructed so that the agents have enough knowledge of the productivity distribution (and the efficacy of search) to make such choices rationally.
-\ifthenelse{\boolean{inBook}}{}{
+\ifInBook{}{
 This is likely to be a common direction in which economists may take epidemiological models: Incorporation of purposive behaviors by agents. While some work in epidemiology allows agents to take actions to reduce the probability of infection, models in that literature have rarely been formulated with an eye to creating a structure where an explicit analytical optimization problem can be stated and solved.}
 
 % CDC: this is where Lucas and Moll's paper should be surveyed.
