@@ -7,7 +7,7 @@
 
 \makeatletter
 \newif\ifdvi\dvitrue
-\@ifundefined{pdfoutput}{}{\ifnum\pdfoutput>0 \dvifalse\fi}
+\@ifundefined{pdfoutput}{}{\ifnum\pdfoutput>0 \dvitrue\fi}
 \makeatother
 
 \providecommand{\texname}{EpiExp}% Keyname for the paper
@@ -50,7 +50,7 @@
     urlcolor=blue}
 
 }{
-  \newif\ifdvi\dvifalse
+  \newif\ifdvi\dvitrue
 
   \usepackage[econtex]{optional}
   \usepackage{footmisc,datetime2,refcount,hhline,rotating,subfig,makecell,subfloat}
