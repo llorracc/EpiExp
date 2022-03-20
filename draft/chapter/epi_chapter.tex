@@ -23,163 +23,185 @@
   \newcommand{\bvbayesianlearningShort}{\cite{bv2022bayesianlearning}}
 }
 
-\newcommand{\thankstext}{Thanks to the participants in the \textit{Handbook of Economic Expectations} Conference for insightful comments, and the editors for comments that substantially improved the paper.  Thanks also to Sebastian Benthall, Francesco Bianchi, Jennifer Manning, and Adrian Monninger for feedback on earlier drafts, and special thanks to Mridul Seth for help in using the \texttt{\href{https://ndlib.readthedocs.io}{NDLib}} and \texttt{\href{https://networkx.org/}{NetworkX}} python libraries to produce our \href{https://econ-ark.org/materials/epiexp?launch}{SIR Model Notebook}.}
+\begin{verbatimwrite}{./thankstext}
+  \newcommand{\thankstext}{Thanks to the participants in the \textit{Handbook of Economic Expectations} Conference for insightful comments, and the editors for comments that substantially improved the paper.  Thanks also to Sebastian Benthall, Francesco Bianchi, Jennifer Manning, and Adrian Monninger for feedback on earlier drafts, and special thanks to Mridul Seth for help in using the \texttt{\href{https://ndlib.readthedocs.io}{NDLib}} and \texttt{\href{https://networkx.org/}{NetworkX}} python libraries to produce our \href{https://econ-ark.org/materials/epiexp?launch}{SIR Model Notebook}.}
+\end{verbatimwrite}
+\begin{verbatimwrite}{./thanks}
+  \begin{center}
+    \begin{minipage}{0.95\textwidth}
+      {\footnotesize \thankstext \normalsize}
+    \end{minipage}
+  \end{center}
+  \ifthenelse{\boolean{Web}}{
+    \par\noindent\rule{\textwidth}{0.4pt}
+  }{}
+\end{verbatimwrite}
 
 \begin{verbatimwrite}{./abstract.tex}
   `Epidemiological' models of belief formation put social interactions at their core; such models are widely used by scholars who are not economists to study the dynamics of beliefs in populations.  We survey the literature in which economists attempting to model the consequences of beliefs about the future -- `expectations' -- have employed a full-fledged epidemiological approach to explore an economic question.  We draw connections to related work on `contagion,' narrative economics, news/rumor spreading, and the spread of internet memes. A main theme of the paper is that a number of independent developments have recently converged to make epidemiological expectations (`EE') modeling more feasible and appealing than in the past.
 \end{verbatimwrite}
 
+\begin{verbatimwrite}{./Slides/QuoteSimon1984}
+  \begin{quote}\ifthenelse{\boolean{Slides}}{\footnotesize}{}
+    \textit{A very natural next step for economics is to maintain expectations in	the strategic position they have come to occupy, but to build an empirically validated theory of how attention is in fact directed within a social system, and how expectations are, in fact, formed.}
+    \medskip
+    \indent -- \href{https://econpapers.repec.org/RePEc:eee:jeborg:v:5:y:1984:i:1:p:35-55}{\cite{simon_behavioral_1984}}
+  \end{quote}
+\end{verbatimwrite}
+
+\begin{verbatimwrite}{./Slides/QuoteShiller2017}
+  \begin{quote}\ifthenelse{\boolean{Slides}}{\footnotesize}{}
+    \textit{If we want to know why an unusually large economic event happened, we need to list the seemingly unrelated narratives that all happened to be going viral at around the same time and affecting the economy in the same direction.}
+    \medskip
+    \indent -- \href{https://www.amazon.com/dp/B07VZWLRM8/ref=cm_sw_em_r_mt_dp_BT5KE0VTHQX6DJ35FD9C}{\cite{shiller2017narrative}}
+  \end{quote}
+\end{verbatimwrite}
+
+
+\begin{verbatimwrite}{./Slides/QuoteArrow1969}
+  \begin{quote}\ifthenelse{\boolean{Slides}}{\footnotesize}{}
+    \textit{While mass media play a major role in alerting individuals to the possibility of an innovation, it seems to be personal contact that is most relevant in leading to its adoption. Thus, the diffusion of an innovation becomes a process formally akin to the spread of an infectious disease.}
+
+    \medskip
+    \indent -- \href{https://github.com/iworld1991/EpiExp/blob/master/Literature/arrow_classificatory_1969.pdf}{\cite{arrow_classificatory_1969}}
+  \end{quote}
+\end{verbatimwrite}
+
+\begin{verbatimwrite}{./authorsinfo}
+  \begin{authorsinfo}
+    \name{Contact: \href{mailto:ccarroll@jhu.edu}{\texttt{ccarroll@jhu.edu}}, Department of Economics, 590 Wyman Hall, Johns Hopkins University, Baltimore, MD 21218, \url{https://www.econ2.jhu.edu/people/ccarroll}, and National Bureau of Economic Research; \href{mailto:twang80@jhu.edu}{\texttt{twang80@jhu.edu}}, Department of Economics, 590 Wyman Hall, Johns Hopkins University, Baltimore, MD 21218}
+  \end{authorsinfo}
+\end{verbatimwrite}
+
+\begin{verbatimwrite}{./Slides/QuoteInception2010}
+  \begin{quote}\ifthenelse{\boolean{Slides}}{\footnotesize}{}
+    \textit{An idea is like a virus. Resilient. Highly contagious. And even the smallest seed of an idea can grow.}   --Cobb
+    \medskip \indent --
+    The movie \textit{Inception} [\citeyear{Inception2010}]
+  \end{quote}
+\end{verbatimwrite}
+
 \ifInBook{
-  \begin{frontmatter}% Chapter Opener
+\begin{frontmatter}% Chapter Opener
+  \input{./thankstext}
+%  \input{./authorsinfo}
 
-    \chapter[Chapter Title]{Epidemiological \\ Expectations\footnote{\thankstext}}\label{chap1}
+  \chapter[Chapter Title]{Epidemiological \\ Expectations\footnote{\thankstext}}\label{chap1}
 
-    % \authormark{First Author, Second Author and Third Author}
+  % \authormark{First Author, Second Author and Third Author}
 
-    \author[1]{Christopher Carroll}
-    \author[1]{Tao Wang}
-    \address[1]{\orgname{Johns Hopkins University}, \orgdiv{Department of Economics}, \\ Corresponding: \email{twang80@jhu.edu}}
+  \author[1]{Christopher Carroll}
+  \author[1]{Tao Wang}
+  \address[1]{\orgname{Johns Hopkins University}, \orgdiv{Department of Economics}, \\ Corresponding: \email{twang80@jhu.edu}}
 
-    \titlemark{Part Title}
-    \chaptermark{Epidemiological Expectations}
+  \titlemark{Part Title}
+  \chaptermark{Epidemiological Expectations}
 
-    \MaxmMiniTocnum{A.1}{3.3.3}{}
+  \MaxmMiniTocnum{A.1}{3.3.3}{}
 
-    \minitoc
+  \minitoc
 
-    \makechaptertitle
-    \begin{keywords}[Keywords:]
-      Economic Expectations \sep Epidemiological Expectations \sep Social interactions \sep Social dynamics \sep Information diffusion \sep Economic Narratives
-    \end{keywords}
-    \begin{keywords}[JEL Codes:]
-      D84, D91, E71, G41,
-    \end{keywords}
-    \hypertarget{abstract}{}
-    \begin{abstract}[Abstract]
-      \input{./abstract.tex}
-    \end{abstract}
-    \pagebreak
-  }{%else not in book
-    \author{Christopher D. Carroll\authNum \\
-      \\
-      Tao Wang\authNum}
-
-    \title{Epidemiological Expectations}
-    \renewcommand{\forcedate}{March 19, 2022}
-    \keywords{Economic Expectations,  Epidemiological Expectations,  Social interactions,  Social dynamics,  Information diffusion,  Economic Narratives}
-    \jelclass{D84, D91, E71, G41}
-    \maketitle
-    \hypertarget{abstract}{}
-    \begin{abstract}
-      \input{./abstract}
-    \end{abstract}
-    % \ifthenelse{\boolean{Web}}{
-    \vspace{0.5in}
-    \providecommand{\owner}{llorracc}
-    \renewcommand{\owner}{llorracc}
-    \newcommand{\REMARK}{\href{https://github.com/econ-ark/REMARK}{REMARK}}
-    \begin{small}
-      \parbox{0.9\textwidth}{
-        \begin{center}
-          \begin{tabbing}
-            \texttt{~~~\REMARK:~} \= \= \texttt{\url{https://econ-ark.org/materials/epiexp}} \\
-            \texttt{Dashboard:~} \> \> \texttt{\href{https://econ-ark.org/materials/epiexp?launch}{Click `Launch Dashboard' Button}} \\
-            \ifWeb{}{
-            \texttt{~~~~~html:~} \> \> \texttt{\href{https://\owner.github.io/EpiExp}{https://\owner.github.io/EpiExp/}}} \\ % Owner is defined in Resources/owner.tex
-            \texttt{~Book~PDF:~} \> \> \texttt{\href{https://github.com/\owner/EpiExp/blob/master/docs/EpiExp-Book.pdf}{EpiExp-Book.pdf}} \\
-            \texttt{~NBER~PDF:~} \> \> \texttt{\href{https://github.com/\owner/EpiExp/blob/master/docs/EpiExp-NBER.pdf}{EpiExp-NBER.pdf}} \\
-            \texttt{~~~Slides:~} \> \> \texttt{\href{https://github.com/\owner/EpiExp/blob/master/docs/EpiExp-Slides.pdf}{EpiExp-Slides.pdf}} \\
-            \texttt{~~~GitHub:~} \> \> \texttt{\href{https://github.com/\owner/EpiExp}{https://github.com/\owner/EpiExp}} \\
-          \end{tabbing}
-        \end{center}
-      }
-    \end{small}
-    % }
-
-    \begin{authorsinfo}
-      \name{Contact: \href{mailto:ccarroll@jhu.edu}{\texttt{ccarroll@jhu.edu}}, Department of Economics, 590 Wyman Hall, Johns Hopkins University, Baltimore, MD 21218, \url{https://www.econ2.jhu.edu/people/ccarroll}, and National Bureau of Economic Research; \href{mailto:twang80@jhu.edu}{\texttt{twang80@jhu.edu}}, Department of Economics, 590 Wyman Hall, Johns Hopkins University, Baltimore, MD 21218}
-    \end{authorsinfo}
-
-    \begin{center}
-      \begin{minipage}{0.9\textwidth}
-        {\footnotesize \thankstext \normalsize}
-      \end{minipage}
-    \end{center}
-    \ifthenelse{\boolean{Web}}{
-      \par\noindent\rule{\textwidth}{0.4pt}
-    }{}
-    \titlepagefinish
-    \ifthenelse{\boolean{Web}}{ % Web version puts this in frame
-      \renewcommand{\contentsname}{}
-%      \tableofcontents
-    }{}
-    \small
-    \renewcommand{\listtablename}{\normalsize Tables}
-    \renewcommand{\listfigurename}{\normalsize Figures}
-    \listoffigures
-
-    \medskip\medskip
-    \listoftables
-    \normalsize
-    \ifthenelse{\boolean{Web}}{
-      \par\noindent\rule{\textwidth}{0.4pt}
-    }{\pagebreak}
-    \ifthenelse{\boolean{Web}}{
-      \par\noindent\rule{\textwidth}{0.4pt}
-    }{}
-  }
-
-  \setcounter{page}{0}\pagenumbering{arabic}
-
-  \begin{verbatimwrite}{./Slides/QuoteArrow1969}
-    \begin{quote}\ifthenelse{\boolean{Slides}}{\footnotesize}{}
-      \textit{While mass media play a major role in alerting individuals to the possibility of an innovation, it seems to be personal contact that is most relevant in leading to its adoption. Thus, the diffusion of an innovation becomes a process formally akin to the spread of an infectious disease.}
-
-      \medskip
-      \indent -- \href{https://github.com/iworld1991/EpiExp/blob/master/Literature/arrow_classificatory_1969.pdf}{\cite{arrow_classificatory_1969}}
-    \end{quote}
-  \end{verbatimwrite}
-  \input{./Slides/QuoteArrow1969}
-
-  \begin{verbatimwrite}{./Slides/QuoteSimon1984}
-    \begin{quote}\ifthenelse{\boolean{Slides}}{\footnotesize}{}
-      \textit{A very natural next step for economics is to maintain expectations in	the strategic position they have come to occupy, but to build an empirically validated theory of how attention is in fact directed within a social system, and how expectations are, in fact, formed.}
-
-      % \source{
-      \medskip
-      \indent -- \href{https://econpapers.repec.org/RePEc:eee:jeborg:v:5:y:1984:i:1:p:35-55}{\cite{simon_behavioral_1984}}
-      % }
-    \end{quote}
-  \end{verbatimwrite}
-  \input{./Slides/QuoteSimon1984}
-
-  \begin{verbatimwrite}{./Slides/QuoteShiller2017}
-    \begin{quote}\ifthenelse{\boolean{Slides}}{\footnotesize}{}
-      \textit{If we want to know why an unusually large economic event happened, we need to list the seemingly unrelated narratives that all happened to be going viral at around the same time and affecting the economy in the same direction.}
-
-      % \source{
-      \medskip
-      \indent -- \href{https://www.amazon.com/dp/B07VZWLRM8/ref=cm_sw_em_r_mt_dp_BT5KE0VTHQX6DJ35FD9C}{\cite{shiller2017narrative}}
-      % }
-    \end{quote}
-  \end{verbatimwrite}
-  \input{./Slides/QuoteShiller2017}
-
-  \begin{verbatimwrite}{./Slides/QuoteInception2010}
-    \begin{quote}\ifthenelse{\boolean{Slides}}{\footnotesize}{}
-      \textit{An idea is like a virus. Resilient. Highly contagious. And even the smallest seed of an idea can grow.}   --Cobb
-
-      % \source{
-      \medskip \indent --
-      The movie \textit{Inception} [\citeyear{Inception2010}]
-      % } % Tao: Fix citation
-    \end{quote}
-  \end{verbatimwrite}
+  \makechaptertitle
+  \begin{keywords}[Keywords:]
+    Economic Expectations \sep Epidemiological Expectations \sep Social interactions \sep Social dynamics \sep Information diffusion \sep Economic Narratives
+  \end{keywords}
+  \begin{keywords}[JEL Codes:]
+    D84, D91, E71, G41,
+  \end{keywords}
+  \hypertarget{abstract}{}
+  \begin{abstract}[Abstract]
+    \input{./abstract.tex}
+  \end{abstract}
+  \pagebreak
   \input{./Slides/QuoteInception2010}
+%  \input{./authorsinfo}
+%  \input{./thanks}
+%  \titlepagefinish
+  \small
+  \renewcommand{\listtablename}{\normalsize Tables}
+  \renewcommand{\listfigurename}{\normalsize Figures}
+  \listoffigures
+  \medskip\medskip
+  \listoftables
+  \normalsize
 
-  \ifInBook{
-  \end{frontmatter}%
+  \input{./Slides/QuoteSimon1984}
+  \input{./Slides/QuoteShiller2017}
+  \input{./Slides/QuoteArrow1969}
+  \input{./Slides/QuoteInception2010}
+\end{frontmatter}%
+%  \input{./titlepage_book}
+}{
+\author{Christopher D. Carroll\authNum \\
+  \\
+  Tao Wang\authNum}
+
+\title{Epidemiological Expectations}
+\providecommand{\forcedate}{March 19, 2022}
+\keywords{Economic Expectations,  Epidemiological Expectations,  Social interactions,  Social dynamics,  Information diffusion,  Economic Narratives}
+\jelclass{D84, D91, E71, G41}
+\maketitle
+\hypertarget{abstract}{}
+\begin{abstract}
+  \input{./abstract}
+\end{abstract}
+
+\vspace{0.5in}
+\providecommand{\owner}{llorracc}
+\renewcommand{\owner}{llorracc}
+\newcommand{\REMARK}{\href{https://github.com/econ-ark/REMARK}{REMARK}}
+\begin{small}
+  \parbox{0.9\textwidth}{
+    \begin{center}
+      \begin{tabbing}
+        \texttt{~~~\REMARK:~} \= \= \texttt{\url{https://econ-ark.org/materials/epiexp}} \\
+        \texttt{Dashboard:~} \> \> \texttt{\href{https://econ-ark.org/materials/epiexp?launch}{Click `Launch Dashboard' Button}} \\
+        \texttt{~~~~~html:~} \> \> \texttt{\href{https://\owner.github.io/EpiExp}{https://\owner.github.io/EpiExp/}} \\ % Owner is defined in Resources/owner.tex
+        \texttt{~Book~PDF:~} \> \> \texttt{\href{https://github.com/\owner/EpiExp/blob/master/docs/EpiExp-Book.pdf}{EpiExp-Book.pdf}} \\
+        \texttt{~NBER~PDF:~} \> \> \texttt{\href{https://github.com/\owner/EpiExp/blob/master/docs/EpiExp-NBER.pdf}{EpiExp-NBER.pdf}} \\
+        \texttt{~~~Slides:~} \> \> \texttt{\href{https://github.com/\owner/EpiExp/blob/master/docs/EpiExp-Slides.pdf}{EpiExp-Slides.pdf}} \\
+        \texttt{~~~GitHub:~} \> \> \texttt{\href{https://github.com/\owner/EpiExp}{https://github.com/\owner/EpiExp}} \\
+      \end{tabbing}
+    \end{center}
+  }
+\end{small}
+\input{./authorsinfo}
+%\input{./thanks}
+\titlepagefinish
+
+\ifthenelse{\boolean{Web}}{ % Web version puts this in frame
+  \renewcommand{\contentsname}{}
+  % \tableofcontents
 }{}
+
+\small
+\renewcommand{\listtablename}{\normalsize Tables}
+\renewcommand{\listfigurename}{\normalsize Figures}
+{\hypersetup{linkcolor=violet}
+\listoffigures
+\medskip\medskip
+\listoftables
+}
+\hypersetup{linkcolor=blue}
+\normalsize
+\ifthenelse{\boolean{Web}}{
+  \par\noindent\rule{\textwidth}{0.4pt}
+}{\pagebreak}
+\ifthenelse{\boolean{Web}}{
+  \par\noindent\rule{\textwidth}{0.4pt}
+}{}
+
+\pagebreak
+\setcounter{page}{0}\pagenumbering{arabic}
+
+\input{./Slides/QuoteSimon1984}
+\input{./Slides/QuoteShiller2017}
+\input{./Slides/QuoteArrow1969}
+\input{./Slides/QuoteInception2010}
+  
+%  \input{./titlepage_nber}
+}
+
 
 \section{Introduction}
 \label{chap1:sec1}
@@ -299,9 +321,9 @@ This provides a satisfying explanation for a phenomenon first documented by \cit
 % The fact that epidemiological models can easily imply that subgroups can settle into permanently different points of view is inconvenient from a modeling perspective.
 If there were no evidence that differences of opinion could matter for important economic decisions, the case for epidemiological modeling would be weaker.  We therefore conclude this our `background and motivation' with some evidence of a recent clear failure of `identical beliefs' with consequences for measured choices in an area core to both micro and macro modeling: financial risk-taking.
 
-\ifPrivate{
+% \ifPrivate{
 \href{https://github.com/iworld1991/EpiExp/blob/master/Literature/meeuwis2018belief.pdf}{\cite{meeuwis2018belief}}
-}{\cite{meeuwis2018belief}}
+% }{\cite{meeuwis2018belief}}
 , using data on millions of retirement investors, show that after Donald Trump's surprise victory in the U.S.\ 2016 Presidential election, investors likely to be affiliated with Republican Party (inferred from  campaign donations at the zip code level) increased the equity share in their portfolio, while (likely) Democrats rebalanced into safe assets. (See~Figure~\ref{fig:parker}.)  These choices occurred at exactly the same time that consumer sentiment surveys showed that self-identified Republicans had suddenly become more optimistic, and Democrats more pessimistic, about the economy's prospects over the next few years.\footnote{The New York Fed \href{https://libertystreeteconomics.newyorkfed.org/2017/12/political-polarization-in-consumer-expectation'}{blog post} \textit{``Political Polarization in Consumer Expectations''} also finds partisan differences in consumer expectations.}\ifInBook{}{$^{,}$\footnote{Of course as is the case in many settings, the cause of changes in beliefs, here the election outcome, is also a potential cause of changes in objective economic circumstances.  The paper makes use of its rich data to provide strong evidence that differences in circumstances such as local economic conditions or hedging needs are not driving the results. In particular, investment behavior differs by political affiliation even among people living in the same county and working at the same firm, and after controlling for many other individual-level characteristics.}}
 
 
