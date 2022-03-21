@@ -45,7 +45,7 @@
   \begin{quote}\ifthenelse{\boolean{Slides}}{\footnotesize}{}
     \textit{A very natural next step for economics is to maintain expectations in	the strategic position they have come to occupy, but to build an empirically validated theory of how attention is in fact directed within a social system, and how expectations are, in fact, formed.}
     \medskip
-    \indent -- \href{https://econpapers.repec.org/RePEc:eee:jeborg:v:5:y:1984:i:1:p:35-55}{\cite{simon_behavioral_1984}}
+    \indent -- \ifPrivate{\href{https://econpapers.repec.org/RePEc:eee:jeborg:v:5:y:1984:i:1:p:35-55}{\cite{simon_behavioral_1984}}}{\cite{simon_behavioral_1984}}
   \end{quote}
 \end{verbatimwrite}
 
@@ -53,7 +53,7 @@
   \begin{quote}\ifthenelse{\boolean{Slides}}{\footnotesize}{}
     \textit{If we want to know why an unusually large economic event happened, we need to list the seemingly unrelated narratives that all happened to be going viral at around the same time and affecting the economy in the same direction.}
     \medskip
-    \indent -- \href{https://www.amazon.com/dp/B07VZWLRM8/ref=cm_sw_em_r_mt_dp_BT5KE0VTHQX6DJ35FD9C}{\cite{shiller2017narrative}}
+    \indent -- \ifPrivate{\href{https://www.amazon.com/dp/B07VZWLRM8/ref=cm_sw_em_r_mt_dp_BT5KE0VTHQX6DJ35FD9C}{\cite{shiller2017narrative}}}{\cite{shiller2017narrative}}
   \end{quote}
 \end{verbatimwrite}
 
@@ -63,7 +63,7 @@
     \textit{While mass media play a major role in alerting individuals to the possibility of an innovation, it seems to be personal contact that is most relevant in leading to its adoption. Thus, the diffusion of an innovation becomes a process formally akin to the spread of an infectious disease.}
 
     \medskip
-    \indent -- \href{https://github.com/iworld1991/EpiExp/blob/master/Literature/arrow_classificatory_1969.pdf}{\cite{arrow_classificatory_1969}}
+    \indent -- \ifPrivate{\href{https://github.com/iworld1991/EpiExp/blob/master/Literature/arrow_classificatory_1969.pdf}{\cite{arrow_classificatory_1969}}}{\cite{arrow_classificatory_1969}}
   \end{quote}
 \end{verbatimwrite}
 
@@ -238,7 +238,7 @@ We have identified three fields in economics -- technological diffusion (section
 \subsection{Expectational Heterogeneity}\label{EpiExpHet}
 In their introduction to the
 \begin{verbatimwrite}{./Slides/QuoteBrowningHansenHeckman1999}
-  \textit{Handbook of Microeconomics}, \href{http://larspeterhansen.org/wp-content/uploads/2016/11/Microdata-and-GE-Models.pdf}{Browning, Heckman, and Hansen [\citeyear{browning_chapter_1999}]} wrote that the most universal lesson of micro economics is that ``people are different in ways that importantly affect their economic behavior.''
+  \textit{Handbook of Microeconomics}, \ifPrivate{\href{http://larspeterhansen.org/wp-content/uploads/2016/11/Microdata-and-GE-Models.pdf}{Browning, Heckman, and Hansen [\citeyear{browning_chapter_1999}]}}{Browning, Heckman, and Hansen [\citeyear{browning_chapter_1999}]} wrote that the most universal lesson of micro economics is that ``people are different in ways that importantly affect their economic behavior.''
 \end{verbatimwrite}
 \input{./Slides/QuoteBrowningHansenHeckman1999}
 \begin{verbatimwrite}{./Slides/QuoteHandbookOfMacro}
@@ -321,9 +321,9 @@ This provides a satisfying explanation for a phenomenon first documented by \cit
 % The fact that epidemiological models can easily imply that subgroups can settle into permanently different points of view is inconvenient from a modeling perspective.
 If there were no evidence that differences of opinion could matter for important economic decisions, the case for epidemiological modeling would be weaker.  We therefore conclude this our `background and motivation' with some evidence of a recent clear failure of `identical beliefs' with consequences for measured choices in an area core to both micro and macro modeling: financial risk-taking.
 
-% \ifPrivate{
+\ifPrivate{
 \href{https://github.com/iworld1991/EpiExp/blob/master/Literature/meeuwis2018belief.pdf}{\cite{meeuwis2018belief}}
-% }{\cite{meeuwis2018belief}}
+}{\cite{meeuwis2018belief}}
 , using data on millions of retirement investors, show that after Donald Trump's surprise victory in the U.S.\ 2016 Presidential election, investors likely to be affiliated with Republican Party (inferred from  campaign donations at the zip code level) increased the equity share in their portfolio, while (likely) Democrats rebalanced into safe assets. (See~Figure~\ref{fig:parker}.)  These choices occurred at exactly the same time that consumer sentiment surveys showed that self-identified Republicans had suddenly become more optimistic, and Democrats more pessimistic, about the economy's prospects over the next few years.\footnote{The New York Fed \href{https://libertystreeteconomics.newyorkfed.org/2017/12/political-polarization-in-consumer-expectation'}{blog post} \textit{``Political Polarization in Consumer Expectations''} also finds partisan differences in consumer expectations.}\ifInBook{}{$^{,}$\footnote{Of course as is the case in many settings, the cause of changes in beliefs, here the election outcome, is also a potential cause of changes in objective economic circumstances.  The paper makes use of its rich data to provide strong evidence that differences in circumstances such as local economic conditions or hedging needs are not driving the results. In particular, investment behavior differs by political affiliation even among people living in the same county and working at the same firm, and after controlling for many other individual-level characteristics.}}
 
 
@@ -427,7 +427,7 @@ The SIR framework has rich and interesting implications, such as the potential f
 
 % so implications must be obtained numerically.  %using numerical computational procedures -- though with current computational technologies such computations for the original \cite{kermack_contribution_1927} model have negligible cost.
 
-Options proliferate from there.\footnote{For a general introduction to these model basics, we refer the reader to \href{https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology\#Transition_rates}{this Wikipedia page}.  Prominent examples include	 \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3710332/}{\cite{bailey1975mathematical}}, \href{https://www.amazon.com/Infectious-Diseases-Humans-Dynamics-Control/dp/019854040X}{\cite{anderson_infectious_1992}}, \href{https://epubs.siam.org/doi/abs/10.1137/S0036144500371907}{\cite{hethcote_mathematics_2000}}, \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6001967/}{\cite{brauer2017mathematical}}.}  A framework in which there are two possible outcomes of the infection, recovery or death, receives the acronym SIRD.  If the disease is one in which it is necessary to track the proportion who have been Exposed but are not yet (and may never become) infected, the result is an SEIR model -- and so on.
+Options proliferate from there.\footnote{For a general introduction to these model basics, we refer the reader to \href{https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology\#Transition_rates}{this Wikipedia page}.  Prominent examples include	 \ifPrivate{\href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3710332/}{\cite{bailey1975mathematical}}}{\cite{bailey1975mathematical}}, \ifPrivate{\href{https://www.amazon.com/Infectious-Diseases-Humans-Dynamics-Control/dp/019854040X}{\cite{anderson_infectious_1992}}}{\cite{anderson_infectious_1992}}, \ifPrivate{\href{https://epubs.siam.org/doi/abs/10.1137/S0036144500371907}{\cite{hethcote_mathematics_2000}}}{\cite{hethcote_mathematics_2000}}, \ifPrivate{\href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6001967/}{\cite{brauer2017mathematical}}}{\cite{brauer2017mathematical}}.}  A framework in which there are two possible outcomes of the infection, recovery or death, receives the acronym SIRD.  If the disease is one in which it is necessary to track the proportion who have been Exposed but are not yet (and may never become) infected, the result is an SEIR model -- and so on.
 
 % Some variants do not have additional states but allow additional transitions among the states already treated (presumably, except for state `D'). For instance, the SIS model allows the infected (I) to transit back to susceptible (S) if immunity to the disease declines after some time.
 
