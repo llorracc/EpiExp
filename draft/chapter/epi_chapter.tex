@@ -63,7 +63,6 @@
 \begin{verbatimwrite}{./Slides/QuoteArrow1969}
   \begin{quote}\ifthenelse{\boolean{Slides}}{\footnotesize}{}
     \textit{While mass media play a major role in alerting individuals to the possibility of an innovation, it seems to be personal contact that is most relevant in leading to its adoption. Thus, the diffusion of an innovation becomes a process formally akin to the spread of an infectious disease.}
-
     \medskip
     \indent -- \IfPrivate{\href{https://github.com/iworld1991/EpiExp/blob/master/Literature/arrow_classificatory_1969.pdf}{\cite{arrow_classificatory_1969}}}{\cite{arrow_classificatory_1969}}
   \end{quote}
@@ -115,21 +114,20 @@
     \input{./abstract.tex}
   \end{abstract}
   \pagebreak
-  \input{./Slides/QuoteInception2010}
 %  \input{./authorsinfo}
 %  \input{./thanks}
 %  \titlepagefinish
-  \small
-  \renewcommand{\listtablename}{\normalsize Tables}
-  \renewcommand{\listfigurename}{\normalsize Figures}
-  \listoffigures
-  \medskip\medskip
-  \listoftables
-  \normalsize
+%  \small
+  %\renewcommand{\listtablename}{\normalsize Tables}
+ % \renewcommand{\listfigurename}{\normalsize Figures}
+ % \listoffigures
+ % \medskip\medskip
+ % \listoftables
+ % \normalsize
 
+  \input{./Slides/QuoteArrow1969}
   \input{./Slides/QuoteSimon1984}
   \input{./Slides/QuoteShiller2017}
-  \input{./Slides/QuoteArrow1969}
   \input{./Slides/QuoteInception2010}
 \end{frontmatter}%
 %  \input{./titlepage_book}
@@ -237,9 +235,9 @@ We have identified three fields in economics -- technological diffusion (section
 \hypertarget{EpiExpHet}{}
 
 \subsection{Expectational Heterogeneity}\label{EpiExpHet}
-In their introduction to the
+In their introduction to the 
 \begin{verbatimwrite}{./Slides/QuoteBrowningHansenHeckman1999}
-  \textit{Handbook of Microeconomics}, %\IfPrivate{\href{http://larspeterhansen.org/wp-content/uploads/2016/11/Microdata-and-GE-Models.pdf}{Browning, Heckman, and Hansen [\citeyear{browning_chapter_1999}]}}{Browning, Heckman, and Hansen [\citeyear{browning_chapter_1999}]} wrote that the most universal lesson of micro economics is that ``people are different in ways that importantly affect their economic behavior.''
+  \textit{Handbook of Microeconomics}, \IfPrivate{\href{http://larspeterhansen.org/wp-content/uploads/2016/11/Microdata-and-GE-Models.pdf}{Browning, Heckman, and Hansen [\citeyear{browning_chapter_1999}]}}{Browning, Heckman, and Hansen [\citeyear{browning_chapter_1999}]} wrote that the most universal lesson of micro economics is that ``people are different in ways that importantly affect their economic behavior.''
 \end{verbatimwrite}
 \input{./Slides/QuoteBrowningHansenHeckman1999}
 \begin{verbatimwrite}{./Slides/QuoteHandbookOfMacro}
@@ -525,7 +523,7 @@ Figure~\ref{fig:graph_mixer} provides a citation map of papers in the literature
 
 \ifInBook{}{We have barely scratched the surface of the scholarly literature with interesting evidence about the ways in which social interactions shape population beliefs.  Even within economics, where the topic has received less attention than might be expected, there is so much material that we are confident that we have missed some content that should have been included, for which we hereby preemptively apologize to readers (and authors).}% and would encourage the authors of such work bring it to our attention.
 
-Ideas that we would term `epidemiological' have emerged independently in scholarly fields who (ironically) seem largely unaware of each others' existence.  Different terminology and methodological tools have developed for ideas that are close cousins; this likely has hindered the ability of participants in distant fields to recognize deep commonalities in their work.
+Ideas that we would term `epidemiological' have emerged independently in scholarly fields that (ironically) seem largely unaware of each others' existence.  Different terminology and methodological tools have developed for ideas that are close cousins; this likely has hindered the ability of participants in distant fields to recognize deep commonalities in their work.
 
 For example, the work on ``social learning'' in macroeconomics studies the propagation of competing forecasting rules via agent interactions in simulated populations.  If it were couched as being about the spread of beliefs in the efficacy of the rules, this work would have satisfied our criteria that it addressed a substantive economic question using a mechanism by which beliefs were transmitted by social interaction.  But authors in this literature often do not describe their models in explicitly epidemiological terms, nor do they typically propose testing their models by querying simulated agents about their expectations, and comparing simulated expectations data to actual expectations data.
 
@@ -542,10 +540,13 @@ One of our ambitions is for this survey to infect scholars with the idea that it
 \input{subparts/conclusion.tex}
 
 
+
+\section*{Reference}
 \addcontentsline{toc}{section}{References}
+
 \ifInBook{
   \bibliographystyle{apalike}
-  \pagebreak
+ % \pagebreak
   \bibliography{reference,handbook}
 }{
   \pagebreak\bibliography{reference,handbook}

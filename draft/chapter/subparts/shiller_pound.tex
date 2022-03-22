@@ -8,6 +8,19 @@ Here, we provide a specific example of an economic question formulated in a thor
  we examine a model almost identical to theirs.
 At date  $t$, a large population of investors measured by the real number $N$ is divided into three ``compartments.''  (See Figure \ref{fig:sir_diagram}).  $I_t$ investors are currently ``infected'' with interest in a certain stock;  $S_t$ investors are not infected but are ``susceptible'' to becoming interested; and $R_t$ measures investors who have been ``infected'' but have ``recovered'' from the infection.\footnote{For our purposes here, we do not need to define the exact consequences of `recovery.'  See below (or see the original paper) for further discussion.}
 
+
+\begin{verbatimwrite}{./Slides/FigureSIRFlowDiagram}%%%Slides
+	\begin{figure}[!ht] \centering  % [h!]
+		\caption{ ~A SIR model of stock investors}
+		\label{fig:sir_diagram}
+		\centerline{\includegraphics[width=\textwidth]{./figures/flow_diagram}}
+		\begin{flushleft}
+			{\footnotesize Note: This graph plots the transitions between different compartments in the SIR model of stock investors described in \cite{shiller1989survey}. }
+		\end{flushleft}
+	\end{figure}
+\end{verbatimwrite}%%%Slides
+\input{./Slides/FigureSIRFlowDiagram}
+
 Under `random mixing,' each person is expected to have contact with $\contactNum$ others, randomly selected from the entire population.  The only kind of contact with any consequence is between an infected and a susceptible person: Such an encounter has a probability $\tranProb$ of causing the susceptible person to become infected.
 
 Epidemiological models typically define a parameter $\beta$ that combines consequences of the rate of social contact $\contactNum$ and the rate of transmission upon  contact, $\tranProb$:\ifInBook{}{\footnote{In any SIR model embedding an explicitly defined connection network by which the ``disease'' spreads, $\beta$ is the product of the average number of connected nodes (``degree''), and the infection probability conditional on contact. For instance, in a random graph (\cite{erdos1960evolution})  with connection probability $p$ and the size of network N, the average contacts every agent has is $(N-1)p$. }}
@@ -53,17 +66,6 @@ The interesting cases emerge when the `basic reproduction ratio' $\Rzero = (\bet
 
 To illustrate the model's implications, we configure it with four combinations of parameter values taken from \cite{shiller1989survey}, characterizing two different kinds of investors and two categories of stocks.  %(Section~\ref{subsec:assetprice} describes the investors and stock categories, and interprets the economics; here we confine our observations to the epidemiology.)
 
-\begin{verbatimwrite}{./Slides/FigureSIRFlowDiagram}%%%Slides
-    \begin{figure}[!ht] \centering  % [h!]
-        \caption{ ~A SIR model of stock investors}
-        \label{fig:sir_diagram}
-        \centerline{\includegraphics[width=\textwidth]{./figures/flow_diagram}}
-        \begin{flushleft}
-            {\footnotesize Note: This graph plots the transitions between different compartments in the SIR model of stock investors described in \cite{shiller1989survey}. }
-        \end{flushleft}
-    \end{figure}
-\end{verbatimwrite}%%%Slides
-\input{./Slides/FigureSIRFlowDiagram}
 
 We calculate the quantitative implications using one of the best of the many computational toolkits for analyzing such models that have proliferated in recent years:  %\footnote{For the simulation of the SIR model we use the Python library \href{https://ndlib.readthedocs.io/en/latest/}{NDlib} (\cite{rossetti2018ndlib}), which builds upon another Python library called NetworkX (\cite{hagberg2008exploring}).}
 \href{https://ndlib.readthedocs.io/en/latest/}{NDlib} lets users specify an arbitrary network structure on which a disease might spread. We exploit the above-mentioned fact that a random-mixing SIR model can be approximated with an \textit{ex-ante} generated random graph when the transmission probability $\tau$ and the average number of connections $\chi$ in the graph are configured such that their product is equal to the calibrated infection rate $\beta$ (see Equation \ref{eq:beta}).\footnote{See the companion \href{https://github.com/llorracc/EpiExp/blob/master/SIR_Ndlib.ipynb}{Jupyter Notebook} of this paper for our  implementation.}
