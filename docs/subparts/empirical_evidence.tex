@@ -1,0 +1,109 @@
+\hypertarget{microEvidence}{}
+
+\subsection{Nonstructural Empirical Evidence}\label{subsec:microEvidence}
+
+
+% \subsubsection{Background}
+
+Above we cite efforts to construct and calibrate structural models of epidemiological models.  %But our definition of an epidemiological process as one in which social interactions affect people's beliefs and consequent economic behaviors means .
+Here, we touch upon literatures that collect evidence in ways not targeted to constructing structural models, but that may nevertheless be useful in guiding the construction of structural EE models.
+
+\begin{verbatimwrite}{./Slides/MicroEvidence}
+  \begin{enumerate}
+  \item When do socially transmitted beliefs influence important economic decisions?
+  \item What are characteristics of sources and recipients of expectational infection?
+  \item Through which channels are expectations mostly transmitted?
+  \item What kinds of information/expectations are more infectious?
+  \item How can \cite{manski1993identification}'s reflection problem be addressed?
+  \end{enumerate}
+\end{verbatimwrite}
+
+\ifInBook{}{Such work could help answer questions like
+  \begin{quote}
+    \normalfont
+    \input{./Slides/MicroEvidence}
+  \end{quote}
+
+  Among the reasons epidemiological modeling has been slow to spread,  surely one is that all of these questions is difficult to answer using traditional data sources.  But new data, particularly the social network data, offer rich opportunities for improving our ability to answer such questions.
+}
+
+\hypertarget{socialnetworks}{}
+\subsubsection{Directly Measured Social Networks}\label{subsubsec:socialnetworks}
+
+Direct data on social interactions have only very recently become available to researchers.  One of the first papers to use such data is \cite{allen2018social}, who use data from peer-to-peer (P2P) FinTech platforms to examine effects of social connections on consumer and small business loans.  They find that P2P loan demand in a given locale increases faster it has previously been growing in its socially connected locales, even when they are geographically distant.  \cite{cookson_why_2020} use data from a social media investing platform to examine sources of disagreement across investors who are in direct communication with each other.
+
+Several papers have used data from Facebook.  \IfPrivate{\href{https://www.journals.uchicago.edu/doi/abs/10.1086/700073}{\cite{bailey2018economic,bailey2019house}}}{\cite{bailey2018economic,bailey2019house}}, using data on individual users' social networks, show that people who happen randomly to have social-network friends in distant cities where home prices have increased are more optimistic about their local housing market, and more likely to buy, than people whose remote friends happen to live in places where house prices declined.\footnote{See \kpshousingexpectationFull, for a discussion of various drivers of housing price expectations.}
+
+\cite{bailey_social_2018} constructed an aggregated social-connectedness-index (SCI)  using the universe of Facebook users, which calculates the Facebook connections between any two zip codes in the U.S., as well as the connections of each zip with foreign countries.  There is already a burgeoning literature using these data (much of it outside of economics).  Among selected early results in economics, \cite{makridis2019effect} shows that a rise in a locality's sentiment caused by events in socially connected areas has a substantial effect on nondurables spending.  \cite{makridis2020learning} find that during the COVID-19 crisis, the severity of the decline in consumption in a county was partly explained by the severity of the epidemic in the places to which that county had especially dense social ties -- even when those places were geographically distant.
+\cite{ratnadiwakara2021flooded} shows that individuals who are socially connected to someone affected by Hurricane Harvey are more likely to purchase flood insurance policies after the event. %This effect is stronger in areas at higher risk of flooding. Being socially connected to someone affected by Hurricane Harvey also influences individuals' perceptions of global warming.
+
+% Word-of-mouth communications might be even particularly important in spreading the information in fraudulent contagion and speculative investment activities. For instance, \href{https://github.com/iworld1991/EpiExp/blob/master/Literature/rantala2019investment.pdf}{\cite{rantala2019investment}} provides direct evidence on diffusion of investment ideas among a large Ponzi scheme. \href{https://files.fisher.osu.edu/department-finance/public/information_networks_evidence_from_illegal_insider_trading_tips.pdf}{\cite{ahern2017information}}shed light on the information flow of illegal insider trading among strong social ties.
+
+\hypertarget{proxies}{}
+\subsubsection{Papers Using Proxies for Social Connections}\label{subsubsec:proxies}
+
+In the absence (until very recently) of direct evidence about the nature and frequency of social contacts between people, economists have naturally used proxies.    \href{http://www.columbia.edu/~hh2679/ThyNeighborJF.pdf}{\cite{hong2005thy}} found that fund managers tend to buy similar stocks to other fund managers in the same city. \IfPrivate{\href{https://github.com/iworld1991/EpiExp/blob/master/Literature/hvide2015social.pdf}{\cite{hvide2015social}}}{\cite{hvide2015social}} found that a person's stock market investment decisions are positively correlated with those of coworkers.  \IfPrivate{\href{https://www.jstor.org/stable/10.1086/592415}{\cite{cohen2008small}}}{\cite{cohen2008small}} show that fund managers place larger bets (that perform better) on firms to whose employees they are socially connected.  Social interaction also affects stock market participation and stock choices (\IfPrivate{\href{https://github.com/iworld1991/EpiExp/blob/master/Literature/hong2004social.pdf}{\cite{hong2004social}}}{\cite{hong2004social}}; \IfPrivate{\href{https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1540-6261.2008.01364.x}{\cite{brown2008neighbors}}}{\cite{brown2008neighbors}};  \IfPrivate{\href{https://github.com/iworld1991/EpiExp/blob/master/Literature/ivkovic2007information.pdf}{\cite{ivkovic2007information}}}{\cite{ivkovic2007information}}). % hong2004social:  more social households more likely to invest in the stock market using data from HRS;  brown2008neighbors:  one more likely owns stocks in higher ownership communities, instrumenting the community ownership by nonnative residents' ownership.
+In the context of housing market investment, one paper that explicitly emphasizes the transmission of information or beliefs by social contacts, and specifically suggests epidemiological mechanisms as a way to model the channels of transmission, is
+\IfPrivate{\href{https://www.aeaweb.org/articles?id=10.1257/aer.20171611&from=f}{\cite{bayer2021speculative}}}{\cite{bayer2021speculative}}, which shows that novice investors were more likely to enter the market (in speculative ways) after seeing that their immediate neighbors had invested.
+
+
+% A small literature provides direct evidence for social dynamics during bank run episodes, as we described in section~\ref{subsec:Contagion}.  \href{https://www.aeaweb.org/articles?id=10.1257/aer.102.4.1414}{\cite{iyer2012understanding}} study the dynamics of an actual bank run using high-frequency data on deposit withdrawals among persons connected in a social network.   \href{https://www.aeaweb.org/articles?id=10.1257/aer.90.5.1110}{\cite{kelly2000market}} showed that depositors who learned bad news about a bank from acquaintances were the first to close their accounts.
+
+Finally, there is a large literature finding `peer effects' on people's financial choices; a natural interpretation is that in many cases such effects likely reflect epidemiological transmission of beliefs.  But much of this literature has been content to document the existence of such correlations while remaining mute on the mechanism.  (See \cite{kuchler2021social} for a comprehensive survey).
+
+
+% frm \cite{galesic2018asking}:  Abstract: Abstract Election outcomes can be difficult to predict. A recent example is the 2016 US presidential election, in which Hillary Clinton lost five states that had been predicted to go for her, and with them the White House. Most election polls ask people about their own voting intentions: whether they will vote and, if so, for which candidate. We show that, compared with own-intention questions, social-circle questions that ask participants about the voting intentions of their social contacts improved predictions of voting in the 2016 US and 2017 French presidential elections. Responses to social-circle questions predicted election outcomes on national, state and individual levels, helped to explain last-minute changes in people’s voting intentions and provided information about the dynamics of echo chambers among supporters of different candidates.
+
+\hypertarget{publicmedia}{}
+\subsubsection{Public Media}
+
+News media are not the only `broadcast' (one-to-many) way in which ideas are transmitted.  We use the term `Public Media' to encompass all such sources (e.g., websites;  podcasts;  books; ...) whose natural interpretation is as a `common source' of infection.
+
+\textbf{\textit{Finance.}}  Rather than attempting to summarize the diffuse literature on the relationship between public media and financial markets, we refer the reader to ``The Role of Media in Finance'' by~\cite{TETLOCK2015701}.  Here we highlight just a few contributions that are particularly noteworthy for our purposes. %\href{http://faculty.haas.berkeley.edu/odean/papers\%20current\%20versions/allthatglitters_rfs_2008.pdf}{\cite{tetlock_giving_2007}} attempted to systematically conduct `sentiment analysis' of news coverage and shows that what he characterizes as `non-fundamental' sentiment from financial news drives trading volumes of the relevant stocks.
+
+\IfPrivate{\href{https://www.researchgate.net/publication/227465410_Journalists_and_the_Stock_Market}{\cite{dougal2012journalists}}}{\cite{dougal2012journalists}} attempt to measure the impact of the opinions of individual \textit{Wall Street Journal} columnists on market outcomes; this is a particularly clear example of a result with a straightforward interpretation using a `common source' epidemiological model. % \href{https://www.public.asu.edu/~dsosyura/ResearchPapers/Rumor\%20Has\%20It\%20--\%20Sensationalism\%20in\%20Financial\%20Media.pdf}{\cite{ahern2015rumor}} found that younger and more inexperienced journalists tended to write more sensational and ambiguous news reports about corporate mergers, so that the youth and inexperience of the journalist had predictive power for the market impact of merger stories. %\href{http://faculty.haas.berkeley.edu/odean/papers\%20current\%20versions/allthatglitters_rfs_2008.pdf}{\cite{barber_all_2008}} found that individual investors are more likely to buy stocks that are ``in the news'' or that have had extreme recent one-day returns.
+\IfPrivate{\href{https://www.stern.nyu.edu/sites/default/files/assets/documents/con_040497.pdf}{\cite{soo_quantifying_2015}}}{\cite{soo_quantifying_2015}} used news sources to construct an index of ``animal spirits'' in the housing market and argued that this index had predictive power for housing prices.  \cite{choi2022popular} proposes that systematic deviations of household financial choices from the normative advice offered by optimizing models may reflect decisionmakers' infection with ideas common in personal finance books.% (He surveys 50 such books and finds a host of systematic deviations of their advice from the recommendations made by standard rational optimizing models.)
+
+\textbf{\textit{Macroeconomics}}. A substantial literature (mostly outside of economics, cf.~\cite{soroka2015s}; ~\cite{damstra2021economy}) characterizes the nature of news coverage of macroeconomic developments (see  \cite{bybee2020structure} for recent work by economists), but the slow-moving nature of macroeconomic outcomes makes it difficult to distinctly identify consequences of the nature of the coverage from the consequences of the economic events themselves.  \cite{nimark2014man} is nevertheless able to show that particularly surprising events seem to have identifiable macroeconomic consequences out of proportion to what might be judged to be their appropriate impact.\footnote{See also \cite{chahrour2021sectoral} provide evidence that coverage about newsworthy events that affect particular sectors but are unrepresentative of broader developments can affect broader hiring decisions.}
+
+An indirect approach is to attempt to measure the effect of news coverage on consumer sentiment, and then to rely upon a separate literature that has found that consumer sentiment has predictive power for economic outcomes (\cite{ludvigson2004consumer}, \cite{cfwSentiment}).  One example is a clever paper by \cite{doms2004consumer} who show that consumer sentiment is driven by news coverage by finding episodes where other news events have crowded out economic news.\footnote{For further evidence that news coverage is a key source of people's views, see \cite{lamla2012role}, though see~\cite{pfajfar2013news} for a skeptical view.}
+
+
+% TW to CDC: \cite{angeletos2013sentiments} could be cited here? it is realted to sentiment. But the paper is theoretical not just about news.
+
+\ifInBook{}{
+  New ways of pursuing these kinds of ideas may be feasible using data like Google Trends search queries, which~\cite{choi2012predicting} have shown can predict sentiment data well and can serve as a real-time measure of the degree of internet users' interest in economic topics.}
+
+Perhaps the most notable recent work relating media to macroeconomics has been that of \cite{baker2016measuring}, who use news sources to construct an index of ``economic policy uncertainty'' and find that it has predictive power for macroeconomic outcomes beyond what can be extracted from the usual indicators.  \ifInBook{T}{The extent to which an epidemiological mechanism is necessary to make sense of this finding is unclear; the authors' interpretation seems to be mainly that they are measuring a fundamental fact about the world (the policymaking process inherently and unavoidably generates uncertainty).
+
+  But t}he uncertainty the authors measure might be affected by the structure of interactions in the media ecosystem; the extensive literature on ``fake news'' (see~\cite{allcott2017social} discussed elsewhere) and the incentives faced by suppliers of commentary would surely admit the possibility that uncertainty might be introduced or amplified by epidemiological mechanisms \ifInBook{.}{, in which case analysis of those mechanisms might yield some insight into whether changes in the epidemiological landscape (say, the rise of Fox News) have consequences for economic outcomes by changing the degree or dynamics of economic policy uncertainty.}  One way to test for the epidemiological alternative might be consider alternative scenarios for the policies that might be manifested as competing `narratives' about how policymakers will behave; the uncertainty would then be about which narrative would turn out to be correct.\footnote{See \cite{eliaz2020model} for a model of such mechanisms.}
+
+That leads us to our next topic.
+
+% :  housing media sentiment has significant predictive power for future house prices.
+
+\hypertarget{narrativeApproach}{}
+\subsubsection{Epidemiology and `Narrative Economics'}\label{narrativeApproach}
+
+Robert Shiller has repeatedly speculated that the driving force in aggregate fluctuations, both for asset markets and for macroeconomies, is the varying prevalence of alternative `narratives' that people believe capture the key `story' of how the economy is working (his earliest statement of this view seems to be \IfPrivate{\href{https://www.jstor.org/stable/2117915}{\cite{shiller1995conversation}}}{\cite{shiller1995conversation}}).
+
+After presenting a popular case for the idea in~\cite{akerlof2010animal}, he has recently returned to the theme; our opening quote from him makes it clear that he thinks narratives spread by ``going viral.''  See Shiller [\citeyear{shiller2017narrative,shiller_narrative_2019}] for extended treatments.
+
+There are formidable obstacles to turning Shiller's plausible idea into a quantitative modeling tool.  One is the difficulty of identifying the alternative narratives competing at any time, and reliably measuring their prevalence.
+\IfPrivate{\href{https://github.com/iworld1991/EpiExp/blob/master/Literature/shiller2020popular.pdf}{\cite{shiller2020popular}}}{\cite{shiller2020popular}} made an initial effort at this.  By combing historical news archives and internet search records, he identified six economic narratives that have circulated since 2009, which he labeled as ``Great Depression,'' ``secular stagnation,'' ``sustainability,'' ``housing bubble,'' ``strong economy,'' and ``save more.''  (See also  \cite{ash2021text} and the references therein.)
+
+\cite{larsen2019business} take up the challenge of quantifying media narratives, deriving virality indexes, and conducting Granger causality tests to determine the extent to which viral narratives can predict or explain economic outcomes\ifInBook{.}{, in the U.S., Japan, and Europe.}  The authors find episodes in which their methodology identifies `narratives' that have `gone viral,' with measured economic consequences.  %This is early work, but the authors identify apparent connections between the intensity and valence of discussion of some topics and subsequent economic outcomes.
+
+% More to the definitional point, the process of identifying narratives does not in itself constitute the construction of an epidemiological model.  The narrative is more like the virus itself; a ``full-fledged'' model of epidemiological narrative economics would need to incorporate specifics of transmission channels -- as in the earlier work by \cite{shiller1989survey}.
+
+% \subsubsection{Takeaways}
+% The work we have just summarized has some common implications for epidemiological modeling despite the (usual) absence of explicit epidemiological interpretations; this literature defines `horizontal' transmission .  First, ideas differ in their infectiousness depending on many factors including their source and their context.  This suggests that modelers will need to find ways to systematically characterize how such features endogenously affect transmission dynamics.  Second, the structure of social networks -- who you interact with, how frequently, with what intensity -- can affect the process of transmission and potentially the equilibrium outcome.  If Democrats and Republicans do not assort randomly with each other in their social connections or do not accord equal weight to opinions of persons of the opposite party, it is not hard to see how persistent belief differences arise between the two groups, as shown in our Figure~\ref{fig:parker} above showing divergent portfolio choices after the 2016 election.
+
+\hypertarget{animals}{}
+\subsubsection{Social Communication in Animals} \label{subsubsec:animals}
+
+A large literature~(\cite{whiten2021burgeoning}) documents many examples of the social transmission of behaviors and `ideas' in populations of animals, and argues that the epidemiological mechanisms by which novel ideas spread are similar to those in human populations~(\cite{whiten2016cultural}).  Results from this literature could be useful because animal populations are easier to experiment on.  For example, in one such experiment, \cite{kendal2015chimpanzees} find that ideas are more likely to spread from dominant chimpanzees to subordinate ones than vice-versa.
+
+Recent work in cognitive science~(\cite{kendal2018social}) argues that biological mechanisms of ``social learning'' are common across species and between humans and animals~(\cite{carcea2019biological}).   Again, laboratory experiments to uncover the role of potential neurological mechanisms of transmission (e.g., ``mirror neurons'') may be more feasible in animals than in humans.
+
+Results from these literatures have the potential to shape economists' perceptions of the most plausible mechanisms of social transmission of ideas among humans.
