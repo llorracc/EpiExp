@@ -1,9 +1,11 @@
 % epi_cha -*- mode: LaTeX; TeX-PDF-mode: t; -*-
 \input{./econtexRoot} % Set paths for root and various resources
 \documentclass[book,numbers]{elsbook-P04}
+
+% Booleans to determine whether private or public version, for book or working paper
 \usepackage{ifthen}\provideboolean{inBook}\setboolean{inBook}{true}\provideboolean{Web}\setboolean{Web}{false}\provideboolean{Private}\setboolean{Private}{true}
 % \setboolean{inBook}{false}
-\setboolean{Private}{false}
+% \setboolean{Private}{false}
 \providecommand{\IfPrivate}{\ifthenelse{\boolean{Private}}}
 
 \providecommand{\texname}{EpiExp}% Keyname for the paper
@@ -25,23 +27,17 @@
 
 \ifInBook{
   \usepackage{hyperref}
-  \hypersetup{
-    colorlinks,
-    citecolor=violet,
-    linkcolor=red,
-    urlcolor=blue}
 }{ % Not in book => in working paper
   \usepackage[econtex]{optional}
   \usepackage{footmisc,datetime2,refcount,hhline,rotating,subfig,makecell,subfloat}
   \usepackage{\econtexSetup} % Gets, configures often-used packages
-  \hypersetup{
-    colorlinks,
-    citecolor=violet,
-    linkcolor=red,
-    urlcolor=blue}
   \bibliographystyle{\econtexBibStyle} % Custom author (year) bib style
-  \setcitestyle{authoryear}
 }
+\hypersetup{
+  colorlinks,
+  citecolor=violet,
+  linkcolor=red,
+  urlcolor=blue}
 
 \begin{document}
 
