@@ -1,0 +1,19 @@
+  \begin{table}[ht]
+    \centering
+    \caption{ ~Common Source \Susceptible\Infected~Model}\label{table:SIDyn} \medskip
+    \begin{tabular}{ccc}
+      \hline
+      Date $t$ & Susceptible$_t$ & Infected$_t$ \\
+      \hline
+      0 & $1$  &  $0$ \\
+      \hline
+      1 & $(1-p)\phantom{^2}$ & $1-(1-p)\phantom{^2}$ \\
+      \hline
+      2 & $(1-p)^{2}$ & $1-(1-p)^{2}$ \\
+      \hline
+      $\vdots$ & $\vdots$ & $\vdots$ \\
+      \hline
+      $n$ & $(1-p)^{n}$ & $1-(1-p)^{n}$ \\
+      \hline
+    \end{tabular}
+  \end{table}
