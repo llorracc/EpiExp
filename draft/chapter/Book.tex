@@ -3,7 +3,12 @@
 \documentclass[book,numbers]{elsbook-P04}
 
 % Booleans to determine whether private or public version, for book or working paper
-\usepackage{ifthen}\provideboolean{inBook}\setboolean{inBook}{true}\provideboolean{Web}\setboolean{Web}{false}\provideboolean{Private}\setboolean{Private}{true}
+\usepackage{ifthen}
+
+\provideboolean{inBook}\setboolean{inBook}{true}
+\provideboolean{Web}\setboolean{Web}{false}
+\provideboolean{Private}\setboolean{Private}{true}
+
 % \setboolean{inBook}{false}
 % \setboolean{Private}{false}
 \providecommand{\IfPrivate}{\ifthenelse{\boolean{Private}}}

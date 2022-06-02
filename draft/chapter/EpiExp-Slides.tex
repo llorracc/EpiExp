@@ -1,14 +1,21 @@
+
+
 \input{./econtexRoot}
 
 \documentclass[pdflatex]{beamer}
-\providecommand{\texname}{EpiExp-Slides}% Indicate the keyname for the bibtex entry corresponding to this document
+\providecommand{\texname}{EpiExp}% Indicate the keyname for the bibtex entry corresponding to this document
 \providecommand{\texnameMaster}{reference}% Indicate the keyname for the bibtex entry corresponding to this document
 \newif\ifdvi\dvifalse
 
-\usepackage{ifthen}
 
+\usepackage{\LaTeXInputs/\texname}% Custom styles for paper
 
+\usepackage{ifthen,dcolumn}
+\provideboolean{Private}\setboolean{Private}{false}
+\providecommand{\IfPrivate}{\ifthenelse{\boolean{Private}}}
+\usepackage[econtex]{optional}
 \usepackage{\econtexShortcuts}
+\usepackage{\econtexSetup} 
 \usepackage{natbib,amsmath,amssymb,rotating,subfigure}
 \usepackage{verbatim,moreverb,graphicx}
 \usepackage{hyperref}
