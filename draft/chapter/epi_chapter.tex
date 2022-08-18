@@ -24,7 +24,7 @@
 }
 
 \begin{verbatimwrite}{./thankstext}
-  \newcommand{\thankstext}{Thanks to the participants in the \textit{Handbook of Economic Expectations} Conference for insightful comments, and the editors for comments that substantially improved the paper.  Thanks also to Sebastian Benthall, Francesco Bianchi, Jennifer Manning, and Adrian Monninger for feedback on earlier drafts, and special thanks to Mridul Seth for help in using the \texttt{\href{https://ndlib.readthedocs.io}{NDLib}} and \texttt{\href{https://networkx.org/}{NetworkX}} python libraries to produce our \href{https://econ-ark.org/materials/epiexp?launch}{SIR Model Notebook}.}
+  \newcommand{\thankstext}{Thanks to the participants in the \textit{Handbook of Economic Expectations} Conference for insightful comments, and the editors for comments that substantially improved the paper.  Thanks also to Sebastian Benthall, Francesco Bianchi, Jennifer Manning, and Adrian Monninger for feedback on earlier drafts, Charles Manski, Matthew Jackson, Robert Shiller, David,Hirshleifer, Cars Hommes, Leif Anders Thorsrud, Byoung-Hyoun Hwang, Cris Moore for further comments, and special thanks to Mridul Seth for help in using the \texttt{\href{https://ndlib.readthedocs.io}{NDLib}} and \texttt{\href{https://networkx.org/}{NetworkX}} python libraries to produce our \href{https://econ-ark.org/materials/epiexp?launch}{SIR Model Notebook}.}
 \end{verbatimwrite}
 \begin{verbatimwrite}{./thanks}
   \begin{center}
@@ -247,17 +247,11 @@ In their introduction to the
 \end{verbatimwrite}
 Since then, a great deal of the progress in macro economics has come from incorporating microeconomic heterogeneity ``in ways that importantly affect'' macroeconomic behavior.  (See ``Macroeconomics and Heterogeneity'' in the latest \textit{Handbook of Macroeconomics}, \cite{kmpHandbook}).  \ifInBook{}{In particular, Heterogeneous Agent  (`HA-Macro') models that match the distributions of income and wealth have now provided rigorous microfoundations for Keynesian macroeconomics by capturing measured heterogeneity in (and a large average value for) the marginal propensity to consume -- see \cite{violante_marginal_2021}'s Laffont lecture.}
 
-% \subsubsection{Expectational Heterogeneity Is Rarely Modeled}\label{Expectational-heterogeneity-is-rarely-modeled}\hypertarget{expectational-heterogeneityIsRarelyModeled}
 
 But few models in the HA-Macro literature have allowed for differences in agents' expectations about variables like stock returns (where everyone's realized outcome will be identical) -- though disagreements on such subjects are rife and people make choices that correspond to their expressed beliefs (\cite{gmsuBeliefs}).\footnote{One example is \cite{Velasquez2022}, who shows that household portfolio choice models yield much more reasonable results when the model is calibrated with survey respondents' self-reported stock market expectations than when calibrated with beliefs like the empirical history of stock returns.}
 
 
-
-Partly, the failure to incorporate expectational heterogeneity reflects the fact that until recently there was not widespread awareness among macroeconomists that measurable expectation differences have power to explain observable microeconomic behavior.  Evidence of the recent change in attitudes can be seen in the published discussions in the 2017 \textit{NBER Macroeconomics Annual} of~\cite{manski2017survey}'s paper surveying the literature on the measurement of expectations (in which Manski himself has been the leading figure\ifInBook{}{, and until recently something of a lone voice crying in the wilderness}).  The commissioning of this \emph{Handbook}, and the proliferation of new research summarized herein, are among the many other indications of a sea-change in the profession's attitudes.% the creation of the \emph{Survey of Consumer Expectations} by the Federal Reserve Bank of New York in 2014 (and several similar surveys or pilots in Canada, Europe, and elsewhere  --- see {\bdkhouseholdFull} for a list), and the fact that expectational questions have begun to be added to  surveys like the ones used for calibrating HA-Macro models.  %The HRS, for example, collects expectations about stock returns, and~\cite{mv77PortfolioNonPuzzle} shows both that HRS respondents are systematically pessimistic (relative to economists's views) and that the more pessimistic a respondent is, the less likely they are to invest.
-
-
-
-% But EE modeling approaches may be particularly appealing now as a result of the emergence of new \emph{kinds} of data.  In particular, for the first time ever, it is now becoming possible to directly observe economic expectations spreading over social networks -- as in the papers we describe below by~\cite{bailey2018economic, bailey2019house}.
+Partly, the failure to incorporate expectational heterogeneity reflects the fact that until recently there was not widespread awareness among macroeconomists that measurable expectation differences have power to explain observable microeconomic behavior.  Evidence of the recent change in attitudes can be seen in the published discussions in the 2017 \textit{NBER Macroeconomics Annual} of~\cite{manski2017survey}'s paper surveying the literature on the measurement of expectations (in which Manski himself has been the leading figure\ifInBook{}{, and until recently something of a lone voice crying in the wilderness}).  The commissioning of this \emph{Handbook}, and the proliferation of new research summarized herein, are among the many other indications of a sea-change in the profession's attitudes. 
 
 
 
@@ -279,7 +273,7 @@ Partly, the failure to incorporate expectational heterogeneity reflects the fact
 
 }
 
-%COMMENTs by Cars: Concerning my own related contribution there are perhaps 2 more relevant papers. One is the Brock and Hommes (Econometrica, 1997) contribution which pioneered heterogeneous expectations in economics. The BH model has more of a survival of the fittest selection of expectations, but relates of course to your epidemiological expectations.
+
 \hypertarget{epiNet}{}
 \subsection{Epidemiological Models}\label{subsec:epiNet}
 % \subsubsection{Consequences of Social Transmission}\label{subsubsec:Consequences-of-Social-Transmission}\hypertarget{ConsequencesOfSocialTransmission}{}
@@ -364,7 +358,7 @@ We will say that ideas, beliefs, `narratives,' or other mental states that affec
   But t}ransmission need not be person-to-person; it can reflect exposure to a ``common source.''  (Cosmic radiation to which everyone is exposed can cause diseases like cancer).  % People living in caves would be less susceptible; those on mountaintops, more.
 In the context of beliefs, a natural interpretation of such a ``common source'' is news media (a point to which we return below). 
 
-%COMMENTS by David: But media endogenous  
+
 
 \begin{comment}
   Having clarified this boundary, epidemiological models that are relevant for us vary in a few fundamental ways:
@@ -536,8 +530,6 @@ Nor does this work take much notice of Shiller's longstanding view that economic
 \ifInBook{}{
   Reciprocally, it does not seem that scholars interested in the ``narrative approach'' have embraced ``social learning in macroeconomics'' literature -- maybe because papers in that literature usually do not describe the decisions the agents make as being a consequence of the ``narratives'' they have adopted to understand the world.
 }
-
-\cite{brock1997rational} describe their model in which agents choose from a population of forecasting rules as capturing the biological (and epidemiological) term `survival of the fittest.'  
 
 One of our ambitions is for this survey to infect scholars with the idea that it is useful to describe their models in a common language drawn as much as possible from the familiar domains of epidemiological modeling and network theory:  Infectiousness, susceptibility, transmissibility, exposure, immunity, mixing, homophily, reproduction rates, degree distributions, clustering, mutation, and so on (in place of miscellaneous other words that in practice are synonymous with the epidemiological term).
 
