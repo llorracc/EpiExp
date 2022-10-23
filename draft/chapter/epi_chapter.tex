@@ -87,7 +87,7 @@
   \input{./thankstext}
 %  \input{./authorsinfo}
 
-  \chapter[Chapter Title]{Epidemiological \\ Expectations\footnote{\thankstext}}\label{chap1}
+  \chapter[Chapter Title]{Epidemiological \\ Expectations\footnote{\thankstext}w}\label{chap1}
 
   % \authormark{First Author, Second Author and Third Author}
 
@@ -172,7 +172,12 @@
 \ifthenelse{\boolean{Web}}{ % Web version puts this in frame
   \renewcommand{\contentsname}{}
   % \tableofcontents
-}{}
+}{
+  \begin{minipage}{0.9\textwidth}
+    \thankstext
+  \end{minipage}
+
+}
 
 \small
 \renewcommand{\listtablename}{\normalsize Tables}
