@@ -7,3 +7,4 @@ bokeh
 networkx
 numpy
 econ-ark
+pdfminer.six
