@@ -1,0 +1,16 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy=1.21.1
+  - voila=0.2.10
+  - matplotlib=3.4.2
+  - jupyter=1.0.0
+  - ipywidgets=7.6.3
+  - bokeh==1.*
+  - econ-ark==0.14.1
+  - pip
+  - pip:
+    - ndlib
+    - pdfminer.six
